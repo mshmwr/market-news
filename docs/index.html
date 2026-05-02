@@ -24,6 +24,22 @@
       border: 1.5px solid #ccc; background: #fff; cursor: pointer;
       color: #555; white-space: nowrap;
     }
+    #refresh-btn {
+      font-size: 12px; padding: 4px 8px; border-radius: 14px;
+      border: 1.5px solid #ccc; background: #fff; cursor: pointer;
+      color: #555; white-space: nowrap;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #refresh-btn.loading { pointer-events: none; opacity: .6; }
+    #refresh-btn.loading span { display: inline-block; animation: spin .7s linear infinite; }
+
+    #toast {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      background: #333; color: #fff; font-size: 13px; padding: 10px 18px;
+      border-radius: 20px; opacity: 0; transition: opacity .3s;
+      pointer-events: none; z-index: 100; white-space: nowrap;
+    }
+    #toast.show { opacity: 1; }
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .filter-btn {
       padding: 6px 14px; border-radius: 20px; border: 1.5px solid #ccc;
@@ -66,6 +82,7 @@
     <div class="header-top">
       <h1>每日市場新聞</h1>
       <div style="display:flex;gap:8px;align-items:center">
+        <button id="refresh-btn" title="重新整理"><span>🔄</span></button>
         <button id="translate-btn">🌐 翻譯</button>
         <span id="updated"></span>
       </div>
@@ -83,16 +100,26 @@
     <div id="status">載入中…</div>
     <div id="news-list" class="news-list" hidden></div>
   </main>
+  <div id="toast"></div>
 
   <script>
     const CATEGORIES = ['台股', '美股', '加密貨幣', '宏觀'];
     const selected = new Set(CATEGORIES);
     let allArticles = [];
+    let latestTs = 0;
 
-    const buttons  = document.querySelectorAll('.filter-btn');
-    const listEl   = document.getElementById('news-list');
-    const statusEl = document.getElementById('status');
-    const updatedEl = document.getElementById('updated');
+    const buttons    = document.querySelectorAll('.filter-btn');
+    const listEl     = document.getElementById('news-list');
+    const statusEl   = document.getElementById('status');
+    const updatedEl  = document.getElementById('updated');
+    const refreshBtn = document.getElementById('refresh-btn');
+    const toastEl    = document.getElementById('toast');
+
+    function showToast(msg) {
+      toastEl.textContent = msg;
+      toastEl.classList.add('show');
+      setTimeout(() => toastEl.classList.remove('show'), 3000);
+    }
 
     buttons.forEach(btn => btn.addEventListener('click', () => {
       const cat = btn.dataset.cat;
@@ -145,20 +172,38 @@
       statusEl.hidden = true;
     }
 
-    fetch('news.json')
-      .then(r => r.json())
-      .then(data => {
-        allArticles = data;
-        if (data.length > 0) {
-          const latest = new Date(data[0].published_ts * 1000);
-          updatedEl.textContent = `更新於 ${latest.toLocaleString('zh-TW')}`;
-        }
-        statusEl.hidden = true;
-        render();
-      })
-      .catch(() => {
-        statusEl.textContent = '載入失敗';
-      });
+    function loadNews(isRefresh) {
+      if (isRefresh) refreshBtn.classList.add('loading');
+      const url = 'news.json' + (isRefresh ? '?t=' + Date.now() : '');
+      fetch(url)
+        .then(r => r.json())
+        .then(data => {
+          const newTs = data.length > 0 ? data[0].published_ts : 0;
+          if (isRefresh && newTs <= latestTs) {
+            showToast('目前沒有更新的新聞');
+          } else {
+            allArticles = data;
+            latestTs = newTs;
+            if (newTs > 0) {
+              updatedEl.textContent = `更新於 ${new Date(newTs * 1000).toLocaleString('zh-TW')}`;
+            }
+            if (isRefresh) showToast('已取得最新新聞');
+            statusEl.hidden = true;
+            render();
+          }
+        })
+        .catch(() => {
+          if (isRefresh) showToast('重新整理失敗');
+          else statusEl.textContent = '載入失敗';
+        })
+        .finally(() => {
+          if (isRefresh) refreshBtn.classList.remove('loading');
+        });
+    }
+
+    loadNews(false);
+
+    refreshBtn.addEventListener('click', () => loadNews(true));
 
     const translateBtn = document.getElementById('translate-btn');
     if (location.hostname.endsWith('.translate.goog')) {
