@@ -4,7 +4,7 @@
   "description": "台股、美股、加密貨幣、宏觀新聞聚合",
   "start_url": "/market-news/",
   "scope": "/market-news/",
-  "display": "standalone",
+  "display": "minimal-ui",
   "background_color": "#f5f5f7",
   "theme_color": "#1d1d1f",
   "lang": "zh-TW",
