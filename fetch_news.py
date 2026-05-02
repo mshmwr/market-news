@@ -1,7 +1,7 @@
 """Fetch RSS feeds and output news.json to stdout."""
 
+import calendar
 import json
-import time
 
 import feedparser
 
@@ -24,7 +24,7 @@ def fetch_all() -> list[dict]:
             feed = feedparser.parse(feed_info["url"])
             for entry in feed.entries[:30]:
                 published_ts = (
-                    time.mktime(entry.published_parsed)
+                    calendar.timegm(entry.published_parsed)
                     if getattr(entry, "published_parsed", None)
                     else 0
                 )
