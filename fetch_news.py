@@ -6,10 +6,14 @@ import time
 import feedparser
 
 FEEDS = [
-    {"url": "https://money.udn.com/rssfeed/news/1001/5591",          "source": "經濟日報",  "category": "台股"},
-    {"url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "source": "CNBC",      "category": "美股"},
-    {"url": "https://www.coindesk.com/arc/outboundfeeds/rss",        "source": "CoinDesk",  "category": "加密貨幣"},
-    {"url": "https://www.aljazeera.com/xml/rss/all.xml",             "source": "Al Jazeera","category": "宏觀"},
+    {"url": "https://money.udn.com/rssfeed/news/1001/5591",                "source": "經濟日報",    "category": "台股"},
+    {"url": "https://feeds.feedburner.com/ettoday/finance",                "source": "ETtoday財經", "category": "台股"},
+    {"url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",       "source": "CNBC",        "category": "美股"},
+    {"url": "https://feeds.marketwatch.com/marketwatch/topstories",        "source": "MarketWatch", "category": "美股"},
+    {"url": "https://www.coindesk.com/arc/outboundfeeds/rss",              "source": "CoinDesk",    "category": "加密貨幣"},
+    {"url": "https://cointelegraph.com/rss",                               "source": "CoinTelegraph","category": "加密貨幣"},
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml",                   "source": "Al Jazeera",  "category": "宏觀"},
+    {"url": "https://feeds.bbci.co.uk/news/world/rss.xml",                 "source": "BBC World",   "category": "宏觀"},
 ]
 
 
