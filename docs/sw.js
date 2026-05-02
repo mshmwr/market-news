@@ -1,8 +1,6 @@
-const CACHE = 'market-news-v5';
-const STATIC = ['/market-news/', '/market-news/index.html'];
+const CACHE = 'market-news-v1';
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(STATIC)));
   self.skipWaiting();
 });
 
@@ -17,23 +15,26 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
+  const isIcon = url.pathname.match(/\.(png|ico)$/);
 
-  // news.json: network-first (always want fresh data)
-  if (url.pathname.endsWith('news.json')) {
+  if (isIcon) {
+    // icons: cache-first (rarely change)
     e.respondWith(
-      fetch(e.request)
-        .then(r => {
-          const clone = r.clone();
-          caches.open(CACHE).then(c => c.put(e.request, clone));
-          return r;
-        })
-        .catch(() => caches.match(e.request))
+      caches.match(e.request).then(r => r || fetch(e.request).then(res => {
+        caches.open(CACHE).then(c => c.put(e.request, res.clone()));
+        return res;
+      }))
     );
     return;
   }
 
-  // everything else: cache-first
+  // HTML + JSON: network-first (always get latest, offline fallback)
   e.respondWith(
-    caches.match(e.request).then(r => r || fetch(e.request))
+    fetch(e.request)
+      .then(r => {
+        caches.open(CACHE).then(c => c.put(e.request, r.clone()));
+        return r;
+      })
+      .catch(() => caches.match(e.request))
   );
 });
