@@ -75,6 +75,31 @@
     .badge-宏觀     { background: #f3e5f5; color: #6a1b9a; }
 
     .news-time { font-size: 12px; color: #999; margin-left: auto; white-space: nowrap; }
+
+    #pat-modal {
+      position: fixed; inset: 0; background: rgba(0,0,0,.45);
+      display: flex; align-items: center; justify-content: center; z-index: 200;
+    }
+    #pat-modal.hidden { display: none; }
+    #pat-card {
+      background: #fff; border-radius: 16px; padding: 24px;
+      max-width: 360px; width: 90%; display: flex; flex-direction: column; gap: 12px;
+    }
+    #pat-card h2 { font-size: 15px; font-weight: 600; }
+    #pat-card p { font-size: 12px; color: #666; line-height: 1.6; }
+    #pat-card p a { color: #0071e3; }
+    #pat-input {
+      width: 100%; padding: 8px 12px; border-radius: 8px;
+      border: 1.5px solid #ccc; font-size: 13px; font-family: monospace;
+      outline: none;
+    }
+    #pat-input:focus { border-color: #0071e3; }
+    #pat-card .btn-row { display: flex; gap: 8px; justify-content: flex-end; }
+    #pat-card .btn {
+      padding: 6px 16px; border-radius: 8px; font-size: 13px;
+      cursor: pointer; border: 1.5px solid #ccc; background: #fff;
+    }
+    #pat-card .btn-primary { background: #1d1d1f; color: #fff; border-color: transparent; }
   </style>
 </head>
 <body>
@@ -102,6 +127,22 @@
   </main>
   <div id="toast"></div>
 
+  <div id="pat-modal" class="hidden">
+    <div id="pat-card">
+      <h2>設定 GitHub Token</h2>
+      <p>
+        前往 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>，
+        建立一個 token，Repository 選 <code>mshmwr/market-news</code>，
+        Permissions 給 <strong>Actions: Read and write</strong>，然後貼到下方。
+      </p>
+      <input id="pat-input" type="password" placeholder="github_pat_…">
+      <div class="btn-row">
+        <button class="btn" id="pat-cancel">取消</button>
+        <button class="btn btn-primary" id="pat-confirm">確認</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const CATEGORIES = ['台股', '美股', '加密貨幣', '宏觀'];
     const selected = new Set(CATEGORIES);
@@ -112,8 +153,12 @@
     const listEl     = document.getElementById('news-list');
     const statusEl   = document.getElementById('status');
     const updatedEl  = document.getElementById('updated');
-    const refreshBtn = document.getElementById('refresh-btn');
-    const toastEl    = document.getElementById('toast');
+    const refreshBtn  = document.getElementById('refresh-btn');
+    const toastEl     = document.getElementById('toast');
+    const patModal    = document.getElementById('pat-modal');
+    const patInput    = document.getElementById('pat-input');
+    const patConfirm  = document.getElementById('pat-confirm');
+    const patCancel   = document.getElementById('pat-cancel');
 
     function showToast(msg) {
       toastEl.textContent = msg;
@@ -172,38 +217,108 @@
       statusEl.hidden = true;
     }
 
-    function loadNews(isRefresh) {
-      if (isRefresh) refreshBtn.classList.add('loading');
-      const url = 'news.json' + (isRefresh ? '?t=' + Date.now() : '');
-      fetch(url)
+    function loadNews() {
+      fetch('news.json')
         .then(r => r.json())
         .then(data => {
-          const newTs = data.length > 0 ? data[0].published_ts : 0;
-          if (isRefresh && newTs <= latestTs) {
-            showToast('目前沒有更新的新聞');
-          } else {
-            allArticles = data;
-            latestTs = newTs;
-            if (newTs > 0) {
-              updatedEl.textContent = `更新於 ${new Date(newTs * 1000).toLocaleString('zh-TW')}`;
-            }
-            if (isRefresh) showToast('已取得最新新聞');
-            statusEl.hidden = true;
-            render();
+          allArticles = data;
+          latestTs = data.length > 0 ? data[0].published_ts : 0;
+          if (latestTs > 0) {
+            updatedEl.textContent = `更新於 ${new Date(latestTs * 1000).toLocaleString('zh-TW')}`;
           }
+          statusEl.hidden = true;
+          render();
         })
-        .catch(() => {
-          if (isRefresh) showToast('重新整理失敗');
-          else statusEl.textContent = '載入失敗';
-        })
-        .finally(() => {
-          if (isRefresh) refreshBtn.classList.remove('loading');
-        });
+        .catch(() => { statusEl.textContent = '載入失敗'; });
     }
 
-    loadNews(false);
+    loadNews();
 
-    refreshBtn.addEventListener('click', () => loadNews(true));
+    const WORKFLOW_FILE = 'update-news.yml';
+    const REPO = 'mshmwr/market-news';
+
+    function startPolling() {
+      const INTERVAL = 10000;
+      const TIMEOUT  = 300000;
+      let elapsed = 0;
+      const timer = setInterval(() => {
+        elapsed += INTERVAL;
+        fetch('news.json?t=' + Date.now())
+          .then(r => r.json())
+          .then(data => {
+            const newTs = data.length > 0 ? data[0].published_ts : 0;
+            if (newTs > latestTs) {
+              clearInterval(timer);
+              refreshBtn.classList.remove('loading');
+              allArticles = data;
+              latestTs = newTs;
+              updatedEl.textContent = `更新於 ${new Date(newTs * 1000).toLocaleString('zh-TW')}`;
+              render();
+              showToast('已取得最新新聞');
+            } else if (elapsed >= TIMEOUT) {
+              clearInterval(timer);
+              refreshBtn.classList.remove('loading');
+              showToast('暫無新資料，請稍後再試');
+            }
+          })
+          .catch(() => {});
+      }, INTERVAL);
+    }
+
+    function triggerAndPoll(pat) {
+      refreshBtn.classList.add('loading');
+      fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${pat}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      })
+      .then(r => {
+        if (r.status === 401 || r.status === 403) {
+          localStorage.removeItem('gh_pat');
+          refreshBtn.classList.remove('loading');
+          showToast('Token 無效，請重新設定');
+          return;
+        }
+        startPolling();
+      })
+      .catch(() => {
+        refreshBtn.classList.remove('loading');
+        showToast('觸發失敗，請稍後再試');
+      });
+    }
+
+    function showPatModal(onConfirm) {
+      patInput.value = '';
+      patModal.classList.remove('hidden');
+      patInput.focus();
+      function cleanup() {
+        patModal.classList.add('hidden');
+        patConfirm.removeEventListener('click', onOk);
+        patCancel.removeEventListener('click', onCancel);
+      }
+      function onOk() {
+        const val = patInput.value.trim();
+        if (!val) return;
+        localStorage.setItem('gh_pat', val);
+        cleanup();
+        onConfirm(val);
+      }
+      function onCancel() { cleanup(); }
+      patConfirm.addEventListener('click', onOk);
+      patCancel.addEventListener('click', onCancel);
+    }
+
+    refreshBtn.addEventListener('click', () => {
+      const age = latestTs > 0 ? Date.now() / 1000 - latestTs : Infinity;
+      if (age <= 3600) { showToast('已是最新'); return; }
+      const pat = localStorage.getItem('gh_pat');
+      if (!pat) { showPatModal(triggerAndPoll); return; }
+      triggerAndPoll(pat);
+    });
 
     const translateBtn = document.getElementById('translate-btn');
     if (location.hostname.endsWith('.translate.goog')) {
