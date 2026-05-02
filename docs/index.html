@@ -19,6 +19,12 @@
     .header-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
     header h1 { font-size: 18px; font-weight: 600; }
     #updated { font-size: 12px; color: #999; }
+    #translate-btn {
+      font-size: 12px; padding: 4px 10px; border-radius: 14px;
+      border: 1.5px solid #ccc; background: #fff; cursor: pointer;
+      color: #555; white-space: nowrap;
+    }
+    #translate-btn:hover { border-color: #888; color: #1d1d1f; }
 
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .filter-btn {
@@ -61,7 +67,10 @@
   <header>
     <div class="header-top">
       <h1>每日市場新聞</h1>
-      <span id="updated"></span>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button id="translate-btn">🌐 翻譯</button>
+        <span id="updated"></span>
+      </div>
     </div>
     <div class="filters">
       <button class="filter-btn active" data-cat="全部">全部</button>
@@ -152,6 +161,11 @@
       .catch(() => {
         statusEl.textContent = '載入失敗';
       });
+
+    document.getElementById('translate-btn').addEventListener('click', () => {
+      const url = 'https://translate.google.com/translate?sl=auto&tl=zh-TW&u=' + encodeURIComponent(location.href);
+      window.open(url, '_blank');
+    });
 
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js');
