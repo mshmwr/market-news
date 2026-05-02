@@ -160,11 +160,14 @@
         statusEl.textContent = '載入失敗';
       });
 
-    document.getElementById('translate-btn').addEventListener('click', function() {
-      const url = 'https://translate.google.com/translate?sl=auto&tl=zh-TW&u=' + encodeURIComponent(location.href);
-      window.open(url, '_blank');
-      this.style.display = 'none';
-    });
+    const translateBtn = document.getElementById('translate-btn');
+    if (location.hostname.endsWith('.translate.goog')) {
+      translateBtn.style.display = 'none';
+    } else {
+      translateBtn.addEventListener('click', () => {
+        window.open('https://mshmwr-github-io.translate.goog/market-news/?_x_tr_sl=auto&_x_tr_tl=zh-TW&_x_tr_hl=zh-TW', '_blank');
+      });
+    }
 
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js');

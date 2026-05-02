@@ -1,4 +1,4 @@
-const CACHE = 'market-news-v4';
+const CACHE = 'market-news-v5';
 const STATIC = ['/market-news/', '/market-news/index.html'];
 
 self.addEventListener('install', e => {
