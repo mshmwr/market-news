@@ -47,3 +47,4 @@ class SignalResult(BaseModel):
     rationale: str
     ticker: str
     sources: list[dict] = []
+    social_posts: list[dict] = []
