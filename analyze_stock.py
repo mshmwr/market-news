@@ -30,14 +30,24 @@ def analyze_ticker(ticker: str) -> SignalResult:
 
 
 def _write_signals_json(path: str, results: list[SignalResult]) -> None:
-    """Write signals to a JSON file with envelope {generated_at, signals}."""
+    """Merge new results into existing signals.json, replacing matching tickers."""
+    existing: dict[str, dict] = {}
+    try:
+        with open(path, encoding="utf-8") as fh:
+            existing = {s["ticker"]: s for s in json.load(fh).get("signals", [])}
+    except (FileNotFoundError, KeyError, json.JSONDecodeError):
+        pass
+
+    for r in results:
+        existing[r.ticker] = r.model_dump()
+
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "signals": [r.model_dump() for r in results],
+        "signals": list(existing.values()),
     }
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
-    print(f"[signals] Written {len(results)} signal(s) to {path}")
+    print(f"[signals] Written {len(existing)} signal(s) to {path} ({len(results)} updated)")
 
 
 def main(tickers: list[str], output_json: str | None = None) -> int:

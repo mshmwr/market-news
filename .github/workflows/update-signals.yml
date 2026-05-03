@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 6 * * *'   # 06:00 UTC daily
   workflow_dispatch:
+    inputs:
+      tickers:
+        description: 'Space-separated tickers to update (leave blank for all)'
+        required: false
+        default: 'NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX'
 
 concurrency:
   group: signals-push
@@ -28,9 +33,8 @@ jobs:
 
       - name: Run signal analysis
         run: |
-          python analyze_stock.py \
-            --output-json docs/signals.json \
-            NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX "^GSPC" "^VIX"
+          TICKERS="${{ github.event.inputs.tickers || 'NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX' }}"
+          python analyze_stock.py --output-json docs/signals.json $TICKERS
 
       - name: Commit if changed
         run: |
