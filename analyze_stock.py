@@ -1,3 +1,6 @@
+import argparse
+import datetime
+import json
 import sys
 from dotenv import load_dotenv
 
@@ -26,7 +29,19 @@ def analyze_ticker(ticker: str) -> SignalResult:
     return synthesize(ticker, bundle)
 
 
-def main(tickers: list[str]) -> int:
+def _write_signals_json(path: str, results: list[SignalResult]) -> None:
+    """Write signals to a JSON file with envelope {generated_at, signals}."""
+    payload = {
+        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "signals": [r.model_dump() for r in results],
+    }
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, indent=2)
+    print(f"[signals] Written {len(results)} signal(s) to {path}")
+
+
+def main(tickers: list[str], output_json: str | None = None) -> int:
+    successful_results: list[SignalResult] = []
     failed: list[str] = []
     for ticker in tickers:
         print(f"\n{'=' * 40}")
@@ -36,16 +51,21 @@ def main(tickers: list[str]) -> int:
             result = analyze_ticker(ticker)
             notify_console(result)
             notify_telegram(result)
+            successful_results.append(result)
         except Exception as exc:
             print(f"ERROR [{ticker}]: {exc}")
             failed.append(ticker)
+
+    if output_json is not None and successful_results:
+        _write_signals_json(output_json, successful_results)
 
     return 1 if len(failed) == len(tickers) else 0
 
 
 if __name__ == "__main__":
-    tickers = sys.argv[1:]
-    if not tickers:
-        print("Usage: python3 analyze_stock.py <TICKER> [<TICKER> ...]", file=sys.stderr)
-        sys.exit(1)
-    sys.exit(main(tickers))
+    parser = argparse.ArgumentParser(description="Analyze stock tickers and output signals.")
+    parser.add_argument("tickers", nargs="+", metavar="TICKER")
+    parser.add_argument("--output-json", metavar="PATH", default=None,
+                        help="Write signals.json to this path")
+    args = parser.parse_args()
+    sys.exit(main(args.tickers, output_json=args.output_json))
