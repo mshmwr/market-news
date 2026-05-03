@@ -276,10 +276,12 @@
     function formatTime(ts) {
       if (!ts) return '';
       const diff = Math.floor(Date.now() / 1000 - ts);
+      const d = new Date(ts * 1000);
+      const datePart = d.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' });
       if (diff < 60)    return '剛剛';
-      if (diff < 3600)  return `${Math.floor(diff / 60)} 分鐘前`;
-      if (diff < 86400) return `${Math.floor(diff / 3600)} 小時前`;
-      return new Date(ts * 1000).toLocaleDateString(undefined, { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      if (diff < 3600)  return `${Math.floor(diff / 60)} 分鐘前 · ${datePart}`;
+      if (diff < 86400) return `${Math.floor(diff / 3600)} 小時前 · ${datePart}`;
+      return d.toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
     }
 
     function render() {
