@@ -18,8 +18,10 @@ Daily market news aggregator + stock signal analyzer CLI.
 
 ## Ticket ID Convention
 
-Prefix: `MN-` (market-news)
-Next ID: `MN-002`
+| Prefix | Scope | Next ID |
+|--------|-------|---------|
+| `MN-` | CLI + infra improvements (fetch_news, analyze_stock, workflows) | `MN-003` |
+| `SP-` | StockPulse web app product features (backend, frontend, auth, paywall) | `SP-002` |
 
 ## Behavior Triggers
 
