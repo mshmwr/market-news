@@ -53,7 +53,12 @@ def synthesize(
 
     try:
         data = json.loads(raw)
-        return SignalResult(ticker=ticker, **data)
+        sources = [
+            {"title": a.get("title", ""), "url": a.get("link", "")}
+            for a in bundle.news.articles
+            if a.get("link")
+        ]
+        return SignalResult(ticker=ticker, sources=sources, **data)
     except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
         raise ValueError(
             f"synthesize: malformed Gemini response for {ticker!r}: {exc!r} | raw={raw!r}"
