@@ -169,6 +169,11 @@
     }
     .signal-sources a:hover { text-decoration: underline; }
     .signal-source-date { font-size: 10px; color: #999; white-space: nowrap; flex-shrink: 0; }
+    .signal-basis-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+    .signal-basis-tag {
+      font-size: 10px; padding: 2px 7px; border-radius: 10px;
+      background: #f0f0f0; color: #555;
+    }
   </style>
 </head>
 <body>
@@ -382,6 +387,17 @@
 
       const sourcesEl = document.createElement('div');
       sourcesEl.className = 'signal-sources';
+      {
+        const basisEl = document.createElement('div');
+        basisEl.className = 'signal-basis-tags';
+        [['📊', '技術指標'], ['📈', '基本面'], ['💬', '社群']].forEach(([icon, label]) => {
+          const tag = document.createElement('span');
+          tag.className = 'signal-basis-tag';
+          tag.textContent = icon + ' ' + label;
+          basisEl.appendChild(tag);
+        });
+        sourcesEl.appendChild(basisEl);
+      }
       if (s.sources && s.sources.length > 0) {
         const titleEl = document.createElement('div');
         titleEl.className = 'signal-sources-title';
