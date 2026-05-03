@@ -38,7 +38,7 @@ def synthesize(
 
     response = client.chat.completions.create(
         model="gemini-2.5-flash",
-        max_tokens=512,
+        max_tokens=8192,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_message},

@@ -2,6 +2,7 @@ import argparse
 import datetime
 import json
 import sys
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -43,7 +44,9 @@ def _write_signals_json(path: str, results: list[SignalResult]) -> None:
 def main(tickers: list[str], output_json: str | None = None) -> int:
     successful_results: list[SignalResult] = []
     failed: list[str] = []
-    for ticker in tickers:
+    for i, ticker in enumerate(tickers):
+        if i > 0:
+            time.sleep(13)  # Gemini free tier: 5 req/min
         print(f"\n{'=' * 40}")
         print(f"=== {ticker} ===")
         print(f"{'=' * 40}")
