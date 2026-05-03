@@ -2,13 +2,13 @@ name: Update Signals
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 06:00 UTC+8 (Taiwan) daily
+    - cron: '0 20 * * *'   # 04:00 UTC+8 (Taiwan) daily
   workflow_dispatch:
     inputs:
       tickers:
         description: 'Space-separated tickers (leave blank for all)'
         required: false
-        default: 'NVDA TSLA AAPL GOOGL MSFT AMZN TSM AMD ASML INTC META BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX 2308.TW 2454.TW'
+        default: 'NVDA TSLA LWLG SNDK LITE PLTR MU IBB ONDS CRWD AAPL GOOGL MSFT AMZN TSM AMD ASML INTC META BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX 2308.TW 2454.TW'
       bundle_date:
         description: 'Load cached bundles from this date (YYYY-MM-DD). Leave blank to fetch fresh data.'
         required: false
@@ -37,7 +37,7 @@ jobs:
 
       - name: Run signal analysis
         run: |
-          TICKERS="${{ github.event.inputs.tickers || 'NVDA TSLA AAPL GOOGL MSFT AMZN TSM AMD ASML INTC META BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX 2308.TW 2454.TW' }}"
+          TICKERS="${{ github.event.inputs.tickers || 'NVDA TSLA LWLG SNDK LITE PLTR MU IBB ONDS CRWD AAPL GOOGL MSFT AMZN TSM AMD ASML INTC META BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX 2308.TW 2454.TW' }}"
           BUNDLE_DATE="${{ github.event.inputs.bundle_date }}"
           TODAY=$(date -u +%Y-%m-%d)
           if [ -n "$BUNDLE_DATE" ]; then
