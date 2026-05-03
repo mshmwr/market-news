@@ -48,3 +48,5 @@ class SignalResult(BaseModel):
     ticker: str
     sources: list[dict] = []
     social_posts: list[dict] = []
+    technical_data: dict | None = None
+    fundamentals_data: dict | None = None

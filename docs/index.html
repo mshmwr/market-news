@@ -174,8 +174,10 @@
     }
     .signal-sources a:hover { text-decoration: underline; }
     .signal-source-date { font-size: 10px; color: #999; white-space: nowrap; flex-shrink: 0; }
-    .signal-basis-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
-    .signal-basis-tag {
+    .signal-data-section { margin-bottom: 6px; }
+    .signal-data-label { font-size: 10px; font-weight: 600; color: #999; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 3px; }
+    .signal-data-values { display: flex; flex-wrap: wrap; gap: 4px; }
+    .signal-data-item {
       font-size: 10px; padding: 2px 7px; border-radius: 10px;
       background: #f0f0f0; color: #555;
     }
@@ -412,15 +414,43 @@
       {
         const basisEl = document.createElement('div');
         basisEl.className = 'signal-basis-tags';
+        const fmt = (v, digits=1) => v != null ? (+v).toFixed(digits) : 'N/A';
+        const fmtPct = v => v != null ? (v * 100).toFixed(1) + '%' : 'N/A';
+        const t = s.technical_data || {};
+        const f = s.fundamentals_data || {};
         [
-          ['📊', 'RSI · MACD · MA50 · 成交量'],
-          ['📈', '本益比 · 收益成長 · 利潤率 · 負債比'],
-          ['💬', '社群討論'],
-        ].forEach(([icon, label]) => {
-          const tag = document.createElement('span');
-          tag.className = 'signal-basis-tag';
-          tag.textContent = icon + ' ' + label;
-          basisEl.appendChild(tag);
+          ['📊 技術指標', [
+            'RSI: ' + fmt(t.rsi),
+            'MACD: ' + fmt(t.macd_line, 2),
+            'MA50: ' + fmt(t.ma50, 2),
+            '成交量比: ' + fmt(t.volume_ratio, 2) + 'x',
+          ]],
+          ['📈 基本面', [
+            '本益比: ' + fmt(f.pe_ratio),
+            '收益成長: ' + fmtPct(f.revenue_growth),
+            '利潤率: ' + fmtPct(f.profit_margin),
+            '負債比: ' + fmt(f.debt_to_equity),
+          ]],
+          ['💬 社群討論', []],
+        ].forEach(([label, items]) => {
+          const sec = document.createElement('div');
+          sec.className = 'signal-data-section';
+          const lbl = document.createElement('div');
+          lbl.className = 'signal-data-label';
+          lbl.textContent = label;
+          sec.appendChild(lbl);
+          if (items.length > 0) {
+            const vals = document.createElement('div');
+            vals.className = 'signal-data-values';
+            items.forEach(text => {
+              const chip = document.createElement('span');
+              chip.className = 'signal-data-item';
+              chip.textContent = text;
+              vals.appendChild(chip);
+            });
+            sec.appendChild(vals);
+          }
+          basisEl.appendChild(sec);
         });
         sourcesEl.appendChild(basisEl);
       }
