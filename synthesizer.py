@@ -54,7 +54,7 @@ def synthesize(
     try:
         data = json.loads(raw)
         sources = [
-            {"title": a.get("title", ""), "url": a.get("link", "")}
+            {"title": a.get("title", ""), "url": a.get("link", ""), "published_ts": a.get("published_ts")}
             for a in bundle.news.articles
             if a.get("link")
         ]
