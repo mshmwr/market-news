@@ -137,3 +137,10 @@ frontend/                # Scaffold React + Vite (replaces docs/index.html PWA)
 
 **BQ-SP001-03:** Authentication provider — Supabase Auth (built-in) or separate (Auth0)?
 → Ruling: Supabase Auth — already using Supabase for DB; one less service to configure.
+
+## Deferred Features
+
+**DF-SP001-01: User-provided Gemini API key**
+- Phase 3 User Settings page: authenticated user can enter their own `GEMINI_API_KEY`
+- Backend stores key (encrypted) per user; signal generation uses that key instead of server-side env var
+- Rationale: lets each user bring their own quota; avoids single shared key bottleneck at scale
