@@ -32,7 +32,7 @@ def analyze_ticker(ticker: str) -> SignalResult:
 def _write_signals_json(path: str, results: list[SignalResult]) -> None:
     """Write signals to a JSON file with envelope {generated_at, signals}."""
     payload = {
-        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "signals": [r.model_dump() for r in results],
     }
     with open(path, "w", encoding="utf-8") as fh:
