@@ -1,0 +1,42 @@
+name: Update Signals
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:
+
+concurrency:
+  group: signals-push
+  cancel-in-progress: false   # queue, do not cancel an in-progress run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run signal analysis
+        run: |
+          python analyze_stock.py \
+            --output-json docs/signals.json \
+            NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX "^GSPC" "^VIX"
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/signals.json
+          git diff --staged --quiet || git commit -m "chore: update signals $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase
+          git push

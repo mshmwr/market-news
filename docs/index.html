@@ -84,6 +84,98 @@
 
     .news-time { font-size: 12px; color: #999; margin-left: auto; white-space: nowrap; }
 
+    /* --- Signals section --- */
+    #signals-section {
+      margin-bottom: 24px;
+    }
+    .signals-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .signals-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1d1d1f;
+    }
+    #signals-updated {
+      font-size: 12px;
+      color: #999;
+    }
+    #signals-placeholder {
+      font-size: 14px;
+      color: #888;
+      padding: 16px 0;
+    }
+    .signals-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 10px;
+    }
+
+    /* Signal cards */
+    .signal-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 12px 14px;
+      border-left: 4px solid transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 0;                     /* prevent grid blowout */
+    }
+    .signal-BUY  { border-left-color: #2e7d32; }  /* green */
+    .signal-HOLD { border-left-color: #f9a825; }  /* yellow */
+    .signal-SELL { border-left-color: #c62828; }  /* red   */
+
+    .signal-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+    .signal-ticker {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1d1d1f;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .signal-badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .signal-BUY  .signal-badge { background: #e8f5e9; color: #2e7d32; }
+    .signal-HOLD .signal-badge { background: #fff8e1; color: #f9a825; }
+    .signal-SELL .signal-badge { background: #ffebee; color: #c62828; }
+
+    .signal-confidence {
+      font-size: 12px;
+      color: #555;
+    }
+    .signal-rationale {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.5;
+      /* CSS line-clamp (AC-MN002-HTML-06) */
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Mobile: single column below 400px */
+    @media (max-width: 400px) {
+      .signals-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -106,6 +198,14 @@
   </header>
 
   <main>
+    <section id="signals-section">
+      <div class="signals-header">
+        <h2 class="signals-title">股票訊號</h2>
+        <span id="signals-updated"></span>
+      </div>
+      <div id="signals-list" class="signals-grid" hidden></div>
+      <div id="signals-placeholder" hidden>訊號暫未生成</div>
+    </section>
     <div id="status">載入中…</div>
     <div id="news-list" class="news-list" hidden></div>
   </main>
@@ -123,6 +223,9 @@
     const updatedEl  = document.getElementById('updated');
     const refreshBtn  = document.getElementById('refresh-btn');
     const toastEl     = document.getElementById('toast');
+    const signalsListEl        = document.getElementById('signals-list');
+    const signalsUpdatedEl     = document.getElementById('signals-updated');
+    const signalsPlaceholderEl = document.getElementById('signals-placeholder');
 
     function showToast(msg) {
       toastEl.textContent = msg;
@@ -197,6 +300,64 @@
     }
 
     loadNews();
+    loadSignals();
+
+    function loadSignals() {
+      fetch('signals.json')
+        .then(r => {
+          if (!r.ok) throw new Error('404');
+          return r.json();
+        })
+        .then(data => {
+          if (data.generated_at) {
+            const d = new Date(data.generated_at);
+            signalsUpdatedEl.textContent = '訊號更新於 ' + d.toLocaleString('zh-TW', {
+              year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit'
+            });
+          }
+          data.signals.forEach(s => {
+            const card = buildSignalCard(s);
+            signalsListEl.appendChild(card);
+          });
+          signalsListEl.hidden = false;
+        })
+        .catch(() => {
+          signalsPlaceholderEl.hidden = false;
+        });
+    }
+
+    function buildSignalCard(s) {
+      const card = document.createElement('div');
+      card.className = 'signal-card signal-' + (s.signal || 'HOLD');
+
+      const header = document.createElement('div');
+      header.className = 'signal-card-header';
+
+      const tickerEl = document.createElement('span');
+      tickerEl.className = 'signal-ticker';
+      tickerEl.textContent = s.ticker ?? '';
+
+      const badgeEl = document.createElement('span');
+      badgeEl.className = 'signal-badge';
+      badgeEl.textContent = s.signal ?? '';
+
+      header.appendChild(tickerEl);
+      header.appendChild(badgeEl);
+
+      const confEl = document.createElement('div');
+      confEl.className = 'signal-confidence';
+      confEl.textContent = s.confidence != null ? '信心度 ' + s.confidence + '%' : '';
+
+      const ratEl = document.createElement('div');
+      ratEl.className = 'signal-rationale';
+      ratEl.textContent = s.rationale ?? '';
+
+      card.appendChild(header);
+      card.appendChild(confEl);
+      card.appendChild(ratEl);
+      return card;
+    }
 
     const WORKER_URL = 'https://market-news-trigger.rsp93050420.workers.dev';
 
