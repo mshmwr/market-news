@@ -105,6 +105,11 @@
     .signals-title { font-size: 16px; font-weight: 600; color: #1d1d1f; }
     #signals-updated { font-size: 12px; color: #999; }
     #signals-placeholder { font-size: 14px; color: #888; padding: 16px 0; }
+    .sort-btn {
+      font-size: 11px; padding: 3px 10px; border-radius: 14px;
+      border: 1.5px solid #ccc; background: #fff; cursor: pointer; color: #555;
+    }
+    .sort-btn.active { border-color: #888; color: #1d1d1f; font-weight: 500; }
     .signals-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -203,6 +208,7 @@
     <section id="signals-section" hidden>
       <div class="signals-header">
         <h2 class="signals-title">股票訊號</h2>
+        <button id="sort-btn" class="sort-btn">信心度 ↕</button>
         <span id="signals-updated"></span>
       </div>
       <div id="signals-list" class="signals-grid" hidden></div>
@@ -221,6 +227,8 @@
     let allArticles = [];
     let latestTs = 0;
     let currentTab = 'news';
+    let allSignals = [];
+    let signalSort = 'none'; // 'none' | 'desc' | 'asc'
 
     const filterBtns  = document.querySelectorAll('.filter-btn');
     const tabBtns     = document.querySelectorAll('.tab-btn');
@@ -235,6 +243,22 @@
     const signalsListEl        = document.getElementById('signals-list');
     const signalsUpdatedEl     = document.getElementById('signals-updated');
     const signalsPlaceholderEl = document.getElementById('signals-placeholder');
+    const sortBtn              = document.getElementById('sort-btn');
+
+    sortBtn.addEventListener('click', () => {
+      signalSort = signalSort === 'desc' ? 'asc' : signalSort === 'asc' ? 'none' : 'desc';
+      sortBtn.className = 'sort-btn' + (signalSort !== 'none' ? ' active' : '');
+      sortBtn.textContent = signalSort === 'desc' ? '信心度 ↓' : signalSort === 'asc' ? '信心度 ↑' : '信心度 ↕';
+      renderSignals();
+    });
+
+    function renderSignals() {
+      signalsListEl.innerHTML = '';
+      let signals = [...allSignals];
+      if (signalSort === 'desc') signals.sort((a, b) => b.confidence - a.confidence);
+      if (signalSort === 'asc')  signals.sort((a, b) => a.confidence - b.confidence);
+      signals.forEach(s => signalsListEl.appendChild(buildSignalCard(s)));
+    }
 
     function showToast(msg) {
       toastEl.textContent = msg;
@@ -348,10 +372,8 @@
               hour: '2-digit', minute: '2-digit'
             });
           }
-          data.signals.forEach(s => {
-            const card = buildSignalCard(s);
-            signalsListEl.appendChild(card);
-          });
+          allSignals = data.signals;
+          renderSignals();
           signalsListEl.hidden = false;
         })
         .catch(() => {
