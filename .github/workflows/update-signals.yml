@@ -6,9 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       tickers:
-        description: 'Space-separated tickers to update (leave blank for all)'
+        description: 'Space-separated tickers (leave blank for all)'
         required: false
         default: 'NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX'
+      bundle_date:
+        description: 'Load cached bundles from this date (YYYY-MM-DD). Leave blank to fetch fresh data.'
+        required: false
+        default: ''
 
 concurrency:
   group: signals-push
@@ -34,13 +38,21 @@ jobs:
       - name: Run signal analysis
         run: |
           TICKERS="${{ github.event.inputs.tickers || 'NVDA TSLA AAPL GOOGL TSM BTC-USD ETH-USD SPY QQQ SOXX ^GSPC ^VIX' }}"
-          python analyze_stock.py --output-json docs/signals.json $TICKERS
+          BUNDLE_DATE="${{ github.event.inputs.bundle_date }}"
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -n "$BUNDLE_DATE" ]; then
+            python analyze_stock.py --output-json docs/signals.json \
+              --load-bundles docs/bundles/$BUNDLE_DATE $TICKERS
+          else
+            python analyze_stock.py --output-json docs/signals.json \
+              --save-bundles docs/bundles/$TODAY $TICKERS
+          fi
 
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/signals.json
+          git add docs/signals.json docs/bundles/
           git diff --staged --quiet || git commit -m "chore: update signals $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase
           git push
