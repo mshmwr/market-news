@@ -62,6 +62,7 @@
     /* --- Filters (news tab only) --- */
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .filters[hidden] { display: none; }
+    .signal-cat-filters[hidden] { display: none; }
     .filter-btn {
       padding: 6px 14px; border-radius: 20px; border: 1.5px solid #ccc;
       background: #fff; font-size: 13px; cursor: pointer; transition: all .15s;
@@ -110,7 +111,7 @@
       border: 1.5px solid #ccc; background: #fff; cursor: pointer; color: #555;
     }
     .sort-btn.active { border-color: #888; color: #1d1d1f; font-weight: 500; }
-    .signal-cat-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+    .signal-cat-filters { display: flex; flex-wrap: wrap; gap: 6px; }
     .sig-filter-btn {
       padding: 4px 12px; border-radius: 20px; border: 1.5px solid #ccc;
       background: #fff; font-size: 12px; cursor: pointer; color: #555; transition: all .15s;
@@ -241,6 +242,7 @@
       <button class="filter-btn active" data-cat="加密貨幣">加密貨幣</button>
       <button class="filter-btn active" data-cat="宏觀">宏觀</button>
     </div>
+    <div id="signal-cat-filters" class="signal-cat-filters" hidden></div>
   </header>
 
   <main>
@@ -250,7 +252,6 @@
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
-      <div id="signal-cat-filters" class="signal-cat-filters"></div>
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
@@ -356,6 +357,7 @@
       signalsSectionEl.hidden = !onSignals;
       newsSectionEl.hidden = onSignals;
       filtersEl.hidden = onSignals;
+      sigCatFiltersEl.hidden = !onSignals;
       if (!onSignals) {
         if (allArticles.length > 0) {
           render();
