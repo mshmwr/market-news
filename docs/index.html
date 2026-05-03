@@ -14,7 +14,7 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f7; color: #1d1d1f; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f7; color: #1d1d1f; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 
     header { background: #fff; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; position: sticky; top: 0; z-index: 10; }
     .header-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
@@ -110,6 +110,13 @@
       border: 1.5px solid #ccc; background: #fff; cursor: pointer; color: #555;
     }
     .sort-btn.active { border-color: #888; color: #1d1d1f; font-weight: 500; }
+    .signal-cat-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+    .sig-filter-btn {
+      padding: 4px 12px; border-radius: 20px; border: 1.5px solid #ccc;
+      background: #fff; font-size: 12px; cursor: pointer; color: #555; transition: all .15s;
+    }
+    .sig-filter-btn:hover { border-color: #888; }
+    .sig-filter-btn.active { background: #1d1d1f; color: #fff; border-color: transparent; }
     .signals-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -120,7 +127,7 @@
     .signal-card {
       background: #fff; border-radius: 10px; padding: 10px 14px;
       border-left: 4px solid transparent; cursor: pointer;
-      min-width: 0; overflow: hidden;
+      min-width: 0;
     }
     .signal-BUY  { border-left-color: #2e7d32; }
     .signal-HOLD { border-left-color: #f9a825; }
@@ -243,6 +250,7 @@
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
+      <div id="signal-cat-filters" class="signal-cat-filters"></div>
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
@@ -272,6 +280,8 @@
       'SPY':'ETF','QQQ':'ETF','SOXX':'ETF','IBB':'ETF',
       '^GSPC':'指數','^VIX':'指數',
     };
+    const SIG_CATS = [...new Set(Object.values(TICKER_CATEGORY))].sort();
+    let selectedSigCats = new Set(SIG_CATS);
 
     const filterBtns  = document.querySelectorAll('.filter-btn');
     const tabBtns     = document.querySelectorAll('.tab-btn');
@@ -295,9 +305,38 @@
       renderSignals();
     });
 
+    const sigCatFiltersEl = document.getElementById('signal-cat-filters');
+    ['全部', ...SIG_CATS].forEach(cat => {
+      const btn = document.createElement('button');
+      btn.className = 'sig-filter-btn active';
+      btn.dataset.scat = cat;
+      btn.textContent = cat;
+      sigCatFiltersEl.appendChild(btn);
+    });
+    sigCatFiltersEl.addEventListener('click', e => {
+      const btn = e.target.closest('.sig-filter-btn');
+      if (!btn) return;
+      const cat = btn.dataset.scat;
+      if (cat === '全部') {
+        SIG_CATS.forEach(c => selectedSigCats.add(c));
+      } else {
+        selectedSigCats.has(cat) ? selectedSigCats.delete(cat) : selectedSigCats.add(cat);
+        if (selectedSigCats.size === 0) SIG_CATS.forEach(c => selectedSigCats.add(c));
+      }
+      updateSigFilterBtns();
+      renderSignals();
+    });
+    function updateSigFilterBtns() {
+      const allOn = SIG_CATS.every(c => selectedSigCats.has(c));
+      sigCatFiltersEl.querySelectorAll('.sig-filter-btn').forEach(btn => {
+        const cat = btn.dataset.scat;
+        btn.classList.toggle('active', cat === '全部' ? allOn : selectedSigCats.has(cat));
+      });
+    }
+
     function renderSignals() {
       signalsListEl.innerHTML = '';
-      let signals = [...allSignals];
+      let signals = allSignals.filter(s => selectedSigCats.has(TICKER_CATEGORY[s.ticker] || ''));
       if (signalSort === 'desc') signals.sort((a, b) => b.confidence - a.confidence);
       if (signalSort === 'asc')  signals.sort((a, b) => a.confidence - b.confidence);
       signals.forEach(s => signalsListEl.appendChild(buildSignalCard(s)));
