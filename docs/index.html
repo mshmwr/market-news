@@ -149,6 +149,8 @@
     [data-cat="加密貨幣"] { background: #fff3e0; color: #e65100; }
     [data-cat="ETF"]    { background: #f5f5f5; color: #555; }
     [data-cat="指數"]   { background: #efebe9; color: #4e342e; }
+    [data-cat="通訊"]   { background: #e8f4fd; color: #0277bd; }
+    [data-cat="原物料"] { background: #fff8e1; color: #f57f17; }
 
     .signal-ticker {
       font-size: 14px; font-weight: 600; color: #1d1d1f;
@@ -280,6 +282,7 @@
       'BTC-USD':'加密貨幣','ETH-USD':'加密貨幣',
       'SPY':'ETF','QQQ':'ETF','SOXX':'ETF','IBB':'ETF',
       '^GSPC':'指數','^VIX':'指數',
+      'NOK':'通訊','CL=F':'原物料',
     };
     const SIG_CATS = [...new Set(Object.values(TICKER_CATEGORY))].sort();
     let selectedSigCats = new Set(SIG_CATS);
