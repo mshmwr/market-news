@@ -30,6 +30,7 @@ def fetch_all() -> list[dict]:
                 )
                 articles.append({
                     "title":        entry.get("title", ""),
+                    "description":  entry.get("summary", ""),
                     "link":         entry.get("link", ""),
                     "source":       feed_info["source"],
                     "category":     feed_info["category"],
