@@ -120,6 +120,7 @@
     .signal-card {
       background: #fff; border-radius: 10px; padding: 10px 14px;
       border-left: 4px solid transparent; cursor: pointer;
+      min-width: 0; overflow: hidden;
     }
     .signal-BUY  { border-left-color: #2e7d32; }
     .signal-HOLD { border-left-color: #f9a825; }
@@ -159,7 +160,7 @@
       border-top: 1px solid #f0f0f0;
     }
     .signal-card.expanded .signal-details { display: block; }
-    .signal-rationale { font-size: 12px; color: #666; line-height: 1.5; margin-bottom: 8px; }
+    .signal-rationale { font-size: 12px; color: #666; line-height: 1.5; margin-bottom: 8px; overflow-wrap: break-word; }
 
     .signal-sources-title {
       font-size: 11px; font-weight: 600; color: #999;
