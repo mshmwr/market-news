@@ -118,6 +118,8 @@
     }
     .sig-filter-btn:hover { border-color: #888; }
     .sig-filter-btn.active { background: #1d1d1f; color: #fff; border-color: transparent; }
+    .sig-deselect-btn { color: #aaa; border-color: #e0e0e0; }
+    .sig-deselect-btn:hover { color: #c62828; border-color: #c62828; }
     .signals-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -317,15 +319,22 @@
       btn.textContent = cat;
       sigCatFiltersEl.appendChild(btn);
     });
+    const deselectBtn = document.createElement('button');
+    deselectBtn.className = 'sig-filter-btn sig-deselect-btn';
+    deselectBtn.dataset.scat = '取消全選';
+    deselectBtn.textContent = '取消全選';
+    sigCatFiltersEl.appendChild(deselectBtn);
+
     sigCatFiltersEl.addEventListener('click', e => {
       const btn = e.target.closest('.sig-filter-btn');
       if (!btn) return;
       const cat = btn.dataset.scat;
       if (cat === '全部') {
         SIG_CATS.forEach(c => selectedSigCats.add(c));
+      } else if (cat === '取消全選') {
+        selectedSigCats.clear();
       } else {
         selectedSigCats.has(cat) ? selectedSigCats.delete(cat) : selectedSigCats.add(cat);
-        if (selectedSigCats.size === 0) SIG_CATS.forEach(c => selectedSigCats.add(c));
       }
       updateSigFilterBtns();
       renderSignals();
@@ -334,6 +343,7 @@
       const allOn = SIG_CATS.every(c => selectedSigCats.has(c));
       sigCatFiltersEl.querySelectorAll('.sig-filter-btn').forEach(btn => {
         const cat = btn.dataset.scat;
+        if (cat === '取消全選') return;
         btn.classList.toggle('active', cat === '全部' ? allOn : selectedSigCats.has(cat));
       });
     }
