@@ -164,9 +164,9 @@
     }
     .signal-sources a:hover { text-decoration: underline; }
 
-    /* Mobile: single column below 400px */
-    @media (max-width: 400px) {
-      .signals-grid { grid-template-columns: 1fr; }
+    /* Mobile: 2-column grid on phones */
+    @media (max-width: 640px) {
+      .signals-grid { grid-template-columns: 1fr 1fr; }
     }
 
   </style>
@@ -203,8 +203,10 @@
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
-    <div id="status">載入中…</div>
-    <div id="news-list" class="news-list" hidden></div>
+    <section id="news-section">
+      <div id="status">載入中…</div>
+      <div id="news-list" class="news-list" hidden></div>
+    </section>
   </main>
   <div id="toast"></div>
 
@@ -224,6 +226,7 @@
     const refreshBtn  = document.getElementById('refresh-btn');
     const toastEl     = document.getElementById('toast');
     const signalsSectionEl     = document.getElementById('signals-section');
+    const newsSectionEl        = document.getElementById('news-section');
     const signalsListEl        = document.getElementById('signals-list');
     const signalsUpdatedEl     = document.getElementById('signals-updated');
     const signalsPlaceholderEl = document.getElementById('signals-placeholder');
@@ -240,11 +243,9 @@
       tabBtns.forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
       const onSignals = tab === 'signals';
       signalsSectionEl.hidden = !onSignals;
+      newsSectionEl.hidden = onSignals;
       filtersEl.hidden = onSignals;
-      if (onSignals) {
-        listEl.hidden = true;
-        statusEl.hidden = true;
-      } else {
+      if (!onSignals) {
         if (allArticles.length > 0) {
           render();
         } else {
