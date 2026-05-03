@@ -48,6 +48,18 @@
       pointer-events: none; z-index: 100; white-space: nowrap;
     }
     #toast.show { opacity: 1; }
+
+    /* --- Tabs --- */
+    .tabs { display: flex; gap: 4px; margin-bottom: 12px; }
+    .tab-btn {
+      padding: 6px 16px; border-radius: 20px; border: 1.5px solid #ccc;
+      background: #fff; font-size: 13px; font-weight: 500; cursor: pointer;
+      color: #555; transition: all .15s;
+    }
+    .tab-btn:hover { border-color: #888; }
+    .tab-btn.active { background: #1d1d1f; color: #fff; border-color: transparent; }
+
+    /* --- Filters (news tab only) --- */
     .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .filter-btn {
       padding: 6px 14px; border-radius: 20px; border: 1.5px solid #ccc;
@@ -85,29 +97,13 @@
     .news-time { font-size: 12px; color: #999; margin-left: auto; white-space: nowrap; }
 
     /* --- Signals section --- */
-    #signals-section {
-      margin-bottom: 24px;
-    }
+    #signals-section { margin-bottom: 24px; }
     .signals-header {
-      display: flex;
-      align-items: baseline;
-      gap: 12px;
-      margin-bottom: 12px;
+      display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px;
     }
-    .signals-title {
-      font-size: 16px;
-      font-weight: 600;
-      color: #1d1d1f;
-    }
-    #signals-updated {
-      font-size: 12px;
-      color: #999;
-    }
-    #signals-placeholder {
-      font-size: 14px;
-      color: #888;
-      padding: 16px 0;
-    }
+    .signals-title { font-size: 16px; font-weight: 600; color: #1d1d1f; }
+    #signals-updated { font-size: 12px; color: #999; }
+    #signals-placeholder { font-size: 14px; color: #888; padding: 16px 0; }
     .signals-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -116,64 +112,54 @@
 
     /* Signal cards */
     .signal-card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 12px 14px;
+      background: #fff; border-radius: 10px; padding: 12px 14px;
       border-left: 4px solid transparent;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      min-width: 0;                     /* prevent grid blowout */
+      display: flex; flex-direction: column; gap: 6px;
+      min-width: 0;
     }
-    .signal-BUY  { border-left-color: #2e7d32; }  /* green */
-    .signal-HOLD { border-left-color: #f9a825; }  /* yellow */
-    .signal-SELL { border-left-color: #c62828; }  /* red   */
+    .signal-BUY  { border-left-color: #2e7d32; }
+    .signal-HOLD { border-left-color: #f9a825; }
+    .signal-SELL { border-left-color: #c62828; }
 
     .signal-card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 6px;
+      display: flex; justify-content: space-between; align-items: center; gap: 6px;
     }
     .signal-ticker {
-      font-size: 14px;
-      font-weight: 600;
-      color: #1d1d1f;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      font-size: 14px; font-weight: 600; color: #1d1d1f;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
     .signal-badge {
-      font-size: 11px;
-      font-weight: 600;
-      padding: 2px 8px;
-      border-radius: 10px;
-      white-space: nowrap;
+      font-size: 11px; font-weight: 600; padding: 2px 8px;
+      border-radius: 10px; white-space: nowrap;
     }
     .signal-BUY  .signal-badge { background: #e8f5e9; color: #2e7d32; }
     .signal-HOLD .signal-badge { background: #fff8e1; color: #f9a825; }
     .signal-SELL .signal-badge { background: #ffebee; color: #c62828; }
 
-    .signal-confidence {
-      font-size: 12px;
-      color: #555;
-    }
+    .signal-confidence { font-size: 12px; color: #555; }
+
     .signal-rationale {
-      font-size: 12px;
-      color: #666;
-      line-height: 1.5;
-      /* CSS line-clamp (AC-MN002-HTML-06) */
+      font-size: 12px; color: #666; line-height: 1.5;
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
+    .signal-rationale.expanded {
+      display: block;
+      overflow: visible;
+      -webkit-line-clamp: unset;
+    }
+
+    .signal-expand-btn {
+      font-size: 11px; color: #0071e3; background: none;
+      border: none; cursor: pointer; padding: 0; text-align: left;
+    }
+    .signal-expand-btn:hover { text-decoration: underline; }
 
     /* Mobile: single column below 400px */
     @media (max-width: 400px) {
-      .signals-grid {
-        grid-template-columns: 1fr;
-      }
+      .signals-grid { grid-template-columns: 1fr; }
     }
 
   </style>
@@ -188,7 +174,11 @@
         <span id="updated"></span>
       </div>
     </div>
-    <div class="filters">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="signals">📈 股票訊號</button>
+      <button class="tab-btn" data-tab="news">📰 新聞</button>
+    </div>
+    <div class="filters" hidden>
       <button class="filter-btn active" data-cat="全部">全部</button>
       <button class="filter-btn active" data-cat="台股">台股</button>
       <button class="filter-btn active" data-cat="美股">美股</button>
@@ -206,7 +196,7 @@
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
-    <div id="status">載入中…</div>
+    <div id="status" hidden>載入中…</div>
     <div id="news-list" class="news-list" hidden></div>
   </main>
   <div id="toast"></div>
@@ -216,13 +206,17 @@
     const selected = new Set(CATEGORIES);
     let allArticles = [];
     let latestTs = 0;
+    let currentTab = 'signals';
 
-    const buttons    = document.querySelectorAll('.filter-btn');
-    const listEl     = document.getElementById('news-list');
-    const statusEl   = document.getElementById('status');
-    const updatedEl  = document.getElementById('updated');
+    const filterBtns  = document.querySelectorAll('.filter-btn');
+    const tabBtns     = document.querySelectorAll('.tab-btn');
+    const filtersEl   = document.querySelector('.filters');
+    const listEl      = document.getElementById('news-list');
+    const statusEl    = document.getElementById('status');
+    const updatedEl   = document.getElementById('updated');
     const refreshBtn  = document.getElementById('refresh-btn');
     const toastEl     = document.getElementById('toast');
+    const signalsSectionEl     = document.getElementById('signals-section');
     const signalsListEl        = document.getElementById('signals-list');
     const signalsUpdatedEl     = document.getElementById('signals-updated');
     const signalsPlaceholderEl = document.getElementById('signals-placeholder');
@@ -233,7 +227,30 @@
       setTimeout(() => toastEl.classList.remove('show'), 3000);
     }
 
-    buttons.forEach(btn => btn.addEventListener('click', () => {
+    // --- Tab switching ---
+    function setTab(tab) {
+      currentTab = tab;
+      tabBtns.forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+      const onSignals = tab === 'signals';
+      signalsSectionEl.hidden = !onSignals;
+      filtersEl.hidden = onSignals;
+      if (onSignals) {
+        listEl.hidden = true;
+        statusEl.hidden = true;
+      } else {
+        if (allArticles.length > 0) {
+          render();
+        } else {
+          statusEl.textContent = '載入中…';
+          statusEl.hidden = false;
+        }
+      }
+    }
+
+    tabBtns.forEach(btn => btn.addEventListener('click', () => setTab(btn.dataset.tab)));
+
+    // --- News filters ---
+    filterBtns.forEach(btn => btn.addEventListener('click', () => {
       const cat = btn.dataset.cat;
       if (cat === '全部') {
         CATEGORIES.forEach(c => selected.add(c));
@@ -241,13 +258,13 @@
         selected.has(cat) ? selected.delete(cat) : selected.add(cat);
         if (selected.size === 0) CATEGORIES.forEach(c => selected.add(c));
       }
-      updateButtons();
+      updateFilterButtons();
       render();
     }));
 
-    function updateButtons() {
+    function updateFilterButtons() {
       const allOn = CATEGORIES.every(c => selected.has(c));
-      buttons.forEach(btn => {
+      filterBtns.forEach(btn => {
         const cat = btn.dataset.cat;
         btn.classList.toggle('active', cat === '全部' ? allOn : selected.has(cat));
       });
@@ -263,6 +280,7 @@
     }
 
     function render() {
+      if (currentTab !== 'news') return;
       const filtered = allArticles.filter(a => selected.has(a.category));
       if (filtered.length === 0) {
         listEl.hidden = true;
@@ -293,14 +311,13 @@
           if (latestTs > 0) {
             updatedEl.textContent = `更新於 ${new Date(latestTs * 1000).toLocaleString('zh-TW')}`;
           }
-          statusEl.hidden = true;
-          render();
+          if (currentTab === 'news') render();
+          else statusEl.hidden = true;
         })
-        .catch(() => { statusEl.textContent = '載入失敗'; });
+        .catch(() => {
+          if (currentTab === 'news') { statusEl.textContent = '載入失敗'; statusEl.hidden = false; }
+        });
     }
-
-    loadNews();
-    loadSignals();
 
     function loadSignals() {
       fetch('signals.json')
@@ -353,11 +370,23 @@
       ratEl.className = 'signal-rationale';
       ratEl.textContent = s.rationale ?? '';
 
+      const expandBtn = document.createElement('button');
+      expandBtn.className = 'signal-expand-btn';
+      expandBtn.textContent = '查看全部';
+      expandBtn.addEventListener('click', () => {
+        const expanded = ratEl.classList.toggle('expanded');
+        expandBtn.textContent = expanded ? '收起' : '查看全部';
+      });
+
       card.appendChild(header);
       card.appendChild(confEl);
       card.appendChild(ratEl);
+      card.appendChild(expandBtn);
       return card;
     }
+
+    loadNews();
+    loadSignals();
 
     const WORKER_URL = 'https://market-news-trigger.rsp93050420.workers.dev';
 
@@ -377,7 +406,7 @@
               allArticles = data;
               latestTs = newTs;
               updatedEl.textContent = `更新於 ${new Date(newTs * 1000).toLocaleString('zh-TW')}`;
-              render();
+              if (currentTab === 'news') render();
               showToast('已取得最新新聞');
             } else if (elapsed >= TIMEOUT) {
               clearInterval(timer);
