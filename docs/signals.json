@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-03T10:35:37Z",
+  "generated_at": "2026-05-03T13:05:40Z",
   "signals": [
     {
-      "signal": "SELL",
-      "confidence": 75,
-      "rationale": "Recent news indicates significant headwinds for NVDA, including market share loss to Huawei in China and increased regulatory scrutiny over chip sales. This competitive pressure and geopolitical risk, combined with an extremely high debt-to-equity ratio of 7.255, present substantial financial risks despite strong revenue growth and profit margins.",
+      "signal": "HOLD",
+      "confidence": 62,
+      "rationale": "NVDA's strong fundamentals (73% revenue growth, 55% profit margin) support the current valuation, but neutral technicals (RSI ~53, slight MACD negative, below-average volume) and mixed news (regulatory scrutiny, China competition risks) suggest caution without clear directional momentum.",
       "ticker": "NVDA",
       "sources": [
         {
@@ -22,9 +22,9 @@
       ]
     },
     {
-      "signal": "SELL",
-      "confidence": 85,
-      "rationale": "Tesla exhibits extremely high valuation with a PE ratio of 358.55 and a critically high debt-to-equity ratio of 18.738, indicating significant financial risk and overvaluation. Despite some positive technical momentum from MACD, these fundamental concerns heavily outweigh short-term signals.",
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "Technical momentum is modestly bullish with RSI near neutral and a positive MACD histogram, but the extremely high PE ratio and heavy debt load raise concerns about valuation and financial risk, leaving limited upside potential despite solid revenue growth; neutral news adds no clear catalyst, supporting a hold.",
       "ticker": "TSLA",
       "sources": [
         {
@@ -34,10 +34,71 @@
       ]
     },
     {
-      "signal": "SELL",
-      "confidence": 75,
-      "rationale": "Despite strong revenue growth and high profit margins, the exceptionally high debt-to-equity ratio of 17.131 indicates severe financial risk. While technicals show recent bullish momentum with a high RSI and positive MACD, the stock's elevated PE ratio and critical leverage warrant a sell recommendation.",
+      "signal": "BUY",
+      "confidence": 65,
+      "rationale": "Technical indicators are bullish with a positive MACD histogram, RSI at 66 and a volume ratio well above average, while fundamentals show solid revenue growth and profit margins despite a relatively high PE ratio and elevated debt‑to‑equity. With no contrary news or social signals, the technical momentum supports a BUY recommendation.",
+      "ticker": "AAPL",
+      "sources": []
+    },
+    {
+      "signal": "BUY",
+      "confidence": 70,
+      "rationale": "Alphabet’s strong revenue growth, high profit margin, and a bullish news catalyst outweigh the overbought RSI, suggesting the upward momentum can persist; the elevated debt‑to‑equity is a watch‑point but does not offset the positive fundamentals.",
+      "ticker": "GOOGL",
+      "sources": [
+        {
+          "title": "A major shift could soon happen in the Mag 7",
+          "url": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html"
+        }
+      ]
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 60,
+      "rationale": "The technical picture is modestly bullish with RSI below overbought and a positive MACD histogram, though volume is subdued. Fundamentals are solid—strong revenue growth and profit margin—but the elevated PE ratio and high debt‑to‑equity raise concerns about valuation and leverage. With no recent news catalysts, the balance of signals supports a hold.",
       "ticker": "TSM",
+      "sources": []
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 55,
+      "rationale": "RSI at 62 suggests moderate momentum, but the negative MACD histogram points to short‑term bearish pressure, and the low volume ratio indicates weak participation. With no fundamental or social signals to offset these technical concerns, a neutral stance is appropriate.",
+      "ticker": "BTC-USD",
+      "sources": []
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "RSI above 70 signals overbought conditions and the PE ratio is elevated, limiting near‑term upside, while the MACD remains bullish and volume is below average, supporting a neutral stance.",
+      "ticker": "SPY",
+      "sources": []
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 62,
+      "rationale": "QQQ's RSI at 74.9 signals overbought conditions suggesting limited near-term upside, while the positive MACD histogram indicates sustained short-term momentum; weak volume ratio further suggests lack of conviction for aggressive positioning.",
+      "ticker": "QQQ",
+      "sources": []
+    },
+    {
+      "signal": "SELL",
+      "confidence": 60,
+      "rationale": "SOXX is overbought with an RSI above 75 and a high PE ratio of 52, indicating potential overvaluation; the modest MACD bullish signal and below‑average volume do not offset these concerns.",
+      "ticker": "SOXX",
+      "sources": []
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 60,
+      "rationale": "RSI is overbought indicating short‑term pullback risk, while MACD remains bullish and volume is subdued. With no fundamental or sentiment data to tip the balance, a hold stance acknowledges limited upside momentum but also elevated short‑term risk.",
+      "ticker": "^GSPC",
+      "sources": []
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 30,
+      "rationale": "Technical indicators show weak bearish momentum (negative MACD, RSI below 50) but with limited data and no fundamental or sentiment signals, a neutral stance is warranted.",
+      "ticker": "^VIX",
       "sources": []
     }
   ]
