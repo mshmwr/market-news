@@ -2,7 +2,6 @@ import argparse
 import datetime
 import json
 import sys
-import time
 from dotenv import load_dotenv
 
 load_dotenv()

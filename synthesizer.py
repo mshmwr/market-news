@@ -21,8 +21,8 @@ Respond with ONLY a valid JSON object — no markdown fences, no prose, no expla
 
 def _make_client() -> OpenAI:
     return OpenAI(
-        api_key=os.environ["GEMINI_API_KEY"],
-        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+        api_key=os.environ["NVIDIA_API_KEY"],
+        base_url="https://integrate.api.nvidia.com/v1",
     )
 
 
@@ -37,7 +37,7 @@ def synthesize(
     user_message = bundle.model_dump_json(indent=2)
 
     response = client.chat.completions.create(
-        model="gemini-2.5-flash",
+        model="minimaxai/minimax-m2.7",
         max_tokens=8192,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
@@ -61,5 +61,5 @@ def synthesize(
         return SignalResult(ticker=ticker, sources=sources, **data)
     except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
         raise ValueError(
-            f"synthesize: malformed Gemini response for {ticker!r}: {exc!r} | raw={raw!r}"
+            f"synthesize: malformed NIM response for {ticker!r}: {exc!r} | raw={raw!r}"
         ) from exc
