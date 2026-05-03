@@ -1,0 +1,36 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Bitcoin miner Riot's shares jump 8% after expanding AMD data center deal, signaling AI pivot",
+        "description": "",
+        "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-miner-riot-s-shares-jump-8-after-expanding-amd-data-center-deal-signaling-ai-pivot",
+        "source": "CoinDesk",
+        "category": "加密貨幣",
+        "published_ts": 1777669149
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 79.84068545753665,
+    "macd_line": 34.82631697385074,
+    "macd_signal": 27.939463715413552,
+    "macd_histogram": 6.886853258437185,
+    "ma50": 235.37679931640625,
+    "volume_ratio": 0.8601243886907474,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 138.66924,
+    "revenue_growth": 0.341,
+    "profit_margin": 0.12515001,
+    "debt_to_equity": 6.359,
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

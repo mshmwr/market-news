@@ -1,0 +1,36 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "A major shift could soon happen in the Mag 7",
+        "description": "Quietly, shares of Google-parent Alphabet are on the verge of topping $5 trillion, and overtaking AI-leader Nvidia as the world's most valuable company.",
+        "link": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1777649747
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 82.54092476420992,
+    "macd_line": 16.616667427693073,
+    "macd_signal": 11.79882733171262,
+    "macd_histogram": 4.817840095980454,
+    "ma50": 315.46421691894534,
+    "volume_ratio": 1.1234881806654107,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.419529,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

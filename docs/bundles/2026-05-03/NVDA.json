@@ -1,0 +1,44 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "A major shift could soon happen in the Mag 7",
+        "description": "Quietly, shares of Google-parent Alphabet are on the verge of topping $5 trillion, and overtaking AI-leader Nvidia as the world's most valuable company.",
+        "link": "https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1777649747
+      },
+      {
+        "title": "輝達卡關！　華為中國AI晶片銷售暴衝6成",
+        "description": "<img alt=\"輝達卡關！　華為中國AI晶片銷售暴衝6成\" src=\"https://cdn2.ettoday.net/images/8609/c8609113.png\" /><br /> 在美中科技戰與出口管制影響下，輝達（NVIDIA）在中國市場進展受阻，反而讓華為快速崛起。最新消息指出，華為今年AI晶片銷售將大幅成長至少60%，有望一舉拿下中國市場最大市占。\n\n <a href=\"https://finance.ettoday.net/news/3158653\" target=\"_blank\">《詳全文...》</a>",
+        "link": "https://finance.ettoday.net/news/3158653",
+        "source": "ETtoday財經",
+        "category": "台股",
+        "published_ts": 0
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 52.9815910050335,
+    "macd_line": 6.241846067811423,
+    "macd_signal": 6.352451457664718,
+    "macd_histogram": -0.11060538985329504,
+    "ma50": 187.15159576416016,
+    "volume_ratio": 0.8705660995930469,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 40.5,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
