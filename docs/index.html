@@ -31,7 +31,14 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
     #refresh-btn.loading { pointer-events: none; opacity: .6; }
-    #refresh-btn.loading span { display: inline-block; animation: spin .7s linear infinite; }
+    #refresh-btn .spinner {
+      display: none; width: 14px; height: 14px;
+      border: 2px solid #ddd; border-top-color: #555;
+      border-radius: 50%; animation: spin .7s linear infinite;
+      vertical-align: middle;
+    }
+    #refresh-btn.loading .icon { display: none; }
+    #refresh-btn.loading .spinner { display: inline-block; }
 
     #toast {
       position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
@@ -83,7 +90,7 @@
     <div class="header-top">
       <h1>每日市場新聞</h1>
       <div style="display:flex;gap:8px;align-items:center">
-        <button id="refresh-btn" title="重新整理"><span>🔄</span></button>
+        <button id="refresh-btn" title="重新整理"><span class="icon">↻</span><span class="spinner"></span></button>
         <button id="translate-btn">🌐 翻譯</button>
         <span id="updated"></span>
       </div>
