@@ -412,7 +412,11 @@
       {
         const basisEl = document.createElement('div');
         basisEl.className = 'signal-basis-tags';
-        [['📊', '技術指標'], ['📈', '基本面'], ['💬', '社群']].forEach(([icon, label]) => {
+        [
+          ['📊', 'RSI · MACD · MA50 · 成交量'],
+          ['📈', '本益比 · 收益成長 · 利潤率 · 負債比'],
+          ['💬', '社群討論'],
+        ].forEach(([icon, label]) => {
           const tag = document.createElement('span');
           tag.className = 'signal-basis-tag';
           tag.textContent = icon + ' ' + label;
@@ -445,8 +449,26 @@
           sourcesEl.appendChild(row);
         });
       }
+      if (s.social_posts && s.social_posts.length > 0) {
+        const titleEl = document.createElement('div');
+        titleEl.className = 'signal-sources-title';
+        titleEl.textContent = 'Reddit 討論';
+        sourcesEl.appendChild(titleEl);
+        s.social_posts.forEach(p => {
+          const row = document.createElement('div');
+          row.className = 'signal-source-row';
+          const a = document.createElement('a');
+          a.href = p.url;
+          a.textContent = p.title || p.url;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          row.appendChild(a);
+          sourcesEl.appendChild(row);
+        });
+      }
 
-      card.addEventListener('click', () => card.classList.toggle('expanded'));
+      card.addEventListener('mouseenter', () => card.classList.add('expanded'));
+      card.addEventListener('mouseleave', () => card.classList.remove('expanded'));
 
       card.appendChild(header);
       card.appendChild(confEl);

@@ -58,7 +58,12 @@ def synthesize(
             for a in bundle.news.articles
             if a.get("link")
         ]
-        return SignalResult(ticker=ticker, sources=sources, **data)
+        social_posts = [
+            {"title": p.get("title", ""), "url": p.get("url", "")}
+            for p in (bundle.social.posts[:5] if bundle.social.available else [])
+            if p.get("url")
+        ]
+        return SignalResult(ticker=ticker, sources=sources, social_posts=social_posts, **data)
     except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
         raise ValueError(
             f"synthesize: malformed NIM response for {ticker!r}: {exc!r} | raw={raw!r}"
