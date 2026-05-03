@@ -1,0 +1,83 @@
+---
+title: market-news — System Overview
+type: reference
+tags: [market-news, Architecture]
+updated: 2026-05-03
+---
+
+## Summary
+
+Daily market news aggregator (PWA on GitHub Pages) extended with a local CLI stock
+signal analyzer. News fetching runs on a GitHub Actions cron schedule; signal analysis
+runs locally on demand.
+
+## Tech Stack
+
+- **News fetch:** Python 3, feedparser
+- **Signal analysis:** Python 3, yfinance, pandas, anthropic SDK, pydantic, python-dotenv
+- **Optional social:** praw (PRAW Reddit API)
+- **Optional notify:** requests (Telegram Bot API)
+- **Frontend PWA:** Vanilla HTML/JS/CSS (static, no build step)
+- **Hosting:** GitHub Pages (`docs/` directory)
+- **CI:** GitHub Actions (cron every 30 min for news fetch)
+
+## Directory Structure
+
+```
+market-news/
+├── fetch_news.py          # RSS fetch → docs/news.json (8 feeds)
+├── analyze_stock.py       # CLI entry: python3 analyze_stock.py TSLA AAPL
+├── models.py              # Pydantic signal models
+├── synthesizer.py         # Claude API synthesis
+├── notifier.py            # Console ANSI + optional Telegram
+├── signals/
+│   ├── news.py            # NewsSignal — fetch_all() + ticker filter
+│   ├── technical.py       # TechnicalSignal — yfinance OHLCV + RSI/MACD/MA50
+│   ├── fundamentals.py    # FundamentalsSignal — yfinance .info
+│   └── social.py          # SocialSignal — PRAW Reddit (optional)
+├── requirements.txt
+├── worker/                # Cloudflare Worker (manual refresh trigger proxy)
+├── docs/                  # GitHub Pages PWA
+│   ├── index.html
+│   ├── news.json          # updated by GitHub Actions
+│   ├── sw.js
+│   └── manifest.json
+└── ssot/
+    ├── system-overview.md  ← this file
+    └── PRD.md              ← acceptance criteria
+```
+
+## Data Flow
+
+```
+GitHub Actions (cron 30 min)
+  └─ fetch_news.py → docs/news.json → GitHub Pages PWA
+
+Local CLI
+  └─ analyze_stock.py <tickers>
+       ├─ signals/news.py      → NewsSignal      (reuses fetch_all())
+       ├─ signals/technical.py → TechnicalSignal (yfinance OHLCV)
+       ├─ signals/fundamentals.py → FundamentalsSignal (yfinance .info)
+       └─ signals/social.py    → SocialSignal    (PRAW, optional)
+            └─ synthesizer.py  → SignalResult    (Claude API)
+                 └─ notifier.py → console + Telegram (optional)
+```
+
+## Environment Variables
+
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `ANTHROPIC_API_KEY` | Yes (for analysis) | Claude API auth |
+| `TELEGRAM_BOT_TOKEN` | No | Telegram notification |
+| `TELEGRAM_CHAT_ID` | No | Telegram notification target |
+| `PRAW_CLIENT_ID` | No | Reddit social signal |
+| `PRAW_CLIENT_SECRET` | No | Reddit social signal |
+| `PRAW_USER_AGENT` | No | Reddit social signal |
+
+## Known Architecture Debt
+
+_None at project init._
+
+## Changelog
+
+- **2026-05-03** (MN-001 ticket open) — initial system-overview stub; MN-001 adds signal analysis layer.
