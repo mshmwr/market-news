@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Literal, Optional
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
@@ -11,20 +11,20 @@ class NewsSignal(BaseModel):
 
 
 class TechnicalSignal(BaseModel):
-    rsi: Optional[float]
-    macd_line: Optional[float]
-    macd_signal: Optional[float]
-    macd_histogram: Optional[float]
-    ma50: Optional[float]
-    volume_ratio: Optional[float]
+    rsi: float | None
+    macd_line: float | None
+    macd_signal: float | None
+    macd_histogram: float | None
+    ma50: float | None
+    volume_ratio: float | None
     ticker: str
 
 
 class FundamentalsSignal(BaseModel):
-    pe_ratio: Optional[float]
-    revenue_growth: Optional[float]
-    profit_margin: Optional[float]
-    debt_to_equity: Optional[float]
+    pe_ratio: float | None
+    revenue_growth: float | None
+    profit_margin: float | None
+    debt_to_equity: float | None
     ticker: str
 
 

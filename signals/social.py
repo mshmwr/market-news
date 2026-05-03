@@ -1,9 +1,10 @@
 import os
-import sys
 
 from models import SocialSignal
 
-_UNAVAILABLE = lambda ticker: SocialSignal(posts=[], ticker=ticker, available=False)
+
+def _unavailable(ticker: str) -> SocialSignal:
+    return SocialSignal(posts=[], ticker=ticker, available=False)
 
 
 def fetch_social_signal(ticker: str) -> SocialSignal:
@@ -12,7 +13,7 @@ def fetch_social_signal(ticker: str) -> SocialSignal:
     user_agent = os.environ.get("PRAW_USER_AGENT")
 
     if not (client_id and client_secret and user_agent):
-        return _UNAVAILABLE(ticker)
+        return _unavailable(ticker)
 
     try:
         import praw
@@ -36,4 +37,4 @@ def fetch_social_signal(ticker: str) -> SocialSignal:
         posts.sort(key=lambda p: p["score"], reverse=True)
         return SocialSignal(posts=posts[:10], ticker=ticker, available=True)
     except Exception:
-        return _UNAVAILABLE(ticker)
+        return _unavailable(ticker)

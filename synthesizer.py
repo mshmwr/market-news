@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import json
-from typing import Optional
 
 import anthropic
+from pydantic import ValidationError
 
 from models import SignalBundle, SignalResult
 
@@ -21,7 +21,7 @@ Respond with ONLY a valid JSON object — no markdown fences, no prose, no expla
 def synthesize(
     ticker: str,
     bundle: SignalBundle,
-    client: Optional[anthropic.Anthropic] = None,
+    client: anthropic.Anthropic | None = None,
 ) -> SignalResult:
     if client is None:
         client = anthropic.Anthropic()
@@ -50,7 +50,7 @@ def synthesize(
     try:
         data = json.loads(raw)
         return SignalResult(ticker=ticker, **data)
-    except (json.JSONDecodeError, ValueError, KeyError) as exc:
+    except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
         raise ValueError(
             f"synthesize: malformed Claude response for {ticker!r}: {exc!r} | raw={raw!r}"
         ) from exc

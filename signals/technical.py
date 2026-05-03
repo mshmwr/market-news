@@ -1,24 +1,24 @@
 from __future__ import annotations
 
-from typing import Optional, Tuple
-
 import yfinance as yf
 import pandas as pd
 
 from models import TechnicalSignal
 
-_NONE_SIGNAL = lambda ticker: TechnicalSignal(
-    rsi=None,
-    macd_line=None,
-    macd_signal=None,
-    macd_histogram=None,
-    ma50=None,
-    volume_ratio=None,
-    ticker=ticker,
-)
+
+def _none_signal(ticker: str) -> TechnicalSignal:
+    return TechnicalSignal(
+        rsi=None,
+        macd_line=None,
+        macd_signal=None,
+        macd_histogram=None,
+        ma50=None,
+        volume_ratio=None,
+        ticker=ticker,
+    )
 
 
-def _compute_rsi(close: pd.Series, period: int = 14) -> Optional[float]:
+def _compute_rsi(close: pd.Series, period: int = 14) -> float | None:
     delta = close.diff()
     gain = delta.clip(lower=0)
     loss = -delta.clip(upper=0)
@@ -32,14 +32,14 @@ def _compute_rsi(close: pd.Series, period: int = 14) -> Optional[float]:
 
 def _compute_macd(
     close: pd.Series, fast: int = 12, slow: int = 26, signal: int = 9
-) -> Tuple[Optional[float], Optional[float], Optional[float]]:
+) -> tuple[float | None, float | None, float | None]:
     ema_fast = close.ewm(span=fast, adjust=False).mean()
     ema_slow = close.ewm(span=slow, adjust=False).mean()
     macd_line = ema_fast - ema_slow
     macd_signal_series = macd_line.ewm(span=signal, adjust=False).mean()
     histogram = macd_line - macd_signal_series
 
-    def _last(s: pd.Series) -> Optional[float]:
+    def _last(s: pd.Series) -> float | None:
         v = s.iloc[-1]
         return float(v) if pd.notna(v) else None
 
@@ -50,7 +50,7 @@ def fetch_technical_signal(ticker: str) -> TechnicalSignal:
     try:
         df = yf.download(ticker, period="6mo", interval="1d", progress=False, auto_adjust=True)
         if df.empty:
-            return _NONE_SIGNAL(ticker)
+            return _none_signal(ticker)
 
         close = df["Close"].squeeze()
         volume = df["Volume"].squeeze()
@@ -78,4 +78,4 @@ def fetch_technical_signal(ticker: str) -> TechnicalSignal:
             ticker=ticker,
         )
     except Exception:
-        return _NONE_SIGNAL(ticker)
+        return _none_signal(ticker)
