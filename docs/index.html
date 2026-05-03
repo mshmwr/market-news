@@ -107,7 +107,7 @@
     #signals-placeholder { font-size: 14px; color: #888; padding: 16px 0; }
     .signals-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      grid-template-columns: 1fr;
       gap: 10px;
     }
 
@@ -164,12 +164,6 @@
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
     .signal-sources a:hover { text-decoration: underline; }
-
-    /* Mobile: 2-column grid on phones */
-    @media (max-width: 640px) {
-      .signals-grid { grid-template-columns: 1fr 1fr; }
-    }
-
   </style>
 </head>
 <body>
