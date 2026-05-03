@@ -46,3 +46,4 @@ class SignalResult(BaseModel):
     confidence: int = Field(ge=0, le=100)
     rationale: str
     ticker: str
+    sources: list[dict] = []
