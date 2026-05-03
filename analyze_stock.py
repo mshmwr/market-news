@@ -43,9 +43,7 @@ def _write_signals_json(path: str, results: list[SignalResult]) -> None:
 def main(tickers: list[str], output_json: str | None = None) -> int:
     successful_results: list[SignalResult] = []
     failed: list[str] = []
-    for i, ticker in enumerate(tickers):
-        if i > 0:
-            time.sleep(13)  # Gemini free tier: 5 req/min
+    for ticker in tickers:
         print(f"\n{'=' * 40}")
         print(f"=== {ticker} ===")
         print(f"{'=' * 40}")
