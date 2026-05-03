@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-03T09:58:57Z",
+  "signals": [
+    {
+      "signal": "SELL",
+      "confidence": 70,
+      "rationale": "The stock faces significant headwinds from regulatory scrutiny and increasing competition in the critical Chinese market, threatening future growth. Despite strong current revenue growth and profit margins, a very high debt-to-equity ratio indicates substantial financial risk. Technical indicators show slight bearish momentum, further contributing to a cautious outlook.",
+      "ticker": "NVDA"
+    },
+    {
+      "signal": "SELL",
+      "confidence": 85,
+      "rationale": "Despite recent bullish technical momentum, the stock exhibits significant fundamental risks with an extremely high PE ratio, a low profit margin, and an alarming debt-to-equity ratio. These factors suggest severe overvaluation and financial risk.",
+      "ticker": "TSLA"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 70,
+      "rationale": "The CEO's warning of an extended memory crunch poses a significant headwind for future earnings, while the stock trades at a high PE ratio. Although recent technicals show strong momentum, the RSI suggests the stock is nearing overbought conditions, making it vulnerable to this negative news.",
+      "ticker": "AAPL"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "Despite positive news regarding market capitalization and strong fundamental growth with excellent profit margins, the stock is technically overbought with an RSI of 82.5, suggesting a potential short-term pullback. Additionally, the significantly high debt-to-equity ratio raises fundamental concerns that warrant caution.",
+      "ticker": "GOOGL"
+    },
+    {
+      "signal": "SELL",
+      "confidence": 85,
+      "rationale": "Despite strong revenue growth and profit margins, an extremely high debt-to-equity ratio of 17.13 presents significant financial risk. The high PE ratio suggests a premium valuation, and while technicals show bullish momentum, the elevated RSI and low volume warrant caution.",
+      "ticker": "TSM"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 55,
+      "rationale": "While RSI indicates bullish momentum, a bearish MACD crossover and subdued trading volume suggest a potential short-term pullback or consolidation. Therefore, a hold position is recommended due to mixed technical signals and the absence of other data layers.",
+      "ticker": "BTC-USD"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 60,
+      "rationale": "Technical analysis indicates bearish momentum from the MACD histogram and low volume, suggesting a lack of strong buying interest. However, the RSI remains neutral, preventing a strong sell recommendation and indicating a period of consolidation or potential for further weakness.",
+      "ticker": "ETH-USD"
+    },
+    {
+      "signal": "SELL",
+      "confidence": 70,
+      "rationale": "Technical signals indicate an overbought condition with a high RSI and a price significantly below its 50-day moving average, suggesting strong bearish momentum. Furthermore, the high P/E ratio for the underlying index suggests potential overvaluation, outweighing the bullish MACD signal.",
+      "ticker": "SPY"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "QQQ exhibits strong bullish momentum with a positive MACD, however, it is significantly overbought with an RSI nearing 75. Coupled with a relatively high PE ratio, this suggests potential for a near-term pullback or consolidation, warranting caution rather than further buying.",
+      "ticker": "QQQ"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "SOXX shows strong bullish momentum via MACD but is significantly overbought with an RSI of 75.89. Coupled with a high PE ratio of 52.3, the risk of a near-term correction is elevated despite recent gains.",
+      "ticker": "SOXX"
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "The technical analysis shows strong bullish momentum with a positive MACD. However, the RSI indicates overbought conditions, suggesting a potential short-term pullback or consolidation, and volume is slightly below average, warranting caution.",
+      "ticker": "^GSPC"
+    },
+    {
+      "signal": "SELL",
+      "confidence": 75,
+      "rationale": "The VIX is exhibiting strong bearish momentum, with RSI at 38.61 indicating downward pressure and the MACD line crossing below its signal line with a negative histogram. These technical indicators suggest a continued decline in market volatility.",
+      "ticker": "^VIX"
+    }
+  ]
+}
