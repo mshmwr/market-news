@@ -137,9 +137,9 @@ Decision: Out of scope for MN-002. Frontend uses defensive optional access (`res
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Phase 1 — JSON output flag | not started | |
-| Phase 2 — GitHub Actions workflow | not started | depends on Phase 1 |
-| Phase 3 — HTML Signals section | not started | depends on Phase 2 |
+| Phase 1 — JSON output flag | complete | QA-PASS 2026-05-03 |
+| Phase 2 — GitHub Actions workflow | complete | QA-PASS 2026-05-03 |
+| Phase 3 — HTML Signals section | complete | QA-PASS 2026-05-03 |
 
 ## Release Status
 
