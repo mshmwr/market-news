@@ -158,12 +158,17 @@
       font-size: 11px; font-weight: 600; color: #999;
       text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px;
     }
+    .signal-source-row {
+      display: flex; align-items: baseline; gap: 6px; line-height: 1.5;
+    }
     .signal-sources a {
-      display: block; font-size: 11px; color: #0071e3;
-      text-decoration: none; line-height: 1.5;
+      font-size: 11px; color: #0071e3;
+      text-decoration: none;
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      flex: 1; min-width: 0;
     }
     .signal-sources a:hover { text-decoration: underline; }
+    .signal-source-date { font-size: 10px; color: #999; white-space: nowrap; flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -381,12 +386,23 @@
         titleEl.textContent = '參考新聞';
         sourcesEl.appendChild(titleEl);
         s.sources.forEach(src => {
+          const row = document.createElement('div');
+          row.className = 'signal-source-row';
           const a = document.createElement('a');
           a.href = src.url;
           a.textContent = src.title || src.url;
           a.target = '_blank';
           a.rel = 'noopener';
-          sourcesEl.appendChild(a);
+          row.appendChild(a);
+          if (src.published_ts) {
+            const d = new Date(src.published_ts * 1000);
+            const dateStr = `${d.getMonth() + 1}/${d.getDate()}`;
+            const dateEl = document.createElement('span');
+            dateEl.className = 'signal-source-date';
+            dateEl.textContent = dateStr;
+            row.appendChild(dateEl);
+          }
+          sourcesEl.appendChild(row);
         });
       }
 
