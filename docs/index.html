@@ -556,8 +556,12 @@
       detailsEl.appendChild(sourcesEl);
       card.appendChild(detailsEl);
 
-      card.addEventListener('mouseenter', () => card.classList.add('expanded'));
-      card.addEventListener('mouseleave', () => card.classList.remove('expanded'));
+      if (window.matchMedia('(hover: hover)').matches) {
+        card.addEventListener('mouseenter', () => card.classList.add('expanded'));
+        card.addEventListener('mouseleave', () => card.classList.remove('expanded'));
+      } else {
+        card.addEventListener('click', () => card.classList.toggle('expanded'));
+      }
 
       return card;
     }
