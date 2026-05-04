@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-04",
+  "filters": {
+    "top_n": 20,
+    "min_upside_pct": 10.0,
+    "max_week52_pos_pct": 40.0,
+    "max_rel_pe": 0.9,
+    "min_market_cap_b": 20.0
+  },
+  "candidates": [
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications, Inc.",
+      "sector": "Communication Services",
+      "price": 171.74,
+      "market_cap": 24245972992,
+      "upside_pct": 45.1,
+      "week52_pos": 4.9,
+      "relative_pe": 0.21,
+      "score": 97.9
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "sector": "Technology",
+      "price": 179.83,
+      "market_cap": 110673698816,
+      "upside_pct": 38.6,
+      "week52_pos": 4.1,
+      "relative_pe": 0.53,
+      "score": 95.2
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant Technology Solutions ",
+      "sector": "Technology",
+      "price": 52.43,
+      "market_cap": 24799389696,
+      "upside_pct": 44.0,
+      "week52_pos": 0.4,
+      "relative_pe": 0.41,
+      "score": 94.7
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "sector": "Technology",
+      "price": 183.82,
+      "market_cap": 150374645760,
+      "upside_pct": 46.8,
+      "week52_pos": 15.3,
+      "relative_pe": 0.84,
+      "score": 87.3
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Technology",
+      "price": 75.12,
+      "market_cap": 154605682688,
+      "upside_pct": 38.4,
+      "week52_pos": 19.9,
+      "relative_pe": 0.57,
+      "score": 84.5
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "price": 250.71,
+      "market_cap": 101336981504,
+      "upside_pct": 31.3,
+      "week52_pos": 13.4,
+      "relative_pe": 0.52,
+      "score": 84.0
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare Technologies Inc.",
+      "sector": "Healthcare",
+      "price": 61.03,
+      "market_cap": 27762044928,
+      "upside_pct": 31.0,
+      "week52_pos": 7.4,
+      "relative_pe": 0.67,
+      "score": 73.6
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis Inc.",
+      "sector": "Healthcare",
+      "price": 114.16,
+      "market_cap": 48190099456,
+      "upside_pct": 30.4,
+      "week52_pos": 2.0,
+      "relative_pe": 0.86,
+      "score": 71.6
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines",
+      "sector": "Technology",
+      "price": 232.2,
+      "market_cap": 218241368064,
+      "upside_pct": 20.4,
+      "week52_pos": 11.0,
+      "relative_pe": 0.73,
+      "score": 71.5
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive Corporation (The)",
+      "sector": "Financial Services",
+      "price": 199.31,
+      "market_cap": 116476764160,
+      "upside_pct": 15.5,
+      "week52_pos": 7.4,
+      "relative_pe": 0.72,
+      "score": 70.0
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed Inc.",
+      "sector": "Healthcare",
+      "price": 205.02,
+      "market_cap": 29866985472,
+      "upside_pct": 32.0,
+      "week52_pos": 6.7,
+      "relative_pe": 0.9,
+      "score": 69.1
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "price": 414.195,
+      "market_cap": 3076820566016,
+      "upside_pct": 35.4,
+      "week52_pos": 29.1,
+      "relative_pe": 0.88,
+      "score": 68.9
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast Corporation",
+      "sector": "Communication Services",
+      "price": 27.165,
+      "market_cap": 97039589376,
+      "upside_pct": 21.4,
+      "week52_pos": 29.7,
+      "relative_pe": 0.24,
+      "score": 68.3
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy Corporation",
+      "sector": "Energy",
+      "price": 100.12,
+      "market_cap": 23951593472,
+      "upside_pct": 32.3,
+      "week52_pos": 25.6,
+      "relative_pe": 0.62,
+      "score": 65.0
+    },
+    {
+      "ticker": "VICI",
+      "name": "VICI Properties Inc.",
+      "sector": "Real Estate",
+      "price": 28.58,
+      "market_cap": 30774376448,
+      "upside_pct": 19.7,
+      "week52_pos": 27.2,
+      "relative_pe": 0.28,
+      "score": 62.4
+    },
+    {
+      "ticker": "ROP",
+      "name": "Roper Technologies, Inc.",
+      "sector": "Technology",
+      "price": 358.22,
+      "market_cap": 36870692864,
+      "upside_pct": 26.7,
+      "week52_pos": 16.7,
+      "relative_pe": 0.8,
+      "score": 61.3
+    },
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Cruises Ltd.",
+      "sector": "Consumer Cyclical",
+      "price": 265.55,
+      "market_cap": 71838793728,
+      "upside_pct": 29.0,
+      "week52_pos": 29.7,
+      "relative_pe": 0.81,
+      "score": 60.1
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "sector": "Communication Services",
+      "price": 103.08,
+      "market_cap": 182608265216,
+      "upside_pct": 24.4,
+      "week52_pos": 38.4,
+      "relative_pe": 0.69,
+      "score": 59.2
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing, Inc.",
+      "sector": "Technology",
+      "price": 214.21,
+      "market_cap": 85627084800,
+      "upside_pct": 15.2,
+      "week52_pos": 18.4,
+      "relative_pe": 0.71,
+      "score": 58.4
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower Corporation (REI",
+      "sector": "Real Estate",
+      "price": 181.61,
+      "market_cap": 84610834432,
+      "upside_pct": 19.0,
+      "week52_pos": 23.9,
+      "relative_pe": 0.84,
+      "score": 54.9
+    }
+  ]
+}
