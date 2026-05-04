@@ -21,6 +21,7 @@ def fetch_fundamentals_signal(ticker: str) -> FundamentalsSignal:
             book_value=info.get("bookValue"),
             recommendation_key=info.get("recommendationKey"),
             number_of_analyst_opinions=info.get("numberOfAnalystOpinions"),
+            sector=info.get("sector"),
             ticker=ticker,
         )
     except Exception:
