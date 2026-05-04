@@ -26,6 +26,20 @@ import yfinance as yf
 
 from valuation import SECTOR_PE_BENCHMARK
 
+_SECTOR_ZH: dict[str, str] = {
+    "Technology": "科技",
+    "Healthcare": "醫療保健",
+    "Consumer Cyclical": "消費循環",
+    "Consumer Defensive": "必需消費",
+    "Financial Services": "金融服務",
+    "Communication Services": "通訊服務",
+    "Energy": "能源",
+    "Industrials": "工業",
+    "Basic Materials": "基礎材料",
+    "Real Estate": "房地產",
+    "Utilities": "公用事業",
+}
+
 
 def _sp500_tickers() -> list[str]:
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -58,10 +72,12 @@ def _generate_reason(r: dict) -> str:
         pct = round((1 - rpe) * 100)
         parts.append(f"本益比低於產業均值 {pct}%")
     mc = r.get("market_cap") or 0
+    sector_zh = _SECTOR_ZH.get(r.get("sector", ""), "")
+    sector_prefix = f"{sector_zh}行業" if sector_zh else "行業"
     if mc >= 100e9:
-        parts.append("行業龍頭市值")
+        parts.append(f"{sector_prefix}龍頭市值")
     elif mc >= 20e9:
-        parts.append("大型市值知名品牌")
+        parts.append(f"{sector_prefix}大型市值")
     return "；".join(parts) + "。" if parts else "多項量化指標顯示潛在低估。"
 
 
