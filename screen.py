@@ -13,13 +13,15 @@ Scoring (0–100):
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 import time
+from datetime import date
 
 import pandas as pd
 import yfinance as yf
 
-from synthesizer import _SECTOR_PE_BENCHMARK
+from valuation import SECTOR_PE_BENCHMARK
 
 
 def _sp500_tickers() -> list[str]:
@@ -51,7 +53,7 @@ def _fetch_row(ticker: str) -> dict | None:
             row["week52_pos"] = round((price - lo) / (hi - lo) * 100, 1)
 
         pe = info.get("trailingPE")
-        sector_avg = _SECTOR_PE_BENCHMARK.get(info.get("sector", ""))
+        sector_avg = SECTOR_PE_BENCHMARK.get(info.get("sector", ""))
         if pe and pe > 0 and sector_avg:
             row["relative_pe"] = round(pe / sector_avg, 2)
 
@@ -138,6 +140,8 @@ def main() -> None:
                     help="Max P/E relative to sector average (default 0.9)")
     ap.add_argument("--limit", type=int, default=None, metavar="N",
                     help="Only check first N tickers (for testing)")
+    ap.add_argument("--output", type=str, default=None, metavar="PATH",
+                    help="Save results as JSON to PATH (e.g. docs/screen-2026-05-04.json)")
     args = ap.parse_args()
 
     rows = screen(
@@ -148,6 +152,21 @@ def main() -> None:
         limit=args.limit,
     )
     _print_results(rows)
+
+    if args.output:
+        payload = {
+            "date": str(date.today()),
+            "filters": {
+                "top_n": args.top,
+                "min_upside_pct": args.min_upside,
+                "max_week52_pos_pct": args.max_52w_pos,
+                "max_rel_pe": args.max_rel_pe,
+            },
+            "candidates": rows,
+        }
+        with open(args.output, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, ensure_ascii=False, indent=2)
+        print(f"Saved → {args.output}", file=sys.stderr)
 
 
 if __name__ == "__main__":
