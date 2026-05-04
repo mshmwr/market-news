@@ -48,11 +48,15 @@ jobs:
               --save-bundles docs/bundles/$TODAY $TICKERS
           fi
 
+      - name: Run screener (S&P 100)
+        run: |
+          python screen.py --sp100 --top 10 --min-market-cap 20 --output docs/screen-latest.json
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/signals.json docs/bundles/
+          git add docs/signals.json docs/bundles/ docs/screen-latest.json
           git diff --staged --quiet || git commit -m "chore: update signals $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git pull --rebase
           git push

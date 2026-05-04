@@ -1,7 +1,8 @@
-"""Screen S&P 500 for potentially undervalued stocks using fundamentals only.
+"""Screen S&P 500 / S&P 100 for potentially undervalued stocks using fundamentals only.
 
 Usage:
-  python3 screen.py                            # top 20 with default filters
+  python3 screen.py                            # top 20, S&P 500
+  python3 screen.py --sp100                    # S&P 100 only (~3 min, daily automation)
   python3 screen.py --top 10 --min-upside 20
   python3 screen.py --limit 50                 # quick test (first 50 tickers)
   python3 screen.py --min-market-cap 50        # only $50B+ companies
@@ -30,6 +31,38 @@ def _sp500_tickers() -> list[str]:
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
     df = pd.read_html(url, storage_options={"User-Agent": "Mozilla/5.0"})[0]
     return df["Symbol"].str.replace(".", "-", regex=False).tolist()
+
+
+def _sp100_tickers() -> list[str]:
+    url = "https://en.wikipedia.org/wiki/S%26P_100"
+    tables = pd.read_html(url, storage_options={"User-Agent": "Mozilla/5.0"})
+    for df in tables:
+        if "Symbol" in df.columns:
+            return df["Symbol"].str.replace(".", "-", regex=False).tolist()
+    return _sp500_tickers()[:100]
+
+
+def _generate_reason(r: dict) -> str:
+    parts = []
+    upside = r.get("upside_pct")
+    if upside and upside >= 15:
+        parts.append(f"分析師共識漲幅 +{upside:.0f}%")
+    w52 = r.get("week52_pos")
+    if w52 is not None:
+        if w52 <= 10:
+            parts.append(f"近52週最低點（{w52:.0f}%）")
+        elif w52 <= 25:
+            parts.append(f"位於52週低點區（{w52:.0f}%）")
+    rpe = r.get("relative_pe")
+    if rpe is not None and rpe <= 0.9:
+        pct = round((1 - rpe) * 100)
+        parts.append(f"本益比低於產業均值 {pct}%")
+    mc = r.get("market_cap") or 0
+    if mc >= 100e9:
+        parts.append("行業龍頭市值")
+    elif mc >= 20e9:
+        parts.append("大型市值知名品牌")
+    return "；".join(parts) + "。" if parts else "多項量化指標顯示潛在低估。"
 
 
 def _fetch_row(ticker: str) -> dict | None:
@@ -62,6 +95,7 @@ def _fetch_row(ticker: str) -> dict | None:
             row["relative_pe"] = round(pe / sector_avg, 2)
 
         row["score"] = _uv_score(row)
+        row["reason"] = _generate_reason(row)
         return row
     except Exception:
         return None
@@ -104,8 +138,9 @@ def screen(
     max_rel_pe: float = 0.9,
     min_market_cap_b: float = 10.0,
     limit: int | None = None,
+    use_sp100: bool = False,
 ) -> list[dict]:
-    tickers = _sp500_tickers()
+    tickers = _sp100_tickers() if use_sp100 else _sp500_tickers()
     if limit:
         tickers = tickers[:limit]
 
@@ -165,6 +200,8 @@ def main() -> None:
                     help="Max P/E relative to sector average (default 0.9)")
     ap.add_argument("--min-market-cap", type=float, default=10.0, metavar="B",
                     help="Min market cap in billions (default 10 = $10B+; use 0 for no filter)")
+    ap.add_argument("--sp100", action="store_true",
+                    help="Use S&P 100 instead of S&P 500 (~3 min, for daily automation)")
     ap.add_argument("--limit", type=int, default=None, metavar="N",
                     help="Only check first N tickers (for testing)")
     ap.add_argument("--output", type=str, default=None, metavar="PATH",
@@ -178,6 +215,7 @@ def main() -> None:
         max_rel_pe=args.max_rel_pe,
         min_market_cap_b=args.min_market_cap,
         limit=args.limit,
+        use_sp100=args.sp100,
     )
     _print_results(rows)
 

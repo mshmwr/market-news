@@ -1,0 +1,132 @@
+{
+  "date": "2026-05-04",
+  "filters": {
+    "top_n": 10,
+    "min_upside_pct": 10.0,
+    "max_week52_pos_pct": 40.0,
+    "max_rel_pe": 0.9,
+    "min_market_cap_b": 20.0
+  },
+  "candidates": [
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications, Inc.",
+      "sector": "Communication Services",
+      "price": 171.74,
+      "market_cap": 24245972992,
+      "upside_pct": 45.1,
+      "week52_pos": 4.9,
+      "relative_pe": 0.21,
+      "score": 97.9,
+      "reason": "分析師共識漲幅 +45%；近52週最低點（5%）；本益比低於產業均值 79%；大型市值知名品牌。"
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "sector": "Technology",
+      "price": 179.83,
+      "market_cap": 110673698816,
+      "upside_pct": 38.6,
+      "week52_pos": 4.1,
+      "relative_pe": 0.53,
+      "score": 95.2,
+      "reason": "分析師共識漲幅 +39%；近52週最低點（4%）；本益比低於產業均值 47%；行業龍頭市值。"
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant Technology Solutions ",
+      "sector": "Technology",
+      "price": 52.43,
+      "market_cap": 24799389696,
+      "upside_pct": 44.0,
+      "week52_pos": 0.4,
+      "relative_pe": 0.41,
+      "score": 94.7,
+      "reason": "分析師共識漲幅 +44%；近52週最低點（0%）；本益比低於產業均值 59%；大型市值知名品牌。"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "sector": "Technology",
+      "price": 183.82,
+      "market_cap": 150374645760,
+      "upside_pct": 46.8,
+      "week52_pos": 15.3,
+      "relative_pe": 0.84,
+      "score": 87.3,
+      "reason": "分析師共識漲幅 +47%；位於52週低點區（15%）；本益比低於產業均值 16%；行業龍頭市值。"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Technology",
+      "price": 75.12,
+      "market_cap": 154605682688,
+      "upside_pct": 38.4,
+      "week52_pos": 19.9,
+      "relative_pe": 0.57,
+      "score": 84.5,
+      "reason": "分析師共識漲幅 +38%；位於52週低點區（20%）；本益比低於產業均值 43%；行業龍頭市值。"
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "price": 250.71,
+      "market_cap": 101336981504,
+      "upside_pct": 31.3,
+      "week52_pos": 13.4,
+      "relative_pe": 0.52,
+      "score": 84.0,
+      "reason": "分析師共識漲幅 +31%；位於52週低點區（13%）；本益比低於產業均值 48%；行業龍頭市值。"
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare Technologies Inc.",
+      "sector": "Healthcare",
+      "price": 61.03,
+      "market_cap": 27762044928,
+      "upside_pct": 31.0,
+      "week52_pos": 7.4,
+      "relative_pe": 0.67,
+      "score": 73.6,
+      "reason": "分析師共識漲幅 +31%；近52週最低點（7%）；本益比低於產業均值 33%；大型市值知名品牌。"
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis Inc.",
+      "sector": "Healthcare",
+      "price": 114.16,
+      "market_cap": 48190099456,
+      "upside_pct": 30.4,
+      "week52_pos": 2.0,
+      "relative_pe": 0.86,
+      "score": 71.6,
+      "reason": "分析師共識漲幅 +30%；近52週最低點（2%）；本益比低於產業均值 14%；大型市值知名品牌。"
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines",
+      "sector": "Technology",
+      "price": 232.2,
+      "market_cap": 218241368064,
+      "upside_pct": 20.4,
+      "week52_pos": 11.0,
+      "relative_pe": 0.73,
+      "score": 71.5,
+      "reason": "分析師共識漲幅 +20%；位於52週低點區（11%）；本益比低於產業均值 27%；行業龍頭市值。"
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive Corporation (The)",
+      "sector": "Financial Services",
+      "price": 199.31,
+      "market_cap": 116476764160,
+      "upside_pct": 15.5,
+      "week52_pos": 7.4,
+      "relative_pe": 0.72,
+      "score": 70.0,
+      "reason": "分析師共識漲幅 +16%；近52週最低點（7%）；本益比低於產業均值 28%；行業龍頭市值。"
+    }
+  ]
+}
