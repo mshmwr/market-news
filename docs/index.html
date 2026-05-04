@@ -298,8 +298,8 @@
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
-      <div id="market-overview" hidden></div>
       <p class="signals-hint">信心度 = AI 對訊號方向的把握程度（0–100%）；數值越高代表新聞、技術面、基本面指向越一致。點擊卡片可展開詳細數據。</p>
+      <div id="market-overview" hidden></div>
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
@@ -667,6 +667,7 @@
             '收益成長: ' + fmtPct(f.revenue_growth),
             '利潤率: ' + fmtPct(f.profit_margin),
             '負債比: ' + fmt(f.debt_to_equity),
+            ...(f.recommendation_key ? ['法人評等: ' + f.recommendation_key + (f.number_of_analyst_opinions ? ' (' + f.number_of_analyst_opinions + '人)' : '')] : []),
           ]],
         ];
         if (uvItems.length > 0) sections.push(['💹 低估指標', uvItems]);

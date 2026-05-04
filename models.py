@@ -33,6 +33,8 @@ class FundamentalsSignal(BaseModel):
     fifty_two_week_high: float | None = None
     trailing_eps: float | None = None
     book_value: float | None = None
+    recommendation_key: str | None = None
+    number_of_analyst_opinions: int | None = None
     ticker: str
 
 
