@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 import os
 
 from openai import OpenAI
@@ -11,12 +12,40 @@ from models import SignalBundle, SignalResult
 SYSTEM_PROMPT = """You are a quantitative financial analyst. You will be given a JSON object containing four signal layers for a stock ticker:
 - news: recent news articles mentioning the ticker
 - technical: RSI, MACD, MA50, volume ratio computed from 6 months of daily price data
-- fundamentals: PE ratio, revenue growth, profit margin, debt-to-equity (null means unavailable, e.g. for ETFs/indices)
+- fundamentals: PE ratio, forward PE, P/B ratio, revenue growth, profit margin, debt-to-equity, analyst target price, current price, 52-week range, EPS, book value (null means unavailable, e.g. for ETFs/indices)
 - social: Reddit post sentiment (available=false means data was unavailable)
+
+Undervaluation signals to weigh:
+- upside_pct > 15%: analyst consensus sees meaningful upside
+- week52_position_pct < 30%: price near 52-week low (potential value or distress)
+- price_vs_graham_pct < 0%: price below Graham Number (classic value signal)
+- forward_pe significantly below trailing_pe: earnings growth expected
 
 Analyze all available signals and produce a synthesized recommendation.
 Respond with ONLY a valid JSON object — no markdown fences, no prose, no explanation outside the JSON:
 {"signal": "BUY" | "HOLD" | "SELL", "confidence": <integer 0-100>, "rationale": "<one to three sentences>"}"""
+
+
+def _compute_undervaluation(bundle: SignalBundle) -> dict:
+    f = bundle.fundamentals
+    uv: dict = {}
+
+    price = f.current_price
+    if price and f.target_mean_price:
+        uv["upside_pct"] = round((f.target_mean_price - price) / price * 100, 1)
+
+    lo, hi = f.fifty_two_week_low, f.fifty_two_week_high
+    if price and lo and hi and hi > lo:
+        uv["week52_position_pct"] = round((price - lo) / (hi - lo) * 100, 1)
+
+    eps, bv = f.trailing_eps, f.book_value
+    if eps and bv and eps > 0 and bv > 0:
+        graham = math.sqrt(22.5 * eps * bv)
+        uv["graham_number"] = round(graham, 2)
+        if price:
+            uv["price_vs_graham_pct"] = round((price - graham) / graham * 100, 1)
+
+    return uv
 
 
 def _make_client() -> OpenAI:
@@ -34,7 +63,11 @@ def synthesize(
     if client is None:
         client = _make_client()
 
-    user_message = bundle.model_dump_json(indent=2)
+    uv = _compute_undervaluation(bundle)
+    bundle_dict = bundle.model_dump()
+    if uv:
+        bundle_dict["undervaluation"] = uv
+    user_message = json.dumps(bundle_dict, indent=2, ensure_ascii=False)
 
     response = client.chat.completions.create(
         model="minimaxai/minimax-m2.7",
@@ -67,7 +100,9 @@ def synthesize(
         fund = {k: v for k, v in bundle.fundamentals.model_dump().items() if k != "ticker"}
         return SignalResult(
             ticker=ticker, sources=sources, social_posts=social_posts,
-            technical_data=tech, fundamentals_data=fund, **data
+            technical_data=tech, fundamentals_data=fund,
+            undervaluation_data=uv or None,
+            **data
         )
     except (json.JSONDecodeError, ValueError, KeyError, ValidationError) as exc:
         raise ValueError(
