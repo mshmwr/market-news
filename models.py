@@ -22,9 +22,17 @@ class TechnicalSignal(BaseModel):
 
 class FundamentalsSignal(BaseModel):
     pe_ratio: float | None
+    forward_pe: float | None = None
+    price_to_book: float | None = None
     revenue_growth: float | None
     profit_margin: float | None
     debt_to_equity: float | None
+    target_mean_price: float | None = None
+    current_price: float | None = None
+    fifty_two_week_low: float | None = None
+    fifty_two_week_high: float | None = None
+    trailing_eps: float | None = None
+    book_value: float | None = None
     ticker: str
 
 
@@ -50,3 +58,4 @@ class SignalResult(BaseModel):
     social_posts: list[dict] = []
     technical_data: dict | None = None
     fundamentals_data: dict | None = None
+    undervaluation_data: dict | None = None
