@@ -111,6 +111,7 @@
       border: 1.5px solid #ccc; background: #fff; cursor: pointer; color: #555;
     }
     .sort-btn.active { border-color: #888; color: #1d1d1f; font-weight: 500; }
+    .signals-hint { font-size: 11px; color: #aaa; margin: 0 0 10px; line-height: 1.5; }
     .signal-cat-filters { display: flex; flex-wrap: wrap; gap: 6px; }
     .sig-filter-btn {
       padding: 4px 12px; border-radius: 20px; border: 1.5px solid #ccc;
@@ -298,6 +299,7 @@
         <span id="signals-updated"></span>
       </div>
       <div id="market-overview" hidden></div>
+      <p class="signals-hint">信心度 = AI 對訊號方向的把握程度（0–100%）；數值越高代表新聞、技術面、基本面指向越一致。點擊卡片可展開詳細數據。</p>
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
