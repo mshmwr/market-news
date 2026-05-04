@@ -25,10 +25,26 @@ Undervaluation signals to weigh:
 - week52_position_pct < 30%: price near 52-week low (potential value or distress)
 - price_vs_graham_pct < 0%: price below Graham Number (classic value signal)
 - forward_pe significantly below trailing_pe: earnings growth expected
+- relative_pe < 0.8: trading at a meaningful discount to sector peers — bullish value signal when combined with other positives
+- relative_pe > 1.2: premium to sector peers — factor in as headwind for BUY calls; not bearish alone
 
 Analyze all available signals and produce a synthesized recommendation.
 Respond with ONLY a valid JSON object — no markdown fences, no prose, no explanation outside the JSON:
 {"signal": "BUY" | "HOLD" | "SELL", "confidence": <integer 0-100>, "rationale": "<one to three sentences>"}"""
+
+_SECTOR_PE_BENCHMARK: dict[str, float] = {
+    "Technology": 28.0,
+    "Communication Services": 22.0,
+    "Consumer Cyclical": 20.0,
+    "Consumer Defensive": 18.0,
+    "Healthcare": 22.0,
+    "Financial Services": 14.0,
+    "Industrials": 18.0,
+    "Basic Materials": 15.0,
+    "Energy": 12.0,
+    "Real Estate": 35.0,
+    "Utilities": 17.0,
+}
 
 
 def _compute_undervaluation(bundle: SignalBundle) -> dict:
@@ -49,6 +65,11 @@ def _compute_undervaluation(bundle: SignalBundle) -> dict:
         uv["graham_number"] = round(graham, 2)
         if price:
             uv["price_vs_graham_pct"] = round((price - graham) / graham * 100, 1)
+
+    sector_avg = _SECTOR_PE_BENCHMARK.get(f.sector or "")
+    if f.pe_ratio and f.pe_ratio > 0 and sector_avg:
+        uv["relative_pe"] = round(f.pe_ratio / sector_avg, 2)
+        uv["sector_pe_avg"] = sector_avg
 
     return uv
 

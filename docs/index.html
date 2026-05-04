@@ -653,6 +653,7 @@
         if (uv.week52_position_pct != null) uvItems.push('52週位置: ' + fmt(uv.week52_position_pct) + '%');
         if (uv.graham_number != null)       uvItems.push('Graham值: ' + fmt(uv.graham_number, 2));
         if (uv.price_vs_graham_pct != null) uvItems.push('vs Graham: ' + fmtDelta(uv.price_vs_graham_pct));
+        if (uv.relative_pe != null)         uvItems.push('同業相對P/E: ' + fmt(uv.relative_pe, 2) + 'x（均值' + fmt(uv.sector_pe_avg, 0) + '）');
         const sections = [
           ['📊 技術指標', [
             'RSI: ' + fmt(t.rsi),

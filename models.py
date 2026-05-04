@@ -35,6 +35,7 @@ class FundamentalsSignal(BaseModel):
     book_value: float | None = None
     recommendation_key: str | None = None
     number_of_analyst_opinions: int | None = None
+    sector: str | None = None
     ticker: str
 
 
