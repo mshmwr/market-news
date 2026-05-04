@@ -19,6 +19,8 @@ def fetch_fundamentals_signal(ticker: str) -> FundamentalsSignal:
             fifty_two_week_high=info.get("fiftyTwoWeekHigh"),
             trailing_eps=info.get("trailingEps"),
             book_value=info.get("bookValue"),
+            recommendation_key=info.get("recommendationKey"),
+            number_of_analyst_opinions=info.get("numberOfAnalystOpinions"),
             ticker=ticker,
         )
     except Exception:
