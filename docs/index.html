@@ -205,6 +205,35 @@
     .signal-data-values { display: flex; flex-wrap: wrap; gap: 4px; }
     .signal-data-item { font-size: 10px; padding: 2px 7px; border-radius: 10px; background: #f0f0f0; color: #555; }
 
+    /* --- Market Overview --- */
+    #market-overview {
+      background: #fff; border-radius: 12px; padding: 14px 16px;
+      margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    }
+    .mkt-title { font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 10px; }
+    .mkt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
+    .mkt-grid > div:last-child { grid-column: 1 / -1; }
+    @media (min-width: 560px) {
+      .mkt-grid { grid-template-columns: 1fr 1fr 1fr; }
+      .mkt-grid > div:last-child { grid-column: auto; }
+    }
+    .mkt-section-label { font-size: 10px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }
+    .mkt-sentiment-bar { display: flex; height: 5px; border-radius: 3px; overflow: hidden; margin-bottom: 6px; gap: 2px; }
+    .mkt-sentiment-rows, .mkt-indicator-rows, .mkt-cat-rows { display: flex; flex-direction: column; gap: 3px; }
+    .mkt-sentiment-row, .mkt-indicator-row, .mkt-cat-row { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+    .mkt-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .mkt-indicator-row { justify-content: space-between; }
+    .mkt-indicator-name { color: #888; }
+    .mkt-indicator-value { font-weight: 600; }
+    .mkt-sig-badge { font-size: 10px; padding: 1px 5px; border-radius: 5px; font-weight: 600; }
+    .mkt-sig-BUY  { background: #e8f5e9; color: #2e7d32; }
+    .mkt-sig-HOLD { background: #fff8e1; color: #f57f17; }
+    .mkt-sig-SELL { background: #ffebee; color: #c62828; }
+    .mkt-cat-label { width: 52px; color: #555; flex-shrink: 0; }
+    .mkt-cat-bar-bg { flex: 1; height: 4px; background: #f0f0f0; border-radius: 2px; }
+    .mkt-cat-bar-fill { height: 100%; background: #2e7d32; border-radius: 2px; transition: width .3s; }
+    .mkt-cat-count { color: #888; white-space: nowrap; min-width: 28px; text-align: right; }
+
     /* --- Feedback --- */
     #feedback-btn {
       position: fixed; bottom: 24px; right: 20px; z-index: 200;
@@ -268,6 +297,7 @@
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
+      <div id="market-overview" hidden></div>
       <div id="signals-list" class="signals-grid" hidden></div>
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
@@ -295,7 +325,7 @@
       'CRWD':'資安','TSLA':'EV','ONDS':'無人機',
       'BTC-USD':'加密貨幣','ETH-USD':'加密貨幣',
       'SPY':'ETF','QQQ':'ETF','SOXX':'ETF','IBB':'ETF',
-      '^GSPC':'指數','^VIX':'指數',
+      '^GSPC':'指數','^VIX':'指數','^TNX':'指數',
       'NOK':'通訊','CL=F':'原物料',
     };
     const SIG_CATS = [...new Set(Object.values(TICKER_CATEGORY))].sort();
@@ -482,12 +512,84 @@
             });
           }
           allSignals = data.signals;
+          buildMarketOverview(allSignals);
           renderSignals();
           signalsListEl.hidden = false;
         })
         .catch(() => {
           signalsPlaceholderEl.hidden = false;
         });
+    }
+
+    function buildMarketOverview(signals) {
+      const el = document.getElementById('market-overview');
+      const stock = signals.filter(s => TICKER_CATEGORY[s.ticker] !== '指數');
+      if (stock.length === 0) { el.hidden = true; return; }
+
+      const counts = {BUY: 0, HOLD: 0, SELL: 0};
+      stock.forEach(s => { if (s.signal in counts) counts[s.signal]++; });
+      const total = stock.length;
+      const bp = counts.BUY / total * 100, hp = counts.HOLD / total * 100, sp = counts.SELL / total * 100;
+
+      const catBuy = {};
+      stock.forEach(s => {
+        const cat = TICKER_CATEGORY[s.ticker]; if (!cat) return;
+        if (!catBuy[cat]) catBuy[cat] = {buy: 0, total: 0};
+        catBuy[cat].total++;
+        if (s.signal === 'BUY') catBuy[cat].buy++;
+      });
+      const topCats = Object.entries(catBuy)
+        .filter(([, v]) => v.buy > 0)
+        .sort((a, b) => b[1].buy - a[1].buy)
+        .slice(0, 5);
+
+      const vix = signals.find(s => s.ticker === '^VIX');
+      const spy = signals.find(s => s.ticker === 'SPY');
+      const qqq = signals.find(s => s.ticker === 'QQQ');
+      const tnx = signals.find(s => s.ticker === '^TNX');
+      const vixVal = vix?.fundamentals_data?.current_price;
+      const tnxVal = tnx?.fundamentals_data?.current_price;
+      const vixColor = vixVal == null ? '#888' : vixVal > 30 ? '#c62828' : vixVal > 20 ? '#e65100' : vixVal > 15 ? '#f57f17' : '#2e7d32';
+      const sigBadge = s => s ? `<span class="mkt-sig-badge mkt-sig-${s.signal}">${s.signal}</span>` : '<span style="color:#ccc">—</span>';
+
+      el.innerHTML = `
+        <div class="mkt-title">📡 市場總覽</div>
+        <div class="mkt-grid">
+          <div>
+            <div class="mkt-section-label">整體情緒（${total} 檔）</div>
+            <div class="mkt-sentiment-bar">
+              <div style="flex:${bp};background:#2e7d32;border-radius:3px 0 0 3px"></div>
+              <div style="flex:${hp};background:#f57f17"></div>
+              <div style="flex:${sp};background:#c62828;border-radius:0 3px 3px 0"></div>
+            </div>
+            <div class="mkt-sentiment-rows">
+              <div class="mkt-sentiment-row"><span class="mkt-dot" style="background:#2e7d32"></span>BUY ${counts.BUY}（${bp.toFixed(0)}%）</div>
+              <div class="mkt-sentiment-row"><span class="mkt-dot" style="background:#f57f17"></span>HOLD ${counts.HOLD}（${hp.toFixed(0)}%）</div>
+              <div class="mkt-sentiment-row"><span class="mkt-dot" style="background:#c62828"></span>SELL ${counts.SELL}（${sp.toFixed(0)}%）</div>
+            </div>
+          </div>
+          <div>
+            <div class="mkt-section-label">大盤指標</div>
+            <div class="mkt-indicator-rows">
+              <div class="mkt-indicator-row"><span class="mkt-indicator-name">VIX</span><span class="mkt-indicator-value" style="color:${vixColor}">${vixVal != null ? vixVal.toFixed(1) : 'N/A'}</span></div>
+              ${tnxVal != null ? `<div class="mkt-indicator-row"><span class="mkt-indicator-name">10Y殖利率</span><span class="mkt-indicator-value">${tnxVal.toFixed(2)}%</span></div>` : ''}
+              <div class="mkt-indicator-row"><span class="mkt-indicator-name">SPY</span>${sigBadge(spy)}</div>
+              <div class="mkt-indicator-row"><span class="mkt-indicator-name">QQQ</span>${sigBadge(qqq)}</div>
+            </div>
+          </div>
+          <div>
+            <div class="mkt-section-label">板塊熱度（BUY）</div>
+            <div class="mkt-cat-rows">
+              ${topCats.length > 0 ? topCats.map(([cat, v]) => `
+                <div class="mkt-cat-row">
+                  <span class="mkt-cat-label">${cat}</span>
+                  <div class="mkt-cat-bar-bg"><div class="mkt-cat-bar-fill" style="width:${(v.buy/v.total*100).toFixed(0)}%"></div></div>
+                  <span class="mkt-cat-count">${v.buy}/${v.total}</span>
+                </div>`).join('') : '<div style="font-size:11px;color:#ccc">暫無 BUY 訊號</div>'}
+            </div>
+          </div>
+        </div>`;
+      el.hidden = false;
     }
 
     function buildSignalCard(s) {
