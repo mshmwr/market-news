@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 import json
-import math
 import os
 
 from openai import OpenAI
 from pydantic import ValidationError
 
 from models import SignalBundle, SignalResult
+from valuation import compute_undervaluation
 
 SYSTEM_PROMPT = """You are a quantitative financial analyst. You will be given a JSON object containing four signal layers for a stock ticker:
 - news: recent news articles mentioning the ticker
@@ -32,47 +32,6 @@ Analyze all available signals and produce a synthesized recommendation.
 Respond with ONLY a valid JSON object — no markdown fences, no prose, no explanation outside the JSON:
 {"signal": "BUY" | "HOLD" | "SELL", "confidence": <integer 0-100>, "rationale": "<one to three sentences>"}"""
 
-_SECTOR_PE_BENCHMARK: dict[str, float] = {
-    "Technology": 28.0,
-    "Communication Services": 22.0,
-    "Consumer Cyclical": 20.0,
-    "Consumer Defensive": 18.0,
-    "Healthcare": 22.0,
-    "Financial Services": 14.0,
-    "Industrials": 18.0,
-    "Basic Materials": 15.0,
-    "Energy": 12.0,
-    "Real Estate": 35.0,
-    "Utilities": 17.0,
-}
-
-
-def _compute_undervaluation(bundle: SignalBundle) -> dict:
-    f = bundle.fundamentals
-    uv: dict = {}
-
-    price = f.current_price
-    if price and f.target_mean_price:
-        uv["upside_pct"] = round((f.target_mean_price - price) / price * 100, 1)
-
-    lo, hi = f.fifty_two_week_low, f.fifty_two_week_high
-    if price and lo and hi and hi > lo:
-        uv["week52_position_pct"] = round((price - lo) / (hi - lo) * 100, 1)
-
-    eps, bv = f.trailing_eps, f.book_value
-    if eps and bv and eps > 0 and bv > 0:
-        graham = math.sqrt(22.5 * eps * bv)
-        uv["graham_number"] = round(graham, 2)
-        if price:
-            uv["price_vs_graham_pct"] = round((price - graham) / graham * 100, 1)
-
-    sector_avg = _SECTOR_PE_BENCHMARK.get(f.sector or "")
-    if f.pe_ratio and f.pe_ratio > 0 and sector_avg:
-        uv["relative_pe"] = round(f.pe_ratio / sector_avg, 2)
-        uv["sector_pe_avg"] = sector_avg
-
-    return uv
-
 
 def _make_client() -> OpenAI:
     return OpenAI(
@@ -89,7 +48,7 @@ def synthesize(
     if client is None:
         client = _make_client()
 
-    uv = _compute_undervaluation(bundle)
+    uv = compute_undervaluation(bundle)
     bundle_dict = bundle.model_dump()
     if uv:
         bundle_dict["undervaluation"] = uv

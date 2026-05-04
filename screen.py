@@ -19,7 +19,7 @@ import time
 import pandas as pd
 import yfinance as yf
 
-from synthesizer import _SECTOR_PE_BENCHMARK
+from valuation import SECTOR_PE_BENCHMARK
 
 
 def _sp500_tickers() -> list[str]:
@@ -51,7 +51,7 @@ def _fetch_row(ticker: str) -> dict | None:
             row["week52_pos"] = round((price - lo) / (hi - lo) * 100, 1)
 
         pe = info.get("trailingPE")
-        sector_avg = _SECTOR_PE_BENCHMARK.get(info.get("sector", ""))
+        sector_avg = SECTOR_PE_BENCHMARK.get(info.get("sector", ""))
         if pe and pe > 0 and sector_avg:
             row["relative_pe"] = round(pe / sector_avg, 2)
 
