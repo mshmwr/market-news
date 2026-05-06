@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T03:44:28Z",
+  "generated_at": "2026-05-06T04:24:03Z",
   "signals": [
     {
       "signal": "BUY",
@@ -1420,6 +1420,87 @@
       },
       "undervaluation_data": {
         "week52_position_pct": 64.8
+      }
+    },
+    {
+      "signal": "BUY",
+      "confidence": 55,
+      "rationale": "QUBT trades near its 52-week low (17.2% position) with analyst targets implying 86.5% upside to $17.83, and technicals show modest bullish momentum with price above MA50 and positive MACD histogram; however, the lack of analyst recommendation (recommendation_key is 'none'), negative EPS (-0.11), and negative forward PE indicate unprofitability and high risk that temper enthusiasm.",
+      "ticker": "QUBT",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 61.09382969488376,
+        "macd_line": 0.41284734643440046,
+        "macd_signal": 0.3771478163011265,
+        "macd_histogram": 0.03569953013327398,
+        "ma50": 7.98009994506836,
+        "volume_ratio": 0.5839398563260367
+      },
+      "fundamentals_data": {
+        "pe_ratio": null,
+        "forward_pe": -32.96552,
+        "price_to_book": 1.3408135,
+        "revenue_growth": 2.194,
+        "profit_margin": 0.0,
+        "debt_to_equity": 0.161,
+        "target_mean_price": 17.83333,
+        "current_price": 9.56,
+        "fifty_two_week_low": 6.18,
+        "fifty_two_week_high": 25.84,
+        "trailing_eps": -0.11,
+        "book_value": 7.13,
+        "peg_ratio": null,
+        "recommendation_key": "none",
+        "number_of_analyst_opinions": 6,
+        "sector": "Technology"
+      },
+      "undervaluation_data": {
+        "upside_pct": 86.5,
+        "week52_position_pct": 17.2
+      }
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 65,
+      "rationale": "While COHR has strong institutional support (BUY rating with 21 analysts) and solid revenue growth (17.5%), the stock trades near its 52-week high (90.2% position) with analysts seeing -2.7% downside to their target, and the trailing P/E of 332 is extremely elevated due to low EPS. The forward P/E of 44 is more reasonable and PEG of 0.92 offers some value, but current positioning and lack of upside potential argue against a new BUY entry.",
+      "ticker": "COHR",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 61.76122839402477,
+        "macd_line": 15.07939658803241,
+        "macd_signal": 17.205239795048318,
+        "macd_histogram": -2.125843207015908,
+        "ma50": 281.9828009033203,
+        "volume_ratio": 0.9526439797353863
+      },
+      "fundamentals_data": {
+        "pe_ratio": 332.40594,
+        "forward_pe": 44.008636,
+        "price_to_book": 7.368641,
+        "revenue_growth": 0.175,
+        "profit_margin": 0.04657,
+        "debt_to_equity": 39.901,
+        "target_mean_price": 326.78275,
+        "current_price": 335.73,
+        "fifty_two_week_low": 67.3,
+        "fifty_two_week_high": 364.8,
+        "trailing_eps": 1.01,
+        "book_value": 45.562,
+        "peg_ratio": 0.92,
+        "recommendation_key": "buy",
+        "number_of_analyst_opinions": 21,
+        "sector": "Technology"
+      },
+      "undervaluation_data": {
+        "upside_pct": -2.7,
+        "week52_position_pct": 90.2,
+        "graham_number": 32.18,
+        "price_vs_graham_pct": 943.4,
+        "relative_pe": 11.87,
+        "sector_pe_avg": 28.0,
+        "peg_ratio": 0.92
       }
     }
   ]
