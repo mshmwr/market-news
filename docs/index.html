@@ -180,9 +180,10 @@
     [data-cat="原物料"] { background: #fff8e1; color: #f57f17; }
 
     .signal-ticker {
-      font-size: 14px; font-weight: 600; color: #1d1d1f;
-      overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1;
+      flex: 1; min-width: 0; overflow: hidden; display: flex; flex-direction: column; gap: 1px;
     }
+    .signal-ticker > span { font-size: 14px; font-weight: 600; color: #1d1d1f; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .signal-name { font-size: 11px; font-weight: 400; color: #888; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .signal-confidence { font-size: 12px; color: #555; white-space: nowrap; flex-shrink: 0; }
     .signal-badge {
       font-size: 11px; font-weight: 600; padding: 2px 8px;
@@ -698,9 +699,17 @@
         summaryEl.appendChild(catEl);
       }
 
-      const tickerEl = document.createElement('span');
+      const tickerEl = document.createElement('div');
       tickerEl.className = 'signal-ticker';
-      tickerEl.textContent = s.ticker ?? '';
+      const tickerText = document.createElement('span');
+      tickerText.textContent = s.ticker ?? '';
+      tickerEl.appendChild(tickerText);
+      if (s.name) {
+        const nameEl = document.createElement('span');
+        nameEl.className = 'signal-name';
+        nameEl.textContent = s.name;
+        tickerEl.appendChild(nameEl);
+      }
       summaryEl.appendChild(tickerEl);
 
       const confEl = document.createElement('span');

@@ -84,7 +84,8 @@ def synthesize(
         tech = {k: v for k, v in bundle.technical.model_dump().items() if k != "ticker"}
         fund = {k: v for k, v in bundle.fundamentals.model_dump().items() if k != "ticker"}
         return SignalResult(
-            ticker=ticker, sources=sources, social_posts=social_posts,
+            ticker=ticker, name=bundle.fundamentals.short_name,
+            sources=sources, social_posts=social_posts,
             technical_data=tech, fundamentals_data=fund,
             undervaluation_data=uv or None,
             **data

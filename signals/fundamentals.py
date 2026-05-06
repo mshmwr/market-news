@@ -20,6 +20,7 @@ def fetch_fundamentals_signal(ticker: str) -> FundamentalsSignal:
             trailing_eps=info.get("trailingEps"),
             book_value=info.get("bookValue"),
             peg_ratio=info.get("trailingPegRatio") or info.get("pegRatio"),
+            short_name=info.get("shortName"),
             recommendation_key=info.get("recommendationKey"),
             number_of_analyst_opinions=info.get("numberOfAnalystOpinions"),
             sector=info.get("sector"),

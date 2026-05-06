@@ -34,6 +34,7 @@ class FundamentalsSignal(BaseModel):
     trailing_eps: float | None = None
     book_value: float | None = None
     peg_ratio: float | None = None
+    short_name: str | None = None
     recommendation_key: str | None = None
     number_of_analyst_opinions: int | None = None
     sector: str | None = None
@@ -58,6 +59,7 @@ class SignalResult(BaseModel):
     confidence: int = Field(ge=0, le=100)
     rationale: str
     ticker: str
+    name: str | None = None
     sources: list[dict] = []
     social_posts: list[dict] = []
     technical_data: dict | None = None
