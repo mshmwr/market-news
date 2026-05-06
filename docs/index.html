@@ -65,10 +65,22 @@
     .signal-cat-filters[hidden] { display: none; }
     .filter-btn {
       padding: 6px 14px; border-radius: 20px; border: 1.5px solid #ccc;
-      background: #fff; font-size: 13px; cursor: pointer; transition: all .15s;
+      background: #fff; color: #1d1d1f; font-size: 13px; cursor: pointer; transition: all .15s;
     }
     .filter-btn:hover { border-color: #888; }
     .filter-btn.active { color: #fff; border-color: transparent; }
+
+    /* --- Signal action filter (BUY / HOLD / SELL) --- */
+    #signal-action-filters { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+    .sig-action-btn {
+      padding: 5px 14px; border-radius: 20px; border: 1.5px solid #ccc;
+      background: #fff; color: #1d1d1f; font-size: 13px; cursor: pointer; transition: all .15s;
+    }
+    .sig-action-btn:hover { border-color: #888; }
+    .sig-action-btn[data-action="all"].active  { background: #1d1d1f; color: #fff; border-color: transparent; }
+    .sig-action-btn[data-action="BUY"].active  { background: #2e7d32; color: #fff; border-color: transparent; }
+    .sig-action-btn[data-action="HOLD"].active { background: #f57f17; color: #fff; border-color: transparent; }
+    .sig-action-btn[data-action="SELL"].active { background: #c62828; color: #fff; border-color: transparent; }
     .filter-btn[data-cat="全部"].active       { background: #1d1d1f; }
     .filter-btn[data-cat="台股"].active       { background: #2e7d32; }
     .filter-btn[data-cat="美股"].active       { background: #1565c0; }
@@ -289,10 +301,6 @@
     <div class="header-top">
       <h1>每日市場新聞</h1>
       <div style="display:flex;gap:8px;align-items:center">
-        <div id="news-controls" style="display:flex;gap:8px;align-items:center">
-          <button id="refresh-btn" title="重新整理"><span class="icon">↻</span><span class="spinner"></span></button>
-          <span id="updated"></span>
-        </div>
         <button id="translate-btn">🌐 翻譯</button>
       </div>
     </div>
@@ -306,6 +314,7 @@
       <button class="filter-btn active" data-cat="美股">美股</button>
       <button class="filter-btn active" data-cat="加密貨幣">加密貨幣</button>
       <button class="filter-btn active" data-cat="宏觀">宏觀</button>
+      <button class="filter-btn" id="deselect-all-btn">全部取消</button>
     </div>
     <div id="signal-cat-filters" class="signal-cat-filters" hidden></div>
   </header>
@@ -318,6 +327,12 @@
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
+      <div id="signal-action-filters">
+        <button class="sig-action-btn active" data-action="all">全部</button>
+        <button class="sig-action-btn" data-action="BUY">🟢 BUY</button>
+        <button class="sig-action-btn" data-action="HOLD">🟡 HOLD</button>
+        <button class="sig-action-btn" data-action="SELL">🔴 SELL</button>
+      </div>
       <p class="signals-hint">信心度 = AI 對訊號方向的把握程度（0–100%）；數值越高代表新聞、技術面、基本面指向越一致。點擊卡片可展開詳細數據。</p>
       <div id="market-overview" hidden></div>
       <div id="screener-card" hidden></div>
@@ -325,6 +340,10 @@
       <div id="signals-placeholder" hidden>訊號暫未生成</div>
     </section>
     <section id="news-section">
+      <div id="news-controls" style="display:flex;gap:8px;align-items:center;margin-bottom:12px">
+        <button id="refresh-btn" title="重新整理"><span class="icon">↻</span><span class="spinner"></span></button>
+        <span id="updated"></span>
+      </div>
       <div id="status">載入中…</div>
       <div id="news-list" class="news-list" hidden></div>
     </section>
@@ -361,9 +380,11 @@
     const statusEl    = document.getElementById('status');
     const updatedEl   = document.getElementById('updated');
     const refreshBtn  = document.getElementById('refresh-btn');
-    const newsControlsEl      = document.getElementById('news-controls');
     const signalsRefreshBtn   = document.getElementById('signals-refresh-btn');
+    const sigActionBtns       = document.querySelectorAll('.sig-action-btn');
+    const deselectAllBtn      = document.getElementById('deselect-all-btn');
     let signalsDate = '';
+    let signalActionFilter = 'all';
     const toastEl     = document.getElementById('toast');
     const signalsSectionEl     = document.getElementById('signals-section');
     const newsSectionEl        = document.getElementById('news-section');
@@ -419,6 +440,7 @@
     function renderSignals() {
       signalsListEl.innerHTML = '';
       let signals = allSignals.filter(s => selectedSigCats.has(TICKER_CATEGORY[s.ticker] || ''));
+      if (signalActionFilter !== 'all') signals = signals.filter(s => s.signal === signalActionFilter);
       if (signalSort === 'desc') signals.sort((a, b) => b.confidence - a.confidence);
       if (signalSort === 'asc')  signals.sort((a, b) => a.confidence - b.confidence);
       signals.forEach(s => signalsListEl.appendChild(buildSignalCard(s)));
@@ -439,7 +461,6 @@
       newsSectionEl.hidden = onSignals;
       filtersEl.hidden = onSignals;
       sigCatFiltersEl.hidden = !onSignals;
-      newsControlsEl.hidden = onSignals;
       if (!onSignals) {
         if (allArticles.length > 0) {
           render();
@@ -472,6 +493,18 @@
         btn.classList.toggle('active', cat === '全部' ? allOn : selected.has(cat));
       });
     }
+
+    deselectAllBtn.addEventListener('click', () => {
+      selected.clear();
+      updateFilterButtons();
+      render();
+    });
+
+    sigActionBtns.forEach(btn => btn.addEventListener('click', () => {
+      signalActionFilter = btn.dataset.action;
+      sigActionBtns.forEach(b => b.classList.toggle('active', b.dataset.action === signalActionFilter));
+      renderSignals();
+    }));
 
     function formatTime(ts) {
       if (!ts) return '';
