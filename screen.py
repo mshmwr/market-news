@@ -40,6 +40,81 @@ _SECTOR_ZH: dict[str, str] = {
     "Utilities": "公用事業",
 }
 
+_INDUSTRY_ZH: dict[str, str] = {
+    # Technology
+    "Semiconductors": "半導體",
+    "Semiconductor Equipment & Materials": "半導體設備",
+    "Software - Application": "軟體應用",
+    "Software - Infrastructure": "系統軟體",
+    "Consumer Electronics": "消費電子",
+    "Computer Hardware": "電腦硬體",
+    "Electronic Components": "電子元件",
+    "Information Technology Services": "IT服務",
+    "Scientific & Technical Instruments": "科技儀器",
+    # Communication Services
+    "Internet Content & Information": "網路搜尋與內容",
+    "Social Media": "社群媒體",
+    "Entertainment": "娛樂媒體",
+    "Telecom Services": "電信服務",
+    "Electronic Gaming & Multimedia": "電玩與多媒體",
+    # Healthcare
+    "Drug Manufacturers - General": "大型製藥",
+    "Drug Manufacturers - Specialty & Generic": "特殊製藥",
+    "Biotechnology": "生技",
+    "Medical Devices": "醫療設備",
+    "Medical Instruments & Supplies": "醫療器材",
+    "Diagnostics & Research": "診斷與研究",
+    "Healthcare Plans": "健保計畫",
+    "Health Information Services": "醫療資訊",
+    "Medical Care Facilities": "醫療機構",
+    "Pharmaceutical Retailers": "藥局連鎖",
+    # Financial Services
+    "Banks—Diversified": "大型銀行",
+    "Banks—Regional": "地區銀行",
+    "Credit Services": "信用卡與支付",
+    "Capital Markets": "資本市場",
+    "Insurance - Property & Casualty": "財產意外險",
+    "Insurance - Life": "壽險",
+    "Insurance - Diversified": "多元保險",
+    "Asset Management": "資產管理",
+    "Financial Data & Stock Exchanges": "金融數據與交易所",
+    # Consumer Cyclical
+    "Auto Manufacturers": "汽車製造",
+    "Specialty Retail": "專賣零售",
+    "Internet Retail": "電商",
+    "Home Improvement Retail": "家居零售",
+    "Lodging": "飯店",
+    "Restaurants": "餐飲連鎖",
+    "Resorts & Casinos": "博弈度假村",
+    # Consumer Defensive
+    "Discount Stores": "折扣零售",
+    "Grocery Stores": "超市",
+    "Household & Personal Products": "家用與個人護理",
+    "Beverages - Non-Alcoholic": "非酒精飲料",
+    "Beverages - Alcoholic": "酒精飲料",
+    "Tobacco": "菸草",
+    "Packaged Foods": "包裝食品",
+    # Energy
+    "Oil & Gas Integrated": "整合石油天然氣",
+    "Oil & Gas E&P": "石油天然氣探勘",
+    "Oil & Gas Refining & Marketing": "石油煉製",
+    "Oil & Gas Equipment & Services": "油服",
+    # Industrials
+    "Aerospace & Defense": "航太國防",
+    "Industrial Conglomerates": "工業集團",
+    "Railroads": "鐵路運輸",
+    "Air Freight & Logistics": "航空貨運物流",
+    "Airlines": "航空公司",
+    "Farm & Heavy Construction Machinery": "重型機械",
+    "Waste Management": "廢棄物管理",
+    # Basic Materials
+    "Chemicals": "化工",
+    "Specialty Chemicals": "特用化工",
+    # Utilities
+    "Utilities - Regulated Electric": "電力公用事業",
+    "Utilities - Renewable": "再生能源",
+}
+
 
 def _sp500_tickers() -> list[str]:
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -72,12 +147,16 @@ def _generate_reason(r: dict) -> str:
         pct = round((1 - rpe) * 100)
         parts.append(f"本益比低於產業均值 {pct}%")
     mc = r.get("market_cap") or 0
-    sector_zh = _SECTOR_ZH.get(r.get("sector", ""), "")
-    sector_prefix = f"{sector_zh}行業" if sector_zh else "行業"
+    industry_zh = _INDUSTRY_ZH.get(r.get("industry", ""), "")
+    if not industry_zh:
+        sector_zh = _SECTOR_ZH.get(r.get("sector", ""), "")
+        label = f"{sector_zh}行業" if sector_zh else "行業"
+    else:
+        label = industry_zh
     if mc >= 100e9:
-        parts.append(f"{sector_prefix}龍頭市值")
+        parts.append(f"{label}龍頭")
     elif mc >= 20e9:
-        parts.append(f"{sector_prefix}大型市值")
+        parts.append(f"{label}大型股")
     return "；".join(parts) + "。" if parts else "多項量化指標顯示潛在低估。"
 
 
@@ -93,6 +172,7 @@ def _fetch_row(ticker: str) -> dict | None:
             "ticker": ticker,
             "name": info.get("shortName", ticker),
             "sector": info.get("sector", ""),
+            "industry": info.get("industry", ""),
             "price": price,
             "market_cap": market_cap,
         }
