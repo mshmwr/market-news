@@ -1,15 +1,6 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Amazon’s stock has come alive, setting the company up to join an exclusive club",
-        "description": "Amazon’s stock needs to rise less than 2% for the company’s market cap to top $3 trillion — something only four other companies have ever achieved.",
-        "link": "https://www.marketwatch.com/story/amazons-stock-has-come-alive-setting-the-company-up-to-join-an-exclusive-club-cb9e35b9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778019960
-      }
-    ],
+    "articles": [],
     "ticker": "AMZN"
   },
   "technical": {
@@ -18,7 +9,7 @@
     "macd_signal": 11.958058682537981,
     "macd_histogram": 1.1029072370476314,
     "ma50": 227.4051998901367,
-    "volume_ratio": 0.7986085709762673,
+    "volume_ratio": 0.8031631842002452,
     "ticker": "AMZN"
   },
   "fundamentals": {
@@ -34,6 +25,8 @@
     "fifty_two_week_high": 278.56,
     "trailing_eps": 8.37,
     "book_value": 38.306,
+    "peg_ratio": 1.9119,
+    "short_name": "Amazon.com, Inc.",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 62,
     "sector": "Consumer Cyclical",

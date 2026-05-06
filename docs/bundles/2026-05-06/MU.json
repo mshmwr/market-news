@@ -2,28 +2,36 @@
   "news": {
     "articles": [
       {
+        "title": "In the global AI race, a sanctioned Chinese firm says cheaper models can still win",
+        "description": "As China’s AI competition intensifies, SenseTime is shifting toward multimodal AI, lower-cost models and overseas expansion to remain competitive, co-founder Lin Dahua said.",
+        "link": "https://www.cnbc.com/2026/05/06/china-ai-race-cost-efficiency-sensetime-competition.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778044196
+      },
+      {
+        "title": "US pauses plan to guide ships through the Strait of Hormuz",
+        "description": "Donald Trump has said that the US military operation guiding ships through the Strait of Hormuz will be paused.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/6/us-pauses-plan-to-guide-ships-through-the-strait-of-hormuz?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1778038768
+      },
+      {
+        "title": "What is Trump's 'Project Freedom' in the Strait of Hormuz?",
+        "description": "The US president said the operation has been paused after starting on Monday.",
+        "link": "https://www.bbc.com/news/articles/c4g437depzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1778034216
+      },
+      {
         "title": "Oil futures fall after Trump pauses U.S. effort to partially reopen Strait of Hormuz",
         "description": "Crude-oil futures fell late Tuesday after President Donald Trump said his latest effort to partially reopen the Strait of Hormuz would be paused, to buy more time to reach an agreement to end hostilities with Iran.",
         "link": "https://www.marketwatch.com/story/oil-futures-fall-after-trump-pauses-u-s-effort-to-partially-reopen-strait-of-hormuz-936c77f9?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "category": "美股",
         "published_ts": 1778034120
-      },
-      {
-        "title": "In the global AI race, a sanctioned Chinese firm says cheaper models can still win",
-        "description": "As China’s AI competition intensifies, SenseTime is shifting toward multimodal AI, lower-cost models and overseas expansion to remain competitive, co-founder Lin Dahua said.",
-        "link": "https://www.cnbc.com/2026/05/06/china-ai-race-cost-efficiency-sensetime-competition.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778034085
-      },
-      {
-        "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
-        "description": "\"Project Freedom\", which began on Monday, will be halted because progress has been made toward a deal with Iran, the US president says.",
-        "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "宏觀",
-        "published_ts": 1778033925
       },
       {
         "title": "Vivek Ramaswamy wins Republican nomination for Ohio governor",
@@ -138,31 +146,23 @@
         "published_ts": 1777999832
       },
       {
-        "title": "Voters will judge Trump on the economy - how is it doing?",
-        "description": "How much Donald Trump can do with the time he has left as president will depend massively on the cost of living.",
-        "link": "https://www.bbc.com/news/articles/cgepyv20vrpo?at_medium=RSS&at_campaign=rss",
+        "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
+        "description": "The US and Iran's determination to keep the pressure on each other has put the fragile Gulf ceasefire in serious jeopardy.",
+        "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "宏觀",
-        "published_ts": 1777801926
-      },
-      {
-        "title": "Laufey on making jazz cool again (and the fish that brought out her inner rage)",
-        "description": "The Icelandic star reflects on a phenomenal year, and the music video that let her go \"primal\".",
-        "link": "https://www.bbc.com/news/articles/c99lvggdy4jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "宏觀",
-        "published_ts": 1777763134
+        "published_ts": 1777981083
       }
     ],
     "ticker": "MU"
   },
   "technical": {
-    "rsi": 81.75294102303134,
-    "macd_line": 44.86587840494582,
-    "macd_signal": 30.973329501432254,
-    "macd_histogram": 13.892548903513564,
+    "rsi": 81.75294103309753,
+    "macd_line": 44.86587840794704,
+    "macd_signal": 30.973329505842315,
+    "macd_histogram": 13.892548902104721,
     "ma50": 432.93265625,
-    "volume_ratio": 1.5259118125438313,
+    "volume_ratio": 1.5473861597278433,
     "ticker": "MU"
   },
   "fundamentals": {
@@ -178,6 +178,8 @@
     "fifty_two_week_high": 651.74,
     "trailing_eps": 21.21,
     "book_value": 64.237,
+    "peg_ratio": 0.1997,
+    "short_name": "Micron Technology, Inc.",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 42,
     "sector": "Technology",

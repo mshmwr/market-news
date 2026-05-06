@@ -4,12 +4,12 @@
     "ticker": "NVDA"
   },
   "technical": {
-    "rsi": 50.81911130730832,
-    "macd_line": 4.686153768109051,
-    "macd_signal": 5.88330354124359,
-    "macd_histogram": -1.197149773134539,
+    "rsi": 50.81911130722697,
+    "macd_line": 4.686153768070142,
+    "macd_signal": 5.8833035411863595,
+    "macd_histogram": -1.1971497731162177,
     "ma50": 187.42420806884766,
-    "volume_ratio": 0.7471472771338357,
+    "volume_ratio": 0.7596188254403736,
     "ticker": "NVDA"
   },
   "fundamentals": {
@@ -25,6 +25,8 @@
     "fifty_two_week_high": 216.83,
     "trailing_eps": 4.89,
     "book_value": 6.472,
+    "peg_ratio": 0.63,
+    "short_name": "NVIDIA Corporation",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 57,
     "sector": "Technology",

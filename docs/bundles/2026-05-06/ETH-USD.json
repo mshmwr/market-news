@@ -4,12 +4,12 @@
     "ticker": "ETH-USD"
   },
   "technical": {
-    "rsi": 56.546135845070516,
-    "macd_line": 25.259124383103426,
-    "macd_signal": 32.038515676669626,
-    "macd_histogram": -6.779391293566199,
-    "ma50": 2219.3521313476563,
-    "volume_ratio": 1.5738792250791436,
+    "rsi": 59.5929856311961,
+    "macd_line": 30.439090831990598,
+    "macd_signal": 30.982356465513515,
+    "macd_histogram": -0.5432656335229176,
+    "ma50": 2220.8181958007813,
+    "volume_ratio": 1.053034648331463,
     "ticker": "ETH-USD"
   },
   "fundamentals": {
@@ -20,11 +20,13 @@
     "profit_margin": null,
     "debt_to_equity": null,
     "target_mean_price": null,
-    "current_price": 2376.99,
+    "current_price": 2381.35,
     "fifty_two_week_low": 1748.6277,
     "fifty_two_week_high": 4953.733,
     "trailing_eps": null,
     "book_value": null,
+    "peg_ratio": null,
+    "short_name": "Ethereum USD",
     "recommendation_key": null,
     "number_of_analyst_opinions": null,
     "sector": null,

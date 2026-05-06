@@ -1,30 +1,41 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "0050成分股重洗牌！網一看「有中鋼」笑了：真多拖油瓶",
+        "description": "<img alt=\"0050成分股重洗牌！網一看「有中鋼」笑了：真多拖油瓶\" src=\"https://cdn2.ettoday.net/images/8730/c8730204.jpg\" /><br /> 台股ETF投資熱度持續升溫，元大台灣50（0050）受益人數已突破270萬人。近期成分股權重出現明顯變化，其中台積電占比大幅攀升至61.06%，與第二名台達電的4.92%形成顯著差距，也引發市場關注。 <a href=\"https://finance.ettoday.net/news/3160993\" target=\"_blank\">《詳全文...》</a>",
+        "link": "https://finance.ettoday.net/news/3160993",
+        "source": "ETtoday財經",
+        "category": "台股",
+        "published_ts": 0
+      }
+    ],
     "ticker": "2308.TW"
   },
   "technical": {
-    "rsi": 73.16351325188523,
-    "macd_line": 176.53134485243413,
-    "macd_signal": 167.57032556868026,
-    "macd_histogram": 8.96101928375387,
-    "ma50": 1621.2,
-    "volume_ratio": 0.8270203693101225,
+    "rsi": 74.47924979875266,
+    "macd_line": 179.32336764445677,
+    "macd_signal": 168.1287301270848,
+    "macd_histogram": 11.194637517371973,
+    "ma50": 1621.9,
+    "volume_ratio": 1.3338086743351703,
     "ticker": "2308.TW"
   },
   "fundamentals": {
-    "pe_ratio": 93.87138,
-    "forward_pe": 34.903416,
-    "price_to_book": 18.86089,
+    "pe_ratio": 95.38196,
+    "forward_pe": 35.46508,
+    "price_to_book": 19.164398,
     "revenue_growth": 0.34,
     "profit_margin": 0.118310004,
     "debt_to_equity": 19.37,
     "target_mean_price": 2428.0527,
-    "current_price": 2175.0,
+    "current_price": 2210.0,
     "fifty_two_week_low": 359.5,
     "fifty_two_week_high": 2280.0,
     "trailing_eps": 23.17,
     "book_value": 115.318,
+    "peg_ratio": 6.0461,
+    "short_name": "DELTA ELECTRONIC",
     "recommendation_key": "buy",
     "number_of_analyst_opinions": 19,
     "sector": "Technology",

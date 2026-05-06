@@ -2,22 +2,6 @@
   "news": {
     "articles": [
       {
-        "title": "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
-        "description": "The White House is also considering a new AI working group that would explore potential oversight and vet models before release, CNBC confirmed.",
-        "link": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778000767
-      },
-      {
-        "title": "Microsoft, Google, xAI give US access to AI models for security testing",
-        "description": "The deal comes days after the Pentagon announces an agreement with seven tech giants to use AI in classified systems",
-        "link": "https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "宏觀",
-        "published_ts": 1777999989
-      },
-      {
         "title": "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
         "description": "Asha Sharma, the former Instacart and Meta executive who took over Xbox at Microsoft, said the unit doesn't spend enough time with developers and players.",
         "link": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html",
@@ -29,12 +13,12 @@
     "ticker": "MSFT"
   },
   "technical": {
-    "rsi": 52.60007168920835,
-    "macd_line": 6.880043338254666,
-    "macd_signal": 7.750709751386402,
-    "macd_histogram": -0.8706664131317359,
+    "rsi": 52.60007168781093,
+    "macd_line": 6.880043337032475,
+    "macd_signal": 7.750709749589226,
+    "macd_histogram": -0.8706664125567505,
     "ma50": 396.9763995361328,
-    "volume_ratio": 0.6542428880949379,
+    "volume_ratio": 0.7196233516461474,
     "ticker": "MSFT"
   },
   "fundamentals": {
@@ -50,6 +34,8 @@
     "fifty_two_week_high": 555.45,
     "trailing_eps": 16.78,
     "book_value": 52.615,
+    "peg_ratio": 1.286,
+    "short_name": "Microsoft Corporation",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 53,
     "sector": "Technology",
