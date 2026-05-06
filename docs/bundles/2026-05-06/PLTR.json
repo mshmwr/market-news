@@ -1,0 +1,38 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 42.9302621166559,
+    "macd_line": -1.2549818730850006,
+    "macd_signal": -1.1745642513039307,
+    "macd_histogram": -0.08041762178106993,
+    "ma50": 145.50579986572265,
+    "volume_ratio": 1.642103639466723,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 154.44319,
+    "forward_pe": 67.55306,
+    "price_to_book": 43.99806,
+    "revenue_growth": 0.7,
+    "profit_margin": 0.36310002,
+    "debt_to_equity": 3.063,
+    "target_mean_price": 181.1363,
+    "current_price": 135.91,
+    "fifty_two_week_low": 107.0,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.88,
+    "book_value": 3.089,
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

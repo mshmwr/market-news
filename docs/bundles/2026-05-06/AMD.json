@@ -1,0 +1,47 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "AMD's stock soars 15% as data center growth pushes revenue and guidance past estimates",
+        "description": "AMD's earnings report lands as investors rush into the stock on optimism that the AI boom is just getting started.",
+        "link": "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778022097
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 72.54485136181216,
+    "macd_line": 34.345956193988286,
+    "macd_signal": 30.2182252548767,
+    "macd_histogram": 4.127730939111586,
+    "ma50": 241.3777996826172,
+    "volume_ratio": 1.0705614896979452,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 137.16603,
+    "forward_pe": 31.665981,
+    "price_to_book": 9.19172,
+    "revenue_growth": 0.341,
+    "profit_margin": 0.12515001,
+    "debt_to_equity": 6.359,
+    "target_mean_price": 312.28262,
+    "current_price": 355.26,
+    "fifty_two_week_low": 96.88,
+    "fifty_two_week_high": 362.79,
+    "trailing_eps": 2.59,
+    "book_value": 38.65,
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 46,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

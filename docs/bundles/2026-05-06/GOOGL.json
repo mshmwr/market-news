@@ -1,0 +1,55 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
+        "description": "The White House is also considering a new AI working group that would explore potential oversight and vet models before release, CNBC confirmed.",
+        "link": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778000767
+      },
+      {
+        "title": "Microsoft, Google, xAI give US access to AI models for security testing",
+        "description": "The deal comes days after the Pentagon announces an agreement with seven tech giants to use AI in classified systems",
+        "link": "https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1777999989
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 81.33759181923436,
+    "macd_line": 19.07061779412271,
+    "macd_signal": 14.225265097350869,
+    "macd_histogram": 4.845352696771842,
+    "ma50": 318.3772308349609,
+    "volume_ratio": 0.8609548816531556,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.583397,
+    "forward_pe": 27.039349,
+    "price_to_book": 11.307018,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 421.73328,
+    "current_price": 388.43,
+    "fifty_two_week_low": 147.84,
+    "fifty_two_week_high": 392.8199,
+    "trailing_eps": 13.13,
+    "book_value": 34.353,
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

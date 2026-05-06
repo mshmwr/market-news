@@ -1,0 +1,38 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "NOK"
+  },
+  "technical": {
+    "rsi": 81.360139131188,
+    "macd_line": 1.1461004587947592,
+    "macd_signal": 0.8824835412608434,
+    "macd_histogram": 0.2636169175339158,
+    "ma50": 9.253400011062622,
+    "volume_ratio": 0.8083381029185309,
+    "ticker": "NOK"
+  },
+  "fundamentals": {
+    "pe_ratio": 83.875,
+    "forward_pe": 27.663828,
+    "price_to_book": 3.0872085,
+    "revenue_growth": 0.024,
+    "profit_margin": 0.039809998,
+    "debt_to_equity": 15.63,
+    "target_mean_price": 12.51111,
+    "current_price": 13.42,
+    "fifty_two_week_low": 4.0,
+    "fifty_two_week_high": 13.98,
+    "trailing_eps": 0.16,
+    "book_value": 4.346969,
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "NOK"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NOK",
+    "available": false
+  }
+}

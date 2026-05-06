@@ -1,0 +1,47 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Three Russian diplomats expelled from Austria over spying accusations",
+        "description": "They gathered information using a \"forest of antennas\" installed on top of diplomatic buildings, the foreign minister says.",
+        "link": "https://www.bbc.com/news/articles/c5yrwny111xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1777913936
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 71.47005822007516,
+    "macd_line": 12.851232521666361,
+    "macd_signal": 11.922044763665745,
+    "macd_histogram": 0.9291877580006158,
+    "ma50": 680.9518029785156,
+    "volume_ratio": 0.6076348454230653,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 28.695543,
+    "forward_pe": null,
+    "price_to_book": 1.6862448,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 723.77,
+    "fifty_two_week_low": 556.04,
+    "fifty_two_week_high": 725.04,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models",
+        "description": "The White House is also considering a new AI working group that would explore potential oversight and vet models before release, CNBC confirmed.",
+        "link": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778000767
+      },
+      {
+        "title": "Microsoft, Google, xAI give US access to AI models for security testing",
+        "description": "The deal comes days after the Pentagon announces an agreement with seven tech giants to use AI in classified systems",
+        "link": "https://www.aljazeera.com/economy/2026/5/5/microsoft-google-xai-give-us-access-to-ai-models-for-security-testing?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1777999989
+      },
+      {
+        "title": "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
+        "description": "Asha Sharma, the former Instacart and Meta executive who took over Xbox at Microsoft, said the unit doesn't spend enough time with developers and players.",
+        "link": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1777997342
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 52.60007168920835,
+    "macd_line": 6.880043338254666,
+    "macd_signal": 7.750709751386402,
+    "macd_histogram": -0.8706664131317359,
+    "ma50": 396.9763995361328,
+    "volume_ratio": 0.6542428880949379,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.51609,
+    "forward_pe": 21.186907,
+    "price_to_book": 7.8186827,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 559.8496,
+    "current_price": 411.38,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 52.615,
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

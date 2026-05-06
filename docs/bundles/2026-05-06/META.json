@@ -1,0 +1,55 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Gold and oil have been two of the hottest trades of the past one year. One of them has to break",
+        "description": "What's good for energy stocks may be bad for precious metals if the rally in crude means a rise in Treasury yields, which usually means lower gold prices.",
+        "link": "https://www.cnbc.com/2026/05/05/gold-and-oil-have-been-two-of-the-hottest-trades-of-the-past-one-year-one-of-them-has-to-break.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778007386
+      },
+      {
+        "title": "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
+        "description": "Asha Sharma, the former Instacart and Meta executive who took over Xbox at Microsoft, said the unit doesn't spend enough time with developers and players.",
+        "link": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1777997342
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 39.91323942346617,
+    "macd_line": 0.12869537401093112,
+    "macd_signal": 8.338875884434325,
+    "macd_histogram": -8.210180510423394,
+    "ma50": 628.608310546875,
+    "volume_ratio": 1.0052697633111278,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.974573,
+    "forward_pe": 16.721766,
+    "price_to_book": 7.045315,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.9669,
+    "current_price": 604.96,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.53,
+    "book_value": 85.867,
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
