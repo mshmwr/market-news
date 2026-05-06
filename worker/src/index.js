@@ -14,8 +14,10 @@ export default {
       return new Response('Forbidden', { status: 403 });
     }
 
+    const url = new URL(req.url);
+    const workflow = url.pathname === '/signals' ? 'update-signals.yml' : 'update-news.yml';
     const res = await fetch(
-      'https://api.github.com/repos/mshmwr/market-news/actions/workflows/update-news.yml/dispatches',
+      `https://api.github.com/repos/mshmwr/market-news/actions/workflows/${workflow}/dispatches`,
       {
         method: 'POST',
         headers: {

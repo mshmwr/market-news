@@ -25,21 +25,21 @@
       border: 1.5px solid #ccc; background: #fff; cursor: pointer;
       color: #555; white-space: nowrap;
     }
-    #refresh-btn {
+    #refresh-btn, #signals-refresh-btn {
       font-size: 12px; padding: 4px 8px; border-radius: 14px;
       border: 1.5px solid #ccc; background: #fff; cursor: pointer;
       color: #555; white-space: nowrap;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
-    #refresh-btn.loading { pointer-events: none; opacity: .6; }
-    #refresh-btn .spinner {
+    #refresh-btn.loading, #signals-refresh-btn.loading { pointer-events: none; opacity: .6; }
+    #refresh-btn .spinner, #signals-refresh-btn .spinner {
       display: none; width: 14px; height: 14px;
       border: 2px solid #ddd; border-top-color: #555;
       border-radius: 50%; animation: spin .7s linear infinite;
       vertical-align: middle;
     }
-    #refresh-btn.loading .icon { display: none; }
-    #refresh-btn.loading .spinner { display: inline-block; }
+    #refresh-btn.loading .icon, #signals-refresh-btn.loading .icon { display: none; }
+    #refresh-btn.loading .spinner, #signals-refresh-btn.loading .spinner { display: inline-block; }
 
     #toast {
       position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
@@ -289,9 +289,11 @@
     <div class="header-top">
       <h1>每日市場新聞</h1>
       <div style="display:flex;gap:8px;align-items:center">
-        <button id="refresh-btn" title="重新整理"><span class="icon">↻</span><span class="spinner"></span></button>
+        <div id="news-controls" style="display:flex;gap:8px;align-items:center">
+          <button id="refresh-btn" title="重新整理"><span class="icon">↻</span><span class="spinner"></span></button>
+          <span id="updated"></span>
+        </div>
         <button id="translate-btn">🌐 翻譯</button>
-        <span id="updated"></span>
       </div>
     </div>
     <div class="tabs">
@@ -312,6 +314,7 @@
     <section id="signals-section" hidden>
       <div class="signals-header">
         <h2 class="signals-title">股票訊號</h2>
+        <button id="signals-refresh-btn" title="更新訊號"><span class="icon">↻</span><span class="spinner"></span></button>
         <button id="sort-btn" class="sort-btn active">信心度 ↓</button>
         <span id="signals-updated"></span>
       </div>
@@ -358,6 +361,9 @@
     const statusEl    = document.getElementById('status');
     const updatedEl   = document.getElementById('updated');
     const refreshBtn  = document.getElementById('refresh-btn');
+    const newsControlsEl      = document.getElementById('news-controls');
+    const signalsRefreshBtn   = document.getElementById('signals-refresh-btn');
+    let signalsDate = '';
     const toastEl     = document.getElementById('toast');
     const signalsSectionEl     = document.getElementById('signals-section');
     const newsSectionEl        = document.getElementById('news-section');
@@ -433,6 +439,7 @@
       newsSectionEl.hidden = onSignals;
       filtersEl.hidden = onSignals;
       sigCatFiltersEl.hidden = !onSignals;
+      newsControlsEl.hidden = onSignals;
       if (!onSignals) {
         if (allArticles.length > 0) {
           render();
@@ -525,6 +532,7 @@
         })
         .then(data => {
           if (data.generated_at) {
+            signalsDate = data.generated_at;
             const d = new Date(data.generated_at);
             signalsUpdatedEl.textContent = '訊號更新於 ' + d.toLocaleString('zh-TW', {
               year: 'numeric', month: '2-digit', day: '2-digit',
@@ -841,6 +849,52 @@
         })
         .catch(() => {
           refreshBtn.classList.remove('loading');
+          showToast('觸發失敗，請稍後再試');
+        });
+    });
+
+    function startSignalsPolling() {
+      const INTERVAL = 15000;
+      const TIMEOUT  = 600000;
+      let elapsed = 0;
+      const timer = setInterval(() => {
+        elapsed += INTERVAL;
+        fetch('signals.json?t=' + Date.now())
+          .then(r => r.json())
+          .then(data => {
+            if (data.generated_at && data.generated_at !== signalsDate) {
+              clearInterval(timer);
+              signalsRefreshBtn.classList.remove('loading');
+              signalsDate = data.generated_at;
+              allSignals = data.signals;
+              const d = new Date(data.generated_at);
+              signalsUpdatedEl.textContent = '訊號更新於 ' + d.toLocaleString('zh-TW', {
+                year: 'numeric', month: '2-digit', day: '2-digit',
+                hour: '2-digit', minute: '2-digit'
+              });
+              buildMarketOverview(allSignals);
+              if (currentTab === 'signals') renderSignals();
+              showToast('已取得最新訊號');
+            } else if (elapsed >= TIMEOUT) {
+              clearInterval(timer);
+              signalsRefreshBtn.classList.remove('loading');
+              showToast('訊號仍在生成中，請稍後再試');
+            }
+          })
+          .catch(() => {});
+      }, INTERVAL);
+    }
+
+    signalsRefreshBtn.addEventListener('click', () => {
+      signalsRefreshBtn.classList.add('loading');
+      fetch(WORKER_URL + '/signals', { method: 'POST' })
+        .then(r => {
+          if (!r.ok) throw new Error();
+          showToast('訊號更新中…約 5–10 分鐘後完成');
+          startSignalsPolling();
+        })
+        .catch(() => {
+          signalsRefreshBtn.classList.remove('loading');
           showToast('觸發失敗，請稍後再試');
         });
     });
