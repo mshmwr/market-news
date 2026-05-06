@@ -2,47 +2,39 @@
   "news": {
     "articles": [
       {
-        "title": "Nvidia, Corning partner on massive optical fiber deal that may be a game changer for AI",
+        "title": "Nvidia to invest up to $3.2 billion in Corning as part of massive optical fiber deal with 3 new factories focused on AI",
         "description": "Corning is opening three new advanced manufacturing plants in the U.S. dedicated entirely to optical technologies for Nvidia.",
         "link": "https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html",
         "source": "CNBC",
         "category": "美股",
-        "published_ts": 1778079229
-      },
-      {
-        "title": "Nvidia’s new deal with Corning validates one of the hottest AI trends out there",
-        "description": "Optical components are increasingly in short supply, and Nvidia is partnering with key players to gain an edge.",
-        "link": "https://www.marketwatch.com/story/nvidias-new-deal-with-corning-validates-one-of-the-hottest-ai-trends-out-there-caddebe8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778077560
+        "published_ts": 1778098367
       }
     ],
     "ticker": "NVDA"
   },
   "technical": {
-    "rsi": 58.441328834624755,
-    "macd_line": 4.650026106557448,
-    "macd_signal": 5.636648054306362,
-    "macd_histogram": -0.9866219477489144,
-    "ma50": 187.6604165649414,
-    "volume_ratio": 0.5016358078965489,
+    "rsi": 60.81115874719117,
+    "macd_line": 4.903696534140693,
+    "macd_signal": 5.687375254625978,
+    "macd_histogram": -0.7836787204852858,
+    "ma50": 187.72401672363281,
+    "volume_ratio": 1.2386972107726835,
     "ticker": "NVDA"
   },
   "fundamentals": {
-    "pe_ratio": 41.854805,
-    "forward_pe": 18.210403,
-    "price_to_book": 31.623917,
+    "pe_ratio": 42.501022,
+    "forward_pe": 18.491564,
+    "price_to_book": 32.112175,
     "revenue_growth": 0.732,
     "profit_margin": 0.55603004,
     "debt_to_equity": 7.255,
     "target_mean_price": 269.16544,
-    "current_price": 204.65,
+    "current_price": 207.83,
     "fifty_two_week_low": 112.28,
     "fifty_two_week_high": 216.83,
     "trailing_eps": 4.89,
     "book_value": 6.472,
-    "peg_ratio": 0.63,
+    "peg_ratio": 0.6237,
     "short_name": "NVIDIA Corporation",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 57,

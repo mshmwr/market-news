@@ -2,6 +2,14 @@
   "news": {
     "articles": [
       {
+        "title": "AMD's Su explains what's behind massive forecast change as stock roars 19% on earnings",
+        "description": "CEO Lisa Su highlighted the growing demand for central processing units, doubling her long-term forecast after strong first-quarter earnings.",
+        "link": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778097677
+      },
+      {
         "title": "Ken Griffin: Citadel expanding in Miami in response to NYC mayor Mamdani's 'poor taste' tax video",
         "description": "Mamdani's office said in response to Griffin, \"our tax system is fundamentally broken. It rewards extreme wealth while working people are pushed to the brink.\"",
         "link": "https://www.cnbc.com/2026/05/06/mamdani-ken-griffin-nyc-miami-tax.html",
@@ -16,36 +24,28 @@
         "source": "Al Jazeera",
         "category": "宏觀",
         "published_ts": 1778078853
-      },
-      {
-        "title": "AMD's Su explains what's behind massive forecast change as stock roars 15% on earnings",
-        "description": "CEO Lisa Su highlighted the growing demand for central processing units, doubling her long term forecast after strong first-quarter earnings.",
-        "link": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778078379
       }
     ],
     "ticker": "AMD"
   },
   "technical": {
-    "rsi": 80.8000838856522,
-    "macd_line": 39.03902980661718,
-    "macd_signal": 31.982386165224796,
-    "macd_histogram": 7.056643641392384,
-    "ma50": 245.44490173339844,
-    "volume_ratio": 1.2371614334030752,
+    "rsi": 81.18348311348248,
+    "macd_line": 39.373989043174106,
+    "macd_signal": 32.04978723398315,
+    "macd_histogram": 7.324201809190953,
+    "ma50": 245.52880004882812,
+    "volume_ratio": 1.9083070345862507,
     "ticker": "AMD"
   },
   "fundamentals": {
-    "pe_ratio": 161.0792,
-    "forward_pe": 33.941257,
-    "price_to_book": 10.794181,
+    "pe_ratio": 162.69885,
+    "forward_pe": 34.28254,
+    "price_to_book": 10.902717,
     "revenue_growth": 0.341,
     "profit_margin": 0.12515001,
     "debt_to_equity": 6.359,
     "target_mean_price": 312.28262,
-    "current_price": 417.1951,
+    "current_price": 421.39,
     "fifty_two_week_low": 96.88,
     "fifty_two_week_high": 430.57,
     "trailing_eps": 2.59,

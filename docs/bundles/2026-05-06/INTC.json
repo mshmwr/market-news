@@ -2,6 +2,14 @@
   "news": {
     "articles": [
       {
+        "title": "Here’s how far the Trump administration’s ‘startling turn’ on AI regulation might go",
+        "description": "The Trump administration is reportedly weighing taking a more aggressive approach to regulating AI, which could include an executive order to increase oversight over artificial-intelligence models before their public release.",
+        "link": "https://www.marketwatch.com/story/heres-how-far-the-trump-administrations-startling-turn-on-ai-regulation-might-go-15ce46be?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778099700
+      },
+      {
         "title": "Apple to pay up to $95 to some US iPhone buyers over AI lawsuit",
         "description": "Claims from last year said the tech firm’s advertising of Apple Intelligence fooled iPhone buyers.",
         "link": "https://www.bbc.com/news/articles/c0j2nydnzy7o?at_medium=RSS&at_campaign=rss",
@@ -13,23 +21,23 @@
     "ticker": "INTC"
   },
   "technical": {
-    "rsi": 85.36376464689243,
-    "macd_line": 13.66512071382067,
-    "macd_signal": 10.526408943317628,
-    "macd_histogram": 3.1387117705030416,
-    "ma50": 59.228799972534176,
-    "volume_ratio": 0.6525108899107485,
+    "rsi": 85.91630516736308,
+    "macd_line": 13.828584814154624,
+    "macd_signal": 10.559014213740795,
+    "macd_histogram": 3.2695706004138287,
+    "ma50": 59.26980003356934,
+    "volume_ratio": 1.0769909338660835,
     "ticker": "INTC"
   },
   "fundamentals": {
     "pe_ratio": null,
-    "forward_pe": 74.385704,
-    "price_to_book": 4.8483653,
+    "forward_pe": 74.5306,
+    "price_to_book": 4.938385,
     "revenue_growth": 0.072,
     "profit_margin": -0.05904,
     "debt_to_equity": 36.028,
     "target_mean_price": 79.05238,
-    "current_price": 110.9315,
+    "current_price": 113.01,
     "fifty_two_week_low": 18.97,
     "fifty_two_week_high": 113.5,
     "trailing_eps": -0.59,

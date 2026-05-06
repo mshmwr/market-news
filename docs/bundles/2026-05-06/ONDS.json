@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Stocks are losing their edge over bonds, in an ominous sign for the market",
-        "description": "The extra return that investors receive for the additional risk of owning stocks over bonds has been fading, and that is making some on Wall Street nervous that investors might be too complacent about the stock market’s recent rally.",
-        "link": "https://www.marketwatch.com/story/stocks-are-losing-their-edge-over-bonds-in-an-ominous-sign-for-the-market-481f801d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778078280
-      }
-    ],
+    "articles": [],
     "ticker": "ONDS"
   },
   "technical": {
-    "rsi": 42.5640893877416,
-    "macd_line": -0.07244376739610914,
-    "macd_signal": 0.049113680316819903,
-    "macd_histogram": -0.12155744771292903,
-    "ma50": 10.01519998550415,
-    "volume_ratio": 0.38324145565536893,
+    "rsi": 43.535453000589925,
+    "macd_line": -0.06291448396734012,
+    "macd_signal": 0.05096444955421191,
+    "macd_histogram": -0.11387893352155203,
+    "ma50": 10.017599983215332,
+    "volume_ratio": 1.0153368742835946,
     "ticker": "ONDS"
   },
   "fundamentals": {
     "pe_ratio": null,
-    "forward_pe": -70.92308,
-    "price_to_book": 8.017392,
+    "forward_pe": -71.84616,
+    "price_to_book": 8.121739,
     "revenue_growth": 6.292,
     "profit_margin": -2.60233,
     "debt_to_equity": 5.345,
     "target_mean_price": 20.125,
-    "current_price": 9.22,
+    "current_price": 9.34,
     "fifty_two_week_low": 0.731,
     "fifty_two_week_high": 15.28,
     "trailing_eps": -0.62,

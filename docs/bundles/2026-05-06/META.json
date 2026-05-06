@@ -1,26 +1,35 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Zuckerberg’s ‘Multi Mark’ AI clone is a huge red flag for Meta shareholders",
+        "description": "Replacing authentic leadership with a digital doppelgänger isn’t innovation — it’s a high-tech retreat from accountability.",
+        "link": "https://www.marketwatch.com/story/zuckerbergs-multi-mark-ai-clone-is-a-huge-red-flag-for-meta-shareholders-53e58b30?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778102640
+      }
+    ],
     "ticker": "META"
   },
   "technical": {
-    "rsi": 42.89650519857461,
-    "macd_line": -1.7397718039961774,
-    "macd_signal": 6.323146346748224,
-    "macd_histogram": -8.062918150744402,
-    "ma50": 628.0932482910156,
-    "volume_ratio": 0.6371980680275795,
+    "rsi": 42.854044108050424,
+    "macd_line": -1.7495581725570446,
+    "macd_signal": 6.32091703652725,
+    "macd_histogram": -8.070475209084295,
+    "ma50": 628.0908483886719,
+    "volume_ratio": 1.2196414694728213,
     "ticker": "META"
   },
   "fundamentals": {
-    "pe_ratio": 22.262985,
-    "forward_pe": 16.941235,
-    "price_to_book": 7.1377835,
+    "pe_ratio": 22.262259,
+    "forward_pe": 16.940681,
+    "price_to_book": 7.1375504,
     "revenue_growth": 0.331,
     "profit_margin": 0.32837,
     "debt_to_equity": 35.608,
     "target_mean_price": 828.9669,
-    "current_price": 612.9,
+    "current_price": 612.88,
     "fifty_two_week_low": 520.26,
     "fifty_two_week_high": 796.25,
     "trailing_eps": 27.53,
