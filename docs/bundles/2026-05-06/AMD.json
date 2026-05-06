@@ -2,36 +2,52 @@
   "news": {
     "articles": [
       {
-        "title": "AMD's stock soars 15% as data center growth pushes revenue and guidance past estimates",
-        "description": "AMD's earnings report lands as investors rush into the stock on optimism that the AI boom is just getting started.",
-        "link": "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html",
+        "title": "Ken Griffin: Citadel expanding in Miami in response to NYC mayor Mamdani's 'poor taste' tax video",
+        "description": "Mamdani's office said in response to Griffin, \"our tax system is fundamentally broken. It rewards extreme wealth while working people are pushed to the brink.\"",
+        "link": "https://www.cnbc.com/2026/05/06/mamdani-ken-griffin-nyc-miami-tax.html",
         "source": "CNBC",
         "category": "美股",
-        "published_ts": 1778044804
+        "published_ts": 1778080402
+      },
+      {
+        "title": "Who is Zack Polanski, UK Greens leader and rising political star?",
+        "description": "Polanski has been likened to New York&#039;s Zohran Mamdani for his popular blend of environmental and socialist policies.",
+        "link": "https://www.aljazeera.com/news/2026/5/6/who-is-zack-polanski-uk-greens-leader-and-rising-political-star?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1778078853
+      },
+      {
+        "title": "AMD's Su explains what's behind massive forecast change as stock roars 15% on earnings",
+        "description": "CEO Lisa Su highlighted the growing demand for central processing units, doubling her long term forecast after strong first-quarter earnings.",
+        "link": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778078379
       }
     ],
     "ticker": "AMD"
   },
   "technical": {
-    "rsi": 72.54485136181216,
-    "macd_line": 34.345956193988286,
-    "macd_signal": 30.2182252548767,
-    "macd_histogram": 4.127730939111586,
-    "ma50": 241.3777996826172,
-    "volume_ratio": 1.4105521612856873,
+    "rsi": 80.8000838856522,
+    "macd_line": 39.03902980661718,
+    "macd_signal": 31.982386165224796,
+    "macd_histogram": 7.056643641392384,
+    "ma50": 245.44490173339844,
+    "volume_ratio": 1.2371614334030752,
     "ticker": "AMD"
   },
   "fundamentals": {
-    "pe_ratio": 137.16603,
-    "forward_pe": 31.665981,
-    "price_to_book": 9.19172,
+    "pe_ratio": 161.0792,
+    "forward_pe": 33.941257,
+    "price_to_book": 10.794181,
     "revenue_growth": 0.341,
     "profit_margin": 0.12515001,
     "debt_to_equity": 6.359,
     "target_mean_price": 312.28262,
-    "current_price": 355.26,
+    "current_price": 417.1951,
     "fifty_two_week_low": 96.88,
-    "fifty_two_week_high": 362.79,
+    "fifty_two_week_high": 430.57,
     "trailing_eps": 2.59,
     "book_value": 38.65,
     "peg_ratio": 1.0104,

@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Microsoft Xbox CEO overhauls leadership amid sinking sales: 'We need to evolve how we work'",
-        "description": "Asha Sharma, the former Instacart and Meta executive who took over Xbox at Microsoft, said the unit doesn't spend enough time with developers and players.",
-        "link": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1777997342
-      }
-    ],
+    "articles": [],
     "ticker": "MSFT"
   },
   "technical": {
-    "rsi": 52.60007168781093,
-    "macd_line": 6.880043337032475,
-    "macd_signal": 7.750709749589226,
-    "macd_histogram": -0.8706664125567505,
-    "ma50": 396.9763995361328,
-    "volume_ratio": 0.7196233516461474,
+    "rsi": 53.73850046138633,
+    "macd_line": 6.287133159041275,
+    "macd_signal": 7.457994432917377,
+    "macd_histogram": -1.1708612738761017,
+    "ma50": 397.4633996582031,
+    "volume_ratio": 0.38665685805262673,
     "ticker": "MSFT"
   },
   "fundamentals": {
-    "pe_ratio": 24.51609,
-    "forward_pe": 21.186907,
-    "price_to_book": 7.8186827,
+    "pe_ratio": 24.629326,
+    "forward_pe": 21.284763,
+    "price_to_book": 7.854796,
     "revenue_growth": 0.183,
     "profit_margin": 0.39341998,
     "debt_to_equity": 30.271,
     "target_mean_price": 559.8496,
-    "current_price": 411.38,
+    "current_price": 413.2801,
     "fifty_two_week_low": 356.28,
     "fifty_two_week_high": 555.45,
     "trailing_eps": 16.78,

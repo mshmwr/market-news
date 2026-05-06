@@ -1,26 +1,43 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Nvidia, Corning partner on massive optical fiber deal that may be a game changer for AI",
+        "description": "Corning is opening three new advanced manufacturing plants in the U.S. dedicated entirely to optical technologies for Nvidia.",
+        "link": "https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778079229
+      },
+      {
+        "title": "Nvidia’s new deal with Corning validates one of the hottest AI trends out there",
+        "description": "Optical components are increasingly in short supply, and Nvidia is partnering with key players to gain an edge.",
+        "link": "https://www.marketwatch.com/story/nvidias-new-deal-with-corning-validates-one-of-the-hottest-ai-trends-out-there-caddebe8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778077560
+      }
+    ],
     "ticker": "NVDA"
   },
   "technical": {
-    "rsi": 50.81911130722697,
-    "macd_line": 4.686153768070142,
-    "macd_signal": 5.8833035411863595,
-    "macd_histogram": -1.1971497731162177,
-    "ma50": 187.42420806884766,
-    "volume_ratio": 0.7596188254403736,
+    "rsi": 58.441328834624755,
+    "macd_line": 4.650026106557448,
+    "macd_signal": 5.636648054306362,
+    "macd_histogram": -0.9866219477489144,
+    "ma50": 187.6604165649414,
+    "volume_ratio": 0.5016358078965489,
     "ticker": "NVDA"
   },
   "fundamentals": {
-    "pe_ratio": 40.18405,
-    "forward_pe": 17.483482,
-    "price_to_book": 30.361557,
+    "pe_ratio": 41.854805,
+    "forward_pe": 18.210403,
+    "price_to_book": 31.623917,
     "revenue_growth": 0.732,
     "profit_margin": 0.55603004,
     "debt_to_equity": 7.255,
     "target_mean_price": 269.16544,
-    "current_price": 196.5,
+    "current_price": 204.65,
     "fifty_two_week_low": 112.28,
     "fifty_two_week_high": 216.83,
     "trailing_eps": 4.89,

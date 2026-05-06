@@ -2,7 +2,15 @@
   "news": {
     "articles": [
       {
-        "title": "Apple to pay $250m to US iPhone buyers over AI features lawsuit",
+        "title": "Apple's R&D investments top 10% of sales as AI race creates 'sense of urgency'",
+        "description": "Apple’s R&amp;D spending has crossed 10% of revenue for the first time in at least 30 years, and increased twice as fast as sales in the latest quarter.",
+        "link": "https://www.cnbc.com/2026/05/06/apples-rd-spending-climbs-to-10percent-of-revenue-on-ai-investments.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778068801
+      },
+      {
+        "title": "Apple to pay up to $95 to some US iPhone buyers over AI lawsuit",
         "description": "Claims from last year said the tech firm’s advertising of Apple Intelligence fooled iPhone buyers.",
         "link": "https://www.bbc.com/news/articles/c0j2nydnzy7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
@@ -13,23 +21,23 @@
     "ticker": "AAPL"
   },
   "technical": {
-    "rsi": 67.26806595411122,
-    "macd_line": 5.248166686677166,
-    "macd_signal": 3.9893014424330744,
-    "macd_histogram": 1.2588652442440917,
-    "ma50": 261.82359985351565,
-    "volume_ratio": 1.0669592650735786,
+    "rsi": 67.35752687676586,
+    "macd_line": 5.739027404307933,
+    "macd_signal": 4.339246634808046,
+    "macd_histogram": 1.3997807694998867,
+    "ma50": 262.06699951171873,
+    "volume_ratio": 0.38711251326207274,
     "ticker": "AAPL"
   },
   "fundamentals": {
-    "pe_ratio": 34.362755,
-    "forward_pe": 29.736174,
-    "price_to_book": 47.379124,
+    "pe_ratio": 34.378475,
+    "forward_pe": 29.704956,
+    "price_to_book": 47.4008,
     "revenue_growth": 0.166,
     "profit_margin": 0.27152002,
     "debt_to_equity": 79.548,
     "target_mean_price": 303.3762,
-    "current_price": 284.18,
+    "current_price": 284.31,
     "fifty_two_week_low": 193.25,
     "fifty_two_week_high": 288.62,
     "trailing_eps": 8.27,
