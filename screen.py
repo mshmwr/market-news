@@ -146,6 +146,9 @@ def _generate_reason(r: dict) -> str:
     if rpe is not None and rpe <= 0.9:
         pct = round((1 - rpe) * 100)
         parts.append(f"本益比低於產業均值 {pct}%")
+    peg = r.get("peg_ratio")
+    if peg is not None and peg < 1.0:
+        parts.append(f"PEG {peg:.1f}（成長價值兼具）")
     mc = r.get("market_cap") or 0
     industry_zh = _INDUSTRY_ZH.get(r.get("industry", ""), "")
     if not industry_zh:
@@ -190,6 +193,10 @@ def _fetch_row(ticker: str) -> dict | None:
         if pe and pe > 0 and sector_avg:
             row["relative_pe"] = round(pe / sector_avg, 2)
 
+        peg = info.get("trailingPegRatio") or info.get("pegRatio")
+        if peg and 0 < peg < 50:
+            row["peg_ratio"] = round(peg, 2)
+
         row["score"] = _uv_score(row)
         row["reason"] = _generate_reason(row)
         return row
@@ -223,6 +230,9 @@ def _uv_score(r: dict) -> float:
     rpe = r.get("relative_pe")
     if rpe is not None:
         s += max(0.0, (1.2 - rpe) / 1.2) * 30
+    peg = r.get("peg_ratio")
+    if peg is not None:
+        s += min(1.0, max(0.0, (1.0 - peg) / 0.5)) * 15
     s += _brand_score(r.get("market_cap"))
     return round(s, 1)
 
@@ -267,18 +277,19 @@ def _print_results(rows: list[dict]) -> None:
         print("No candidates found — try relaxing filters (--min-upside, --max-52w-pos, --max-rel-pe).")
         return
 
-    header = f"{'#':<3} {'Ticker':<8} {'Name':<28} {'Sector':<22} {'Score':>6} {'Upside':>7} {'52W%':>6} {'RelPE':>6} {'MCap':>7}"
+    header = f"{'#':<3} {'Ticker':<8} {'Name':<28} {'Sector':<22} {'Score':>6} {'Upside':>7} {'52W%':>6} {'RelPE':>6} {'PEG':>5} {'MCap':>7}"
     print(header)
     print("─" * len(header))
     for i, r in enumerate(rows, 1):
         upside = f"+{r['upside_pct']:.1f}%" if "upside_pct" in r else "   N/A"
         w52 = f"{r['week52_pos']:.0f}%" if "week52_pos" in r else "  N/A"
         rpe = f"{r['relative_pe']:.2f}x" if "relative_pe" in r else "  N/A"
+        peg = f"{r['peg_ratio']:.1f}" if "peg_ratio" in r else "  N/A"
         mc = r.get("market_cap")
         mcap = f"{mc/1e9:.0f}B" if mc else "  N/A"
         print(
             f"{i:<3} {r['ticker']:<8} {r['name'][:27]:<28} {r['sector'][:21]:<22}"
-            f" {r['score']:>6.1f} {upside:>7} {w52:>6} {rpe:>6} {mcap:>7}"
+            f" {r['score']:>6.1f} {upside:>7} {w52:>6} {rpe:>6} {peg:>5} {mcap:>7}"
         )
     print()
     print("Run `python3 analyze_stock.py <TICKER>` for full BUY/HOLD/SELL signal on any candidate.")
