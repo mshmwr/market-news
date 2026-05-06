@@ -44,4 +44,7 @@ def compute_undervaluation(bundle: SignalBundle) -> dict:
         uv["relative_pe"] = round(f.pe_ratio / sector_avg, 2)
         uv["sector_pe_avg"] = sector_avg
 
+    if f.peg_ratio and f.peg_ratio > 0:
+        uv["peg_ratio"] = round(f.peg_ratio, 2)
+
     return uv
