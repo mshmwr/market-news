@@ -1,6 +1,15 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "聯發科打造AI新大腦 技嘉、台達電神助攻",
+        "description": "聯發科銅鑼研發資料中心昨（7）日啟用，該公司打造的AI新大腦首度對外亮相，踏入這座全台第一座以輝達DGX B200建置的「SuperPOD超級算力中心」，映入眼簾的即是技嘉與台達電的產品，在這些夥伴協",
+        "link": "https://money.udn.com/money/story/5612/9489241",
+        "source": "經濟日報",
+        "category": "台股",
+        "published_ts": 1778170370
+      }
+    ],
     "ticker": "2308.TW"
   },
   "technical": {
@@ -9,21 +18,21 @@
     "macd_signal": 170.97545419075624,
     "macd_histogram": 11.376749959340202,
     "ma50": 1642.3,
-    "volume_ratio": 1.3696267583500528,
+    "volume_ratio": 1.3001155530094513,
     "ticker": "2308.TW"
   },
   "fundamentals": {
-    "pe_ratio": 99.21671,
+    "pe_ratio": 96.161964,
     "forward_pe": 35.875072,
     "price_to_book": 19.771414,
     "revenue_growth": 0.34,
     "profit_margin": 0.118310004,
     "debt_to_equity": 19.37,
-    "target_mean_price": 2428.0527,
+    "target_mean_price": 2510.6843,
     "current_price": 2280.0,
     "fifty_two_week_low": 361.0,
     "fifty_two_week_high": 2370.0,
-    "trailing_eps": 22.98,
+    "trailing_eps": 23.71,
     "book_value": 115.318,
     "peg_ratio": 6.0461,
     "short_name": "DELTA ELECTRONIC",
