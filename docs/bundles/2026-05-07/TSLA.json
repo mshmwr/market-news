@@ -2,50 +2,34 @@
   "news": {
     "articles": [
       {
-        "title": "Tesla’s stock rises as investors get a fresh sign that high gas prices are driving EV sales",
-        "description": "Tesla and its Chinese rivals saw record unit sales in the region last month.",
-        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-investors-get-a-fresh-sign-that-high-gas-prices-are-driving-ev-sales-75d1914a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778169660
-      },
-      {
         "title": "OpenAI trial: Mother of Musk's children says he offered Altman a Tesla board seat",
         "description": "Shivon Zilis, a former OpenAI board member who has four children with Musk, testified that the Tesla CEO wanted the AI startup to join his EV company.",
         "link": "https://www.cnbc.com/2026/05/07/open-ai-trial-shivon-zilis-musk-altman-tesla-board.html",
         "source": "CNBC",
         "category": "美股",
-        "published_ts": 1778167259
-      },
-      {
-        "title": "Elon Musk's Terafab chip factory in Texas could cost up to $119 billion, filing shows",
-        "description": "Elon Musk's giant Terafab facility in Texas could cost up to $119 billion, with hopes of manufacturing chips for Tesla, SpaceX and xAI",
-        "link": "https://www.cnbc.com/2026/05/06/elon-musks-spacex-chip-fab-in-texas-to-cost-up-to-119-billion.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778096416
+        "published_ts": 1778179275
       }
     ],
     "ticker": "TSLA"
   },
   "technical": {
-    "rsi": 63.08544079225931,
-    "macd_line": 4.842209812866997,
-    "macd_signal": 1.502060161967837,
-    "macd_histogram": 3.34014965089916,
-    "ma50": 382.71020080566404,
-    "volume_ratio": 0.7451159136119905,
+    "rsi": 64.6038229016475,
+    "macd_line": 5.17523870093396,
+    "macd_signal": 1.5671205375944508,
+    "macd_histogram": 3.608118163339509,
+    "ma50": 382.7940008544922,
+    "volume_ratio": 0.977937015541081,
     "ticker": "TSLA"
   },
   "fundamentals": {
-    "pe_ratio": 377.4074,
-    "forward_pe": 160.76611,
-    "price_to_book": 18.614424,
+    "pe_ratio": 381.28702,
+    "forward_pe": 162.41875,
+    "price_to_book": 18.805773,
     "revenue_growth": 0.158,
     "profit_margin": 0.03946,
     "debt_to_equity": 18.738,
     "target_mean_price": 412.25366,
-    "current_price": 407.6,
+    "current_price": 411.79,
     "fifty_two_week_low": 273.21,
     "fifty_two_week_high": 498.83,
     "trailing_eps": 1.08,

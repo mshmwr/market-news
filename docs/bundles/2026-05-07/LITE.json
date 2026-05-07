@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Key bridge linking North Korea and Russia almost finished, satellite images show",
-        "description": "The road crossing is the latest sign of the deepening relationship between Pyongyang and Moscow.",
-        "link": "https://www.bbc.com/news/articles/cwy2e3wwd55o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "宏觀",
-        "published_ts": 1778109924
-      }
-    ],
+    "articles": [],
     "ticker": "LITE"
   },
   "technical": {
-    "rsi": 51.132913699927485,
-    "macd_line": 42.980961843196496,
-    "macd_signal": 44.79094534898175,
-    "macd_histogram": -1.8099835057852545,
-    "ma50": 783.2109985351562,
-    "volume_ratio": 0.9379946944534284,
+    "rsi": 53.25442759514913,
+    "macd_line": 44.80780998424086,
+    "macd_signal": 45.15436920823853,
+    "macd_histogram": -0.3465592239976658,
+    "ma50": 783.6693994140625,
+    "volume_ratio": 1.2600699413594407,
     "ticker": "LITE"
   },
   "fundamentals": {
-    "pe_ratio": 153.37918,
-    "forward_pe": 48.193233,
-    "price_to_book": 73.345695,
+    "pe_ratio": 157.42152,
+    "forward_pe": 49.463375,
+    "price_to_book": 75.27874,
     "revenue_growth": 0.901,
     "profit_margin": 0.17678,
     "debt_to_equity": 111.445,
     "target_mean_price": 1081.1008,
-    "current_price": 869.66,
+    "current_price": 892.58,
     "fifty_two_week_low": 63.98,
     "fifty_two_week_high": 1021.0,
     "trailing_eps": 5.67,
