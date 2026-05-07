@@ -1,35 +1,155 @@
 [
   {
-    "title": "Cloudflare to cut 20% of staff in a big bet on AI. Investors aren’t sold.",
-    "description": "Cloudflare’s stock falls as cofounders say the layoffs are “not a cost-cutting exercise.”",
-    "link": "https://www.marketwatch.com/story/cloudflare-to-cut-20-of-staff-in-a-big-bet-on-ai-investors-arent-sold-501d4aa3?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778191260
-  },
-  {
-    "title": "U.S. and Iran trade fire in Strait of Hormuz; each claims other shot first",
-    "description": "",
-    "link": "https://www.cnbc.com/2026/05/07/iran-war-hormuz-strait-ceasefire-trump.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778191196
-  },
-  {
-    "title": "Coinbase posts steep first-quarter loss after slide in crypto prices, shares fall 4%",
+    "title": "Coinbase posts steep first-quarter loss after slide in crypto prices; shares fall 4%",
     "description": "Crypto trading platform Coinbase reported a surprise first-quarter loss and weaker-than-estimated revenue after the market close Thursday.",
     "link": "https://www.cnbc.com/2026/05/07/coinbase-coin-earnings-q1-2026.html",
     "source": "CNBC",
     "category": "美股",
-    "published_ts": 1778191182
+    "published_ts": 1778196480
+  },
+  {
+    "title": "IREN inks AI infrastructure deal with Nvidia",
+    "description": "Data center operator IREN announced a partnership with semiconductor giant Nvidia.",
+    "link": "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778196476
+  },
+  {
+    "title": "Airbnb is seeing some of its fastest growth from this surprising segment",
+    "description": "The travel app has seen some demand disruptions from the Iran war, but is showing early success with its recent pivot into offering hotel bookings",
+    "link": "https://www.marketwatch.com/story/airbnb-is-seeing-some-of-its-fastest-growth-from-this-surprising-segment-7e1b6320?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778195700
+  },
+  {
+    "title": "Trump gives EU ultimatum deadline to approve trade deal with US",
+    "description": "Trump's deadline to the European Union came as a trade court ruled his global tariff policy violated US law.",
+    "link": "https://www.bbc.com/news/articles/cp3pyk4nw3lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778195495
   },
   {
     "title": "CoreWeave stock sinks 10% on weak revenue guidance, increased spending forecast",
-    "description": "CoreWeave has been raising debt to finance its data center buildout, and S&amp;P boosted the company's credit rating.",
+    "description": "CoreWeave has been raising debt to finance its data center buildout, and S&amp;P has boosted the company's credit rating.",
     "link": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html",
     "source": "CNBC",
     "category": "美股",
-    "published_ts": 1778191062
+    "published_ts": 1778195099
+  },
+  {
+    "title": "Corning CEO to Cramer: Deals with 2 unnamed hyperscalers 'larger' than $6B Meta pact",
+    "description": "The investment story for Corning looks even sweeter in the wake of Jim Cramer's sit-down with CEO Wendell Weeks.",
+    "link": "https://www.cnbc.com/2026/05/07/corning-ceo-to-cramer-deals-with-2-unnamed-hyperscalers-larger-than-6b-meta-pact.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778194910
+  },
+  {
+    "title": "US Treasury ‘privately demanded’ Binance comply with monitoring deal: Report",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US Treasury ‘privately demanded’ Binance comply with monitoring deal: Report\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL3JlZ3VsYXRpb24lMjBCaW5hbmNlLmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>US Treasury officials reportedly sent a letter to Binance pressing the crypto exchange on compliance with a 2023 deal, after reports circulated that the company had facilitated transactions linked to Iran.</p>",
+    "link": "https://cointelegraph.com/news/us-treasury-binance-monitoring-program-reminder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1778194500
+  },
+  {
+    "title": "U.S. and Iran trade fire in Strait of Hormuz; each claims other shot first",
+    "description": "CENTCOM's statement does not mention the status of the U.S.-Iran ceasefire, which has already been frayed by repeated claims that its terms are being breached.",
+    "link": "https://www.cnbc.com/2026/05/07/iran-war-hormuz-strait-ceasefire-trump.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778194106
+  },
+  {
+    "title": "Cloudflare to cut 20% of staff in a big bet on AI. Investors aren’t sold.",
+    "description": "The company’s stock falls as co-founders say the layoffs are “not a cost-cutting exercise.”",
+    "link": "https://www.marketwatch.com/story/cloudflare-to-cut-20-of-staff-in-a-big-bet-on-ai-investors-arent-sold-501d4aa3?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778194080
+  },
+  {
+    "title": "CoreWeave shares plunge. Revenue doubles but AI costs are rising.",
+    "description": "Shares of CoreWeave fell 9% in after-hours trading as investors considered shrinking margins and lower-than-expected revenue guidance",
+    "link": "https://www.marketwatch.com/story/coreweave-reports-unprecedented-100-billion-backlog-but-that-comes-at-a-cost-98b385c7?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778193960
+  },
+  {
+    "title": "There’s a new worry keeping Treasury yields and borrowing costs higher",
+    "description": "Oil, the Iran war and inflation risks are putting a new floor under longer-duration Treasury yields",
+    "link": "https://www.marketwatch.com/story/theres-a-new-worry-keeping-treasury-yields-and-borrowing-costs-higher-d3595fe1?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778193660
+  },
+  {
+    "title": "Barcelona vs Real Madrid: El Clasico – La Liga, history, Valverde, Mbappe",
+    "description": "Barca are set to storm La Liga this year and could seal title in Sunday&#039;s Clasico, but what is history of Real rivalry?",
+    "link": "https://www.aljazeera.com/sports/2026/5/7/barcelona-vs-real-madrid-el-clasico-la-liga-history-head-to-head?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778193453
+  },
+  {
+    "title": "‘Americans are not great at managing money’: Social Security and Medicare saved my father from financial ruin",
+    "description": "“There’s no way my dad and my mom paid enough into Medicare to cover my dad’s six months in long-term critical care.”",
+    "link": "https://www.marketwatch.com/story/americans-are-not-great-at-managing-money-social-security-and-medicare-saved-my-father-from-financial-ruin-am-i-wrong-878bd7a2?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778193000
+  },
+  {
+    "title": "CLARITY Act markup could happen as early as next week: Coinbase exec",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"CLARITY Act markup could happen as early as next week: Coinbase exec\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwMTBrJTIwcmVwb3J0LmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>The provisions in the crypto market structure bill are still under review by the banking and crypto lobbies as a new poll shows bipartisan voter support for the legislation.</p>",
+    "link": "https://cointelegraph.com/news/clarity-act-markup-could-happen-as-early-as-next-week-coinbase-exec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1778193000
+  },
+  {
+    "title": "Rocket Lab’s stock rises upon new signs its business is expanding rapidly",
+    "description": "The rocket maker said it signed more launch contracts last quarter than it did in all of last year.",
+    "link": "https://www.marketwatch.com/story/rocket-labs-stock-rises-upon-new-signs-its-business-is-expanding-rapidly-dc7abdfc?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778192460
+  },
+  {
+    "title": "Videos show interceptions over the skies of Tehran",
+    "description": "Iranian state media says air defence systems were activated in western Tehran as multiple explosions were reported.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/5/7/videos-show-interceptions-over-the-skies-of-tehran?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778192434
+  },
+  {
+    "title": "Cloudflare stock sinks 18% after earnings as company cuts 1,100 employees due to AI changes",
+    "description": "The cloud provider announced it is laying off 20% of its workforce as agentic artificial intelligence \"fundamentally changes\" the company's work.",
+    "link": "https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778192357
+  },
+  {
+    "title": "‘The S&P 500 seems to be doing particularly well’: I’m 66. Is this a good time to invest $100,000 in the stock market?",
+    "description": "“I own my home and I have no debt.”",
+    "link": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778192160
+  },
+  {
+    "title": "Real Madrid’s Valverde hospitalised with head injury after Tchouameni fight",
+    "description": "Real&#039;s turbulent season takes another twist on eve of El Clasico with Federico Valverde hurt in dressing room clash.",
+    "link": "https://www.aljazeera.com/sports/2026/5/7/real-madrids-valverde-hospitalised-with-head-injury-after-tchouameni-clash?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778191993
   },
   {
     "title": "Datadog stock soars 31% on blockbuster earnings as AI winners emerge in software",
@@ -37,7 +157,31 @@
     "link": "https://www.cnbc.com/2026/05/07/ai-winners-software-datadog-stock.html",
     "source": "CNBC",
     "category": "美股",
-    "published_ts": 1778190570
+    "published_ts": 1778191816
+  },
+  {
+    "title": "A key sector has been AWOL from the stock-market rally. Investors should be worried.",
+    "description": "The financial sector has been weak while the rest of the market rallies — something that happened before the last big bear markets.",
+    "link": "https://www.marketwatch.com/story/a-key-sector-has-been-awol-from-the-stock-market-rally-investors-should-be-worried-43822eb5?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778191740
+  },
+  {
+    "title": "Iren’s stock soars as a major Nvidia investment overshadows revenue shortfall",
+    "description": "Nvidia is taking a major stake in Iren to build out a 5-gigawatt global footprint for its AI factory ambitions",
+    "link": "https://www.marketwatch.com/story/irens-stock-soars-as-a-major-nvidia-investment-overshadows-revenue-shortfall-c286cdb8?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1778191620
+  },
+  {
+    "title": "OpenAI rolls out new model for cybersecurity teams a month after Anthropic's Mythos debut",
+    "description": "OpenAI said GPT-5.5-Cyber, a variation of its latest AI model, is rolling out in a limited preview capacity to vetted cybersecurity teams.",
+    "link": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778191580
   },
   {
     "title": "Redistricting race to the bottom ramps up, as GOP eyes more states to draw new House maps",
@@ -64,14 +208,6 @@
     "published_ts": 1778190026
   },
   {
-    "title": "Trade Desk’s stock falls as earnings suggest the company’s problems are intensifying",
-    "description": "Growth slowed further in the latest quarter, while profit came up short of expectations.",
-    "link": "https://www.marketwatch.com/story/trade-desks-stock-falls-as-earnings-suggest-the-companys-problems-are-intensifying-e8c54103?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778190000
-  },
-  {
     "title": "Whirlpool says Iran war causing 'recession-level industry decline.' The shares are down 12%",
     "description": "\"War in Iran resulted in recession-level industry decline in the U.S. as consumer confidence collapsed in late February and March,\" the company said.",
     "link": "https://www.cnbc.com/2026/05/07/whirlpool-says-iran-war-causing-recession-level-industry-decline-the-shares-are-down-20percent.html",
@@ -96,12 +232,12 @@
     "published_ts": 1778189677
   },
   {
-    "title": "IREN shares pop 13% on AI infrastructure deal with Nvidia",
-    "description": "IREN shares soared after the data center operator announced a partnership with semiconductor giant Nvidia.",
-    "link": "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778189398
+    "title": "Crypto PACs spend $7.2M to support candidates in 5 US states ahead of elections",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto PACs spend $7.2M to support candidates in 5 US states ahead of elections\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmNvaW50ZWxlZ3JhcGguY29tL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL01ha2UlMjBDcnlwdG8lMjBHcmVhdCUyMEFnYWluLTEuanBnP3ByZWZpeD1tZWRpYSUyRmFydGljbGUtY292ZXJz.jpg\" /></p><p>Two affiliates of the crypto-backed PAC Fairshake reported media buys for political candidates in Georgia, Alabama, Nebraska, Kentucky and Texas this week.</p>",
+    "link": "https://cointelegraph.com/news/crypto-pacs-spending-candidates-five-states-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1778189286
   },
   {
     "title": "Tenerife resort town awaits hantavirus-hit cruise ship",
@@ -120,36 +256,12 @@
     "published_ts": 1778188741
   },
   {
-    "title": "Rocket Lab’s stock rises upon new signs its business is expanding rapidly",
-    "description": "The rocket maker said it signed more launch contracts last quarter than it did in all of last year.",
-    "link": "https://www.marketwatch.com/story/rocket-labs-stock-rises-upon-new-signs-its-business-is-expanding-rapidly-dc7abdfc?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778188500
-  },
-  {
     "title": "Privacy and accountability can coexist onchain, say panelists at Consensus Miami",
     "description": "",
     "link": "https://www.coindesk.com/tech/2026/05/07/privacy-and-accountability-can-coexist-onchain-say-panelists-at-consensus-miami",
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1778188463
-  },
-  {
-    "title": "I-bonds are the best place to put your cash right now — and that should worry you",
-    "description": "As a harbinger of inflation, these unique government bonds could be signaling trouble again.",
-    "link": "https://www.marketwatch.com/story/i-bonds-are-the-best-place-to-put-your-cash-right-now-and-that-should-worry-you-0fdea142?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778188380
-  },
-  {
-    "title": "7 stocks expecting a post-earnings jolt — including Applied Materials and Cisco Systems",
-    "description": "S&amp;P 500 investors are charging ahead — and bullish market indicators blaze the trail.",
-    "link": "https://www.marketwatch.com/story/7-stocks-expecting-a-post-earnings-jolt-including-applied-materials-and-cisco-systems-75ce0f33?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778188320
   },
   {
     "title": "Iran says it attacked US Navy ships after they targeted Iranian tanker",
@@ -174,14 +286,6 @@
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1778188115
-  },
-  {
-    "title": "Coinbase turns into a poster child for the crypto selloff",
-    "description": "Coinbase’s quarterly earnings include a 40% on-year decline for transaction revenue, illustrating the effects of a weaker crypto market.",
-    "link": "https://www.marketwatch.com/story/coinbase-turns-into-a-poster-child-for-the-crypto-selloff-89a4ce14?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778187780
   },
   {
     "title": "Iran still reviewing new U.S. peace proposal as Trump predicts war will 'be over quickly': Reports",
@@ -216,36 +320,12 @@
     "published_ts": 1778187439
   },
   {
-    "title": "Trump gives 4 July ultimatum to EU to approve trade deal with US",
-    "description": "The US president said the European Union must enact the trade deal agreed last year and drop tariffs on American goods to zero.",
-    "link": "https://www.bbc.com/news/articles/cp3pyk4nw3lo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778187437
-  },
-  {
-    "title": "Block earnings show a growth pickup, in a potential validation of the massive AI push",
-    "description": "100% of Block employees now use AI at work, three months after the company’s eye-popping mass-layoff announcement.",
-    "link": "https://www.marketwatch.com/story/block-earnings-show-a-growth-pickup-in-a-potential-validation-of-the-massive-ai-push-76466c8d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778187360
-  },
-  {
     "title": "Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL3NwYWNlX2JsYWNrJTIwaG9sZV9tb25leSUyMGJpdGNvaW4yJTIwKDEpLmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>Institutional investors are gradually increasing crypto exposure as Bitcoin leads allocation preferences amid rising fund inflows and improving market sentiment.</p>",
     "link": "https://cointelegraph.com/news/fund-managers-boost-bitcoin-exposure-crypto-sentiment-rebounds-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1778187308
-  },
-  {
-    "title": "CoreWeave reports ‘unprecedented’ $100 billion backlog — but that comes at a cost",
-    "description": "The stock is choppy as investors weigh record-breaking demand against widening losses.",
-    "link": "https://www.marketwatch.com/story/coreweave-reports-unprecedented-100-billion-backlog-but-that-comes-at-a-cost-98b385c7?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778187300
   },
   {
     "title": "French prosecutors escalate probe of Elon Musk and X to criminal investigation",
@@ -262,14 +342,6 @@
     "source": "Al Jazeera",
     "category": "宏觀",
     "published_ts": 1778187191
-  },
-  {
-    "title": "Here’s how I turned my kids into ‘thousandaires’ managing their own money by their 18th birthdays",
-    "description": "At some point, you have to hand over financial control to your newly minted adult.",
-    "link": "https://www.marketwatch.com/story/heres-how-i-turned-my-kids-into-thousandaires-managing-their-own-money-by-their-18th-birthdays-f0b2ae5f?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1778187120
   },
   {
     "title": "Coinbase stock declines 5% after missing Q1 estimates on crypto slowdown",
@@ -336,14 +408,6 @@
     "published_ts": 1778184288
   },
   {
-    "title": "Peloton stock rises as higher subscription prices help company drive a profitable quarter",
-    "description": "Peloton CEO Peter Stern told CNBC that the company believes raising prices on its subscriptions was a value-driven move.",
-    "link": "https://www.cnbc.com/2026/05/07/peloton-pton-earnings-q3-2026.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778184107
-  },
-  {
     "title": "‘This is my last voice note’: how piracy returned to Somalia and Yemen",
     "description": "Three ships were hijacked near the Gulf of Aden, raising alarms over key sea routes. Is piracy returning to Somalia?",
     "link": "https://www.aljazeera.com/video/the-take-2/2026/5/7/aje-onl-aj_tt_som_waratsea_full-060526?traffic_source=rss",
@@ -374,14 +438,6 @@
     "source": "CNBC",
     "category": "美股",
     "published_ts": 1778181655
-  },
-  {
-    "title": "Oil prices edge lower as U.S. waits for Iran response to deal proposal",
-    "description": "Oil prices edged lower as investors continue to assess the latest developments in the Middle East.",
-    "link": "https://www.cnbc.com/2026/05/07/oil-prices-today-trump-iran-strait-of-hormuz-us-crude-brent-.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778181129
   },
   {
     "title": "Can China help end the Iran war?",
@@ -632,14 +688,6 @@
     "published_ts": 1778176508
   },
   {
-    "title": "Superbike rider killed in crash during qualifying in Northern Ireland",
-    "description": "Rider is 20th fatality at North West 200 but first since 2016, race due to celebrate its centenary in 2029.",
-    "link": "https://www.aljazeera.com/sports/2026/5/7/motorbike-rider-killed-in-crash-in-prestigious-race-in-northern-ireland?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778176443
-  },
-  {
     "title": "Shake Shack shares crater 30% after burger chain reports operating loss",
     "description": "Shake Shack CEO Rob Lynch said winter storms and an increase to its projections for store openings this year weighed on the company's results.",
     "link": "https://www.cnbc.com/2026/05/07/shake-shack-shak-shares-drop-earnings-report.html",
@@ -656,28 +704,12 @@
     "published_ts": 1778175798
   },
   {
-    "title": "Why has the US sanctioned Iraq’s deputy oil minister for helping Iran?",
-    "description": "The US accuses Ali Maarij al-Bahadly of helping Iran avoid sanctions and export its oil through Iraq.",
-    "link": "https://www.aljazeera.com/news/2026/5/7/why-has-the-us-sanctioned-iraqs-deputy-oil-minister-for-helping-iran?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778175365
-  },
-  {
     "title": "Samson Mow defends Strategy selling portions of its Bitcoin treasury",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Samson Mow defends Strategy selling portions of its Bitcoin treasury\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwZ2F0ZS5pbyUyMHNwb25zb3JlZCUyMHN0b3J5LTEuanBnP3ByZWZpeD1tZWRpYSUyRmFydGljbGUtY292ZXJz.jpg\" /></p><p>The Bitcoin advocate spoke up after Michael Saylor signaled that the company might sell some BTC, a major departure from the Strategy founder's previous rhetoric. </p>",
     "link": "https://cointelegraph.com/news/samson-mow-defends-strategy-selling-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1778175139
-  },
-  {
-    "title": "Trump calls for ‘incitement’ charges against top Democrat Hakeem Jeffries",
-    "description": "US president says House minority leader should be indicted over &#039;maximum warfare&#039; remarks in relation to election maps.",
-    "link": "https://www.aljazeera.com/news/2026/5/7/trump-calls-for-incitement-charges-against-top-democrat-hakeem-jeffries?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778172937
   },
   {
     "title": "Ryan Cohen's mysterious bank letter backing GameStop's eBay bid reveals a big issue with deal",
@@ -792,14 +824,6 @@
     "published_ts": 1778170026
   },
   {
-    "title": "This 'win-win' hedge trade is getting popular with traders",
-    "description": "The trade is fairly simple: sell downside protection in semiconductor names where volatility is expensive, and buy downside protection in the S&amp;P 500, where it's relatively cheap.",
-    "link": "https://www.cnbc.com/2026/05/07/this-win-win-hedge-trade-is-getting-popular-with-traders.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778169958
-  },
-  {
     "title": "Rosenberg: Russia's Victory Day parade with no tanks a sign Ukraine war not going to plan",
     "description": "For the first time in nearly two decades, there will be no military hardware, just soldiers during Saturday's parade in Moscow.",
     "link": "https://www.bbc.com/news/articles/cwy2gj2jlr8o?at_medium=RSS&at_campaign=rss",
@@ -848,20 +872,20 @@
     "published_ts": 1778168799
   },
   {
+    "title": "Here’s what happened in crypto today",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL2FydGljbGUtY292ZXJzLTExMDU4OS13aGF0LWhhcHBlbmVkLWluLWNyeXB0by10b2RheS5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.</p>",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1778168700
+  },
+  {
     "title": "Superdry co-founder James Holder jailed for rape",
     "description": "James Holder's victim told her attacker he took her \"choice, dignity and body\".",
     "link": "https://www.bbc.com/news/articles/c9v3ynljwnwo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1778168665
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL2FydGljbGUtY292ZXJzLTExMDU4OS13aGF0LWhhcHBlbmVkLWluLWNyeXB0by10b2RheS5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.</p>",
-    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1778168303
   },
   {
     "title": "SpaceX 回頭強攻太空 AI 盟立鈣鈦礦太陽能跑第一成大贏家",
@@ -1256,30 +1280,6 @@
     "published_ts": 1778137200
   },
   {
-    "title": "Bitwise enters tokenized funds via Superstate’s crypto carry vehicle",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitwise enters tokenized funds via Superstate’s crypto carry vehicle\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwQ3J5cHRvY3VycmVuY2llcyUyMGhhcyUyMGJlZW4lMjBsaXN0ZWQlMjBhbiUyMGV4Y2hhbmdlLXRyYWRlZCUyMG5vdGUlMjBpbiUyMEV1cm9wZSUyMEJpdHdpc2UtMS5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>Bitwise plans to take over Superstate’s tokenized crypto carry fund as demand for actively managed onchain investment products continues to grow.</p>",
-    "link": "https://cointelegraph.com/news/bitwise-enters-tokenized-funds-through-superstates-crypto-carry-vehicle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1778137200
-  },
-  {
-    "title": "UAE-regulated stablecoins to develop AED-USD conversion rails for institutional settlement",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"UAE-regulated stablecoins to develop AED-USD conversion rails for institutional settlement \" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmNvaW50ZWxlZ3JhcGguY29tL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJLVZBVC1sYXctaW4tVUFFLVRoZS1pbXBhY3Qtb24tY3J5cHRvY3VycmVuY3ktYW5kLWRpZ2l0YWwtYXNzZXRzMy5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>The system enables near-instant conversion between UAE dirham and US dollar stablecoins within the country’s regulated payment token regime.</p>",
-    "link": "https://cointelegraph.com/news/uae-regulated-stablecoins-to-develop-aed-usd-conversion-rails-for-institutional-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1778137200
-  },
-  {
-    "title": "Aave liquidates Kelp DAO hacker's rsETH positions on Ethereum, Arbitrum",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Aave liquidates Kelp DAO hacker's rsETH positions on Ethereum, Arbitrum\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL1ByZXNlbnRhdGlvbiUyMFdvbWFuJTIwTWFuJTIwQ2hhcnRzJTIwVXAlMjBBYXZlLmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>Galaxy Digital’s Thaddeus Pinakiewicz noted that Aave is now only 10% short of recovering from the bad debt that hit its lending protocol after the Kelp DAO hack.</p>",
-    "link": "https://cointelegraph.com/news/aave-liquidates-kelp-dao-hackers-rseth-stash-ethereum-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1778130535
-  },
-  {
     "title": "Ukraine war 'led me to surrogacy' to earn money but a new law could end those plans",
     "description": "Ukraine is considering a law that would effectively ban foreigners from accessing surrogacy in the country.",
     "link": "https://www.bbc.com/news/articles/clyp4kp687go?at_medium=RSS&at_campaign=rss",
@@ -1358,6 +1358,14 @@
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1778043211
+  },
+  {
+    "title": "配息高不代表賺得多？存股族最常搞混的「殖利率」　股市進階術語一次拆解",
+    "description": "<img alt=\"配息高不代表賺得多？存股族最常搞混的「殖利率」　股市進階術語一次拆解\" src=\"https://cdn2.ettoday.net/images/6004/c6004226.jpg\" /><br /> 在投資資訊高度普及的時代，許多投資人每日關注盤勢變化，卻往往對關鍵財經術語陷入「聽過卻沒懂過」的困境。Podcast節目《不管啦！給我錢》最新一集中，再次針對多組進階概念且高度影響投資判斷的關鍵名詞進行拆解，強調投資成敗往往不取決於資訊多寡，而在於是否理解正確。 <a href=\"https://finance.ettoday.net/news/3162051\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162051",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
     "title": "創見首季稅後淨利81.2億元、年增149%　EPS達18.93元",
@@ -1587,14 +1595,6 @@
     "title": "永慶房屋推出「溫柔綻放花漾筆」　傳達對媽媽的感謝",
     "description": "<img alt=\"永慶房屋推出「溫柔綻放花漾筆」　傳達對媽媽的感謝\" src=\"https://cdn2.ettoday.net/images/8732/c8732195.jpg\" /><br /> 迎接母親節，除了準備禮物或花束表達對媽媽的感謝，永慶房屋今年以創意方式詮釋「獻花」的心意，推出兼具溫馨與實用的「溫柔綻放花漾筆」，將祝福化為日常陪伴，向溫柔又堅強的媽媽傳遞最真摯的祝福。5/1至5/10只要來永慶房屋雙北直營門市預約賞屋，即可獲得康乃馨造型的的「溫柔綻放花漾筆」一支，讓這個母親節不僅充滿儀式感，更留下美好回憶。 <a href=\"https://finance.ettoday.net/news/3161796\" target=\"_blank\">《詳全文...》</a>",
     "link": "https://finance.ettoday.net/news/3161796",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "手機市場轉弱拖累　Arm示警低階需求疲軟",
-    "description": "<img alt=\"手機市場轉弱拖累　Arm示警低階需求疲軟\" src=\"https://cdn2.ettoday.net/images/7593/c7593674.jpg\" /><br /> 英國矽智財（IP）大廠Arm示警智慧手機市場需求轉弱，尤其低階手機銷量已出現負成長，對公司核心授權與權利金業務形成壓力。不過，管理層強調，AI資料中心需求快速升溫，未來成長動能可望彌補手機市場疲弱影響。\n\n\n <a href=\"https://finance.ettoday.net/news/3161781\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3161781",
     "source": "ETtoday財經",
     "category": "台股",
     "published_ts": 0
