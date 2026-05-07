@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 41.218376657319816,
+    "macd_line": -1.7995819832804045,
+    "macd_signal": -1.299851103584756,
+    "macd_histogram": -0.49973087969564856,
+    "ma50": 145.6047998046875,
+    "volume_ratio": 1.0424491665091764,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 148.65555,
+    "forward_pe": 65.84477,
+    "price_to_book": 43.31175,
+    "revenue_growth": 0.847,
+    "profit_margin": 0.43673,
+    "debt_to_equity": 2.477,
+    "target_mean_price": 181.7289,
+    "current_price": 133.79,
+    "fifty_two_week_low": 112.07,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.9,
+    "book_value": 3.089,
+    "peg_ratio": 2.899,
+    "short_name": "Palantir Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

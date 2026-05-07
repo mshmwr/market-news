@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Arm's quarter shows how it's carving a lucrative path in the crowded CPU resurgence",
+        "description": "This central processing unit renaissance was confirmed when Intel reported earnings two weeks ago. AMD and now Arm told similar stories.",
+        "link": "https://www.cnbc.com/2026/05/06/arms-quarter-shows-how-its-carving-a-lucrative-path-in-the-crowded-cpu-resurgence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778109312
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 85.91630516736308,
+    "macd_line": 13.828584814154624,
+    "macd_signal": 10.559014213740795,
+    "macd_histogram": 3.2695706004138287,
+    "ma50": 59.26980003356934,
+    "volume_ratio": 1.091420666843763,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 74.5306,
+    "price_to_book": 4.938385,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 80.93333,
+    "current_price": 113.01,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 113.5,
+    "trailing_eps": -0.6,
+    "book_value": 22.884,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

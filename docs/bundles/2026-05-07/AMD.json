@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Arm's quarter shows how it's carving a lucrative path in the crowded CPU resurgence",
+        "description": "This central processing unit renaissance was confirmed when Intel reported earnings two weeks ago. AMD and now Arm told similar stories.",
+        "link": "https://www.cnbc.com/2026/05/06/arms-quarter-shows-how-its-carving-a-lucrative-path-in-the-crowded-cpu-resurgence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778109312
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 81.18348311348248,
+    "macd_line": 39.373989043174106,
+    "macd_signal": 32.04978723398315,
+    "macd_histogram": 7.324201809190953,
+    "ma50": 245.52880004882812,
+    "volume_ratio": 1.9519169153023943,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 140.93312,
+    "forward_pe": 33.306118,
+    "price_to_book": 10.902717,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 433.02127,
+    "current_price": 421.39,
+    "fifty_two_week_low": 101.56,
+    "fifty_two_week_high": 430.6,
+    "trailing_eps": 2.99,
+    "book_value": 38.65,
+    "peg_ratio": 1.051,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}
