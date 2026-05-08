@@ -1,7 +1,9 @@
 ---
 id: MN-005
 title: PWA Port to Next.js + Retire GH Pages
-status: accepted
+status: closed
+closed: 2026-05-09
+closed-commit: b24b7c8
 created: 2026-05-09
 type: feature
 priority: medium
@@ -167,6 +169,6 @@ site-content.json review: no-change — MN-005 is a PWA port ticket with no new 
 - **Git SHA (squash merge commit):** b24b7c8
 - **PR:** #77 — feat(MN-005): port PWA to Next.js + retire GH Pages
 - **Hosting URL:** https://market-news-sigma.vercel.app
-- **Verification probe (Vercel):** PENDING — Vercel auto-deploy not triggered; requires `vercel --prod` by user. Post-deploy probe: confirm `/manifest.json` returns 200 with `start_url: "/"` and page `<link rel="manifest">` tag present.
-- **Verification probe (GH Pages redirect):** PASS — `curl https://mshmwr.github.io/market-news/` returns `<meta http-equiv="refresh" content="0; url=https://market-news-sigma.vercel.app">` in HTML body.
-- **Status:** Accepted — code merged; GH Pages redirect live; Vercel PWA assets pending manual deploy
+- **Verification probe (Vercel):** PASS — Playwright headless Chromium confirmed `<title>每日市場新聞</title>` + `<h1>每日市場新聞</h1>`; `<link rel="manifest" href="/manifest.json">` present; `<link rel="apple-touch-icon">` count = 1; `/manifest.json` returns HTTP 200 with `name: 每日市場新聞` + 2 icons. Deploy id `dpl_…k1kd1dr0n` (alias `market-news-k1kd1dr0n-mshmwrs-projects.vercel.app`).
+- **Verification probe (GH Pages redirect):** PASS — Playwright `page.goto('https://mshmwr.github.io/market-news/')` settles on `https://market-news-sigma.vercel.app/` (redirect chain works in real browser); HTTP-level: GH Pages HTML body contains `<meta http-equiv="refresh" content="0; url=https://market-news-sigma.vercel.app">`.
+- **Status:** Live — code merged; Vercel PWA deployed + verified; GH Pages redirect verified end-to-end 2026-05-09
