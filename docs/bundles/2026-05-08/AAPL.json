@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel shares soar on Apple chip deal report. Here's why it signals a total pivot for chipmaking",
+        "description": "Samsung, Intel and TSMC are the only three companies in the world capable of manufacturing the most advanced chips needed for AI.",
+        "link": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778274189
+      },
+      {
+        "title": "Intel’s stock achieves a never-before-seen feat as Apple enthusiasm builds",
+        "description": "Intel is in the midst of transforming its business, with shares rising 14% on Friday following news of a new Apple manufacturing partnership.",
+        "link": "https://www.marketwatch.com/story/intels-stock-could-achieve-a-never-before-seen-feat-as-apple-enthusiasm-builds-edd94237?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778271120
+      },
+      {
+        "title": "What an Apple deal to buy Intel chips would mean for the iPhone maker",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/05/08/what-an-apple-deal-to-buy-intel-chips-would-mean-for-the-iphone-maker.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778266057
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 72.94167907203513,
+    "macd_line": 7.30001418357449,
+    "macd_signal": 5.310590649299596,
+    "macd_histogram": 1.989423534274894,
+    "ma50": 262.8025994873047,
+    "volume_ratio": 0.9429956259987574,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.55394,
+    "forward_pe": 30.682877,
+    "price_to_book": 40.402203,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 303.3762,
+    "current_price": 293.32,
+    "fifty_two_week_low": 193.46,
+    "fifty_two_week_high": 294.76,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.5213,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

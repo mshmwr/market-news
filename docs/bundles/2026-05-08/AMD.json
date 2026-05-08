@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "AMD, Micron shares surge on a big day for chip-sector outperformance",
+        "description": "There’s been a dramatic “return to AI data-center optimism,” one analyst notes.",
+        "link": "https://www.marketwatch.com/story/amd-micron-shares-surge-on-a-big-day-for-chip-sector-outperformance-fe2d5306?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778274420
+      },
+      {
+        "title": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags",
+        "description": "Intel, AMD and Micron surged double digits this week as investors bet on CPU makers and memory companies powering the next stage of AI",
+        "link": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778270855
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 80.78570376589587,
+    "macd_line": 47.00966579491421,
+    "macd_signal": 36.606109625867475,
+    "macd_histogram": 10.403556169046738,
+    "ma50": 254.51100006103516,
+    "volume_ratio": 1.224364978271154,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 152.74832,
+    "forward_pe": 35.280003,
+    "price_to_book": 11.777231,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 433.02127,
+    "current_price": 455.19,
+    "fifty_two_week_low": 101.6,
+    "fifty_two_week_high": 456.25,
+    "trailing_eps": 2.98,
+    "book_value": 38.65,
+    "peg_ratio": 1.051,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Gold has climbed back above a key trend line. Are more gains on the way?",
+        "description": "Gold broke above an important short-term technical level on Friday — a sign that the precious metal may be starting to regain momentum after a sluggish stretch since the start of the Iran conflict.",
+        "link": "https://www.marketwatch.com/story/gold-has-climbed-back-above-a-key-trend-line-are-more-gains-on-the-way-6627e0f5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778276640
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 42.19417257801979,
+    "macd_line": -4.319628750975653,
+    "macd_signal": 2.7185470467535158,
+    "macd_histogram": -7.038175797729169,
+    "ma50": 626.4280725097656,
+    "volume_ratio": 0.833108575398734,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.160305,
+    "forward_pe": 16.847143,
+    "price_to_book": 7.099701,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 609.63,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.51,
+    "book_value": 85.867,
+    "peg_ratio": 0.9298,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

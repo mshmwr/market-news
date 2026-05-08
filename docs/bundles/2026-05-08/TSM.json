@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel shares soar on Apple chip deal report. Here's why it signals a total pivot for chipmaking",
+        "description": "Samsung, Intel and TSMC are the only three companies in the world capable of manufacturing the most advanced chips needed for AI.",
+        "link": "https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778274189
+      }
+    ],
+    "ticker": "TSM"
+  },
+  "technical": {
+    "rsi": 64.01803060497946,
+    "macd_line": 14.512256075941366,
+    "macd_signal": 12.97492380782221,
+    "macd_histogram": 1.5373322681191564,
+    "ma50": 363.0444616699219,
+    "volume_ratio": 1.2647925394998196,
+    "ticker": "TSM"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.367695,
+    "forward_pe": 21.339216,
+    "price_to_book": 62.973495,
+    "revenue_growth": 0.351,
+    "profit_margin": 0.46505,
+    "debt_to_equity": 17.131,
+    "target_mean_price": 463.4514,
+    "current_price": 411.68,
+    "fifty_two_week_low": 176.47,
+    "fifty_two_week_high": 420.0,
+    "trailing_eps": 11.64,
+    "book_value": 6.5373535,
+    "peg_ratio": 1.3054,
+    "short_name": "Taiwan Semiconductor Manufactur",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 18,
+    "sector": "Technology",
+    "ticker": "TSM"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSM",
+    "available": false
+  }
+}
