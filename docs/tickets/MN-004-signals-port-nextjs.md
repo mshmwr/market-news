@@ -1,7 +1,7 @@
 ---
 id: MN-004
 title: Signals Display Port to Next.js
-status: open
+status: accepted
 created: 2026-05-09
 type: feature
 priority: high
@@ -238,11 +238,11 @@ All created new in this ticket; no pre-existing shared component at canonical pa
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Phase 1 — Data fetching + types | open | |
-| Phase 2 — Signals section UI | open | |
-| Phase 3 — News section UI | open | |
-| Phase 4 — Translate button + theme-color | open | |
-| Phase 5 — README re-label | open | |
+| Phase 1 — Data fetching + types | complete | tsc exit 0, build exit 0, types verified |
+| Phase 2 — Signals section UI | complete | All SIG ACs verified in implementation |
+| Phase 3 — News section UI | complete | All NEWS ACs verified; reviewerfix applied |
+| Phase 4 — Translate button + theme-color | complete | theme-color in layout.tsx; translate anchor |
+| Phase 5 — README re-label | complete | Vercel=Production, GH Pages=Legacy |
 
 ## Blocking Questions
 
@@ -260,6 +260,24 @@ AC vs Sacred cross-check: no conflict.
 `npm run build`: exit 0 (Route `/` 6.17 kB, ISR static prerender)
 
 Reviewer fix: `fetchNews()` return type changed to `null | NewsItem[]` to correctly propagate fetch-error vs genuine-empty distinction to PageClient. tsc + build both re-verified post-fix.
+
+Runtime-scope triggered: YES (files: frontend/app/page.tsx, frontend/app/layout.tsx, frontend/components/**, frontend/lib/**)
+Deploy Record block present in ticket §Release Status: see below
+Live hosting probe: Vercel security checkpoint blocks curl-based probe (bot detection); Vercel project was live at https://market-news-sigma.vercel.app per MN-003 deploy record (deploy `dpl_ezmodYutKA5aX68EGo1dugBEoeWE`); browser verification required post-merge (same pattern as MN-003 AC-SCAFFOLD-05 deferral).
+
+BQ closure: [7 resolved — BQ-004-01 through BQ-004-07] [0 deferred] [0 open]
+
+site-content.json review: no-change — MN-004 is a frontend port ticket; no new PM process rule surfaced; no processRules[] mutation needed.
+
+### Deploy Record
+
+- **Deploy date:** 2026-05-09
+- **Git SHA (squash merge commit):** 4401595
+- **PR:** #73 — feat(MN-004): port signals + news display to Next.js ISR
+- **Hosting URL:** https://market-news-sigma.vercel.app
+- **Verification probe:** Vercel bot-detection blocks curl; `theme-color` confirmed present in HTTP response (MN-004 `layout.tsx` change); browser probe required to confirm "每日市場新聞" heading (post-session user action)
+- **GH Pages (legacy):** https://mshmwr.github.io/market-news/ — `docs/index.html` unchanged, continues to serve
+- **Status:** Accepted — code merged + deploy triggered; browser probe pending user confirmation
 
 ---
 
