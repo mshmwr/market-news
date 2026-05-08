@@ -1,3 +1,10 @@
+## 2026-05-09 — MN-003 Next.js Scaffold
+
+**What went well:** Design doc pre-resolved all scope decisions; zero BQs hit during implementation. Build passed on second attempt.
+**What went wrong:** `next.config.ts` is only supported in Next.js 15+; used `.ts` per design doc spec but Next.js 14.2.29 requires `.mjs`; caught immediately by build error and fixed in one step.
+**Next time improvement:** When specifying config file extensions in design docs for Next.js projects, verify the installed version supports `.ts` config before naming it — would have saved one build cycle.
+**Slowest step:** `npm install` — ~45s for first-time dependency resolution.
+
 ## 2026-05-08 — Debate UI Render
 
 **What went well:** Single-file HTML edit; CSS + JS both in `docs/index.html`. Guard `if (s.bull_case || s.bear_case)` lets old archived signals render cleanly without the debate block — no migration step needed. Used `appendChild(document.createTextNode(...))` after `innerHTML` to avoid XSS on the case strings while keeping the label tag styled.
