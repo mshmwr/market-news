@@ -11,13 +11,13 @@ updated: 2026-05-09
 
 See full AC in `docs/tickets/MN-003-nextjs-shell.md`.
 
-Status: BQ-003-01 through BQ-003-04 open — awaiting user answers before AC finalised.
+Deploy target: Vercel. `frontend/` subdir monorepo. Coexist with `docs/index.html` until MN-004 ports signals display. Vercel URL labeled "Pre-release" in README.
 
-AC draft skeleton:
+AC summary:
 
-- **Phase 1 (Next.js scaffold):** AC-MN003-SCAFFOLD-01/02
+- **Phase 1 (Next.js scaffold + Vercel config):** AC-MN003-SCAFFOLD-01/02/03/04/05/06
 - **Phase 2 (Real-time hook reservation):** AC-MN003-RT-01
-- **Phase 3 (Legacy transition — conditional on BQ-003-01):** AC-MN003-LEGACY-01
+- **Phase 3 (Coexist labeling):** AC-MN003-LEGACY-01/02
 
 ---
 

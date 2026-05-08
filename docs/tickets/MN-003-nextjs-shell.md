@@ -9,83 +9,134 @@ size: L
 visual-delta: none
 content-delta: none
 design-locked: N/A
-qa-early-consultation: pending
+qa-early-consultation: "PM proxy tier — 2026-05-09 MN-003 — 6 challenges raised, 5 supplemented to AC, 1 Known Gap (App Router mandate added as AC)"
 worktree: .claude/worktrees/MN-003-nextjs-shell
 branch: MN-003-nextjs-shell
 ---
 
 ## Summary
 
-Rebuild the market-news frontend by replacing the current static `docs/index.html` (GitHub Pages) with a Next.js application. The Next.js app will render the page shell and static/periodic signal data via SSR or ISR, while reserving client-side hooks (WebSocket or polling) for future real-time price feeds. No live data source is wired in this ticket — this is a forward-looking architecture scaffold.
+Scaffold a Next.js application under `frontend/` (monorepo: Python worker stays at repo root). Deploy target is Vercel. The app renders a placeholder shell (no live signal data in this ticket — that is MN-004 scope). `docs/index.html` (GitHub Pages) remains production until MN-004 achieves feature parity. The Vercel URL is labeled "Pre-release" in README.
 
 ## Scope
 
-Pending BQ resolution — see §Blocking Questions below.
+Files to create:
+- `frontend/` — Next.js 14 App Router project (TypeScript strict, Tailwind CSS)
+- `frontend/package.json`, `frontend/tsconfig.json`, `frontend/next.config.ts`
+- `frontend/app/layout.tsx`, `frontend/app/page.tsx` — root layout + placeholder home page
+- `frontend/components/realtime/` — empty directory with `types.ts` stub interface
+- `vercel.json` — repo root, sets `rootDirectory: "frontend"` so Vercel builds from correct subdirectory
 
-Expected files touched (draft, subject to BQ answers):
-- `frontend/` — new Next.js app directory (layout TBD per BQ-003-04)
-- `docs/` — possibly retired or reduced to redirect (per BQ-003-01)
-- `.github/workflows/` — CI/deploy workflow changes (per BQ-003-02)
-- `ssot/system-overview.md` — update tech stack + directory structure
-- `ssot/PRD.md` — add MN-003 AC row
+Files modified:
+- `README.md` — add "Pre-release" Vercel URL + note that `docs/index.html` remains production until MN-004
+- `ssot/system-overview.md` — update tech stack + directory structure to reflect Next.js addition
 
-Out of scope (MN-003):
-- Live data source / WebSocket connection to real market feed
-- Auth or paywall (SP-prefix scope)
-- Migration of Python worker / signal analysis CLI (unchanged)
+Files unchanged (out of scope):
+- All Python files, `docs/index.html`, `.github/workflows/`, `docs/signals.json`
+- Auth, paywall, real data wiring (SP-prefix scope)
 
 ## Blocking Questions
 
-**BQ-003-01 — OPEN (awaiting user)**
-Replace vs coexist: does `docs/index.html` (and GitHub Pages deploy) get retired when MN-003 ships, or does it coexist as a fallback?
+**BQ-003-01 — RESOLVED (user, 2026-05-09)**
+Coexist: `docs/index.html` stays as production. Retirement gate = MN-004 (signals display ported). MN-003 ships Vercel URL labeled "Pre-release" in README.
 
-Implication: if retired, AC must include removing/archiving `docs/index.html` and changing GH Pages source or disabling Pages. If coexist, both are maintained during the transition period.
+**BQ-003-02 — RESOLVED (user, 2026-05-09)**
+Deploy target: Vercel. ISR preserved as an option for future tickets.
 
-**BQ-003-02 — OPEN (awaiting user)**
-Deploy target for Next.js app: Vercel (enables ISR natively) or GitHub Pages with `next export` (SSG only, ISR impossible)?
+**BQ-003-03 — RESOLVED (user, 2026-05-09)**
+Pure shell + placeholder for MN-003. Real signal data wiring deferred to MN-004.
 
-Implication: this is the highest-impact architectural decision — it determines whether ISR is achievable or whether all "periodic refresh" must be handled via client-side polling. Vercel requires connecting the repo to Vercel dashboard; GH Pages requires `output: 'export'` in `next.config.js` which disables API routes and ISR.
-
-**BQ-003-03 — OPEN (awaiting user)**
-Data to show NOW: should the MN-003 Next.js shell display the existing `docs/signals.json` (produced by the daily GitHub Actions workflow), or is it acceptable to show a blank/placeholder shell until a future ticket wires real data?
-
-Implication: if signals.json is fetched, Architect must decide between ISR (fetch at build time with revalidate) vs client-side fetch at page load. If placeholder, MN-003 AC is simpler.
-
-**BQ-003-04 — OPEN (awaiting user)**
-Repo layout: Next.js app under `frontend/` subdirectory inside this market-news repo (monorepo), or in a separate package.json root at repo root?
-
-Implication: monorepo (`frontend/`) keeps Python + Next.js co-located; separate root simplifies tooling but complicates paths for GH Actions CI.
+**BQ-003-04 — RESOLVED (user, 2026-05-09)**
+Repo layout: `frontend/` subdirectory (monorepo). Python worker stays at repo root.
 
 ## Acceptance Criteria
 
-_To be authored after BQ-003-01 through BQ-003-04 are resolved. Draft skeleton below._
+### Phase 1 — Next.js scaffold + Vercel config
 
-### Phase 1 — Next.js project scaffold
+**AC-MN003-SCAFFOLD-01**
+- Given: `frontend/` directory exists in the repo with a valid `package.json` referencing Next.js 14
+- When: `npm run build` is executed inside `frontend/` with no `.env.local` present
+- Then: exit code is 0; TypeScript compiler emits zero errors (strict mode); build output directory `frontend/.next/` is created
 
-AC-MN003-SCAFFOLD-01 (draft)
-- Given: the repo contains a Next.js app directory (path TBD per BQ-003-04)
-- When: `npm run build` executes in that directory
-- Then: build exits 0 with no TypeScript errors; output includes at least one pre-rendered page (SSR or SSG)
+**AC-MN003-SCAFFOLD-02**
+- Given: the Next.js app uses App Router (not Pages Router)
+- When: `ls frontend/app/` is executed
+- Then: `layout.tsx` and `page.tsx` exist at `frontend/app/`; `frontend/pages/` does NOT exist
 
-AC-MN003-SCAFFOLD-02 (draft)
-- Given: the Next.js app is deployed (target TBD per BQ-003-02)
-- When: a browser requests the root URL
-- Then: the page shell loads with a document `<title>` including "Market News" and a visible heading; response includes server-rendered HTML (not a blank `<div id="root">`)
+**AC-MN003-SCAFFOLD-03**
+- Given: `frontend/tsconfig.json` exists
+- When: the file is read
+- Then: `"strict": true` is present in the `compilerOptions` object
+
+**AC-MN003-SCAFFOLD-04**
+- Given: `vercel.json` exists at repo root
+- When: the file is read
+- Then: it contains `"rootDirectory": "frontend"` so Vercel resolves the build root to the correct subdirectory
+
+**AC-MN003-SCAFFOLD-05**
+- Given: the Next.js app is deployed to Vercel via the branch PR (automatic Vercel preview or production deploy)
+- When: a GET request is made to the Vercel root URL
+- Then: HTTP status 200 is returned; the response body contains the text "Market News" in a `<title>` or `<h1>` element (server-rendered HTML, not a blank `<div>`)
+
+**AC-MN003-SCAFFOLD-06**
+- Given: `npm run build` passes inside `frontend/`
+- When: the build runs without any `.env.local`
+- Then: no "Missing required environment variable" error or unhandled `undefined` reference is thrown — the scaffold has zero env var dependency at build time
 
 ### Phase 2 — Real-time data hook reservation
 
-AC-MN003-RT-01 (draft)
-- Given: the Next.js app scaffold exists
-- When: a developer adds a WebSocket or polling client component
-- Then: there is a designated `components/realtime/` directory and a documented stub interface (TypeScript interface or comment) indicating the expected data shape from a future price feed; no live connection is established
+**AC-MN003-RT-01**
+- Given: `frontend/components/realtime/` directory exists
+- When: `frontend/components/realtime/types.ts` is read
+- Then: the file exports at least one TypeScript interface named `RealtimePrice` or equivalent, with fields `ticker: string`, `price: number`, `timestamp: string`; the file contains a comment stating this is a stub for a future WebSocket or polling feed; no live network connection is established
 
-### Phase 3 — Legacy docs/index.html transition
+### Phase 3 — Coexist labeling + README update
 
-AC-MN003-LEGACY-01 (draft, conditional on BQ-003-01 = retire)
-- Given: MN-003 ships and Next.js app is live
-- When: `docs/index.html` is accessed at the old GitHub Pages URL
-- Then: either the page redirects to the new Next.js URL, or `docs/index.html` is removed and GitHub Pages source is changed to the new deploy target
+**AC-MN003-LEGACY-01**
+- Given: `README.md` is read
+- When: the "Pre-release" Vercel URL section is located
+- Then: the README contains a section or note with the exact label text "Pre-release" adjacent to the Vercel deployment URL; a separate line identifies `docs/index.html` (or its GitHub Pages URL) as the current production link; the README does NOT claim the Vercel URL is production
+
+**AC-MN003-LEGACY-02**
+- Given: MN-003 is merged and Vercel is live
+- When: the GitHub Pages URL (`https://mshmwr.github.io/market-news/`) is accessed
+- Then: `docs/index.html` continues to serve and is not removed, redirected, or broken (GH Pages source remains `docs/` directory on `main`)
+
+## QA Early Consultation
+
+PM proxy — 2026-05-09 MN-003
+
+Challenges raised and dispositions:
+1. Env var dependency at build time → AC-MN003-SCAFFOLD-06 added (build must pass with no env vars)
+2. Vercel root directory misconfiguration → AC-MN003-SCAFFOLD-04 added (`vercel.json` with `rootDirectory`)
+3. README pre-release vs production label specificity → AC-MN003-LEGACY-01 specifies exact "Pre-release" label text
+4. App Router vs Pages Router unresolved → AC-MN003-SCAFFOLD-02 mandates App Router; `frontend/pages/` must NOT exist
+5. TypeScript strict mode → AC-MN003-SCAFFOLD-03 added (`"strict": true` in tsconfig)
+6. Vercel 200 probe → AC-MN003-SCAFFOLD-05 added (HTTP 200 + server-rendered HTML with "Market News")
+
+## AC vs Sacred Cross-Check
+
+MN-001 (closed): Python CLI only — no visual Sacred. No conflict.
+MN-002 (closed): HTML/JS only — no visual Sacred. No conflict.
+AC vs Sacred cross-check: no conflict.
+
+## Binary-Criterion AC Scan
+
+All Then/And clauses anchored to: exit code, file existence (ls), file content (string match), HTTP status code, TypeScript compiler error count. Zero subjective bars.
+Binary-criterion AC scan: 6 clauses checked / 0 subjective.
+
+## Phase Gate Status
+
+| Phase | Status | Notes |
+|-------|--------|-------|
+| Phase 1 — Scaffold + Vercel config | open | |
+| Phase 2 — Real-time hook reservation | open | |
+| Phase 3 — Coexist labeling | open | |
+
+## Release Status
+
+_Not yet released._
 
 ---
 
-_Ticket opened: 2026-05-09 by PM. ACs are draft skeletons; full AC authoring blocked on BQ-003-01 through BQ-003-04 user responses._
+_Ticket opened: 2026-05-09 by PM_
