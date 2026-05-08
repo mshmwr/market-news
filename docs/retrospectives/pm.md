@@ -1,3 +1,16 @@
+## 2026-05-09 — MN-005 — Full pipeline execution
+
+**Task:** PWA port to Next.js + GH Pages retirement.
+
+**What happened:**
+- Worktree created; ticket stub committed; QA Early Consultation proxy (5 challenges, 2 supplemented, 3 already-covered).
+- Design doc: plain sw.js over next-pwa (fewer config landmines); `PwaRegister` Client Component null-render with useEffect guard.
+- Engineer: 6 new files, 5 modified; tsc + build pass first try.
+- Phase A: PR #77 squash merged at `b24b7c8`. Vercel auto-deploy not triggered (same pattern as MN-004); manual `vercel --prod` needed.
+- GH Pages redirect confirmed live (`curl mshmwr.github.io/market-news/` returns meta-refresh tag).
+
+**Next time improvement:** Before any Vercel-deployed ticket Phase A close, include "verify `vercel ls` shows new deployment after merge; if not, flag user to run `vercel --prod`" in the pre-close checklist.
+
 ## 2026-05-09 — MN-004 — Full pipeline execution (Phase B)
 
 **Task:** Run Architect + Engineer + Reviewer + QA + close pipeline for MN-004.

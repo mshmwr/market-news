@@ -1,7 +1,7 @@
 ---
 id: MN-005
 title: PWA Port to Next.js + Retire GH Pages
-status: open
+status: accepted
 created: 2026-05-09
 type: feature
 priority: medium
@@ -127,6 +127,46 @@ All other components unchanged from MN-004.
 
 None — all defaults applied per task brief.
 
+## Phase Gate Status
+
+| Phase | Status | Notes |
+|-------|--------|-------|
+| Phase 1 — PWA assets in Next.js | complete | tsc exit 0, build exit 0; manifest.json correct start_url/scope; PwaRegister useEffect guard; icon binary copies verified |
+| Phase 2 — GH Pages retirement | complete | meta-refresh redirect live at mshmwr.github.io/market-news/; README + SSOT updated |
+
 ## Release Status
 
-_Pending._
+Engineer challenge sheet resolved: N/A — all 5 dimensions accepted in design doc pre-flight.
+
+AC verification sweep:
+- AC-MN005-PWA-01: PASS — manifest.json exists with correct fields (verified in source)
+- AC-MN005-PWA-02: PASS — PwaRegister useEffect guard; no SSR navigator access; build exit 0
+- AC-MN005-PWA-03: PASS — apple-touch-icon link in layout.tsx; Apple meta tags present; diff icon-192.png/icon-512.png exit 0 (binary identical)
+- AC-MN005-PWA-04: PASS — npx tsc --noEmit exit 0; npm run build exit 0 (/ 6.17 kB ISR static)
+- AC-MN005-RETIRE-01: PASS — meta http-equiv="refresh" in docs/index.html; confirmed via curl (GH Pages serving redirect)
+- AC-MN005-RETIRE-02: PASS — README: Vercel = Production only; "Pre-release" absent; GH Pages = "Legacy (retired — redirects to Vercel)"
+- AC-MN005-RETIRE-03: PASS — ssot/system-overview.md Hosting line updated; Changelog entry added for MN-005
+
+Binary-criterion AC scan: 11 clauses checked / 0 subjective.
+AC vs Sacred cross-check: no conflict.
+
+Runtime-scope triggered: YES (files: frontend/app/layout.tsx, frontend/public/**, frontend/components/pwa/PwaRegister.tsx, docs/index.html)
+PR: #77 — feat(MN-005): port PWA to Next.js + retire GH Pages
+Squash merge commit: b24b7c8
+
+Vercel deploy: NOT auto-triggered post-merge (same pattern as MN-003/004). Manual `vercel --prod` required by user.
+GH Pages redirect: LIVE — `curl https://mshmwr.github.io/market-news/` returns meta-refresh tag directing to https://market-news-sigma.vercel.app.
+
+BQ closure: [0 BQs] [0 open] — no blocking questions raised.
+
+site-content.json review: no-change — MN-005 is a PWA port ticket with no new PM process rule; no processRules[] mutation needed.
+
+### Deploy Record
+
+- **Deploy date:** 2026-05-09
+- **Git SHA (squash merge commit):** b24b7c8
+- **PR:** #77 — feat(MN-005): port PWA to Next.js + retire GH Pages
+- **Hosting URL:** https://market-news-sigma.vercel.app
+- **Verification probe (Vercel):** PENDING — Vercel auto-deploy not triggered; requires `vercel --prod` by user. Post-deploy probe: confirm `/manifest.json` returns 200 with `start_url: "/"` and page `<link rel="manifest">` tag present.
+- **Verification probe (GH Pages redirect):** PASS — `curl https://mshmwr.github.io/market-news/` returns `<meta http-equiv="refresh" content="0; url=https://market-news-sigma.vercel.app">` in HTML body.
+- **Status:** Accepted — code merged; GH Pages redirect live; Vercel PWA assets pending manual deploy
