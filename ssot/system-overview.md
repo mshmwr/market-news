@@ -2,7 +2,7 @@
 title: market-news — System Overview
 type: reference
 tags: [market-news, Architecture]
-updated: 2026-05-03 (MN-002)
+updated: 2026-05-09 (MN-003)
 ---
 
 ## Summary
@@ -17,8 +17,9 @@ runs locally on demand.
 - **Signal analysis:** Python 3, yfinance, pandas, Gemini API (via OpenAI-compat SDK), pydantic, python-dotenv
 - **Optional social:** praw (PRAW Reddit API)
 - **Optional notify:** requests (Telegram Bot API)
-- **Frontend PWA:** Vanilla HTML/JS/CSS (static, no build step)
-- **Hosting:** GitHub Pages (`docs/` directory)
+- **Frontend PWA (legacy):** Vanilla HTML/JS/CSS (static, no build step) — `docs/index.html`
+- **Frontend (Next.js):** Next.js 14 App Router, React 18, TypeScript strict, Tailwind CSS
+- **Hosting:** GitHub Pages (`docs/` directory — current production); Vercel (`frontend/` — pre-release)
 - **CI:** GitHub Actions (cron every 30 min for news fetch)
 
 ## Directory Structure
@@ -37,10 +38,24 @@ market-news/
 │   └── social.py          # SocialSignal — PRAW Reddit (optional)
 ├── requirements.txt
 ├── worker/                # Cloudflare Worker (manual refresh trigger proxy)
+├── frontend/              # Next.js app (MN-003 scaffold — pre-release on Vercel)
+│   ├── app/
+│   │   ├── layout.tsx     # Root layout
+│   │   ├── page.tsx       # Home page (placeholder shell)
+│   │   └── globals.css    # Tailwind directives
+│   ├── components/
+│   │   └── realtime/
+│   │       └── types.ts   # RealtimePrice interface stub
+│   ├── package.json
+│   ├── tsconfig.json      # TypeScript strict mode
+│   ├── next.config.ts
+│   ├── tailwind.config.ts
+│   └── .gitignore
+├── vercel.json            # Vercel config: rootDirectory=frontend
 ├── .github/workflows/
 │   ├── update-news.yml    # cron every 30 min → docs/news.json
 │   └── update-signals.yml # cron 06:00 UTC daily → docs/signals.json (MN-002)
-├── docs/                  # GitHub Pages PWA
+├── docs/                  # GitHub Pages PWA (current production)
 │   ├── index.html
 │   ├── news.json          # updated by update-news.yml
 │   ├── signals.json       # updated by update-signals.yml (MN-002)
@@ -55,12 +70,15 @@ market-news/
 
 ```
 GitHub Actions (cron 30 min) — update-news.yml
-  └─ fetch_news.py → docs/news.json → GitHub Pages PWA
+  └─ fetch_news.py → docs/news.json → GitHub Pages PWA (current production)
 
 GitHub Actions (cron 06:00 UTC daily) — update-signals.yml  [MN-002]
   └─ analyze_stock.py --output-json docs/signals.json <12 tickers>
        └─ synthesizer.py → SignalResult (Gemini API)
             └─ docs/signals.json → GitHub Pages PWA (Signals section)
+
+Vercel (Next.js SSR/ISR — MN-003 scaffold)
+  └─ frontend/app/page.tsx → placeholder shell (no data wiring; MN-004 will add signals fetch)
 
 Local CLI
   └─ analyze_stock.py [--output-json PATH] <tickers>
@@ -88,6 +106,9 @@ Local CLI
 _None at project init._
 
 ## Changelog
+
+**2026-05-09 — MN-003 — Next.js 14 App Router scaffold under frontend/; deploy target Vercel; placeholder shell; realtime stub reserved.**
+Design doc: [docs/designs/MN-003-design.md](../docs/designs/MN-003-design.md)
 
 **2026-05-03 — MN-002 — Signals web display: add --output-json flag, daily workflow, HTML Signals section; fix env var drift (ANTHROPIC_API_KEY → GEMINI_API_KEY).**
 Design doc: [docs/designs/MN-002-design.md](../docs/designs/MN-002-design.md)
