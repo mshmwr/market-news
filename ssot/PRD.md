@@ -7,21 +7,32 @@ updated: 2026-05-09
 
 ## Active Tickets
 
+### MN-004 — Signals Display Port to Next.js
+
+See full AC in `docs/tickets/MN-004-signals-port-nextjs.md`.
+
+Port `docs/index.html` signals + news display to Next.js using ISR. Retire GH Pages after user confirms parity.
+
+AC summary (pending BQ resolution — see ticket §Blocking Questions):
+
+- **Phase 1 (Data fetching + JSON route):** AC-MN004-DATA-01/02/03
+- **Phase 2 (Signals section UI):** AC-MN004-SIG-01/02/03/04/05/06
+- **Phase 3 (News section UI):** AC-MN004-NEWS-01/02/03/04
+- **Phase 4 (GH Pages retirement gate):** AC-MN004-RETIRE-01/02
+
+---
+
+## Closed Tickets
+
 ### MN-003 — Next.js App Shell — SSR/ISR + Real-Time Data Architecture
 
-See full AC in `docs/tickets/MN-003-nextjs-shell.md`.
-
-Deploy target: Vercel. `frontend/` subdir monorepo. Coexist with `docs/index.html` until MN-004 ports signals display. Vercel URL labeled "Pre-release" in README.
+See full AC in `docs/tickets/MN-003-nextjs-shell.md`. [Closed 2026-05-09]
 
 AC summary:
 
 - **Phase 1 (Next.js scaffold + Vercel config):** AC-MN003-SCAFFOLD-01/02/03/04/05/06
 - **Phase 2 (Real-time hook reservation):** AC-MN003-RT-01
 - **Phase 3 (Coexist labeling):** AC-MN003-LEGACY-01/02
-
----
-
-## Closed Tickets
 
 ### MN-002 — Stock Signals Web Display
 

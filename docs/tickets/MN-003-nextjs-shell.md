@@ -1,7 +1,7 @@
 ---
 id: MN-003
 title: Next.js App Shell — SSR/ISR + Real-Time Data Architecture
-status: accepted
+status: closed
 created: 2026-05-09
 closed: 2026-05-09
 closed-commit: a89367a
