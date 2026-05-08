@@ -1,43 +1,299 @@
 [
   {
+    "title": "Tech stocks could offer their best value in years, analysts say, after stellar earnings season",
+    "description": "A succession of strong earnings seasons since then has allowed tech stocks to \"grow into\" their stock prices.",
+    "link": "https://www.cnbc.com/2026/05/08/us-tech-stocks-cheap-stellar-earnings-where-next.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778223172
+  },
+  {
+    "title": "Consensus panelists explain why Perp DEXes remain a tough sell for institutional investors",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/05/08/perp-dexs-still-don-t-work-for-institutions-consensus-panelists-explain-why",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1778222674
+  },
+  {
+    "title": "北富銀主辦杏業生技53億聯貸案簽約 為首筆醫療長照社會責任聯貸案",
+    "description": "台北富邦銀行與第一銀行主辦承業生醫企業集團旗下杏業生技股份有限公司新臺幣53億元社會責任聯貸案，8日正式簽約。本案由北富銀擔任擔保品管理銀行暨社會責任貸款協調行、第一銀行擔任額度管理銀行，在彰化銀行、合作金庫、華南銀行及台新銀行4家銀行踴躍參與下，以超額募集率120%順利完成募集，展現聯貸銀行團對承業生醫投入台灣長照事業的支持與肯定。",
+    "link": "https://money.udn.com/money/story/5612/9490512",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778222542
+  },
+  {
+    "title": "安達人壽分紅商品紅利宣告100% 展現穩健經營實力",
+    "description": "安達人壽8日宣布，董事會已核准2026年所有分紅商品的紅利宣告，達到100％中分紅水準，充分展現分紅帳戶的經營成果。",
+    "link": "https://money.udn.com/money/story/5612/9490511",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778222515
+  },
+  {
+    "title": "Rebel Wilson accused of 'complete revision of history' as defamation case closes",
+    "description": "The Bridesmaids star claims an actress retracted a complaint about sexual harassment by a producer.",
+    "link": "https://www.bbc.com/news/articles/cdjpyjy98xyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778222015
+  },
+  {
+    "title": "台巴主權 AI 算力中心投資案 賴總統盼台 AI 科技結合巴國綠電",
+    "description": "巴拉圭總統貝尼亞（Santiago Peña Palacios）來訪，賴清德總統偕同蕭美琴副總統在總統府與貝尼亞總統進行雙邊會晤，並見證簽署「台巴主權AI算力中心投資案合作瞭解備忘錄」。賴總統盼逐步落實將台灣AI科技結合巴拉圭充沛綠電的構想，共同將電力轉化為智慧國家關鍵的算力。",
+    "link": "https://money.udn.com/money/story/5612/9490490",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778221964
+  },
+  {
+    "title": "桃園八德中央社宅「瑞祥安居」動土 估2029年完工",
+    "description": "桃園八德的「瑞祥安居」社宅8日舉行動土典禮，國家住都中心表示，這是繼「白鷺安居」後，中央在八德動土的第二處社宅，210戶預計2029年完工，總工程經費約13億5,750萬元，由中央全額投資興建。",
+    "link": "https://money.udn.com/money/story/5612/9490489",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778221934
+  },
+  {
+    "title": "男女扛貸能力拉近！25歲以上女力扛貸900萬 最愛這類產品",
+    "description": "台灣男女購屋年齡層大不同，台灣房屋集團根據金融聯徵中心新增房貸資料統計，2025年全台男性申貸者集中在30~35歲之間，占19.7%，其次為35~40歲，女性主力則集中在40至45歲族群，交易占比達18.1%。",
+    "link": "https://money.udn.com/money/story/5612/9490473",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778221614
+  },
+  {
+    "title": "5月電子期跌　金融期漲",
+    "description": "台北股市今天下跌329.84點，收41603.94點。5月電子期收2718.75點，下跌38.45點，正價差23.51點...",
+    "link": "https://money.udn.com/money/story/5612/9490463",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778221296
+  },
+  {
+    "title": "5月台股期指跌415點",
+    "description": "台北股市今天終場跌329.84點，收41603.94點。5月台指期以41937點作收，下跌415點，與現貨相較，正價差3...",
+    "link": "https://money.udn.com/money/story/5612/9490461",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778221281
+  },
+  {
+    "title": "Mobile ID 外籍人士也可用！ 臺網攜全盈+PAY 優化外籍人士電支業務",
+    "description": "臺灣網路認證公司TWCA旗下TWID身分識別中心與全盈+PAY 攜手合作，全盈+PAY 導入TWID身分識別中心「Mobile ID行動身分識別服務（MID）」，率先應用於「外國人線上申請使用電支帳戶並開通國內跨機構間之匯兌業務」的身分認證機制，大幅優化外籍人士在台的金融服務便利性，更象徵著行動身分識別機制在多元族群與跨境服務上的重大突破。",
+    "link": "https://money.udn.com/money/story/5612/9490448",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220912
+  },
+  {
+    "title": "墾丁新地標來了！鵝鑾鼻考古展示館開工 預計2028年完工",
+    "description": "鵝鑾鼻公園考古展示館正式動工。內政部國家公園署墾丁國家公園管理處8日舉行「鵝鑾鼻考古展示館暨周邊服務設施」動土典禮，由內政部次長董建宏、國家公園署署長王成機與各界代表共同出席，預計於2028年完工。這項工程總經費約3.67億元，除升級園區服務設施外，也將興建全新考古展示館，盼兼顧史前文化保存、生態永續與觀光發展，打造南台灣新的文化地標。",
+    "link": "https://money.udn.com/money/story/5612/9490447",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220822
+  },
+  {
+    "title": "國泰航空夏季線上旅展全球71個熱門航點最優8折起",
+    "description": "夏季旅遊旺季即將到來，國泰航空限時推出「夏季線上旅展」，為旅客帶來驚喜優惠！即日起至2026年5月29日，凡預訂由台北或高雄出發前往全球71個精選航點機票，經濟艙最優8折起，特選經濟艙與商務艙93折起。",
+    "link": "https://money.udn.com/money/story/5612/9490446",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220782
+  },
+  {
+    "title": "5G 幫上忙 台灣大「5G 智慧消防」落地高雄 消防救災效率提升五成",
+    "description": "台灣大哥大（3045）與高雄市政府消防局8日共同舉辦「科技守護 智慧救援－5G智慧消防輔助救援系統」成果發表記者會，宣布該系統導入高雄市消防局，以5G AIoT打造安全、高效救援系統，突破火場通訊盲區，守護每一位消防英雄平安歸途，救援效率提升50%。台灣大哥大企業服務事業商務長朱曉幸表示，以高雄為起點未來要積極布局國際市場。",
+    "link": "https://money.udn.com/money/story/5612/9490426",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220290
+  },
+  {
+    "title": "Third British national has suspected hantavirus infection, UK government says",
+    "description": "The patient is on the remote Atlantic island of Tristan da Cunha, which was visited by the cruise ship in April.",
+    "link": "https://www.bbc.com/news/articles/c5yr41vq2ero?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778220203
+  },
+  {
+    "title": "世界先進：AI需求強勁　新加坡第1期晶圓廠產能預售一空",
+    "description": "晶圓代工廠世界先進董事長方略今天表示，人工智慧（AI）需求強勁，將支撐半導體業成長，預期今年半導體可望穩健成長，而且由於...",
+    "link": "https://money.udn.com/money/story/5612/9490414",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220079
+  },
+  {
+    "title": "Fitbit更新為Google Health　整合健康生態系",
+    "description": "Google今天宣布旗下Fitbit應用程式將更新為Google Health應用程式，成為整合所有健康與身體數據的中心...",
+    "link": "https://money.udn.com/money/story/5612/9490413",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220069
+  },
+  {
+    "title": "漢來美食首季每股盈餘創高　宴會需求及展店效益發威",
+    "description": "漢來美食受惠主力品牌島語自助餐及湯包的展店效益，加上宴會需求暢旺，帶動整體營收成長，結算第1季稅後淨利新台幣2.48億元...",
+    "link": "https://money.udn.com/money/story/10871/9490411",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220043
+  },
+  {
+    "title": "台股跌329.84點",
+    "description": "台北股市今天開低走低，收盤跌329.84點，為41603.94點，跌幅0.79%，成交金額新台幣1兆2450.02億元",
+    "link": "https://money.udn.com/money/story/5612/9490408",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778220023
+  },
+  {
     "title": "Trump says US-Iran ceasefire still in place after exchange of fire in Strait of Hormuz",
     "description": "Iran accuses the US of violating the truce, alleging it targeted an oil tanker and carried out attacks on coastal areas.",
     "link": "https://www.bbc.com/news/articles/c626zyywxjno?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
-    "published_ts": 1778214480
+    "published_ts": 1778219828
   },
   {
-    "title": "創泓科技發現新商機 搶攻無人載具安全領域",
-    "description": "創泓科技（7714）近日展示新平台，主要針對無人載具監控進行開發，保證其安全性，同時搭載多國語音系統，讓無人載具能夠被應用在更多領域。創泓科技董事長黃健寧表示，未來隨著無人載具滲透率進一步提升，其安全性需要更加被重視。",
-    "link": "https://money.udn.com/money/story/5612/9490169",
+    "title": "台股高低震盪逾900點終場下挫329點　台積電收2290元",
+    "description": "美國晶片股回檔，台股今天高檔震盪，指數開低後一度翻紅站上42000點，仍不敵短線獲利了結賣壓，翻黑回測41100點附近，...",
+    "link": "https://money.udn.com/money/story/5612/9490399",
     "source": "經濟日報",
     "category": "台股",
-    "published_ts": 1778214133
+    "published_ts": 1778219688
   },
   {
-    "title": "歐義銳榮：發掘歐洲「隱形冠軍」 捕捉歐陸新成長引擎",
-    "description": "2026年以來，台灣股市與美股科技及AI巨頭屢創新高，台股漲幅更超過三成，令許多投資人開始擔憂市場過熱，積極尋求估值更具吸引力且能有效分散風險的標的。歐義銳榮資產管理指出，另一股強大的結構性成長力量正悄然在歐洲中小型企業中醞釀，2026年將成為布局歐陸「隱形冠軍」的關鍵契機。",
-    "link": "https://money.udn.com/money/story/5612/9490155",
+    "title": "台積電4月營收4107億元　創歷年同期新高",
+    "description": "晶圓代工廠台積電自結4月營收新台幣4107.26億元，自3月高點滑落，不過，較去年同期成長17.5%，為單月營收歷史次高...",
+    "link": "https://money.udn.com/money/story/5612/9490398",
     "source": "經濟日報",
     "category": "台股",
-    "published_ts": 1778213794
+    "published_ts": 1778219678
   },
   {
-    "title": "美伊戰事影響鈍化 海外 ETF 熱度攀升",
-    "description": "美伊戰事影響鈍化，美股頻創新高，吸引投資人對海外股票型ETF的參與度升溫，買氣加上股價上升，海外股票型ETF總規模已達6,347億元，今年以來成長860億元。今年規模成長前五大海外ETF中，有兩檔主動式，主動統一全球創新（00988A）憑藉最強績效，成為規模成長第二大的海外ETF。",
-    "link": "https://money.udn.com/money/story/5612/9490152",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778213709
+    "title": "Thunder pull away from Lakers in NBA playoffs, while Pistons down Cavs",
+    "description": "Oklahoma City Thunder and Detroit Pistons take 2-0 leads in respective NBA playoff semifinal series.",
+    "link": "https://www.aljazeera.com/sports/2026/5/8/thunder-pull-away-from-lakers-in-nba-playoffs-while-pistons-down-cavs?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778219671
   },
   {
-    "title": "關鍵資源大戰 野村 ETF 率先卡位稀土三大戰略資產",
-    "description": "國際資本市場資金輪動加速，在科技創新浪潮推進的同時，稀缺關鍵資源正逐步躍升為驅動下一階段成長的核心主軸。野村投信正式推出全台首檔─野村稀土關鍵資源ETF（009821），一檔瞄準稀土、鈾礦與黃金三大稀缺戰略資產，協助投資人一次掌握產業升級、能源轉型與避險需求三大趨勢，切入未來十年全球最關鍵的資本機會。",
-    "link": "https://money.udn.com/money/story/5612/9490150",
+    "title": "大世科營收／4月15.26億元 AI 轉型與 AIDC 雙引擎推升營運動能",
+    "description": "大世科（8099）8日公告 4 月份合併營收，受惠於企業 AI 轉型浪潮與金融、製造業數位升級之強勁需求，大世科 4 月單月營收維持雙位數成長幅度達 14.37%；累計今年前 4 月合併營收已正式突破 15 億元大關，達 15.26 億元，較去年同期大幅增長 24.74%，顯示公司在 AI 系統整合市場的策略布局已步入收割期。",
+    "link": "https://money.udn.com/money/story/5612/9490380",
     "source": "經濟日報",
     "category": "台股",
-    "published_ts": 1778213639
+    "published_ts": 1778219198
+  },
+  {
+    "title": "東陽每股配發現金股利5元、現金殖利率8.3%",
+    "description": "東陽（1319）董事會通過每股配發現金股利5元，以今天的平盤價格每股80元計算，現金殖利率8.3%，除息交易日6/22，股利發放日7月16日。",
+    "link": "https://money.udn.com/money/story/5612/9490375",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778219128
+  },
+  {
+    "title": "Toyota fourth-quarter profit misses by wide margin as U.S. tariffs drive 49% slump",
+    "description": "The world's largest automaker by sales volume saw a 1.89% year-on-year rise in revenue during the fourth quarter ended March.",
+    "link": "https://www.cnbc.com/2026/05/08/toyota-1q-2026-earnings.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778219037
+  },
+  {
+    "title": "‘A calamity’: Why is a record heatwave sweeping South Asia?",
+    "description": "Countries including India, Pakistan, and Bangladesh have experienced temperatures soaring well above seasonal averages.",
+    "link": "https://www.aljazeera.com/news/2026/5/8/a-calamity-why-is-a-record-heatwave-sweeping-south-asia?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778218884
+  },
+  {
+    "title": "國防特別預算藍白提7,800億元下午表決 卓榮泰籲納軍工產業自主",
+    "description": "立法院會8日上午黨團協商，下午處理國防特別條例草案。國民黨團及民眾黨團達成共識，提出國防特別預算7,800億元版本，預計下午將正式三讀通過。行政院長卓榮泰受訪提到，過去曾幾何時有機會可以討論到參與軍工相關聯產業的自主發展，若未納進，發展就會受限。",
+    "link": "https://money.udn.com/money/story/5612/9490363",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1778218833
+  },
+  {
+    "title": "Asia-Pacific markets fall as renewed U.S.-Iran clashes keep investors on edge",
+    "description": "Asia-Pacific markets open lower Friday, as concerns grew over renewed hostilities between Iran and the U.S. amid a fragile ceasefire.",
+    "link": "https://www.cnbc.com/2026/05/08/asia-pacific-today-updates-nikkei-225-kospi-sensex-asi-hang-seng-csi-300.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778218765
+  },
+  {
+    "title": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock",
+    "description": "Traders are embracing the “NACHO” trade, betting Hormuz disruptions and elevated oil prices will persist longer than expected.",
+    "link": "https://www.cnbc.com/2026/05/08/traders-nacho-trade-strait-hormuz-oil-markets-taco-trump-iran.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1778218761
+  },
+  {
+    "title": "AI agents could solve crypto’s user problem",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/05/08/ai-agents-could-solve-crypto-s-user-problem",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1778218278
+  },
+  {
+    "title": "Ex-prisoners recount abuse in Israeli detention centres",
+    "description": "Former Palestinian detainees are speaking out about torture and sexual violence they faced in Israeli detention.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/5/8/ex-prisoners-recount-abuse-in-israeli-detention-centres?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778217682
+  },
+  {
+    "title": "Chaos Labs says oracles secure after attempted ‘nation-state’ wallet attack",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Chaos Labs says oracles secure after attempted ‘nation-state’ wallet attack\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwQml0UGF5JTIwLSUyMHRoZWlyJTIwQlRDJTIwd2FsbGV0JTIwaGFzJTIwYmVlbiUyMGNvbXByb21pc2VkJTJDJTIwamF2YSUyMHNjcmlwdCUyMHdhbGxldHMuJTIwRm9sbG93LXVwJTIwJTJCJTIwb3ZlcnZpZXclMjBvZiUyMHNpbWlsYXJseSUyMG1hZGUlMjB3YWxsZXRzLmpwZz9wcmVmaXg9bWVkaWElMkZhcnRpY2xlLWNvdmVycw==.jpg\" /></p><p>Chaos Labs said on Thursday it has rotated all keys since the attempted attack over the weekend and hasn't detected any suspicious activity since. </p>",
+    "link": "https://cointelegraph.com/news/chaos-labs-nation-state-wallet-attack-oracles-secure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1778217402
+  },
+  {
+    "title": "Two Islamic-State linked Australian women charged with crimes against humanity",
+    "description": "A third woman who also returned to Australia from Syria was charged with joining a terrorist organisation.",
+    "link": "https://www.bbc.com/news/articles/cdrpx8pl36vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778216875
+  },
+  {
+    "title": "From oil giants to banks - these companies are making billions from Iran war",
+    "description": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
+    "link": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778216429
+  },
+  {
+    "title": "Bitcoin slips to $79,000, DOGE leads majors losses as negative funding rates set 10-year record",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/05/08/bitcoin-slips-to-usd79-000-doge-leads-majors-losses-as-negative-funding-rates-set-10-year-record",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1778216428
+  },
+  {
+    "title": "Trump says ceasefire still in effect, but Iran ‘better sign agreement fast’",
+    "description": "US President Donald Trump says the ceasefire with Iran is still in effect, despite clashes in the Strait of Hormuz.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/5/8/trump-says-ceasefire-still-in-effect-but-iran-better-sign-agreement?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1778214303
   },
   {
     "title": "Coinbase shares slide on $400M Q1 loss, revenue miss",
@@ -48,36 +304,12 @@
     "published_ts": 1778213564
   },
   {
-    "title": "新台幣午盤升2.6分　暫收31.383元",
-    "description": "台北外匯市場新台幣兌美元今天中午暫收31.383元，升2.6分，成交金額9.45億美元",
-    "link": "https://money.udn.com/money/story/5612/9490147",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778213542
-  },
-  {
     "title": "World Cup fans in China and India face broadcast uncertainty",
     "description": "Broadcasters in the two countries have yet to reach deals with Fifa, just weeks before the tournament is due to start.",
     "link": "https://www.bbc.com/news/articles/cp9py4k8mllo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1778213445
-  },
-  {
-    "title": "Two Islamic-State linked Australian women charged with crimes against humanity",
-    "description": "A third woman who also returned to Australia from Syria was charged with joining a terrorist organisation.",
-    "link": "https://www.bbc.com/news/articles/cdrpx8pl36vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778212973
-  },
-  {
-    "title": "南亞 SAYA 機能環保賽衣連四年助攻 力挺2026台北101公益垂直馬拉松",
-    "description": "2026台北101公益垂直馬拉松將於5月9日盛大開跑。南亞（1303）連續第四年贊助賽事機能賽衣，透過旗下永續品牌SAYA提供約5,600件回收再製的高機能環保賽衣，將減碳行動與極限運動結合，藉由賽事凝聚社會正向力量，提升大眾對環境議題的關注與認同。",
-    "link": "https://money.udn.com/money/story/5612/9490097",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212674
   },
   {
     "title": "Oil resumes rally as U.S.-Iran fire exchange rattles fragile Hormuz ceasefire",
@@ -88,116 +320,12 @@
     "published_ts": 1778212661
   },
   {
-    "title": "7-ELEVEN「有肌商機」衝50億元！黃金滷蛋、水煮蛋擴大1,500店販售",
-    "description": "隨著健康意識年輕化，日常健身與體態維護帶動蛋白質補充剛需成長，統一超（2912）7-ELEVEN為滿足消費者需求提供多樣化「蛋白友好」飲食選擇，包括即食雞胸肉、即食蛋品、減醣蔬食等，其中更進一步擴大免剝殼風味蛋品「黃金滷蛋」與「黃金水煮蛋」販售，估計今年優質蛋白補充相關餐飲業績上看50億元，創造全新「有肌商機」帶動鮮食相關業績樂觀成長。",
-    "link": "https://money.udn.com/money/story/5612/9490096",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212648
-  },
-  {
-    "title": "國人手機贈股票金近億元女性成主力 偏愛三大 ETF",
-    "description": "永豐金（2890）證券領航數位投資生活圈，以股票禮品卡率先開啟「手機轉贈股票金」場域，主打「投資台股啟動金」全程不需實體現鈔，手機一鍵即可贈送/兌換投資台積電（2330）、元大台灣50（0050）等約近300檔熱門股，國人可在台股大AI時代趨勢下，輕鬆邀請親友一同參與經濟成長的豐厚果實。",
-    "link": "https://money.udn.com/money/story/5612/9490090",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212604
-  },
-  {
-    "title": "台灣首筆醫療長照社會責任聯貸案 北富銀主辦杏業生技53億元聯貸簽約",
-    "description": "台北富邦銀行與第一銀行主辦承業生醫企業集團旗下杏業生技股份有限公司(下稱「承業生醫」)53億元社會責任聯貸案，8日正式簽約。本案由北富銀擔任擔保品管理銀行暨社會責任貸款協調行、第一銀行擔任額度管理銀行，在彰化銀行、合作金庫、華南銀行及台新銀行4家銀行踴躍參與下，以超額募集率120%順利完成募集，展現聯貸銀行團對承業生醫投入台灣長照事業的支持與肯定。",
-    "link": "https://money.udn.com/money/story/5612/9490089",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212542
-  },
-  {
-    "title": "永光營收／4月7.21億元 年減1.37%",
-    "description": "永光（1711）昨7日公布4月營收7.21億元，年減1.37%；前四月累計營收27.67億元，年增3.53%。",
-    "link": "https://money.udn.com/money/story/5612/9490087",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212493
-  },
-  {
-    "title": "全家深耕軍營20年 首度進駐國防部會客室、開春連展兩店",
-    "description": "全家（5903）持續深化特殊場域經營布局，7日宣布攜手國防部，於博愛營區國防部會客室舉辦「全家崇實店」開幕儀式，為便利商店首次進駐國軍核心對外接待場域；全家深耕軍營場域逾20年，長期於陸海空三軍及國防部相關據點拓展服務，厚實封閉型商圈的經營經驗。",
-    "link": "https://money.udn.com/money/story/5612/9490084",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778212475
-  },
-  {
-    "title": "Asia-Pacific markets fall as renewed U.S.-Iran clashes keep investors on edge",
-    "description": "Asia-Pacific markets open lower Friday, as concerns grew over renewed hostilities between Iran and the U.S. amid a fragile ceasefire.",
-    "link": "https://www.cnbc.com/2026/05/08/asia-pacific-today-updates-nikkei-225-kospi-sensex-asi-hang-seng-csi-300.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778212452
-  },
-  {
-    "title": "地方創生納ESG評鑑　國發會提3大企業共創模式",
-    "description": "國發會積極推動地方創生結合企業ESG，已與金管會及證交所合作，將地方創生範例納入115年度ESG評鑑指標。國發會並整理企...",
-    "link": "https://money.udn.com/money/story/5612/9490068",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778211945
-  },
-  {
-    "title": "企業獲利創四年高點 美股持續吸引資金",
-    "description": "全球ETF投資動向出現轉變，資金不再只集中於大型科技股，而是逐步擴散至更多產業。以貝萊德iShares旗下ETF為觀察指標，4月25日至5月1日的股票型ETF淨流入約114.8億美元，其中，美國市場吸金100.7億美元，顯示市場重心仍偏向美股。",
-    "link": "https://money.udn.com/money/story/5612/9490061",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778211810
-  },
-  {
-    "title": "短線震盪劇烈 台股後續漲勢看雙 A",
-    "description": "台股延續高檔整理格局，在企業獲利持續上修與AI需求支撐下，多頭結構仍具韌性。惟短線需留意融資水位偏高及國際油價變動對通膨預期影響，市場波動可能加劇。",
-    "link": "https://money.udn.com/money/story/5612/9490058",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778211782
-  },
-  {
-    "title": "7-ELEVEN 聯名「線條小狗」爆紅預定！限量保冷袋超萌",
-    "description": "時序進入5月溫度已逐漸攀高，7-ELEVEN觀察今年涼感食飲銷售於4月已提前啟動，自5月起推動「沁涼攻略」，除了5月13日起攜手線條小狗於全台逾7千家推出「冰品抽抽樂」最低任2件0元外，品嚐療癒甜點也有全新結構「水果三明治」，同時迎接自有甜點品牌「LaDears」2周年還能享優惠小確幸，今夏揪冰友一起透心涼。",
-    "link": "https://money.udn.com/money/story/5612/9490053",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778211746
-  },
-  {
-    "title": "五檔海外能源 ETF 股價狂放電 電蠻牛長多行情開閘",
-    "description": "AI浪潮助漲，美股狂喝「電蠻牛」，根據ICE統計，美股重量級電力指標股，像重電設備股如GE Vernova、能源設施股Vertiv、燃料電池股Bloom Energy，今年來指數紛紛強彈，漲幅大幅領先下游電力公用事業股，帶動該指數近兩個交易日續創新高，引領海外能源ETF績效反彈。",
-    "link": "https://money.udn.com/money/story/5612/9490051",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778211714
-  },
-  {
-    "title": "女性拿出逾8成收入補貼家用 南山人壽呼籲超人媽咪應備好「防護罩」",
-    "description": "妳是不是忘了多愛自己一點？據衛生福利部2024年的調查顯示，國內15到64歲近一年有收入的女性，有81%會將個人收入提供家用，而且平均拿出51%的收入作為家庭所需，有21%甚至是家庭生活費主要提供者，逾7成的女性每月可自由使用的零用金低於新台幣1萬元，而且每天平均超過3小時用來做家務、照顧家人，當中又以照顧未滿12歲兒童最多。南山人壽提醒，超人媽媽們在忙碌之餘，也要注意身體健康，並要儘早為自己規劃更充足的醫療防護網。",
-    "link": "https://money.udn.com/money/story/5612/9490013",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778210760
-  },
-  {
-    "title": "展望後市獲利佳 外資調升川湖、智邦、文曄及南電目標價",
-    "description": "外資最新報告指出，調升川湖（2059）、智邦（2345）、文曄（3036）及南電（8046）目標價。",
-    "link": "https://money.udn.com/money/story/5612/9490010",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778210692
-  },
-  {
-    "title": "勤誠漲停走在法說會前 外資重申正向",
-    "description": "勤誠（8210）8日下午舉行法人說明會，早盤股價雖遇震盪，仍進行漲停板價1,415元攻防戰。美系券商重申正向。",
-    "link": "https://money.udn.com/money/story/5612/9490006",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778210593
+    "title": "Trump and Lula's private Oval Office meeting signals lingering strain - and effort to avoid tension",
+    "description": "The US and Brazilian presidents did not appear together publicly, but traded compliments after their talks.",
+    "link": "https://www.bbc.com/news/articles/c8r8gxjxz10o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778211906
   },
   {
     "title": "Block Inc rises 8% as Q1 gives ‘earnings surprise’ despite Bitcoin dip",
@@ -206,14 +334,6 @@
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1778210403
-  },
-  {
-    "title": "房市冷到賣場利多也失色？全台「好市多宅」房價幾乎全跌",
-    "description": "知名美式賣場好市多（Costco）於全台開設14家店，如今即將於台南市東區開出台南二店，引起市場熱議。住商機構觀察實價登錄，雖說美式賣場頗受全台消費者歡迎，惟近年面臨房市趨冷，整體全台好市多周邊房價大多呈現下跌或平盤，僅內湖、汐止店周邊房價略顯漲勢。大家房屋企劃研究室公關襄理賴志昶指出，隨著房市進入冷靜期，購屋族回歸理性，如僅有單一賣場話題，或難以支撐整體房價。",
-    "link": "https://money.udn.com/money/story/5612/9489989",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1778210202
   },
   {
     "title": "Oil prices jump as US, Iran trade fire in Strait of Hormuz",
@@ -246,6 +366,14 @@
     "source": "Al Jazeera",
     "category": "宏觀",
     "published_ts": 1778207689
+  },
+  {
+    "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+    "description": "US President Donald Trump said the ceasefire between Washington and Tehran is still in place.",
+    "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1778206983
   },
   {
     "title": "Tennessee approves map dismantling majority-Black district",
@@ -320,8 +448,8 @@
     "published_ts": 1778199240
   },
   {
-    "title": "Iran war live: Trump says ceasefire still ‘in effect’ as Iran, US clash",
-    "description": "Iran accuses the US of violating the ceasefire by targeting Iranian vessels and carrying out strikes on coastal areas.",
+    "title": "Iran war live: UAE says intercepted attacks after Iran, US trade blows",
+    "description": "Iran says US violated ceasefire by targeting vessels, ports, but Trump insists ceasefire still in effect.",
     "link": "https://www.aljazeera.com/news/liveblog/2026/5/8/iran-war-live-trump-says-ceasefire-still-in-effect-as-iran-us-clash?traffic_source=rss",
     "source": "Al Jazeera",
     "category": "宏觀",
@@ -712,30 +840,6 @@
     "published_ts": 1778184309
   },
   {
-    "title": "‘This is my last voice note’: how piracy returned to Somalia and Yemen",
-    "description": "Three ships were hijacked near the Gulf of Aden, raising alarms over key sea routes. Is piracy returning to Somalia?",
-    "link": "https://www.aljazeera.com/video/the-take-2/2026/5/7/aje-onl-aj_tt_som_waratsea_full-060526?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778183474
-  },
-  {
-    "title": "Gulf states urge UN action to ensure Strait of Hormuz safety",
-    "description": "Draft resolution demands Iran halt attacks, pin-point mines and ensure passage of humanitarian aid through strait.",
-    "link": "https://www.aljazeera.com/news/2026/5/7/gulf-states-urge-un-action-to-ensure-strait-of-hormuz-safety?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778182343
-  },
-  {
-    "title": "Planet Fitness stock plunges 30% after company slashes guidance, cancels planned price hikes",
-    "description": "Shares of Planet Fitness plunged Thursday after the fitness company slashed its guidance and canceled planned price hikes.",
-    "link": "https://www.cnbc.com/2026/05/07/planet-fitness-stock.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778182082
-  },
-  {
     "title": "Here's what to expect from Friday's release of the April jobs report",
     "description": "The total picture is one of a labor market that, while undoubtedly cooling, is generally stable and resilient despite a number of challenges.",
     "link": "https://www.cnbc.com/2026/05/07/heres-what-to-expect-from-fridays-release-of-the-april-jobs-report.html",
@@ -744,28 +848,12 @@
     "published_ts": 1778181655
   },
   {
-    "title": "Can China help end the Iran war?",
-    "description": "Chinese and Iranian foreign ministers meet while a tense ceasefire holds.",
-    "link": "https://www.aljazeera.com/video/inside-story/2026/5/7/can-china-help-end-the-iran-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778180537
-  },
-  {
     "title": "'I wouldn't pay it' - Trump on USA ticket price",
     "description": "US President Donald Trump says he \"wouldn't pay it either\" when asked about the potential ticket price to watch his country play Paraguay in their 2026 World Cup opener.",
     "link": "https://www.bbc.com/sport/football/articles/cdxpq70grzlo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1778180029
-  },
-  {
-    "title": "Inside the Israeli bloc that could topple Netanyahu",
-    "description": "Netanyahu’s rivals unite ahead of elections, but is this alliance strong enough to actually unseat him?",
-    "link": "https://www.aljazeera.com/video/the-take-2/2026/5/7/aje-onl-isr_bibipressure_av_v1-070526?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1778179882
   },
   {
     "title": "CZ floats Binance.US revival to give U.S. users access to global crypto liquidity",
@@ -798,14 +886,6 @@
     "source": "CNBC",
     "category": "美股",
     "published_ts": 1778179275
-  },
-  {
-    "title": "Healthy Returns: First Ozempic generics in Canada will be a test case for Novo Nordisk",
-    "description": "New generics in Canada likely mark the start of a decline in international revenue of semaglutide, the active ingredient in Novo's Ozempic and Wegovy.",
-    "link": "https://www.cnbc.com/2026/05/07/healthy-returns-novo-nordisk-faces-ozempic-generics-in-canada-.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778179184
   },
   {
     "title": "While many international brands retreat, McDonald’s is supersizing its China business",
@@ -870,22 +950,6 @@
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1778177085
-  },
-  {
-    "title": "Hantavirus outbreak on cruise ship not start of pandemic, UN health agency says",
-    "description": "Ther World Health Organization says it is not in the same situation as with Covid-19 because hantavirus spreads differently.",
-    "link": "https://www.bbc.com/news/articles/cnvpzgn26edo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778176508
-  },
-  {
-    "title": "Shake Shack shares crater 30% after burger chain reports operating loss",
-    "description": "Shake Shack CEO Rob Lynch said winter storms and an increase to its projections for store openings this year weighed on the company's results.",
-    "link": "https://www.cnbc.com/2026/05/07/shake-shack-shak-shares-drop-earnings-report.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1778176275
   },
   {
     "title": "Kalshi see valuation double to $22B after $1B raise as prediction markets boom",
@@ -1104,14 +1168,6 @@
     "published_ts": 1778162336
   },
   {
-    "title": "Orphaned baby hippo to be hand-reared by keepers at Kenya sanctuary",
-    "description": "The baby hippo, which has been named Bumpy, was found clinging to its lifeless mother at a lake.",
-    "link": "https://www.bbc.com/news/articles/c1e2zev6754o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778162194
-  },
-  {
     "title": "South Korea confirms 22% crypto tax starting January 2027: Report",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"South Korea confirms 22% crypto tax starting January 2027: Report\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwU291dGglMjBLb3JlYSUyMFZpcnR1YWwlMjBjdXJyZW5jeSUyMHRheGVzJTIwZXhwbGFpbmVkJTIwQmFzaWMlMjBrbm93bGVkZ2UlMjBmb3IlMjBiZWdpbm5lcnMlMkMlMjBpbmNsdWRpbmclMjBjYWxjdWxhdGlvbiUyMG1ldGhvZHMuanBnP3ByZWZpeD1tZWRpYSUyRmFydGljbGUtY292ZXJz.jpg\" /></p><p>South Korea’s Finance Ministry has reportedly confirmed for the first time that a 22% tax on crypto gains will proceed as scheduled in January 2027.</p>",
     "link": "https://cointelegraph.com/news/south-korea-confirms-22-crypto-tax-will-go-ahead-in-january-2027-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1152,36 +1208,12 @@
     "published_ts": 1778159483
   },
   {
-    "title": "Bitwise enters tokenization in takeover of Superstate’s $267 million 'carry fund'",
-    "description": "",
-    "link": "https://www.coindesk.com/markets/2026/05/07/bitwise-expands-into-tokenized-funds-with-planned-takeover-of-superstate-s-uscc-fund",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1778158800
-  },
-  {
-    "title": "Kraken to buy stablecoin payments firm Reap in $600 million deal: Bloomberg",
-    "description": "",
-    "link": "https://www.coindesk.com/business/2026/05/07/kraken-to-buy-stablecoin-payments-firm-reap-in-usd600-million-deal-bloomberg",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1778158362
-  },
-  {
     "title": "VanEck’s Sigel sees Bitcoin reaching $1M within five years",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"VanEck’s Sigel sees Bitcoin reaching $1M within five years\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmx1bS10cmkub3JnL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL2JpdGNvaW4lMjBwcmVkaWN0aW9uJTIwZnV0dXJlJTIwZnV0dXJhbWElMjBwYXBlci5qcGc/cHJlZml4PW1lZGlhJTJGYXJ0aWNsZS1jb3ZlcnM=.jpg\" /></p><p>VanEck’s Matthew Sigel says Bitcoin may reach $1 million in five years, comparing adoption trends to the video game industry’s shift to mainstream use.</p>",
     "link": "https://cointelegraph.com/news/bitcoin-1-million-five-years-vaneck-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1778158279
-  },
-  {
-    "title": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
-    "description": "",
-    "link": "https://www.coindesk.com/business/2026/05/07/sofi-s-relaunched-crypto-business-generated-usd121-6-million-in-q1-transaction-revenue",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1778158185
   },
   {
     "title": "Bitcoin analysts say this level must break for BTC price to confirm bottom",
@@ -1296,14 +1328,6 @@
     "published_ts": 1778141035
   },
   {
-    "title": "Quantum attacks could worsen without proof of ownership: Near One",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Quantum attacks could worsen without proof of ownership: Near One\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9wYXlsb2FkLmNvaW50ZWxlZ3JhcGguY29tL2FwaS9hcnRpY2xlLWNvdmVycy9maWxlL0hJJTIwSW1wZXJzb25hdGlvbiUyMHNjYW1zJTIwaW4lMjBjcnlwdG8uanBnP3ByZWZpeD1tZWRpYSUyRmFydGljbGUtY292ZXJz.jpg\" /></p><p>Near One says blockchains may need new ownership verification systems if quantum attacks compromise wallet keys and expose private assets.</p>",
-    "link": "https://cointelegraph.com/news/quantum-threat-not-just-about-stolen-funds-near?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1778139057
-  },
-  {
     "title": "Ted Turner, media mogul who revolutionised TV news by launching CNN, dies at 87",
     "description": "The media mogul pioneered the modern 24-hour news culture when he launched the Cable News Network in 1980.",
     "link": "https://www.bbc.com/news/articles/c1k2jnx8gmlo?at_medium=RSS&at_campaign=rss",
@@ -1336,28 +1360,76 @@
     "published_ts": 1778068825
   },
   {
-    "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
-    "description": "Ukraine's president says Russia has \"spurned the ceasefire\" and Kyiv is deciding on further action to take.",
-    "link": "https://www.bbc.com/news/articles/cpdpxdd5n6yo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778068400
+    "title": "隱形開銷正掏空你的帳戶！當心「6個變窮習慣」緊迫盯盤、自動訂閱都中招",
+    "description": "<img alt=\"隱形開銷正掏空你的帳戶！當心「6個變窮習慣」緊迫盯盤、自動訂閱都中招\" src=\"https://cdn2.ettoday.net/images/5596/c5596711.jpg\" /><br /> 生活壓力大，小資族每天精打細算，甚至為了多存點本金投資，連午餐預算都要斤斤計較。另一方面，不少剛退休的銀髮族雖然手握退休金，卻對未來感到不安，深怕把辛苦存下的錢花光。然而，如果理財習慣出錯，再怎麼節省也難以翻身。外媒《AARP》近期點出6個容易被忽視的「金錢陷阱」。 <a href=\"https://finance.ettoday.net/news/3162576\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162576",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
-    "title": "German police raid neo-Nazi criminal youth groups",
-    "description": "Police search locations in 12 states, mainly in the East and South of the country in what prosecutors say is a targeted raid.",
-    "link": "https://www.bbc.com/news/articles/cgkpmy6l2deo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778067296
+    "title": "台積電4月營收4107.26億元　月減1.1%但仍年增17.5%",
+    "description": "<img alt=\"台積電4月營收4107.26億元　月減1.1%但仍年增17.5%\" src=\"https://cdn2.ettoday.net/images/7307/c7307065.jpg\" /><br /> 晶圓代工龍頭台積電（2330）今日公佈 2026 年 4 月營收報告。2026 年 4 月合併營收約為新台幣 4,107 億 2,600 萬元，較上月減少了 1.1%，較去年同期增加了 17.5%。\n\n <a href=\"https://finance.ettoday.net/news/3162580\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162580",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
-    "title": "To stay or risk the 'Road of Death' - Ukrainian civilians trapped in frontline city",
-    "description": "People in the Ukrainian city of Oleshky say they have been cut off from fresh supplies of food or medicine for months.",
-    "link": "https://www.bbc.com/news/articles/c893xj41zwdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1778043211
+    "title": "快訊／台股收盤跌329.84點　台積電下挫20元至2290",
+    "description": "<img alt=\"快訊／台股收盤跌329.84點　台積電下挫20元至2290\" src=\"https://cdn2.ettoday.net/images/7799/c7799798.jpg\" /><br /> 台股今（8日）開低走低，加權指數終場大跌329.84點，以41603.94點作收，跌幅0.79％，成交量12450.02億元。 <a href=\"https://finance.ettoday.net/news/3162573\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162573",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "世界先進看AI「一人救全村」　方略：今年半導體景氣穩健成長",
+    "description": "<img alt=\"世界先進看AI「一人救全村」　方略：今年半導體景氣穩健成長\" src=\"https://cdn2.ettoday.net/images/8734/c8734092.jpg\" /><br /> 晶圓代工廠世界先進（5347）董事長方略今日表示，2026年半導體產業在AI需求帶動下呈現「一人救全村」態勢，AI浪潮已抵銷能源價格上漲、全球GDP下修等負面因素，帶動整體半導體需求與價格同步上揚，預期2026年將是穩健成長的一年。\n\n <a href=\"https://finance.ettoday.net/news/3162559\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162559",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "航港局「航運產業升級方案」　四大面向全力推動航運產業升級轉型",
+    "description": "<img alt=\"航港局「航運產業升級方案」　四大面向全力推動航運產業升級轉型\" src=\"https://cdn2.ettoday.net/images/8734/c8734052.jpg\" /><br /> 在地緣政治衝擊、淨零減碳浪潮、競逐智慧轉型等情勢下，航運產業正面臨轉型升級多重挑戰。為因應國際局勢變化，呼應產業政策建言，交通部航港局向交通部研提「航運產業升級方案(115-118年)」，核心架構涵蓋引領綠色轉型、推動智慧創新、厚植人才培育、建構航運產業生態系等四大面向，據以提出17項執行策略及48項具體行動方案。 <a href=\"https://finance.ettoday.net/news/3162547\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162547",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "台灣七成上市櫃企業都躲不掉的難題　《家族守護者》揭接班危機：最怕的不是沒賺錢，而是沒人願意談",
+    "description": "<img alt=\"台灣七成上市櫃企業都躲不掉的難題　《家族守護者》揭接班危機：最怕的不是沒賺錢，而是沒人願意談\" src=\"https://cdn2.ettoday.net/images/8734/c8734055.jpg\" /><br /> 資誠家族辦公室表示，許多台灣企業過去過度專注成長與獲利，卻忽略了接班制度的重要性，「以前大家談的是如何把企業做大，現在更重要的是，如何讓企業走得久」。許多企業最大的風險，並不是不賺錢，而是始終沒有建立清楚規則。 <a href=\"https://finance.ettoday.net/news/3162550\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162550",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "澳洲推天然氣新制限制出口　經濟部：不影響台灣採購合約",
+    "description": "<img alt=\"澳洲推天然氣新制限制出口　經濟部：不影響台灣採購合約\" src=\"https://cdn2.ettoday.net/images/3753/c3753582.jpg\" /><br /> 澳洲政府公布「天然氣市場審查」（Gas Market Review）改革方向，將自明(2027)年7月1日起實施澳洲國內天然氣儲備計畫（Domestic Gas Reservation Scheme），經濟部表示，已於第一時間掌握澳洲相關政策發展，中油公司與澳洲供應商簽訂之中長期液化天然氣（LNG）採購合約不受影響。政府將持續透過分散採購、船期調度等機制，確保國內天然氣供應穩定。 <a href=\"https://finance.ettoday.net/news/3162541\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162541",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "慎防AI泡沫「5方法」守住血汗錢！專家：一情況下「沒賣就不算賠」",
+    "description": "<img alt=\"慎防AI泡沫「5方法」守住血汗錢！專家：一情況下「沒賣就不算賠」\" src=\"https://cdn2.ettoday.net/images/4205/c4205416.jpg\" /><br /> 全球掀起AI狂潮，台積電、輝達等相關概念股成為投資人新寵，然而，全球專家也開始擔心這波漲勢可能演變成AI泡沫，甚至衝擊個人儲蓄與退休金。值得注意的是，有些人可能以為沒有投資科技股，就可以置身事外，但專家提醒，由於科技業在全球市場的關聯性極高，一旦出現崩盤，其他公司的價值也可能被拖累。 <a href=\"https://finance.ettoday.net/news/3162533\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162533",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "企業獲利創四年高點　近一周美股吸「金」百億美元",
+    "description": "<img alt=\"企業獲利創四年高點　近一周美股吸「金」百億美元\" src=\"https://cdn2.ettoday.net/images/8046/c8046766.jpg\" /><br /> 全球ETF投資動向出現轉變，資金不再只集中於大型科技股，而是逐步擴散至更多產業，以貝萊德iShares旗下ETF為觀察指標，最新一周（4月25日至5月1日）的股票型ETF淨流入約114.8億美元，其中美國市場吸金100.7億美元，顯示市場重心仍偏向美股。 <a href=\"https://finance.ettoday.net/news/3162512\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3162512",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
     "title": "被動元件撐盤台股！6檔刷漲停　國巨直取400元大關",
@@ -1523,78 +1595,6 @@
     "title": "3檔「抓去關」新名單　睿生光電3度延長刑期至5／21",
     "description": "<img alt=\"3檔「抓去關」新名單　睿生光電3度延長刑期至5／21\" src=\"https://cdn2.ettoday.net/images/8308/c8308224.jpg\" /><br /> 證交所今（7）日公告新增3檔處置股名單，處置期自明（8）日起至5月21日止，其中睿生光電（6861）自4月24日被「抓去關」以來持續飆漲，面臨第3次延長刑期處份，為3檔新增處置股中被關最久的標的。 <a href=\"https://finance.ettoday.net/news/3162159\" target=\"_blank\">《詳全文...》</a>",
     "link": "https://finance.ettoday.net/news/3162159",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "當台積電與記憶體同步發動　為什麼是00991A跑在最前面？",
-    "description": "<img alt=\"當台積電與記憶體同步發動　為什麼是00991A跑在最前面？\" src=\"https://cdn2.ettoday.net/images/8708/c8708031.jpg\" /><br /> 台股5月7日開盤跳空大漲，加權指數一度勁揚逾1000點、最高觸及42,156點，再寫盤中歷史新高。權王台積電開高走高，最高觸及2,345元的歷史天價。 <a href=\"https://finance.ettoday.net/news/3162152\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162152",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "外資買超464億狂敲群創18萬張　砍旺宏、聯電最多",
-    "description": "<img alt=\"外資買超464億狂敲群創18萬張　砍旺宏、聯電最多\" src=\"https://cdn2.ettoday.net/images/8708/c8708045.jpg\" /><br /> 台股今天漲794.93點，收41933.78點為史上最高收盤，外資及陸資買超464.11億元，盤後進出明細揭曉，面板股群創（2481）獲買超18.68萬張最多，外資重砍記憶體股旺宏（2337）與晶圓代工「二哥」聯電（2306）各3.37萬張與2.52萬張。 <a href=\"https://finance.ettoday.net/news/3162147\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162147",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "第12屆「CEO將帥班」5/22開班　帶領企業主破局突圍",
-    "description": "<img alt=\"第12屆「CEO將帥班」5/22開班　帶領企業主破局突圍\" src=\"https://cdn2.ettoday.net/images/8733/c8733063.jpg\" /><br /> 當美伊戰爭動盪、川普2.0關稅壓力與地緣政治緊張成為經營日常，領導者需要的不再是單一解答，而是穿越迷霧的判斷力。由台北市進出口商業同業公會(IEAT)主辦，廣受全台企業家好評的高階課程第12屆「CEO將帥班」，即將於本月22日隆重開班。僅剩最後3個名額，IEAT誠摯邀請企業決策者把握最後機會，與頂尖大師同行！ <a href=\"https://finance.ettoday.net/news/3162116\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162116",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "中東戰事推升原油報價　台塑四寶4月營收年增全數翻紅",
-    "description": "<img alt=\"中東戰事推升原油報價　台塑四寶4月營收年增全數翻紅\" src=\"https://cdn2.ettoday.net/images/7286/c7286633.jpg\" /><br /> 美伊戰事造成荷姆茲海峽遭到封鎖，推升原油、石化產品報價，台塑四寶公布4月營收年增率全面翻紅，台塑化（6506）4月營收615.22億元，年增率為33%，係為四寶當中成長幅度最大，南亞（1303）受惠電子材料需求暢旺、德州EG廠與南卡聚酯廠挹注，單月營收為276.81億元，創下近45個月新高，年增率達28%。 <a href=\"https://finance.ettoday.net/news/3162082\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162082",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "伊朗戰爭海運費狂飆！馬士基每月多噴5億美元　喊全轉嫁客戶",
-    "description": "<img alt=\"伊朗戰爭海運費狂飆！馬士基每月多噴5億美元　喊全轉嫁客戶\" src=\"https://cdn2.ettoday.net/images/8727/c8727054.jpg\" /><br /> 伊朗戰爭衝擊全球航運市場，油價、保險費與船舶營運成本同步攀升。全球第2大貨櫃航運商馬士基（A.P. Moller-Maersk A/S）表示，戰爭造成的石油衝擊，將明顯推高本季與下季成本，公司每月支出已增加約5億美元（約新台幣157.3億元），不過馬士基強調，有信心把成本全數轉嫁給客戶。 <a href=\"https://finance.ettoday.net/news/3162078\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162078",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "當沖80％都賠錢？AI揭短線不可預測真相　真正高手都在控風險而不是拼翻倍",
-    "description": "<img alt=\"當沖80％都賠錢？AI揭短線不可預測真相　真正高手都在控風險而不是拼翻倍\" src=\"https://cdn2.ettoday.net/images/8708/c8708060.jpg\" /><br /> 台股市場熱絡資金持續湧入，不少投資人被高報酬的故事沖昏了頭，社群上更流傳「當沖半年，5萬元滾到3,000萬元」的驚人案例，甚至有Line群組自動邀約，告訴你一週獲利60％，讓短線操作看似成為翻身捷徑，但當投資人投入當沖市場，卻發現「明明看對方向，為什麼還是賠錢？」 <a href=\"https://finance.ettoday.net/news/3161877\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3161877",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "第四屆ESG物流永續獎頒獎　萬泰物流、中保物流與基隆港再次獲獎",
-    "description": "<img alt=\"第四屆ESG物流永續獎頒獎　萬泰物流、中保物流與基隆港再次獲獎\" src=\"https://cdn2.ettoday.net/images/8732/c8732839.jpg\" /><br /> 由社團法人台灣全球商貿運籌發展協會(GLCT)主辦、經濟部指導的「第四屆ESG物流永續獎頒獎典禮」，今(7)日在萬豪酒店隆重舉行，各界代表共同見證台灣物流產業在低碳轉型、綠色創新及韌性治理上的卓越成果。其中，萬泰物流、中保物流及台灣港務基隆分公司再次榮獲獎項，充分展現其持續精進與深耕永續的實力與決心，成為產業標竿。 <a href=\"https://finance.ettoday.net/news/3162036\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162036",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "主動式ETF加1！聯博00404A於 5／18開募　萬元入手價",
-    "description": "<img alt=\"主動式ETF加1！聯博00404A於 5／18開募　萬元入手價\" src=\"https://cdn2.ettoday.net/images/8733/c8733072.jpg\" /><br /> 去（2025）年開放主動式ETF以來，截至4月底，市場上已發行28檔主動式ETF，資產管理規模約5000億元，聯博投信看準主動投資可更彈性、靈活挑選的特性，首度跨足台股主動式ETF市場，5月18日起開始募集最新產品－聯博台灣動能收益50主動式ETF（00404A），募集期間最低申購金額1萬元。 <a href=\"https://finance.ettoday.net/news/3162041\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162041",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "00878靠5金控股利挹注68億元　規模衝破5000億",
-    "description": "<img alt=\"00878靠5金控股利挹注68億元　規模衝破5000億\" src=\"https://cdn2.ettoday.net/images/8146/c8146888.jpg\" /><br /> 國泰永續高股息（00878）規模正式突破新台幣5,000億元大關，國泰投信表示，13家金控2026年股利政策陸續揭曉，台股資金活水再添動能，依目前各家金控董事會決議內容推估，今年整體現金股利可望發出逾新台幣3000億元，00878成分股涵蓋5檔大型金控股，初步估算本次可望領取逾68億元現金股利。 <a href=\"https://finance.ettoday.net/news/3162037\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3162037",
     "source": "ETtoday財經",
     "category": "台股",
     "published_ts": 0
