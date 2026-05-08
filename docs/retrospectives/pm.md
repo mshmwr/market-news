@@ -1,3 +1,16 @@
+## 2026-05-09 — MN-004 — Full pipeline execution (Phase B)
+
+**Task:** Run Architect + Engineer + Reviewer + QA + close pipeline for MN-004.
+
+**What happened:**
+- QA Early Consultation (PM proxy): 7 challenges, 5 supplemented (matchMedia SSR guard, filter persistence, Invalid Date guard, XSS explicitized, news-default-tab); 1 Known Gap (ISR stale latency).
+- Design doc: component tree, TypeScript interfaces, ISR fetch layer (raw.githubusercontent.com), TICKER_CATEGORY constant, 17-file change list.
+- Engineer: 14 files created/modified; `fetchNews` return type corrected to `null | NewsItem[]` post-reviewer catch; tsc + build both pass.
+- Phase A: PR #73 squash merged at `4401595`. Vercel auto-deploy pending (build queue delay; probe loop running).
+- Deploy Record will be appended when Vercel probe confirms "每日市場新聞" in HTML.
+
+**Next time improvement:** For Vercel-deployed tickets, add "Vercel build queue delay is normal; use probe loop rather than blocking Phase B on immediate confirmation" to close checklist.
+
 ## 2026-05-09 — MN-004 — Ticket intake + BQ collection
 
 **Task:** Open MN-004 ticket stub; collect BQs before Architect release.

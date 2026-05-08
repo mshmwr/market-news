@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-004 Signals Display Port
+
+**What went well:** QA Early Consultation (PM proxy) surfaced 5 supplementable challenges early — `matchMedia` SSR safety, filter state persistence across tab switches, and Invalid Date guard all became explicit ACs rather than post-deploy discoveries.
+**What went wrong:** Vercel deploy-verification AC (confirm "每日市場新聞" in HTML body) cannot be verified immediately after merge due to Vercel build queue — same pattern as MN-003.
+**Next time improvement:** For Vercel-deployed Next.js tickets, add an explicit "post-deploy probe" note in ticket Release Status that PM will poll until build completes; do not block branch cleanup on this.
+
 ## 2026-05-09 — MN-003
 
 **What went well:** All locally-verifiable ACs passed; build verification (`npm run build` + tsc) is a clean, reproducible gate.
