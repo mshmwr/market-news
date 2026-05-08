@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
+
+**What went well:** Plain `public/sw.js` approach (no next-pwa) was zero-config; build passed first try; tsc exit 0 on first try; binary icon copy verified via `diff` immediately.
+**What went wrong:** No functional issues. Vercel auto-deploy did not trigger on squash merge — same pattern as MN-003/004 (manual deploy required by user).
+**Next time improvement:** Document at ticket open that Vercel requires manual `vercel --prod` after merge; do not block Phase B close on auto-deploy assumption.
+
 ## 2026-05-09 — MN-004 Signals Display Port
 
 **What went well:** Design doc's component tree and TypeScript interface spec translated directly to working code with zero structural surprises; tsc exit 0 on first attempt after fixing two minor name-collision issues.

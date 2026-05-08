@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
+
+**What went well:** All ACs verified against implementation; tsc + build pass; binary icon copy verified; PwaRegister correctly uses useEffect with no SSR access.
+**What went wrong:** `meta http-equiv="refresh"` is placed before `<meta charset="UTF-8">` — technically non-ideal (charset should be first) but functionally correct for ASCII redirect URL; no change warranted.
+**Next time improvement:** For HTML redirect additions, note charset-first best practice in design doc; the functional risk is zero for ASCII-only redirect URLs so this is advisory only.
+
 ## 2026-05-03 — MN-002 Stock Signals Web Display
 
 **What went well:** All 15 ACs verified traceable to implementation; git status clean; Python syntax check passed.
