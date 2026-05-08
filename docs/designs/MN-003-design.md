@@ -19,16 +19,16 @@ All BQs pre-resolved by PM (BQ-003-01 through BQ-003-04). No blocking questions 
 ### Decision 1: Next.js monorepo layout
 
 **Option A (conservative):** Separate repo `market-news-frontend` with independent deployment.  
-**適用情境:** When frontend and backend have different release cadences or distinct teams.  
+**When to use:** When frontend and backend have different release cadences or distinct teams.  
 **Trade-off:** Requires cross-repo coordination for API contract changes; duplicate CI config; harder to enforce monorepo-wide linting/formatting.
 
 **Option B (middle ground — CHOSEN):** Monorepo with `frontend/` subdirectory; Python worker at repo root; `vercel.json` sets `rootDirectory`.  
-**適用情境:** When frontend and backend share the same repo but deploy independently (Vercel vs GH Actions).  
+**When to use:** When frontend and backend share the same repo but deploy independently (Vercel vs GH Actions).  
 **Trade-off:** Requires explicit build isolation (Vercel must not see Python files; Python workflows must not trigger on `frontend/` changes). Adds one config file (`vercel.json`).  
 **Recommendation:** Matches project structure. Python workflows already ignore `docs/`, can ignore `frontend/` similarly. Single repo simplifies PR review and issue tracking.
 
 **Option C (progressive):** Nx/Turborepo monorepo with shared packages (`packages/types`, `packages/utils`).  
-**適用情境:** When multiple frontend/backend apps share reusable modules (e.g., `@market-news/types` consumed by both Next.js and Python via code generation).  
+**When to use:** When multiple frontend/backend apps share reusable modules (e.g., `@market-news/types` consumed by both Next.js and Python via code generation).  
 **Trade-off:** Higher upfront complexity; requires workspace tooling; overkill for a single Next.js app + single Python worker with no shared code.
 
 **Chosen:** Option B. Rationale: Minimal change to existing structure; Vercel `rootDirectory` provides clean build isolation; no shared code between Python and Next.js in MN-003 scope.
@@ -38,16 +38,16 @@ All BQs pre-resolved by PM (BQ-003-01 through BQ-003-04). No blocking questions 
 ### Decision 2: Next.js rendering strategy for placeholder shell
 
 **Option A (conservative):** Static export (`output: 'export'` in `next.config.ts`); deploy as static HTML to any CDN.  
-**適用情境:** When SSR/ISR is not needed; all data is client-fetched JSON.  
+**When to use:** When SSR/ISR is not needed; all data is client-fetched JSON.  
 **Trade-off:** Removes SSR/ISR capability — contradicts ticket title "SSR/ISR + Real-Time Data Architecture". Cannot use ISR in MN-004. Would require migration to SSR later.
 
 **Option B (middle ground — CHOSEN):** Default Next.js 14 App Router (SSR + React Server Components); no special `output` config.  
-**適用情境:** When future tickets (MN-004) will use ISR for signal data or SSR for initial page load with pre-rendered data.  
+**When to use:** When future tickets (MN-004) will use ISR for signal data or SSR for initial page load with pre-rendered data.  
 **Trade-off:** Requires Node.js runtime on Vercel (not static-only). MN-003 shell is fully static but preserves SSR/ISR as an option.  
 **Recommendation:** Matches ticket intent. Shell is static (zero data fetching) but architecture supports ISR for MN-004.
 
 **Option C (progressive):** App Router + `export const dynamic = 'force-dynamic'` on all routes to enforce SSR (disable static optimization).  
-**適用情境:** When every page must be server-rendered on every request (e.g., user-specific data).  
+**When to use:** When every page must be server-rendered on every request (e.g., user-specific data).  
 **Trade-off:** Slower initial load; higher Vercel function invocation cost; unnecessary for a placeholder shell.
 
 **Chosen:** Option B. Rationale: Default SSR with static optimization for the placeholder shell. MN-004 can add ISR (`revalidate: 60`) without config migration.
@@ -57,16 +57,16 @@ All BQs pre-resolved by PM (BQ-003-01 through BQ-003-04). No blocking questions 
 ### Decision 3: Tailwind CSS setup
 
 **Option A (conservative):** No CSS framework; plain CSS in `globals.css`.  
-**適用情境:** When styling is minimal and framework overhead is unjustified.  
+**When to use:** When styling is minimal and framework overhead is unjustified.  
 **Trade-off:** MN-004+ will need utility classes for responsive layout and dark mode. Adding Tailwind later requires refactoring all existing CSS.
 
 **Option B (middle ground — CHOSEN):** Tailwind CSS via PostCSS (standard Next.js integration).  
-**適用情境:** Matches user's `personal-site` stack (per PM scope decisions); supports rapid prototyping for MN-004.  
+**When to use:** Matches user's `personal-site` stack (per PM scope decisions); supports rapid prototyping for MN-004.  
 **Trade-off:** Adds `tailwindcss`, `postcss`, `autoprefixer` to `devDependencies` (~15 MB node_modules). Small build-time cost.  
 **Recommendation:** Standardizes on user's existing frontend stack. No learning curve for future contributors.
 
 **Option C (progressive):** Tailwind + `@tailwindcss/typography` + `@tailwindcss/forms` plugins upfront.  
-**適用情境:** When forms and rich text are in scope for MN-003.  
+**When to use:** When forms and rich text are in scope for MN-003.  
 **Trade-off:** Plugins unused in MN-003 (no forms, no rich text). Premature dependency.
 
 **Chosen:** Option B. Rationale: Core Tailwind only; plugins added when MN-004+ needs them.
@@ -79,7 +79,7 @@ All BQs pre-resolved by PM (BQ-003-01 through BQ-003-04). No blocking questions 
 |------|--------|-------------|
 | `frontend/package.json` | Create | Next.js 14, React 18, TypeScript, Tailwind CSS; scripts: `dev`, `build`, `start`, `lint` |
 | `frontend/tsconfig.json` | Create | TypeScript strict mode (`"strict": true`); App Router paths (`@/*` alias) |
-| `frontend/next.config.ts` | Create | Minimal config; no `output` override (default SSR); no env vars |
+| `frontend/next.config.mjs` | Create | Minimal config; no `output` override (default SSR); no env vars; `.mjs` required for Next.js 14 (`.ts` only supported in Next.js 15+) |
 | `frontend/tailwind.config.ts` | Create | Tailwind content paths (`./app/**/*.{ts,tsx}`, `./components/**/*.{ts,tsx}`); no custom theme |
 | `frontend/postcss.config.js` | Create | PostCSS with `tailwindcss` and `autoprefixer` plugins |
 | `frontend/app/layout.tsx` | Create | Root layout with `<html>`, `<body>`, Tailwind CSS import; metadata: `title="Market News"` |
