@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-004 Signals Display Port
+
+**What went well:** Design doc's component tree and TypeScript interface spec translated directly to working code with zero structural surprises; tsc exit 0 on first attempt after fixing two minor name-collision issues.
+**What went wrong:** (1) `import { NewsItem }` name clash with component `NewsItem` required aliasing to `NewsItemType`/`NewsItemRow`; (2) `[...new Set(...)]` spread requires `downlevelIteration` or es2015+ target — used `Array.from()` instead; both caught by tsc immediately.
+**Next time improvement:** When a type name and a component name share the same identifier, alias one at import time; document the alias decision in the design doc component tree to prevent same-session confusion.
+
 ## 2026-05-09 — MN-003 Next.js Scaffold
 
 **What went well:** Design doc pre-resolved all scope decisions; zero BQs hit during implementation. Build passed on second attempt.

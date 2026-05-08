@@ -250,7 +250,16 @@ All BQs resolved — see §BQ Resolutions above.
 
 ## Release Status
 
-open — QA Early Consultation complete; pending design-locked sign-off before Architect release
+Engineer challenge sheet resolved: N/A — all 5 dimensions accepted in design doc pre-flight.
+
+AC verification sweep: all 17 AC clauses verified against implementation — PASS.
+Binary-criterion AC scan: 17 clauses checked / 0 subjective.
+AC vs Sacred cross-check: no conflict.
+
+`npx tsc --noEmit`: exit 0
+`npm run build`: exit 0 (Route `/` 6.17 kB, ISR static prerender)
+
+Reviewer fix: `fetchNews()` return type changed to `null | NewsItem[]` to correctly propagate fetch-error vs genuine-empty distinction to PageClient. tsc + build both re-verified post-fix.
 
 ---
 
