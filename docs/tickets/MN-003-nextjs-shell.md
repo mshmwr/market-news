@@ -14,7 +14,7 @@ design-locked: N/A
 qa-early-consultation: "PM proxy tier — 2026-05-09 MN-003 — 6 challenges raised, 5 supplemented to AC, 1 Known Gap (App Router mandate added as AC)"
 worktree: .claude/worktrees/MN-003-nextjs-shell
 branch: MN-003-nextjs-shell
-pending-action: "AC-SCAFFOLD-05 Vercel 200 probe — requires user to connect Vercel project (see Deploy Record)"
+pending-action: none
 ---
 
 ## Summary
@@ -144,7 +144,7 @@ BQ closure: [4 resolved — BQ-003-01/02/03/04] [0 deferred] [0 open]
 
 Runtime-scope triggered: YES (files: frontend/src, vercel.json, README.md)
 Deploy Record block present in ticket §Release Status: see below
-Live hosting probe: deferred — AC-SCAFFOLD-05 post-deploy probe running
+Live hosting probe: PASS — AC-SCAFFOLD-05 closed 2026-05-09 (HTTP 200 + "Market News" string verified at https://market-news-sigma.vercel.app)
 
 site-content.json review: no-change — MN-003 is a frontend scaffold ticket; no new PM process rule surfaced; no processRules[] mutation needed.
 
@@ -154,15 +154,9 @@ site-content.json review: no-change — MN-003 is a frontend scaffold ticket; no
 - **Git SHA (merge commit):** a89367a
 - **PR:** #70 — feat(MN-003): Next.js 14 App Router scaffold + Vercel config
 - **GH Pages (coexist production):** https://mshmwr.github.io/market-news/ — verified live (unchanged)
-- **Vercel hosting:** pending one-time manual project creation (vercel.com → Import `mshmwr/market-news`; vercel.json rootDirectory:frontend already committed)
-- **AC-SCAFFOLD-05 probe:** deferred — requires manual Vercel project connect; infrastructure code shipped and verified locally; `npm run build` exits 0 in CI-equivalent conditions
-- **Status:** Code shipped to main (a89367a); Vercel project setup is a user-action post-deploy step (see README §Deployment)
-
-**Post-deploy action required (user):**
-1. Go to vercel.com → New Project → Import `mshmwr/market-news`
-2. Vercel auto-reads `vercel.json` (`rootDirectory: frontend`)
-3. Deploy; update README Pre-release URL with actual Vercel domain
-4. Run: `curl -s <vercel-url> | grep "Market News"` to close AC-SCAFFOLD-05
+- **Vercel hosting:** https://market-news-sigma.vercel.app — linked to `mshmwrs-projects/market-news` (project root: `frontend/`); deploy id `dpl_ezmodYutKA5aX68EGo1dugBEoeWE` (2026-05-09)
+- **AC-SCAFFOLD-05 probe:** PASS — `curl -sI` returns HTTP 200; response body contains `<title>Market News</title>` and `<h1>Market News</h1>` (server-rendered)
+- **Status:** Closed — code merged (a89367a) + Vercel deployed + README URL updated
 
 ---
 
