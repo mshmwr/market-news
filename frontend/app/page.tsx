@@ -13,16 +13,15 @@ export default async function HomePage() {
   const signals = signalsData?.signals ?? [];
   const generatedAt = signalsData?.generated_at ?? null;
 
-  // newsError: news fetch genuinely failed (empty array returned by fetchNews on error)
-  // We can't distinguish "no articles" from "fetch failed" purely from length,
-  // so we track it via a separate boolean passed down.
-  // For now, treat empty news as a potential error only if signals loaded successfully.
-  const newsError = news.length === 0;
+  // newsError: null return from fetchNews means fetch/parse failure.
+  // Empty array [] means server returned valid JSON with no articles (rare but valid).
+  const newsError = news === null;
+  const newsList = news ?? [];
 
   return (
     <PageClient
       signals={signals}
-      news={news}
+      news={newsList}
       generatedAt={generatedAt}
       newsError={newsError}
     />

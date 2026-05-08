@@ -30,16 +30,18 @@ export async function fetchSignals(): Promise<SignalsResponse | null> {
   }
 }
 
-export async function fetchNews(): Promise<NewsItem[]> {
+// Returns null on fetch error (non-2xx / network / parse failure) to allow
+// callers to distinguish "fetch failed" from "genuinely empty news array".
+export async function fetchNews(): Promise<NewsItem[] | null> {
   try {
     const res = await fetch(`${RAW_BASE}/news.json`, {
       next: { revalidate: REVALIDATE },
     });
-    if (!res.ok) return [];
+    if (!res.ok) return null;
     const json = (await res.json()) as unknown;
-    if (!Array.isArray(json)) return [];
+    if (!Array.isArray(json)) return null;
     return json as NewsItem[];
   } catch {
-    return [];
+    return null;
   }
 }
