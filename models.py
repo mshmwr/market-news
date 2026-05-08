@@ -60,6 +60,8 @@ class SignalResult(BaseModel):
     rationale: str
     ticker: str
     name: str | None = None
+    bull_case: str | None = None
+    bear_case: str | None = None
     sources: list[dict] = []
     social_posts: list[dict] = []
     technical_data: dict | None = None
