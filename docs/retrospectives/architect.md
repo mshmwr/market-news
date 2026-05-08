@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-004 Signals Display Port
+
+**What went well:** Pre-Implementation Design Challenge Sheet all-5-accept with no blocking issues; component tree split (Server → Client boundary) was clearly specified and translated cleanly into implementation without revision.
+**What went wrong:** TICKER_CATEGORY constant needed to live in `lib/constants.ts` for both MarketOverview and SignalFilters/SignalCard — design doc correctly specified this but the shared constant location could have been emphasized more clearly to prevent any ambiguity about which component owns the map.
+**Next time improvement:** For tickets with multiple components sharing a static lookup table, explicitly state "must be in `lib/constants.ts`, not inline in component" in the Boundary Contracts section to make the canonical location unambiguous.
+
 ## 2026-05-09 — MN-003
 
 **What went well:** Pre-Implementation Design Challenge Sheet caught build isolation and coexistence labeling risks before writing design doc; all ACs pre-resolved by PM.

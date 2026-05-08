@@ -1,25 +1,29 @@
-// Server Component — no data fetching, no env vars.
-// MN-003: placeholder shell. Signal display added in MN-004.
-export default function HomePage() {
+// MN-004: Home page — Server Component with ISR revalidate:300.
+// Fetches signals.json and news.json from raw.githubusercontent.com.
+// Passes plain JSON data to PageClient (no Date objects — fully serializable).
+
+import { fetchSignals, fetchNews } from '@/lib/data';
+import PageClient from '@/components/layout/PageClient';
+
+export const revalidate = 300; // ISR: 5-minute revalidation window
+
+export default async function HomePage() {
+  const [signalsData, news] = await Promise.all([fetchSignals(), fetchNews()]);
+
+  const signals = signalsData?.signals ?? [];
+  const generatedAt = signalsData?.generated_at ?? null;
+
+  // newsError: null return from fetchNews means fetch/parse failure.
+  // Empty array [] means server returned valid JSON with no articles (rare but valid).
+  const newsError = news === null;
+  const newsList = news ?? [];
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8">
-      <h1 className="text-4xl font-bold tracking-tight text-white">
-        Market News
-      </h1>
-      <p className="mt-4 text-lg text-gray-400">
-        Signal display coming soon — under development (MN-004).
-      </p>
-      <p className="mt-2 text-sm text-gray-600">
-        Current production:{" "}
-        <a
-          href="https://mshmwr.github.io/market-news/"
-          className="underline hover:text-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub Pages
-        </a>
-      </p>
-    </main>
+    <PageClient
+      signals={signals}
+      news={newsList}
+      generatedAt={generatedAt}
+      newsError={newsError}
+    />
   );
 }
