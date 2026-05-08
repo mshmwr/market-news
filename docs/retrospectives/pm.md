@@ -1,3 +1,21 @@
+## 2026-05-09 — MN-003 — Next.js scaffold intake + full pipeline
+
+**Task:** Run full PM intake + pipeline for MN-003 Next.js App Router scaffold.
+
+**What happened:**
+- Post-merge close-sync: MN-002 was functionally deployed but ticket had `status: open` — closed retroactively with Deploy Record appended.
+- MN-003 worktree created (`MN-003-nextjs-shell` branch); ticket stub committed; PRD updated.
+- BQ-003-01~04 collected and resolved by user; all four decisions (coexist, Vercel, pure shell, frontend/ subdir) incorporated into finalized ACs.
+- QA Early Consultation (PM proxy): 6 challenges → 5 supplemented to AC (env var dependency, vercel.json rootDirectory, Pre-release label specificity, App Router mandate, TypeScript strict); 1 known gap resolved by adding AC.
+- Architect (PM proxy): design doc with 3-decision option analysis, full file change list, boundary contracts, refactorability checklist, all-phase coverage gate. Delivery gate OK.
+- Engineer (PM proxy): Next.js 14 scaffold under `frontend/`; found `next.config.ts` not supported in 14.2.x → renamed to `.mjs`; build passes with zero TypeScript errors; all local ACs verified.
+- PR #70 squash-merged at `a89367a`.
+- AC-SCAFFOLD-05 (Vercel 200 probe) deferred — Vercel project must be connected manually (vercel.json already in repo); ticket set to `status: accepted` pending this user action.
+
+**Root cause of AC-SCAFFOLD-05 deferral:** Vercel project connection requires OAuth + dashboard interaction — not automatable without Vercel CLI tokens. The infrastructure code is shipped; only the project link is missing.
+
+**Next time improvement:** For Vercel-targeted tickets, add an explicit AC for "Vercel project connected" as a prerequisite step; mark it as a user-action gate rather than a code gate, so the ticket can close cleanly without a deferred probe.
+
 ## 2026-05-03 — MN-002 — Ticket open + QA Early Consultation
 
 **Task:** Open MN-002 signals web display ticket with full PRD and QA Early Consultation.
