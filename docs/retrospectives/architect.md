@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
+
+**What went well:** Plain sw.js over next-pwa was the correct call — no build integration needed, zero config landmines; design doc pre-challenge sheet all-5-accept with no revisions needed.
+**What went wrong:** None. Scope was narrow (6 new files, 5 minor edits) and design translated directly to implementation.
+**Next time improvement:** N/A — well-scoped ticket; design doc adequately specified all decisions.
+
 ## 2026-05-09 — MN-004 Signals Display Port
 
 **What went well:** Pre-Implementation Design Challenge Sheet all-5-accept with no blocking issues; component tree split (Server → Client boundary) was clearly specified and translated cleanly into implementation without revision.

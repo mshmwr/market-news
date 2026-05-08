@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
+
+**What went well:** QA Early Consultation (PM proxy) correctly identified SW scope/registration risk and icon binary-copy parity risk; both addressed before implementation.
+**What went wrong:** Vercel deploy not triggering automatically — same pattern as MN-003/004; post-deploy PWA E2E verification (manifest served, SW registered) deferred to user-triggered deploy.
+**Next time improvement:** Add a PWA-specific E2E smoke test for future tickets: `page.goto('/manifest.json')` → status 200 + `start_url` present; register this as a standing Playwright assertion for any PWA ticket.
+
 ## 2026-05-09 — MN-004 Signals Display Port
 
 **What went well:** QA Early Consultation (PM proxy) surfaced 5 supplementable challenges early — `matchMedia` SSR safety, filter state persistence across tab switches, and Invalid Date guard all became explicit ACs rather than post-deploy discoveries.
