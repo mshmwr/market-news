@@ -2,7 +2,15 @@
 
 Daily news aggregator for Taiwan stocks, US stocks, crypto, and macro markets.
 
-**Live:** https://mshmwr.github.io/market-news/
+## Live URLs
+
+**Production (Current):** https://mshmwr.github.io/market-news/
+_(GitHub Pages — static HTML with news + signals display)_
+
+**Pre-release (Next.js):** https://market-news-mshmwr.vercel.app
+_(Under development — signals display not yet ported from the production version; see MN-004)_
+
+**Retirement gate:** The pre-release Vercel URL becomes production after MN-004 achieves feature parity (signals display ported to Next.js). The GitHub Pages version will redirect to Vercel at that time.
 
 ## Features
 

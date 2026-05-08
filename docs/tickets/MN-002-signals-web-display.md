@@ -1,8 +1,10 @@
 ---
 id: MN-002
 title: Stock Signals Web Display
-status: open
+status: closed
 created: 2026-05-03
+closed: 2026-05-03
+closed-commit: retroactive-2026-05-09-close-sync
 type: feature
 priority: high
 size: M
@@ -147,6 +149,18 @@ Post-deploy manual step (user action required):
 1. Go to GitHub repo `mshmwr/market-news` → Settings → Secrets and variables → Actions
 2. Add secret `GEMINI_API_KEY` with value from local `.env` file
 3. Trigger `.github/workflows/update-signals.yml` manually (workflow_dispatch) to generate initial `docs/signals.json`
+
+---
+
+### Deploy Record
+
+- **Deploy date:** 2026-05-03
+- **Git SHA:** retroactive — MN-002-signals-web-display branch merged to main 2026-05-03
+- **Hosting URL:** https://mshmwr.github.io/market-news/
+- **Verification probe (live evidence at close-sync 2026-05-09):** `docs/signals.json` updated by `update-signals.yml` cron 06:00 UTC daily — multiple `chore: update signals` commits on main confirm live deploy (latest: `1d3e534` 2026-05-07)
+- **Status:** Live
+
+_Close-sync note (2026-05-09): MN-002 was functionally deployed on 2026-05-03 but ticket frontmatter was not closed. Retroactively closed during MN-003 intake post-merge scan._
 
 ---
 

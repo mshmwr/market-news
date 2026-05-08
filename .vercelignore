@@ -1,0 +1,13 @@
+# Python worker and analysis files
+*.py
+requirements.txt
+signals/
+worker/
+
+# GitHub Pages static output (served via GH Pages, not Vercel)
+docs/
+
+# Development artifacts
+.claude/
+__pycache__/
+.env

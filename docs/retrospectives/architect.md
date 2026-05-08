@@ -1,3 +1,10 @@
+## 2026-05-09 — MN-003
+
+**What went well:** Pre-Implementation Design Challenge Sheet caught build isolation and coexistence labeling risks before writing design doc; all ACs pre-resolved by PM.
+**What went wrong:** Net-new directory creation (frontend/) made some refactorability checklist items (e.g., "replacement cost") less meaningful — no existing components to assess refactor cost.
+**Next time improvement:** For net-new scaffold tickets with no existing code, Pre-Implementation Challenge Sheet should focus on build isolation + deploy config + coexistence contracts; defer component-level refactorability to first real feature ticket (e.g., MN-004).
+**Slowest step:** Writing §1 Technical Option Analysis for three decisions (monorepo layout, rendering strategy, CSS framework) — could have been faster by focusing on PM's already-resolved scope (monorepo + Tailwind + default App Router) and providing only one alternative per decision instead of full 3-option spread.
+
 ## 2026-05-03 — MN-002
 
 **What went well:** All BQs pre-resolved by PM before design start; boundary contracts for all three phases were straightforward to enumerate.
