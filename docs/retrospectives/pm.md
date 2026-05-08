@@ -1,3 +1,18 @@
+## 2026-05-09 — MN-004 — Ticket intake + BQ collection
+
+**Task:** Open MN-004 ticket stub; collect BQs before Architect release.
+
+**What happened:**
+- Post-merge close-sync: MN-003 status was `accepted` (all three PRs merged) → corrected to `closed` in worktree commit.
+- Read `docs/index.html` end-to-end to catalogue exact features: two-tab nav, signals with market overview + signal cards + BUY/HOLD/SELL filter + confidence sort + category filter, news with 4-category filter, manual refresh (Cloudflare Worker), PWA, Google Translate proxy, feedback (Firebase).
+- Confirmed `docs/signals.json` and `docs/news.json` field shapes from live files.
+- Identified 7 BQs requiring user input before Architect release; formulated PM recommendations for each.
+- Ticket stub committed at `6a9cb0a` on `MN-004-signals-port-nextjs` branch.
+
+**Note:** MN-004 has `visual-delta: yes` because it ports a complete production UI. Designer spec and `design-locked: true` required before Architect release — blocked on BQ answers first.
+
+**Next time improvement:** When a ticket ports an existing UI verbatim, note upfront that `visual-delta: yes` is mandatory regardless of whether visual changes are intended; faithful port of complex UI = visual scope.
+
 ## 2026-05-09 — MN-003 — Next.js scaffold intake + full pipeline
 
 **Task:** Run full PM intake + pipeline for MN-003 Next.js App Router scaffold.
