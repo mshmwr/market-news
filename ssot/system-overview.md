@@ -2,7 +2,7 @@
 title: market-news — System Overview
 type: reference
 tags: [market-news, Architecture]
-updated: 2026-05-09 (MN-003)
+updated: 2026-05-09 (MN-004)
 ---
 
 ## Summary
@@ -19,7 +19,7 @@ runs locally on demand.
 - **Optional notify:** requests (Telegram Bot API)
 - **Frontend PWA (legacy):** Vanilla HTML/JS/CSS (static, no build step) — `docs/index.html`
 - **Frontend (Next.js):** Next.js 14 App Router, React 18, TypeScript strict, Tailwind CSS
-- **Hosting:** GitHub Pages (`docs/` directory — current production); Vercel (`frontend/` — pre-release)
+- **Hosting:** Vercel (`frontend/` — production, MN-004+); GitHub Pages (`docs/` directory — legacy, retiring in MN-005)
 - **CI:** GitHub Actions (cron every 30 min for news fetch)
 
 ## Directory Structure
@@ -70,15 +70,21 @@ market-news/
 
 ```
 GitHub Actions (cron 30 min) — update-news.yml
-  └─ fetch_news.py → docs/news.json → GitHub Pages PWA (current production)
+  └─ fetch_news.py → docs/news.json (committed to main)
 
 GitHub Actions (cron 06:00 UTC daily) — update-signals.yml  [MN-002]
   └─ analyze_stock.py --output-json docs/signals.json <12 tickers>
        └─ synthesizer.py → SignalResult (Gemini API)
-            └─ docs/signals.json → GitHub Pages PWA (Signals section)
+            └─ docs/signals.json (committed to main)
 
-Vercel (Next.js SSR/ISR — MN-003 scaffold)
-  └─ frontend/app/page.tsx → placeholder shell (no data wiring; MN-004 will add signals fetch)
+Vercel (Next.js ISR — MN-004 PRODUCTION)
+  └─ frontend/app/page.tsx (Server Component, revalidate:300)
+       ├─ fetchSignals() → raw.githubusercontent.com/mshmwr/market-news/main/docs/signals.json
+       ├─ fetchNews()    → raw.githubusercontent.com/mshmwr/market-news/main/docs/news.json
+       └─ → PageClient (ISR-cached; refreshes every 5 min without redeploy)
+
+GitHub Pages (legacy — retiring in MN-005)
+  └─ docs/index.html reads docs/news.json + docs/signals.json (client-side fetch)
 
 Local CLI
   └─ analyze_stock.py [--output-json PATH] <tickers>
@@ -106,6 +112,9 @@ Local CLI
 _None at project init._
 
 ## Changelog
+
+**2026-05-09 — MN-004 — Port signals + news display to Next.js ISR; Vercel becomes production; GH Pages enters legacy/retiring state.**
+Design doc: [docs/designs/MN-004-design.md](../docs/designs/MN-004-design.md)
 
 **2026-05-09 — MN-003 — Next.js 14 App Router scaffold under frontend/; deploy target Vercel; placeholder shell; realtime stub reserved.**
 Design doc: [docs/designs/MN-003-design.md](../docs/designs/MN-003-design.md)

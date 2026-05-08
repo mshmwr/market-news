@@ -4,13 +4,11 @@ Daily news aggregator for Taiwan stocks, US stocks, crypto, and macro markets.
 
 ## Live URLs
 
-**Production (Current):** https://mshmwr.github.io/market-news/
-_(GitHub Pages — static HTML with news + signals display)_
+**Production:** https://market-news-sigma.vercel.app
+_(Next.js + ISR — news + signals display; auto-refreshes every 5 min from GitHub-Actions-updated JSON)_
 
-**Pre-release (Next.js):** https://market-news-sigma.vercel.app
-_(Under development — signals display not yet ported from the production version; see MN-004)_
-
-**Retirement gate:** The pre-release Vercel URL becomes production after MN-004 achieves feature parity (signals display ported to Next.js). The GitHub Pages version will redirect to Vercel at that time.
+**Legacy (retiring — see MN-005):** https://mshmwr.github.io/market-news/
+_(GitHub Pages — static HTML; remains live during observation period; retirement tracked in MN-005)_
 
 ## Features
 
@@ -75,15 +73,15 @@ npm run dev   # http://localhost:3000
 
 ## Deployment
 
-### GitHub Pages (current production)
+### Vercel (production — MN-004+)
 
-Push to `main`. GitHub Actions runs `fetch_news.py`, commits `docs/news.json` if changed, and GitHub Pages serves the `docs/` directory automatically.
-
-### Vercel (Next.js pre-release)
-
-Project linked: `mshmwrs-projects/market-news` (root directory: `frontend`). Pushes to `main` trigger automatic Vercel deploys. To re-deploy manually:
+Project linked: `mshmwrs-projects/market-news` (root directory: `frontend`). Pushes to `main` trigger automatic Vercel deploys. The Next.js page uses ISR `revalidate: 300` to pick up JSON updates from GitHub Actions without a redeploy.
 
 ```bash
 cd frontend
-vercel --prod
+vercel --prod  # manual redeploy if needed
 ```
+
+### GitHub Pages (legacy — retiring in MN-005)
+
+Push to `main`. GitHub Actions runs `fetch_news.py`, commits `docs/news.json` if changed, and GitHub Pages serves the `docs/` directory automatically. The `docs/index.html` static page remains live during the observation period.
