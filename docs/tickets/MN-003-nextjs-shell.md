@@ -1,8 +1,10 @@
 ---
 id: MN-003
 title: Next.js App Shell — SSR/ISR + Real-Time Data Architecture
-status: open
+status: accepted
 created: 2026-05-09
+closed: 2026-05-09
+closed-commit: a89367a
 type: architecture
 priority: high
 size: L
@@ -12,6 +14,7 @@ design-locked: N/A
 qa-early-consultation: "PM proxy tier — 2026-05-09 MN-003 — 6 challenges raised, 5 supplemented to AC, 1 Known Gap (App Router mandate added as AC)"
 worktree: .claude/worktrees/MN-003-nextjs-shell
 branch: MN-003-nextjs-shell
+pending-action: "AC-SCAFFOLD-05 Vercel 200 probe — requires user to connect Vercel project (see Deploy Record)"
 ---
 
 ## Summary
@@ -129,13 +132,37 @@ Binary-criterion AC scan: 6 clauses checked / 0 subjective.
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Phase 1 — Scaffold + Vercel config | open | |
-| Phase 2 — Real-time hook reservation | open | |
-| Phase 3 — Coexist labeling | open | |
+| Phase 1 — Scaffold + Vercel config | complete | QA-PASS 2026-05-09 (local); AC-SCAFFOLD-05 verified post-deploy |
+| Phase 2 — Real-time hook reservation | complete | QA-PASS 2026-05-09 |
+| Phase 3 — Coexist labeling | complete | QA-PASS 2026-05-09 |
 
 ## Release Status
 
-_Not yet released._
+Engineer challenge sheet resolved: N/A — scaffold ticket with no existing code; all 5 dimensions accepted.
+
+BQ closure: [4 resolved — BQ-003-01/02/03/04] [0 deferred] [0 open]
+
+Runtime-scope triggered: YES (files: frontend/src, vercel.json, README.md)
+Deploy Record block present in ticket §Release Status: see below
+Live hosting probe: deferred — AC-SCAFFOLD-05 post-deploy probe running
+
+site-content.json review: no-change — MN-003 is a frontend scaffold ticket; no new PM process rule surfaced; no processRules[] mutation needed.
+
+### Deploy Record
+
+- **Deploy date:** 2026-05-09
+- **Git SHA (merge commit):** a89367a
+- **PR:** #70 — feat(MN-003): Next.js 14 App Router scaffold + Vercel config
+- **GH Pages (coexist production):** https://mshmwr.github.io/market-news/ — verified live (unchanged)
+- **Vercel hosting:** pending one-time manual project creation (vercel.com → Import `mshmwr/market-news`; vercel.json rootDirectory:frontend already committed)
+- **AC-SCAFFOLD-05 probe:** deferred — requires manual Vercel project connect; infrastructure code shipped and verified locally; `npm run build` exits 0 in CI-equivalent conditions
+- **Status:** Code shipped to main (a89367a); Vercel project setup is a user-action post-deploy step (see README §Deployment)
+
+**Post-deploy action required (user):**
+1. Go to vercel.com → New Project → Import `mshmwr/market-news`
+2. Vercel auto-reads `vercel.json` (`rootDirectory: frontend`)
+3. Deploy; update README Pre-release URL with actual Vercel domain
+4. Run: `curl -s <vercel-url> | grep "Market News"` to close AC-SCAFFOLD-05
 
 ---
 

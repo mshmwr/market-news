@@ -7,7 +7,7 @@ Daily news aggregator for Taiwan stocks, US stocks, crypto, and macro markets.
 **Production (Current):** https://mshmwr.github.io/market-news/
 _(GitHub Pages — static HTML with news + signals display)_
 
-**Pre-release (Next.js):** https://market-news-mshmwr.vercel.app
+**Pre-release (Next.js):** _URL available after Vercel project is connected (one-time manual step — see below)_
 _(Under development — signals display not yet ported from the production version; see MN-004)_
 
 **Retirement gate:** The pre-release Vercel URL becomes production after MN-004 achieves feature parity (signals display ported to Next.js). The GitHub Pages version will redirect to Vercel at that time.
@@ -56,6 +56,8 @@ The token is stored in `localStorage` and reused on subsequent refreshes. A 401/
 
 ## Local Development
 
+### Python worker (news + signals)
+
 ```bash
 pip install feedparser
 python fetch_news.py > docs/news.json
@@ -63,6 +65,23 @@ python fetch_news.py > docs/news.json
 python -m http.server 8000 --directory docs
 ```
 
+### Next.js frontend (MN-003 scaffold)
+
+```bash
+cd frontend
+npm install
+npm run dev   # http://localhost:3000
+```
+
 ## Deployment
 
+### GitHub Pages (current production)
+
 Push to `main`. GitHub Actions runs `fetch_news.py`, commits `docs/news.json` if changed, and GitHub Pages serves the `docs/` directory automatically.
+
+### Vercel (Next.js pre-release — one-time setup required)
+
+1. Go to [vercel.com](https://vercel.com) → New Project → Import from GitHub → `mshmwr/market-news`
+2. Vercel will auto-detect `vercel.json` and set `Root Directory: frontend`
+3. No environment variables required for the MN-003 placeholder shell
+4. After deployment, update the Pre-release URL in this README's Live URLs section
