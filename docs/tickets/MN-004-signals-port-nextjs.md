@@ -277,9 +277,9 @@ site-content.json review: no-change — MN-004 is a frontend port ticket; no new
 - **Git SHA (squash merge commit):** 4401595
 - **PR:** #73 — feat(MN-004): port signals + news display to Next.js ISR
 - **Hosting URL:** https://market-news-sigma.vercel.app
-- **Verification probe:** Vercel bot-detection blocks curl; `theme-color` confirmed present in HTTP response (MN-004 `layout.tsx` change); browser probe required to confirm "每日市場新聞" heading (post-session user action)
+- **Verification probe:** PASS — Playwright headless Chromium fetched the alias and rendered `<title>每日市場新聞</title>` + `<h1>每日市場新聞</h1>` (Vercel Security Checkpoint bypassed by real browser; deploy id `dpl_B4NLsmxTrhqPGxGr2w4tNov3Ce3M`)
 - **GH Pages (legacy):** https://mshmwr.github.io/market-news/ — `docs/index.html` unchanged, continues to serve
-- **Status:** Accepted — code merged + deploy triggered; browser probe pending user confirmation
+- **Status:** Live — code merged + Vercel deploy verified rendering Chinese heading via headless browser 2026-05-09
 
 ---
 
