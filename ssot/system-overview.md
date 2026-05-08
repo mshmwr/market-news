@@ -2,14 +2,14 @@
 title: market-news — System Overview
 type: reference
 tags: [market-news, Architecture]
-updated: 2026-05-09 (MN-004)
+updated: 2026-05-09 (MN-005)
 ---
 
 ## Summary
 
-Daily market news aggregator (PWA on GitHub Pages) extended with a local CLI stock
+Daily market news aggregator (PWA on Vercel) extended with a local CLI stock
 signal analyzer. News fetching runs on a GitHub Actions cron schedule; signal analysis
-runs locally on demand.
+runs locally on demand. The Next.js frontend on Vercel is production; GH Pages serves a legacy redirect.
 
 ## Tech Stack
 
@@ -19,7 +19,7 @@ runs locally on demand.
 - **Optional notify:** requests (Telegram Bot API)
 - **Frontend PWA (legacy):** Vanilla HTML/JS/CSS (static, no build step) — `docs/index.html`
 - **Frontend (Next.js):** Next.js 14 App Router, React 18, TypeScript strict, Tailwind CSS
-- **Hosting:** Vercel (`frontend/` — production, MN-004+); GitHub Pages (`docs/` directory — legacy, retiring in MN-005)
+- **Hosting:** Vercel (`frontend/` — production, MN-004+); GitHub Pages (`docs/` directory — legacy, retired MN-005; serves meta-refresh redirect to Vercel)
 - **CI:** GitHub Actions (cron every 30 min for news fetch)
 
 ## Directory Structure
@@ -38,14 +38,25 @@ market-news/
 │   └── social.py          # SocialSignal — PRAW Reddit (optional)
 ├── requirements.txt
 ├── worker/                # Cloudflare Worker (manual refresh trigger proxy)
-├── frontend/              # Next.js app (MN-003 scaffold — pre-release on Vercel)
+├── frontend/              # Next.js app (production on Vercel — MN-004+)
 │   ├── app/
-│   │   ├── layout.tsx     # Root layout
-│   │   ├── page.tsx       # Home page (placeholder shell)
+│   │   ├── layout.tsx     # Root layout (PWA meta tags + PwaRegister — MN-005)
+│   │   ├── page.tsx       # Home page — signals + news ISR
 │   │   └── globals.css    # Tailwind directives
 │   ├── components/
-│   │   └── realtime/
-│   │       └── types.ts   # RealtimePrice interface stub
+│   │   ├── pwa/
+│   │   │   └── PwaRegister.tsx  # Client component — SW registration (MN-005)
+│   │   ├── layout/        # TabNav, Toast, PageClient
+│   │   ├── signals/       # SignalCard, SignalFilters, MarketOverview, SignalSort
+│   │   └── news/          # NewsItem, NewsFilters
+│   ├── lib/
+│   │   ├── types.ts       # SignalResult, NewsItem interfaces
+│   │   └── data.ts        # fetchSignals(), fetchNews() ISR helpers
+│   ├── public/
+│   │   ├── manifest.json  # Web App Manifest (MN-005)
+│   │   ├── sw.js          # Service worker (MN-005)
+│   │   ├── icon-192.png   # PWA icon (MN-005)
+│   │   └── icon-512.png   # PWA icon (MN-005)
 │   ├── package.json
 │   ├── tsconfig.json      # TypeScript strict mode
 │   ├── next.config.ts
@@ -55,12 +66,12 @@ market-news/
 ├── .github/workflows/
 │   ├── update-news.yml    # cron every 30 min → docs/news.json
 │   └── update-signals.yml # cron 06:00 UTC daily → docs/signals.json (MN-002)
-├── docs/                  # GitHub Pages PWA (current production)
-│   ├── index.html
-│   ├── news.json          # updated by update-news.yml
-│   ├── signals.json       # updated by update-signals.yml (MN-002)
-│   ├── sw.js
-│   └── manifest.json
+├── docs/                  # GitHub Pages (legacy — retired MN-005, serves redirect)
+│   ├── index.html         # meta-refresh redirect to Vercel URL (MN-005)
+│   ├── news.json          # updated by update-news.yml (data source for Next.js ISR)
+│   ├── signals.json       # updated by update-signals.yml (data source for Next.js ISR)
+│   ├── sw.js              # legacy SW (served by GH Pages only)
+│   └── manifest.json      # legacy manifest (served by GH Pages only)
 └── ssot/
     ├── system-overview.md  ← this file
     └── PRD.md              ← acceptance criteria
@@ -83,8 +94,8 @@ Vercel (Next.js ISR — MN-004 PRODUCTION)
        ├─ fetchNews()    → raw.githubusercontent.com/mshmwr/market-news/main/docs/news.json
        └─ → PageClient (ISR-cached; refreshes every 5 min without redeploy)
 
-GitHub Pages (legacy — retiring in MN-005)
-  └─ docs/index.html reads docs/news.json + docs/signals.json (client-side fetch)
+GitHub Pages (legacy — retired MN-005)
+  └─ docs/index.html → meta-refresh redirect to https://market-news-sigma.vercel.app
 
 Local CLI
   └─ analyze_stock.py [--output-json PATH] <tickers>
@@ -112,6 +123,9 @@ Local CLI
 _None at project init._
 
 ## Changelog
+
+**2026-05-09 — MN-005 — Port PWA to Next.js (manifest.json + sw.js + Apple meta tags + PwaRegister); retire GH Pages (meta-refresh redirect); update SSOT.**
+Design doc: [docs/designs/MN-005-design.md](../docs/designs/MN-005-design.md)
 
 **2026-05-09 — MN-004 — Port signals + news display to Next.js ISR; Vercel becomes production; GH Pages enters legacy/retiring state.**
 Design doc: [docs/designs/MN-004-design.md](../docs/designs/MN-004-design.md)

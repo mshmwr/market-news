@@ -7,22 +7,32 @@ updated: 2026-05-09
 
 ## Active Tickets
 
-### MN-004 — Signals Display Port to Next.js
+### MN-005 — PWA Port to Next.js + Retire GH Pages
 
-See full AC in `docs/tickets/MN-004-signals-port-nextjs.md`.
+See full AC in `docs/tickets/MN-005-pwa-and-retire-ghpages.md`.
 
-Port `docs/index.html` signals + news display to Next.js using ISR. Retire GH Pages after user confirms parity.
+Port PWA features from `docs/` to Next.js frontend. Retire GH Pages as production by adding a meta-refresh redirect to Vercel.
 
-AC summary (pending BQ resolution — see ticket §Blocking Questions):
+AC summary:
 
-- **Phase 1 (Data fetching + JSON route):** AC-MN004-DATA-01/02/03
-- **Phase 2 (Signals section UI):** AC-MN004-SIG-01/02/03/04/05/06
-- **Phase 3 (News section UI):** AC-MN004-NEWS-01/02/03/04
-- **Phase 4 (GH Pages retirement gate):** AC-MN004-RETIRE-01/02
+- **Phase 1 (PWA assets in Next.js):** AC-MN005-PWA-01/02/03/04
+- **Phase 2 (GH Pages retirement):** AC-MN005-RETIRE-01/02/03
 
 ---
 
 ## Closed Tickets
+
+### MN-004 — Signals Display Port to Next.js
+
+See full AC in `docs/tickets/MN-004-signals-port-nextjs.md`. [Closed 2026-05-09]
+
+AC summary:
+
+- **Phase 1 (Data fetching + JSON route):** AC-MN004-DATA-01/02/03
+- **Phase 2 (Signals section UI):** AC-MN004-SIG-01/02/03/04/05/06
+- **Phase 3 (News section UI):** AC-MN004-NEWS-01/02/03/04
+- **Phase 4 (Translate button + theme-color):** AC-MN004-TRANSLATE-01
+- **Phase 5 (README re-label):** AC-MN004-RETIRE-01/02
 
 ### MN-003 — Next.js App Shell — SSR/ISR + Real-Time Data Architecture
 

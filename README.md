@@ -7,8 +7,8 @@ Daily news aggregator for Taiwan stocks, US stocks, crypto, and macro markets.
 **Production:** https://market-news-sigma.vercel.app
 _(Next.js + ISR — news + signals display; auto-refreshes every 5 min from GitHub-Actions-updated JSON)_
 
-**Legacy (retiring — see MN-005):** https://mshmwr.github.io/market-news/
-_(GitHub Pages — static HTML; remains live during observation period; retirement tracked in MN-005)_
+**Legacy (retired — redirects to Vercel):** https://mshmwr.github.io/market-news/
+_(GitHub Pages — now serves a meta-refresh redirect to the Vercel URL; `docs/news.json` and `docs/signals.json` continue to be updated by GitHub Actions as the data source for the Next.js ISR fetch)_
 
 ## Features
 
@@ -63,7 +63,7 @@ python fetch_news.py > docs/news.json
 python -m http.server 8000 --directory docs
 ```
 
-### Next.js frontend (MN-003 scaffold)
+### Next.js frontend (production)
 
 ```bash
 cd frontend
@@ -82,6 +82,6 @@ cd frontend
 vercel --prod  # manual redeploy if needed
 ```
 
-### GitHub Pages (legacy — retiring in MN-005)
+### GitHub Pages (legacy — retired MN-005)
 
-Push to `main`. GitHub Actions runs `fetch_news.py`, commits `docs/news.json` if changed, and GitHub Pages serves the `docs/` directory automatically. The `docs/index.html` static page remains live during the observation period.
+GitHub Pages continues to serve the `docs/` directory. `docs/index.html` now contains a meta-refresh redirect to the Vercel URL. The GitHub Actions cron workflows continue to update `docs/news.json` and `docs/signals.json` — these files remain the data source for the Next.js ISR fetch via `raw.githubusercontent.com`.
