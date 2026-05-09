@@ -30,6 +30,21 @@ export async function fetchSignals(): Promise<SignalsResponse | null> {
   }
 }
 
+// MN-009: latest digest HTML, fetched as raw text. Returns null on any
+// failure (non-2xx / network) — caller renders an empty placeholder.
+export async function fetchDigest(): Promise<string | null> {
+  try {
+    const res = await fetch(`${RAW_BASE}/digest-latest.html`, {
+      next: { revalidate: REVALIDATE },
+    });
+    if (!res.ok) return null;
+    const text = await res.text();
+    return text || null;
+  } catch {
+    return null;
+  }
+}
+
 // Returns null on fetch error (non-2xx / network / parse failure) to allow
 // callers to distinguish "fetch failed" from "genuinely empty news array".
 export async function fetchNews(): Promise<NewsItem[] | null> {

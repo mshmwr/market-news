@@ -2,13 +2,17 @@
 // Fetches signals.json and news.json from raw.githubusercontent.com.
 // Passes plain JSON data to PageClient (no Date objects — fully serializable).
 
-import { fetchSignals, fetchNews } from '@/lib/data';
+import { fetchSignals, fetchNews, fetchDigest } from '@/lib/data';
 import PageClient from '@/components/layout/PageClient';
 
 export const revalidate = 300; // ISR: 5-minute revalidation window
 
 export default async function HomePage() {
-  const [signalsData, news] = await Promise.all([fetchSignals(), fetchNews()]);
+  const [signalsData, news, digestHtml] = await Promise.all([
+    fetchSignals(),
+    fetchNews(),
+    fetchDigest(),
+  ]);
 
   const signals = signalsData?.signals ?? [];
   const generatedAt = signalsData?.generated_at ?? null;
@@ -24,6 +28,7 @@ export default async function HomePage() {
       news={newsList}
       generatedAt={generatedAt}
       newsError={newsError}
+      digestHtml={digestHtml}
     />
   );
 }
