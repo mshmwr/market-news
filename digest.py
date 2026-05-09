@@ -27,6 +27,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 
 import html as _html_lib
@@ -57,7 +58,7 @@ GEOPOLITICAL_KEYWORDS = {"war", "sanctions", "tariff", "conflict", "geopolitic",
 
 NIM_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 NIM_MODEL = "minimaxai/minimax-m2.7"
-NIM_TIMEOUT = 180
+NIM_TIMEOUT = 300
 
 # Taiwan is UTC+8
 TW_OFFSET = timezone(timedelta(hours=8))
@@ -424,16 +425,24 @@ def main() -> int:
     top_stocks = _top_signals(signals)
     print(f"[digest] Signals loaded: {len(signals)} total, {len(top_stocks)} selected")
 
-    # Generate narratives via NIM (best-effort; empty string on failure or missing key)
-    print("[digest] Generating narratives via NIM...")
-    narratives = {
-        "stocks": _narrative_stocks(top_stocks),
-        "fg": _narrative_fg(fg),
-        "geo": _narrative_geo(geo),
-        "fomc": _narrative_fomc(fomc),
+    # Generate narratives via NIM in parallel (best-effort; empty string on failure)
+    print("[digest] Generating narratives via NIM (parallel x4)...")
+    narrative_jobs = {
+        "stocks": (_narrative_stocks, top_stocks),
+        "fg":     (_narrative_fg, fg),
+        "geo":    (_narrative_geo, geo),
+        "fomc":   (_narrative_fomc, fomc),
     }
-    for k, v in narratives.items():
-        print(f"[digest] Narrative[{k}]: {len(v)} chars")
+    narratives: dict[str, str] = {}
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {key: pool.submit(fn, arg) for key, (fn, arg) in narrative_jobs.items()}
+        for key, fut in futures.items():
+            try:
+                narratives[key] = fut.result()
+            except Exception as exc:
+                print(f"[digest] Narrative[{key}] threw: {exc}", file=sys.stderr)
+                narratives[key] = ""
+            print(f"[digest] Narrative[{key}]: {len(narratives[key])} chars")
 
     # Compose HTML
     html = _render_html(timestamp_tw, timestamp_utc, top_stocks, fg, geo, fomc, narratives)
