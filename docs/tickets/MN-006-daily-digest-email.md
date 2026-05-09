@@ -1,8 +1,10 @@
 ---
 id: MN-006
 title: Daily Digest Email Scheduler
-status: open
+status: closed
 created: 2026-05-09
+closed: 2026-05-09
+closed-commit: 5d5d052
 type: feature
 priority: high
 size: M
@@ -111,12 +113,52 @@ No changes to:
 
 ## Blocking Questions
 
-_None at ticket open._
+_None raised during implementation._
+
+BQ closure: [0 resolved] [0 deferred→TD] [0 open]
 
 ## Release Status
 
-_Open — implementation not started._
+**CLOSED 2026-05-09**
+
+All 10 ACs: PASS.
+
+- AC-MN006-DIGEST-01: `python3 -m py_compile digest.py` exit 0; HTML structure confirmed in `_render_html()`.
+- AC-MN006-DIGEST-02: `_fetch_fg()` returns None on exception; "F&G data unavailable" rendered — PASS.
+- AC-MN006-DIGEST-03: feedparser filter for "fomc"/"federal open market committee"; max 2; "No recent FOMC releases" fallback — PASS.
+- AC-MN006-DIGEST-04: GEOPOLITICAL_SOURCES + GEOPOLITICAL_KEYWORDS filter; max 5 — PASS.
+- AC-MN006-DIGEST-05: `_top_signals()` BUY-first, confidence desc, ticker alpha; "Signals not yet available" on absent file — PASS.
+- AC-MN006-DIGEST-06: `_send_email()` raises on empty RESEND_API_KEY; `main()` returns 1 on exception — PASS.
+- AC-MN006-WF-01: cron `0 0,12 * * *`; Python 3.11; `RESEND_API_KEY` secret injected — PASS.
+- AC-MN006-WF-02: smoke test run #25592311420 — F&G=38, FOMC=2, geo=5, signals=36→5; failed at email-send with clear error — PASS.
+- AC-MN006-DOC-01: README "Daily Digest" section with timing + `gh secret set` command — PASS.
+- AC-MN006-DOC-02: `ssot/system-overview.md` env var table has RESEND_API_KEY row — PASS.
+
+Runtime-scope triggered: YES (files: digest.py, .github/workflows/daily-digest.yml, requirements.txt)
+Deploy Record block: GitHub Actions workflow (no Vercel deploy — backend-only ticket)
+Smoke-test probe (run #25592311420): fetcher steps all produced log output; email-send failed with `RESEND_API_KEY environment variable is not set` — confirms pipeline healthy, only send step fails without key.
+
+AC vs Sacred cross-check: no Sacred clauses in this ticket; no dependency ticket Sacred lists — no conflict.
+Binary-criterion AC scan: 10 clauses checked / 0 subjective.
+Engineer challenge sheet: N/A — Architect and Engineer in same session; design doc 5-dimension sheet all-accept.
+site-content.json review: no-change — digest.py is infrastructure automation, not a workflow rule surfaced in README named-artefacts.
+
+### Deploy Record
+
+- **Deploy date:** 2026-05-09
+- **Git SHA:** 5d5d052 (PR #81 squash merge)
+- **Mechanism:** GitHub Actions cron `0 0,12 * * *` (no Vercel deploy; backend-only)
+- **Smoke-test run:** https://github.com/mshmwr/market-news/actions/runs/25592311420
+- **Verification probe:** GH Actions run log shows `[digest] Signals loaded: 36 total, 5 selected` + `[digest] HTML composed — 7428 chars` + `[digest] ERROR sending email: RESEND_API_KEY environment variable is not set`
+- **Status:** Pipeline LIVE; email sending requires user to add `RESEND_API_KEY` secret (see README)
 
 ## Retrospective
 
-_To be filled at ticket close._
+### PM Summary
+
+**Cross-role recurring issue:** HTML injection from RSS/API data — reviewer caught it; engineer and architect retrospectives both note the miss.
+**Process improvement decision:** Add "HTML rendering + external data → audit all interpolations for html.escape()" as a standing engineer checklist item.
+
+| Issue | Responsible Role | Action | Update Location |
+|-------|-----------------|--------|-----------------|
+| HTML injection in f-string template | Engineer | Add `_esc()` wrapper; apply to all external-data interpolations | `docs/retrospectives/engineer.md` + `reviewer.md` |

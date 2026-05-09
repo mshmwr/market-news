@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-006 Daily Digest Email Scheduler
+
+**What went well:** 5-dimension challenge sheet all-accept on first pass; provider-swap isolation (single `_send_email()` function) paid off when reviewer found the HTML injection issue — fix was local to rendering, not email-send logic.
+**What went wrong:** Design doc did not flag the HTML injection risk as a consideration for the rendering section; reviewer caught it.
+**Next time improvement:** Add "HTML rendering with external data → escape all interpolated values" as a standard check in the design doc §3 module spec for any ticket involving RSS/API data.
+
 ## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
 
 **What went well:** Plain sw.js over next-pwa was the correct call — no build integration needed, zero config landmines; design doc pre-challenge sheet all-5-accept with no revisions needed.

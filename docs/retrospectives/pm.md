@@ -1,3 +1,18 @@
+## 2026-05-09 — MN-006 — Daily digest email scheduler — full pipeline
+
+**Task:** Ship digest.py + Resend + GitHub Actions cron for twice-daily HTML market email.
+
+**What happened:**
+- Pre-pipeline git check confirmed MN-006 is next free ID; worktree created; ticket stub committed.
+- QA Early Consultation (PM proxy, docs-ticket tier): 3 challenges; 2 supplemented (missing signals.json graceful degradation; send-vs-fetch error distinction); 1 Known Gap (duplicate send on manual re-trigger).
+- Architect design doc: 5-dimension challenge sheet all accepted; isolated `_send_email()` for provider swap; Alternative.me-only F&G (CNN scrape out of scope).
+- Engineer: `digest.py` (~340 LOC); code review found HTML injection risk (RSS titles unescaped) — fixed same session via `html.escape()` wrapper.
+- Smoke test (no `RESEND_API_KEY`): F&G=38, FOMC=2, geo=5, signals=36→5 selected — all fetchers passed; email-send step failed with clear error as expected.
+
+**Root cause of HTML injection finding:** `_render_html()` f-string interpolated RSS entry titles directly; reviewer caught before merge.
+
+**Next time improvement:** When writing any HTML templating function that interpolates external data, add `_esc()` call in the same pass — do not leave it to code review.
+
 ## 2026-05-09 — MN-005 — Full pipeline execution
 
 **Task:** PWA port to Next.js + GH Pages retirement.

@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-006 Daily Digest Email Scheduler
+
+**What went well:** `py_compile` passed on first try; Resend SDK type was TypedDict (`.get()` is valid) — no API surface mismatch; graceful degradation for all three fallible fetchers implemented correctly.
+**What went wrong:** Interpolated RSS/signal data directly into HTML f-strings without escaping; code review caught this.
+**Next time improvement:** When writing HTML rendering with external data, call `html.escape()` on every interpolated value in the same Edit — not post-review.
+
 ## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
 
 **What went well:** Plain `public/sw.js` approach (no next-pwa) was zero-config; build passed first try; tsc exit 0 on first try; binary icon copy verified via `diff` immediately.
