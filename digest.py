@@ -40,7 +40,7 @@ def _esc(text: str) -> str:
 # Constants
 # ---------------------------------------------------------------------------
 
-RECIPIENT = "rsp93050420@gmail.com"
+RECIPIENT = "mshmwr20@gmail.com"
 SENDER = "onboarding@resend.dev"
 SIGNALS_PATH = os.path.join(os.path.dirname(__file__), "docs", "signals.json")
 
