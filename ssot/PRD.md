@@ -7,9 +7,25 @@ updated: 2026-05-09
 
 ## Active Tickets
 
+### MN-006 — Daily Digest Email Scheduler
+
+See full AC in `docs/tickets/MN-006-daily-digest-email.md`.
+
+Ship a Python orchestrator (`digest.py`) that composes and sends a twice-daily HTML market email
+(08:00 + 20:00 TW) via Resend, triggered by a new GitHub Actions cron workflow.
+
+AC summary:
+
+- **Phase 1 (digest.py + workflow):** AC-MN006-DIGEST-01/02/03/04/05/06, AC-MN006-WF-01/02
+- **Phase 2 (docs):** AC-MN006-DOC-01/02
+
+---
+
+## Closed Tickets
+
 ### MN-005 — PWA Port to Next.js + Retire GH Pages
 
-See full AC in `docs/tickets/MN-005-pwa-and-retire-ghpages.md`.
+See full AC in `docs/tickets/MN-005-pwa-and-retire-ghpages.md`. [Closed 2026-05-09]
 
 Port PWA features from `docs/` to Next.js frontend. Retire GH Pages as production by adding a meta-refresh redirect to Vercel.
 
@@ -19,8 +35,6 @@ AC summary:
 - **Phase 2 (GH Pages retirement):** AC-MN005-RETIRE-01/02/03
 
 ---
-
-## Closed Tickets
 
 ### MN-004 — Signals Display Port to Next.js
 

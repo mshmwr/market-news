@@ -2,7 +2,7 @@
 title: market-news — System Overview
 type: reference
 tags: [market-news, Architecture]
-updated: 2026-05-09 (MN-005)
+updated: 2026-05-09 (MN-006)
 ---
 
 ## Summary
@@ -63,9 +63,11 @@ market-news/
 │   ├── tailwind.config.ts
 │   └── .gitignore
 ├── vercel.json            # Vercel config: rootDirectory=frontend
+├── digest.py              # Digest orchestrator — F&G + Fed RSS + geo + signals → Resend email (MN-006)
 ├── .github/workflows/
 │   ├── update-news.yml    # cron every 30 min → docs/news.json
-│   └── update-signals.yml # cron 06:00 UTC daily → docs/signals.json (MN-002)
+│   ├── update-signals.yml # cron 06:00 UTC daily → docs/signals.json (MN-002)
+│   └── daily-digest.yml   # cron 00:00,12:00 UTC (08:00/20:00 TW) → Resend email (MN-006)
 ├── docs/                  # GitHub Pages (legacy — retired MN-005, serves redirect)
 │   ├── index.html         # meta-refresh redirect to Vercel URL (MN-005)
 │   ├── news.json          # updated by update-news.yml (data source for Next.js ISR)
@@ -97,6 +99,14 @@ Vercel (Next.js ISR — MN-004 PRODUCTION)
 GitHub Pages (legacy — retired MN-005)
   └─ docs/index.html → meta-refresh redirect to https://market-news-sigma.vercel.app
 
+GitHub Actions (cron 00:00,12:00 UTC) — daily-digest.yml  [MN-006]
+  └─ digest.py
+       ├─ fetch_news.fetch_all()         → geopolitical filter (Al Jazeera + BBC World)
+       ├─ feedparser → Fed RSS           → FOMC filter (latest 2)
+       ├─ requests → Alternative.me API  → Crypto Fear & Greed Index
+       ├─ docs/signals.json              → top 5 by confidence (BUY-first)
+       └─ resend.Emails.send()           → HTML email → rsp93050420@gmail.com
+
 Local CLI
   └─ analyze_stock.py [--output-json PATH] <tickers>
        ├─ signals/news.py      → NewsSignal      (reuses fetch_all())
@@ -111,7 +121,8 @@ Local CLI
 
 | Variable | Required | Purpose |
 |----------|----------|---------|
-| `GEMINI_API_KEY` | Yes (for analysis) | Gemini API auth via OpenAI-compat endpoint (`synthesizer.py`) |
+| `NVIDIA_API_KEY` | Yes (for analysis) | NIM API auth via OpenAI-compat endpoint (`synthesizer.py`) |
+| `RESEND_API_KEY` | Yes (for daily digest) | Resend email API auth (`daily-digest.yml`) |
 | `TELEGRAM_BOT_TOKEN` | No | Telegram notification |
 | `TELEGRAM_CHAT_ID` | No | Telegram notification target |
 | `PRAW_CLIENT_ID` | No | Reddit social signal |
@@ -123,6 +134,9 @@ Local CLI
 _None at project init._
 
 ## Changelog
+
+**2026-05-09 — MN-006 — Daily Digest Email Scheduler: digest.py orchestrator + Resend + GitHub Actions cron (00:00/12:00 UTC = 08:00/20:00 TW); F&G + Fed RSS + geopolitical pulse + signals shortlist.**
+Design doc: [docs/designs/MN-006-design.md](../docs/designs/MN-006-design.md)
 
 **2026-05-09 — MN-005 — Port PWA to Next.js (manifest.json + sw.js + Apple meta tags + PwaRegister); retire GH Pages (meta-refresh redirect); update SSOT.**
 Design doc: [docs/designs/MN-005-design.md](../docs/designs/MN-005-design.md)
