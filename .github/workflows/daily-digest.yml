@@ -1,4 +1,4 @@
-name: Daily Digest Email
+name: Daily Digest
 
 on:
   schedule:
@@ -11,7 +11,6 @@ jobs:
     permissions:
       contents: write
     env:
-      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
     steps:
       - uses: actions/checkout@v4
@@ -23,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Send daily digest
-        run: python digest.py
+      - name: Generate daily digest (web-only, no email)
+        run: python digest.py --preview
 
       - name: Commit digest HTML for web tab
         run: |
