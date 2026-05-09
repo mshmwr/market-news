@@ -2,36 +2,61 @@
 
 import { useState } from 'react';
 
-type Status = 'idle' | 'pending' | 'triggered' | 'error';
+type Status = 'idle' | 'pending' | 'triggered' | 'running' | 'cooldown' | 'error';
+
+function formatTw(iso: string): string {
+  return new Date(iso).toLocaleString('zh-TW', {
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
 
 export default function RegenerateButton() {
   const [status, setStatus] = useState<Status>('idle');
-  const [error, setError] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
 
   async function handleClick() {
     setStatus('pending');
-    setError('');
+    setMessage('');
     try {
       const res = await fetch('/api/digest/regenerate', { method: 'POST' });
       const data = await res.json();
-      if (!res.ok || !data.ok) {
-        setStatus('error');
-        setError(data.error || `HTTP ${res.status}`);
+      if (data.ok) {
+        setStatus('triggered');
         return;
       }
-      setStatus('triggered');
+      if (data.code === 'running') {
+        setStatus('running');
+        setMessage(data.error);
+        return;
+      }
+      if (data.code === 'cooldown') {
+        setStatus('cooldown');
+        setMessage(`下次可觸發時間：${formatTw(data.nextAvailable)}`);
+        return;
+      }
+      setStatus('error');
+      setMessage(data.error || `HTTP ${res.status}`);
     } catch (e) {
       setStatus('error');
-      setError(e instanceof Error ? e.message : String(e));
+      setMessage(e instanceof Error ? e.message : String(e));
     }
   }
 
-  const disabled = status === 'pending' || status === 'triggered';
+  const disabled =
+    status === 'pending' || status === 'triggered' || status === 'running' || status === 'cooldown';
 
   let label = '🔄 重新產生 / Regenerate';
   if (status === 'pending') label = '觸發中… / Triggering…';
   else if (status === 'triggered') label = '✓ 已觸發，約 2–3 分鐘後重新整理頁面';
+  else if (status === 'running') label = '⏳ 任務執行中 / Run in progress';
+  else if (status === 'cooldown') label = '⏸ 12 小時內已產生過 / Cooled down';
   else if (status === 'error') label = '⚠ 觸發失敗，再試一次';
+
+  const subText =
+    status === 'error' || status === 'running' || status === 'cooldown' ? message : '';
 
   return (
     <div className="mb-3 flex flex-col gap-1">
@@ -46,9 +71,18 @@ export default function RegenerateButton() {
       >
         {label}
       </button>
-      {status === 'error' && (
-        <span className="text-[11px] text-red-600">{error}</span>
+      {subText && (
+        <span
+          className={`text-[11px] ${
+            status === 'error' ? 'text-red-600' : 'text-gray-500'
+          }`}
+        >
+          {subText}
+        </span>
       )}
+      <span className="text-[11px] text-gray-400">
+        固定排程：每天 08:00 / 20:00（台灣時間）
+      </span>
     </div>
   );
 }
