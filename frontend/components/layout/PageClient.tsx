@@ -19,6 +19,7 @@ import SignalSort, { type SortOrder } from '@/components/signals/SignalSort';
 import NewsItemRow from '@/components/news/NewsItem';
 import NewsFilters from '@/components/news/NewsFilters';
 import RegenerateButton from '@/components/digest/RegenerateButton';
+import FeedbackButton from '@/components/feedback/FeedbackButton';
 
 type ActionFilter = 'all' | 'BUY' | 'HOLD' | 'SELL';
 
@@ -226,6 +227,8 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
           </section>
         )}
       </main>
+
+      <FeedbackButton />
     </div>
   );
 }
