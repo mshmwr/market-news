@@ -12,15 +12,16 @@ Narratives are produced via NVIDIA NIM (MiniMax M2.7); on failure the section
 falls back to raw list rendering only.
 
 Usage:
-  python digest.py
+  python digest.py              # fetch + narrate + email
+  python digest.py --preview    # fetch + narrate + write digest-preview.html (no email)
 
 Required env vars:
-  RESEND_API_KEY   — Resend email API key
+  RESEND_API_KEY   — Resend email API key (not needed in --preview mode)
   NVIDIA_API_KEY   — NVIDIA NIM API key for narrative generation (optional;
                      missing → narrative skipped, raw lists still render)
 
 Exit codes:
-  0  success (email sent)
+  0  success (email sent or preview file written)
   1  email send failed (Resend error)
 """
 
@@ -43,6 +44,16 @@ from fetch_news import fetch_all as fetch_all_news
 def _esc(text: str) -> str:
     """HTML-escape a string for safe inline rendering."""
     return _html_lib.escape(str(text))
+
+
+def _fmt_ts(ts: int) -> str:
+    """Format unix epoch (seconds) as 'MM/DD HH:MM' in Taiwan time. Empty if ts falsy."""
+    if not ts:
+        return ""
+    try:
+        return datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(TW_OFFSET).strftime("%m/%d %H:%M")
+    except (OSError, ValueError):
+        return ""
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -175,6 +186,38 @@ def _narrative_stocks(top: list[dict], region_label: str) -> str:
     return _call_nim(prompt, f"stocks_{region_label}")
 
 
+def _translate_rationales(stocks: list[dict]) -> dict[str, str]:
+    """Batch-translate per-stock rationale to zh-TW. Returns {ticker: zh}.
+
+    On any failure (NIM down, parse error) returns {} — caller falls back to original.
+    """
+    pairs = [(s.get("ticker", ""), s.get("rationale", "")) for s in stocks if s.get("rationale")]
+    if not pairs:
+        return {}
+    numbered = "\n".join(f"{i+1}. [{tk}] {r}" for i, (tk, r) in enumerate(pairs))
+    prompt = (
+        "以下是個股的多因子訊號 rationale（英文）。請翻譯成自然的繁體中文，"
+        "保留所有具體數字與比率，不要意譯關鍵指標名稱（PE、PEG、Graham number、forward P/E 等可保留英文）。\n\n"
+        f"{numbered}\n\n"
+        "輸出格式：嚴格按照「N. [TICKER] 中文翻譯」逐行對應，不要新增段落或註解，"
+        "不要省略任何一條。"
+    )
+    raw = _call_nim(prompt, "rationale_translate")
+    if not raw:
+        return {}
+
+    out: dict[str, str] = {}
+    import re
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        m = re.match(r"^\d+\.\s*\[([^\]]+)\]\s*(.+)$", line)
+        if m:
+            out[m.group(1).strip()] = m.group(2).strip()
+    return out
+
+
 def _narrative_market_news(items: list[dict]) -> str:
     if not items:
         return ""
@@ -251,6 +294,7 @@ def _fetch_geopolitical(articles: list[dict] | None = None, limit: int = 8) -> l
                 "link": article.get("link", ""),
                 "source": article.get("source", ""),
                 "description": article.get("description", ""),
+                "published_ts": article.get("published_ts", 0),
             })
             if len(hits) >= limit:
                 break
@@ -280,6 +324,7 @@ def _fetch_market_news(articles: list[dict] | None = None, per_category: int = 4
                 "source": article.get("source", ""),
                 "category": article.get("category", ""),
                 "description": article.get("description", ""),
+                "published_ts": article.get("published_ts", 0),
             })
             if len(out) >= per_category:
                 break
@@ -336,8 +381,10 @@ def _render_html(
     geo: list[dict],
     fomc: list[dict],
     narratives: dict[str, str] | None = None,
+    rationale_zh: dict[str, str] | None = None,
 ) -> str:
     narratives = narratives or {}
+    rationale_zh = rationale_zh or {}
 
     def _narr_block(key: str) -> str:
         text = (narratives.get(key) or "").strip()
@@ -348,44 +395,55 @@ def _render_html(
             'padding:8px 12px;margin:8px 0;color:#222;font-size:14px;'
             f'line-height:1.6;">{_esc(text)}</p>'
         )
-    # Signal colour map
+    # Signal colour + label map
     sig_colours = {"BUY": "#27ae60", "SELL": "#e74c3c", "HOLD": "#7f8c8d"}
+    sig_labels = {"BUY": "BUY / 買進", "SELL": "SELL / 賣出", "HOLD": "HOLD / 觀望"}
 
     def _stock_table(stocks: list[dict], empty_msg: str) -> str:
         if not stocks:
             return f'<p style="color:#888;">{empty_msg}</p>'
         rows = ""
         for s in stocks:
-            colour = sig_colours.get(s.get("signal", "HOLD"), "#7f8c8d")
-            ticker = _esc(s.get("ticker", "—"))
-            name = _esc(s.get("name") or s.get("ticker", "—"))
-            signal = _esc(s.get("signal", "—"))
+            sig_key = s.get("signal", "HOLD")
+            colour = sig_colours.get(sig_key, "#7f8c8d")
+            ticker_raw = s.get("ticker", "—")
+            ticker = _esc(ticker_raw)
+            name = _esc(s.get("name") or ticker_raw)
+            signal = _esc(sig_labels.get(sig_key, sig_key))
             confidence = _esc(str(s.get("confidence", "—")))
-            rationale = _esc(s.get("rationale", ""))
+            rationale_en = _esc(s.get("rationale", ""))
+            zh = rationale_zh.get(ticker_raw, "")
+            if zh:
+                rationale_html = (
+                    f'{rationale_en}'
+                    f'<br><span style="color:#555;">{_esc(zh)}</span>'
+                )
+            else:
+                rationale_html = rationale_en
             rows += (
                 f'<tr>'
                 f'<td style="padding:6px 8px;font-weight:bold;">{ticker}</td>'
                 f'<td style="padding:6px 8px;color:#555;">{name}</td>'
                 f'<td style="padding:6px 8px;color:{colour};font-weight:bold;">{signal}</td>'
                 f'<td style="padding:6px 8px;text-align:center;">{confidence}</td>'
-                f'<td style="padding:6px 8px;color:#333;">{rationale}</td>'
+                f'<td style="padding:6px 8px;color:#333;">{rationale_html}</td>'
                 f'</tr>\n'
             )
         return (
             '<table style="width:100%;border-collapse:collapse;font-size:14px;">'
             '<tr style="background:#f4f4f4;">'
-            '<th style="padding:6px 8px;text-align:left;">Ticker</th>'
-            '<th style="padding:6px 8px;text-align:left;">Name</th>'
-            '<th style="padding:6px 8px;text-align:left;">Signal</th>'
-            '<th style="padding:6px 8px;text-align:center;">Conf.</th>'
-            '<th style="padding:6px 8px;text-align:left;">Rationale</th>'
+            '<th style="padding:6px 8px;text-align:left;">Ticker / 代號</th>'
+            '<th style="padding:6px 8px;text-align:left;">Name / 名稱</th>'
+            '<th style="padding:6px 8px;text-align:left;">Signal / 訊號</th>'
+            '<th style="padding:6px 8px;text-align:center;">Conf. / 信心</th>'
+            '<th style="padding:6px 8px;text-align:left;">Rationale / 理由</th>'
             '</tr>\n'
             + rows
             + '</table>'
         )
 
-    us_section = _stock_table(us_stocks, "US signals not yet available — run update-signals workflow first.")
-    tw_section = _stock_table(tw_stocks, "TW signals not yet available — run update-signals workflow first.")
+    us_section = _stock_table(us_stocks, "US signals not yet available — run update-signals workflow first. / 美股訊號尚未產生。")
+    tw_section = _stock_table(tw_stocks, "TW signals not yet available — run update-signals workflow first. / 台股訊號尚未產生。")
 
     # F&G section
     if fg is not None:
@@ -402,33 +460,37 @@ def _render_html(
         else:
             fg_colour = "#1abc9c"
         fg_section = (
-            f'<p>Crypto Fear &amp; Greed Index (Alternative.me): '
+            f'<p>Crypto Fear &amp; Greed Index / 加密貨幣恐懼貪婪指數 (Alternative.me): '
             f'<strong style="color:{fg_colour};font-size:1.2em;">{v}</strong> — {cl}</p>'
         )
     else:
-        fg_section = '<p style="color:#888;">F&amp;G data unavailable this run.</p>'
+        fg_section = '<p style="color:#888;">F&amp;G data unavailable this run. / 本次取不到指數資料。</p>'
+
+    def _meta(parts: list[str]) -> str:
+        joined = " · ".join(p for p in parts if p)
+        return f' <span style="color:#999;font-size:12px;">({joined})</span>' if joined else ""
 
     # Market-moving news section
     if market_news:
         items = "".join(
             f'<li><a href="{_esc(a["link"])}" style="color:#2980b9;">{_esc(a["title"])}</a>'
-            f' <span style="color:#999;font-size:12px;">({_esc(a["category"])} · {_esc(a["source"])})</span></li>\n'
+            f'{_meta([_esc(a["category"]), _esc(a["source"]), _esc(_fmt_ts(a.get("published_ts", 0)))])}</li>\n'
             for a in market_news
         )
         market_section = f'<ul style="padding-left:20px;">{items}</ul>'
     else:
-        market_section = '<p style="color:#888;">No market-moving headlines fetched this run.</p>'
+        market_section = '<p style="color:#888;">No market-moving headlines fetched this run. / 本次未抓到影響市場的新聞。</p>'
 
     # Geopolitical section
     if geo:
         items = "".join(
             f'<li><a href="{_esc(a["link"])}" style="color:#2980b9;">{_esc(a["title"])}</a>'
-            f' <span style="color:#999;font-size:12px;">({_esc(a["source"])})</span></li>\n'
+            f'{_meta([_esc(a["source"]), _esc(_fmt_ts(a.get("published_ts", 0)))])}</li>\n'
             for a in geo
         )
         geo_section = f'<ul style="padding-left:20px;">{items}</ul>'
     else:
-        geo_section = '<p style="color:#888;">No geopolitical risk items detected this run.</p>'
+        geo_section = '<p style="color:#888;">No geopolitical risk items detected this run. / 本次未偵測到地緣政治風險新聞。</p>'
 
     # FOMC section
     if fomc:
@@ -439,53 +501,53 @@ def _render_html(
         )
         fomc_section = f'<ul style="padding-left:20px;">{items}</ul>'
     else:
-        fomc_section = '<p style="color:#888;">No recent FOMC releases.</p>'
+        fomc_section = '<p style="color:#888;">No recent FOMC releases. / 近期無 FOMC 公告。</p>'
 
     return f"""<html>
 <body style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:16px;color:#1a1a2e;line-height:1.5;">
   <h1 style="font-size:20px;border-bottom:2px solid #e0e0e0;padding-bottom:8px;">
-    Market Digest &mdash; {timestamp_tw}
+    Market Digest / 每日市場摘要 &mdash; {timestamp_tw}
   </h1>
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;">
-    US Stock Shortlist
+    US Stock Shortlist / 美股精選清單
   </h2>
   {_narr_block("stocks_US")}
   {us_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
-    TW Stock Shortlist
+    TW Stock Shortlist / 台股精選清單
   </h2>
   {_narr_block("stocks_TW")}
   {tw_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
-    Fear &amp; Greed Index
+    Fear &amp; Greed Index / 恐懼貪婪指數
   </h2>
   {fg_section}
   {_narr_block("fg")}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
-    影響股票市場的新聞 / Market-Moving News
+    Market-Moving News / 影響股票市場的新聞
   </h2>
   {_narr_block("market_news")}
   {market_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
-    Geopolitical Risk Pulse
+    Geopolitical Risk Pulse / 地緣政治風險脈動
   </h2>
   {_narr_block("geo")}
   {geo_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
-    FOMC / Fed Updates
+    FOMC / Fed Updates / 聯準會動態
   </h2>
   {_narr_block("fomc")}
   {fomc_section}
 
   <hr style="border:none;border-top:1px solid #e0e0e0;margin-top:24px;"/>
   <p style="font-size:11px;color:#aaa;">
-    Generated by market-news digest.py &mdash; {timestamp_utc} UTC
+    Generated by market-news digest.py / 由 market-news digest.py 產生 &mdash; {timestamp_utc} UTC
   </p>
 </body>
 </html>"""
@@ -516,6 +578,8 @@ def _send_email(html: str, subject: str) -> None:
 # ---------------------------------------------------------------------------
 
 def main() -> int:
+    preview_mode = "--preview" in sys.argv[1:]
+
     now_utc = datetime.now(timezone.utc)
     now_tw = now_utc.astimezone(TW_OFFSET)
     timestamp_tw = now_tw.strftime("%Y-%m-%d %H:%M TW")
@@ -552,36 +616,54 @@ def main() -> int:
     print(f"[digest] Signals loaded: {len(signals)} total | US top {len(us_stocks)} | TW top {len(tw_stocks)}")
 
     # Generate narratives via NIM in parallel (best-effort; empty string on failure)
-    print("[digest] Generating narratives via NIM (parallel x6)...")
+    # max_workers=2 keeps NIM server load light — 6 simultaneous reasoning calls
+    # caused RemoteDisconnected on 3/6 slots in earlier runs.
+    print("[digest] Generating narratives via NIM (parallel x2)...")
+    all_stocks = us_stocks + tw_stocks
     narrative_jobs = {
-        "stocks_US":   (lambda: _narrative_stocks(us_stocks, "美股")),
-        "stocks_TW":   (lambda: _narrative_stocks(tw_stocks, "台股")),
-        "fg":          (lambda: _narrative_fg(fg)),
-        "market_news": (lambda: _narrative_market_news(market_news)),
-        "geo":         (lambda: _narrative_geo(geo)),
-        "fomc":        (lambda: _narrative_fomc(fomc)),
+        "stocks_US":           (lambda: _narrative_stocks(us_stocks, "美股")),
+        "stocks_TW":           (lambda: _narrative_stocks(tw_stocks, "台股")),
+        "fg":                  (lambda: _narrative_fg(fg)),
+        "market_news":         (lambda: _narrative_market_news(market_news)),
+        "geo":                 (lambda: _narrative_geo(geo)),
+        "fomc":                (lambda: _narrative_fomc(fomc)),
+        "rationale_translate": (lambda: _translate_rationales(all_stocks)),
     }
     narratives: dict[str, str] = {}
-    with ThreadPoolExecutor(max_workers=6) as pool:
+    rationale_zh: dict[str, str] = {}
+    with ThreadPoolExecutor(max_workers=2) as pool:
         futures = {key: pool.submit(fn) for key, fn in narrative_jobs.items()}
         for key, fut in futures.items():
             try:
-                narratives[key] = fut.result()
+                result = fut.result()
             except Exception as exc:
                 print(f"[digest] Narrative[{key}] threw: {exc}", flush=True)
-                narratives[key] = ""
-            print(f"[digest] Narrative[{key}]: {len(narratives[key])} chars")
+                result = "" if key != "rationale_translate" else {}
+            if key == "rationale_translate":
+                rationale_zh = result or {}
+                print(f"[digest] Rationale translations: {len(rationale_zh)} entries")
+            else:
+                narratives[key] = result
+                print(f"[digest] Narrative[{key}]: {len(result)} chars")
 
     # Compose HTML
     html = _render_html(
         timestamp_tw, timestamp_utc,
         us_stocks, tw_stocks, fg, market_news, geo, fomc,
         narratives,
+        rationale_zh,
     )
     print(f"[digest] HTML composed — {len(html)} chars")
 
-    # Send
-    subject = f"Market Digest — {timestamp_tw}"
+    subject = f"Market Digest / 每日市場摘要 — {timestamp_tw}"
+
+    if preview_mode:
+        out_path = os.path.join(os.path.dirname(__file__), "digest-preview.html")
+        with open(out_path, "w", encoding="utf-8") as fh:
+            fh.write(html)
+        print(f"[digest] Preview written — {out_path} ({len(html)} chars, no email sent)")
+        return 0
+
     try:
         _send_email(html, subject)
     except Exception as exc:
