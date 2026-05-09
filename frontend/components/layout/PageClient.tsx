@@ -25,6 +25,7 @@ interface Props {
   news: NewsItemType[];
   generatedAt: string | null;
   newsError: boolean;
+  digestHtml: string | null;
 }
 
 function formatGeneratedAt(raw: string | null): string {
@@ -53,7 +54,7 @@ function formatNewsUpdated(news: NewsItemType[]): string {
   });
 }
 
-export default function PageClient({ signals, news, generatedAt, newsError }: Props) {
+export default function PageClient({ signals, news, generatedAt, newsError, digestHtml }: Props) {
   const [currentTab, setCurrentTab] = useState<TabId>('news');
 
   // News filter — persists across tab switches
@@ -198,6 +199,22 @@ export default function PageClient({ signals, news, generatedAt, newsError }: Pr
                   <NewsItemRow key={`${article.link}-${i}`} article={article} />
                 ))}
               </div>
+            )}
+          </section>
+        )}
+
+        {/* === DIGEST TAB === */}
+        {currentTab === 'digest' && (
+          <section>
+            {digestHtml ? (
+              <div
+                className="bg-white rounded-xl p-2 sm:p-4 overflow-hidden"
+                dangerouslySetInnerHTML={{ __html: digestHtml }}
+              />
+            ) : (
+              <p className="text-[14px] text-gray-400 py-4">
+                電子報尚未產生 / Newsletter not generated yet.
+              </p>
             )}
           </section>
         )}

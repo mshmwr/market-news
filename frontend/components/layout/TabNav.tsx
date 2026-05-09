@@ -1,8 +1,8 @@
 'use client';
 
-// MN-004: Two-tab navigation bar (新聞 / 股票訊號).
+// MN-004 + MN-009: three-tab navigation bar (新聞 / 股票訊號 / 電子報).
 
-export type TabId = 'news' | 'signals';
+export type TabId = 'news' | 'signals' | 'digest';
 
 interface Props {
   currentTab: TabId;
@@ -12,6 +12,7 @@ interface Props {
 const TABS: { id: TabId; label: string }[] = [
   { id: 'news', label: '📰 新聞' },
   { id: 'signals', label: '📈 股票訊號' },
+  { id: 'digest', label: '📨 電子報' },
 ];
 
 export default function TabNav({ currentTab, onTabChange }: Props) {

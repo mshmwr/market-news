@@ -655,6 +655,16 @@ def main() -> int:
     )
     print(f"[digest] HTML composed — {len(html)} chars")
 
+    # Always persist the rendered HTML to docs/digest-latest.html so the
+    # frontend (📨 電子報 tab) can fetch the same content via raw.githubusercontent.com.
+    latest_path = os.path.join(os.path.dirname(__file__), "docs", "digest-latest.html")
+    try:
+        with open(latest_path, "w", encoding="utf-8") as fh:
+            fh.write(html)
+        print(f"[digest] Persisted — {latest_path} ({len(html)} chars)")
+    except OSError as exc:
+        print(f"[digest] WARN failed to persist {latest_path}: {exc}", flush=True)
+
     subject = f"Market Digest / 每日市場摘要 — {timestamp_tw}"
 
     if preview_mode:
