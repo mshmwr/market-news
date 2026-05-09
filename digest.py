@@ -187,34 +187,38 @@ def _narrative_stocks(top: list[dict], region_label: str) -> str:
 
 
 def _translate_rationales(stocks: list[dict]) -> dict[str, str]:
-    """Batch-translate per-stock rationale to zh-TW. Returns {ticker: zh}.
+    """Chunked-translate per-stock rationale to zh-TW. Returns {ticker: zh}.
 
-    On any failure (NIM down, parse error) returns {} — caller falls back to original.
+    Chunks of 4 to avoid NIM RemoteDisconnected on long batches; per-chunk
+    failure is isolated so survivors still translate.
     """
     pairs = [(s.get("ticker", ""), s.get("rationale", "")) for s in stocks if s.get("rationale")]
     if not pairs:
         return {}
-    numbered = "\n".join(f"{i+1}. [{tk}] {r}" for i, (tk, r) in enumerate(pairs))
-    prompt = (
-        "以下是個股的多因子訊號 rationale（英文）。請翻譯成自然的繁體中文，"
-        "保留所有具體數字與比率，不要意譯關鍵指標名稱（PE、PEG、Graham number、forward P/E 等可保留英文）。\n\n"
-        f"{numbered}\n\n"
-        "輸出格式：嚴格按照「N. [TICKER] 中文翻譯」逐行對應，不要新增段落或註解，"
-        "不要省略任何一條。"
-    )
-    raw = _call_nim(prompt, "rationale_translate")
-    if not raw:
-        return {}
 
-    out: dict[str, str] = {}
     import re
-    for line in raw.splitlines():
-        line = line.strip()
-        if not line:
+    out: dict[str, str] = {}
+    chunk_size = 4
+    for chunk_idx, start in enumerate(range(0, len(pairs), chunk_size), start=1):
+        chunk = pairs[start:start + chunk_size]
+        numbered = "\n".join(f"{i+1}. [{tk}] {r}" for i, (tk, r) in enumerate(chunk))
+        prompt = (
+            "以下是個股的多因子訊號 rationale（英文）。請翻譯成自然的繁體中文，"
+            "保留所有具體數字與比率，不要意譯關鍵指標名稱（PE、PEG、Graham number、forward P/E 等可保留英文）。\n\n"
+            f"{numbered}\n\n"
+            "輸出格式：嚴格按照「N. [TICKER] 中文翻譯」逐行對應，不要新增段落或註解，"
+            "不要省略任何一條。"
+        )
+        raw = _call_nim(prompt, f"rationale_translate_{chunk_idx}")
+        if not raw:
             continue
-        m = re.match(r"^\d+\.\s*\[([^\]]+)\]\s*(.+)$", line)
-        if m:
-            out[m.group(1).strip()] = m.group(2).strip()
+        for line in raw.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            m = re.match(r"^\d+\.\s*\[([^\]]+)\]\s*(.+)$", line)
+            if m:
+                out[m.group(1).strip()] = m.group(2).strip()
     return out
 
 
