@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
+        "description": "Nvidia is pouring billions of dollars at a time into companies across the AI infrastructure stack, while also signing commercial deals with them.",
+        "link": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778344882
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 65.85731456896409,
+    "macd_line": 5.864001267330366,
+    "macd_signal": 5.661491135073416,
+    "macd_histogram": 0.20251013225694958,
+    "ma50": 188.6494287109375,
+    "volume_ratio": 0.9032012308929714,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 43.828922,
+    "forward_pe": 19.068007,
+    "price_to_book": 33.250927,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 269.16544,
+    "current_price": 215.2,
+    "fifty_two_week_low": 120.28,
+    "fifty_two_week_high": 217.8,
+    "trailing_eps": 4.91,
+    "book_value": 6.472,
+    "peg_ratio": 0.6237,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
