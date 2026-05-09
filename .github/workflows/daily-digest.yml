@@ -12,6 +12,7 @@ jobs:
       contents: read
     env:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 

@@ -1,16 +1,21 @@
 """Daily digest email — composes and sends a twice-daily HTML market summary.
 
-Sections:
+Sections (each gets an LLM-generated narrative):
   1. TW + US Stock Shortlist  (reads docs/signals.json)
   2. Fear & Greed Index       (Alternative.me free API)
   3. Geopolitical Risk Pulse  (Al Jazeera + BBC World RSS via fetch_news)
   4. FOMC / Fed Updates       (Federal Reserve RSS)
+
+Narratives are produced via NVIDIA NIM (MiniMax M2.7); on failure the section
+falls back to raw list rendering only.
 
 Usage:
   python digest.py
 
 Required env vars:
   RESEND_API_KEY   — Resend email API key
+  NVIDIA_API_KEY   — NVIDIA NIM API key for narrative generation (optional;
+                     missing → narrative skipped, raw lists still render)
 
 Exit codes:
   0  success (email sent)
@@ -50,8 +55,99 @@ FED_RSS_URL = "https://www.federalreserve.gov/feeds/press_all.xml"
 GEOPOLITICAL_SOURCES = {"Al Jazeera", "BBC World"}
 GEOPOLITICAL_KEYWORDS = {"war", "sanctions", "tariff", "conflict", "geopolitic", "military"}
 
+NIM_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+NIM_MODEL = "minimaxai/minimax-m2.7"
+NIM_TIMEOUT = 180
+
 # Taiwan is UTC+8
 TW_OFFSET = timezone(timedelta(hours=8))
+
+
+# ---------------------------------------------------------------------------
+# LLM narrative (NVIDIA NIM)
+# ---------------------------------------------------------------------------
+
+def _call_nim(prompt: str) -> str:
+    """Call NVIDIA NIM with prompt; return narrative text. Empty string on any failure."""
+    api_key = os.environ.get("NVIDIA_API_KEY", "")
+    if not api_key:
+        return ""
+    try:
+        resp = requests.post(
+            NIM_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": NIM_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": 4096,
+            },
+            timeout=NIM_TIMEOUT,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        return data["choices"][0]["message"].get("content", "").strip()
+    except Exception as exc:
+        print(f"[digest] NIM call failed: {exc}", file=sys.stderr)
+        return ""
+
+
+def _narrative_fg(fg: dict | None) -> str:
+    if not fg:
+        return ""
+    prompt = (
+        f"以下是今日加密貨幣 Fear & Greed Index：數值 {fg['value']}（{fg['classification']}）。"
+        "請用繁體中文寫一段約 80–120 字的解讀，說明這個數值代表的市場情緒、"
+        "對風險資產（股票、加密貨幣）的潛在含意，以及短線交易者可注意的方向。"
+        "直接給出段落文字，不要前綴標題或編號。"
+    )
+    return _call_nim(prompt)
+
+
+def _narrative_fomc(entries: list[dict]) -> str:
+    if not entries:
+        return ""
+    bullets = "\n".join(f"- {e['title']} ({e.get('published','')})" for e in entries)
+    prompt = (
+        "以下是最近的 FOMC / Fed 公告標題：\n"
+        f"{bullets}\n\n"
+        "請用繁體中文寫一段約 100–150 字的解讀，說明這些公告對利率走向、"
+        "美股與全球風險資產的可能影響。直接給出段落文字，不要編號標題。"
+    )
+    return _call_nim(prompt)
+
+
+def _narrative_geo(items: list[dict]) -> str:
+    if not items:
+        return ""
+    bullets = "\n".join(f"- {a['title']} ({a.get('source','')})" for a in items)
+    prompt = (
+        "以下是今日地緣政治風險新聞標題：\n"
+        f"{bullets}\n\n"
+        "請用繁體中文寫一段約 100–150 字的綜合解讀，歸納本批新聞的主要風險主題，"
+        "以及對能源、原物料、避險資產（黃金、美元、美債）的潛在影響。"
+        "直接給出段落文字，不要編號標題。"
+    )
+    return _call_nim(prompt)
+
+
+def _narrative_stocks(top: list[dict]) -> str:
+    if not top:
+        return ""
+    bullets = "\n".join(
+        f"- {s.get('ticker','—')} ({s.get('name','—')}): {s.get('signal','—')} "
+        f"conf={s.get('confidence','—')} | {s.get('rationale','')}"
+        for s in top
+    )
+    prompt = (
+        "以下是今日 Top 5 個股訊號（來自本系統 analyze_stock 多因子模型）：\n"
+        f"{bullets}\n\n"
+        "請用繁體中文寫一段約 120–180 字的觀察，說明本批清單反映的板塊或主題、"
+        "整體偏多或偏空傾向、以及讀者可關注的後續催化劑。直接給出段落文字。"
+    )
+    return _call_nim(prompt)
 
 
 # ---------------------------------------------------------------------------
@@ -147,7 +243,19 @@ def _render_html(
     fg: dict | None,
     geo: list[dict],
     fomc: list[dict],
+    narratives: dict[str, str] | None = None,
 ) -> str:
+    narratives = narratives or {}
+
+    def _narr_block(key: str) -> str:
+        text = (narratives.get(key) or "").strip()
+        if not text:
+            return ""
+        return (
+            '<p style="background:#f7f9fc;border-left:3px solid #2980b9;'
+            'padding:8px 12px;margin:8px 0;color:#222;font-size:14px;'
+            f'line-height:1.6;">{_esc(text)}</p>'
+        )
     # Signal colour map
     sig_colours = {"BUY": "#27ae60", "SELL": "#e74c3c", "HOLD": "#7f8c8d"}
 
@@ -237,21 +345,25 @@ def _render_html(
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;">
     TW + US Stock Shortlist
   </h2>
+  {_narr_block("stocks")}
   {stock_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
     Fear &amp; Greed Index
   </h2>
   {fg_section}
+  {_narr_block("fg")}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
     Geopolitical Risk Pulse
   </h2>
+  {_narr_block("geo")}
   {geo_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
     FOMC / Fed Updates
   </h2>
+  {_narr_block("fomc")}
   {fomc_section}
 
   <hr style="border:none;border-top:1px solid #e0e0e0;margin-top:24px;"/>
@@ -312,8 +424,19 @@ def main() -> int:
     top_stocks = _top_signals(signals)
     print(f"[digest] Signals loaded: {len(signals)} total, {len(top_stocks)} selected")
 
+    # Generate narratives via NIM (best-effort; empty string on failure or missing key)
+    print("[digest] Generating narratives via NIM...")
+    narratives = {
+        "stocks": _narrative_stocks(top_stocks),
+        "fg": _narrative_fg(fg),
+        "geo": _narrative_geo(geo),
+        "fomc": _narrative_fomc(fomc),
+    }
+    for k, v in narratives.items():
+        print(f"[digest] Narrative[{k}]: {len(v)} chars")
+
     # Compose HTML
-    html = _render_html(timestamp_tw, timestamp_utc, top_stocks, fg, geo, fomc)
+    html = _render_html(timestamp_tw, timestamp_utc, top_stocks, fg, geo, fomc, narratives)
     print(f"[digest] HTML composed — {len(html)} chars")
 
     # Send
