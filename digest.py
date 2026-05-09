@@ -1,10 +1,12 @@
 """Daily digest email — composes and sends a twice-daily HTML market summary.
 
 Sections (each gets an LLM-generated narrative):
-  1. TW + US Stock Shortlist  (reads docs/signals.json)
-  2. Fear & Greed Index       (Alternative.me free API)
-  3. Geopolitical Risk Pulse  (Al Jazeera + BBC World RSS via fetch_news)
-  4. FOMC / Fed Updates       (Federal Reserve RSS)
+  1. US Stock Shortlist            (reads docs/signals.json)
+  2. TW Stock Shortlist            (reads docs/signals.json)
+  3. Fear & Greed Index            (Alternative.me free API)
+  4. 影響股票市場的新聞              (CNBC + MarketWatch + 經濟日報 + ETtoday)
+  5. Geopolitical Risk Pulse       (Al Jazeera + BBC World RSS via fetch_news)
+  6. FOMC / Fed Updates            (Federal Reserve RSS)
 
 Narratives are produced via NVIDIA NIM (MiniMax M2.7); on failure the section
 falls back to raw list rendering only.
@@ -68,7 +70,7 @@ TW_OFFSET = timezone(timedelta(hours=8))
 # LLM narrative (NVIDIA NIM)
 # ---------------------------------------------------------------------------
 
-def _call_nim(prompt: str) -> str:
+def _call_nim(prompt: str, label: str = "") -> str:
     """Call NVIDIA NIM with prompt; return narrative text. Empty string on any failure."""
     api_key = os.environ.get("NVIDIA_API_KEY", "")
     if not api_key:
@@ -83,15 +85,27 @@ def _call_nim(prompt: str) -> str:
             json={
                 "model": NIM_MODEL,
                 "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 4096,
+                "max_tokens": 8192,
             },
             timeout=NIM_TIMEOUT,
         )
         resp.raise_for_status()
         data = resp.json()
-        return data["choices"][0]["message"].get("content", "").strip()
+        choice = data["choices"][0]
+        msg = choice.get("message", {})
+        content = (msg.get("content") or "").strip()
+        finish = choice.get("finish_reason", "?")
+        usage = data.get("usage", {})
+        comp = usage.get("completion_tokens", "?")
+        if not content:
+            print(
+                f"[digest] NIM[{label}] empty content — finish={finish} "
+                f"completion_tokens={comp}",
+                flush=True,
+            )
+        return content
     except Exception as exc:
-        print(f"[digest] NIM call failed: {exc}", file=sys.stderr)
+        print(f"[digest] NIM[{label}] call failed: {exc}", flush=True)
         return ""
 
 
@@ -104,7 +118,7 @@ def _narrative_fg(fg: dict | None) -> str:
         "對風險資產（股票、加密貨幣）的潛在含意，以及短線交易者可注意的方向。"
         "直接給出段落文字，不要前綴標題或編號。"
     )
-    return _call_nim(prompt)
+    return _call_nim(prompt, "fg")
 
 
 def _narrative_fomc(entries: list[dict]) -> str:
@@ -117,7 +131,7 @@ def _narrative_fomc(entries: list[dict]) -> str:
         "請用繁體中文寫一段約 100–150 字的解讀，說明這些公告對利率走向、"
         "美股與全球風險資產的可能影響。直接給出段落文字，不要編號標題。"
     )
-    return _call_nim(prompt)
+    return _call_nim(prompt, "fomc")
 
 
 def _narrative_geo(items: list[dict]) -> str:
@@ -131,10 +145,10 @@ def _narrative_geo(items: list[dict]) -> str:
         "以及對能源、原物料、避險資產（黃金、美元、美債）的潛在影響。"
         "直接給出段落文字，不要編號標題。"
     )
-    return _call_nim(prompt)
+    return _call_nim(prompt, "geo")
 
 
-def _narrative_stocks(top: list[dict]) -> str:
+def _narrative_stocks(top: list[dict], region_label: str) -> str:
     if not top:
         return ""
     bullets = "\n".join(
@@ -143,12 +157,30 @@ def _narrative_stocks(top: list[dict]) -> str:
         for s in top
     )
     prompt = (
-        "以下是今日 Top 5 個股訊號（來自本系統 analyze_stock 多因子模型）：\n"
+        f"以下是今日{region_label}個股 Top 訊號（來自本系統 analyze_stock 多因子模型）：\n"
         f"{bullets}\n\n"
-        "請用繁體中文寫一段約 120–180 字的觀察，說明本批清單反映的板塊或主題、"
+        f"請用繁體中文寫一段約 120–180 字的觀察，說明本批{region_label}清單反映的板塊或主題、"
         "整體偏多或偏空傾向、以及讀者可關注的後續催化劑。直接給出段落文字。"
     )
-    return _call_nim(prompt)
+    return _call_nim(prompt, f"stocks_{region_label}")
+
+
+def _narrative_market_news(items: list[dict]) -> str:
+    if not items:
+        return ""
+    bullets = "\n".join(
+        f"- [{a.get('category','')}] {a.get('title','')} ({a.get('source','')})"
+        for a in items
+    )
+    prompt = (
+        "以下是今日影響股票市場的財經新聞標題（涵蓋台股 + 美股媒體）：\n"
+        f"{bullets}\n\n"
+        "請用繁體中文寫一段約 150–200 字的綜合解讀，說明本批新聞反映的"
+        "(1) 市場主題（產業輪動、利率、業績、政策、AI 等）、"
+        "(2) 對台股與美股的潛在影響、"
+        "(3) 短線交易者可關注的方向。直接給出段落文字，不要編號標題。"
+    )
+    return _call_nim(prompt, "market_news")
 
 
 # ---------------------------------------------------------------------------
@@ -190,12 +222,13 @@ def _fetch_fomc() -> list[dict]:
         return []
 
 
-def _fetch_geopolitical() -> list[dict]:
-    """Return ≤5 geopolitical risk articles from Al Jazeera / BBC World."""
-    try:
-        articles = fetch_all_news()
-    except Exception:
-        return []
+def _fetch_geopolitical(articles: list[dict] | None = None, limit: int = 8) -> list[dict]:
+    """Return up to `limit` geopolitical risk articles from Al Jazeera / BBC World."""
+    if articles is None:
+        try:
+            articles = fetch_all_news()
+        except Exception:
+            return []
 
     hits = []
     for article in articles:
@@ -207,10 +240,49 @@ def _fetch_geopolitical() -> list[dict]:
                 "title": article.get("title", "(no title)"),
                 "link": article.get("link", ""),
                 "source": article.get("source", ""),
+                "description": article.get("description", ""),
             })
-            if len(hits) >= 5:
+            if len(hits) >= limit:
                 break
     return hits
+
+
+def _fetch_market_news(articles: list[dict] | None = None, per_category: int = 4) -> list[dict]:
+    """Return market-moving news balanced across 美股 + 台股 (≤per_category each).
+
+    Source feeds: CNBC + MarketWatch (美股) + 經濟日報 + ETtoday財經 (台股).
+    Result is interleaved so US and TW alternate when both have items.
+    """
+    if articles is None:
+        try:
+            articles = fetch_all_news()
+        except Exception:
+            return []
+
+    def _pick(cat: str) -> list[dict]:
+        out = []
+        for article in articles:
+            if article.get("category") != cat:
+                continue
+            out.append({
+                "title": article.get("title", "(no title)"),
+                "link": article.get("link", ""),
+                "source": article.get("source", ""),
+                "category": article.get("category", ""),
+                "description": article.get("description", ""),
+            })
+            if len(out) >= per_category:
+                break
+        return out
+
+    us = _pick("美股")
+    tw = _pick("台股")
+    interleaved = []
+    for u, t in zip(us, tw):
+        interleaved.extend([u, t])
+    interleaved.extend(us[len(tw):])
+    interleaved.extend(tw[len(us):])
+    return interleaved
 
 
 def _load_signals() -> list[dict]:
@@ -233,6 +305,13 @@ def _top_signals(signals: list[dict], n: int = 5) -> list[dict]:
     return sorted(signals, key=sort_key)[:n]
 
 
+def _split_signals_by_region(signals: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Split signals into (us_top5, tw_topN). TW = ticker ends with .TW; US = everything else."""
+    tw = [s for s in signals if s.get("ticker", "").upper().endswith(".TW")]
+    us = [s for s in signals if not s.get("ticker", "").upper().endswith(".TW")]
+    return _top_signals(us, 5), _top_signals(tw, 4)
+
+
 # ---------------------------------------------------------------------------
 # HTML renderer
 # ---------------------------------------------------------------------------
@@ -240,8 +319,10 @@ def _top_signals(signals: list[dict], n: int = 5) -> list[dict]:
 def _render_html(
     timestamp_tw: str,
     timestamp_utc: str,
-    top_stocks: list[dict],
+    us_stocks: list[dict],
+    tw_stocks: list[dict],
     fg: dict | None,
+    market_news: list[dict],
     geo: list[dict],
     fomc: list[dict],
     narratives: dict[str, str] | None = None,
@@ -260,10 +341,11 @@ def _render_html(
     # Signal colour map
     sig_colours = {"BUY": "#27ae60", "SELL": "#e74c3c", "HOLD": "#7f8c8d"}
 
-    # Stock table rows
-    if top_stocks:
+    def _stock_table(stocks: list[dict], empty_msg: str) -> str:
+        if not stocks:
+            return f'<p style="color:#888;">{empty_msg}</p>'
         rows = ""
-        for s in top_stocks:
+        for s in stocks:
             colour = sig_colours.get(s.get("signal", "HOLD"), "#7f8c8d")
             ticker = _esc(s.get("ticker", "—"))
             name = _esc(s.get("name") or s.get("ticker", "—"))
@@ -279,7 +361,7 @@ def _render_html(
                 f'<td style="padding:6px 8px;color:#333;">{rationale}</td>'
                 f'</tr>\n'
             )
-        stock_section = (
+        return (
             '<table style="width:100%;border-collapse:collapse;font-size:14px;">'
             '<tr style="background:#f4f4f4;">'
             '<th style="padding:6px 8px;text-align:left;">Ticker</th>'
@@ -291,8 +373,9 @@ def _render_html(
             + rows
             + '</table>'
         )
-    else:
-        stock_section = '<p style="color:#888;">Signals not yet available — run update-signals workflow first.</p>'
+
+    us_section = _stock_table(us_stocks, "US signals not yet available — run update-signals workflow first.")
+    tw_section = _stock_table(tw_stocks, "TW signals not yet available — run update-signals workflow first.")
 
     # F&G section
     if fg is not None:
@@ -314,6 +397,17 @@ def _render_html(
         )
     else:
         fg_section = '<p style="color:#888;">F&amp;G data unavailable this run.</p>'
+
+    # Market-moving news section
+    if market_news:
+        items = "".join(
+            f'<li><a href="{_esc(a["link"])}" style="color:#2980b9;">{_esc(a["title"])}</a>'
+            f' <span style="color:#999;font-size:12px;">({_esc(a["category"])} · {_esc(a["source"])})</span></li>\n'
+            for a in market_news
+        )
+        market_section = f'<ul style="padding-left:20px;">{items}</ul>'
+    else:
+        market_section = '<p style="color:#888;">No market-moving headlines fetched this run.</p>'
 
     # Geopolitical section
     if geo:
@@ -344,16 +438,28 @@ def _render_html(
   </h1>
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;">
-    TW + US Stock Shortlist
+    US Stock Shortlist
   </h2>
-  {_narr_block("stocks")}
-  {stock_section}
+  {_narr_block("stocks_US")}
+  {us_section}
+
+  <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
+    TW Stock Shortlist
+  </h2>
+  {_narr_block("stocks_TW")}
+  {tw_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
     Fear &amp; Greed Index
   </h2>
   {fg_section}
   {_narr_block("fg")}
+
+  <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
+    影響股票市場的新聞 / Market-Moving News
+  </h2>
+  {_narr_block("market_news")}
+  {market_section}
 
   <h2 style="font-size:16px;color:#1a1a2e;border-bottom:1px solid #e0e0e0;padding-bottom:4px;margin-top:24px;">
     Geopolitical Risk Pulse
@@ -416,36 +522,52 @@ def main() -> int:
     fomc = _fetch_fomc()
     print(f"[digest] FOMC entries: {len(fomc)}")
 
-    print("[digest] Fetching geopolitical news...")
-    geo = _fetch_geopolitical()
+    print("[digest] Fetching all news once (geo + market-moving share the result)...")
+    try:
+        all_articles = fetch_all_news()
+    except Exception as exc:
+        print(f"[digest] fetch_all_news failed: {exc}", flush=True)
+        all_articles = []
+    print(f"[digest] News articles fetched: {len(all_articles)}")
+
+    geo = _fetch_geopolitical(all_articles)
     print(f"[digest] Geopolitical items: {len(geo)}")
+
+    market_news = _fetch_market_news(all_articles)
+    print(f"[digest] Market-moving items: {len(market_news)}")
 
     print("[digest] Loading signals...")
     signals = _load_signals()
-    top_stocks = _top_signals(signals)
-    print(f"[digest] Signals loaded: {len(signals)} total, {len(top_stocks)} selected")
+    us_stocks, tw_stocks = _split_signals_by_region(signals)
+    print(f"[digest] Signals loaded: {len(signals)} total | US top {len(us_stocks)} | TW top {len(tw_stocks)}")
 
     # Generate narratives via NIM in parallel (best-effort; empty string on failure)
-    print("[digest] Generating narratives via NIM (parallel x4)...")
+    print("[digest] Generating narratives via NIM (parallel x6)...")
     narrative_jobs = {
-        "stocks": (_narrative_stocks, top_stocks),
-        "fg":     (_narrative_fg, fg),
-        "geo":    (_narrative_geo, geo),
-        "fomc":   (_narrative_fomc, fomc),
+        "stocks_US":   (lambda: _narrative_stocks(us_stocks, "美股")),
+        "stocks_TW":   (lambda: _narrative_stocks(tw_stocks, "台股")),
+        "fg":          (lambda: _narrative_fg(fg)),
+        "market_news": (lambda: _narrative_market_news(market_news)),
+        "geo":         (lambda: _narrative_geo(geo)),
+        "fomc":        (lambda: _narrative_fomc(fomc)),
     }
     narratives: dict[str, str] = {}
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {key: pool.submit(fn, arg) for key, (fn, arg) in narrative_jobs.items()}
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = {key: pool.submit(fn) for key, fn in narrative_jobs.items()}
         for key, fut in futures.items():
             try:
                 narratives[key] = fut.result()
             except Exception as exc:
-                print(f"[digest] Narrative[{key}] threw: {exc}", file=sys.stderr)
+                print(f"[digest] Narrative[{key}] threw: {exc}", flush=True)
                 narratives[key] = ""
             print(f"[digest] Narrative[{key}]: {len(narratives[key])} chars")
 
     # Compose HTML
-    html = _render_html(timestamp_tw, timestamp_utc, top_stocks, fg, geo, fomc, narratives)
+    html = _render_html(
+        timestamp_tw, timestamp_utc,
+        us_stocks, tw_stocks, fg, market_news, geo, fomc,
+        narratives,
+    )
     print(f"[digest] HTML composed — {len(html)} chars")
 
     # Send
