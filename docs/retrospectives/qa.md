@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-006 Daily Digest Email Scheduler
+
+**What went well:** QA proxy consultation (3 challenges) correctly surfaced signals.json absent case and send-vs-fetch error distinction; both addressed in ACs before implementation.
+**What went wrong:** Duplicate-send risk on manual re-trigger was accepted as Known Gap rather than mitigated (acceptable given 60/mo budget).
+**Next time improvement:** For future email-sending workflows, consider documenting concurrency group policy in AC even if "no concurrency guard" is the decision — explicit beats implicit.
+
 ## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
 
 **What went well:** QA Early Consultation (PM proxy) correctly identified SW scope/registration risk and icon binary-copy parity risk; both addressed before implementation.

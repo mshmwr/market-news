@@ -1,3 +1,9 @@
+## 2026-05-09 — MN-006 Daily Digest Email Scheduler
+
+**What went well:** HTML injection in RSS rendering was caught as a Warning and fixed before merge; Resend SDK surface (TypedDict) verified against source — `.get()` is correct.
+**What went wrong:** The initial implementation lacked escaping on all external-data interpolations.
+**Next time improvement:** Treat any f-string HTML template touching external network data as a mandatory HTML-escape audit item in breadth review.
+
 ## 2026-05-09 — MN-005 PWA Port + GH Pages Retirement
 
 **What went well:** All ACs verified against implementation; tsc + build pass; binary icon copy verified; PwaRegister correctly uses useEffect with no SSR access.
