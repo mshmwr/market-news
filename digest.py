@@ -70,43 +70,53 @@ TW_OFFSET = timezone(timedelta(hours=8))
 # LLM narrative (NVIDIA NIM)
 # ---------------------------------------------------------------------------
 
-def _call_nim(prompt: str, label: str = "") -> str:
-    """Call NVIDIA NIM with prompt; return narrative text. Empty string on any failure."""
+def _call_nim(prompt: str, label: str = "", attempts: int = 3) -> str:
+    """Call NVIDIA NIM with retry. Returns content on success, empty string after final failure."""
+    import time
     api_key = os.environ.get("NVIDIA_API_KEY", "")
     if not api_key:
         return ""
-    try:
-        resp = requests.post(
-            NIM_URL,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": NIM_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 8192,
-            },
-            timeout=NIM_TIMEOUT,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        choice = data["choices"][0]
-        msg = choice.get("message", {})
-        content = (msg.get("content") or "").strip()
-        finish = choice.get("finish_reason", "?")
-        usage = data.get("usage", {})
-        comp = usage.get("completion_tokens", "?")
-        if not content:
+    last_err = None
+    for attempt in range(1, attempts + 1):
+        try:
+            resp = requests.post(
+                NIM_URL,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": NIM_MODEL,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": 8192,
+                },
+                timeout=NIM_TIMEOUT,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            choice = data["choices"][0]
+            msg = choice.get("message", {})
+            content = (msg.get("content") or "").strip()
+            if content:
+                return content
+            finish = choice.get("finish_reason", "?")
+            comp = (data.get("usage", {}) or {}).get("completion_tokens", "?")
             print(
-                f"[digest] NIM[{label}] empty content — finish={finish} "
-                f"completion_tokens={comp}",
+                f"[digest] NIM[{label}] attempt {attempt}/{attempts} empty — "
+                f"finish={finish} completion_tokens={comp}",
                 flush=True,
             )
-        return content
-    except Exception as exc:
-        print(f"[digest] NIM[{label}] call failed: {exc}", flush=True)
-        return ""
+        except Exception as exc:
+            last_err = exc
+            print(
+                f"[digest] NIM[{label}] attempt {attempt}/{attempts} failed: {exc}",
+                flush=True,
+            )
+        if attempt < attempts:
+            time.sleep(2 ** (attempt - 1))  # 1s, 2s exponential backoff
+    if last_err is not None:
+        print(f"[digest] NIM[{label}] gave up after {attempts} attempts; last error: {last_err}", flush=True)
+    return ""
 
 
 def _narrative_fg(fg: dict | None) -> str:
