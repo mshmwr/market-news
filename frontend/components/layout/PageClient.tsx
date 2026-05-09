@@ -13,7 +13,8 @@ import TabNav, { type TabId } from '@/components/layout/TabNav';
 import TranslateButton from '@/components/layout/TranslateButton';
 import MarketOverview from '@/components/signals/MarketOverview';
 import SignalCard from '@/components/signals/SignalCard';
-import SignalFilters from '@/components/signals/SignalFilters';
+import SignalCatFilter from '@/components/signals/SignalCatFilter';
+import SignalActionFilter from '@/components/signals/SignalActionFilter';
 import SignalSort, { type SortOrder } from '@/components/signals/SignalSort';
 import NewsItemRow from '@/components/news/NewsItem';
 import NewsFilters from '@/components/news/NewsFilters';
@@ -151,6 +152,13 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
               )}
             </div>
 
+            <div className="mb-3">
+              <SignalCatFilter
+                sigCatFilter={sigCatFilter}
+                onCatChange={handleSigCatChange}
+              />
+            </div>
+
             {signals.length === 0 ? (
               <p className="text-[14px] text-gray-400 py-4">訊號暫未生成</p>
             ) : (
@@ -159,11 +167,9 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
                   信心度 = AI 對訊號方向的把握程度（0–100%）；數值越高代表新聞、技術面、基本面指向越一致。點擊卡片可展開詳細數據。
                 </p>
                 <div className="mb-3">
-                  <SignalFilters
+                  <SignalActionFilter
                     actionFilter={signalActionFilter}
-                    sigCatFilter={sigCatFilter}
                     onActionChange={setSignalActionFilter}
-                    onCatChange={handleSigCatChange}
                   />
                 </div>
                 <MarketOverview signals={signals} />
