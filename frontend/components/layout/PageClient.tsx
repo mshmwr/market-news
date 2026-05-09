@@ -136,15 +136,6 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
         {currentTab === 'news' && (
           <NewsFilters selected={newsFilter} onCatChange={handleNewsCatChange} />
         )}
-        {/* Signal category filters — visible only on signals tab */}
-        {currentTab === 'signals' && (
-          <SignalFilters
-            actionFilter={signalActionFilter}
-            sigCatFilter={sigCatFilter}
-            onActionChange={setSignalActionFilter}
-            onCatChange={handleSigCatChange}
-          />
-        )}
       </header>
 
       <main className="max-w-[800px] mx-auto mt-6 px-4 pb-12">
@@ -157,6 +148,15 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
               {generatedAtFormatted && (
                 <span className="text-[12px] text-gray-400">{generatedAtFormatted}</span>
               )}
+            </div>
+
+            <div className="mb-3">
+              <SignalFilters
+                actionFilter={signalActionFilter}
+                sigCatFilter={sigCatFilter}
+                onActionChange={setSignalActionFilter}
+                onCatChange={handleSigCatChange}
+              />
             </div>
 
             {signals.length === 0 ? (
