@@ -17,6 +17,7 @@ import SignalFilters from '@/components/signals/SignalFilters';
 import SignalSort, { type SortOrder } from '@/components/signals/SignalSort';
 import NewsItemRow from '@/components/news/NewsItem';
 import NewsFilters from '@/components/news/NewsFilters';
+import RegenerateButton from '@/components/digest/RegenerateButton';
 
 type ActionFilter = 'all' | 'BUY' | 'HOLD' | 'SELL';
 
@@ -205,6 +206,7 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
         {/* === DIGEST TAB === */}
         {currentTab === 'digest' && (
           <section>
+            <RegenerateButton />
             {digestHtml ? (
               <div
                 className="bg-white rounded-xl p-2 sm:p-4 overflow-hidden"
