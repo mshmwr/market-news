@@ -24,11 +24,17 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 
+import html as _html_lib
 import feedparser
 import requests
 import resend
 
 from fetch_news import fetch_all as fetch_all_news
+
+
+def _esc(text: str) -> str:
+    """HTML-escape a string for safe inline rendering."""
+    return _html_lib.escape(str(text))
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -150,11 +156,11 @@ def _render_html(
         rows = ""
         for s in top_stocks:
             colour = sig_colours.get(s.get("signal", "HOLD"), "#7f8c8d")
-            ticker = s.get("ticker", "—")
-            name = s.get("name") or ticker
-            signal = s.get("signal", "—")
-            confidence = s.get("confidence", "—")
-            rationale = s.get("rationale", "")
+            ticker = _esc(s.get("ticker", "—"))
+            name = _esc(s.get("name") or s.get("ticker", "—"))
+            signal = _esc(s.get("signal", "—"))
+            confidence = _esc(str(s.get("confidence", "—")))
+            rationale = _esc(s.get("rationale", ""))
             rows += (
                 f'<tr>'
                 f'<td style="padding:6px 8px;font-weight:bold;">{ticker}</td>'
@@ -203,8 +209,8 @@ def _render_html(
     # Geopolitical section
     if geo:
         items = "".join(
-            f'<li><a href="{a["link"]}" style="color:#2980b9;">{a["title"]}</a>'
-            f' <span style="color:#999;font-size:12px;">({a["source"]})</span></li>\n'
+            f'<li><a href="{_esc(a["link"])}" style="color:#2980b9;">{_esc(a["title"])}</a>'
+            f' <span style="color:#999;font-size:12px;">({_esc(a["source"])})</span></li>\n'
             for a in geo
         )
         geo_section = f'<ul style="padding-left:20px;">{items}</ul>'
@@ -214,8 +220,8 @@ def _render_html(
     # FOMC section
     if fomc:
         items = "".join(
-            f'<li><a href="{e["link"]}" style="color:#2980b9;">{e["title"]}</a>'
-            f'<span style="color:#999;font-size:12px;"> ({e["published"]})</span></li>\n'
+            f'<li><a href="{_esc(e["link"])}" style="color:#2980b9;">{_esc(e["title"])}</a>'
+            f'<span style="color:#999;font-size:12px;"> ({_esc(e["published"])})</span></li>\n'
             for e in fomc
         )
         fomc_section = f'<ul style="padding-left:20px;">{items}</ul>'
