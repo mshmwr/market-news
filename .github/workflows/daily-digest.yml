@@ -32,7 +32,17 @@ jobs:
           git add docs/digest-latest.html
           if git diff --cached --quiet; then
             echo "No digest HTML change to commit."
-          else
-            git commit -m "chore: update digest $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update digest $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Workflow runs ~15 min; rebase before push to survive any
+          # concurrent commits that landed on main during the run.
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "push attempt $i failed, retrying after 5s..."
+            sleep 5
+          done
+          echo "all push attempts failed"
+          exit 1
