@@ -150,15 +150,6 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
               )}
             </div>
 
-            <div className="mb-3">
-              <SignalFilters
-                actionFilter={signalActionFilter}
-                sigCatFilter={sigCatFilter}
-                onActionChange={setSignalActionFilter}
-                onCatChange={handleSigCatChange}
-              />
-            </div>
-
             {signals.length === 0 ? (
               <p className="text-[14px] text-gray-400 py-4">訊號暫未生成</p>
             ) : (
@@ -166,6 +157,14 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
                 <p className="text-[11px] text-gray-400 mb-2.5 leading-relaxed">
                   信心度 = AI 對訊號方向的把握程度（0–100%）；數值越高代表新聞、技術面、基本面指向越一致。點擊卡片可展開詳細數據。
                 </p>
+                <div className="mb-3">
+                  <SignalFilters
+                    actionFilter={signalActionFilter}
+                    sigCatFilter={sigCatFilter}
+                    onActionChange={setSignalActionFilter}
+                    onCatChange={handleSigCatChange}
+                  />
+                </div>
                 <MarketOverview signals={signals} />
                 <div className="flex flex-col gap-2.5">
                   {filteredSignals.map((s) => (
