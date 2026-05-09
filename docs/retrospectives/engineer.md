@@ -1,3 +1,9 @@
+## 2026-05-10 — Rationale Translate Chunked to Survive NIM Disconnect
+
+**What went well:** Root cause was visible in the run log on first read — three RemoteDisconnected attempts on `rationale_translate`, last with `0 entries` parsed, so HTML rendered EN-only. Fix was a 20-line refactor of `_translate_rationales` (single big batch → chunks of 4) that preserves the parse logic and the EN fallback. `python3 -m py_compile` verified syntax in seconds.
+**What went wrong:** Treated `_translate_rationales` as exempt from the MN-008 lesson ("NIM dies on big workloads") because the lesson was framed as concurrency (`max_workers`), not prompt size. A 12-stock batch with detailed multi-factor rationale is a long prompt + long expected response; same server-side pressure, different surface. User had to point out the missing ZH because there was no per-section visual telltale — it just silently degraded.
+**Next time improvement:** When integrating any new LLM call that aggregates N items into one prompt, default to chunking (4–6 items/chunk). The MN-008 lesson generalises: NIM RemoteDisconnected is triggered by **total work per request**, whether that's parallel calls or a long single-prompt response. Add the chunking pattern to digest's NIM helper conventions.
+
 ## 2026-05-09 — UI Polish: Filter Position + Split Components
 
 **What went well:** Three filter-position iterations (PR #91 under h2 → PR #92 under explainer → PR #100 back into sticky header) each took one Edit + one build, no regressions. PR #99 split monolithic `SignalFilters` into `SignalCatFilter` + `SignalActionFilter` — cleaner placement freedom, both consumers (header + section body) call separate components. `npx next build` was the single source of truth: every iteration verified before push.
