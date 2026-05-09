@@ -52,6 +52,39 @@ The 🔄 button triggers a live fetch when the last update is over 1 hour old. I
 
 The token is stored in `localStorage` and reused on subsequent refreshes. A 401/403 response clears it automatically.
 
+## Daily Digest
+
+Twice-daily HTML email (08:00 and 20:00 Taiwan time) covering:
+
+- **TW + US Stock Shortlist** — top 5 signals from the latest `docs/signals.json` (confidence-ranked, BUY-first)
+- **Fear & Greed Index** — Crypto F&G via Alternative.me free API
+- **Geopolitical Risk Pulse** — Al Jazeera + BBC World RSS filtered for risk keywords
+- **FOMC / Fed Updates** — Federal Reserve press release RSS, FOMC entries only
+
+Sent via [Resend](https://resend.com) (free tier, 3000 emails/month — we use 60/month).
+
+### Secret setup (one-time)
+
+The workflow requires a Resend API key stored as a GitHub Actions secret:
+
+```bash
+gh secret set RESEND_API_KEY --repo mshmwr/market-news
+```
+
+Or via GitHub web UI: **Settings → Secrets and variables → Actions → New repository secret** — Name: `RESEND_API_KEY`.
+
+Get your API key at https://resend.com/api-keys (free account).
+
+### Smoke-test (before secret is added)
+
+Trigger the workflow manually from the Actions tab. It will succeed through the fetcher steps and fail only at the email-send step with a clear `RESEND_API_KEY not set` error — this confirms the pipeline is healthy.
+
+```bash
+gh workflow run daily-digest.yml --repo mshmwr/market-news
+```
+
+---
+
 ## Local Development
 
 ### Python worker (news + signals)

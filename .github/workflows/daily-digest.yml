@@ -1,0 +1,26 @@
+name: Daily Digest Email
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'   # 08:00 and 20:00 Taiwan time (UTC+8)
+  workflow_dispatch: {}
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send daily digest
+        run: python digest.py

@@ -8,3 +8,4 @@ eval_type_backport>=0.2  # required for float|None syntax in Pydantic v2 on Pyth
 python-dotenv>=1.0
 requests>=2.31
 praw>=7.7  # optional — social signal; omit if not needed
+resend>=2.0  # email delivery for daily-digest.yml
