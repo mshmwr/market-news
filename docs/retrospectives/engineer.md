@@ -1,3 +1,9 @@
+## 2026-05-10 — Restore Feedback Button (Lazy Firebase)
+
+**What went well:** Source of truth was the legacy `docs/index.html` script block — copied the Firebase config + Firestore write shape verbatim, only translated to React state + Tailwind. Lazy-imported `firebase/firestore` and `@/lib/firebase` inside the submit handler so initial First Load JS only grew +0.9kB (vs +77kB with eager import). `npx next build` confirmed both the bundle delta and the dynamic chunk split.
+**What went wrong:** First version eagerly imported Firebase at top-of-file → bundle size jumped 6.88kB → 84.2kB on `/`. Caught this via the build output and refactored to dynamic import inside the click handler. Should have started with lazy import: any third-party SDK ≥30kB used only in a rare modal flow is a candidate for dynamic import from the very first commit.
+**Next time improvement:** When porting a feature that pulls in a heavy SDK (Firebase, payment, charting), default to dynamic `await import('...')` inside the trigger handler. Only switch to top-level import if profiling shows the user-visible delay matters.
+
 ## 2026-05-10 — Rationale Translate Chunked to Survive NIM Disconnect
 
 **What went well:** Root cause was visible in the run log on first read — three RemoteDisconnected attempts on `rationale_translate`, last with `0 entries` parsed, so HTML rendered EN-only. Fix was a 20-line refactor of `_translate_rationales` (single big batch → chunks of 4) that preserves the parse logic and the EN fallback. `python3 -m py_compile` verified syntax in seconds.
