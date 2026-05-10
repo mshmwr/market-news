@@ -430,17 +430,20 @@ def _render_html(
                 f'<td style="padding:6px 8px;color:#555;">{name}</td>'
                 f'<td style="padding:6px 8px;color:{colour};font-weight:bold;">{signal}</td>'
                 f'<td style="padding:6px 8px;text-align:center;">{confidence}</td>'
-                f'<td style="padding:6px 8px;color:#333;">{rationale_html}</td>'
+                f'</tr>\n'
+                f'<tr>'
+                f'<td colspan="4" style="padding:0 8px 12px 8px;color:#333;font-size:13px;line-height:1.6;border-bottom:1px solid #eee;word-break:break-word;overflow-wrap:anywhere;">'
+                f'<span style="color:#888;font-size:11px;text-transform:uppercase;letter-spacing:.05em;">Rationale / 理由</span><br>'
+                f'{rationale_html}</td>'
                 f'</tr>\n'
             )
         return (
-            '<table style="width:100%;border-collapse:collapse;font-size:14px;">'
+            '<table style="width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed;">'
             '<tr style="background:#f4f4f4;">'
             '<th style="padding:6px 8px;text-align:left;">Ticker / 代號</th>'
             '<th style="padding:6px 8px;text-align:left;">Name / 名稱</th>'
             '<th style="padding:6px 8px;text-align:left;">Signal / 訊號</th>'
             '<th style="padding:6px 8px;text-align:center;">Conf. / 信心</th>'
-            '<th style="padding:6px 8px;text-align:left;">Rationale / 理由</th>'
             '</tr>\n'
             + rows
             + '</table>'
