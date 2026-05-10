@@ -426,9 +426,9 @@ def _render_html(
                 rationale_html = rationale_en
             rows += (
                 f'<tr>'
-                f'<td style="padding:6px 8px;font-weight:bold;">{ticker}</td>'
-                f'<td style="padding:6px 8px;color:#555;">{name}</td>'
-                f'<td style="padding:6px 8px;color:{colour};font-weight:bold;">{signal}</td>'
+                f'<td style="padding:6px 8px;font-weight:bold;word-break:break-word;overflow-wrap:anywhere;">{ticker}</td>'
+                f'<td style="padding:6px 8px;color:#555;word-break:break-word;overflow-wrap:anywhere;">{name}</td>'
+                f'<td style="padding:6px 8px;color:{colour};font-weight:bold;word-break:keep-all;white-space:nowrap;">{signal}</td>'
                 f'<td style="padding:6px 8px;text-align:center;">{confidence}</td>'
                 f'</tr>\n'
                 f'<tr>'
@@ -440,10 +440,10 @@ def _render_html(
         return (
             '<table style="width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed;">'
             '<tr style="background:#f4f4f4;">'
-            '<th style="padding:6px 8px;text-align:left;">Ticker / 代號</th>'
-            '<th style="padding:6px 8px;text-align:left;">Name / 名稱</th>'
-            '<th style="padding:6px 8px;text-align:left;">Signal / 訊號</th>'
-            '<th style="padding:6px 8px;text-align:center;">Conf. / 信心</th>'
+            '<th style="padding:6px 8px;text-align:left;width:22%;">Ticker / 代號</th>'
+            '<th style="padding:6px 8px;text-align:left;width:38%;">Name / 名稱</th>'
+            '<th style="padding:6px 8px;text-align:left;width:24%;">Signal / 訊號</th>'
+            '<th style="padding:6px 8px;text-align:center;width:16%;">Conf. / 信心</th>'
             '</tr>\n'
             + rows
             + '</table>'
