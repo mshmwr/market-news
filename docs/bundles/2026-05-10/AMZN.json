@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Target is trying to win back busy families from Walmart, starting with the baby aisle",
+        "description": "Target is refreshing its baby category as part of a broader effort to offer better products and more convenience to compete with Walmart and Amazon.",
+        "link": "https://www.cnbc.com/2026/05/10/target.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778414401
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 75.13646408631811,
+    "macd_line": 12.53281218860036,
+    "macd_signal": 12.370745083548236,
+    "macd_histogram": 0.16206710505212385,
+    "ma50": 231.23959991455078,
+    "volume_ratio": 0.7070309631624037,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.578255,
+    "forward_pe": 27.625109,
+    "price_to_book": 6.63568,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 311.55145,
+    "current_price": 272.68,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.37,
+    "book_value": 41.093,
+    "peg_ratio": 1.8937,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

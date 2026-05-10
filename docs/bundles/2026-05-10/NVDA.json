@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "As Nvidia earnings draw closer, here are 5 things investors need to watch",
+        "description": "The chip maker’s stock has been a laggard — but Goldman Sachs sees five potential catalysts that could come out of its earnings call later this month.",
+        "link": "https://www.marketwatch.com/story/as-nvidia-earnings-draw-closer-here-are-5-things-investors-need-to-watch-d11d8136?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778432160
+      },
+      {
+        "title": "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
+        "description": "Nvidia is pouring billions of dollars at a time into companies across the AI infrastructure stack, while also signing commercial deals with them.",
+        "link": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778344882
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 65.8573145693386,
+    "macd_line": 5.864001267361289,
+    "macd_signal": 5.661491135118871,
+    "macd_histogram": 0.2025101322424181,
+    "ma50": 188.6494287109375,
+    "volume_ratio": 0.9032012308929714,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 43.832382,
+    "forward_pe": 19.069513,
+    "price_to_book": 33.25355,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 269.16544,
+    "current_price": 215.217,
+    "fifty_two_week_low": 120.28,
+    "fifty_two_week_high": 217.8,
+    "trailing_eps": 4.91,
+    "book_value": 6.472,
+    "peg_ratio": 0.6831,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
