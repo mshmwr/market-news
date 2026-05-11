@@ -26,7 +26,7 @@ export default function TranslateButton() {
       href={TRANSLATE_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-[12px] px-2.5 py-1 rounded-full border border-gray-300 bg-white text-gray-500 hover:border-gray-500 whitespace-nowrap no-underline"
+      className="fixed bottom-5 left-5 z-30 px-4 py-2 rounded-full bg-[#1d1d1f] text-white text-[13px] shadow-lg hover:bg-[#3a3a3c] whitespace-nowrap no-underline"
     >
       🌐 翻譯
     </a>
