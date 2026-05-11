@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Hassett says AI isn't costing anybody their job right now — but tech layoffs keep coming",
+        "description": "Tech companies have continued to announce layoffs tied to AI, including recent cuts from Amazon, Meta and Oracle.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-white-house-hassett-ai-jobs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778516231
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 68.80039069612357,
+    "macd_line": 11.85853613559604,
+    "macd_signal": 12.26872155011115,
+    "macd_histogram": -0.4101854145151105,
+    "ma50": 232.41939971923827,
+    "volume_ratio": 0.7730872717560221,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.137394,
+    "forward_pe": 27.251276,
+    "price_to_book": 6.5458837,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 311.55145,
+    "current_price": 268.99,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.37,
+    "book_value": 41.093,
+    "peg_ratio": 1.8937,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

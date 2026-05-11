@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Iren’s stock pulls back as investors assess the steep price of the AI buildout",
+        "description": "Iren will take on debt in the wake of its new Nvidia partnership. One analyst said Monday’s stock drop is an overreaction.",
+        "link": "https://www.marketwatch.com/story/irens-stock-pulls-back-as-investors-assess-the-steep-price-of-the-ai-buildout-3013b59b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778532420
+      },
+      {
+        "title": "Nvidia has added an Oracle’s worth of market cap in just four trading days",
+        "description": "Nvidia’s stock is on pace to record its strongest four-session run of the year after severely lagging the chip sector to date in 2026.",
+        "link": "https://www.marketwatch.com/story/nvidia-has-added-an-oracles-worth-of-market-cap-in-just-four-trading-days-253f4fe8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778531820
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 68.46698647508867,
+    "macd_line": 6.569689187681092,
+    "macd_signal": 5.84360422138665,
+    "macd_histogram": 0.726084966294442,
+    "ma50": 189.49462036132812,
+    "volume_ratio": 1.033181343862981,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 44.692467,
+    "forward_pe": 19.443697,
+    "price_to_book": 33.906055,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 269.16544,
+    "current_price": 219.44,
+    "fifty_two_week_low": 120.28,
+    "fifty_two_week_high": 222.3,
+    "trailing_eps": 4.91,
+    "book_value": 6.472,
+    "peg_ratio": 0.6831,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

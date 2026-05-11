@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+        "description": "Trump invited Tesla's Elon Musk, Apple's Tim Cook and Blackrock's Larry Fink to join his China trip for talks with Xi Jinping on trade, AI and geopolitics.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778520245
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 71.94423923043553,
+    "macd_line": 7.788379833304987,
+    "macd_signal": 5.805793807808776,
+    "macd_histogram": 1.9825860254962109,
+    "ma50": 263.3725994873047,
+    "volume_ratio": 0.8038111711603282,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.390564,
+    "forward_pe": 30.615929,
+    "price_to_book": 40.31405,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 305.28094,
+    "current_price": 292.68,
+    "fifty_two_week_low": 193.46,
+    "fifty_two_week_high": 294.76,
+    "trailing_eps": 8.27,
+    "book_value": 7.26,
+    "peg_ratio": 2.5713,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

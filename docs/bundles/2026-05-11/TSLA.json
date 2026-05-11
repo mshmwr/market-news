@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials",
+        "description": "Before joining Redwood Materials, Ahuja served as chief financial and business officer at the drone delivery startup Zipline for about three years.",
+        "link": "https://www.cnbc.com/2026/05/11/redwood-materials-deepak-ahuja-tesla-straubel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778528576
+      },
+      {
+        "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+        "description": "Trump invited Tesla's Elon Musk, Apple's Tim Cook and Blackrock's Larry Fink to join his China trip for talks with Xi Jinping on trade, AI and geopolitics.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778520245
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 74.0658906243525,
+    "macd_line": 11.273038132406498,
+    "macd_signal": 4.522870684287731,
+    "macd_histogram": 6.750167448118767,
+    "ma50": 384.03920104980466,
+    "volume_ratio": 1.1692152787898475,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 415.88782,
+    "forward_pe": 177.00734,
+    "price_to_book": 20.32242,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 412.25366,
+    "current_price": 445.0,
+    "fifty_two_week_low": 273.21,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.07,
+    "book_value": 21.897,
+    "peg_ratio": 5.8981,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 41,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

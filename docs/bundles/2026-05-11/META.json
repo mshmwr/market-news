@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Parabolic AI rally has bulls eyeing a comeback for this one-time meme metal trade",
+        "description": "Silver prices surged 7% Monday to the highest since March.",
+        "link": "https://www.cnbc.com/2026/05/11/parabolic-ai-rally-has-bulls-eyeing-a-comeback-for-this-one-time-meme-metal-trade.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778525392
+      },
+      {
+        "title": "Hassett says AI isn't costing anybody their job right now — but tech layoffs keep coming",
+        "description": "Tech companies have continued to announce layoffs tied to AI, including recent cuts from Amazon, Meta and Oracle.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-white-house-hassett-ai-jobs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778516231
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 39.17303017140286,
+    "macd_line": -6.249245841483912,
+    "macd_signal": 0.9271886149890292,
+    "macd_histogram": -7.176434456472942,
+    "ma50": 625.4527624511719,
+    "volume_ratio": 0.9169876443800425,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.784649,
+    "forward_pe": 16.549513,
+    "price_to_book": 6.2372804,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 598.86,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.49,
+    "book_value": 96.013,
+    "peg_ratio": 0.8893,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

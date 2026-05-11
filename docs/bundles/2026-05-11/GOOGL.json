@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google says it likely thwarted effort by hacker group to use AI for 'mass exploitation event'",
+        "description": "Hackers are rapidly adopting AI to find previously unknown software flaws even without the help of Anthropic's powerful Mythos model.",
+        "link": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778534001
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 71.5966295707384,
+    "macd_line": 21.5165707533003,
+    "macd_signal": 18.53457304021369,
+    "macd_histogram": 2.98199771308661,
+    "ma50": 325.2453173828125,
+    "volume_ratio": 1.0971041372457082,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.644548,
+    "forward_pe": 26.868374,
+    "price_to_book": 11.313131,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 427.88712,
+    "current_price": 388.64,
+    "fifty_two_week_low": 156.16,
+    "fifty_two_week_high": 402.0,
+    "trailing_eps": 13.11,
+    "book_value": 34.353,
+    "peg_ratio": 1.5781,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+        "description": "Elon Musk named Microsoft as a defendant in his lawsuit against OpenAI",
+        "link": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778536306
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 52.23401735508879,
+    "macd_line": 5.244936813463767,
+    "macd_signal": 6.630641962847553,
+    "macd_histogram": -1.385705149383786,
+    "ma50": 398.5453991699219,
+    "volume_ratio": 0.9595411934271948,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.607037,
+    "forward_pe": 21.321096,
+    "price_to_book": 7.39839,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.5561,
+    "current_price": 412.66,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.77,
+    "book_value": 55.777,
+    "peg_ratio": 1.2863,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
