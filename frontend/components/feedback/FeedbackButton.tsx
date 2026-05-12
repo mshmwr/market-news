@@ -64,7 +64,7 @@ export default function FeedbackButton() {
               onChange={(e) => setText(e.target.value)}
               placeholder="請輸入您的建議…"
               rows={5}
-              className="w-full border border-gray-300 rounded-lg p-2 text-[14px] focus:outline-none focus:border-gray-500 resize-none"
+              className="w-full border border-gray-300 rounded-lg p-2 text-[16px] focus:outline-none focus:border-gray-500 resize-none"
             />
             <div className="flex gap-2 justify-end">
               <button
