@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Texas accuses Netflix of spying on users, including children",
+        "description": "The lawsuit comes amid increased scrutiny over platform features like auto-play that deliver endless content to users.",
+        "link": "https://www.bbc.com/news/articles/c072dvv1rmro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1778580114
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 74.73376479203199,
+    "macd_line": 14.867641664751204,
+    "macd_signal": 13.6377843784427,
+    "macd_histogram": 1.2298572863085049,
+    "ma50": 685.906103515625,
+    "volume_ratio": 1.064358822252532,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.731148,
+    "forward_pe": null,
+    "price_to_book": 1.7198173,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 738.18,
+    "fifty_two_week_low": 575.6,
+    "fifty_two_week_high": 740.79,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

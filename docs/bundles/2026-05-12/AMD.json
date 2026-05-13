@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "New York City Mayor Zohran Mamdani's pied-à-terre property tax is moving ahead. But will it work?",
+        "description": "New York is moving ahead with a pied-à-terre property tax in its budget. Existing taxes from around the world's major cities show the limits of the policy.",
+        "link": "https://www.cnbc.com/2026/05/12/mayor-mamdani-new-york-pied-terre-property-tax-real-estate.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778617227
+      },
+      {
+        "title": "AI super rally has retail investors acting the most aggressive since trading frenzy during Covid",
+        "description": "Retail traders are buying calls in Cboe's \"Mag 10\" stocks – the big seven plus AMD, Palantir and Broadcom – at the heaviest 10-day clip since 2021, according to a report from the exchange.",
+        "link": "https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778600037
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 77.23447914624077,
+    "macd_line": 52.38409421652932,
+    "macd_signal": 42.035223213490426,
+    "macd_histogram": 10.348871003038894,
+    "ma50": 264.6760003662109,
+    "volume_ratio": 0.7862227362397636,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 150.43289,
+    "forward_pe": 34.73086,
+    "price_to_book": 11.335626,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 445.02084,
+    "current_price": 448.29,
+    "fifty_two_week_low": 107.67,
+    "fifty_two_week_high": 469.22,
+    "trailing_eps": 2.98,
+    "book_value": 39.547,
+    "peg_ratio": 1.095,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

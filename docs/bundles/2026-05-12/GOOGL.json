@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google races to put Gemini at the center of Android before Apple’s AI reboot",
+        "description": "Google is using its latest Android rollout to position Gemini as the AI layer across phones, Chrome, laptops and cars.",
+        "link": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778613748
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 70.40685904355351,
+    "macd_line": 20.643644051981028,
+    "macd_signal": 18.957186889763904,
+    "macd_histogram": 1.686457162217124,
+    "ma50": 326.86623046875,
+    "volume_ratio": 0.9192141479955627,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.568703,
+    "forward_pe": 26.77919,
+    "price_to_book": 9.802855,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 427.88712,
+    "current_price": 387.35,
+    "fifty_two_week_low": 156.16,
+    "fifty_two_week_high": 402.0,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.5781,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

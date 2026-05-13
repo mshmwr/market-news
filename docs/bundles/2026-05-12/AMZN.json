@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon accelerates delivery race with 30-minute drop-offs in dozens of U.S. cities",
+        "description": "Amazon has been gradually speeding up its delivery windows, after getting customers hooked on two-day and next-day shipping.",
+        "link": "https://www.cnbc.com/2026/05/12/amazon-launches-ultrafast-30-minute-delivery-in-dozens-of-us-cities.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778594470
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 63.821747855591184,
+    "macd_line": 10.942475029065179,
+    "macd_signal": 12.004123457824154,
+    "macd_histogram": -1.061648428758975,
+    "ma50": 233.56799987792968,
+    "volume_ratio": 0.7764672417411402,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.758663,
+    "forward_pe": 26.930126,
+    "price_to_book": 6.468742,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 311.55145,
+    "current_price": 265.82,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.37,
+    "book_value": 41.093,
+    "peg_ratio": 1.8937,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

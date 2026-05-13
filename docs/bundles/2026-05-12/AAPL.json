@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google races to put Gemini at the center of Android before Apple’s AI reboot",
+        "description": "Google is using its latest Android rollout to position Gemini as the AI layer across phones, Chrome, laptops and cars.",
+        "link": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778613748
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 73.65490488655826,
+    "macd_line": 8.282283239602066,
+    "macd_signal": 6.300306355495087,
+    "macd_histogram": 1.9819768841069791,
+    "ma50": 263.7420318603516,
+    "volume_ratio": 0.8986404333583561,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.733334,
+    "forward_pe": 30.83769,
+    "price_to_book": 40.606056,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 305.28094,
+    "current_price": 294.8,
+    "fifty_two_week_low": 193.46,
+    "fifty_two_week_high": 295.27,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.5713,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

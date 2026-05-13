@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel’s stock just guided the chip sector toward a sharp selloff. Here’s why.",
+        "description": "Analysts note “buyer exhaustion” and market concerns about what the latest inflation data may mean for future data-center spending commitments.",
+        "link": "https://www.marketwatch.com/story/why-intels-stock-is-falling-and-guiding-the-chip-sector-toward-its-worst-day-of-the-year-aa8812e4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778620740
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 75.1389934131085,
+    "macd_line": 17.047287600550632,
+    "macd_signal": 13.911219093562073,
+    "macd_histogram": 3.1360685069885594,
+    "ma50": 65.29260009765625,
+    "volume_ratio": 1.106674708758149,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 78.6076,
+    "price_to_book": 5.2704945,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 82.6,
+    "current_price": 120.61,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.884,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
