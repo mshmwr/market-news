@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The gold chart looks poised for a bounce. How to play it for less",
+        "description": "If you've been watching the SPDR Gold Shares (GLD), you know the yellow metal has been consolidating and appears to be bouncing off its 150-day moving average (support).",
+        "link": "https://www.cnbc.com/2026/05/13/the-gold-chart-looks-poised-for-a-bounce-how-to-play-it-for-less.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778688097
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 46.39685693391806,
+    "macd_line": -7.060962571067762,
+    "macd_signal": -1.9965968400257008,
+    "macd_histogram": -5.064365731042061,
+    "ma50": 623.694951171875,
+    "volume_ratio": 0.9119598987218461,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.422909,
+    "forward_pe": 17.040588,
+    "price_to_book": 6.4223595,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 616.63,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.5,
+    "book_value": 96.013,
+    "peg_ratio": 0.8893,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

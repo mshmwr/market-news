@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
+        "description": "Amazon introduced Alexa for Shopping, an e-commerce bot that can answer queries and take actions on behalf of users",
+        "link": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778678003
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 67.28908384352042,
+    "macd_line": 10.443670299630071,
+    "macd_signal": 11.692317116736007,
+    "macd_histogram": -1.2486468171059357,
+    "ma50": 234.79600006103516,
+    "volume_ratio": 0.8052450264247528,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.3509,
+    "forward_pe": 27.36677,
+    "price_to_book": 6.573626,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 311.55145,
+    "current_price": 270.13,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.35,
+    "book_value": 41.093,
+    "peg_ratio": 1.8937,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

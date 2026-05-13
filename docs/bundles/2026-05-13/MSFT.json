@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft feared being too dependent on OpenAI, Musk-Altman trial testimony reveals",
+        "description": "Top Microsoft executives testified in Musk v. Altman this week, spelling out concerns they had in the early days of the partnership with OpenAI.",
+        "link": "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778706359
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 47.34435376077196,
+    "macd_line": 3.2869062120269064,
+    "macd_signal": 5.587262340124044,
+    "macd_histogram": -2.300356128097138,
+    "ma50": 398.7553991699219,
+    "volume_ratio": 0.7915565307698162,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.119644,
+    "forward_pe": 20.936172,
+    "price_to_book": 7.264822,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.5561,
+    "current_price": 405.21,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.8,
+    "book_value": 55.777,
+    "peg_ratio": 1.2863,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

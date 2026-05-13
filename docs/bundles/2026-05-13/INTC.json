@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia's Jensen Huang bets on this British startup to build 'next frontier' of AI",
+        "description": "Months-old Ineffable Intelligence announced a record $1.1 billion seed round in April.",
+        "link": "https://www.cnbc.com/2026/05/13/google-deepmind-alumni-startup-partners-nvidia-superintelligence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778677201
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 74.76726257957671,
+    "macd_line": 16.909215449984643,
+    "macd_signal": 14.510856729263434,
+    "macd_histogram": 2.398358720721209,
+    "ma50": 66.83640014648438,
+    "volume_ratio": 0.7348563117004026,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 78.39904,
+    "price_to_book": 5.2565107,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 84.43333,
+    "current_price": 120.29,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.884,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

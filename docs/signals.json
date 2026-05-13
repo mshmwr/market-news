@@ -1,52 +1,47 @@
 {
-  "generated_at": "2026-05-13T03:05:47Z",
+  "generated_at": "2026-05-13T22:34:21Z",
   "signals": [
     {
       "signal": "HOLD",
       "confidence": 58,
-      "rationale": "Both arguments are well-articulated with the bull's forward P/E of 19.5, PEG of 0.68, and 21.9% analyst upside offset by the bear's alarming debt-to-equity of 7.255 and P/B of 34.1x, creating a standoff where growth momentum battles valuation stress without a clear decisive winner.",
+      "rationale": "Both arguments are well-supported but present a classic growth-vs-valuation conflict — the bull case's forward PE of ~20 with 73% revenue growth and 0.68 PEG ratio is compelling, but the bear case's P/B of 34.9x, extreme Graham number premium, and RSI overbought at 72 near the 52-week high create meaningful near-term risk that justifies maintaining existing positions without adding exposure.",
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "bull_case": "Nvidia’s 73% revenue growth and 55.6% profit margin combine with a forward P/E of just 19.5 to deliver a PEG ratio of 0.68, signaling the stock is undervalued relative to its explosive AI‑driven earnings trajectory. Analyst consensus is overwhelmingly bullish with a strong‑buy rating from 57 analysts and a mean price target of $269, implying 21.9% upside from the current price of $220.78, while the technical picture reinforces confidence with the stock trading above its 50‑day moving average of $190.26, a positive MACD histogram and an RSI of 69 that remains below overbought territory. The AI infrastructure build‑out remains a $700 billion opportunity, positioning Nvidia as the primary beneficiary and supporting continued upside momentum.",
-      "bear_case": "With the stock trading at $220.78 just shy of its 52-week high of $223.75 (week52_position 97%), RSI stands at 69.27 dangerously close to overbought territory, and the price-to-book ratio of 34.1x signals extreme valuation relative to fundamentals, while the price-vs-Graham margin of 727.4% reveals dramatic overvaluation by classical metrics. The debt-to-equity ratio of 7.255 is alarmingly high, and with a relative P/E of 1.61x its sector average, the stock has already priced in the AI tailwinds and leaves virtually no margin of safety for earnings disappointments.",
+      "bull_case": "Nvidia trades at $225.83 with a compelling 19.5% upside to the analyst target of $269.95, supported by a consensus \"strong_buy\" rating across 57 analysts; the forward PE of 19.97 versus current PE of 46.09 signals significant earnings compression as growth accelerates. Revenue growth of 73.2%, profit margin of 55.6%, and a PEG ratio of 0.68 demonstrate exceptional profitability trading at a discount to its growth rate, while the MACD histogram of 1.46 confirms sustained bullish momentum and price above the 50-day MA at $191.18 reinforces the uptrend structure.",
+      "bear_case": "NVDA trades at $225.83 just 0.9% below its 52-week high of $227.84 with RSI 72 overbought and week52_position_pct at 98%, delivering maximum downside exposure with minimal remaining upside runway. The valuation is extreme on every classical metric: price-to-book 34.9x, debt-to-equity 7.26, and price 745% above Graham number $26.71, while the relative PE of 1.65x sector peers prices in perfection at a 65% premium to comparable Technology names. The combination of overbought technicals, near-peak price positioning, and a valuation that ignores all margin-of-safety principles makes this a compelling sell.",
       "sources": [
         {
           "title": "Meet the Nvidias of power — 5 stocks winning Big Tech’s $700 billion AI energy grab",
           "url": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a?mod=mw_rss_topstories",
-          "published_ts": 1778618160
+          "published_ts": 1778704680
         },
         {
-          "title": "Qualcomm drops 11% as chip stocks pull back from record AI-driven rally",
-          "url": "https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html",
-          "published_ts": 1778616557
-        },
-        {
-          "title": "Trump is taking more than a dozen U.S. executives to China. Jensen Huang isn't one of them",
-          "url": "https://www.cnbc.com/2026/05/12/nvidia-ceo-huang-trump-china-trip-chip-sales.html",
-          "published_ts": 1778586385
+          "title": "Nvidia's Jensen Huang bets on this British startup to build 'next frontier' of AI",
+          "url": "https://www.cnbc.com/2026/05/13/google-deepmind-alumni-startup-partners-nvidia-superintelligence.html",
+          "published_ts": 1778677201
         }
       ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 69.26735460953618,
-        "macd_line": 7.154826565076178,
-        "macd_signal": 6.106531307762687,
-        "macd_histogram": 1.048295257313491,
-        "ma50": 190.26081787109376,
-        "volume_ratio": 1.039722418130486
+        "rsi": 72.13391636814343,
+        "macd_line": 7.933869444271522,
+        "macd_signal": 6.47167336365786,
+        "macd_histogram": 1.462196080613662,
+        "ma50": 191.1766128540039,
+        "volume_ratio": 0.9507349361525596
       },
       "fundamentals_data": {
-        "pe_ratio": 45.149284,
-        "forward_pe": 19.521072,
-        "price_to_book": 34.113102,
+        "pe_ratio": 46.087753,
+        "forward_pe": 19.967587,
+        "price_to_book": 34.893387,
         "revenue_growth": 0.732,
         "profit_margin": 0.55603004,
         "debt_to_equity": 7.255,
-        "target_mean_price": 269.16544,
-        "current_price": 220.78,
-        "fifty_two_week_low": 124.47,
-        "fifty_two_week_high": 223.75,
-        "trailing_eps": 4.89,
+        "target_mean_price": 269.9549,
+        "current_price": 225.83,
+        "fifty_two_week_low": 129.16,
+        "fifty_two_week_high": 227.84,
+        "trailing_eps": 4.9,
         "book_value": 6.472,
         "peg_ratio": 0.6831,
         "short_name": "NVIDIA Corporation",
@@ -55,45 +50,51 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 21.9,
-        "week52_position_pct": 97.0,
-        "graham_number": 26.68,
-        "price_vs_graham_pct": 727.4,
-        "relative_pe": 1.61,
+        "upside_pct": 19.5,
+        "week52_position_pct": 98.0,
+        "graham_number": 26.71,
+        "price_vs_graham_pct": 745.4,
+        "relative_pe": 1.65,
         "sector_pe_avg": 28.0,
         "peg_ratio": 0.68
       }
     },
     {
       "signal": "SELL",
-      "confidence": 72,
-      "rationale": "Bear case dominates with significantly more compelling valuation metrics — trailing PE of 405, PEG ratio of 5.9, P/B of 19.8, and Graham-derived fair value of $22.96 versus current $433.45 represent an extreme valuation disconnect that the forward P/E compression argument cannot sufficiently offset; analyst target below current price (-4.9%) and weak 3.9% margins with 18.7 debt-to-equity confirm financial risk. While the bull case has decent momentum signals, the valuation premium lacks fundamental justification.",
+      "confidence": 82,
+      "rationale": "The bear case decisively outweighs the bull: TSLA's trailing PE of 412, forward PE of 177, P/B of 20.3, PEG of 5.9, and 1,830% above Graham number represent extreme, indefensible valuation. Critically, the bull's own analyst consensus target of $412.25 is BELOW the current price of $445.27, implying -7.4% downside — contradicting a buy recommendation. While the bull emphasizes momentum indicators, an RSI at 70+ signals overbought conditions rather than entry opportunity, and being at 76.3% of the 52-week high leaves limited upside with elevated risk.",
       "ticker": "TSLA",
       "name": "Tesla, Inc.",
-      "bull_case": "Tesla's technical setup confirms bullish momentum with an RSI of 67, a MACD histogram of 6.67 and the stock trading above its 50‑day moving average of $384.64, signaling continued upward pressure. Fundamentals reinforce the case: revenue grew 15.8% year‑over‑year, the forward P/E of 172 is a steep discount to the trailing P/E of 405, and with 41 analysts maintaining a “buy” recommendation and a consensus target of $412.25 the market expects earnings expansion to compress valuation. The price at $433.45 sits 71% into its 52‑week range and near the $498.83 high, and with margin expansion and new model catalysts ahead, the premium valuation is justified for a growth leader.",
-      "bear_case": "TSLA’s valuation is stretched, with a trailing PE of 405, a forward PE of 172, a price‑to‑book of 19.8, and a PEG ratio of 5.9, well above its sector peers and the Graham‑derived fair value of $22.96, while its debt‑to‑equity of 18.7 and thin profit margin of 3.9% heighten financial risk. The stock is already near the top of its 52‑week range at 71% of the high, the mean analyst target of $412.25 is below the current price, implying a -4.9% downside, and the modest RSI of 67 provides no compelling technical support, making a SELL the prudent stance.",
-      "sources": [],
+      "bull_case": "RSI 70.2 and a MACD histogram of 6.97 confirm strong upward momentum, with the price at $445.27 well above the 50‑day MA of $385.70. Forty‑one analysts give a ‘buy’ recommendation with a target mean price of $412.25, and the 15.8% revenue growth plus expected margin expansion support a premium valuation. The forward PE of 177 is high, yet it is declining as earnings accelerate, and the stock’s position at 76.3% of its 52‑week range suggests room for further gains.",
+      "bear_case": "With a trailing PE of 412, a forward PE of 177, a price‑to‑book of 20.3, a PEG ratio of 5.9, and a price that sits 1,830% above the Graham number, Tesla is priced far beyond any fundamental justification. The RSI of 70 and the stock at 76.3% of its 52‑week high signal overbought technical conditions; the analyst consensus target implies a -7.4% downside, making a sell the appropriate stance.",
+      "sources": [
+        {
+          "title": "Ford’s stock paces the S&P 500. The carmaker is putting a very Tesla spin on things.",
+          "url": "https://www.marketwatch.com/story/fords-stock-is-the-s-p-500s-biggest-gainer-the-carmaker-is-putting-a-very-tesla-spin-on-things-c3291673?mod=mw_rss_topstories",
+          "published_ts": 1778704620
+        }
+      ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 67.10211315955065,
-        "macd_line": 12.867633781312406,
-        "macd_signal": 6.194637683929736,
-        "macd_histogram": 6.67299609738267,
-        "ma50": 384.6418011474609,
-        "volume_ratio": 0.915332537669421
+        "rsi": 70.19170241112764,
+        "macd_line": 14.911168272032398,
+        "macd_signal": 7.937711645718845,
+        "macd_histogram": 6.973456626313554,
+        "ma50": 385.69860107421874,
+        "volume_ratio": 1.0345666414836694
       },
       "fundamentals_data": {
-        "pe_ratio": 405.09344,
-        "forward_pe": 172.41312,
-        "price_to_book": 19.79495,
+        "pe_ratio": 412.28702,
+        "forward_pe": 177.11475,
+        "price_to_book": 20.33475,
         "revenue_growth": 0.158,
         "profit_margin": 0.03946,
         "debt_to_equity": 18.738,
         "target_mean_price": 412.25366,
-        "current_price": 433.45,
+        "current_price": 445.27,
         "fifty_two_week_low": 273.21,
         "fifty_two_week_high": 498.83,
-        "trailing_eps": 1.07,
+        "trailing_eps": 1.08,
         "book_value": 21.897,
         "peg_ratio": 5.8981,
         "short_name": "Tesla, Inc.",
@@ -102,50 +103,44 @@
         "sector": "Consumer Cyclical"
       },
       "undervaluation_data": {
-        "upside_pct": -4.9,
-        "week52_position_pct": 71.0,
-        "graham_number": 22.96,
-        "price_vs_graham_pct": 1787.8,
-        "relative_pe": 20.25,
+        "upside_pct": -7.4,
+        "week52_position_pct": 76.3,
+        "graham_number": 23.07,
+        "price_vs_graham_pct": 1830.3,
+        "relative_pe": 20.61,
         "sector_pe_avg": 20.0,
         "peg_ratio": 5.9
       }
     },
     {
       "signal": "SELL",
-      "confidence": 72,
-      "rationale": "Bear case dominates with concrete valuation metrics showing the stock is priced for perfection: P/E of 35.7, price 703% above Graham number, PEG of 2.57, and only 3.6% upside to the analyst target leaves no margin of safety, while Google's AI offensive on Android creates meaningful competitive risk that the bull's momentum narrative ignores.",
+      "confidence": 65,
+      "rationale": "Bear wins on risk-reward: RSI near 76 and price at 98th percentile signal exhaustion risk, while valuation extremes (714% Graham number ratio, PEG of 2.57, forward PE 31.3) leave virtually no margin of safety against the modest 2.1% analyst upside target.",
       "ticker": "AAPL",
       "name": "Apple Inc.",
-      "bull_case": "Apple's 16.6% revenue growth and industry-leading 27.15% profit margin demonstrate exceptional operational strength, while 42 analyst opinions with a \"buy\" recommendation and a $305.28 mean target price (3.6% upside from current levels) reflect deep institutional confidence; the stock's position at 99.5% of its 52-week high confirms sustained upward momentum and market leadership.",
-      "bear_case": "AAPL is trading at 99.5% of its 52‑week range with an RSI of 73.6, indicating an overbought condition, and its valuation is stretched: a P/E of 35.7, forward P/E of 30.8, price‑to‑book of 40.6, a relative P/E of 1.28× the sector average, and a price 703% above the Graham number, leaving only a 3.6% upside to the analyst target. The debt‑to‑equity of 79.5 and a PEG ratio of 2.57 further show that earnings growth is not keeping pace with the price, while recent reports that Google is embedding Gemini across Android before Apple’s AI reboot intensify competitive risk.",
-      "sources": [
-        {
-          "title": "Google races to put Gemini at the center of Android before Apple’s AI reboot",
-          "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
-          "published_ts": 1778613748
-        }
-      ],
+      "bull_case": "Apple's technical picture shows decisive bullish momentum with the price at $298.87 firmly above its 50‑day moving average of $264.45, RSI at 76 indicating sustained buying pressure, and a MACD histogram of 2.07 confirming expanding upside. Fundamentally, the company delivers a 16.6% revenue growth, a 27% profit margin, and a forward PE of 31.3 while analysts assign a “buy” recommendation with a mean target of $305.28 (upside 2.1%) based on 42 opinions, supporting EPS of $8.25 and a trailing PE of 36.2. Trading near its 52‑week high of $300.92 and well above its Graham number, the combination of strong earnings momentum, superior margins, and broad analyst conviction makes a compelling case for continued gains.",
+      "bear_case": "RSI at 75.98 signals an overbought condition, and the price at $298.87 sits at the 98th percentile of its 52‑week range, indicating virtually no remaining upside. The valuation is extreme: the price‑to‑Graham‑Number ratio is 714%, the relative PE is 1.29× the sector average of 28.0, and the PEG ratio of 2.57 points to an overpriced growth story. Coupled with a debt‑to‑equity of 79.5 and a forward PE of 31.26, the risk‑reward profile is unfavorable, making a sell the appropriate stance.",
+      "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 73.65490488655826,
-        "macd_line": 8.282283239602066,
-        "macd_signal": 6.300306355495087,
-        "macd_histogram": 1.9819768841069791,
-        "ma50": 263.7420318603516,
-        "volume_ratio": 0.8986404333583561
+        "rsi": 75.97956882509948,
+        "macd_line": 8.88831900630015,
+        "macd_signal": 6.817961904472633,
+        "macd_histogram": 2.0703571018275175,
+        "ma50": 264.449287109375,
+        "volume_ratio": 0.9293207560654736
       },
       "fundamentals_data": {
-        "pe_ratio": 35.733334,
-        "forward_pe": 30.83769,
-        "price_to_book": 40.606056,
+        "pe_ratio": 36.226665,
+        "forward_pe": 31.263435,
+        "price_to_book": 41.166664,
         "revenue_growth": 0.166,
         "profit_margin": 0.27152002,
         "debt_to_equity": 79.548,
         "target_mean_price": 305.28094,
-        "current_price": 294.8,
+        "current_price": 298.87,
         "fifty_two_week_low": 193.46,
-        "fifty_two_week_high": 295.27,
+        "fifty_two_week_high": 300.92,
         "trailing_eps": 8.25,
         "book_value": 7.26,
         "peg_ratio": 2.5713,
@@ -155,51 +150,45 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 3.6,
-        "week52_position_pct": 99.5,
+        "upside_pct": 2.1,
+        "week52_position_pct": 98.1,
         "graham_number": 36.71,
-        "price_vs_graham_pct": 703.0,
-        "relative_pe": 1.28,
+        "price_vs_graham_pct": 714.1,
+        "relative_pe": 1.29,
         "sector_pe_avg": 28.0,
         "peg_ratio": 2.57
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 60,
-      "rationale": "Both arguments rely on identical technical data (RSI 70.4, 94% of 52-week range) but frame it oppositely, and while the bear raises valid valuation concerns (PEG 1.58, elevated P/E relative to sector), Google's strong fundamentals (37.9% profit margin, 21.8% revenue growth, 52-analyst consensus) and AI leadership offset these fears enough to avoid a sell, yet the overbought technical condition and valuation premium prevent a buy — the bull's forward PE discount (26.78 vs 29.57) and AI narrative are more compelling than the bear's overvaluation metrics, making this a balanced HOLD.",
+      "confidence": 58,
+      "rationale": "Bull makes a solid case with strong fundamentals (21.8% revenue growth, 37.9% profit margin) and overwhelming analyst support, but the bear counters effectively with concerning metrics: GOOGL is at 99.6% of its 52-week range, trading 273% above Graham number, has a 1.4× PE premium to sector, and carries a dangerously high D/E of 20.0. The combination of peak pricing, stretched valuation, and high leverage outweighs the momentum indicators, making this a HOLD rather than a buy at current levels.",
       "ticker": "GOOGL",
       "name": "Alphabet Inc.",
-      "bull_case": "Google’s aggressive rollout of Gemini as the central AI layer across Android, Chrome, laptops and cars, combined with an RSI of 70.4, a MACD line of 20.64 and a positive histogram of 1.69, signals powerful upward momentum and market confidence in its AI leadership. The 52‑analyst strong‑buy consensus, a forward PE of 26.78 versus a current 29.57, a target mean price of $427.89 representing a 10.5% upside, a profit margin of 37.9%, revenue growth of 21.8% and a price that sits at 94% of its 52‑week range, underscore robust fundamentals and a compelling BUY case.",
-      "bear_case": "Google’s technical indicators flash warning signs, with an RSI of 70.4, the stock sitting at 94% of its 52‑week range and only $15 below the $402 high, signaling an overbought condition with little room left to run. On a fundamental basis, a P/E of 29.6, a relative PE of 1.34× the sector average, a price‑to‑Graham premium of 258.9% and a PEG ratio of 1.58 all point to a valuation that far exceeds both intrinsic worth and justified growth expectations. Compounding these concerns, a debt‑to‑equity of 20.0 amplifies leverage risk and a volume ratio of 0.92 indicates declining market interest, together supporting a strong case to sell.",
-      "sources": [
-        {
-          "title": "Google races to put Gemini at the center of Android before Apple’s AI reboot",
-          "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
-          "published_ts": 1778613748
-        }
-      ],
+      "bull_case": "With 21.8% revenue growth, a 37.9% profit margin, and a forward PE of 27.8, Alphabet demonstrates fundamental strength that supports further appreciation. The consensus “strong_buy” recommendation from 52 analysts, a mean price target of $427.89 implying 6.3% upside, and technical indicators including MACD above its signal line and price well above the 50‑day moving average confirm bullish momentum, with RSI at 75 reflecting sustained upward pressure.",
+      "bear_case": "GOOGL is trading at 99.6% of its 52‑week range with an RSI of 75.6, indicating extreme overbought conditions that leave little room for further upside. Its valuation metrics are stretched—price is 273% above the Graham number, the stock trades at a 1.4× premium to the sector average PE, forward PE stands at 27.8 versus the sector average of 22.0, and the debt‑to‑equity ratio is 20.0, amplifying financial risk. The combination of near‑peak pricing, rich relative valuation, and high leverage makes GOOGL a compelling sell at current levels.",
+      "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 70.40685904355351,
-        "macd_line": 20.643644051981028,
-        "macd_signal": 18.957186889763904,
-        "macd_histogram": 1.686457162217124,
-        "ma50": 326.86623046875,
-        "volume_ratio": 0.9192141479955627
+        "rsi": 75.58333811103141,
+        "macd_line": 20.94222516471484,
+        "macd_signal": 19.354406736352704,
+        "macd_histogram": 1.5878184283621373,
+        "ma50": 328.85130187988284,
+        "volume_ratio": 0.9838779341683709
       },
       "fundamentals_data": {
-        "pe_ratio": 29.568703,
-        "forward_pe": 26.77919,
-        "price_to_book": 9.802855,
+        "pe_ratio": 30.75783,
+        "forward_pe": 27.834871,
+        "price_to_book": 10.1893,
         "revenue_growth": 0.218,
         "profit_margin": 0.37919,
         "debt_to_equity": 20.026,
         "target_mean_price": 427.88712,
-        "current_price": 387.35,
-        "fifty_two_week_low": 156.16,
-        "fifty_two_week_high": 402.0,
-        "trailing_eps": 13.1,
+        "current_price": 402.62,
+        "fifty_two_week_low": 159.61,
+        "fifty_two_week_high": 403.7,
+        "trailing_eps": 13.09,
         "book_value": 39.514,
         "peg_ratio": 1.5781,
         "short_name": "Alphabet Inc.",
@@ -208,11 +197,11 @@
         "sector": "Communication Services"
       },
       "undervaluation_data": {
-        "upside_pct": 10.5,
-        "week52_position_pct": 94.0,
-        "graham_number": 107.92,
-        "price_vs_graham_pct": 258.9,
-        "relative_pe": 1.34,
+        "upside_pct": 6.3,
+        "week52_position_pct": 99.6,
+        "graham_number": 107.88,
+        "price_vs_graham_pct": 273.2,
+        "relative_pe": 1.4,
         "sector_pe_avg": 22.0,
         "peg_ratio": 1.58
       }
@@ -220,34 +209,34 @@
     {
       "signal": "BUY",
       "confidence": 72,
-      "rationale": "Bull case dominates with 35% revenue growth and 46.5% profit margins supporting an attractive forward PE of 20.6 (below sector average of 28), positive technicals (price above 50-day MA, above-average volume), and 16.7% upside to target; bear's extreme valuation metrics (P/B 60.8, Graham overvaluation) are undermined by TSM's demonstrated earnings power justifying a premium multiple in a high-growth semiconductor environment.",
+      "rationale": "The bull case wins with specific growth metrics (35.1% revenue growth, 46.5% profit margin) and forward P/E justification (20.7 vs 34.0 current) backed by 18-analyst consensus target, while the bear's reliance on static metrics like P/B of 88.5 and Graham number fails to account for TSM's pricing power as the dominant AI chip manufacturer where traditional value metrics are less relevant.",
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufactur",
-      "bull_case": "Taiwan Semiconductor’s 35.1% revenue growth and 46.5% profit margin are driving earnings that compress the forward PE to 20.6, well below the sector average of 28, while the analyst target mean price of $463.45 represents a 16.7% upside from the current $397.28, which sits just 5% below the 52‑week high of $420. The price is above its 50‑day moving average of $364 and trading volume is running at 1.19× the 6‑month average, confirming sustained demand momentum.",
-      "bear_case": "TSM’s price‑to‑book of 60.8, Graham‑derived overvaluation of 856%, and relative P/E of 1.21× the sector average reveal extreme valuation, and its debt‑to‑equity of 17.1 raises leverage risk in a rising‑rate environment. The stock sits at 90.2% of its 52‑week range with a negative MACD histogram of –0.49, indicating waning short‑term momentum and a high likelihood of a pullback.",
+      "bull_case": "Taiwan Semiconductor's 35.1% revenue growth and 46.5% profit margin power a profit engine that justifies a forward P/E of 20.7 versus its current P/E of 34.0, indicating the market is underpricing future earnings. Analyst consensus targets the shares at $463.45, offering 15.9% upside from $399.8, a view supported by 18 analyst opinions, and placing the stock at 91.3% of its 52‑week range, a level that historically precedes further gains. The MACD line at 11.585 sits near the signal at 12.734 with a slight histogram of -1.149, and the price remains well above its 50‑day moving average of $365.2 and the RSI of 56.6 leaves room for additional upward momentum.",
+      "bear_case": "TSM's valuation is stretched, with a price‑to‑book of 88.5 and a price that trades 1056% above its Graham number, indicating a severe premium over intrinsic value. The company carries a high debt‑to‑equity of 17.1, a relative PE of 1.21 versus the sector average, a negative MACD histogram of –1.15, and a volume ratio of 0.87, and the stock sits at 91.3% of its 52‑week high, leaving it exposed to a correction.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 55.46396846703903,
-        "macd_line": 12.532496700952152,
-        "macd_signal": 13.02201416701135,
-        "macd_histogram": -0.48951746605919766,
-        "ma50": 364.24885620117186,
-        "volume_ratio": 1.1875191889840053
+        "rsi": 56.59705545321711,
+        "macd_line": 11.585141829923828,
+        "macd_signal": 12.734383387746792,
+        "macd_histogram": -1.1492415578229647,
+        "ma50": 365.2021008300781,
+        "volume_ratio": 0.8685430281411337
       },
       "fundamentals_data": {
-        "pe_ratio": 33.868713,
-        "forward_pe": 20.5928,
-        "price_to_book": 60.770767,
+        "pe_ratio": 33.996597,
+        "forward_pe": 20.723423,
+        "price_to_book": 88.4816,
         "revenue_growth": 0.351,
         "profit_margin": 0.46505,
         "debt_to_equity": 17.131,
         "target_mean_price": 463.4514,
-        "current_price": 397.28,
-        "fifty_two_week_low": 187.72,
+        "current_price": 399.8,
+        "fifty_two_week_low": 188.81,
         "fifty_two_week_high": 420.0,
-        "trailing_eps": 11.73,
-        "book_value": 6.5373535,
+        "trailing_eps": 11.76,
+        "book_value": 4.5184536,
         "peg_ratio": 1.2762,
         "short_name": "Taiwan Semiconductor Manufactur",
         "recommendation_key": "none",
@@ -255,10 +244,10 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 16.7,
-        "week52_position_pct": 90.2,
-        "graham_number": 41.54,
-        "price_vs_graham_pct": 856.4,
+        "upside_pct": 15.9,
+        "week52_position_pct": 91.3,
+        "graham_number": 34.58,
+        "price_vs_graham_pct": 1056.3,
         "relative_pe": 1.21,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.28
@@ -266,21 +255,21 @@
     },
     {
       "signal": "HOLD",
-      "confidence": 60,
-      "rationale": "Arguments are roughly balanced - the bull case has concrete upside targets (57% to 52-week high) and positive technical reclamation (price above 50-day MA, RSI below overbought), while the bear case highlights the severe 36% drawdown and negative MACD momentum, though the volume_ratio of 0.995 is essentially neutral rather than decisively bearish.",
+      "confidence": 58,
+      "rationale": "Arguments are similarly weighted: the bull correctly identifies price above the 50-day MA and neutral RSI, but the bear provides more granular technical evidence with the confirmed MACD bearish crossover (line below signal) and a -165.92 histogram, which the bull doesn't address; the same 52-week position data is interpreted optimistically by the bull but realistically by the bear, creating a balanced but cautious outlook.",
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "bull_case": "Bitcoin trades 30.8% off its 52-week low of $60,074, positioning it in the lower portion of its annual range with the 52-week high of $126,198 representing roughly 57% upside potential, while the RSI of 59.4 remains comfortably below overbought territory leaving room for continued momentum. Price has reclaimed the 50-day moving average at $74,382 confirming the bullish technical structure, and stable volume ratios suggest sustainable buying interest rather than exhausted moves.",
-      "bear_case": "With a week52_position_pct of just 30.8%, Bitcoin trades near the lower quartile of its 52-week range after collapsing roughly 36% from its $126,198 high to the current $80,453, signaling persistent distribution and weak price recovery. The MACD histogram printing at -10.79 confirms bearish momentum divergence, and the volume_ratio of 0.995 beneath 1.0 indicates contracting market participation that fails to support upside continuation.",
+      "bull_case": "BTC-USD trading at $79,356 remains firmly above its 50-day moving average of $74,559, confirming the medium-term uptrend while the neutral RSI of 54.5 provides ample room for further gains without overbought conditions, and with the 52-week position at just 29.2%, Bitcoin has enormous runway to close the gap toward its $126,198 high, representing potential upside exceeding 59% from current levels.",
+      "bear_case": "The week52_position_pct at just 29.2% places Bitcoin near the lower quartile of its annual range, with the current price $79,356 sitting a substantial 37% below the 52-week high of $126,198, indicating persistent selling pressure and a failure to reclaim highs. The MACD histogram reading of -165.92 confirms bearish momentum with the MACD line (1,657) crossing below the signal line (1,823), reinforcing downside technical conviction.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 59.44190220885289,
-        "macd_line": 1853.6884187651885,
-        "macd_signal": 1864.4744912481979,
-        "macd_histogram": -10.78607248300932,
-        "ma50": 74381.9484375,
-        "volume_ratio": 0.9953195860229327
+        "rsi": 54.54290696832751,
+        "macd_line": 1657.4658392048877,
+        "macd_signal": 1823.3870313332986,
+        "macd_histogram": -165.9211921284109,
+        "ma50": 74559.12765625,
+        "volume_ratio": 1.049514643341711
       },
       "fundamentals_data": {
         "pe_ratio": null,
@@ -290,7 +279,7 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 80453.03,
+        "current_price": 79356.14,
         "fifty_two_week_low": 60074.203,
         "fifty_two_week_high": 126198.07,
         "trailing_eps": null,
@@ -302,44 +291,38 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 30.8
+        "week52_position_pct": 29.2
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 60,
-      "rationale": "Both analysts present largely overlapping data but with opposite conclusions; the bear wins on valuation (P/E of 27.7 is objectively elevated vs historical averages, supporting the 'premium' characterization) and limited upside (0.4% from 52-week high), while the bull has a slight edge with the confirmed uptrend via the 50-day MA and MACD momentum, making this a balanced tug-of-war warranting HOLD.",
+      "confidence": 58,
+      "rationale": "Both arguments have merit but cancel each other out: the bear's valuation concern is weak since PE 27.9 and P/B 1.73 are normal for SPY, but its valid technical concerns (RSI 76 overbought, weak volume ratio 0.77) are offset by the bull's MACD momentum strength. The arguments are asymmetrically balanced, warranting caution.",
       "ticker": "SPY",
       "name": "State Street SPDR S&P 500 ETF T",
-      "bull_case": "The SPDR S&P 500 ETF is riding a powerful momentum wave, with an RSI of 74 reflecting brisk upward momentum, a MACD histogram of +1.23, and a rising MACD line that has eclipsed its signal by 1.23 points; the 50‑day moving average of $685.9 sits well below the current price of $738.18, confirming a sustained uptrend. Volume has picked up to 1.06× the six‑month average, signaling renewed institutional interest, and the fund is trading at 98.4% of its 52‑week range, near the $740.79 high, indicating that bullish sentiment remains strong. With a P/E of 27.7 and a modest price‑to‑book of 1.72, the valuation remains reasonable for broad‑market exposure, supporting a BUY stance.",
-      "bear_case": "RSI at 74.7 signals overbought conditions and the price of $738.18 sits at 98.4% of its 52‑week range, leaving little upside room before it reaches the 52‑week high of $740.79. The PE ratio of 27.73 and price‑to‑book of 1.72 indicate the ETF is trading at a premium relative to historic averages, increasing the risk of a pullback. With volume only marginally above average and no supportive fundamental catalysts, a sell position is warranted.",
-      "sources": [
-        {
-          "title": "Texas accuses Netflix of spying on users, including children",
-          "url": "https://www.bbc.com/news/articles/c072dvv1rmro?at_medium=RSS&at_campaign=rss",
-          "published_ts": 1778580114
-        }
-      ],
+      "bull_case": "The MACD line at 15.06 trading above the signal at 13.92 with a positive histogram of 1.14 confirms bullish momentum, and a PE of 27.9 and price‑to‑book of 1.73 keep valuations in line with the S&P 500. The price of $742.31 is less than $1 below the 52‑week high of $743.9 and sits 8% above the 50‑day MA at $687.18, signaling a sustained uptrend. With an RSI of 76 indicating overbought conditions, the MACD strength and proximity to a breakout support a BUY case.",
+      "bear_case": "SPY’s price of $742.31 is already at the 99.1% position within its 52‑week range, leaving virtually no upside (only $1.59 to the $743.90 high) while its PE of 27.89 and price‑to‑book of 1.73 are elevated for an S&P 500 ETF, signaling overvaluation relative to fundamentals. The technical picture adds danger: RSI at 76.46 sits deep in overbought territory and the 6‑month volume ratio of 0.77 shows weak participation, suggesting the rally lacks conviction and a reversal is likely. Together, the stretched valuation, overbought momentum, and declining volume present a compelling case to sell.",
+      "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 74.73376479203199,
-        "macd_line": 14.867641664751204,
-        "macd_signal": 13.6377843784427,
-        "macd_histogram": 1.2298572863085049,
-        "ma50": 685.906103515625,
-        "volume_ratio": 1.064358822252532
+        "rsi": 76.46176271307236,
+        "macd_line": 15.064358266942804,
+        "macd_signal": 13.92310991355333,
+        "macd_histogram": 1.141248353389475,
+        "ma50": 687.1827612304687,
+        "volume_ratio": 0.7714303019929177
       },
       "fundamentals_data": {
-        "pe_ratio": 27.731148,
+        "pe_ratio": 27.8863,
         "forward_pe": null,
-        "price_to_book": 1.7198173,
+        "price_to_book": 1.7294395,
         "revenue_growth": null,
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 738.18,
+        "current_price": 742.31,
         "fifty_two_week_low": 575.6,
-        "fifty_two_week_high": 740.79,
+        "fifty_two_week_high": 743.9,
         "trailing_eps": null,
         "book_value": 429.22,
         "peg_ratio": null,
@@ -349,38 +332,38 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 98.4
+        "week52_position_pct": 99.1
       }
     },
     {
-      "signal": "SELL",
+      "signal": "HOLD",
       "confidence": 58,
-      "rationale": "Bear case more compelling: RSI above 83 is traditionally a mean-reversion warning, not a momentum confirmation signal, and being 99.4% into the 52-week range genuinely limits upside while maximizing downside exposure - a risk/reward asymmetry the bull glosses over by reinterpreting overbought conditions as strength rather than warning.",
+      "rationale": "Both arguments are well-supported but largely contradict each other on the same data points—the bull's +3.02 MACD and 99.1% 52-week position versus the bear's 79.5 RSI and elevated PE/P/B ratios. The bear's overbought warning is legitimate, but the bull's momentum signals are equally valid, creating a standoff that favors holding over entering at these extended levels.",
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "bull_case": "RSI of 83 signals overbought conditions, and the MACD histogram of 3.95 together with the price well above the 50‑day moving average at $622.80 confirm strong upward momentum for QQQ at $713.29, just $1.30 below its 52‑week high of $714.59. The below‑average volume ratio of 0.88 reflects subdued selling pressure, supporting continued strength. With a week52_position_pct of 99.4, the fund is positioned for further gains, and its PE of 34.8 and price‑to‑book of 1.99 keep it attractively valued relative to the technology sector.",
-      "bear_case": "QQQ exhibits extreme overbought conditions with an RSI of 83.23, well above the 70 threshold indicating unsustainable momentum and imminent reversal risk. The ETF trades at $713.29, placing it at 99.4% of its 52-week range and just $1.30 below the $714.59 high, offering negligible upside potential while maximizing downside exposure if sentiment shifts. Combined with a PE of 34.8 and price-to-book of 1.99, QQQ's valuation leaves no margin of safety for new entrants at current levels.",
+      "bull_case": "QQQ’s MACD histogram of +3.02 and its price sitting 13.9% above the 50‑day moving average at $714.71 confirm strong upward momentum, while the ETF’s proximity to its 52‑week high of $716.65 (currently just 0.27% below) and a week52_position_pct of 99.1% demonstrate sustained bullish sentiment and continued buying pressure that can push it to new highs.",
+      "bear_case": "Technical indicators show extreme overbought pressure as RSI is 79.5 and the price is 13.5% above its 50‑day moving average of 627.1, suggesting limited room for further gains. Fundamentally, the PE of 34.9 and price‑to‑book of 2.0 are elevated for a broad‑market ETF, and with QQQ at 99.1% of its 52‑week high of 716.65 the upside potential is virtually exhausted, making a sell the appropriate recommendation.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 83.2316639431522,
-        "macd_line": 24.1145072722303,
-        "macd_signal": 20.169169258875456,
-        "macd_histogram": 3.945338013354842,
-        "ma50": 622.8030932617188,
-        "volume_ratio": 0.8830233914988737
+        "rsi": 79.49734294151767,
+        "macd_line": 24.77718254804597,
+        "macd_signal": 21.753895678684557,
+        "macd_histogram": 3.0232868693614137,
+        "ma50": 627.07916015625,
+        "volume_ratio": 0.9427154509406661
       },
       "fundamentals_data": {
-        "pe_ratio": 34.795284,
+        "pe_ratio": 34.864555,
         "forward_pe": null,
-        "price_to_book": 1.9936888,
+        "price_to_book": 1.9976579,
         "revenue_growth": null,
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 713.29,
-        "fifty_two_week_low": 501.48,
-        "fifty_two_week_high": 714.59,
+        "current_price": 714.71,
+        "fifty_two_week_low": 505.58,
+        "fifty_two_week_high": 716.65,
         "trailing_eps": null,
         "book_value": 357.774,
         "peg_ratio": null,
@@ -390,36 +373,36 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 99.4
+        "week52_position_pct": 99.1
       }
     },
     {
-      "signal": "BUY",
-      "confidence": 65,
-      "rationale": "The bull case provides more comprehensive and specific technical evidence (MACD +5.8, $146 above 50-day MA, positive volume ratio) compared to the bear case, which largely mirrors the same data points while offering only RSI overbought as additional concern. While valuation at 99.7% of range raises caution, the strong momentum indicators and imminent breakout setup favor a bullish tilt, though elevated positioning tempers confidence.",
+      "signal": "HOLD",
+      "confidence": 60,
+      "rationale": "Both analysts cite overlapping data points (RSI 73.8, 98.4% of 52-week range, elevated P/B) but interpret them oppositely, and neither provides significantly stronger evidence than the other; the bear's valuation concerns (PE 48.5) are valid but the bull's momentum and structural AI/EV/IoT tailwinds are substantive, making this a balanced standoff warranting HOLD.",
       "ticker": "SOXX",
       "name": "iShares PHLX SOX Semiconductor ",
-      "bull_case": "The technical picture is strongly bullish: the MACD histogram stands at +5.8, the price of $532.76 sits $146 above the 50‑day moving average of $386.67, and the volume ratio of 1.08 confirms steady buying interest. The ETF is positioned at the 99.7 % level of its 52‑week range, just $0.98 below the $533.74 high, suggesting a imminent breakout to new highs, while a P/E of 48.9 reflects market confidence in semiconductor sector growth and a price‑to‑book of 1.26 underscores solid valuation relative to book value of $424.09.",
-      "bear_case": "RSI at 79.6 indicates extreme overbought conditions and a high probability of a pullback. The ETF is trading at 99.7% of its 52‑week range, essentially at its all‑time high, which limits further upside and raises downside risk. With a PE of 48.9 the valuation is stretched relative to historical semiconductor sector norms, supporting a SELL recommendation.",
+      "bull_case": "MACD line at 37.78 crossing above the signal at 33.54 with a histogram of +4.24 confirms bullish momentum; the price of $528.29 sits well above the 50‑day moving average of $393.83 and is near the 52‑week high of $533.74, with a week52_position_pct of 98.4% indicating the ETF is at the top of its annual range and poised for continued gains. RSI at 73.8 reflects strong recent momentum, supporting further upside given robust semiconductor demand driven by AI, EVs, and IoT. Coupled with a price‑to‑book of 1.25, SOXX presents a compelling BUY.",
+      "bear_case": "The RSI of 73.8 indicates the ETF is overbought and vulnerable to a pullback, while its price of $528.29 sits at 98.4% of its 52‑week range and just $5.45 below the $533.74 high, leaving little upside room. A PE ratio of 48.5 together with a price‑to‑book of 1.245 signals the semiconductor sector ETF is priced at a steep premium relative to historical norms, and with volume at only 0.97 of the 6‑month average, the recent advance lacks conviction, making a sell the prudent move.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 79.63609500359732,
-        "macd_line": 37.112539503416144,
-        "macd_signal": 31.308027881239802,
-        "macd_histogram": 5.804511622176342,
-        "ma50": 386.6719592285156,
-        "volume_ratio": 1.0838262162349663
+        "rsi": 73.83805245469276,
+        "macd_line": 37.78220069838562,
+        "macd_signal": 33.5425898547156,
+        "macd_histogram": 4.239610843670022,
+        "ma50": 393.82941650390626,
+        "volume_ratio": 0.9658440014372971
       },
       "fundamentals_data": {
-        "pe_ratio": 48.9013,
+        "pe_ratio": 48.491,
         "forward_pe": null,
-        "price_to_book": 1.2562368,
+        "price_to_book": 1.2456967,
         "revenue_growth": null,
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 532.76,
+        "current_price": 528.29,
         "fifty_two_week_low": 199.93,
         "fifty_two_week_high": 533.74,
         "trailing_eps": null,
@@ -431,26 +414,26 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 99.7
+        "week52_position_pct": 98.4
       }
     },
     {
-      "signal": "SELL",
-      "confidence": 58,
-      "rationale": "The bear case edges out the bull on weight of evidence — RSI at 73.7 is genuinely overbought and the volume ratio of 0.62 at this elevated price level is a concrete red flag lacking rebuttal from the bull, which relies on momentum interpretation rather than addressing the limited upside and weak participation signals.",
+      "signal": "HOLD",
+      "confidence": 60,
+      "rationale": "Bear case gains slight edge due to deeply overbought RSI (75.5), weak volume (0.62x average confirming poor institutional conviction), and minimal upside cushion at 99.1% of 52-week range, though the bull's strong momentum indicators and clear uptrend prevent a SELL recommendation.",
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "bull_case": "The S&P 500 is trading at 7400.96, just 0.4% below its 52-week high of 7428.97, with the MACD confirming bullish momentum as the line at 147.38 crosses above the signal at 135.17 and the histogram prints 12.20, while the price firmly holds above its 50-day moving average at 6884.36; the index's position at the 98.3 percentile of its 52-week range signals relentless institutional buying pressure that makes new highs a likely outcome.",
-      "bear_case": "RSI at 73.7 signals overbought conditions, and the MACD histogram remains elevated, indicating momentum exhaustion. The S&P 500 trades at 98.3 % of its 52‑week range with a volume ratio of 0.62, suggesting waning buying pressure and limited upside near the 7428.97 high.",
+      "bull_case": "The S&P 500 is trading at 7444.25, just 0.2% below its 52-week high of 7460.04, with a week52_position_pct of 99.1% demonstrating exceptional strength and momentum as the index consistently makes new highs. The MACD histogram of 11.37 with the MACD line above the signal line confirms continued bullish momentum, while the price trading 547 points above the MA50 at 6896.91 establishes a clear uptrend.",
+      "bear_case": "The S&P 500 is deeply overbought with RSI at 75.5, trading at 99.1% of its 52-week range and just $16 below its all-time high of 7460.04, leaving virtually no upside cushion while volume has dried up to 0.62x the 6-month average, signaling weak institutional conviction behind this advance.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 73.68639329374929,
-        "macd_line": 147.37609860302928,
-        "macd_signal": 135.17125383363881,
-        "macd_histogram": 12.204844769390462,
-        "ma50": 6884.356220703125,
-        "volume_ratio": 0.6170815198641394
+        "rsi": 75.51794465615625,
+        "macd_line": 149.37844971555933,
+        "macd_signal": 138.01302553866074,
+        "macd_histogram": 11.365424176898586,
+        "ma50": 6896.908623046875,
+        "volume_ratio": 0.6231111398385764
       },
       "fundamentals_data": {
         "pe_ratio": null,
@@ -460,9 +443,9 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 7400.96,
+        "current_price": 7444.25,
         "fifty_two_week_low": 5767.41,
-        "fifty_two_week_high": 7428.97,
+        "fifty_two_week_high": 7460.04,
         "trailing_eps": null,
         "book_value": null,
         "peg_ratio": null,
@@ -472,25 +455,25 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 98.3
+        "week52_position_pct": 99.1
       }
     },
     {
       "signal": "HOLD",
       "confidence": 58,
-      "rationale": "Both arguments rely on identical data (VIX at 17.99, MACD +0.19, RSI 45, below MA50) but draw opposite conclusions, suggesting balanced technical signals with no clear edge. The bulls point to MACD turning positive and room for RSI expansion toward 35.3, while bears correctly note the price is below key moving averages and momentum is shallow, leaving the VIX's mean-reversion tendency without a catalyst to justify a conviction trade in either direction.",
+      "rationale": "Both analysts cite identical data (VIX at 17.87, RSI 44.5, 20.5% of range) but interpret differently—the bull highlights the MACD histogram turning positive at 0.21 and 97% upside potential, while the bear emphasizes the VIX remains below its 50-day MA with MACD line still deeply negative at -0.996; the technical picture is conflicted with momentum improving but trend still bearish.",
       "ticker": "^VIX",
       "name": "CBOE Volatility Index",
-      "bull_case": "VIX trades at 17.99, only 21% above its 52‑week low of 13.38 and well below the 52‑week high of 35.3, positioning it near the lower end of its range for a volatility long entry. The MACD histogram has turned positive at +0.19 while the RSI sits at 45, indicating nascent upward momentum and room for a rally that could challenge the 21.97 MA50 and ultimately target the 35.3 high.",
-      "bear_case": "The VIX is trading at 17.99, only 21% above its 52‑week low of 13.38 and well below its 52‑week high of 35.3, positioning the index near the bottom of its annual range and leaving limited upside potential. The price is entrenched below its 50‑day moving average of 21.97, RSI is neutral at 45 and the MACD histogram has contracted to 0.19, signaling that upward momentum is waning and a bearish continuation is imminent. With these technical headwinds and the VIX’s tendency to revert lower in calm markets, a SELL recommendation is justified.",
+      "bull_case": "^VIX trades at $17.87, only 20.5% of its 52‑week range (low $13.38, high $35.3), which translates into a potential 97% upside to the top of the range. The MACD histogram has turned positive at 0.21, signaling early bullish momentum, and the RSI of 44.5 remains neutral, leaving room for the index to rise before becoming overbought. With market uncertainty rising and the VIX near historic lows, a re‑pricing of volatility risk should drive the index higher, supporting a BUY stance.",
+      "bear_case": "VIX is at 17.87, positioned at only 20.5% of its 52‑week range and trading below its 50‑day moving average of 21.85, with an RSI of 44.5, a MACD line of –0.996 below the signal line of –1.209, and a MACD histogram of +0.21 signaling weak upward pressure. The lack of supportive news, neutral technical conditions, and proximity to the 52‑week low of 13.38 indicate that market complacency will keep volatility suppressed, pointing to further downside risk and warranting a sell.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 45.0351122890617,
-        "macd_line": -1.0690642977711065,
-        "macd_signal": -1.2625176488628347,
-        "macd_histogram": 0.19345335109172823,
-        "ma50": 21.96860008239746,
+        "rsi": 44.54940788980583,
+        "macd_line": -0.9963913535550475,
+        "macd_signal": -1.2095191891460797,
+        "macd_histogram": 0.2131278355910322,
+        "ma50": 21.854600105285645,
         "volume_ratio": null
       },
       "fundamentals_data": {
@@ -501,7 +484,7 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 17.99,
+        "current_price": 17.87,
         "fifty_two_week_low": 13.38,
         "fifty_two_week_high": 35.3,
         "trailing_eps": null,
@@ -513,38 +496,38 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 21.0
+        "week52_position_pct": 20.5
       }
     },
     {
       "signal": "SELL",
-      "confidence": 62,
-      "rationale": "Bear case wins decisively on fundamentals: the company has negative EPS (-$0.16), zero profit margin, a debt-to-equity of 3.48, and a P/B ratio of 31.2—extreme leverage and valuation that technical momentum cannot sustain. The Bull case merely reinterprets the same metrics (86.5th percentile, RSI 61.6, low volume) positively without addressing any valuation or profitability concerns, making it a weak overlay on deteriorating fundamentals.",
+      "confidence": 82,
+      "rationale": "The bear case dominates because it identifies the fundamental disconnect that the bull overlooks: a P/B of 35.6 on zero profit margin, negative EPS (-0.16), and a dangerously high debt-to-equity of 3.48 for an unprofitable company trading near its 52-week high. The bull's technical momentum argument is insufficient justification for owning a stock at 97% of its high with no earnings visibility—the very metrics the bull cites (extreme P/B, leverage, no analyst coverage) are precisely the bear's strongest points.",
       "ticker": "LWLG",
       "name": "Lightwave Logic, Inc.",
-      "bull_case": "Technical momentum is firmly bullish: LWLG trades at $15.93, 59% above its 50‑day MA of $10.00, with an RSI of 61.6 and a positive MACD histogram of 0.026 confirming the recent golden cross. The stock sits at the 86.5th percentile of its 52‑week range, reflecting strong price appreciation, and its 5.9% revenue growth provide fresh catalysts for upside as new analyst coverage emerges. With low volume at 0.71 times the six‑month average signaling limited selling pressure, the setup favors continued upward movement and supports a BUY recommendation.",
-      "bear_case": "Lightwave Logic trades at a price‑to‑book of 31.2, far above sector averages, and carries a debt‑to‑equity of 3.48 and posts a trailing EPS of –$0.16 and a profit margin of 0%, indicating a premium valuation for a loss‑making, highly leveraged firm; the stock is at the 86.5th percentile of its 52‑week range with an RSI of 61.6, signaling limited upside and heightened downside risk. Weak volume at 0.71× the 6‑month average and no analyst coverage underscore the lack of bullish catalysts, making the shares a compelling sell.",
+      "bull_case": "Technical momentum is robust as Lightwave Logic trades at $18.215, well above its 50‑day moving average of $10.263, while RSI of 67.7 and a MACD histogram of 0.112 on 1.155× average volume confirm sustained upward pressure. The company’s 5.945% revenue growth and its position at 97.2% of the 52‑week range, near the $18.709 high, are reinforced by a price‑to‑book of 35.645 that reflects market pricing of future technology upside. With no analyst coverage yet, the market has not fully discounted the firm’s trajectory, making the current technical breakout a compelling BUY case.",
+      "bear_case": "With a price‑to‑book of 35.6, a debt‑to‑equity of 3.48, a profit margin of 0% and a trailing EPS of -0.16, Lightwave Logic is priced for profitability it does not have. The stock sits at 97.2% of its 52‑week high ($18.22 vs. $18.71) and RSI at 67.7 signals limited upside, with the high leverage leaving little room for error, making a SELL the prudent move. The lack of analyst coverage and the absence of earnings visibility further underscore the risk of holding at this valuation.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 61.59834246242148,
-        "macd_line": 1.8312960494848802,
-        "macd_signal": 1.8049372117826066,
-        "macd_histogram": 0.026358837702273652,
-        "ma50": 10.003800058364869,
-        "volume_ratio": 0.7094352311148469
+        "rsi": 67.7138783540924,
+        "macd_line": 1.9455627290738011,
+        "macd_signal": 1.8330583804264566,
+        "macd_histogram": 0.11250434864734449,
+        "ma50": 10.263100061416626,
+        "volume_ratio": 1.1555503987572937
       },
       "fundamentals_data": {
         "pe_ratio": null,
         "forward_pe": null,
-        "price_to_book": 31.17417,
+        "price_to_book": 35.645794,
         "revenue_growth": 5.945,
         "profit_margin": 0.0,
         "debt_to_equity": 3.481,
         "target_mean_price": null,
-        "current_price": 15.93,
+        "current_price": 18.215,
         "fifty_two_week_low": 0.92,
-        "fifty_two_week_high": 18.28,
+        "fifty_two_week_high": 18.709,
         "trailing_eps": -0.16,
         "book_value": 0.511,
         "peg_ratio": null,
@@ -554,39 +537,39 @@
         "sector": "Basic Materials"
       },
       "undervaluation_data": {
-        "week52_position_pct": 86.5
+        "week52_position_pct": 97.2
       }
     },
     {
-      "signal": "SELL",
-      "confidence": 65,
-      "rationale": "Bear case wins on fundamentals: trailing PE of 49.6, high debt-to-equity of 1.503, minimal revenue growth at 2.51%, and -3.6% projected upside despite being near 52-week highs create a compelling risk-reward concern, while the forward PE of 8.58 appears misleading given leverage and quality concerns.",
+      "signal": "HOLD",
+      "confidence": 58,
+      "rationale": "Both arguments are well-supported but conflicting: the bull case's forward PE compression and analyst consensus are undermined by the bear's extreme overvaluation metrics (578% above Graham intrinsic value, P/B of 20.97) and elevated debt-to-equity of 1.503, making this a balanced risk/reward scenario with limited upside from current levels.",
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "bull_case": "SNDK’s forward PE of 8.58 is 69 % below its sector average of 28, signaling a massive earnings re‑rating as memory demand accelerates, and a 34.2 % profit margin plus a buy recommendation from 22 analysts underline robust profitability and institutional confidence. The MACD histogram at +34.5 and RSI at 70 confirm sustained upward momentum, and the stock trades at 90.5 % of its 52‑week range, suggesting it has room to test the 1600 high as forward earnings beat expectations.",
-      "bear_case": "RSI at 70 signals overbought technical conditions, and with a week52_position of 90.5% the stock trades just below its $1,600 52‑week high while a price‑vs‑Graham‑number spread of 581.4% reveals a massive premium over intrinsic value. The relative PE of 1.77 against a sector average of 28.0 and a trailing PE of 49.6 demonstrate that investors are paying a steep premium for modest growth, and the forward PE of 8.58 is misleading given the high debt‑to‑equity of 1.503. With revenue growth of only 2.51% and a projected upside of -3.6%, the risk‑reward profile is heavily skewed to the downside.",
+      "bull_case": "SNDK's forward PE of 8.55 versus its trailing PE of 49.3 reveals a steep earnings growth path that is rapidly compressing valuation, and the MACD histogram of +25.3 and a price of 1447.23 well above the 50‑day MA at 890 provide a powerful technical signal of momentum. RSI at 69.8 sits just shy of overbought territory, supporting continued buying interest. The 22‑analyst consensus rating of “buy” and a 34% profit margin reinforce the bullish case for the stock.",
+      "bear_case": "SNDK trades at 578.2% above its Graham‑derived intrinsic value of $213.4, while its relative P/E of 1.76 versus the sector average of 28.0 and a price‑to‑book of 20.97 point to severe overvaluation. The stock sits at the 90.2% position within its 52‑week range, faces a 3.3% downside to the analyst mean target of $1,399, and carries an elevated debt‑to‑equity of 1.503, amplifying downside risk. With RSI near 70 and volume at 0.72 of the 6‑month average, technical momentum is waning, reinforcing a sell case.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 70.18297944827351,
-        "macd_line": 183.95989998500045,
-        "macd_signal": 149.45979129250864,
-        "macd_histogram": 34.50010869249181,
-        "ma50": 872.5037976074219,
-        "volume_ratio": 1.0214024574301204
+        "rsi": 69.7785851917432,
+        "macd_line": 181.10749224311894,
+        "macd_signal": 155.78828973988823,
+        "macd_histogram": 25.319202503230713,
+        "ma50": 890.1401977539062,
+        "volume_ratio": 0.7196832592629722
       },
       "fundamentals_data": {
-        "pe_ratio": 49.64171,
-        "forward_pe": 8.578784,
-        "price_to_book": 21.041632,
+        "pe_ratio": 49.342995,
+        "forward_pe": 8.550484,
+        "price_to_book": 20.97222,
         "revenue_growth": 2.51,
         "profit_margin": 0.34185,
         "debt_to_equity": 1.503,
         "target_mean_price": 1399.0454,
-        "current_price": 1452.02,
+        "current_price": 1447.23,
         "fifty_two_week_low": 35.79,
         "fifty_two_week_high": 1600.0,
-        "trailing_eps": 29.25,
+        "trailing_eps": 29.33,
         "book_value": 69.007,
         "peg_ratio": null,
         "short_name": "Sandisk Corporation",
@@ -595,44 +578,44 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -3.6,
-        "week52_position_pct": 90.5,
-        "graham_number": 213.11,
-        "price_vs_graham_pct": 581.4,
-        "relative_pe": 1.77,
+        "upside_pct": -3.3,
+        "week52_position_pct": 90.2,
+        "graham_number": 213.4,
+        "price_vs_graham_pct": 578.2,
+        "relative_pe": 1.76,
         "sector_pe_avg": 28.0
       }
     },
     {
       "signal": "SELL",
-      "confidence": 72,
-      "rationale": "Bear case dominates due to extreme valuation metrics (trailing PE 174.4, P/B 83.7, 2447% above Graham number, debt-to-equity 111.4) that outweigh the bull's growth argument; while the 0.63 PEG ratio and 90% revenue growth are compelling, the near-52-week high positioning at 90.8% with only 8.9% upside creates unfavorable risk-reward, and the high leverage raises additional financial risk concerns.",
+      "confidence": 78,
+      "rationale": "Bear case dominates with P/E of 182 (6.5x sector), price-to-book of 86.9, and debt-to-equity of 111.4 signaling extreme leverage and premium pricing; the bull's 'discount' framing is self-contradictory since the relative PE of 6.5x the sector average mathematically yields the 182 P/E, not a bargain, and the 7.2% upside barely compensates for contraction risk when the stock sits at 94.5% of its 52-week high with Graham number analysis showing 2,551.6% premium to intrinsic value.",
       "ticker": "LITE",
       "name": "Lumentum Holdings Inc.",
-      "bull_case": "Revenue growth of 90.1% combined with a 17.7% profit margin and a PEG ratio of 0.63 signals that Lumentum’s earnings are outpacing its valuation, and a relative PE of 6.23 versus a sector average of 28 underscores significant undervaluation versus peers. Technical momentum confirms the bullish case—RSI at 58.9, MACD histogram of 4.57, volume ratio of 1.23, and the price above its 50‑day moving average of $799.43—supporting the analyst consensus of a BUY from 24 analysts with an 8.9% upside to the $1,081 mean price target.",
-      "bear_case": "LITE's valuation metrics are stretched beyond reasonable levels, with a trailing PE of 174.4, a forward PE of 55.1, a price‑to‑book of 83.7, a price 2447% above its Graham number, and a relative PE of 6.23 versus a sector average of 28, signaling extreme overvaluation. The stock's debt‑to‑equity of 111.4, its position at 90.8% of the 52‑week range, and an implied upside of only 8.9% to the analysts' mean target of $1081 further underscore a limited margin of safety and an unfavorable risk‑reward profile, making a sell the prudent choice.",
+      "bull_case": "Lumentum’s 90.1% revenue growth and 17.7% profit margin demonstrate a rapidly scaling business, and with a PEG ratio of just 0.63 and a relative PE of 6.5 versus the sector average of 28 the stock is priced at a significant discount to its growth; the analyst consensus of BUY with a $1,104 mean target implies 7.2% upside from the current $1,030 price. Technically, the MACD histogram is positive at 6.46 and RSI stands at 61, confirming solid upward momentum that reinforces the fundamental bullish thesis.",
+      "bear_case": "LITE's valuation is stretched beyond reason with a P/E of 182 versus a sector average of 28.0, making its relative_pe 6.5x the industry, while its price-to-book of 86.9 and debt-to-equity of 111.4 reveal extreme leverage and premium pricing that price_vs_graham_pct of 2,551.6% confirms sits 25x above intrinsic value. With the stock at week52_position_pct of 94.5% (just 6% below the 52-week high) and only 7.2% upside to analyst targets, RSI elevated at 61.4 and weak volume ratio of 0.74, the risk-reward strongly favors exiting before multiple contraction crushes this overextended name.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 58.93407832047064,
-        "macd_line": 51.17932638333468,
-        "macd_signal": 46.60648200177154,
-        "macd_histogram": 4.572844381563144,
-        "ma50": 799.4313989257812,
-        "volume_ratio": 1.2314078467578953
+        "rsi": 61.3618859466326,
+        "macd_line": 54.67938457141565,
+        "macd_signal": 48.22054213666168,
+        "macd_histogram": 6.458842434753976,
+        "ma50": 806.1501989746093,
+        "volume_ratio": 0.7409785066484047
       },
       "fundamentals_data": {
-        "pe_ratio": 174.40598,
-        "forward_pe": 55.131516,
-        "price_to_book": 83.69486,
+        "pe_ratio": 182.04417,
+        "forward_pe": 57.24262,
+        "price_to_book": 86.89972,
         "revenue_growth": 0.901,
         "profit_margin": 0.17678,
         "debt_to_equity": 111.445,
-        "target_mean_price": 1081.1008,
-        "current_price": 992.37,
+        "target_mean_price": 1104.6841,
+        "current_price": 1030.37,
         "fifty_two_week_low": 71.04,
         "fifty_two_week_high": 1085.68,
-        "trailing_eps": 5.69,
+        "trailing_eps": 5.66,
         "book_value": 11.857,
         "peg_ratio": 0.63,
         "short_name": "Lumentum Holdings Inc.",
@@ -641,51 +624,45 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 8.9,
-        "week52_position_pct": 90.8,
-        "graham_number": 38.96,
-        "price_vs_graham_pct": 2447.1,
-        "relative_pe": 6.23,
+        "upside_pct": 7.2,
+        "week52_position_pct": 94.5,
+        "graham_number": 38.86,
+        "price_vs_graham_pct": 2551.6,
+        "relative_pe": 6.5,
         "sector_pe_avg": 28.0,
         "peg_ratio": 0.63
       }
     },
     {
-      "signal": "HOLD",
-      "confidence": 58,
-      "rationale": "Both arguments are well-supported: the bull's exceptional 84.7% revenue growth and 43.67% margins are genuinely impressive fundamentals, but the bear's 152.8 PE, 5.46x sector premium, and Graham number gap to $7.86 ($7.86 vs. actual price) represent severe valuation concerns that growth cannot easily justify, creating a balanced risk profile that warrants a neutral stance until valuation normalizes.",
+      "signal": "SELL",
+      "confidence": 75,
+      "rationale": "The bear case is significantly stronger and better supported: the bull's key valuation argument is internally inconsistent—claiming a 'relative PE of 5.28' actually confirms PLTR is 5.28× more expensive than the sector, not cheaper. The bear provides precise metrics (PE 147.8, forward PE 63, PEG 2.05, P/B 42.1) demonstrating extreme overvaluation that the bull's oversold RSI and high growth cannot offset, while the debt-to-equity of 2.48 adds leverage risk.",
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "bull_case": "Palantir's exceptional 84.7% revenue growth and 43.67% profit margin validate its position as a high-quality AI play, while the 33.5% upside to the $181.51 analyst target and \"buy\" consensus from 27 analysts provide concrete near-term catalysts; with RSI at 43.9 and shares trading at only 19.3% of their 52-week range, technical conditions allow room for the AI super-rally momentum to drive further appreciation.",
-      "bear_case": "Palantir trades at a PE of 152.8 with a forward PE of 65.9, representing a 5.46x premium to the sector average PE of 28, and a price-to-book of 44.0 that is completely divorced from the Graham number fair value of $7.86, creating a 1,629% overvaluation gap that signals extreme speculative froth. The MACD histogram sits negative at -0.41 with the stock trading 19.3% into its 52-week range (near $119 lows versus $207 highs) and below its 50-day MA of $145.51, while retail investors are piling into calls at the heaviest pace since the 2021 COVID trading frenzy—a classic late-stage retail capitulation pattern that precedes corrections. With a PEG ratio of 2.05 and debt-to-equity of 2.477, the growth story cannot justify these valuations, making PLTR a sell.",
-      "sources": [
-        {
-          "title": "AI super rally has retail investors acting the most aggressive since trading frenzy during Covid",
-          "url": "https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html",
-          "published_ts": 1778600037
-        }
-      ],
+      "bull_case": "Palantir's RSI of 38 signals oversold conditions that could spark a rebound, while its 84.7% revenue growth and 43.7% profit margin demonstrate a fundamentally strong business that outpaces most tech peers. The analyst consensus target of $183.73 implies 41.3% upside from the current price, and with a relative PE of only 5.28 versus a sector average of 28, the stock is attractively valued relative to its growth prospects—reinforced by 27 analysts maintaining a “buy” recommendation.",
+      "bear_case": "PLTR trades at a PE of 147.8, a price‑to‑book of 42.1, and a price‑vs‑Graham of 1,562%, making it 5.28× more expensive than its sector average (sector PE 28) and confirming an extreme overvaluation that a forward PE of 63 and a PEG ratio of 2.05 cannot support. The technical picture reinforces the bearish view: a negative MACD histogram of –0.76 and a debt‑to‑equity of 2.48 signal mounting momentum and leverage risk, and the RSI of 38 stays below the neutral level, offering no protective cushion.",
+      "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 43.91229808196096,
-        "macd_line": -2.1592502934298636,
-        "macd_signal": -1.7443669555485461,
-        "macd_histogram": -0.4148833378813175,
-        "ma50": 145.5097998046875,
-        "volume_ratio": 0.8087220268262318
+        "rsi": 38.387299841892876,
+        "macd_line": -2.693036385137219,
+        "macd_signal": -1.934284793734046,
+        "macd_histogram": -0.7587515914031733,
+        "ma50": 145.1663998413086,
+        "volume_ratio": 1.1866309916520288
       },
       "fundamentals_data": {
-        "pe_ratio": 152.80899,
-        "forward_pe": 65.87105,
-        "price_to_book": 44.027195,
+        "pe_ratio": 147.78409,
+        "forward_pe": 62.98919,
+        "price_to_book": 42.101006,
         "revenue_growth": 0.847,
         "profit_margin": 0.43673,
         "debt_to_equity": 2.477,
-        "target_mean_price": 181.50667,
-        "current_price": 136.0,
+        "target_mean_price": 183.7289,
+        "current_price": 130.05,
         "fifty_two_week_low": 118.93,
         "fifty_two_week_high": 207.52,
-        "trailing_eps": 0.89,
+        "trailing_eps": 0.88,
         "book_value": 3.089,
         "peg_ratio": 2.0459,
         "short_name": "Palantir Technologies Inc.",
@@ -694,78 +671,83 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 33.5,
-        "week52_position_pct": 19.3,
-        "graham_number": 7.86,
-        "price_vs_graham_pct": 1629.2,
-        "relative_pe": 5.46,
+        "upside_pct": 41.3,
+        "week52_position_pct": 12.6,
+        "graham_number": 7.82,
+        "price_vs_graham_pct": 1562.9,
+        "relative_pe": 5.28,
         "sector_pe_avg": 28.0,
         "peg_ratio": 2.05
       }
     },
     {
-      "signal": "SELL",
-      "confidence": 78,
-      "rationale": "Bear case dominates with extreme valuation metrics—338% premium to Graham Number ($174.88), a dangerously high debt-to-equity of 14.9, and slowing revenue growth at 1.96%—while the -25.1% analyst downside target and RSI at 79.4 confirm unsustainable overbought conditions despite the bull's low PE/PEG framing.",
+      "signal": "BUY",
+      "confidence": 85,
+      "rationale": "The bull case decisively wins on fundamentals: a forward PE of 7.9 and PEG ratio of 0.26 for a company growing revenue 196% with 41.5% profit margins is extremely compelling, far outweighing the bear's overbought RSI concern (which can persist in strong trends) and a lagging analyst target of $573 that doesn't reflect current momentum.",
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "bull_case": "Micron's forward PE of 7.53 and PEG of 0.2578 reveal that the market is significantly undervaluing its earnings growth potential. Forty‑two analyst opinions backing a strong‑buy recommendation, combined with a MACD histogram of +25.8 and a volume ratio of 1.57, confirm robust upward momentum. Trading near its 52‑week high, the low valuation metrics and strong momentum make it a compelling BUY.",
-      "bear_case": "MU's technical picture is alarming with RSI at 79.4 confirming extreme overbought conditions while price trades 65% above its 50-day moving average at $766.58; the stock sits at the 92.8th percentile of its 52-week range near the all-time high of $818.67, setting up a mean-reversion trap. The valuation is stretched across multiple metrics—price-to-book of 11.9x, a 338% premium to Graham Number at $174.88, and 29% relative premium to sector peers despite revenue growth slowing to just 1.96% and a dangerously high debt-to-equity of 14.9—making the -25.1% analyst upside target a sharp wake-up call that current levels are unsustainable.",
+      "bull_case": "Micron's technical indicators confirm explosive momentum with RSI 81, MACD histogram 25.8, price far above its 50‑day moving average at $472, and volume running 16% above average. Fundamental strength is evident in a forward PE of just 7.9, a PEG ratio of 0.26, revenue growth of roughly 196% and profit margin of 41.5%, supporting a strong‑buy consensus from 42 analysts, and the stock's position near its 52‑week high of $818 underscores market confidence.",
+      "bear_case": "MU trades at $803.6, a mere 1.8% below its 52‑week high of $818.7, and the RSI of 81.3 signals an overbought condition that historically precedes a pullback. The price‑to‑Graham‑number spread is 359.5%, the relative PE is 1.36× the sector average, and the consensus analyst target of $573.9 implies a 28.6% downside, making the risk‑reward unattractive. Additionally, the debt‑to‑equity ratio of 14.9 raises the cost of capital risk, compounding the overvaluation at a time when the MACD histogram of 25.8 reflects stretched momentum.",
       "sources": [
         {
-          "title": "Copper prices are now at their highest level on record. AI is only part of the story.",
-          "url": "https://www.marketwatch.com/story/copper-prices-are-now-at-their-highest-level-on-record-ai-is-only-part-of-the-story-9b269443?mod=mw_rss_topstories",
-          "published_ts": 1778622180
+          "title": "Microsoft feared being too dependent on OpenAI, Musk-Altman trial testimony reveals",
+          "url": "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html",
+          "published_ts": 1778706359
         },
         {
-          "title": "Clothes just saw the biggest price jump in three years. How much more will shoppers pay?",
-          "url": "https://www.marketwatch.com/story/clothes-just-saw-the-biggest-price-jump-in-three-years-how-much-more-will-shoppers-pay-4aba43d7?mod=mw_rss_topstories",
-          "published_ts": 1778620140
+          "title": "Hamas must disarm, not ‘disappear’ from Gaza: Board of Peace’s Mladenov",
+          "url": "https://www.aljazeera.com/news/2026/5/13/board-of-peaces-mladenov-says-gaza-ceasefire-hinges-on-hamas-disarmament?traffic_source=rss",
+          "published_ts": 1778699484
         },
         {
-          "title": "Trump doesn't need Congress to restart Iran strikes: Hegseth",
-          "url": "https://www.cnbc.com/2026/05/12/trump-congress-iran-war-hegseth.html",
-          "published_ts": 1778609413
+          "title": "Thief jailed after stealing unreleased Beyoncé music from car",
+          "url": "https://www.bbc.com/news/articles/cx213vnvxvwo?at_medium=RSS&at_campaign=rss",
+          "published_ts": 1778697354
         },
         {
-          "title": "Pentagon gives new $29bn Iran war price tag, downplays munitions concerns",
-          "url": "https://www.aljazeera.com/news/2026/5/12/pentagon-gives-new-29bn-iran-war-price-tag-downplays-munitions-concerns?traffic_source=rss",
-          "published_ts": 1778602408
+          "title": "South Carolina court tosses murder conviction in Alex Murdaugh case",
+          "url": "https://www.aljazeera.com/news/2026/5/13/south-carolina-court-tosses-murder-conviction-in-alex-murdaugh-case?traffic_source=rss",
+          "published_ts": 1778693886
         },
         {
-          "title": "Uganda's president sworn in for record seventh term",
-          "url": "https://www.bbc.com/news/articles/cqxp23272j3o?at_medium=RSS&at_campaign=rss",
-          "published_ts": 1778597898
+          "title": "Trump-Xi summit: China’s help in Iran may require US concessions",
+          "url": "https://www.aljazeera.com/news/2026/5/13/trump-xi-summit-chinas-help-in-iran-may-require-us-concessions?traffic_source=rss",
+          "published_ts": 1778693229
         },
         {
-          "title": "US in closely guarded talks to open new bases in Greenland",
-          "url": "https://www.bbc.com/news/articles/cx21669452lo?at_medium=RSS&at_campaign=rss",
-          "published_ts": 1778586256
+          "title": "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says",
+          "url": "https://www.cnbc.com/2026/05/13/opec-oil-strait-hormuz-iran-war-saudi-arabia-uae.html",
+          "published_ts": 1778690755
         },
         {
-          "title": "Snack giant switches to black and white packaging as Iran war hits ink supplies",
-          "url": "https://www.bbc.com/news/articles/c78k405j8pdo?at_medium=RSS&at_campaign=rss",
-          "published_ts": 1778572007
+          "title": "Court overturns Alex Murdaugh's murder convictions and orders new trial",
+          "url": "https://www.bbc.com/news/articles/cedpvnq7wn1o?at_medium=RSS&at_campaign=rss",
+          "published_ts": 1778686598
+        },
+        {
+          "title": "Altman details Musk's OpenAI fallout, says nonprofit was 'left for dead'",
+          "url": "https://www.cnbc.com/2026/05/13/altman-musk-trial-testimony-takeaways.html",
+          "published_ts": 1778682950
         }
       ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 79.40375487241111,
-        "macd_line": 83.95014388924312,
-        "macd_signal": 58.1597494276057,
-        "macd_histogram": 25.79039446163742,
-        "ma50": 463.63678955078126,
-        "volume_ratio": 1.5723104431734023
+        "rsi": 81.34551420756699,
+        "macd_line": 90.37232105654118,
+        "macd_signal": 64.6012926528718,
+        "macd_histogram": 25.771028403669376,
+        "ma50": 472.11897827148437,
+        "volume_ratio": 1.1648165554159315
       },
       "fundamentals_data": {
-        "pe_ratio": 36.22779,
-        "forward_pe": 7.53158,
-        "price_to_book": 11.933621,
+        "pe_ratio": 37.978733,
+        "forward_pe": 7.895593,
+        "price_to_book": 12.510391,
         "revenue_growth": 1.963,
         "profit_margin": 0.41486,
         "debt_to_equity": 14.902,
         "target_mean_price": 573.9048,
-        "current_price": 766.58,
+        "current_price": 803.63,
         "fifty_two_week_low": 90.93,
         "fifty_two_week_high": 818.67,
         "trailing_eps": 21.16,
@@ -777,42 +759,42 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -25.1,
-        "week52_position_pct": 92.8,
+        "upside_pct": -28.6,
+        "week52_position_pct": 97.9,
         "graham_number": 174.88,
-        "price_vs_graham_pct": 338.3,
-        "relative_pe": 1.29,
+        "price_vs_graham_pct": 359.5,
+        "relative_pe": 1.36,
         "sector_pe_avg": 28.0,
         "peg_ratio": 0.26
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 55,
-      "rationale": "Both arguments are similarly weak and largely cancel each other out. The bull's momentum signals (MACD crossover, price above 50-day MA) are marginal and short-term focused, while the bear correctly notes minimal upside runway at 88.3% of 52-week high and declining volume, but offers no compelling fundamental catalyst. Neither case decisively tips the scales.",
+      "confidence": 58,
+      "rationale": "Both arguments are well-supported but rely on the same data with opposing interpretations — the bull points to MACD bullish crossover and reasonable valuation while the bear highlights near-52-week highs, declining volume, and stretched sector multiples. The arguments are balanced in weight, making a directional stance premature.",
       "ticker": "IBB",
       "name": "iShares Biotechnology ETF",
-      "bull_case": "IBB's MACD histogram of 0.041 confirms bullish momentum with the MACD line crossing above the signal line, while the current price of $172.28 trading above the 50-day MA of $169.21 reinforces the short-term uptrend. The price-to-book ratio of 1.07 approaching parity signals compelling value, especially given the ETF trades at just 88.3% of its 52-week high of $179.64, suggesting continued upside potential as biotechnology innovation drives sector growth.",
-      "bear_case": "IBB trades at week52_position_pct 88.3%, just 7.36 points below its 52-week high of 179.64, leaving minimal upside runway for new buyers. The volume_ratio 0.70 confirms declining trading interest beneath the price strength, and the price_to_book 1.07 offers no margin-of-safety with no analyst support or growth metrics visible to justify chasing the stock near cycle highs.",
+      "bull_case": "IBB's MACD histogram of 0.155 with the MACD line crossing above the signal line confirms bullish momentum, while the RSI reading of 54.5 maintains room for further upside without approaching overbought territory. The ETF trades above its 50-day moving average of 169.26 at 172.65 with a forward-looking week52_position_pct of 88.9%, suggesting continued strength as it approaches its 52-week high of 179.64. With a reasonable PE of 22.89 and a price-to-book ratio of just 1.07, the iShares Biotechnology ETF offers biotech sector exposure at a modest valuation premium to book value of 161.64.",
+      "bear_case": "Sell IBB because the ETF is priced at $172.65, only $6.99 beneath its 52‑week high of $179.64, and its week52_position_pct of 88.9% shows it is near the top of its annual range with little room for further appreciation. The volume ratio of 0.586 indicates a marked decline in trading activity, signaling waning market conviction, and a P/E of 22.89 reflects a stretched valuation for a volatile biotech sector. With RSI at 54.5 and price‑to‑book at 1.07, technical and fundamental metrics suggest the risk‑reward balance favors a bearish stance.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 53.84223111453259,
-        "macd_line": 0.14689385663047005,
-        "macd_signal": 0.10612761375094468,
-        "macd_histogram": 0.04076624287952538,
-        "ma50": 169.20529113769533,
-        "volume_ratio": 0.6993573365744434
+        "rsi": 54.54347916532013,
+        "macd_line": 0.2998656131407813,
+        "macd_signal": 0.14478978641910503,
+        "macd_histogram": 0.15507582672167627,
+        "ma50": 169.2587741088867,
+        "volume_ratio": 0.5856264245454212
       },
       "fundamentals_data": {
-        "pe_ratio": 22.842356,
+        "pe_ratio": 22.891413,
         "forward_pe": null,
-        "price_to_book": 1.0658253,
+        "price_to_book": 1.0681143,
         "revenue_growth": null,
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 172.28,
+        "current_price": 172.65,
         "fifty_two_week_low": 116.49,
         "fifty_two_week_high": 179.64,
         "trailing_eps": null,
@@ -824,36 +806,42 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 88.3
+        "week52_position_pct": 88.9
       }
     },
     {
       "signal": "SELL",
-      "confidence": 68,
-      "rationale": "Bear case dominates because fundamental weaknesses are severe—negative EPS (-$0.62), negative profit margin (-2.6%), and excessive leverage (D/E 5.35) in a cash-burning company cannot support a 'strong buy' or 122% upside target, and the weak technical picture (below 50-day MA, negative MACD, low volume) confirms the bearish thesis over the bull's optimistic but unsupported analyst consensus.",
+      "confidence": 72,
+      "rationale": "Bear case decisively dominates on fundamentals: negative EPS (-$0.62), forward PE of -68.15, debt-to-equity of 5.345, and P/B of 7.70 indicate the stock is priced for perfection it cannot deliver, while the bull's reliance on analyst targets ignores deteriorating fundamentals and the stock's bearish technical position (below 50-day MA with negative MACD).",
       "ticker": "ONDS",
       "name": "Ondas Inc",
-      "bull_case": "Ondas Inc (ONDS) carries a strong_buy consensus from 8 analysts, with a target mean price of $20.125 representing a 122.6% upside from the current price of $9.04. The stock trades at the 57% level of its 52‑week range ($0.76–$15.28) and its RSI of 42.6 is neutral, indicating no overbought pressure that could limit upward momentum. Revenue grew 6.3% year‑over‑year, the high debt‑to‑equity ratio of 5.35 is already reflected in the low valuation, and the 8‑analyst strong buy recommendation underscores a clear bullish catalyst.",
-      "bear_case": "The company posts a forward PE of -69.5, a negative profit margin of -2.6% and a trailing EPS of -$0.62, confirming it is not generating earnings and faces deep cash burn. Its debt‑to‑equity of 5.345 and price‑to‑book of 7.86 reveal excessive leverage and a valuation that far exceeds book value, and the MACD histogram of -0.13, the price at $9.04 which sits below the 50‑day moving average of $9.92, and a below‑average volume ratio of 0.68 underscore weak technical momentum. The analyst “strong buy” rating is at odds with a 57% position within the 52‑week range and a modest 122% upside to the $20.13 mean target, indicating that the stock is priced for optimism that fundamentals cannot support.",
-      "sources": [],
+      "bull_case": "Ondas Inc holds a strong buy consensus from eight analysts, with a mean price target of $20.125 representing a 127% upside from the current price of $8.86 and placing the stock at only 55.8% of its 52‑week range, a level that leaves ample room for appreciation. Revenue growth of 6.3% together with an RSI of 41 and a narrowing MACD histogram signal that selling pressure is fading and a technical rebound is imminent. The analyst target far exceeds the current valuation, making the shares an attractive BUY opportunity despite temporary earnings losses.",
+      "bear_case": "Ondas Inc is trading at $8.86, well below its 50‑day moving average of $9.89, with a bearish MACD histogram of –0.134 and an RSI near 41 confirming short‑term downward momentum. The fundamentals are deteriorating: a forward PE of –68.15, trailing EPS of –$0.62, profit margin of –2.6%, and a staggering debt‑to‑equity of 5.345, while the price‑to‑book ratio of 7.70 shows the stock is priced for perfection despite negative earnings and thin trading volume (volume ratio 0.91). With the stock already at 55.8% of its 52‑week range and the analyst “strong buy” consensus unsupported by any positive news, the risk‑reward heavily favors a SELL.",
+      "sources": [
+        {
+          "title": "US waives visa bonds of up to $15,000 for FIFA World Cup ticket holders",
+          "url": "https://www.aljazeera.com/sports/2026/5/13/us-waives-visa-bonds-of-up-to-15000-for-fifa-world-cup-ticket-holders?traffic_source=rss",
+          "published_ts": 1778705322
+        }
+      ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 42.56568473139123,
-        "macd_line": -0.22378336084437933,
-        "macd_signal": -0.09291382537855636,
-        "macd_histogram": -0.13086953546582297,
-        "ma50": 9.915799999237061,
-        "volume_ratio": 0.6826982882572504
+        "rsi": 41.04669134671506,
+        "macd_line": -0.2607786769499434,
+        "macd_signal": -0.1265477853627804,
+        "macd_histogram": -0.13423089158716298,
+        "ma50": 9.892599983215332,
+        "volume_ratio": 0.9081864713952408
       },
       "fundamentals_data": {
         "pe_ratio": null,
-        "forward_pe": -69.53847,
-        "price_to_book": 7.86087,
+        "forward_pe": -68.15385,
+        "price_to_book": 7.7043476,
         "revenue_growth": 6.292,
         "profit_margin": -2.60233,
         "debt_to_equity": 5.345,
         "target_mean_price": 20.125,
-        "current_price": 9.04,
+        "current_price": 8.86,
         "fifty_two_week_low": 0.76,
         "fifty_two_week_high": 15.28,
         "trailing_eps": -0.62,
@@ -865,40 +853,40 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 122.6,
-        "week52_position_pct": 57.0
+        "upside_pct": 127.1,
+        "week52_position_pct": 55.8
       }
     },
     {
       "signal": "SELL",
-      "confidence": 75,
-      "rationale": "Bear case dominates with concrete fundamental weaknesses (negative EPS -$0.65, negative margins -3.4%, debt-to-equity 18.3) and extreme valuation multiples (forward PE 88.6x, P/B 31x, PEG 4.35x), compounded by overbought technicals (RSI 76.8) and the stock trading 11% above analyst targets; bull case relies on momentum indicators and sentiment without adequately addressing the profitability vacuum and overvaluation risk.",
+      "confidence": 82,
+      "rationale": "The bear case wins decisively on fundamental grounds: a negative profit margin at a 91.2 forward PE, a price-to-book of 32.2, and critically a debt-to-equity of 18.3 reveal unsustainable leverage that the bull's momentum narrative (RSI, MACD, BUY consensus) completely ignores. The bull's reliance on technical momentum and consensus ratings cannot offset these severe balance sheet concerns; moreover, the analyst targets actually forecast 12.3% downside, contradicting the bullish consensus signal.",
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "bull_case": "CrowdStrike's 23.3% revenue growth highlights its robust market position and justifies a buy case even with a forward PE of 88.55. The MACD histogram at +9.45 and a volume ratio of 1.25 signal strong upward momentum, and the consensus of 51 ‘buy’ ratings reinforces bullish sentiment. With the stock at $546.18, near the 52‑week high of $566.9, a breakout could unlock further gains as the company moves toward profitability.",
-      "bear_case": "CrowdStrike trades 11% above the analyst target mean price ($546 vs $493) and sits at the 90.8th percentile of its 52-week range, leaving minimal upside room while RSI 76.8 signals extreme overbought conditions. The valuation is stretched across every metric—forward PE 88.6x, price-to-book 31.3x, and PEG ratio 4.35—while fundamentals reveal a company losing money with negative EPS (-$0.65), a negative profit margin (-3.4%), and a dangerously high debt-to-equity of 18.3, meaning the stock's $9.7% overvaluation is not supported by earnings power.",
+      "bull_case": "CrowdStrike’s 23.3% revenue growth and 51‑analyst BUY consensus deliver a compelling bullish thesis; its forward PE of 91.2 aligns with typical valuations for high‑growth cybersecurity peers. The MACD histogram of 10.29, MACD line at 32.51 crossing above the signal at 22.21, and RSI of 79 confirm strong momentum, with the stock at 97.4% of its 52‑week high reinforcing the BUY case.",
+      "bear_case": "CrowdStrike’s valuation is stretched, with a forward PE of 91.2, a price‑to‑book of 32.2, and a negative profit margin coupled with a debt‑to‑equity of 18.3, indicating unsustainable leverage at current levels. Technical overbought conditions (RSI 79) and a price that sits at 97.4% of its 52‑week high combine with analyst targets that forecast a 12.3% decline from $562.57 to justify a sell.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 76.8234323836418,
-        "macd_line": 29.091056593096937,
-        "macd_signal": 19.64110036807668,
-        "macd_histogram": 9.449956225020259,
-        "ma50": 432.3107989501953,
-        "volume_ratio": 1.2490658167518984
+        "rsi": 79.0233168035619,
+        "macd_line": 32.506113676359575,
+        "macd_signal": 22.21333869539194,
+        "macd_histogram": 10.292774980967636,
+        "ma50": 435.733798828125,
+        "volume_ratio": 0.998874427140603
       },
       "fundamentals_data": {
         "pe_ratio": null,
-        "forward_pe": 88.55001,
-        "price_to_book": 31.249569,
+        "forward_pe": 91.20726,
+        "price_to_book": 32.18732,
         "revenue_growth": 0.233,
         "profit_margin": -0.033770002,
         "debt_to_equity": 18.336,
         "target_mean_price": 493.19452,
-        "current_price": 546.18,
+        "current_price": 562.57,
         "fifty_two_week_low": 342.72,
-        "fifty_two_week_high": 566.9,
-        "trailing_eps": -0.65,
+        "fifty_two_week_high": 568.37,
+        "trailing_eps": -0.66,
         "book_value": 17.478,
         "peg_ratio": 4.3527,
         "short_name": "CrowdStrike Holdings, Inc.",
@@ -907,41 +895,41 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -9.7,
-        "week52_position_pct": 90.8,
+        "upside_pct": -12.3,
+        "week52_position_pct": 97.4,
         "peg_ratio": 4.35
       }
     },
     {
       "signal": "SELL",
-      "confidence": 68,
-      "rationale": "Bear case wins on fundamentals: the Graham Number showing NOK trades 219.5% above intrinsic value ($4.12) and a dangerously elevated debt-to-equity ratio of 15.63 outweigh the bull's moderately supportive technicals (MACD positive, RSI 64.9) and consensus ratings, while contradictions in analyst target claims ($12.51 upside vs -5% downside) and unclear PE assertions (bull says 27.1x vs bear's '2.77x sector average') further erode confidence in the bull's valuation support.",
+      "confidence": 78,
+      "rationale": "The bear case is significantly stronger—Nokia's trailing PE of 91.9, debt-to-equity of 15.63, price 267.8% above Graham number ($4.00), and only 2.4% revenue growth paint a picture of severe overvaluation and financial risk that fundamentally outweighs the bull's momentum signals and forward PE improvement thesis.",
       "ticker": "NOK",
       "name": "Nokia Corporation Sponsored",
-      "bull_case": "Nokia’s technical picture supports a buy, as the MACD histogram turned positive (+0.062) and the stock trades well above its 50‑day moving average of $9.79 while the RSI of 64.9 still leaves room for further upside before hitting overbought levels. The analyst consensus backs this view with a “buy” rating from 9 covering analysts and a mean price target of $12.51, meaning the shares are still early in their upside trajectory even though they sit near the top of their 52‑week range at 91.2% of the 52‑week high. Its forward P/E of 27.1×, close to the sector average of 28×, signals modest valuation relative to peers, and with accelerating 5G infrastructure contracts Nokia can expand profit margins and deliver earnings growth that outpaces the current price.",
-      "bear_case": "NOK trades at 2.77x its sector's average PE while sitting at 91.2% of its 52-week range, yet the analyst target implies -5% downside, suggesting the stock is pricing in perfection well ahead of delivery. The Graham Number analysis shows NOK trading 219.5% above its intrinsic value at $4.12, and the debt-to-equity ratio of 15.63 is dangerously elevated relative to peers, compounding the risk that any earnings disappointment triggers a sharp de-rating.",
+      "bull_case": "Nokia carries a “buy” recommendation from nine analysts, and its technical indicators confirm strong upward pressure: MACD histogram of 0.12, RSI at 72, volume ratio of 1.25, and the shares trading at $14.71, only $0.12 shy of the 52‑week high of $14.83 (98.9% of the 52‑week range). The forward PE of 30.3 versus a trailing PE of 91.9 signals earnings growth ahead, and the forward EPS improvement tied to 5G network deployments supports upside potential.",
+      "bear_case": "Nokia trades at a relative PE of 3.28x its sector average of 28, an extreme overvaluation, while the stock sits at 98.9% of its 52-week range just $0.12 below the high, leaving virtually no upside cushion. The price of $14.71 is 267.8% above the Graham number of $4.00, the trailing PE of 91.9 is bloated, revenue growth is only 2.4%, the debt-to-equity ratio of 15.63 signals severe financial leverage risk, and the RSI of 72 confirms overbought conditions with negative 14.9% downside to the analyst target price.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 64.87069068008006,
-        "macd_line": 1.0951236825557356,
-        "macd_signal": 1.0330276574621073,
-        "macd_histogram": 0.062096025093628215,
-        "ma50": 9.791600008010864,
-        "volume_ratio": 0.9066796699376046
+        "rsi": 72.23783730840809,
+        "macd_line": 1.181985626254889,
+        "macd_signal": 1.062824169762105,
+        "macd_histogram": 0.11916145649278387,
+        "ma50": 9.92440001487732,
+        "volume_ratio": 1.2527265264423308
       },
       "fundamentals_data": {
-        "pe_ratio": 77.47059,
-        "forward_pe": 27.148481,
-        "price_to_book": 2.9647548,
+        "pe_ratio": 91.9375,
+        "forward_pe": 30.323019,
+        "price_to_book": 3.3114307,
         "revenue_growth": 0.024,
         "profit_margin": 0.039809998,
         "debt_to_equity": 15.63,
         "target_mean_price": 12.51111,
-        "current_price": 13.17,
+        "current_price": 14.71,
         "fifty_two_week_low": 4.0,
-        "fifty_two_week_high": 14.05,
-        "trailing_eps": 0.17,
+        "fifty_two_week_high": 14.83,
+        "trailing_eps": 0.16,
         "book_value": 4.4421887,
         "peg_ratio": 1.2132,
         "short_name": "Nokia Corporation Sponsored",
@@ -950,32 +938,32 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -5.0,
-        "week52_position_pct": 91.2,
-        "graham_number": 4.12,
-        "price_vs_graham_pct": 219.5,
-        "relative_pe": 2.77,
+        "upside_pct": -14.9,
+        "week52_position_pct": 98.9,
+        "graham_number": 4.0,
+        "price_vs_graham_pct": 267.8,
+        "relative_pe": 3.28,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.21
       }
     },
     {
-      "signal": "HOLD",
-      "confidence": 55,
-      "rationale": "Arguments are roughly balanced—the bull's constructive RSI (55) and MA positioning are offset by the bear's compelling concerns: an extremely low volume ratio (0.003) signals weak conviction, the MACD at -0.357 indicates current bearish momentum, and positioning at the 72.7th percentile limits upside while increasing downside risk as expiration approaches.",
+      "signal": "SELL",
+      "confidence": 68,
+      "rationale": "The bear argument is slightly stronger because it correctly notes the contract has already run ~84% from the $55 low to $101, and concrete momentum signals (negative MACD histogram of -0.22 and volume ratio of 0.64) confirm distribution and weakening participation, whereas the bull's technical signals are weak—merely above the 50-day MA by ~5% and a neutral RSI of 54. The 18% upside to the 52-week high is real but insufficient given deteriorating momentum.",
       "ticker": "CL=F",
       "name": "Crude Oil Jun 26",
-      "bull_case": "CL=F is trading at $101.85, 6.4% above its 50‑day moving average of $95.72, with an RSI of 55 that signals solid momentum without overbought conditions; the MACD histogram is near zero, hinting at an imminent bullish crossover. With the contract at the 72.7th percentile of its 52‑week range and only $17.63 below the $119.48 high, the technical setup and position within the yearly range support a BUY case.",
-      "bear_case": "The extremely low volume ratio of 0.003 signals weak market participation and a lack of conviction behind the current price, making the contract vulnerable to a sell‑off. The MACD histogram at ‑0.357 shows recent momentum turning bearish, and the price is already at the upper end of its 52‑week range (week52_position_pct = 72.7%), limiting upside potential and increasing downside risk as the June‑26 crude‑oil contract approaches expiration.",
+      "bull_case": "CL=F trades at $101, above its 50‑day moving average of $96.25, a bullish technical signal, and with the 52‑week high at $119.48 the contract still has an 18% upside remaining. The week52_position_pct of 71.3% places the contract in the upper part of its annual range, confirming price strength, and the RSI of 54 is neutral, leaving room for further gains.",
+      "bear_case": "With week52_position_pct at 71.3%, crude oil futures have already appreciated from the 52-week low of $54.98 to the current $101, leaving minimal upside runway before approaching the 52-week high of $119.48, and the negative MACD histogram of -0.22 with volume_ratio of only 0.64 confirms weakening momentum and dangerously anemic trading participation that signals distribution rather than accumulation.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 55.04337263243994,
-        "macd_line": 1.442301658033486,
-        "macd_signal": 1.7999927752568665,
-        "macd_histogram": -0.35769111722338054,
-        "ma50": 95.7165998840332,
-        "volume_ratio": 0.0030582009200709353
+        "rsi": 53.96303317468071,
+        "macd_line": 1.5296823368863244,
+        "macd_signal": 1.750124460226911,
+        "macd_histogram": -0.22044212334058666,
+        "ma50": 96.25199996948243,
+        "volume_ratio": 0.6416961354081337
       },
       "fundamentals_data": {
         "pe_ratio": null,
@@ -985,7 +973,7 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 101.85,
+        "current_price": 101.0,
         "fifty_two_week_low": 54.98,
         "fifty_two_week_high": 119.48,
         "trailing_eps": null,
@@ -997,36 +985,42 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 72.7
+        "week52_position_pct": 71.3
       }
     },
     {
       "signal": "BUY",
-      "confidence": 82,
-      "rationale": "The bull case dominates with 54 analyst endorsements supporting a 37.7% upside to $561.56, a forward P/E of 21.1 well below the sector average of 28, and strong fundamentals (18.3% revenue growth, 39.3% profit margins), while the bear case relies on Graham number which is not calibrated for growth stocks and short-term MACD which conflicts with the broader technical and fundamental picture.",
+      "confidence": 75,
+      "rationale": "Bull case is decisively stronger with forward-looking fundamentals (forward PE 20.94 vs sector 28, PEG 1.29, 18% growth, 39% margins) and a compelling 38.6% upside consensus target, whereas bear concerns (debt-to-equity, Graham number, P/B) are either overstated for a high-cash-generating tech giant or rely on lagging metrics; technical entry point at RSI 47 and 24.6% of 52-week range reinforces near-term upside potential.",
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "bull_case": "MSFT carries a strong‑buy rating from 54 analysts who set a mean price target of $561.56, implying a 37.7% upside from the current $407.77 and a forward P/E of 21.1 that sits below the sector average of 28, giving a relative P/E of 0.87. The company’s 18.3% revenue growth and 39.3% profit margin, together with a trailing EPS of $16.80 and a neutral RSI of 49, signal robust fundamentals with room to run. With a modest volume ratio of 1.04 and the stock trading only 25.9% above its 52‑week low, the technical backdrop supports a sustained climb.",
-      "bear_case": "MSFT trades at $407.77, which is 180.8% above its Graham number of $145.2, indicating severe overvaluation on a classic value metric. The MACD histogram of –1.87 signals a short‑term negative momentum shift, and the debt‑to‑equity of 30.3 and forward PE of 21.1 leave little margin of safety.",
-      "sources": [],
+      "bull_case": "Microsoft's forward PE of 20.94, 39% profit margin, and 18% revenue growth underline robust earnings power, and the 54‑analyst strong‑buy consensus targets a mean price of $561.56, implying 38.6% upside from the current $405.21. The RSI at 47 and the stock sitting at only 24.6% of its 52‑week range signal that the equity is not overbought and has ample room to run as momentum shifts. The relative PE of 0.86 versus the sector average of 28 and the low PEG of 1.29 confirm the shares are attractively valued relative to growth, making MSFT a compelling buy.",
+      "bear_case": "Microsoft's debt-to-equity ratio of 30.27 signals extreme leverage risk that could crimp buybacks and dividend growth if interest costs rise further. Trading 179% above its Graham number ($145.20) and at a price-to-book of 7.26x reveals significant overvaluation relative to intrinsic metrics, while the MACD histogram at -2.30 and volume ratio of 0.79 confirm weakening price momentum and declining institutional interest.",
+      "sources": [
+        {
+          "title": "Microsoft feared being too dependent on OpenAI, Musk-Altman trial testimony reveals",
+          "url": "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html",
+          "published_ts": 1778706359
+        }
+      ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 48.99858619513056,
-        "macd_line": 4.289562476645415,
-        "macd_signal": 6.163195077108008,
-        "macd_histogram": -1.8736326004625932,
-        "ma50": 398.72979919433595,
-        "volume_ratio": 1.038679827189104
+        "rsi": 47.34435376077196,
+        "macd_line": 3.2869062120269064,
+        "macd_signal": 5.587262340124044,
+        "macd_histogram": -2.300356128097138,
+        "ma50": 398.7553991699219,
+        "volume_ratio": 0.7915565307698162
       },
       "fundamentals_data": {
-        "pe_ratio": 24.272024,
-        "forward_pe": 21.068441,
-        "price_to_book": 7.310719,
+        "pe_ratio": 24.119644,
+        "forward_pe": 20.936172,
+        "price_to_book": 7.264822,
         "revenue_growth": 0.183,
         "profit_margin": 0.39341998,
         "debt_to_equity": 30.271,
         "target_mean_price": 561.5561,
-        "current_price": 407.77,
+        "current_price": 405.21,
         "fifty_two_week_low": 356.28,
         "fifty_two_week_high": 555.45,
         "trailing_eps": 16.8,
@@ -1038,51 +1032,51 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 37.7,
-        "week52_position_pct": 25.9,
+        "upside_pct": 38.6,
+        "week52_position_pct": 24.6,
         "graham_number": 145.2,
-        "price_vs_graham_pct": 180.8,
-        "relative_pe": 0.87,
+        "price_vs_graham_pct": 179.1,
+        "relative_pe": 0.86,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.29
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 58,
-      "rationale": "Arguments are nearly balanced—the bull case is supported by strong analyst consensus, improving forward PE (26.9 from 31.8), solid revenue growth (16.6%), and expanding margins, while the bear case raises legitimate concerns with AMZN trading 202.2% above Graham Number fair value, a PEG ratio of 1.89, and elevated debt-to-equity (53.3); the technical warning signs (negative MACD divergence, near-ATH positioning) temper enthusiasm, but don't definitively outweigh solid fundamentals, warranting a neutral stance.",
+      "confidence": 62,
+      "rationale": "Both arguments are well-supported but pull in opposite directions — the bull case cites solid 16.6% revenue growth and an improving forward PE (27.4 vs 32.4) with strong analyst consensus, while the bear case highlights an extreme Graham-derived undervaluation gap, elevated debt-to-equity, and mixed technical signals (negative MACD, low volume) with the stock near the top of its 52-week range; the asymmetric valuation metrics and technical weakness balance the fundamental growth narrative, warranting a hold.",
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "bull_case": "Amazon’s 62‑analyst strong‑buy consensus targets a 17.2% upside to the $311.55 mean price, with forward PE falling to 26.9 from 31.8, 16.6% revenue growth and a 12.2% profit margin confirming solid fundamentals. The launch of 30‑minute delivery in dozens of U.S. cities strengthens the growth narrative, and trading above its 50‑day moving average at $265.82 with an RSI of 63.8 demonstrates healthy price momentum.",
-      "bear_case": "With AMZN trading at 84.6% of its 52-week range and just $12.74 below its all-time high of $278.56, the stock is extremely extended and vulnerable to a reversal, especially as the RSI at 63.8 continues to climb while the MACD histogram shows negative divergence at -1.06. The valuation case is stark: AMZN trades at 1.59x its sector's P/E multiple with a price 202.2% above its Graham Number fair value of $87.97, and a PEG ratio of 1.89 signals growth expectations are priced in perfection, while the elevated debt-to-equity of 53.3 leaves little room for operational missteps in a rising rate environment.",
+      "bull_case": "Amazon’s AI‑driven Alexa Shopping agent marks a strategic pivot that could accelerate e‑commerce monetisation, supported by 16.6% revenue growth, 12.2% profit margin and a forward PE of 27.4 that is lower than the current PE of 32.4. The stock trades at $270.13, well above its 50‑day moving average of $234.8, with a consensus target mean price of $311.55 implying 15.3% upside and a strong‑buy rating from 62 analysts.",
+      "bear_case": "Amazon trades at $270.13, 207% above its Graham‑derived intrinsic value of $87.87, and its relative PE of 1.62× the sector average (sector PE 20) signals significant overvaluation despite strong‑buy analyst consensus. The RSI of 67 combined with a negative MACD histogram of –1.25 and a volume ratio of 0.81 points to weakening momentum, while a debt‑to‑equity of 53.3 raises refinancing risk in a rising‑rate environment. The stock sits at 89.8% of its 52‑week range, leaving little upside and increasing vulnerability to a sharp correction.",
       "sources": [
         {
-          "title": "Amazon accelerates delivery race with 30-minute drop-offs in dozens of U.S. cities",
-          "url": "https://www.cnbc.com/2026/05/12/amazon-launches-ultrafast-30-minute-delivery-in-dozens-of-us-cities.html",
-          "published_ts": 1778594470
+          "title": "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
+          "url": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+          "published_ts": 1778678003
         }
       ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 63.821747855591184,
-        "macd_line": 10.942475029065179,
-        "macd_signal": 12.004123457824154,
-        "macd_histogram": -1.061648428758975,
-        "ma50": 233.56799987792968,
-        "volume_ratio": 0.7764672417411402
+        "rsi": 67.28908384352042,
+        "macd_line": 10.443670299630071,
+        "macd_signal": 11.692317116736007,
+        "macd_histogram": -1.2486468171059357,
+        "ma50": 234.79600006103516,
+        "volume_ratio": 0.8052450264247528
       },
       "fundamentals_data": {
-        "pe_ratio": 31.758663,
-        "forward_pe": 26.930126,
-        "price_to_book": 6.468742,
+        "pe_ratio": 32.3509,
+        "forward_pe": 27.36677,
+        "price_to_book": 6.573626,
         "revenue_growth": 0.166,
         "profit_margin": 0.12224,
         "debt_to_equity": 53.3,
         "target_mean_price": 311.55145,
-        "current_price": 265.82,
+        "current_price": 270.13,
         "fifty_two_week_low": 196.0,
         "fifty_two_week_high": 278.56,
-        "trailing_eps": 8.37,
+        "trailing_eps": 8.35,
         "book_value": 41.093,
         "peg_ratio": 1.8937,
         "short_name": "Amazon.com, Inc.",
@@ -1091,56 +1085,45 @@
         "sector": "Consumer Cyclical"
       },
       "undervaluation_data": {
-        "upside_pct": 17.2,
-        "week52_position_pct": 84.6,
-        "graham_number": 87.97,
-        "price_vs_graham_pct": 202.2,
-        "relative_pe": 1.59,
+        "upside_pct": 15.3,
+        "week52_position_pct": 89.8,
+        "graham_number": 87.87,
+        "price_vs_graham_pct": 207.4,
+        "relative_pe": 1.62,
         "sector_pe_avg": 20.0,
         "peg_ratio": 1.89
       }
     },
     {
-      "signal": "SELL",
-      "confidence": 75,
-      "rationale": "The bear case decisively wins on valuation metrics: the trailing PE of 150 versus sector average of 28 (5.37x premium) and the 770.6% price-to-Graham-number spread represent extreme disconnects from intrinsic value that cannot be dismissed, while the bull's forward PE of 34.7 acknowledges the earnings haven't yet justified current prices, and entering at the 94.2th percentile with zero analyst upside to the $445 target ($448 current) compounds the risk-reward asymmetry.",
+      "signal": "HOLD",
+      "confidence": 58,
+      "rationale": "Bear case dominates on valuation extremes (148.5 PE, 762% above Graham intrinsic, 5.3x sector relative PE) and deteriorating technical momentum (RSI 76, falling volume), but bull's forward PE compression from 148.5 to 34.5 with 37.8% revenue growth and strong analyst conviction provide enough counterweight to avoid a sell; these signals conflict enough to warrant a neutral stance.",
       "ticker": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "bull_case": "AMD's 37.8% revenue growth, 13.4% profit margin, and forward PE of 34.7 support a strong earnings trajectory, and the consensus strong_buy rating from 48 analysts with a $445 price target reinforces the stock's position near its 52‑week high at 94.2% of the range. The MACD histogram of +10.3 and RSI of 77 confirm bullish momentum, as retail investors are buying calls at the heaviest 10‑day clip since 2021, indicating continued upward pressure despite the modest 0.7% upside shown by the current $448 price.",
-      "bear_case": "AMD trades at a PE of 150 versus a sector average of just 28, a 5.37x premium that is plainly unsustainable, while the relative_pe of 5.37x sector confirms shares are priced for perfection at the 94.2th percentile of their 52-week range. The RSI of 77 signals severe overbought conditions, the price-to-Graham-number spread of 770.6% reveals a valuation disconnected from intrinsic worth, and analysts' $445 target implies a -0.7% downside from current levels, offering no upside cushion even as retail call buying hits a post-COVID frenzy clip, a classic late-stage froth signal.",
-      "sources": [
-        {
-          "title": "New York City Mayor Zohran Mamdani's pied-à-terre property tax is moving ahead. But will it work?",
-          "url": "https://www.cnbc.com/2026/05/12/mayor-mamdani-new-york-pied-terre-property-tax-real-estate.html",
-          "published_ts": 1778617227
-        },
-        {
-          "title": "AI super rally has retail investors acting the most aggressive since trading frenzy during Covid",
-          "url": "https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html",
-          "published_ts": 1778600037
-        }
-      ],
+      "bull_case": "AMD's 37.8% revenue growth and 13.4% profit margin are compressing its valuation, with forward PE of 34.5 far below the trailing 148.5, and the 48‑analyst strong‑buy consensus and a mean price target of $451.58 indicate robust institutional confidence. Technical momentum supports the bullish thesis: the MACD line sits at 52.8 above the signal at 44.2, generating a positive histogram of 8.6, and the stock is trading at 93.4% of its 52‑week range, underscoring strong price action.",
+      "bear_case": "AMD trades near its 52‑week high (93.4% of the range) with an RSI of 76 and volume falling to 0.59× the six‑month average, signaling an overbought condition and fading momentum. Its valuation metrics are stretched beyond reason: a PE of 148.5, forward PE of 34.5, price‑to‑book of 11.3, relative PE of 5.3× the sector average, debt‑to‑equity of 6.0, and a price that exceeds the Graham‑derived intrinsic value by 762%, leaving just a 1.4% upside to the consensus target and confirming the stock is dramatically overpriced. A strong_buy consensus from 48 analysts cannot offset these extreme technical and fundamental signals, making a sell the prudent position.",
+      "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 77.23447914624077,
-        "macd_line": 52.38409421652932,
-        "macd_signal": 42.035223213490426,
-        "macd_histogram": 10.348871003038894,
-        "ma50": 264.6760003662109,
-        "volume_ratio": 0.7862227362397636
+        "rsi": 76.19737364425933,
+        "macd_line": 52.79215356818895,
+        "macd_signal": 44.18672241135235,
+        "macd_histogram": 8.605431156836602,
+        "ma50": 269.7670004272461,
+        "volume_ratio": 0.5944829583418998
       },
       "fundamentals_data": {
-        "pe_ratio": 150.43289,
-        "forward_pe": 34.73086,
-        "price_to_book": 11.335626,
+        "pe_ratio": 148.5,
+        "forward_pe": 34.51471,
+        "price_to_book": 11.265077,
         "revenue_growth": 0.378,
         "profit_margin": 0.13374,
         "debt_to_equity": 6.005,
-        "target_mean_price": 445.02084,
-        "current_price": 448.29,
+        "target_mean_price": 451.58334,
+        "current_price": 445.5,
         "fifty_two_week_low": 107.67,
         "fifty_two_week_high": 469.22,
-        "trailing_eps": 2.98,
+        "trailing_eps": 3.0,
         "book_value": 39.547,
         "peg_ratio": 1.095,
         "short_name": "Advanced Micro Devices, Inc.",
@@ -1149,46 +1132,46 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -0.7,
-        "week52_position_pct": 94.2,
-        "graham_number": 51.49,
-        "price_vs_graham_pct": 770.6,
-        "relative_pe": 5.37,
+        "upside_pct": 1.4,
+        "week52_position_pct": 93.4,
+        "graham_number": 51.67,
+        "price_vs_graham_pct": 762.3,
+        "relative_pe": 5.3,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.09
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 65,
-      "rationale": "The bull case is marginally stronger with solid analyst support (15 buy ratings, 10% upside target), strong fundamentals (29.7% profit margin, 13.2% revenue growth), and constructive technicals (RSI at 56 leaving room, MACD bullish), though the bear raises legitimate concerns about a high PEG ratio of 2.36 and the stock's position at the 91.8th percentile of its 52-week range limiting near-term upside. The argument asymmetry doesn't justify a strong directional bet in either direction.",
+      "confidence": 58,
+      "rationale": "Both arguments are well-substantiated but pull in opposite directions: the bull case cites strong analyst consensus, solid fundamentals (13.2% growth, 29.7% margins), and reasonable forward PE compression, while the bear case raises legitimate concerns about extreme valuation metrics (1,380x P/B, 5,547% above Graham number) and balance sheet risk. The valuation arguments are quantitatively strong but may not account for ASML's monopoly position in EUV lithography; however, the bull case lacks sufficient upside potential (only 5.8%) to make a compelling BUY. The asymmetry is not strong enough to justify a directional bet in either direction.",
       "ticker": "ASML",
       "name": "ASML Holding N.V. - New York Re",
-      "bull_case": "ASML carries a strong_buy recommendation from 15 analysts, whose mean price target of $1,673 implies a 10% upside to the current $1,520 price, and its forward P/E of 31.6 reflects expected earnings growth alongside 13.2% revenue expansion and a 29.7% profit margin. Technically, the MACD histogram stands at 11.3, well above the signal line, and the 50‑day moving average of $1,404 sits below the market price, confirming bullish momentum, and the RSI of 56 signals room for further gains. The stock is near its 52‑week high of $1,595, with positioning at the 91.8th percentile of its 52‑week range, indicating strong institutional support.",
-      "bear_case": "ASML’s $1520.94 price sits 5323.9% above its Graham‑derived intrinsic value and 1.78× the sector’s average PE despite a forward PE of 31.6, signaling extreme overvaluation. Combined with a debt‑to‑equity of 12.99, a PEG ratio of 2.36, and a 91.8% position within the 52‑week range that caps upside at just 10% to the analyst target of $1673.29, the risk‑reward balance is unfavorable for new positions.",
+      "bull_case": "ASML’s strong_buy rating from 15 analysts, together with 13.2% revenue growth and a 29.7% profit margin, underscores robust fundamentals and earnings power. The MACD histogram of 12.5 and RSI at 60.8 confirm bullish momentum, and the price above its 50‑day moving average (1408.7) signals continued upward bias. With a forward PE of 32.8 that compresses the current PE of 51.9 and a 5.8% upside to the mean price target of $1,673, the stock offers both growth and modest valuation support for a BUY.",
+      "bear_case": "ASML trades at a staggering price-to-book of 1,380x and 5,547% above its Graham number of $28, with a relative PE of 1.86x the sector average, indicating extreme overvaluation that leaves only 5.8% upside to the analyst target price. The stock sits at 97.7% of its 52-week range, leaving virtually no room for upside while the elevated debt-to-equity of 12.99 raises balance sheet risk, and a PEG ratio of 2.36 confirms growth expectations are priced in at unsustainable levels.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 56.2744652427197,
-        "macd_line": 36.20504438101216,
-        "macd_signal": 24.906950320619714,
-        "macd_histogram": 11.298094060392444,
-        "ma50": 1404.2385278320312,
-        "volume_ratio": 0.9710211308708429
+        "rsi": 60.84030190865029,
+        "macd_line": 40.535098717277606,
+        "macd_signal": 28.033842749048418,
+        "macd_histogram": 12.501255968229188,
+        "ma50": 1408.7106494140626,
+        "volume_ratio": 0.9551029410381842
       },
       "fundamentals_data": {
-        "pe_ratio": 49.817883,
-        "forward_pe": 31.60286,
-        "price_to_book": 1328.6603,
+        "pe_ratio": 51.99145,
+        "forward_pe": 32.831337,
+        "price_to_book": 1380.3085,
         "revenue_growth": 0.132,
         "profit_margin": 0.29713,
         "debt_to_equity": 12.989,
-        "target_mean_price": 1673.2908,
-        "current_price": 1520.94,
+        "target_mean_price": 1673.2646,
+        "current_price": 1581.58,
         "fifty_two_week_low": 683.48,
-        "fifty_two_week_high": 1595.31,
-        "trailing_eps": 30.53,
-        "book_value": 1.144717,
+        "fifty_two_week_high": 1602.6,
+        "trailing_eps": 30.42,
+        "book_value": 1.1458163,
         "peg_ratio": 2.3644,
         "short_name": "ASML Holding N.V. - New York Re",
         "recommendation_key": "strong_buy",
@@ -1196,48 +1179,48 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 10.0,
-        "week52_position_pct": 91.8,
-        "graham_number": 28.04,
-        "price_vs_graham_pct": 5323.9,
-        "relative_pe": 1.78,
+        "upside_pct": 5.8,
+        "week52_position_pct": 97.7,
+        "graham_number": 28.0,
+        "price_vs_graham_pct": 5547.6,
+        "relative_pe": 1.86,
         "sector_pe_avg": 28.0,
         "peg_ratio": 2.36
       }
     },
     {
       "signal": "SELL",
-      "confidence": 78,
-      "rationale": "The bear case fundamentally outweighs the bull case despite bullish technical indicators, as Intel's negative profit margin (-5.9%), negative EPS (-$0.60), and premium forward PE of 78.6 with a P/B of 5.3 make the valuation untenable for a money-losing company, compounded by the -31.5% downside gap to the analyst mean price target of $82.6.",
+      "confidence": 72,
+      "rationale": "Bear case dominates with concrete fundamental data (negative EPS of -$0.60, -5.9% profit margin, 78.4x forward PE for an unprofitable company) while bull relies on technical momentum and modest 7.2% revenue growth without addressing the glaring profitability disconnect; the analyst target implying -29.8% downside and 42 HOLD recommendations further support exiting.",
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "bull_case": "Intel’s technical picture is sharply bullish, with RSI at 75.1 indicating sustained upward momentum, a MACD histogram of +3.14 confirming accelerating buy pressure, and the price of $120.61 residing far above its 50‑day moving average of $65.29 on a volume ratio of 1.11, signaling robust market participation. The stock’s 89.3% position within its 52‑week range underscores strong institutional support, while its 7.2% revenue growth and a PEG ratio of 1.36 suggest that the market is pricing in future earnings recovery despite a current forward PE of 78.6, supported by 42 analyst opinions that maintain a constructive outlook.",
-      "bear_case": "Intel's recent guidance sparked a sharp sector‑wide selloff, its RSI of 75 signals extreme overbought momentum, its forward PE of 78.6 and price‑to‑book of 5.3 reveal a premium valuation relative to peers, and the stock trades near the top of its 52‑week range at 89.3% despite a –31.5% upside gap to the analyst mean target of $82.6. Fundamentally, the company reports a negative profit margin of –5.9%, a trailing EPS of –$0.60, revenue growth of only 7.2%, a debt‑to‑equity of 36, and the hold‑recommendation from 42 analysts underscores deteriorating earnings power, making a sell the appropriate stance.",
+      "bull_case": "Intel’s technical picture is overwhelmingly bullish as the MACD line at 16.9 sits above the signal line, producing a histogram of 2.4, RSI has climbed to 74.8 indicating strong buying pressure, and the current price of $120.29 trades far above the 50‑day moving average of $66.84, a configuration that historically precedes further gains. Supporting the move, the company posted revenue growth of 7.2 %, its forward PE of 78.4 reflects expected earnings recovery, and a PEG ratio of 1.36 shows the growth is reasonably priced, making the stock a compelling buy.",
+      "bear_case": "Intel trades at an extreme forward PE of 78.4x while posting a negative profit margin of -5.9% and trailing EPS of -$0.60, making the valuation disconnect from fundamentals glaring; the stock is unprofitable yet priced for robust growth. The analyst target of $84.43 implies -29.8% downside from the current $120.29 price, and at week52_position_pct of 89% the stock is sitting near the top of its 52-week range ($18.97-$132.75) despite deteriorating earnings, creating a dangerous setup for mean reversion. With RSI at 74.77 in overbought territory, negative earnings, a concerning debt-to-equity of 36.03, and a HOLD recommendation from 42 analysts, the risk-reward clearly favors exiting the position.",
       "sources": [
         {
-          "title": "Intel’s stock just guided the chip sector toward a sharp selloff. Here’s why.",
-          "url": "https://www.marketwatch.com/story/why-intels-stock-is-falling-and-guiding-the-chip-sector-toward-its-worst-day-of-the-year-aa8812e4?mod=mw_rss_topstories",
-          "published_ts": 1778620740
+          "title": "Nvidia's Jensen Huang bets on this British startup to build 'next frontier' of AI",
+          "url": "https://www.cnbc.com/2026/05/13/google-deepmind-alumni-startup-partners-nvidia-superintelligence.html",
+          "published_ts": 1778677201
         }
       ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 75.1389934131085,
-        "macd_line": 17.047287600550632,
-        "macd_signal": 13.911219093562073,
-        "macd_histogram": 3.1360685069885594,
-        "ma50": 65.29260009765625,
-        "volume_ratio": 1.106674708758149
+        "rsi": 74.76726257957671,
+        "macd_line": 16.909215449984643,
+        "macd_signal": 14.510856729263434,
+        "macd_histogram": 2.398358720721209,
+        "ma50": 66.83640014648438,
+        "volume_ratio": 0.7348563117004026
       },
       "fundamentals_data": {
         "pe_ratio": null,
-        "forward_pe": 78.6076,
-        "price_to_book": 5.2704945,
+        "forward_pe": 78.39904,
+        "price_to_book": 5.2565107,
         "revenue_growth": 0.072,
         "profit_margin": -0.05904,
         "debt_to_equity": 36.028,
-        "target_mean_price": 82.6,
-        "current_price": 120.61,
+        "target_mean_price": 84.43333,
+        "current_price": 120.29,
         "fifty_two_week_low": 18.97,
         "fifty_two_week_high": 132.75,
         "trailing_eps": -0.6,
@@ -1249,41 +1232,47 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -31.5,
-        "week52_position_pct": 89.3,
+        "upside_pct": -29.8,
+        "week52_position_pct": 89.0,
         "peg_ratio": 1.36
       }
     },
     {
       "signal": "BUY",
-      "confidence": 72,
-      "rationale": "The bull case dominates with strong fundamental support—33.1% revenue growth, forward PE of 16.66, PEG of 0.89, and 37% upside—outweighing bearish technical signals (below 50-day MA, negative MACD) and valuation metrics (Graham number premium) that are typical for high-quality growth names, especially given the overwhelming analyst consensus and improving MACD momentum suggesting the technical weakness is near a bottom.",
+      "confidence": 60,
+      "rationale": "The bull case wins on quantifiable forward metrics: a forward PE of 17 versus sector average of 22, PEG of 0.89 indicating growth is underpriced, and 33.1% revenue growth all support the 34.1% upside to target; the bear's reliance on Graham valuation (anachronistic for platform businesses) and backward-looking technicals like MACD/RSI provides weaker fundamental grounds at these attractive valuations.",
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "bull_case": "META’s fundamentals are compelling with 33.1% revenue growth, 32.8% profit margin, and a forward PE of 16.66 that is well below the sector average, supporting an undervalued status, and the analyst consensus of “strong buy” across 58 opinions reinforces this outlook. The stock offers a 37.1% upside to the mean price target of $826.69 from the current $603, and with RSI at 40.9 and the MACD histogram narrowing, technical conditions are poised for a rebound. Together, the combination of robust earnings growth, a PEG ratio of 0.89, and significant price appreciation potential makes META a compelling BUY.",
-      "bear_case": "META's technical setup is decisively bearish, with the MACD histogram at -6.63, the RSI at 40.9, and the price at $603 trading below the 50‑day moving average of $624.45 on muted volume of just 0.70× the average. The valuation is stretched, the price sits 147% above its Graham number of $243.69 and the price‑to‑book ratio stands at 6.28, indicating a premium that leaves little margin of safety. Moreover, the company carries a debt‑to‑equity of 35.6, a high leverage level that increases vulnerability to rate hikes and amplifies downside risk.",
-      "sources": [],
+      "bull_case": "META trades at $616.63, 34.1% below the analyst target mean of $826.69 and at the 34.9th percentile of its 52‑week range, implying a 34.1% upside; with a forward PE of 17.0, a PEG of 0.89, and a relative PE of 1.02 versus the sector average of 22, valuation is compelling relative to its 33.1% revenue growth and 32.8% profit margin. A consensus of 58 analysts assigns a strong_buy recommendation, reinforcing the bullish case.",
+      "bear_case": "The price-to-graham premium of 153% signals extreme overvaluation, with META trading at $616 versus a Graham-derived intrinsic value of $243.74, leaving minimal margin of safety. While RSI at 46 and negative MACD histogram of -5.06 confirm bearish momentum, the stock sits just 34.9% above its 52-week low, suggesting limited upside runway before hitting the $796 ceiling. Combined with a 6.42x price-to-book ratio, the risk-reward at current levels heavily favors sellers.",
+      "sources": [
+        {
+          "title": "The gold chart looks poised for a bounce. How to play it for less",
+          "url": "https://www.cnbc.com/2026/05/13/the-gold-chart-looks-poised-for-a-bounce-how-to-play-it-for-less.html",
+          "published_ts": 1778688097
+        }
+      ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 40.924458908384636,
-        "macd_line": -7.361113297116276,
-        "macd_signal": -0.7305581859487524,
-        "macd_histogram": -6.630555111167523,
-        "ma50": 624.452744140625,
-        "volume_ratio": 0.7046160083969963
+        "rsi": 46.39685693391806,
+        "macd_line": -7.060962571067762,
+        "macd_signal": -1.9965968400257008,
+        "macd_histogram": -5.064365731042061,
+        "ma50": 623.694951171875,
+        "volume_ratio": 0.9119598987218461
       },
       "fundamentals_data": {
-        "pe_ratio": 21.93525,
-        "forward_pe": 16.663921,
-        "price_to_book": 6.2803993,
+        "pe_ratio": 22.422909,
+        "forward_pe": 17.040588,
+        "price_to_book": 6.4223595,
         "revenue_growth": 0.331,
         "profit_margin": 0.32837,
         "debt_to_equity": 35.608,
         "target_mean_price": 826.69104,
-        "current_price": 603.0,
+        "current_price": 616.63,
         "fifty_two_week_low": 520.26,
         "fifty_two_week_high": 796.25,
-        "trailing_eps": 27.49,
+        "trailing_eps": 27.5,
         "book_value": 96.013,
         "peg_ratio": 0.8893,
         "short_name": "Meta Platforms, Inc.",
@@ -1292,32 +1281,32 @@
         "sector": "Communication Services"
       },
       "undervaluation_data": {
-        "upside_pct": 37.1,
-        "week52_position_pct": 30.0,
-        "graham_number": 243.69,
-        "price_vs_graham_pct": 147.4,
-        "relative_pe": 1.0,
+        "upside_pct": 34.1,
+        "week52_position_pct": 34.9,
+        "graham_number": 243.74,
+        "price_vs_graham_pct": 153.0,
+        "relative_pe": 1.02,
         "sector_pe_avg": 22.0,
         "peg_ratio": 0.89
       }
     },
     {
-      "signal": "HOLD",
-      "confidence": 62,
-      "rationale": "Both cases have significant weaknesses: the bull's MACD description lacks specifics while the bear's 'no floor support' claim is an assertion; the bear's -6.68 histogram and confirmed crossover is more technically grounded, but the price sitting near the 52-week low actually limits rather than increases downside risk, making a balanced HOLD appropriate.",
+      "signal": "SELL",
+      "confidence": 68,
+      "rationale": "The bear case is stronger despite citing identical data points. The bull's key weakness is misinterpreting the MACD - the line at 9.7 sitting well below the signal at 20.3 is definitively bearish, not a 'tightening spread preceding bullish crossover' as claimed. The bear's framing of 84% downside to lows vs 120% upside to highs is mathematically valid risk-reward concern, while the declining volume confirming 'institutional indifference' and lack of technical support below the 50-day MA further reinforce bearish momentum.",
       "ticker": "ETH-USD",
       "name": "Ethereum USD",
-      "bull_case": "Ethereum is trading at $2,276.64, only 16.5% above its 52‑week low of $1,748.63 and 117% below its 52‑week high of $4,953.73, offering a potential upside of over 100% that far outweighs the neutral 47 RSI reading. The price sits just above its 50‑day moving average of $2,243 and the volume ratio of 1.01 shows steady market participation, confirming healthy demand. The MACD histogram’s modest negative reading points to limited short‑term profit‑taking rather than a trend reversal, reinforcing a constructive bullish case for a BUY.",
-      "bear_case": "The MACD bearish crossover—with the MACD line below the signal line and a histogram of -6.68—confirms persistent downward momentum, while the RSI at 47 shows no oversold relief is imminent. Most critically, ETH trades at only 16.5% of its 52-week range after collapsing from highs near $4,954 to the current $2,277, placing it dangerously close to the 52-week low of $1,749 with no fundamental or technical floor support to arrest further capitulation.",
+      "bull_case": "Ethereum (ETH‑USD) is trading at $2,254.59, just above its 50‑day moving average of $2,244.95, with RSI at 45 indicating the market is not overbought and providing room for upward movement; the MACD line has risen to 9.7 and the signal line sits at 20.3, a tightening spread that often precedes a bullish crossover. With the 52‑week position at only 15.8%, the price sits near the lower end of its historical range and offers a substantial upside to the 52‑week high of $4,953.73, making the risk‑reward profile compelling for a buy.",
+      "bear_case": "ETH-USD exhibits a deeply negative MACD histogram at -10.56 with the MACD line crossing below the signal line, signaling strong bearish momentum that could drive prices lower. The week52_position_pct of 15.8% reveals ETH is trading uncomfortably close to its 52-week low of $1,748.63 with 84% additional downside to that bottom, while the RSI at 45 lacks the oversold conditions needed to trigger a meaningful bounce. Volume declining to 0.97 of the 6-month average confirms institutional indifference, and trading just marginally above the 50-day moving average at $2,244.95 leaves minimal technical support before a retest of the lows becomes likely.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 47.243781268185,
-        "macd_line": 16.25472364549205,
-        "macd_signal": 22.93103373576928,
-        "macd_histogram": -6.67631009027723,
-        "ma50": 2243.0147338867187,
-        "volume_ratio": 1.0094046936679324
+        "rsi": 45.11188464293586,
+        "macd_line": 9.700648661298146,
+        "macd_signal": 20.259476396800967,
+        "macd_histogram": -10.55882773550282,
+        "ma50": 2244.952521972656,
+        "volume_ratio": 0.9733546022294894
       },
       "fundamentals_data": {
         "pe_ratio": null,
@@ -1327,7 +1316,7 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 2276.64,
+        "current_price": 2254.59,
         "fifty_two_week_low": 1748.6277,
         "fifty_two_week_high": 4953.733,
         "trailing_eps": null,
@@ -1339,45 +1328,55 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 16.5
+        "week52_position_pct": 15.8
       }
     },
     {
-      "signal": "HOLD",
-      "confidence": 58,
-      "rationale": "Both arguments are well-supported but pull in opposite directions—bull wins on the forward PE/earnings acceleration story and strong analyst support, but bear wins on extreme leverage (debt-to-equity 19.37), sector-adjusted valuation (3.47x relative PE), and limited upside at 93.8% of 52-week range; the modest 12.2% target upside and overbought RSI further limit conviction for a buy.",
+      "signal": "BUY",
+      "confidence": 65,
+      "rationale": "The bull case dominates with concrete, forward-looking metrics: 19 analyst buy ratings, a credible 16.4% price target, and a 34% revenue growth story that justifies the forward PE of 33.6x compression; the bear's Graham-derived intrinsic value figure (783% overpriced) is an outlier calculation that undermines its technical and valuation arguments, which focus on short-term momentum indicators rather than fundamental earnings power.",
       "ticker": "2308.TW",
       "name": "DELTA ELECTRONIC",
-      "bull_case": "Delta Electronics (2308.TW) trades at 2245 with a 12.2% upside to the consensus target of 2519.63, supported by 19 analyst Buy ratings and 34% revenue growth that drives a forward PE of 34.8, far below its trailing PE of 97, signaling earnings acceleration. Momentum confirms the bullish view: the MACD histogram is positive (+0.83), price is well above the 50‑day MA at 1677.4, and RSI at 70 shows strong, sustained upward pressure.",
-      "bear_case": "Delta Electronics trades at a PE of 97.1x versus a sector average of just 28x, giving it a relative PE of 3.47x that signals extreme sector-adjusted overvaluation, while the price-to-Graham ratio of 816.6% confirms intrinsic value is vastly outstripped by market pricing. The RSI reading of 70.7 keeps the stock in overbought territory and a debt-to-equity ratio of 19.37 reveals dangerously high leverage, particularly concerning at 93.8% of the 52-week range with limited upside to the analyst target of 2519.6. The combination of extreme valuation multiples, overbought technicals, heavy foreign selling pressure, and declining volume creates a compelling risk-reward scenario that justifies a sell position.",
+      "bull_case": "Delta Electronics (2308.TW) is positioned to capture massive AI infrastructure demand as cloud service providers ramp capex beyond $720B in 2026, with the stock recently reclaiming its spot as Taiwan's second-largest market cap company at $5.62T. The analyst consensus is firmly bullish with a \"buy\" rating from 19 analysts targeting 16.4% upside to NT$2,519.6 from the current NT$2,165, backed by 34% revenue growth and a leaner forward PE of 33.6x that should compress as earnings accelerate. With the stock trading at 89.8% of its 52-week high and benefiting from structural AI power and cooling demand tailwinds, Delta's momentum and valuation re-rating potential make a compelling buying opportunity.",
+      "bear_case": "Delta Electronics (2308.TW) trades at a PE of 93.4, a forward PE of 33.6 and a price‑to‑book of 18.8, giving it a relative PE of 3.34× the sector average and a price 783% above its Graham‑derived intrinsic value, signalling extreme overvaluation. The MACD histogram has turned negative at -13.6, indicating a loss of upward momentum, and the stock sits at 89.8% of its 52‑week range, near its highs and vulnerable to a pullback, with volume weak at a ratio of 0.62. Its debt‑to‑equity of 19.4 reveals a heavily leveraged balance sheet that amplifies financial risk in any downturn.",
       "sources": [
         {
-          "title": "外資連2砍！今賣超台股109億元　提款台積電1.7萬張列第5大",
-          "url": "https://finance.ettoday.net/news/3164135",
+          "title": "台達電推永續諮詢服務",
+          "url": "https://money.udn.com/money/story/5612/9501254",
+          "published_ts": 1778690958
+        },
+        {
+          "title": "擴產大競賽　超級循環期：AI 基礎建設啟動台科技業商機",
+          "url": "https://finance.ettoday.net/news/3165207",
+          "published_ts": 0
+        },
+        {
+          "title": "聯發科處置中痛失權后寶座！　台達電撿到槍重新上位",
+          "url": "https://finance.ettoday.net/news/3165223",
           "published_ts": 0
         }
       ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 70.69370092786072,
-        "macd_line": 173.07440412508186,
-        "macd_signal": 172.24051835209022,
-        "macd_histogram": 0.8338857729916356,
-        "ma50": 1677.4,
-        "volume_ratio": 0.7954637161634058
+        "rsi": 63.232771059180166,
+        "macd_line": 153.71991403302331,
+        "macd_signal": 167.31845063867647,
+        "macd_histogram": -13.598536605653152,
+        "ma50": 1707.3,
+        "volume_ratio": 0.618701547593094
       },
       "fundamentals_data": {
-        "pe_ratio": 97.10207,
-        "forward_pe": 34.797577,
-        "price_to_book": 19.467907,
+        "pe_ratio": 93.43979,
+        "forward_pe": 33.557575,
+        "price_to_book": 18.774172,
         "revenue_growth": 0.34,
         "profit_margin": 0.118310004,
         "debt_to_equity": 19.37,
         "target_mean_price": 2519.6316,
-        "current_price": 2245.0,
+        "current_price": 2165.0,
         "fifty_two_week_low": 361.0,
         "fifty_two_week_high": 2370.0,
-        "trailing_eps": 23.12,
+        "trailing_eps": 23.17,
         "book_value": 115.318,
         "peg_ratio": 5.9917,
         "short_name": "DELTA ELECTRONIC",
@@ -1386,42 +1385,48 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 12.2,
-        "week52_position_pct": 93.8,
-        "graham_number": 244.93,
-        "price_vs_graham_pct": 816.6,
-        "relative_pe": 3.47,
+        "upside_pct": 16.4,
+        "week52_position_pct": 89.8,
+        "graham_number": 245.19,
+        "price_vs_graham_pct": 783.0,
+        "relative_pe": 3.34,
         "sector_pe_avg": 28.0,
         "peg_ratio": 5.99
       }
     },
     {
       "signal": "SELL",
-      "confidence": 82,
-      "rationale": "Bear case dominates with extreme valuation metrics (PE 1.97x sector, P/B 14.85, price 504% above Graham number) combined with deteriorating fundamentals (negative revenue growth, D/E 4.13), while bull case relies merely on momentum positioning without addressing the stretched multiples or analyst target showing 8.6% downside.",
+      "confidence": 72,
+      "rationale": "Bear case wins on fundamentals: negative revenue growth (-2.7%), dangerously high debt-to-equity (4.126), and P/B 479.9% above Graham Number make the stock fundamentally overvalued despite the forward PE discount cited by bulls; the consensus rating and momentum indicators do not offset these concrete financial deterioration risks.",
       "ticker": "2454.TW",
       "name": "MEDIATEK INC",
-      "bull_case": "MediaTek receives a strong buy consensus from 24 analysts with the stock trading well above its 52-week low of 1130 and currently sitting at the 87.9th percentile of its 52-week range, confirming robust upward momentum. The forward PE of 31.03 versus a trailing PE of 55.27 signals significant expected earnings growth, with the positive MACD histogram of 105.2 reinforcing continued upside technical momentum.",
-      "bear_case": "MediaTek's RSI of 80 and 87.9% position within its 52‑week range place the stock at an extreme overbought state with little room to the 3985 high, and its valuation is dramatically stretched: the PE of 55.3 is 1.97 times the sector average, the price‑to‑book stands at 14.85, and the price is 504% above the Graham number of 602.7. Negative revenue growth of -2.7% and a debt‑to‑equity of 4.13 further undermine fundamentals, and the analyst target of 3327 forecasts an 8.6% downside.",
-      "sources": [],
+      "bull_case": "2454.TW carries a consensus “strong_buy” rating from 24 analysts, with the forward PE of 29.8 sharply below its trailing PE of 53.1, indicating accelerating earnings growth and a valuation discount relative to future profit expectations. The MACD histogram of 95.9 and a positive MACD line of 495, together with an RSI of 73.8, show strong price momentum that has lifted the stock to 82.8% of its 52‑week range, confirming bullish market sentiment. The company's 16.9% profit margin and trailing EPS of 65.86 underscore its ability to generate substantial earnings in the technology sector, supporting a BUY stance.",
+      "bear_case": "MediaTek is deeply overvalued on virtually every metric: P/B of 14.26 sits 479.9% above the Graham Number, the PE of 53.1 relative to a sector average of 28 makes the stock 1.9x more expensive than peers, and RSI at 73.77 signals overbought conditions with the price already at 82.8% of its 52-week range near the high of 3985. Compounding these concerns, revenue growth turned negative at -2.7%, debt-to-equity balloons to 4.126, and the stock has already lost its heavyweight status to 台達電 with a target mean price of 3327 implying immediate downside from the current 3495.",
+      "sources": [
+        {
+          "title": "聯發科處置中痛失權后寶座！　台達電撿到槍重新上位",
+          "url": "https://finance.ettoday.net/news/3165223",
+          "published_ts": 0
+        }
+      ],
       "social_posts": [],
       "technical_data": {
-        "rsi": 80.03321585244669,
-        "macd_line": 507.10110921276873,
-        "macd_signal": 401.8648377260903,
-        "macd_histogram": 105.23627148667845,
-        "ma50": 2083.6,
-        "volume_ratio": 0.1296153458925675
+        "rsi": 73.76854500176466,
+        "macd_line": 495.53415764581723,
+        "macd_signal": 399.5514474127,
+        "macd_histogram": 95.98271023311725,
+        "ma50": 2080.7,
+        "volume_ratio": 0.5406526847081197
       },
       "fundamentals_data": {
-        "pe_ratio": 55.268753,
-        "forward_pe": 31.028482,
-        "price_to_book": 14.850051,
+        "pe_ratio": 53.067112,
+        "forward_pe": 29.792458,
+        "price_to_book": 14.258496,
         "revenue_growth": -0.027,
         "profit_margin": 0.16923,
         "debt_to_equity": 4.126,
         "target_mean_price": 3327.2834,
-        "current_price": 3640.0,
+        "current_price": 3495.0,
         "fifty_two_week_low": 1130.0,
         "fifty_two_week_high": 3985.0,
         "trailing_eps": 65.86,
@@ -1433,31 +1438,31 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -8.6,
-        "week52_position_pct": 87.9,
+        "upside_pct": -4.8,
+        "week52_position_pct": 82.8,
         "graham_number": 602.68,
-        "price_vs_graham_pct": 504.0,
-        "relative_pe": 1.97,
+        "price_vs_graham_pct": 479.9,
+        "relative_pe": 1.9,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.76
       }
     },
     {
       "signal": "HOLD",
-      "confidence": 55,
-      "rationale": "Both arguments are reasonably well-supported but the bear case has a slight edge—the MACD histogram of just 0.0016 is extremely thin, suggesting momentum is barely positive despite the crossover, while the bull overstates the strength of that signal; however, the bull correctly identifies price above the 50-day MA and an incomplete climb toward the 52-week high, making this a balanced tug-of-war that warrants holding.",
+      "confidence": 58,
+      "rationale": "Both arguments are well-articulated and rely on the same data points (RSI ~63, 68.8% of 52-week range, MACD divergence) but interpret them oppositely; the bull's concrete technical support (above 50-day MA, positive MACD) balances the bear's concern about limited upside and potential momentum exhaustion, warranting a neutral stance.",
       "ticker": "^TNX",
       "name": "CBOE Interest Rate 10 Year T No",
-      "bull_case": "The MACD line crossing above the signal line with a positive histogram of 0.0016 confirms intraday bullish momentum, and the price at 4.41 sits above its 50‑day moving average of 4.295, a technical signal that favors continued upside. With the 52‑week high at 4.997, the current price is only about 13% below that level, and the week52_position_pct of 64.5 indicates the index is still only two‑thirds of the way to its top, leaving meaningful room for further gains as Treasury yields trend higher. A bullish RSI of 57.4 retains room before overbought conditions emerge, reinforcing a BUY outlook for ^TNX based on strong momentum and an incomplete climb toward the 2024 high.",
-      "bear_case": "With the 10‑year Treasury yield at 4.41 the index sits at 64.5% of its 52‑week range (52‑week low = 3.345, 52‑week high = 4.997) and the MACD histogram has thinned to just 0.0016, signaling that upward momentum is fading. The RSI of 57.4 leaves little room for further upside, and any hawkish shift in Federal Reserve policy could quickly drive yields lower, pressuring this rate‑sensitive index. The lack of fundamental support and the proximity to the yearly high make the risk‑reward for a long position unfavorable, supporting a sell stance.",
+      "bull_case": "^TNX is trading at 4.481, above its 50‑day moving average of 4.312, and the positive MACD histogram of +0.0079 signals continued upward momentum, with RSI at 63 remaining comfortably below overbought territory and indicating room for further gains. With the instrument sitting 68.8% up the 52‑week range, the 52‑week high of 4.997 is within reach, offering an additional ~10% upside that supports a BUY stance.",
+      "bear_case": "With the 10-year Treasury yield sitting at 68.8% of its 52-week range and only 11.5% below the 52-week high of 4.997, upside potential is severely limited while downside risk remains substantial if rates normalize from current elevated levels; the RSI at 63.3 is trending toward overbought territory and MACD histogram momentum is flattening at historically high yield levels, suggesting the current bullish momentum in rates is exhausting itself.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 57.40428338821308,
-        "macd_line": 0.030540926850318506,
-        "macd_signal": 0.02892361375449076,
-        "macd_histogram": 0.0016173130958277472,
-        "ma50": 4.294939985275269,
+        "rsi": 63.26059080892605,
+        "macd_line": 0.04001832225872537,
+        "macd_signal": 0.03215914351632494,
+        "macd_histogram": 0.007859178742400427,
+        "ma50": 4.311739978790283,
         "volume_ratio": null
       },
       "fundamentals_data": {
@@ -1468,7 +1473,7 @@
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 4.41,
+        "current_price": 4.481,
         "fifty_two_week_low": 3.345,
         "fifty_two_week_high": 4.997,
         "trailing_eps": null,
@@ -1480,80 +1485,80 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 64.5
+        "week52_position_pct": 68.8
       }
     },
     {
-      "signal": "SELL",
-      "confidence": 72,
-      "rationale": "Bear case dominates despite bullish technicals because the company has zero profit margin, negative EPS (-$0.11), and a forward PE of -41, meaning revenue growth of 93.6% is entirely unaccompanied by earnings; the RSI of 71 and elevated volume ratio (5.9x) confirm overbought speculative conditions rather than sustainable momentum.",
+      "signal": "HOLD",
+      "confidence": 58,
+      "rationale": "The bull case offers compelling technical momentum and analyst conviction with 61.7% upside potential, but the bear case exposes a fundamentally broken business—negative EPS, zero profitability, and a deeply negative forward PE make any growth narrative speculative at best; the arguments are roughly balanced between promising revenue growth and unsustainable losses, warranting a hold until earnings improve or valuation compresses further.",
       "ticker": "QUBT",
       "name": "Quantum Computing Inc.",
-      "bull_case": "Quantum Computing Inc. (QUBT) offers a 51.4% upside to the analyst target mean of $17.83 from its current price of $11.78, underpinned by 93.6% revenue growth, a low debt‑to‑equity of 0.23, and a price‑to‑book of 1.66 that supports a solid fundamental foundation; the stock sits near the lower end of its 52‑week range at a 28.5% position, indicating significant room for appreciation. The technical picture adds momentum, with a volume ratio of 5.9, a bullish MACD crossover (MACD line 0.653 above the signal line 0.487), and an RSI of 71 that reflects strong recent price action, reinforcing the bullish case.",
-      "bear_case": "QUBT's technical profile is stretched, with an RSI of 71 and a volume ratio of 5.9× its six‑month average, signaling overbought conditions and speculative excess. On the fundamental side, the firm posts zero profit margin, a trailing EPS of –$0.11, a forward PE of –41, and a debt‑to‑equity of 0.23, meaning that despite 93.6% revenue growth the company has no earnings to justify its valuation and presents substantial downside risk.",
+      "bull_case": "The technical picture is bullish with RSI at 63.5, MACD histogram at +0.17, price above the 50‑day MA at $8.22, and a volume ratio of 1.53 indicating strong demand. The fundamentals reinforce a BUY case: revenue growth of 93.6% YoY, a low debt‑to‑equity of 0.34, six analyst “buy” recommendations with a mean target of $17.83, and an undervaluation signal showing 61.7% upside from the current price of $11.03.",
+      "bear_case": "Forward PE of -38.7 and trailing EPS of -0.26 expose a loss‑making company with zero profit margin, making the current valuation unsustainable. The stock has already climbed to 24.7% of its 52‑week range and RSI 63 signals overbought conditions, with a 1.53× volume surge indicating distribution risk. A sell position is warranted given the negative earnings, zero profitability, and the disconnect between the analyst “buy” consensus and the underlying fundamentals.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 71.09485576412638,
-        "macd_line": 0.6529252182509229,
-        "macd_signal": 0.4873049371838826,
-        "macd_histogram": 0.16562028106704024,
-        "ma50": 8.15649995803833,
-        "volume_ratio": 5.901264762516909
+        "rsi": 63.453136985671065,
+        "macd_line": 0.6998155028152713,
+        "macd_signal": 0.5297509790878409,
+        "macd_histogram": 0.17006452372743042,
+        "ma50": 8.222499952316284,
+        "volume_ratio": 1.5257648183263706
       },
       "fundamentals_data": {
         "pe_ratio": null,
-        "forward_pe": -41.333332,
-        "price_to_book": 1.663137,
+        "forward_pe": -38.701756,
+        "price_to_book": 1.5572497,
         "revenue_growth": 93.641,
         "profit_margin": 0.0,
-        "debt_to_equity": 0.23,
+        "debt_to_equity": 0.341,
         "target_mean_price": 17.83333,
-        "current_price": 11.78,
+        "current_price": 11.03,
         "fifty_two_week_low": 6.18,
         "fifty_two_week_high": 25.84,
-        "trailing_eps": -0.11,
+        "trailing_eps": -0.26,
         "book_value": 7.083,
         "peg_ratio": null,
         "short_name": "Quantum Computing Inc.",
-        "recommendation_key": "none",
+        "recommendation_key": "buy",
         "number_of_analyst_opinions": 6,
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 51.4,
-        "week52_position_pct": 28.5
+        "upside_pct": 61.7,
+        "week52_position_pct": 24.7
       }
     },
     {
       "signal": "SELL",
-      "confidence": 78,
-      "rationale": "Bear case dominates with concrete valuation metrics: trailing PE of 178.95 and forward PE of 46.66 are ~6x the sector average, with the stock exceeding Graham number by 638%, while the bull case relies heavily on momentum signals and analyst consensus without addressing the extreme premium pricing.",
+      "confidence": 68,
+      "rationale": "Bear case dominates with concrete red flags: trailing PE of 193, price 696.7% above Graham number, debt-to-equity of 31.1, and trading 6.8% above analyst consensus target all indicate extreme overvaluation that growth metrics cannot justify, despite the bull's momentum arguments.",
       "ticker": "COHR",
       "name": "Coherent Corp.",
-      "bull_case": "With RSI at 66 and a positive MACD histogram of 2.14, the stock shows solid upward momentum without overextension. Revenue growth of 20.5%, a PEG ratio of 0.92, and a “buy” recommendation from 21 analysts underscore a compelling growth/value profile, and the target mean price of $373.78 aligns with the current price, confirming market confidence in continued performance. Even with a debt‑to‑equity of 31.1, the company’s strong revenue growth and profit margin support leverage and future upside.",
-      "bear_case": "COHR’s trailing PE of 178.95 and forward PE of 46.66 are more than six times the sector average PE of 28, while its price exceeds the Graham number by 638%, indicating extreme overvaluation. The stock sits at 96.5% of its 52‑week range with a near‑zero upside_pct of –0.1% and a debt‑to‑equity of 31.09, signaling limited upside and high financial risk. Combined with a low profit margin of 7.1% and a volume ratio of 0.91, these metrics support a strong sell recommendation.",
+      "bull_case": "Coherent Corp. trades near its 52‑week high of $413 with a positive MACD histogram of 4.60 and an RSI of 71, confirming strong upward momentum, and 21 analysts rate it a “buy” with a mean target of $376, reflecting a consensus bullish outlook. The company’s 20.5% revenue growth, 7.1% profit margin, and a PEG ratio of 0.92 indicate it is undervalued relative to its growth, and its relative PE of 6.9 versus the sector average of 28 further underscores a compelling valuation.",
+      "bear_case": "COHR's valuation is stretched to a breaking point, as evidenced by a trailing PE of 193, a forward PE of 50, a relative PE of 6.9x the sector average, and a price that is 696.7% above its Graham number. The stock is technically overbought with an RSI of 71.2, sits at 97.3% of its 52‑week range and trades 6.8% above the mean analyst target of $376.3, and its debt‑to‑equity ratio of 31.1 signals extreme leverage risk. These metrics collectively support a SELL recommendation.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 66.00072349981002,
-        "macd_line": 18.638132845406403,
-        "macd_signal": 16.496277952817323,
-        "macd_histogram": 2.1418548925890804,
-        "ma50": 290.4244018554688,
-        "volume_ratio": 0.907284334516099
+        "rsi": 71.20073934857692,
+        "macd_line": 22.24354565526488,
+        "macd_signal": 17.645794450336993,
+        "macd_histogram": 4.597751204927889,
+        "ma50": 292.8824017333984,
+        "volume_ratio": 1.0097172376654588
       },
       "fundamentals_data": {
-        "pe_ratio": 178.95216,
-        "forward_pe": 46.660847,
-        "price_to_book": 6.8498745,
+        "pe_ratio": 193.16269,
+        "forward_pe": 50.366165,
+        "price_to_book": 7.3938203,
         "revenue_growth": 0.205,
         "profit_margin": 0.07102,
         "debt_to_equity": 31.093,
-        "target_mean_price": 373.78275,
-        "current_price": 374.01,
+        "target_mean_price": 376.25894,
+        "current_price": 403.71,
         "fifty_two_week_low": 73.66,
-        "fifty_two_week_high": 384.85,
+        "fifty_two_week_high": 413.0,
         "trailing_eps": 2.09,
         "book_value": 54.601,
         "peg_ratio": 0.92,
@@ -1563,45 +1568,45 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -0.1,
-        "week52_position_pct": 96.5,
+        "upside_pct": -6.8,
+        "week52_position_pct": 97.3,
         "graham_number": 50.67,
-        "price_vs_graham_pct": 638.1,
-        "relative_pe": 6.39,
+        "price_vs_graham_pct": 696.7,
+        "relative_pe": 6.9,
         "sector_pe_avg": 28.0,
         "peg_ratio": 0.92
       }
     },
     {
-      "signal": "HOLD",
-      "confidence": 58,
-      "rationale": "The arguments are roughly balanced: the bull's forward PE compression (95.8→46.9), 20% revenue growth, and 15 buy ratings provide credible support, but the bear's 3.42x sector relative PE, 95.8 trailing PE, and near-zero analyst upside (target at $195.67) correctly flag that current valuation leaves little margin of safety despite positive technical momentum.",
+      "signal": "SELL",
+      "confidence": 78,
+      "rationale": "Bear case dominates with concrete valuation metrics: trailing PE of 99.3 and forward PE of 48.9 are both 3.55x the sector average of 28, price-to-Graham of 713% and P/B of 14.99 indicate extreme overvaluation, and the mean target implies 4.3% downside—all while GLW sits at 96.8% of its 52-week range leaving no margin of safety; the bull's only rebuttal (PE compression from earnings acceleration) lacks quantified support and ignores the leverage risk from D/E of 80.4%.",
       "ticker": "GLW",
       "name": "Corning Incorporated",
-      "bull_case": "Corning's technical picture flashes bullish with a positive MACD histogram of 3.19, volume trading 1.66 times its six‑month average, and RSI at 66 indicating the rally still has room to run. The fundamentals support the move: 20% revenue growth, an 11% profit margin, a forward PE of 46.9 that is markedly lower than the trailing 95.8, 15 analysts maintaining a “buy” recommendation with a mean target of $195.7, only 1.3% below the current price, and the stock sitting at 93% of its 52‑week range.",
-      "bear_case": "Corning trades at a PE of 95.77 with a relative_pe of 3.42x its sector average of 28, meaning investors are paying over three times the typical technology valuation premium, and its price-to-graham_number of 682.6% confirms shares are dramatically overvalued relative to intrinsic worth; the stock sits at the 93.4th percentile of its 52-week range with analysts projecting a mere -1.3% upside to their $195.67 target, offering negligible reward for the elevated downside risk at these stretched valuations.",
+      "bull_case": "Revenue growth of 20% and an 11.1% profit margin give Corning a solid earnings foundation, while the 15‑analyst “buy” consensus and a forward PE of 48.9 that will compress as earnings accelerate confirm a bullish outlook. The MACD line at 11.85 crossing above the signal at 8.21, price well above the 50‑day moving average of $154.56, and a 96.8% position within the 52‑week range sustain upward momentum despite a modest –4.3% upside to the mean price target, making GLW a compelling BUY.",
+      "bear_case": "GLW is trading at $206.51, a 96.8% position within its 52‑week range, and the analyst mean target of $197.67 implies a 4.3% downside; the trailing PE of 99.3 and forward PE of 48.9 are 3.55× the sector average PE of 28, indicating extreme overvaluation. With a price‑to‑Graham ratio of 713%, a price‑to‑book of 14.99, and a debt‑to‑equity of 80.4%, the valuation leaves virtually no margin for error and a high probability of a downward re‑rating.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 66.95304668214285,
-        "macd_line": 10.48235261406694,
-        "macd_signal": 7.2958202218343295,
-        "macd_histogram": 3.1865323922326105,
-        "ma50": 153.38040145874024,
-        "volume_ratio": 1.6555805707489182
+        "rsi": 69.80020669249647,
+        "macd_line": 11.85462886391457,
+        "macd_signal": 8.20758391432723,
+        "macd_histogram": 3.6470449495873396,
+        "ma50": 154.5592012023926,
+        "volume_ratio": 0.9987759391044064
       },
       "fundamentals_data": {
-        "pe_ratio": 95.76812,
-        "forward_pe": 46.93693,
-        "price_to_book": 14.389199,
+        "pe_ratio": 99.28365,
+        "forward_pe": 48.895004,
+        "price_to_book": 14.989474,
         "revenue_growth": 0.2,
         "profit_margin": 0.1109,
         "debt_to_equity": 80.363,
-        "target_mean_price": 195.66667,
-        "current_price": 198.24,
+        "target_mean_price": 197.66667,
+        "current_price": 206.51,
         "fifty_two_week_low": 46.77,
-        "fifty_two_week_high": 208.92,
-        "trailing_eps": 2.07,
+        "fifty_two_week_high": 211.79,
+        "trailing_eps": 2.08,
         "book_value": 13.777,
         "peg_ratio": 1.4633,
         "short_name": "Corning Incorporated",
@@ -1610,45 +1615,45 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": -1.3,
-        "week52_position_pct": 93.4,
-        "graham_number": 25.33,
-        "price_vs_graham_pct": 682.6,
-        "relative_pe": 3.42,
+        "upside_pct": -4.3,
+        "week52_position_pct": 96.8,
+        "graham_number": 25.39,
+        "price_vs_graham_pct": 713.3,
+        "relative_pe": 3.55,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.46
       }
     },
     {
       "signal": "BUY",
-      "confidence": 62,
-      "rationale": "Bull case wins on valuation (forward PE 18.3 vs sector 28), analyst consensus (33 strong buys), and strong fundamentals (35% revenue growth, 46% margins), while bear's debt-to-equity concern (17.13) is noteworthy but manageable given TSMC's dominant market position and cash generation, though the Graham premium and MACD weakness suggest moderate rather than high conviction.",
+      "confidence": 82,
+      "rationale": "The bull case dominates with 33 analyst strong-buy consensus, 35.1% revenue growth, 46.5% profit margins, and a forward PE of just 18.4 that appears reasonable for TSMC's growth profile, while the bear's Graham-derived intrinsic value is an overly conservative measure that ignores growth premium, and the debt/elevated P/B metrics are typical for high-ROE semiconductor leaders with TSMC's cash generation capacity.",
       "ticker": "2330.TW",
       "name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
-      "bull_case": "Taiwan Semiconductor (2330.TW) offers a compelling BUY case with its forward PE of 18.3 being significantly below the sector average of 28, implying relative undervaluation, and the stock trading 13.6% below the mean analyst target of 2515 for a clear upside runway. Backed by 35.1% revenue growth, a 46.5% profit margin, a strong_buy consensus from 33 analysts, and an RSI of 57.9 that is neither overbought nor oversold, the fundamental and sentiment picture is overwhelmingly bullish.",
-      "bear_case": "At 2215, the stock sits at 90.7% of its 52‑week range, leaving minimal upside, and its price‑to‑Graham of 261.4% signals a 161% premium over intrinsic value. Its debt‑to‑equity of 17.13 is more than double the sector average, exposing it to refinancing risk, and the MACD histogram of –4.79 and a volume ratio of 0.39 reveal waning bullish momentum.",
+      "bull_case": "TSMC’s strong_buy consensus (33 analysts) sees 13.3% upside to the mean target of 2515 from the current 2220, underpinned by 35.1% revenue growth and a 46.5% profit margin that drive a forward PE of just 18.4 versus a trailing PE of 30.1. The technical picture reinforces the bullish case with the price well above the 50‑day MA at 1995 and an RSI of 58 that remains far from overbought territory, and the relative PE of 1.08 versus the sector average signals the stock is not overvalued at these levels.",
+      "bear_case": "TSMC is overpriced on multiple metrics, with its price 261.7% above the Graham‑derived intrinsic value and a price‑to‑book of 9.77 that signals a premium valuation far beyond fundamentals. Moreover, the stock sits at 91.1% of its 52‑week range, its debt‑to‑equity stands at 17.13 and the MACD histogram is negative at –4.47, combining a limited upside with elevated leverage and waning short‑term momentum to warrant a sell.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 57.879083445969556,
-        "macd_line": 81.77483631036421,
-        "macd_signal": 86.56326394534442,
-        "macd_histogram": -4.788427634980209,
-        "ma50": 1995.1497534179687,
-        "volume_ratio": 0.38804158489022994
+        "rsi": 58.384679358096406,
+        "macd_line": 82.17369670922426,
+        "macd_signal": 86.64303602511643,
+        "macd_histogram": -4.469339315892171,
+        "ma50": 1995.2497534179688,
+        "volume_ratio": 0.9299844411599705
       },
       "fundamentals_data": {
-        "pe_ratio": 30.131954,
-        "forward_pe": 18.33411,
-        "price_to_book": 9.750622,
+        "pe_ratio": 30.122118,
+        "forward_pe": 18.375498,
+        "price_to_book": 9.772633,
         "revenue_growth": 0.351,
         "profit_margin": 0.46505,
         "debt_to_equity": 17.131,
         "target_mean_price": 2515.6365,
-        "current_price": 2215.0,
+        "current_price": 2220.0,
         "fifty_two_week_low": 946.0,
         "fifty_two_week_high": 2345.0,
-        "trailing_eps": 73.51,
+        "trailing_eps": 73.7,
         "book_value": 227.165,
         "peg_ratio": 1.1294,
         "short_name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
@@ -1657,10 +1662,10 @@
         "sector": "Technology"
       },
       "undervaluation_data": {
-        "upside_pct": 13.6,
-        "week52_position_pct": 90.7,
-        "graham_number": 612.96,
-        "price_vs_graham_pct": 261.4,
+        "upside_pct": 13.3,
+        "week52_position_pct": 91.1,
+        "graham_number": 613.76,
+        "price_vs_graham_pct": 261.7,
         "relative_pe": 1.08,
         "sector_pe_avg": 28.0,
         "peg_ratio": 1.13
@@ -1668,31 +1673,31 @@
     },
     {
       "signal": "HOLD",
-      "confidence": 58,
-      "rationale": "Arguments are largely mirrored with opposite interpretations of the same data (e.g., identical RSI readings framed as bullish momentum vs. overbought condition). The bear case gains a marginal edge by highlighting weak volume (0.84), which the bull case ignores, but neither argument provides compelling new information beyond the other's reframing.",
+      "confidence": 60,
+      "rationale": "Both analysts use the same data points (RSI ~76, 94.7% of 52-week range, MACD histogram 0.29) but interpret them oppositely—the bear's traditional overbought reading (RSI>70, PE 31.2, near resistance) slightly edges the bull's momentum breakout thesis, but neither argument decisively dominates, warranting a HOLD.",
       "ticker": "0050.TW",
       "name": "YUANTA SECURITIES INV TRUST CO ",
-      "bull_case": "Technical indicators are bullish: the MACD line of 4.76 sits above the signal line with a positive histogram of 0.52, the price of 96.9 is well above the 50‑day MA of 81.83, and the RSI of 76 confirms strong upward momentum. With a PE of 31.7 and the ETF at 97.3% of its 52‑week range, only 1.5 points shy of the 52‑week high of 98.4, a near‑term breakout and further upside is likely.",
-      "bear_case": "RSI at 76.5 signals overbought conditions, the price of 96.9 is within 1.5% of its 52‑week high of 98.4, and the week52_position of 97.3% leaves virtually no upside room. Coupled with a stretched PE of 31.7 and a price that has surged well above the 50‑day MA of 81.8 on weak volume of 0.84, the risk‑reward profile clearly favors a sell.",
+      "bull_case": "The MACD line at 4.70 crossing above the signal at 4.41 with a positive histogram of 0.29 confirms bullish momentum, and the volume ratio of 1.23 shows strong buying interest. The ETF trades at 94.7% of its 52‑week range, close to the 98.4 high, and an RSI of 76 indicates sustained buying pressure that could propel a breakout.",
+      "bear_case": "RSI at 76.2 signals extreme overbought conditions with limited upside and elevated mean-reversion risk, while the week52_position_pct of 94.7% confirms the stock is trading at the upper end of its annual range near 98.4, leaving minimal room before hitting resistance. The elevated PE ratio of 31.2 combined with the narrow MACD histogram of 0.29 suggests weakening momentum and a vulnerable technical setup for a sharp reversal lower.",
       "sources": [],
       "social_posts": [],
       "technical_data": {
-        "rsi": 76.45322501084343,
-        "macd_line": 4.764057868883384,
-        "macd_signal": 4.242901475348088,
-        "macd_histogram": 0.5211563935352963,
-        "ma50": 81.82799957275391,
-        "volume_ratio": 0.8422033796740173
+        "rsi": 76.22252558080594,
+        "macd_line": 4.702390742008646,
+        "macd_signal": 4.408320566435062,
+        "macd_histogram": 0.2940701755735837,
+        "ma50": null,
+        "volume_ratio": 1.2293753460104195
       },
       "fundamentals_data": {
-        "pe_ratio": 31.70745,
+        "pe_ratio": 31.249344,
         "forward_pe": null,
         "price_to_book": null,
         "revenue_growth": null,
         "profit_margin": null,
         "debt_to_equity": null,
         "target_mean_price": null,
-        "current_price": 96.9,
+        "current_price": 95.5,
         "fifty_two_week_low": 43.8125,
         "fifty_two_week_high": 98.4,
         "trailing_eps": null,
@@ -1704,7 +1709,183 @@
         "sector": null
       },
       "undervaluation_data": {
-        "week52_position_pct": 97.3
+        "week52_position_pct": 94.7
+      }
+    },
+    {
+      "signal": "HOLD",
+      "confidence": 58,
+      "rationale": "Bull wins on revenue growth (39.5%) and sector PE discount (16.55 vs 28.0), but Bear wins decisively on negative book value (P/B -64.4) and the significant analyst downside target ($192.91 vs $243.87), creating a genuine stalemate where growth optimism is undermined by structural balance sheet concerns.",
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "bull_case": "Dell Technologies Inc. is delivering 39.5% revenue growth paired with a forward PE of 16.55, a fraction of the sector average of 28.0, indicating the market is underpricing its earnings potential. The positive MACD histogram of 1.65, price above the 50‑day moving average of $186.23, and a “buy” consensus from 23 analysts underline strong technical and sentiment momentum.",
+      "bear_case": "DELL trades at $243.87, already 87.2% of its 52‑week range, and the analyst mean target is $192.91, indicating a 20.9% downside; the negative book value of –$3.79 (price‑to‑book –64.4) and a PEG ratio of 1.08 highlight over‑valuation and weak profitability. The thin profit margin of 5.2% further underscores limited operational leverage.",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 65.48133637214667,
+        "macd_line": 17.204226927595755,
+        "macd_signal": 15.554621248760263,
+        "macd_histogram": 1.649605678835492,
+        "ma50": 186.2282730102539,
+        "volume_ratio": 0.6483028866822234
+      },
+      "fundamentals_data": {
+        "pe_ratio": 28.128027,
+        "forward_pe": 16.547302,
+        "price_to_book": -64.379616,
+        "revenue_growth": 0.395,
+        "profit_margin": 0.05228,
+        "debt_to_equity": null,
+        "target_mean_price": 192.91304,
+        "current_price": 243.87,
+        "fifty_two_week_low": 106.38,
+        "fifty_two_week_high": 263.99,
+        "trailing_eps": 8.67,
+        "book_value": -3.788,
+        "peg_ratio": 1.0793,
+        "short_name": "Dell Technologies Inc.",
+        "recommendation_key": "buy",
+        "number_of_analyst_opinions": 23,
+        "sector": "Technology"
+      },
+      "undervaluation_data": {
+        "upside_pct": -20.9,
+        "week52_position_pct": 87.2,
+        "relative_pe": 1.0,
+        "sector_pe_avg": 28.0,
+        "peg_ratio": 1.08
+      }
+    },
+    {
+      "signal": "SELL",
+      "confidence": 72,
+      "rationale": "The bear case dominates with valuation metrics that are alarmingly stretched: PE of 80.3, price 884% above Graham number ($9.14 vs $89.95), P/B of 27.2, and debt-to-equity of 3.2, outweighing the bull's 54% revenue growth and low forward PEG, especially given the limited 5.9% upside and overbought RSI conditions.",
+      "ticker": "INOD",
+      "name": "Innodata Inc.",
+      "bull_case": "Innodata Inc. is a strong buy, supported by 54% revenue growth, 13.9% profit margin, a forward PEG of 0.87, a relative PE of 2.87 versus a sector average of 28, and a four‑analyst consensus target of $95.25 that is 5.9% above the current $89.95. Despite RSI 74 indicating overbought conditions, the MACD histogram of 5.9 and the price well above the 50‑day moving average at $46.6 confirm bullish momentum and make any pull‑back a buying opportunity.",
+      "bear_case": "Innodata Inc. trades at a PE of 80.3 and a forward PE of 44.8, representing a relative PE of 2.87× its sector average of 28.0; its price of $89.95 sits 884% above the Graham number of $9.14 and its RSI of 74 signals overbought conditions. The stock’s debt‑to‑equity of 3.2, price‑to‑book of 27.2, and declining volume ratio of 0.82 underline excessive leverage and waning buying pressure, outweighing the positive revenue growth of 54.4% and the strong‑buy consensus. With limited upside of only 5.9% to the analyst target of $95.25 and the price already at 69.5% of its 52‑week range, the risk‑reward profile strongly favors a sell.",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 74.15231088871981,
+        "macd_line": 11.349692906477095,
+        "macd_signal": 5.453187800549788,
+        "macd_histogram": 5.896505105927307,
+        "ma50": 46.64439979553222,
+        "volume_ratio": 0.821834365613604
+      },
+      "fundamentals_data": {
+        "pe_ratio": 80.3125,
+        "forward_pe": 44.840477,
+        "price_to_book": 27.150618,
+        "revenue_growth": 0.544,
+        "profit_margin": 0.13864,
+        "debt_to_equity": 3.198,
+        "target_mean_price": 95.25,
+        "current_price": 89.95,
+        "fifty_two_week_low": 33.44,
+        "fifty_two_week_high": 114.77,
+        "trailing_eps": 1.12,
+        "book_value": 3.313,
+        "peg_ratio": 0.87,
+        "short_name": "Innodata Inc.",
+        "recommendation_key": "strong_buy",
+        "number_of_analyst_opinions": 4,
+        "sector": "Technology"
+      },
+      "undervaluation_data": {
+        "upside_pct": 5.9,
+        "week52_position_pct": 69.5,
+        "graham_number": 9.14,
+        "price_vs_graham_pct": 884.4,
+        "relative_pe": 2.87,
+        "sector_pe_avg": 28.0,
+        "peg_ratio": 0.87
+      }
+    },
+    {
+      "signal": "SELL",
+      "confidence": 62,
+      "rationale": "The bear case dominates with overwhelming fundamental red flags: P/B of 39.2, D/E of 6.1, negative profit margin of -26.9%, and analyst consensus target of $100.84 implying 18.8% downside from current $124.15. While the bull case highlights strong revenue growth and momentum, the technical overbought conditions (RSI 75-76, 61% above 50-day MA, 97% of 52-week high) actually reinforce rather than contradict the bear case, as extended positions at these valuation levels with no profitability and high debt create unsustainable risk-reward dynamics.",
+      "ticker": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "bull_case": "Revenue growth of 63.5% and a BUY recommendation from 15 analysts underline a powerful fundamental foundation for Rocket Lab. The MACD histogram of 4.36 and the stock trading just $3 below its 52‑week high of $127.22 signal accelerating upward momentum that could trigger a breakout. With RSI 75 the market is in a strong uptrend, reinforcing the bullish setup.",
+      "bear_case": "RKLB is technically overbought with an RSI of 75.8 and a price 61% above its 50‑day moving average of $76.94, and the MACD histogram at 4.36 signals waning momentum, with the stock sitting at 97% of its 52‑week high. Fundamentally, the firm trades at a P/B of 39.2, a forward PE of –14,572, a negative profit margin of –26.9%, a debt‑to‑equity of 6.1, and a trailing EPS of –$0.32, and the analyst consensus target of $100.84 implies an 18.8% downside from the current $124.15 price, making the risk‑reward unattractive for buyers.",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 75.75553740930837,
+        "macd_line": 10.046976759089375,
+        "macd_signal": 5.689142613172706,
+        "macd_histogram": 4.357834145916669,
+        "ma50": 76.93760032653809,
+        "volume_ratio": 0.9652578971812442
+      },
+      "fundamentals_data": {
+        "pe_ratio": null,
+        "forward_pe": -14571.597,
+        "price_to_book": 39.188763,
+        "revenue_growth": 0.635,
+        "profit_margin": -0.26872,
+        "debt_to_equity": 6.124,
+        "target_mean_price": 100.83667,
+        "current_price": 124.15,
+        "fifty_two_week_low": 21.86,
+        "fifty_two_week_high": 127.22,
+        "trailing_eps": -0.32,
+        "book_value": 3.168,
+        "peg_ratio": null,
+        "short_name": "Rocket Lab Corporation",
+        "recommendation_key": "buy",
+        "number_of_analyst_opinions": 15,
+        "sector": "Industrials"
+      },
+      "undervaluation_data": {
+        "upside_pct": -18.8,
+        "week52_position_pct": 97.1
+      }
+    },
+    {
+      "signal": "SELL",
+      "confidence": 82,
+      "rationale": "The bear case dominates with catastrophic fundamentals (negative EPS of -1.8, zero profit margin, debt-to-equity of 112.4%, and P/B of 11.6x for a money-losing company) while the bull case relies on weak technical signals (positive MACD histogram when MACD line is still deeply negative at -3.48, and price sitting 12% below its 50-day MA). The modest 10.5% upside target with an analyst consensus of HOLD does not justify owning a leveraged, unprofitable company at these valuations.",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile, Inc.",
+      "bull_case": "ASTS is setting up for a bullish move as the MACD histogram has turned positive (+0.75) and the 50‑day moving average at $84.35 sits just above the current price of $74.81, indicating room for a technical rebound. Combined with revenue growth of 19.5% and an analyst target mean price of $82.65, the stock offers a 10.5% upside from today’s level, making it attractive for a BUY.",
+      "bear_case": "AST SpaceMobile trades 12% below its 50-day moving average at $74.81 versus MA50 of $84.35, with the MACD line at -3.48 and signal at -4.23 firmly in bearish territory. The fundamental picture is catastrophic: negative trailing EPS of -1.8, zero profit margin, an astronomically negative forward PE of -276.6, and a dangerously elevated debt-to-equity ratio of 112.4% indicating the company is leveraged beyond sustainable levels. With a hold recommendation from analysts, modest 10.5% upside to the $82.65 target, and a P/B of 11.6x that prices in far more growth than a money-losing satellite company with negative earnings can deliver, the risk-reward skews heavily toward further downside.",
+      "sources": [],
+      "social_posts": [],
+      "technical_data": {
+        "rsi": 47.57302363151577,
+        "macd_line": -3.4799428572374325,
+        "macd_signal": -4.231340126586613,
+        "macd_histogram": 0.7513972693491802,
+        "ma50": 84.35049980163575,
+        "volume_ratio": 0.7394578612532577
+      },
+      "fundamentals_data": {
+        "pe_ratio": null,
+        "forward_pe": -276.6028,
+        "price_to_book": 11.596651,
+        "revenue_growth": 19.522,
+        "profit_margin": 0.0,
+        "debt_to_equity": 112.424,
+        "target_mean_price": 82.65,
+        "current_price": 74.81,
+        "fifty_two_week_low": 22.47,
+        "fifty_two_week_high": 129.89,
+        "trailing_eps": -1.8,
+        "book_value": 6.451,
+        "peg_ratio": null,
+        "short_name": "AST SpaceMobile, Inc.",
+        "recommendation_key": "hold",
+        "number_of_analyst_opinions": 8,
+        "sector": "Technology"
+      },
+      "undervaluation_data": {
+        "upside_pct": 10.5,
+        "week52_position_pct": 48.7
       }
     }
   ]
