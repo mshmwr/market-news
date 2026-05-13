@@ -29,16 +29,26 @@ const BADGE_COLOR: Record<string, string> = {
   SELL: '#c62828',
 };
 
+// SOT sync: keys must mirror SignalCatFilter.tsx CAT_ACTIVE_STYLE.
+// Missing key = badge silently hidden on card (cat truthy but catStyle undefined → render gate fails).
 const CAT_STYLE: Record<string, { bg: string; color: string }> = {
   '半導體': { bg: '#e3f2fd', color: '#1565c0' },
+  '晶圓':   { bg: '#e1f5fe', color: '#01579b' },
   '光電':   { bg: '#f3e5f5', color: '#6a1b9a' },
+  '雷射':   { bg: '#fce4ec', color: '#ad1457' },
   '電子':   { bg: '#fce4ec', color: '#880e4f' },
+  '消費電子': { bg: '#fff3e0', color: '#bf360c' },
+  '材料':   { bg: '#efebe9', color: '#5d4037' },
   'AI/雲端': { bg: '#e8eaf6', color: '#283593' },
+  'AI資料': { bg: '#ede7f6', color: '#4527a0' },
   '資安':   { bg: '#ffebee', color: '#c62828' },
   'EV':     { bg: '#e8f5e9', color: '#2e7d32' },
   '無人機': { bg: '#e0f7fa', color: '#00695c' },
+  '量子':   { bg: '#f3e5f5', color: '#4a148c' },
+  '太空':   { bg: '#e8eaf6', color: '#1a237e' },
   '加密貨幣': { bg: '#fff3e0', color: '#e65100' },
   'ETF':    { bg: '#f5f5f5', color: '#555' },
+  '台股ETF': { bg: '#e0f2f1', color: '#00695c' },
   '指數':   { bg: '#efebe9', color: '#4e342e' },
   '通訊':   { bg: '#e8f4fd', color: '#0277bd' },
   '原物料': { bg: '#fff8e1', color: '#f57f17' },
