@@ -19,6 +19,7 @@ import SignalSort, { type SortOrder } from '@/components/signals/SignalSort';
 import NewsItemRow from '@/components/news/NewsItem';
 import NewsFilters from '@/components/news/NewsFilters';
 import RegenerateButton from '@/components/digest/RegenerateButton';
+import RefreshButton from '@/components/signals/RefreshButton';
 import FeedbackButton from '@/components/feedback/FeedbackButton';
 
 type ActionFilter = 'all' | 'BUY' | 'HOLD' | 'SELL';
@@ -159,6 +160,8 @@ export default function PageClient({ signals, news, generatedAt, newsError, dige
                 <span className="text-[12px] text-gray-400">{generatedAtFormatted}</span>
               )}
             </div>
+
+            <RefreshButton />
 
             {signals.length === 0 ? (
               <p className="text-[14px] text-gray-400 py-4">訊號暫未生成</p>
