@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Microsoft feared being too dependent on OpenAI, Musk-Altman trial testimony reveals",
-        "description": "Top Microsoft executives testified in Musk v. Altman this week, spelling out concerns they had in the early days of the partnership with OpenAI.",
-        "link": "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778712499
-      }
-    ],
+    "articles": [],
     "ticker": "MSFT"
   },
   "technical": {
-    "rsi": 49.22562575916965,
-    "macd_line": 2.672523245042555,
-    "macd_signal": 5.004314521107747,
-    "macd_histogram": -2.331791276065192,
-    "ma50": 398.80779296875,
-    "volume_ratio": 0.36910076805659037,
+    "rsi": 50.321038255189556,
+    "macd_line": 2.801186875762369,
+    "macd_signal": 5.030310768271673,
+    "macd_histogram": -2.229123892509304,
+    "ma50": 398.8399987792969,
+    "volume_ratio": 0.7680802544641745,
     "ticker": "MSFT"
   },
   "fundamentals": {
-    "pe_ratio": 24.303932,
-    "forward_pe": 21.071026,
-    "price_to_book": 7.311616,
+    "pe_ratio": 24.39988,
+    "forward_pe": 21.15421,
+    "price_to_book": 7.340481,
     "revenue_growth": 0.183,
     "profit_margin": 0.39341998,
     "debt_to_equity": 30.271,
     "target_mean_price": 561.5561,
-    "current_price": 407.82,
+    "current_price": 409.43,
     "fifty_two_week_low": 356.28,
     "fifty_two_week_high": 555.45,
     "trailing_eps": 16.78,

@@ -2,60 +2,44 @@
   "news": {
     "articles": [
       {
+        "title": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal",
+        "description": "Overbought warnings come ahead of a massive tech and retail earnings lineup.",
+        "link": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1778788680
+      },
+      {
         "title": "Xi tells Musk, Tim Cook and other CEOs on Trump's trip: China will 'open wider'",
         "description": "Tesla and Space X boss Elon Musk, Nvidia's CEO Jensen Huang and Apple CEO Tim Cook were part of Trump's delegation.",
         "link": "https://www.cnbc.com/2026/05/14/xi-china-open-us-business-ai-chips.html",
         "source": "CNBC",
         "category": "美股",
-        "published_ts": 1778761339
-      },
-      {
-        "title": "Nvidia moves one step closer to a breakthrough on Chinese exports after reaching another milestone",
-        "description": "Nvidia’s chief executive Jensen Huang has been lobbying for a long time for the ability to export advanced semiconductor chips to China in the face of opposition from both Washington and Beijing. It appears a breakthrough might have been made.",
-        "link": "https://www.marketwatch.com/story/nvidia-moves-one-step-closer-to-a-breakthrough-on-chinese-exports-after-reaching-another-milestone-aebeda28?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778757600
-      },
-      {
-        "title": "Chinese companies are ramping up homegrown AI chips, even if Nvidia is coming back",
-        "description": "Chinese tech companies have turned to domestic chips as Nvidia has remained shut out of the market.",
-        "link": "https://www.cnbc.com/2026/05/14/china-ai-chips-nvidia.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778757429
-      },
-      {
-        "title": "Trump-Xi summit revives China tech rally hopes as U.S. reportedly clears Nvidia H200 sales",
-        "description": "Market watchers are betting that the Trump-Xi summit could extend trade truce and lift Chinese equities.",
-        "link": "https://www.cnbc.com/2026/05/14/trump-xi-meeting-china-stocks-ai-rally.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1778744650
+        "published_ts": 1778771566
       }
     ],
     "ticker": "NVDA"
   },
   "technical": {
-    "rsi": 74.64104154684962,
-    "macd_line": 8.850500363890376,
-    "macd_signal": 6.947438765065369,
-    "macd_histogram": 1.9030615988250066,
-    "ma50": 192.13201110839844,
-    "volume_ratio": 0.16581595819703074,
+    "rsi": 76.72321203677048,
+    "macd_line": 9.244851002387009,
+    "macd_signal": 7.026660035476974,
+    "macd_histogram": 2.2181909669100346,
+    "ma50": 192.23081115722655,
+    "volume_ratio": 1.15264357281258,
     "ticker": "NVDA"
   },
   "fundamentals": {
-    "pe_ratio": 47.091858,
-    "forward_pe": 20.297821,
-    "price_to_book": 35.6536,
+    "pe_ratio": 48.110203,
+    "forward_pe": 20.736755,
+    "price_to_book": 36.4246,
     "revenue_growth": 0.732,
     "profit_margin": 0.55603004,
     "debt_to_equity": 7.255,
     "target_mean_price": 269.9549,
-    "current_price": 230.805,
+    "current_price": 235.74,
     "fifty_two_week_low": 129.16,
-    "fifty_two_week_high": 232.18,
+    "fifty_two_week_high": 236.54,
     "trailing_eps": 4.9,
     "book_value": 6.472,
     "peg_ratio": 0.6831,

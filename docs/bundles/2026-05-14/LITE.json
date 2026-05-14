@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "3 financial rules that have stood the test of time — from the person who wrote the book on them",
-        "description": "Beth Kobliner’s classic tome of financial literacy for Gen X still works today for Gen Z.",
-        "link": "https://www.marketwatch.com/story/3-financial-rules-that-have-stood-the-test-of-time-from-the-person-who-wrote-the-book-on-them-c28f1081?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1778767200
-      }
-    ],
+    "articles": [],
     "ticker": "LITE"
   },
   "technical": {
-    "rsi": 58.14411683506418,
-    "macd_line": 54.163945807215896,
-    "macd_signal": 49.409222870772524,
-    "macd_histogram": 4.754722936443372,
-    "ma50": 812.4809997558593,
-    "volume_ratio": 0.1713981611010248,
+    "rsi": 58.5596159810827,
+    "macd_line": 54.51975662706059,
+    "macd_signal": 49.479409198521346,
+    "macd_histogram": 5.040347428539242,
+    "ma50": 812.5703991699219,
+    "volume_ratio": 0.6144151735540015,
     "ticker": "LITE"
   },
   "fundamentals": {
-    "pe_ratio": 175.8977,
-    "forward_pe": 55.407627,
-    "price_to_book": 84.11403,
+    "pe_ratio": 176.68607,
+    "forward_pe": 55.655956,
+    "price_to_book": 84.49101,
     "revenue_growth": 0.901,
     "profit_margin": 0.17678,
     "debt_to_equity": 111.445,
     "target_mean_price": 1104.6841,
-    "current_price": 997.34,
+    "current_price": 1001.81,
     "fifty_two_week_low": 71.04,
     "fifty_two_week_high": 1085.68,
     "trailing_eps": 5.67,
