@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Bill Ackman built Microsoft stake in first quarter during sell-off, betting on AI and cloud growth",
+        "description": "Bill Ackman's Pershing Square Capital Management has built a position in Microsoft, the billionaire hedge fund manager said Friday in a post on X.",
+        "link": "https://www.cnbc.com/2026/05/15/bill-ackman-says-he-built-microsoft-position-in-first-quarter.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778851691
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 57.90541652302247,
+    "macd_line": 3.384894615056794,
+    "macd_signal": 4.701227537628697,
+    "macd_histogram": -1.3163329225719034,
+    "ma50": 399.06479919433593,
+    "volume_ratio": 1.455596670884014,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 25.129244,
+    "forward_pe": 21.799538,
+    "price_to_book": 7.5644083,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.5561,
+    "current_price": 421.92,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.2863,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
