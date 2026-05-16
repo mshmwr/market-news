@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump went big on tech stocks in first quarter of 2026, new filings show",
+        "description": "Trump bought shares of Amazon, Meta, Oracle, Broadcom, Motorola and Dell worth millions, new ethics disclosure filings show.",
+        "link": "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778873645
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 45.60405914471164,
+    "macd_line": -6.501288006863319,
+    "macd_signal": -3.633686015661167,
+    "macd_histogram": -2.8676019912021524,
+    "ma50": 621.8048767089844,
+    "volume_ratio": 0.8336323281742128,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.319403,
+    "forward_pe": 16.974262,
+    "price_to_book": 6.3973627,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 614.23,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.8893,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
