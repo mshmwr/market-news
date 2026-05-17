@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia is getting some help as it props up S&P 500 earnings growth",
+        "description": "Micron is expected to be the second-largest contributor to the index’s overall earnings growth — behind Nvidia, whose impact will likely diminish.",
+        "link": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779045900
+      },
+      {
+        "title": "Meet the Nvidias of power — 5 stocks winning Big Tech’s $700 billion AI energy grab",
+        "description": "Infrastructure giants such as GE Vernova and Bloom Energy are the new gatekeepers of the AI grid.",
+        "link": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779045000
+      },
+      {
+        "title": "Here are the 3 big things we're watching in the stock market for the week ahead",
+        "description": "Nvidia's earnings report and Google's developer conference will keep the AI boom front and center.",
+        "link": "https://www.cnbc.com/2026/05/17/3-big-things-were-watching-in-the-stock-market-for-the-week-ahead.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779034221
+      },
+      {
+        "title": "What you need to know about Nvidia competitor Cerebras after wild IPO",
+        "description": "Nvidia competitor Cerebras made a stunning debut on Wall Street Thursday, signaling unstoppable demand for AI chips. Here's how its chips compete with Nvidia's.",
+        "link": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778875555
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 64.66530367124204,
+    "macd_line": 9.335160101394933,
+    "macd_signal": 7.488360048660566,
+    "macd_histogram": 1.846800052734367,
+    "ma50": 193.07060974121094,
+    "volume_ratio": 1.1724112887217488,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 46.077713,
+    "forward_pe": 19.713346,
+    "price_to_book": 34.814587,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 272.93738,
+    "current_price": 225.32,
+    "fifty_two_week_low": 129.16,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 4.89,
+    "book_value": 6.472,
+    "peg_ratio": 0.6831,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

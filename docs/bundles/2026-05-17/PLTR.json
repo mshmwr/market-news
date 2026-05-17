@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump touted Palantir on Truth Social after buying the company's stock, records show",
+        "description": "During the first three months of the year, Trump purchased between $630,000 and $247,008 worth of Palantir stock and sold at least $1.1 million.",
+        "link": "https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1778876909
+      }
+    ],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 43.483986231549466,
+    "macd_line": -2.8076909946294677,
+    "macd_signal": -2.2451285652703876,
+    "macd_histogram": -0.5625624293590801,
+    "ma50": 144.40359985351563,
+    "volume_ratio": 0.7293194674109448,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 152.26137,
+    "forward_pe": 64.897514,
+    "price_to_book": 43.3765,
+    "revenue_growth": 0.847,
+    "profit_margin": 0.43673,
+    "debt_to_equity": 2.477,
+    "target_mean_price": 183.7289,
+    "current_price": 133.99,
+    "fifty_two_week_low": 118.93,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.88,
+    "book_value": 3.089,
+    "peg_ratio": 2.0459,
+    "short_name": "Palantir Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

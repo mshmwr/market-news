@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Here are the 3 big things we're watching in the stock market for the week ahead",
+        "description": "Nvidia's earnings report and Google's developer conference will keep the AI boom front and center.",
+        "link": "https://www.cnbc.com/2026/05/17/3-big-things-were-watching-in-the-stock-market-for-the-week-ahead.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779034221
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 70.23703512478777,
+    "macd_line": 20.132991271146068,
+    "macd_signal": 19.742829211883837,
+    "macd_histogram": 0.3901620592622308,
+    "ma50": 332.7365997314453,
+    "volume_ratio": 0.728341014240167,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.311687,
+    "forward_pe": 27.456259,
+    "price_to_book": 10.041504,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 427.88712,
+    "current_price": 396.78,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 403.7,
+    "trailing_eps": 13.09,
+    "book_value": 39.514,
+    "peg_ratio": 1.5781,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}
