@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Could the Iran war trigger the next debt shock?",
+        "description": "Government bonds are under pressure and households could soon feel the impact.",
+        "link": "https://www.aljazeera.com/video/counting-the-cost/2026/5/18/could-the-iran-war-trigger-the-next-debt-shock?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779131820
+      }
+    ],
+    "ticker": "ONDS"
+  },
+  "technical": {
+    "rsi": 48.90383557816959,
+    "macd_line": -0.028757885130605843,
+    "macd_signal": -0.08627698129473182,
+    "macd_histogram": 0.05751909616412598,
+    "ma50": 9.906599979400635,
+    "volume_ratio": 1.1794385638101297,
+    "ticker": "ONDS"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.333332,
+    "forward_pe": -138.57143,
+    "price_to_book": 8.434783,
+    "revenue_growth": 6.292,
+    "profit_margin": -2.60233,
+    "debt_to_equity": 5.345,
+    "target_mean_price": 20.125,
+    "current_price": 9.7,
+    "fifty_two_week_low": 0.828,
+    "fifty_two_week_high": 15.28,
+    "trailing_eps": 0.3,
+    "book_value": 1.15,
+    "peg_ratio": null,
+    "short_name": "Ondas Inc",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 8,
+    "sector": "Technology",
+    "ticker": "ONDS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ONDS",
+    "available": false
+  }
+}

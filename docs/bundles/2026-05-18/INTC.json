@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump says he should've asked for 'more' of Intel when negotiating stake with CEO",
+        "description": "The chipmaker's stock has soared since the U.S. equity deal in August gave the government 9.9% of the company.",
+        "link": "https://www.cnbc.com/2026/05/18/trump-stake-in-intel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779107200
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 61.659348653962596,
+    "macd_line": 13.78618022134718,
+    "macd_signal": 14.667492741487514,
+    "macd_histogram": -0.8813125201403338,
+    "ma50": 70.79480003356933,
+    "volume_ratio": 0.9041081947320123,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 70.25303,
+    "price_to_book": 4.726883,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 85.00476,
+    "current_price": 108.17,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.884,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta layoffs starting this week stress harsh AI reality inside Zuckerberg’s company",
+        "description": "Meta is starting layoffs this week, with 8,000 jobs expected to be cut, as employees brace for a new era of AI.",
+        "link": "https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779122006
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 44.51391196463784,
+    "macd_line": -6.588951384839788,
+    "macd_signal": -4.223622481365003,
+    "macd_histogram": -2.3653289034747855,
+    "ma50": 621.14291015625,
+    "volume_ratio": 0.8387653468195805,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.209665,
+    "forward_pe": 16.901941,
+    "price_to_book": 6.365909,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 611.21,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.8893,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

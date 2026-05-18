@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "^VIX"
+  },
+  "technical": {
+    "rsi": 45.410758950388235,
+    "macd_line": -0.8018830219640343,
+    "macd_signal": -1.0421321049747703,
+    "macd_histogram": 0.240249083010736,
+    "ma50": 21.437000122070312,
+    "volume_ratio": null,
+    "ticker": "^VIX"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": null,
+    "price_to_book": null,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 17.82,
+    "fifty_two_week_low": 13.38,
+    "fifty_two_week_high": 35.3,
+    "trailing_eps": null,
+    "book_value": null,
+    "peg_ratio": null,
+    "short_name": "CBOE Volatility Index",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "^VIX"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "^VIX",
+    "available": false
+  }
+}

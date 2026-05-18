@@ -1,0 +1,137 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Musk slams Altman trial verdict as a 'technicality,' vows to appeal",
+        "description": "A jury in Oakland, California, ruled against Elon Musk in his dramatic court battle with Sam Altman and OpenAI.",
+        "link": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779139863
+      },
+      {
+        "title": "Elon Musk loses his case against OpenAI and Sam Altman after just two hours of jury deliberation",
+        "description": "Musk intends to appeal the verdict, according to his lawyer.",
+        "link": "https://www.marketwatch.com/story/elon-musk-has-lost-his-case-against-openai-and-sam-altman-b0998cff?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779139320
+      },
+      {
+        "title": "Musk loses OpenAI court battle after jury finds he waited too long to sue",
+        "description": "Jurors spent weeks hearing about Musk's claim that Altman had \"stolen a charity.\"",
+        "link": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779137997
+      },
+      {
+        "title": "Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request",
+        "description": "The U.S. and Iran are in a stalemate centered on the Strait of Hormuz, the global oil pathway whose closure due to the war has caused an energy supply shock.",
+        "link": "https://www.cnbc.com/2026/05/18/trump-iran-attack-saudi-uae-qatar-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779136967
+      },
+      {
+        "title": "Seagate leads memory sell-off as CEO says it would 'take too long' to build new factories",
+        "description": "Seagate CEO Dave Mosley's comment sent shares sinking, along with those of Micron, SanDisk and Western Digital.",
+        "link": "https://www.cnbc.com/2026/05/18/seagate-memory-chip-stocks-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779135483
+      },
+      {
+        "title": "Some change, but much more of the same in Palestinian Fatah elections",
+        "description": "Abbas&#039;s son Yasser joins Fatah leadership, raising questions about nepotism and the group&#039;s commitment to inclusivity.",
+        "link": "https://www.aljazeera.com/features/2026/5/18/some-change-but-much-more-of-the-same-in-palestinian-fatah-elections?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779132832
+      },
+      {
+        "title": "Elon Musk loses US lawsuit against OpenAI",
+        "description": "In a unanimous verdict, the jury in Oakland, California federal court said Musk had brought his case ⁠too late.",
+        "link": "https://www.aljazeera.com/news/2026/5/18/elon-musk-loses-lawsuit-against-openai?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779127127
+      },
+      {
+        "title": "Judge blocks evidence from Luigi Mangione backpack in UnitedHealthcare CEO murder case",
+        "description": "Luigi Mangione was apprehended by police in a McDonald's in Altoona, Pennsylvania, days after the killing of UnitedHealthcare CEO Brian Thompson.",
+        "link": "https://www.cnbc.com/2026/05/18/luigi-mangione-backpack-evidence-unitedhealthcare-murder.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779125365
+      },
+      {
+        "title": "Four killed in protests during Kenyan strikes over high fuel prices",
+        "description": "Thousands of commuters are stranded, with key roads in the capital Nairobi largely empty due to the protests over fuel costs.",
+        "link": "https://www.bbc.com/news/articles/cm2p0n44drvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779122985
+      },
+      {
+        "title": "Judge rules gun and writings are admissible in Luigi Mangione's New York murder trial",
+        "description": "Other items found with Mangione at a Pennsylvania McDonald's will not be allowed to be presented in court, the judge ruled.",
+        "link": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779120017
+      },
+      {
+        "title": "Israeli forces board Gaza-bound flotilla near Cyprus, activists say",
+        "description": "Live broadcasts from the Global Sumud flotilla show commandos boarding several boats trying to breach the Gaza maritime blockade.",
+        "link": "https://www.bbc.com/news/articles/c142vz80553o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779118230
+      },
+      {
+        "title": "Ominous bond trades point to much higher rates",
+        "description": "The put bets would be a bet on a yield spike since bond prices (value of the TLT fund) move inversely to rates.",
+        "link": "https://www.cnbc.com/2026/05/18/ominous-bond-trades-point-to-much-higher-rates.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779104511
+      }
+    ],
+    "ticker": "MU"
+  },
+  "technical": {
+    "rsi": 59.62547189064131,
+    "macd_line": 81.06019847447385,
+    "macd_signal": 75.23720934077747,
+    "macd_histogram": 5.822989133696382,
+    "ma50": 492.41058837890625,
+    "volume_ratio": 1.2052106777812466,
+    "ticker": "MU"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.208885,
+    "forward_pe": 6.643849,
+    "price_to_book": 10.609773,
+    "revenue_growth": 1.963,
+    "profit_margin": 0.41486,
+    "debt_to_equity": 14.902,
+    "target_mean_price": 584.2439,
+    "current_price": 681.54,
+    "fifty_two_week_low": 90.93,
+    "fifty_two_week_high": 818.67,
+    "trailing_eps": 21.16,
+    "book_value": 64.237,
+    "peg_ratio": 0.2578,
+    "short_name": "Micron Technology, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "MU"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MU",
+    "available": false
+  }
+}
