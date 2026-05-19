@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Anthropic and U.S. government to face off in DC court over blacklisting of AI company",
+        "description": "Anthropic sued the Defense Department in March after the agency declared the artificial intelligence startup a supply chain risk.",
+        "link": "https://www.cnbc.com/2026/05/19/anthropic-dod-blacklist-court-opening-arguments.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779220351
+      },
+      {
+        "title": "Anthropic hires OpenAI co-founder Andrej Karpathy, former Tesla AI leader",
+        "description": "Andrej Karpathy, an artificial intelligence researcher who co-founded OpenAI before getting poached by Tesla, said he's joining Anthropic.",
+        "link": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779209167
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 63.31438015712097,
+    "macd_line": 12.891270665688822,
+    "macd_signal": 14.312394898468664,
+    "macd_histogram": -1.4211242327798423,
+    "ma50": 72.0992000579834,
+    "volume_ratio": 0.8992551587098706,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 71.961136,
+    "price_to_book": 4.8418107,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 87.8619,
+    "current_price": 110.8,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.59,
+    "book_value": 22.884,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

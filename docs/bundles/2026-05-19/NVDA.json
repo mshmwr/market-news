@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 59.95157547947611,
+    "macd_line": 8.605574643801049,
+    "macd_signal": 7.963850094452966,
+    "macd_histogram": 0.6417245493480825,
+    "ma50": 194.7202001953125,
+    "volume_ratio": 0.8888537761726911,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 45.11452,
+    "forward_pe": 18.975262,
+    "price_to_book": 34.086834,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 275.3058,
+    "current_price": 220.61,
+    "fifty_two_week_low": 129.16,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 4.89,
+    "book_value": 6.472,
+    "peg_ratio": 0.7057,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

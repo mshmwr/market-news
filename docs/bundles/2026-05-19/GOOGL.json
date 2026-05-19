@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google debuts new AI models, personal AI agents in effort to keep pace with OpenAI and Anthropic",
+        "description": "Google made a number of AI announcements at its annual developer conference, rolling out more-advanced models and agentic tools for its expansive user base.",
+        "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779223924
+      },
+      {
+        "title": "CoreWeave’s stock falls as new Google cloud venture may signal more competition ahead",
+        "description": "A joint venture between Google and Blackstone isn’t “immediately problematic” for CoreWeave, but rather a sign that the market could get more crowded, according to a Bernstein analyst.",
+        "link": "https://www.marketwatch.com/story/coreweaves-stock-falls-as-new-google-cloud-venture-may-signal-more-competition-ahead-7bd7fb30?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779223260
+      },
+      {
+        "title": "Google gives first glimpse of new AI glasses ahead of fall launch",
+        "description": "At its annual developers conference, Google offered a first look at its audio smart glasses that will be available later this year.",
+        "link": "https://www.cnbc.com/2026/05/19/google-gives-first-glimpse-of-new-ai-glasses-ahead-of-fall-launch-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779221421
+      },
+      {
+        "title": "New data boosts our confidence in Lilly's obesity pill. Plus, Google's new AI features",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/05/19/new-data-boosts-our-confidence-in-lillys-obesity-pill-plus-googles-new-ai-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779215917
+      },
+      {
+        "title": "Google I/O primer: Alphabet's AI showcase is its chance to wow Wall Street",
+        "description": "After a 140% stock surge and a sweeping Wall Street reset, Google’s developer conference has to prove the AI story is more than a market narrative.",
+        "link": "https://www.cnbc.com/2026/05/18/google-i-o-alphabet-ai-wall-street.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779152659
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 62.07043892775311,
+    "macd_line": 17.83483387068901,
+    "macd_signal": 19.303356084451078,
+    "macd_histogram": -1.4685222137620677,
+    "ma50": 336.3352001953125,
+    "volume_ratio": 1.3358722919857395,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.592365,
+    "forward_pe": 26.825176,
+    "price_to_book": 9.8107,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 427.88712,
+    "current_price": 387.66,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.5629,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}
