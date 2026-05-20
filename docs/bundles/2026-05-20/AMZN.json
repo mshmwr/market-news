@@ -1,26 +1,67 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Bezos defends billionaires, hypes AI, talks taxes and praises Trump in CNBC interview",
+        "description": "Jeff Bezos rejected accusations that Amazon's decision to release a documentary on first lady Melania Trump was an effort to curry favor with the president.",
+        "link": "https://www.cnbc.com/2026/05/20/jeff-bezos-taxes-ai-corporations-trump.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779314055
+      },
+      {
+        "title": "Mamdani fires back at Bezos over Queens teacher tax remark",
+        "description": "Amazon founder Jeff Bezos called for eliminating federal income taxes on the bottom half of earners as Mamdani pushes a luxury second-home tax in New York City.",
+        "link": "https://www.cnbc.com/2026/05/20/bezos-mamdani-queens-income-tax-teachers-pay.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779310856
+      },
+      {
+        "title": "Airbnb adds hotels, car rentals. Chesky says app can become an 'Amazon for services'",
+        "description": "Airbnb on Wednesday added new services and independent hotels to its platform in its latest expansion move in the travel industry.",
+        "link": "https://www.cnbc.com/2026/05/20/airbnb-hotels-car-rentals-ai-rentals.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779307028
+      },
+      {
+        "title": "Jeff Bezos says bottom half of earners should pay zero in income taxes",
+        "description": "Amazon Executive Chairman Jeff Bezos on Wednesday called for zero federal income taxes on the bottom half of earners.",
+        "link": "https://www.cnbc.com/2026/05/20/jeff-bezos-income-taxes.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779295412
+      },
+      {
+        "title": "Bezos brushes off concerns of an AI bubble: 'You shouldn't worry about it'",
+        "description": "Amazon founder Jeff Bezos shrugged off concerns of a looming AI bubble, saying the massive investments will ultimately drive the technology forward over time.",
+        "link": "https://www.cnbc.com/2026/05/20/bezos-ai-bubble-concerns-amazon-prometheum-blue-origin.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779289787
+      }
+    ],
     "ticker": "AMZN"
   },
   "technical": {
-    "rsi": 51.93599534386585,
-    "macd_line": 6.8477206697565975,
-    "macd_signal": 9.55334141546966,
-    "macd_histogram": -2.7056207457130625,
-    "ma50": 238.6579995727539,
-    "volume_ratio": 0.8878888004116086,
+    "rsi": 57.72234826065369,
+    "macd_line": 6.32831894507666,
+    "macd_signal": 8.90798770598077,
+    "macd_histogram": -2.5796687609041093,
+    "ma50": 239.67159973144533,
+    "volume_ratio": 0.7603686783531011,
     "ticker": "AMZN"
   },
   "fundamentals": {
-    "pe_ratio": 31.62683,
-    "forward_pe": 26.405252,
-    "price_to_book": 6.311051,
+    "pe_ratio": 32.318295,
+    "forward_pe": 26.982557,
+    "price_to_book": 6.449031,
     "revenue_growth": 0.166,
     "profit_margin": 0.12224,
     "debt_to_equity": 53.3,
     "target_mean_price": 311.69662,
-    "current_price": 259.34,
+    "current_price": 265.01,
     "fifty_two_week_low": 196.0,
     "fifty_two_week_high": 278.56,
     "trailing_eps": 8.2,

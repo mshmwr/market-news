@@ -1,26 +1,35 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Mamdani fires back at Bezos over Queens teacher tax remark",
+        "description": "Amazon founder Jeff Bezos called for eliminating federal income taxes on the bottom half of earners as Mamdani pushes a luxury second-home tax in New York City.",
+        "link": "https://www.cnbc.com/2026/05/20/bezos-mamdani-queens-income-tax-teachers-pay.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779310856
+      }
+    ],
     "ticker": "AMD"
   },
   "technical": {
-    "rsi": 63.808894510674925,
-    "macd_line": 44.051126715134956,
-    "macd_signal": 46.33636948394253,
-    "macd_histogram": -2.285242768807578,
-    "ma50": 288.0112005615234,
-    "volume_ratio": 0.8345714590890383,
+    "rsi": 69.59564793678084,
+    "macd_line": 43.61155965212572,
+    "macd_signal": 45.79162786793549,
+    "macd_histogram": -2.1800682158097686,
+    "ma50": 292.898200378418,
+    "volume_ratio": 0.7765234644078423,
     "ticker": "AMD"
   },
   "fundamentals": {
-    "pe_ratio": 138.94295,
-    "forward_pe": 31.963123,
-    "price_to_book": 10.46982,
+    "pe_ratio": 150.19463,
+    "forward_pe": 34.551514,
+    "price_to_book": 11.317672,
     "revenue_growth": 0.378,
     "profit_margin": 0.13374,
     "debt_to_equity": 6.005,
     "target_mean_price": 460.79166,
-    "current_price": 414.05,
+    "current_price": 447.58,
     "fifty_two_week_low": 107.67,
     "fifty_two_week_high": 469.22,
     "trailing_eps": 2.98,

@@ -1,26 +1,59 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Intuit plans to cut workforce by about 17% as tax software maker reckons with slowing growth",
+        "description": "Intuit's stock has been hammered this year as investors worry that generative artificial intelligence models could threaten software companies.",
+        "link": "https://www.cnbc.com/2026/05/20/intuit-intu-q3-earnings-report-2026-company-cutting-17percent-of-staff.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779316541
+      },
+      {
+        "title": "Austrian ex-intelligence officer found guilty of Russia spying charges",
+        "description": "The spy scandal has revived fears that Austria remains a hotbed of Russian espionage activity.",
+        "link": "https://www.bbc.com/news/articles/cwy21541dz4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779305407
+      },
+      {
+        "title": "Meta cuts 8,000 jobs in sweeping global layoffs",
+        "description": "Meta cancels hiring plans for 6,000 roles amid ongoing layoffs and a pivot to artificial intelligence development.",
+        "link": "https://www.aljazeera.com/economy/2026/5/20/meta-cuts-8000-jobs-in-sweeping-global-layoffs?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779299077
+      },
+      {
+        "title": "Bezos says 2-3 year timeline for space data centers is a 'little ambitious'",
+        "description": "Space companies are racing to make data centers in space a reality, as artificial intelligence skyrockets demand for energy and land resources.",
+        "link": "https://www.cnbc.com/2026/05/20/bezos-blue-origin-space-data-centers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779287037
+      }
+    ],
     "ticker": "INTC"
   },
   "technical": {
-    "rsi": 63.31438015712097,
-    "macd_line": 12.891270665688822,
-    "macd_signal": 14.312394898468664,
-    "macd_histogram": -1.4211242327798423,
-    "ma50": 72.0992000579834,
-    "volume_ratio": 0.9198634801698335,
+    "rsi": 67.93819482874525,
+    "macd_line": 12.69399574211684,
+    "macd_signal": 13.988628501094098,
+    "macd_histogram": -1.294632758977258,
+    "ma50": 73.54280006408692,
+    "volume_ratio": 0.9733328050585318,
     "ticker": "INTC"
   },
   "fundamentals": {
     "pe_ratio": null,
-    "forward_pe": 71.961136,
-    "price_to_book": 4.8418107,
+    "forward_pe": 77.260796,
+    "price_to_book": 5.1983914,
     "revenue_growth": 0.072,
     "profit_margin": -0.05904,
     "debt_to_equity": 36.028,
     "target_mean_price": 87.8619,
-    "current_price": 110.8,
+    "current_price": 118.96,
     "fifty_two_week_low": 18.97,
     "fifty_two_week_high": 132.75,
     "trailing_eps": -0.6,

@@ -1,26 +1,51 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Why Russian jets intercepting an RAF spy plane is 'serious incident'",
+        "description": "The BBC's Frank Gardner explained how the incident highlighted tense relations between Russia and Nato.",
+        "link": "https://www.bbc.com/news/videos/cx21y59q35wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779313592
+      },
+      {
+        "title": "Austrian ex-intelligence officer found guilty of Russia spying charges",
+        "description": "The spy scandal has revived fears that Austria remains a hotbed of Russian espionage activity.",
+        "link": "https://www.bbc.com/news/articles/cwy21541dz4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779305407
+      },
+      {
+        "title": "Russia ‘dangerously’ intercepts British spy plane over Black Sea: Ministry",
+        "description": "The incident came last month when unarmed Rivet Joint plane was securing NATO&#039;s eastern flank in international airspace.",
+        "link": "https://www.aljazeera.com/news/2026/5/20/russia-dangerously-intercepts-british-spy-plane-over-black-sea-ministry?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779300068
+      }
+    ],
     "ticker": "SPY"
   },
   "technical": {
-    "rsi": 62.18483203563312,
-    "macd_line": 13.281527613267599,
-    "macd_signal": 14.159609364822881,
-    "macd_histogram": -0.8780817515552819,
-    "ma50": 692.1833642578125,
-    "volume_ratio": 1.123603365508612,
+    "rsi": 66.50705393355153,
+    "macd_line": 12.903003458599073,
+    "macd_signal": 13.907652396075814,
+    "macd_histogram": -1.004648937476741,
+    "ma50": 693.5016516113282,
+    "volume_ratio": 0.9332496556621492,
     "ticker": "SPY"
   },
   "fundamentals": {
-    "pe_ratio": 27.563974,
+    "pe_ratio": 27.846478,
     "forward_pe": null,
-    "price_to_book": 1.7094496,
+    "price_to_book": 1.7269698,
     "revenue_growth": null,
     "profit_margin": null,
     "debt_to_equity": null,
     "target_mean_price": null,
-    "current_price": 733.73,
+    "current_price": 741.25,
     "fifty_two_week_low": 575.6,
     "fifty_two_week_high": 749.53,
     "trailing_eps": null,

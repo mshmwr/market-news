@@ -1,26 +1,43 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "Zuckerberg's Meta layoffs memo: 'Success isn't a given' in the AI era",
+        "description": "Meta on Wednesday commenced its latest round of layoffs, which affect about 10% of the company's workforce or roughly 8,000 jobs.",
+        "link": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779306817
+      },
+      {
+        "title": "Meta cuts 8,000 jobs in sweeping global layoffs",
+        "description": "Meta cancels hiring plans for 6,000 roles amid ongoing layoffs and a pivot to artificial intelligence development.",
+        "link": "https://www.aljazeera.com/economy/2026/5/20/meta-cuts-8000-jobs-in-sweeping-global-layoffs?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779299077
+      }
+    ],
     "ticker": "META"
   },
   "technical": {
-    "rsi": 41.47225735021592,
-    "macd_line": -7.269241763268269,
-    "macd_signal": -4.8326314467607805,
-    "macd_histogram": -2.4366103165074886,
-    "ma50": 620.2583862304688,
-    "volume_ratio": 0.7296872110968685,
+    "rsi": 42.67374801088345,
+    "macd_line": -7.524420578484978,
+    "macd_signal": -5.37149011944946,
+    "macd_histogram": -2.1529304590355185,
+    "ma50": 619.2893762207032,
+    "volume_ratio": 0.6970992806983222,
     "ticker": "META"
   },
   "fundamentals": {
-    "pe_ratio": 21.929039,
-    "forward_pe": 16.664122,
-    "price_to_book": 6.2763376,
+    "pe_ratio": 22.018196,
+    "forward_pe": 16.731873,
+    "price_to_book": 6.301855,
     "revenue_growth": 0.331,
     "profit_margin": 0.32837,
     "debt_to_equity": 35.608,
     "target_mean_price": 826.69104,
-    "current_price": 602.61,
+    "current_price": 605.06,
     "fifty_two_week_low": 520.26,
     "fifty_two_week_high": 796.25,
     "trailing_eps": 27.48,

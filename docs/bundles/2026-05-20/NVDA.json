@@ -2,39 +2,39 @@
   "news": {
     "articles": [
       {
-        "title": "Nvidia to launch Singapore research hub as city-state boosts AI plans",
-        "description": "Singapore has announced a new Nvidia research center and its first testbed to research, test and deploy physical AI, along with industry leaders.",
-        "link": "https://www.cnbc.com/2026/05/20/nvidia-to-launch-singapore-research-hub-as-city-state-boosts-ai-plans.html",
+        "title": "Something very unusual is happening with Nvidia options",
+        "description": "Ahead of earnings, NVDA's short-dated calls are trading at a premium to puts.",
+        "link": "https://www.cnbc.com/2026/05/20/something-very-unusual-is-happening-with-nvidia-options.html",
         "source": "CNBC",
         "category": "美股",
-        "published_ts": 1779249718
+        "published_ts": 1779299696
       }
     ],
     "ticker": "NVDA"
   },
   "technical": {
-    "rsi": 59.95157547947611,
-    "macd_line": 8.605574643801049,
-    "macd_signal": 7.963850094452966,
-    "macd_histogram": 0.6417245493480825,
-    "ma50": 194.7202001953125,
-    "volume_ratio": 0.8956792784152765,
+    "rsi": 61.85703384900541,
+    "macd_line": 8.379223469176935,
+    "macd_signal": 8.047097881342475,
+    "macd_histogram": 0.3321255878344598,
+    "ma50": 195.49440002441406,
+    "volume_ratio": 1.0713288354840445,
     "ticker": "NVDA"
   },
   "fundamentals": {
-    "pe_ratio": 45.02245,
-    "forward_pe": 18.975262,
-    "price_to_book": 34.086834,
+    "pe_ratio": 45.60612,
+    "forward_pe": 19.250051,
+    "price_to_book": 34.52874,
     "revenue_growth": 0.732,
     "profit_margin": 0.55603004,
     "debt_to_equity": 7.255,
-    "target_mean_price": 275.3058,
-    "current_price": 220.61,
+    "target_mean_price": 275.83212,
+    "current_price": 223.47,
     "fifty_two_week_low": 129.16,
     "fifty_two_week_high": 236.54,
     "trailing_eps": 4.9,
     "book_value": 6.472,
-    "peg_ratio": 0.7057,
+    "peg_ratio": 0.7002,
     "short_name": "NVIDIA Corporation",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 57,

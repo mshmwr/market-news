@@ -2,47 +2,39 @@
   "news": {
     "articles": [
       {
-        "title": "Singapore inks AI deals with Google, OpenAI as ChatGPT-maker commits $234 million to local ecosystem",
-        "description": "Singapore has signed new partnerships with Google and OpenAI to strengthen the city-state's position as a global AI hub and accelerating AI deployment.",
-        "link": "https://www.cnbc.com/2026/05/20/singapore-google-openai-ai-partnerships-lab-investment-chatgpt-ai-agents-atxsummit-mddi.html",
-        "source": "CNBC",
+        "title": "Has Google lost its AI edge? How its ‘unexciting’ strategy could actually pay off.",
+        "description": "Critics worry Google is losing ground to flashier rivals, but rapid Gemini adoption and AI-native integrations are driving monetization behind the scenes.",
+        "link": "https://www.marketwatch.com/story/has-google-lost-its-ai-edge-how-its-unexciting-strategy-could-actually-pay-off-c897b81c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
         "category": "美股",
-        "published_ts": 1779247862
-      },
-      {
-        "title": "Google debuts new AI models, personal AI agents in effort to keep pace with OpenAI and Anthropic",
-        "description": "Google made a number of AI announcements at its annual developer conference, rolling out more-advanced models and agentic tools for its expansive user base.",
-        "link": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1779223924
+        "published_ts": 1779308820
       }
     ],
     "ticker": "GOOGL"
   },
   "technical": {
-    "rsi": 62.070438929594786,
-    "macd_line": 17.834833870257114,
-    "macd_signal": 19.303356083815913,
-    "macd_histogram": -1.4685222135587992,
-    "ma50": 336.3352001953125,
-    "volume_ratio": 1.36220642199697,
+    "rsi": 62.703191081520124,
+    "macd_line": 16.517416240984005,
+    "macd_signal": 18.74516511367805,
+    "macd_histogram": -2.2277488726940433,
+    "ma50": 337.97260009765625,
+    "volume_ratio": 1.0315266323693146,
     "ticker": "GOOGL"
   },
   "fundamentals": {
-    "pe_ratio": 29.592365,
-    "forward_pe": 26.825176,
-    "price_to_book": 9.8107,
+    "pe_ratio": 29.687786,
+    "forward_pe": 26.911673,
+    "price_to_book": 9.842335,
     "revenue_growth": 0.218,
     "profit_margin": 0.37919,
     "debt_to_equity": 20.026,
     "target_mean_price": 427.88712,
-    "current_price": 387.66,
+    "current_price": 388.91,
     "fifty_two_week_low": 162.0,
     "fifty_two_week_high": 408.61,
     "trailing_eps": 13.1,
     "book_value": 39.514,
-    "peg_ratio": 1.5629,
+    "peg_ratio": 1.5263,
     "short_name": "Alphabet Inc.",
     "recommendation_key": "strong_buy",
     "number_of_analyst_opinions": 52,
