@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
+        "description": "Microsoft has not made the Maia 200 chips available to customers, but they are used in the company's data centers, offering better efficiency than other silicon.",
+        "link": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779393201
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 54.845731249019984,
+    "macd_line": 3.9236493211388392,
+    "macd_signal": 4.244907739639433,
+    "macd_histogram": -0.32125841850059356,
+    "ma50": 400.10679931640624,
+    "volume_ratio": 0.9019481943441716,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.945835,
+    "forward_pe": 21.67214,
+    "price_to_book": 7.5136704,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.6302,
+    "current_price": 419.09,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.8,
+    "book_value": 55.777,
+    "peg_ratio": 1.298,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

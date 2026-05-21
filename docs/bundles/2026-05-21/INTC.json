@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Workday jumps 14% as it bumps up margin forecast on AI strength",
+        "description": "Workday's CEO says the company is seeing success in artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779397925
+      },
+      {
+        "title": "Nvidia says it has ‘largely conceded’ China’s AI chip market to Huawei",
+        "description": "Nvidia CEO Jensen Huang said the company has \"largely conceded\" China's advanced artificial intelligence chip market to Huawei.",
+        "link": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779377391
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 67.42221289029402,
+    "macd_line": 12.358037387478262,
+    "macd_signal": 13.662383380395784,
+    "macd_histogram": -1.304345992917522,
+    "ma50": 74.95320007324219,
+    "volume_ratio": 0.6222109696001529,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 76.96204,
+    "price_to_book": 5.343374,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 87.8619,
+    "current_price": 118.5,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.59,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

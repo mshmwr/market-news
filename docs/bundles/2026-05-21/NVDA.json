@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "An AI trade involving energy and infrastructure that's doubled your money, topping Nvidia",
+        "description": "If you put the same money into a basket of companies that are building out AI infrastructure and energy sources, you’ve done much better than stocks like Nvidia.",
+        "link": "https://www.cnbc.com/2026/05/21/an-ai-trade-involving-energy-and-infrastructure-thats-doubled-your-money-topping-nvidia.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779386653
+      },
+      {
+        "title": "Nvidia says it has ‘largely conceded’ China’s AI chip market to Huawei",
+        "description": "Nvidia CEO Jensen Huang said the company has \"largely conceded\" China's advanced artificial intelligence chip market to Huawei.",
+        "link": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779377391
+      },
+      {
+        "title": "Nvidia's latest record earnings fail to impress investors",
+        "description": "The chip giant reported more stellar results but its shares fell after-hours as investors wonder if it can keep up its pace of growth amid greater competition.",
+        "link": "https://www.bbc.com/news/articles/c759x9pq3dpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779361518
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 57.75935141884495,
+    "macd_line": 7.790095707651261,
+    "macd_signal": 7.9953364662461786,
+    "macd_histogram": -0.20524075859491742,
+    "ma50": 196.16399993896485,
+    "volume_ratio": 1.2198097762134963,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 33.61562,
+    "forward_pe": 18.846476,
+    "price_to_book": 33.91687,
+    "revenue_growth": 0.732,
+    "profit_margin": 0.55603004,
+    "debt_to_equity": 7.255,
+    "target_mean_price": 278.0251,
+    "current_price": 219.51,
+    "fifty_two_week_low": 129.16,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 6.472,
+    "peg_ratio": 0.7093,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 57,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

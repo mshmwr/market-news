@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta, Broadcom and others to launch $125 million semiconductor research hub at UCLA",
+        "description": "Broadcom, Meta, Applied Materials, GlobalFoundries and Synopsys are joining forces to launch a $125 million \"Semiconductor Hub\" at UCLA.",
+        "link": "https://www.cnbc.com/2026/05/21/meta-broadcom-others-to-launch-125-million-semiconductor-research-hub-at-ucla.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779395401
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 43.84842102492761,
+    "macd_line": -7.454646386643503,
+    "macd_signal": -5.789967650129248,
+    "macd_histogram": -1.6646787365142552,
+    "ma50": 618.3509802246094,
+    "volume_ratio": 0.7591972968566537,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.062477,
+    "forward_pe": 16.8684,
+    "price_to_book": 6.3260183,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.69104,
+    "current_price": 607.38,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.53,
+    "book_value": 96.013,
+    "peg_ratio": 0.8742,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

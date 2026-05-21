@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "NYC Mayor Mamdani launches Twitch show to answer New Yorkers' questions",
+        "description": "The livestream series will let New Yorkers question Mamdani in real time on Twitch, expanding beyond the early echoes of FDR's fireside chats.",
+        "link": "https://www.cnbc.com/2026/05/21/mamdani-twitch-stream-new-york-fdr-fireside-chat-laguardia.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779395152
+      },
+      {
+        "title": "NYC’s Mamdani boasts new $50 World Cup ticket program: ‘That is five lattes in New York City!’",
+        "description": "World Cup ticket prices are down 22% over the last 60 days, according to one ticket tracking website.",
+        "link": "https://www.marketwatch.com/story/nycs-mamdani-boasts-new-50-world-cup-ticket-program-that-is-five-lattes-in-new-york-city-4ebba812?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779393660
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 69.90608006302999,
+    "macd_line": 42.929495024295534,
+    "macd_signal": 45.218092663775636,
+    "macd_histogram": -2.288597639480102,
+    "ma50": 297.7934002685547,
+    "volume_ratio": 0.5958126434270611,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 149.86333,
+    "forward_pe": 34.69182,
+    "price_to_book": 11.368498,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 472.16666,
+    "current_price": 449.59,
+    "fifty_two_week_low": 107.67,
+    "fifty_two_week_high": 469.22,
+    "trailing_eps": 3.0,
+    "book_value": 39.547,
+    "peg_ratio": 1.0767,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}
