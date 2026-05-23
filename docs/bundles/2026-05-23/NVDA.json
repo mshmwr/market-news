@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
+        "description": "Corporate profits can’t fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.",
+        "link": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779560220
+      },
+      {
+        "title": "These 4 market sectors look frothy — and Nvidia’s isn’t even the biggest bubble",
+        "description": "S&amp;P 500 has a 30% chance of crashing over the next two years. That’s the good news.",
+        "link": "https://www.marketwatch.com/story/these-4-market-sectors-look-frothy-and-nvidias-isnt-even-the-biggest-bubble-d740acf7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779555120
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 53.71473329899957,
+    "macd_line": 6.906546046988211,
+    "macd_signal": 7.777578382394585,
+    "macd_histogram": -0.8710323354063743,
+    "ma50": 196.80779998779298,
+    "volume_ratio": 1.0353083578587705,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 33.026073,
+    "forward_pe": 17.027882,
+    "price_to_book": 33.27101,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 294.22415,
+    "current_price": 215.33,
+    "fifty_two_week_low": 132.92,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 6.472,
+    "peg_ratio": 0.6635,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
