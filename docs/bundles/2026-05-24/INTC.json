@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Tulsi Gabbard resigning as Trump's intelligence chief",
+        "description": "Gabbard said she is leaving her post to support her husband, who is battling a rare form of bone cancer.",
+        "link": "https://www.cnbc.com/2026/05/22/tulsi-gabbard-resigns-intelligence-trump-husband.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779487504
+      },
+      {
+        "title": "Tulsi Gabbard to resign as US national intelligence director",
+        "description": "Gabbard who has been largely out of public view during recent US operations says she is leaving due to her husband's illness.",
+        "link": "https://www.bbc.com/news/articles/cvgj2gkv1x1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1779481826
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 68.1802330455603,
+    "macd_line": 12.060968622613842,
+    "macd_signal": 13.342100428839398,
+    "macd_histogram": -1.281131806225556,
+    "ma50": 76.445,
+    "volume_ratio": 0.5350541647087875,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 77.83233,
+    "price_to_book": 5.4037967,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 87.8619,
+    "current_price": 119.84,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

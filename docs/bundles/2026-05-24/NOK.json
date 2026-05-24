@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "NOK"
+  },
+  "technical": {
+    "rsi": 71.48981587716924,
+    "macd_line": 1.0788408310545687,
+    "macd_signal": 1.0740007437743389,
+    "macd_histogram": 0.004840087280229888,
+    "ma50": 10.796800022125245,
+    "volume_ratio": 1.0717064850952827,
+    "ticker": "NOK"
+  },
+  "fundamentals": {
+    "pe_ratio": 96.68751,
+    "forward_pe": 31.731382,
+    "price_to_book": 3.517573,
+    "revenue_growth": 0.024,
+    "profit_margin": 0.039809998,
+    "debt_to_equity": 15.63,
+    "target_mean_price": 12.9,
+    "current_price": 15.47,
+    "fifty_two_week_low": 4.0,
+    "fifty_two_week_high": 15.78,
+    "trailing_eps": 0.16,
+    "book_value": 4.3979187,
+    "peg_ratio": 1.4794,
+    "short_name": "Nokia Corporation Sponsored",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "NOK"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NOK",
+    "available": false
+  }
+}
