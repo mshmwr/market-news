@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
+        "description": "Chinese telecom giant Huawei announced Monday a new way of designing chips that improves their capabilities, despite U.S. restrictions on the company.",
+        "link": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779691696
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 53.26374619079738,
+    "macd_line": 6.09852895115165,
+    "macd_signal": 7.442305583928539,
+    "macd_histogram": -1.3437766327768887,
+    "ma50": 197.5,
+    "volume_ratio": 1.1235162831948915,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.953987,
+    "forward_pe": 16.990715,
+    "price_to_book": 33.19839,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 295.34482,
+    "current_price": 214.86,
+    "fifty_two_week_low": 132.92,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 6.472,
+    "peg_ratio": 0.6635,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple's surge to record highs faces a major test next month. What it must do to pass",
+        "description": "The iPhone maker's WWDC kicks off on June 8, offering Apple another chance to impress Wall Street on AI.",
+        "link": "https://www.cnbc.com/2026/05/26/apples-surge-to-record-highs-faces-a-major-test-next-month-what-it-must-do-to-pass.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779828459
+      },
+      {
+        "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
+        "description": "Chinese telecom giant Huawei announced Monday a new way of designing chips that improves their capabilities, despite U.S. restrictions on the company.",
+        "link": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779691696
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 77.63571744654334,
+    "macd_line": 10.156080117927218,
+    "macd_signal": 9.268949043167305,
+    "macd_histogram": 0.8871310747599122,
+    "ma50": 271.5267529296875,
+    "volume_ratio": 0.9578331566497179,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 37.373333,
+    "forward_pe": 32.091232,
+    "price_to_book": 42.469692,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 308.6465,
+    "current_price": 308.33,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 311.82,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.6873,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Pope Leo is concerned about AI replacing human work. Traders share his concern long term",
+        "description": "The leader of the Catholic Church warned about artificial intelligence upending the labor market. Traders on Kalshi see unemployment jumping before 2030.",
+        "link": "https://www.cnbc.com/2026/05/26/traders-share-pope-leos-worries-on-ais-job-market-impact.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779823911
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 70.2286394053908,
+    "macd_line": 11.983944475304853,
+    "macd_signal": 13.06997079292553,
+    "macd_histogram": -1.0860263176206768,
+    "ma50": 77.99999992370606,
+    "volume_ratio": 0.6387061238759472,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 80.222374,
+    "price_to_book": 5.569734,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 87.8619,
+    "current_price": 123.52,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
