@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "It's time for Nvidia to take a page out of Apple's playbook and do more for investors",
+        "description": "It's time for Nvidia to admit its status as a solid grower and do more for shareholders than it already has.",
+        "link": "https://www.cnbc.com/2026/05/25/jim-cramer-how-nvidia-can-take-a-page-out-of-apple-playbook.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779731950
+      },
+      {
+        "title": "Mastercard’s stock is up 11,000% since its IPO 20 years ago. What comes next?",
+        "description": "Mastercard is in an elite club. Among S&amp;P 500 components, only Nvidia and Apple shares have performed better over the two-decade span since the card company’s IPO.",
+        "link": "https://www.marketwatch.com/story/mastercards-stock-is-up-11-000-since-its-ipo-20-years-ago-what-comes-next-deb949eb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779715800
+      },
+      {
+        "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
+        "description": "Chinese telecom giant Huawei announced Monday a new way of designing chips that improves their capabilities, despite U.S. restrictions on the company.",
+        "link": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779691696
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 78.6313535825187,
+    "macd_line": 10.038708832967473,
+    "macd_signal": 9.04752911788799,
+    "macd_histogram": 0.9911797150794825,
+    "ma50": 270.35794860839843,
+    "volume_ratio": 0.9014519695442097,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 37.432728,
+    "forward_pe": 32.155922,
+    "price_to_book": 42.53719,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 308.6465,
+    "current_price": 308.82,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 311.4,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.6873,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

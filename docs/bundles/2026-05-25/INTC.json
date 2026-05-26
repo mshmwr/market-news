@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "These underdogs are a big reason S&P 500 profit growth is the fastest in nearly 5 years",
+        "description": "Ever since Big Tech went all in on artificial intelligence more than three years ago, seven companies have done the heavy lifting for overall S&amp;P 500 earnings growth. But more recently, the other 493 names in the index have started to pull their weight.",
+        "link": "https://www.marketwatch.com/story/these-underdogs-are-a-big-reason-s-p-500-profit-growth-is-the-fastest-in-nearly-5-years-4a43f142?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779738600
+      },
+      {
+        "title": "Pope says AI must be ‘disarmed’ to prevent domination, exclusion, and death",
+        "description": "In his first encyclical, Leo insists ownership of artificial intelligence data must not be left solely in private hands.",
+        "link": "https://www.aljazeera.com/news/2026/5/25/pope-says-ai-must-be-disarmed-to-prevent-domination-exclusion-and-death?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779726406
+      },
+      {
+        "title": "Pope Leo calls for ‘disarming’ of artificial intelligence",
+        "description": "Pope Leo has warned that some AI-powered weapons systems are becoming ‘practically beyond human control&#039;.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/25/pope-leo-calls-for-disarming-of-artificial-intelligence?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1779721606
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 68.1802330455603,
+    "macd_line": 12.060968622613842,
+    "macd_signal": 13.342100428839398,
+    "macd_histogram": -1.281131806225556,
+    "ma50": 76.445,
+    "volume_ratio": 0.5350541647087875,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 77.83233,
+    "price_to_book": 5.4037967,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 87.8619,
+    "current_price": 119.84,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

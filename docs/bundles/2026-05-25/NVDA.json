@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "It's time for Nvidia to take a page out of Apple's playbook and do more for investors",
+        "description": "It's time for Nvidia to admit its status as a solid grower and do more for shareholders than it already has.",
+        "link": "https://www.cnbc.com/2026/05/25/jim-cramer-how-nvidia-can-take-a-page-out-of-apple-playbook.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779731950
+      },
+      {
+        "title": "Mastercard’s stock is up 11,000% since its IPO 20 years ago. What comes next?",
+        "description": "Mastercard is in an elite club. Among S&amp;P 500 components, only Nvidia and Apple shares have performed better over the two-decade span since the card company’s IPO.",
+        "link": "https://www.marketwatch.com/story/mastercards-stock-is-up-11-000-since-its-ipo-20-years-ago-what-comes-next-deb949eb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1779715800
+      },
+      {
+        "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
+        "description": "Chinese telecom giant Huawei announced Monday a new way of designing chips that improves their capabilities, despite U.S. restrictions on the company.",
+        "link": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779691696
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 53.71473329899957,
+    "macd_line": 6.906546046988211,
+    "macd_signal": 7.777578382394585,
+    "macd_histogram": -0.8710323354063743,
+    "ma50": 196.80779998779298,
+    "volume_ratio": 1.0353083578587705,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 33.026073,
+    "forward_pe": 17.027882,
+    "price_to_book": 33.27101,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 295.34482,
+    "current_price": 215.33,
+    "fifty_two_week_low": 132.92,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 6.472,
+    "peg_ratio": 0.6635,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

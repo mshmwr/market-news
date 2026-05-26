@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft’s new responsible tech lead on how to humanize high-speed AI development",
+        "description": "Jenny Lay-Flurrie, head of Microsoft's Trusted Technology Group, says responsible tech is: How do we build it right? And how do we keep it that way?",
+        "link": "https://www.cnbc.com/2026/05/23/microsofts-new-responsible-tech-lead-on-high-speed-ai-development.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779541201
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 55.108225407524884,
+    "macd_line": 3.8998985212642197,
+    "macd_signal": 4.180126851005161,
+    "macd_histogram": -0.28022832974094136,
+    "ma50": 399.61177307128906,
+    "volume_ratio": 0.6540320029812424,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.944576,
+    "forward_pe": 21.64525,
+    "price_to_book": 7.504348,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.6302,
+    "current_price": 418.57,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.2904,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
