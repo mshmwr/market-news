@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "UK spy chief: Time is running out for the West to confront threats from Russia and China",
+        "description": "Britain and its allies face a “moment of consequence,” according to the head of its intelligence agency.",
+        "link": "https://www.cnbc.com/2026/05/27/uk-spy-chief-gchq-russia-china-us-cyber-attack-security.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779871795
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 71.19872451406857,
+    "macd_line": 12.476894281222599,
+    "macd_signal": 13.072019379517906,
+    "macd_histogram": -0.5951250982953074,
+    "ma50": 699.9612927246094,
+    "volume_ratio": 0.8575021984421907,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 28.19247,
+    "forward_pe": null,
+    "price_to_book": 1.7484274,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 750.46,
+    "fifty_two_week_low": 583.24,
+    "fifty_two_week_high": 752.13,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

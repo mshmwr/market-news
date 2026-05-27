@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Snowflake rockets 36% on earnings beat and plan to spend $6 billion on Amazon cloud",
+        "description": "Snowflake is going deeper with Amazon's Web Services, and plans to use its Arm-based Graviton chips.",
+        "link": "https://www.cnbc.com/2026/05/27/snowflake-amazon-graviton-cloud-chips.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779919635
+      },
+      {
+        "title": "Amazon's top health exec is stepping down, will be replaced by Amwell co-founder",
+        "description": "The company is tapping Dr. Roy Schoenberg, a cofounder of telemedicine provider Amwell, to replace Lindsay.",
+        "link": "https://www.cnbc.com/2026/05/27/amazons-top-health-exec-is-stepping-down-will-be-replaced-by-amwell-co-founder.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779919595
+      },
+      {
+        "title": "Amazon starts selling its AI shopping technology to other retailers",
+        "description": "Amazon said it's already signed up Kate Spade as a customer for its AI shopping technology.",
+        "link": "https://www.cnbc.com/2026/05/27/amazon-ai-shopping-alexa-kate-spade.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779887401
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 62.65182327460333,
+    "macd_line": 5.3652851552473635,
+    "macd_signal": 6.922838605771514,
+    "macd_histogram": -1.5575534505241508,
+    "ma50": 244.27820007324217,
+    "volume_ratio": 0.9138423792716794,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.440334,
+    "forward_pe": 27.5727,
+    "price_to_book": 6.6154823,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.6321,
+    "current_price": 271.85,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.38,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
