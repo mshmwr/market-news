@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "New York passes Mamdani's pied-a-terre tax. Here's who pays and how much",
+        "description": "Citadel CEO Ken Griffin became the face of the tax after New York City Mayor Zohran Mamdani posted a video in front of Griffin's penthouse apartment.",
+        "link": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1779981399
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 76.7100034521076,
+    "macd_line": 49.0118256110153,
+    "macd_signal": 46.178214711511146,
+    "macd_histogram": 2.8336108995041513,
+    "ma50": 321.8136013793945,
+    "volume_ratio": 0.7613515456557464,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 171.553,
+    "forward_pe": 39.9775,
+    "price_to_book": 13.100615,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 472.16666,
+    "current_price": 518.09,
+    "fifty_two_week_low": 108.62,
+    "fifty_two_week_high": 527.1999,
+    "trailing_eps": 3.02,
+    "book_value": 39.547,
+    "peg_ratio": 1.1921,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

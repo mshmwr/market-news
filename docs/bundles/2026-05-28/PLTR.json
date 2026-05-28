@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Snowflake surges 36% for best day ever on AI frenzy, fueling software rally",
+        "description": "The Snowflake rally also lifted shares of ServiceNow, Oracle and Palantir, while Salesforce bucked the trend.",
+        "link": "https://www.cnbc.com/2026/05/28/snowflake-snow-software-stock-rally.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780000639
+      }
+    ],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 56.43652828552349,
+    "macd_line": -1.1576343263080844,
+    "macd_signal": -1.8830834270454202,
+    "macd_histogram": 0.7254491007373358,
+    "ma50": 141.71789947509765,
+    "volume_ratio": 1.1955385887856294,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 161.05618,
+    "forward_pe": 69.10349,
+    "price_to_book": 40.663826,
+    "revenue_growth": 0.847,
+    "profit_margin": 0.43673,
+    "debt_to_equity": 2.477,
+    "target_mean_price": 183.7289,
+    "current_price": 143.34,
+    "fifty_two_week_low": 118.93,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.89,
+    "book_value": 3.525,
+    "peg_ratio": 1.9002,
+    "short_name": "Palantir Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Dell shares jump 31% after server maker reports fastest sales growth since return to public market in 2018",
+        "description": "Dell has gone from being a sleepy legacy tech company to a high-growth AI story, assembling servers packed with graphics processing units.",
+        "link": "https://www.cnbc.com/2026/05/28/dell-q1-earnings-report-2027.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780003867
+      },
+      {
+        "title": "Dell stock soars toward another record high as the AI boom drives a big earnings beat",
+        "description": "The company’s AI-server revenue was up 757% in the first quarter, while profit beat expectations by the widest margin in at least five years.",
+        "link": "https://www.marketwatch.com/story/dell-stock-soars-toward-another-record-high-as-the-ai-boom-drives-a-big-earnings-beat-b7c0c203?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780000740
+      }
+    ],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 80.20220472568903,
+    "macd_line": 26.006858584434923,
+    "macd_signal": 19.748211026714202,
+    "macd_histogram": 6.258647557720721,
+    "ma50": 210.17372344970704,
+    "volume_ratio": 1.8268127995646937,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 36.568626,
+    "forward_pe": 18.37971,
+    "price_to_book": -83.69852,
+    "revenue_growth": 0.395,
+    "profit_margin": 0.05228,
+    "debt_to_equity": null,
+    "target_mean_price": 220.26086,
+    "current_price": 317.05,
+    "fifty_two_week_low": 106.38,
+    "fifty_two_week_high": 327.73,
+    "trailing_eps": 8.67,
+    "book_value": -3.788,
+    "peg_ratio": 1.2651,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}
