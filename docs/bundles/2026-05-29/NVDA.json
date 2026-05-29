@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia is investing billions into this emerging technology that could change the AI industry",
+        "description": "Photonics is considered to be a more efficient alternative to the current process of transferring data using electricity, which could be crucial to the AI boom.",
+        "link": "https://www.cnbc.com/2026/05/29/nvidia-photonics-investment-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780069181
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 49.410372904007346,
+    "macd_line": 3.809294620015663,
+    "macd_signal": 5.974902787824581,
+    "macd_histogram": -2.1656081678089176,
+    "ma50": 199.3488003540039,
+    "volume_ratio": 1.4113475959295836,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.333843,
+    "forward_pe": 16.681019,
+    "price_to_book": 32.623608,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 296.81033,
+    "current_price": 211.14,
+    "fifty_two_week_low": 132.92,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 6.472,
+    "peg_ratio": 0.6601,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

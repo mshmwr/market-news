@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Dell’s stunning 33% stock rally gave a big boost to shares of other server makers",
+        "description": "Dell’s blowout earnings report is highlighting how the AI buildout is also driving demand for old-school computing.",
+        "link": "https://www.marketwatch.com/story/dells-stunning-30-stock-rally-is-giving-a-big-boost-to-shares-of-other-server-makers-78292f16?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780088400
+      },
+      {
+        "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
+        "description": "Dell reported its fastest pace of revenue growth since returning to the public market in 2018, with AI server revenue soaring 757% over last year.",
+        "link": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780085426
+      }
+    ],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 89.38926867750047,
+    "macd_line": 35.955323492633,
+    "macd_signal": 22.98963351989796,
+    "macd_histogram": 12.965689972735039,
+    "ma50": 215.6169284057617,
+    "volume_ratio": 4.030373106438338,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 48.43614,
+    "forward_pe": 21.199621,
+    "price_to_book": -111.116684,
+    "revenue_growth": 0.395,
+    "profit_margin": 0.05228,
+    "debt_to_equity": null,
+    "target_mean_price": 220.26086,
+    "current_price": 420.91,
+    "fifty_two_week_low": 106.38,
+    "fifty_two_week_high": 429.151,
+    "trailing_eps": 8.69,
+    "book_value": -3.788,
+    "peg_ratio": 1.3137,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}
