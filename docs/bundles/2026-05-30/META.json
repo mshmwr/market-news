@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta has struggled at selling anything other than ads. Will AI be different?",
+        "description": "Meta is making a major push to expand its business beyond online advertising, but past efforts show that success is far from guaranteed.",
+        "link": "https://www.cnbc.com/2026/05/30/meta-struggled-selling-anything-other-than-ads-will-ai-be-different.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780142401
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 55.36433487634016,
+    "macd_line": -1.082830254219175,
+    "macd_signal": -4.283541284408674,
+    "macd_histogram": 3.200711030189499,
+    "ma50": 618.5319995117187,
+    "volume_ratio": 1.3166727429211635,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.992002,
+    "forward_pe": 17.490955,
+    "price_to_book": 6.587754,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.74713,
+    "current_price": 632.51,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.51,
+    "book_value": 96.013,
+    "peg_ratio": 0.9139,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
