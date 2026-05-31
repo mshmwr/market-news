@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Jim Cramer says Dell’s blowout quarter sets up a crucial week for AI stocks",
+        "description": "CNBC’s Jim Cramer said Dell Technologies’ blockbuster quarter reignited enthusiasm around AI and data center stocks.",
+        "link": "https://www.cnbc.com/2026/05/29/jim-cramer-says-dells-blowout-quarter-sets-up-a-crucial-week-for-ai-stocks.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780093088
+      },
+      {
+        "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
+        "description": "Dell reported its fastest pace of revenue growth since returning to the public market in 2018, with AI server revenue soaring 757% over last year.",
+        "link": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780085426
+      }
+    ],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 89.38926867750047,
+    "macd_line": 35.955323492633,
+    "macd_signal": 22.98963351989796,
+    "macd_histogram": 12.965689972735039,
+    "ma50": 215.6169284057617,
+    "volume_ratio": 4.324822302569061,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 48.547867,
+    "forward_pe": 21.199621,
+    "price_to_book": -111.116684,
+    "revenue_growth": 0.875,
+    "profit_margin": 0.062750004,
+    "debt_to_equity": null,
+    "target_mean_price": 441.5909,
+    "current_price": 420.91,
+    "fifty_two_week_low": 106.38,
+    "fifty_two_week_high": 429.151,
+    "trailing_eps": 8.67,
+    "book_value": -3.788,
+    "peg_ratio": 1.7441,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 22,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}
