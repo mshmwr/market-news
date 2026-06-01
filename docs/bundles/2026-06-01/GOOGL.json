@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft and Google are late to AI coding, but 'absolutely critical' they compete for growth",
+        "description": "Coding tools are becoming an increasingly big target for Google and Microsoft as they try to catch up to Anthropic and OpenAI.",
+        "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780350421
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 49.7729752507149,
+    "macd_line": 8.066071315157672,
+    "macd_signal": 12.44807273407418,
+    "macd_histogram": -4.382001418916509,
+    "ma50": 348.959599609375,
+    "volume_ratio": 0.937201491545257,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 28.686737,
+    "forward_pe": 25.965183,
+    "price_to_book": 9.524979,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 429.9666,
+    "current_price": 376.37,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.12,
+    "book_value": 39.514,
+    "peg_ratio": 1.4975,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

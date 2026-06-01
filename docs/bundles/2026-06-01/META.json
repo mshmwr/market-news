@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia, Meta and SLB rank among top companies in adopting AI, new study says",
+        "description": "The AI-Driven Enterprise Institute released new research that breaks down the degree to which S&amp;P 500 companies are adopting AI compared with their peers.",
+        "link": "https://www.cnbc.com/2026/06/01/nvidia-meta-walmart-among-top-companies-adopting-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780336705
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 41.61724827445991,
+    "macd_line": -2.6309381061194017,
+    "macd_signal": -3.9535871501607756,
+    "macd_histogram": 1.3226490440413738,
+    "ma50": 618.4073986816406,
+    "volume_ratio": 1.796446301627701,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.827333,
+    "forward_pe": 16.604944,
+    "price_to_book": 6.254049,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.74713,
+    "current_price": 600.47,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.51,
+    "book_value": 96.013,
+    "peg_ratio": 0.9139,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

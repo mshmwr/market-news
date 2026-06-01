@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft and Google are late to AI coding, but 'absolutely critical' they compete for growth",
+        "description": "Coding tools are becoming an increasingly big target for Google and Microsoft as they try to catch up to Anthropic and OpenAI.",
+        "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780350421
+      },
+      {
+        "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
+        "description": "Nvidia CEO Jensen Huang unveiled a long-awaited Arm-based PC chip, breaking into PCs for the first time on new laptops by Dell, Microsoft, HP, ASUS and others.",
+        "link": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780330183
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 73.32615595463173,
+    "macd_line": 8.622187798641107,
+    "macd_signal": 5.1366112170308575,
+    "macd_histogram": 3.4855765816102497,
+    "ma50": 403.51177185058594,
+    "volume_ratio": 1.4483317080892268,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.428228,
+    "forward_pe": 23.808857,
+    "price_to_book": 8.25645,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.6302,
+    "current_price": 460.52,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.388,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
