@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
+        "description": "Marvell Technology posted its best day ever after Nvidia CEO Jensen Huang made the \"trillion-dollar\" prediction.",
+        "link": "https://www.cnbc.com/2026/06/02/jensen-huang-nvidia-marvell-technology-trillion-dollar-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780433967
+      },
+      {
+        "title": "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+        "description": "Nvidia's announced entry into the PC chip market sent shares of AMD, Intel and Qualcomm lower as Wall Street recognized the threat.",
+        "link": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780401601
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 58.791640081434906,
+    "macd_line": 4.343646936719267,
+    "macd_signal": 5.365449669261455,
+    "macd_histogram": -1.021802732542188,
+    "ma50": 201.2672006225586,
+    "volume_ratio": 0.9561168532485644,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 34.122513,
+    "forward_pe": 17.603792,
+    "price_to_book": 34.428307,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 296.81033,
+    "current_price": 222.82,
+    "fifty_two_week_low": 137.95,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 6.472,
+    "peg_ratio": 0.6913,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
+        "description": "At its Build developer conference, Microsoft announced a series of generative AI models to try and crack a market controlled by OpenAI, Anthropic and Google.",
+        "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780432965
+      },
+      {
+        "title": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
+        "description": "The tech giant predicts it will have a quantum computer that can solve commercially useful problems by the end of the decade.",
+        "link": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1780428271
+      },
+      {
+        "title": "Microsoft and Google are late to AI coding, but 'absolutely critical' they compete for growth",
+        "description": "Coding tools are becoming an increasingly big target for Google and Microsoft as they try to catch up to Anthropic and OpenAI.",
+        "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780350421
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 60.22616011821958,
+    "macd_line": 9.016828877817545,
+    "macd_signal": 5.913767416507985,
+    "macd_histogram": 3.1030614613095597,
+    "ma50": 404.7170776367187,
+    "volume_ratio": 1.005491360083639,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.252827,
+    "forward_pe": 22.815702,
+    "price_to_book": 7.9120426,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.8915,
+    "current_price": 441.31,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.81,
+    "book_value": 55.777,
+    "peg_ratio": 1.4197,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

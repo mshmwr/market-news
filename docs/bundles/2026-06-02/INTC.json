@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump taps housing official Bill Pulte to be US spymaster",
+        "description": "The head of the Federal Housing Finance Agency, who pushed for criminal charges against Trump's foes, will step in as acting Director of National Intelligence.",
+        "link": "https://www.bbc.com/news/articles/cyv2dpyz3dpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1780432575
+      },
+      {
+        "title": "HPE surges 19% after Monday's blowout earnings, closing its best day ever",
+        "description": "CEO Antonio Neri told CNBC that the company is \"uniquely positioned\" to capture the disruption brought about by artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/06/02/hpe-stock-earnings-ai-cloud-servers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780431182
+      },
+      {
+        "title": "Trump names housing chief Bill Pulte acting intelligence director, replacing Tulsi Gabbard",
+        "description": "Pulte has alleged wrongdoing related to mortgages against Trump's foes, Federal Reserve Governor Lisa Cook and New York Attorney General Letitia James.",
+        "link": "https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780418566
+      },
+      {
+        "title": "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+        "description": "Nvidia's announced entry into the PC chip market sent shares of AMD, Intel and Qualcomm lower as Wall Street recognized the threat.",
+        "link": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780401601
+      },
+      {
+        "title": "Software stocks just passed a big milestone",
+        "description": "Software stocks are making a comeback from their artificial intelligence-driven sell-off earlier this year.",
+        "link": "https://www.cnbc.com/2026/06/02/software-stocks-just-passed-a-big-milestone.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780398809
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 52.1013656855625,
+    "macd_line": 7.631112406376545,
+    "macd_signal": 10.632794276489758,
+    "macd_histogram": -3.001681870113213,
+    "ma50": 84.99399993896485,
+    "volume_ratio": 0.7454189188475115,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 69.85309,
+    "price_to_book": 4.866754,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 88.7122,
+    "current_price": 107.93,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

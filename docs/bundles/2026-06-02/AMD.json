@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+        "description": "Nvidia's announced entry into the PC chip market sent shares of AMD, Intel and Qualcomm lower as Wall Street recognized the threat.",
+        "link": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780401601
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 75.22960974743972,
+    "macd_line": 49.53953779298257,
+    "macd_signal": 47.852074225856356,
+    "macd_histogram": 1.6874635671262155,
+    "ma50": 340.6478002929687,
+    "volume_ratio": 0.5900547513661544,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 173.26909,
+    "forward_pe": 39.883427,
+    "price_to_book": 13.187852,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 479.77084,
+    "current_price": 521.54,
+    "fifty_two_week_low": 113.28,
+    "fifty_two_week_high": 527.2,
+    "trailing_eps": 3.01,
+    "book_value": 39.547,
+    "peg_ratio": 1.2272,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}
