@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
+        "description": "At its Build developer conference, Microsoft announced a series of generative AI models to try and crack a market controlled by OpenAI, Anthropic and Google.",
+        "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780465671
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 40.378442187930965,
+    "macd_line": 5.5810626715580725,
+    "macd_signal": 11.074323252251489,
+    "macd_histogram": -5.493260580693416,
+    "ma50": 350.1765997314453,
+    "volume_ratio": 1.7628282310926753,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.622137,
+    "forward_pe": 24.96347,
+    "price_to_book": 9.157514,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 429.9666,
+    "current_price": 361.85,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.4819,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

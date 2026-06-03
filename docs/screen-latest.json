@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "filters": {
     "top_n": 10,
     "min_upside_pct": 10.0,
@@ -18,9 +18,9 @@
       "upside_pct": 55.8,
       "week52_pos": 4.2,
       "relative_pe": 0.7,
-      "peg_ratio": 0.92,
-      "score": 97.4,
-      "reason": "分析師共識漲幅 +56%；近52週最低點（4%）；本益比低於產業均值 30%；PEG 0.9（成長價值兼具）；軟體應用大型股。"
+      "peg_ratio": 0.84,
+      "score": 99.8,
+      "reason": "分析師共識漲幅 +56%；近52週最低點（4%）；本益比低於產業均值 30%；PEG 0.8（成長價值兼具）；軟體應用大型股。"
     },
     {
       "ticker": "UBER",
@@ -59,9 +59,9 @@
       "upside_pct": 24.9,
       "week52_pos": 19.2,
       "relative_pe": 0.55,
-      "peg_ratio": 0.78,
-      "score": 81.2,
-      "reason": "分析師共識漲幅 +25%；位於52週低點區（19%）；本益比低於產業均值 45%；PEG 0.8（成長價值兼具）；軟體應用龍頭。"
+      "peg_ratio": 0.74,
+      "score": 82.5,
+      "reason": "分析師共識漲幅 +25%；位於52週低點區（19%）；本益比低於產業均值 45%；PEG 0.7（成長價值兼具）；軟體應用龍頭。"
     },
     {
       "ticker": "ACN",
@@ -72,10 +72,10 @@
       "market_cap": 114606333952,
       "upside_pct": 31.5,
       "week52_pos": 18.3,
-      "relative_pe": 0.54,
-      "peg_ratio": 1.38,
-      "score": 80.7,
-      "reason": "分析師共識漲幅 +32%；位於52週低點區（18%）；本益比低於產業均值 46%；IT服務龍頭。"
+      "relative_pe": 0.55,
+      "peg_ratio": 1.31,
+      "score": 80.5,
+      "reason": "分析師共識漲幅 +32%；位於52週低點區（18%）；本益比低於產業均值 45%；IT服務龍頭。"
     },
     {
       "ticker": "LOW",
@@ -83,11 +83,11 @@
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
       "price": 206.64,
-      "market_cap": 115864510464,
+      "market_cap": 115925041152,
       "upside_pct": 27.6,
       "week52_pos": 2.4,
       "relative_pe": 0.87,
-      "peg_ratio": 1.36,
+      "peg_ratio": 1.35,
       "score": 78.9,
       "reason": "分析師共識漲幅 +28%；近52週最低點（2%）；本益比低於產業均值 13%；家居零售龍頭。"
     },
@@ -129,9 +129,9 @@
       "upside_pct": 27.1,
       "week52_pos": 32.9,
       "relative_pe": 0.83,
-      "peg_ratio": 1.02,
-      "score": 61.2,
-      "reason": "分析師共識漲幅 +27%；本益比低於產業均值 17%；軟體應用龍頭。"
+      "peg_ratio": 0.98,
+      "score": 61.8,
+      "reason": "分析師共識漲幅 +27%；本益比低於產業均值 17%；PEG 1.0（成長價值兼具）；軟體應用龍頭。"
     },
     {
       "ticker": "WFC",
