@@ -1,6 +1,15 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "AI教父超Chill！黃仁勳COMPUTEX逛一半「坐地喝台啤」畫面瘋傳",
+        "description": "<img alt=\"AI教父超Chill！黃仁勳COMPUTEX逛一半「坐地喝台啤」畫面瘋傳\" src=\"https://cdn2.ettoday.net/images/8770/c8770739.jpg\" /><br /> 輝達（NVIDIA）執行長黃仁勳3日持續展開COMPUTEX 2026供應鏈巡禮，上午接連造訪鴻海、台達電、和碩等合作夥伴展區後，下午再現身技嘉與研華攤位。所到之處都吸引大批媒體與民眾追隨，展館擠得水洩不通，宛如大型追星現場。 <a href=\"https://finance.ettoday.net/news/3177307\" target=\"_blank\">《詳全文...》</a>",
+        "link": "https://finance.ettoday.net/news/3177307",
+        "source": "ETtoday財經",
+        "category": "台股",
+        "published_ts": 0
+      }
+    ],
     "ticker": "2308.TW"
   },
   "technical": {
@@ -9,11 +18,11 @@
     "macd_signal": 114.25512969012244,
     "macd_histogram": 13.502858543850365,
     "ma50": 1965.3,
-    "volume_ratio": 0.9575791076415446,
+    "volume_ratio": 0.9158144844223581,
     "ticker": "2308.TW"
   },
   "fundamentals": {
-    "pe_ratio": 106.13921,
+    "pe_ratio": 106.36915,
     "forward_pe": 37.91624,
     "price_to_book": 21.288958,
     "revenue_growth": 0.34,
@@ -23,7 +32,7 @@
     "current_price": 2455.0,
     "fifty_two_week_low": 379.0,
     "fifty_two_week_high": 2585.0,
-    "trailing_eps": 23.13,
+    "trailing_eps": 23.08,
     "book_value": 115.318,
     "peg_ratio": 3.818,
     "short_name": "DELTA ELECTRONIC",

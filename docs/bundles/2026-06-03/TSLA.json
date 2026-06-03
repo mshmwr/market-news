@@ -1,26 +1,35 @@
 {
   "news": {
-    "articles": [],
+    "articles": [
+      {
+        "title": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+        "description": "The valuation would make Elon Musk's company the seventh-biggest in the U.S., above Tesla, which has a market cap of about $1.6 trillion.",
+        "link": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780521221
+      }
+    ],
     "ticker": "TSLA"
   },
   "technical": {
-    "rsi": 53.586993319356345,
-    "macd_line": 9.32239029032263,
-    "macd_signal": 10.776448873188922,
-    "macd_histogram": -1.454058582866292,
-    "ma50": 393.62220092773435,
-    "volume_ratio": 0.7345716663785705,
+    "rsi": 53.56794191676265,
+    "macd_line": 8.492640032160068,
+    "macd_signal": 10.318977559201503,
+    "macd_histogram": -1.826337527041435,
+    "ma50": 394.4792010498047,
+    "volume_ratio": 0.8611556828199256,
     "ticker": "TSLA"
   },
   "fundamentals": {
-    "pe_ratio": 385.21817,
-    "forward_pe": 168.84157,
-    "price_to_book": 19.35151,
+    "pe_ratio": 385.18182,
+    "forward_pe": 168.82564,
+    "price_to_book": 19.349684,
     "revenue_growth": 0.158,
     "profit_margin": 0.03946,
     "debt_to_equity": 18.738,
     "target_mean_price": 411.8878,
-    "current_price": 423.74,
+    "current_price": 423.7,
     "fifty_two_week_low": 273.21,
     "fifty_two_week_high": 498.83,
     "trailing_eps": 1.1,

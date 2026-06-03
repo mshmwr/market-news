@@ -1,43 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Pulte appointment as spy chief would give a Trump attack dog access to an ocean of intelligence",
-        "description": "In his role atop the housing finance agency, Bill Pulte has used his access to mortgage records to refer some top Trump opponents for prosecution.",
-        "link": "https://www.cnbc.com/2026/06/02/bill-pulte-dni-tulsi-gabbard.html",
-        "source": "CNBC",
-        "category": "美股",
-        "published_ts": 1780480695
-      },
-      {
-        "title": "Trump names housing official Bill Pulte as acting US spymaster",
-        "description": "The head of the Federal Housing Finance Agency, who pushed for criminal charges against Trump's foes, will step in as acting Director of National Intelligence.",
-        "link": "https://www.bbc.com/news/articles/cyv2dpyz3dpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "宏觀",
-        "published_ts": 1780432575
-      }
-    ],
+    "articles": [],
     "ticker": "SPY"
   },
   "technical": {
-    "rsi": 75.69228663442088,
-    "macd_line": 12.87582697070377,
-    "macd_signal": 12.908809327142407,
-    "macd_histogram": -0.03298235643863734,
-    "ma50": 707.8418005371094,
-    "volume_ratio": 0.6790199718432409,
+    "rsi": 67.96682834706004,
+    "macd_line": 12.322460322354914,
+    "macd_signal": 12.791494245432146,
+    "macd_histogram": -0.469033923077232,
+    "ma50": 709.8190002441406,
+    "volume_ratio": 0.9380862786596285,
     "ticker": "SPY"
   },
   "fundamentals": {
-    "pe_ratio": 28.534704,
+    "pe_ratio": 28.334473,
     "forward_pe": null,
-    "price_to_book": 1.7696519,
+    "price_to_book": 1.757234,
     "revenue_growth": null,
     "profit_margin": null,
     "debt_to_equity": null,
     "target_mean_price": null,
-    "current_price": 759.57,
+    "current_price": 754.24,
     "fifty_two_week_low": 591.05,
     "fifty_two_week_high": 760.4,
     "trailing_eps": null,

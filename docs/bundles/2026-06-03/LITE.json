@@ -1,35 +1,26 @@
 {
   "news": {
-    "articles": [
-      {
-        "title": "Why Lumentum, Coherent and other optical stocks rocketed to big gains Tuesday",
-        "description": "Nvidia’s Jensen Huang spoke highly of Marvell, and his comments are sparking broad enthusiasm for providers of optical components.",
-        "link": "https://www.marketwatch.com/story/why-lumentum-coherent-and-other-optical-stocks-are-rocketing-toward-big-gains-d5a2e9c7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "category": "美股",
-        "published_ts": 1780439040
-      }
-    ],
+    "articles": [],
     "ticker": "LITE"
   },
   "technical": {
-    "rsi": 60.00177783445954,
-    "macd_line": 13.485850841544448,
-    "macd_signal": 17.139705602780676,
-    "macd_histogram": -3.6538547612362287,
-    "ma50": 874.6076000976562,
-    "volume_ratio": 1.2482436714461376,
+    "rsi": 51.97026500398819,
+    "macd_line": 13.414998365287033,
+    "macd_signal": 16.392498894592727,
+    "macd_histogram": -2.9775005293056935,
+    "ma50": 878.7885998535156,
+    "volume_ratio": 0.9022542498809892,
     "ticker": "LITE"
   },
   "fundamentals": {
-    "pe_ratio": 181.82863,
-    "forward_pe": 56.857014,
-    "price_to_book": 86.79683,
+    "pe_ratio": 165.72438,
+    "forward_pe": 51.821285,
+    "price_to_book": 79.10938,
     "revenue_growth": 0.901,
     "profit_margin": 0.17678,
     "debt_to_equity": 111.445,
     "target_mean_price": 1104.6777,
-    "current_price": 1029.15,
+    "current_price": 938.0,
     "fifty_two_week_low": 79.495,
     "fifty_two_week_high": 1085.68,
     "trailing_eps": 5.66,
