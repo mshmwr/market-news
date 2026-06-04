@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump says Pulte won't be permanent national intelligence director",
+        "description": "Trump's comment came two days after he tapped Bill Pulte, who leads the Federal Housing Finance Agency, as acting DNI to replace Tulsi Gabbard.",
+        "link": "https://www.cnbc.com/2026/06/04/pulte-intelligence-trump-dni-temporary.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780608959
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 55.30591295148936,
+    "macd_line": 6.263501543049614,
+    "macd_signal": 9.169914629640092,
+    "macd_histogram": -2.9064130865904776,
+    "ma50": 87.72239990234375,
+    "volume_ratio": 0.5775109120390617,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 72.34483,
+    "price_to_book": 5.040357,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 89.32195,
+    "current_price": 111.78,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

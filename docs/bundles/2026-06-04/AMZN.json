@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon engineers in Seattle slam employer for building AI data centers while laying off 30,000 staffers",
+        "description": "Amazon engineers called out their employer for conducting mass layoffs while it commits to spending $200 billion this year on AI infrastructure.",
+        "link": "https://www.cnbc.com/2026/06/03/amazon-engineers-in-seattle-slam-employer-for-ai-data-amid-layoffs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780575609
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 43.49780270769186,
+    "macd_line": 0.8960711138849433,
+    "macd_signal": 3.950479981861755,
+    "macd_histogram": -3.0544088679768118,
+    "ma50": 250.47120056152343,
+    "volume_ratio": 0.9037297114198016,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.125317,
+    "forward_pe": 25.72941,
+    "price_to_book": 6.175991,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.7934,
+    "current_price": 253.79,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.9,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
