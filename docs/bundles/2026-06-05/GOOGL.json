@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "First Google, now Meta? Big Tech may increasingly sell stock to bankroll $820 billion AI boom.",
+        "description": "Stock investors may not love it — but bond investors already heavily engaged in funding the AI buildout are pleased.",
+        "link": "https://www.marketwatch.com/story/first-google-then-meta-big-tech-may-increasingly-sell-stock-to-bankroll-820-billion-ai-boom-83c69030?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780694100
+      },
+      {
+        "title": "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
+        "description": "Ahead of a planned IPO, SpaceX inked a deal to rent compute capacity to Google for $920 million per month for 32 months.",
+        "link": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780693313
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 46.423326963540184,
+    "macd_line": 1.7035894073741815,
+    "macd_signal": 6.85573608716322,
+    "macd_histogram": -5.1521466797890385,
+    "ma50": 354.50219970703125,
+    "volume_ratio": 1.1693805127131354,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 28.132061,
+    "forward_pe": 25.485815,
+    "price_to_book": 9.326568,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 429.8698,
+    "current_price": 368.53,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.4247,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 52,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

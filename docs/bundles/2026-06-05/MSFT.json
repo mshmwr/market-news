@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "LinkedIn co-founder Reid Hoffman is leaving Microsoft's board after almost a decade",
+        "description": "Reid Hoffman was one of OpenAI's first donors, and he left its board in 2023 as the nonprofit cozied up with Microsoft.",
+        "link": "https://www.cnbc.com/2026/06/05/linkedin-co-founder-reid-hoffman-leaving-microsoft-board-after-decade.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780676367
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 47.65762364206912,
+    "macd_line": 5.78197280964423,
+    "macd_signal": 6.398593375765597,
+    "macd_histogram": -0.6166205661213668,
+    "ma50": 407.67138122558595,
+    "volume_ratio": 0.9298287536298426,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.831347,
+    "forward_pe": 21.53399,
+    "price_to_book": 7.4702835,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.946,
+    "current_price": 416.67,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.3605,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "First Google, now Meta? Big Tech may increasingly sell stock to bankroll $820 billion AI boom.",
+        "description": "Stock investors may not love it — but bond investors already heavily engaged in funding the AI buildout are pleased.",
+        "link": "https://www.marketwatch.com/story/first-google-then-meta-big-tech-may-increasingly-sell-stock-to-bankroll-820-billion-ai-boom-83c69030?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780694100
+      },
+      {
+        "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
+        "description": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
+        "link": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780690964
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 41.563672281339166,
+    "macd_line": -3.749924859284988,
+    "macd_signal": -3.485391384743973,
+    "macd_histogram": -0.26453347454101506,
+    "ma50": 619.5203991699219,
+    "volume_ratio": 1.7602677182797943,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.57148,
+    "forward_pe": 16.398375,
+    "price_to_book": 6.176247,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.798,
+    "current_price": 593.0,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.49,
+    "book_value": 96.013,
+    "peg_ratio": 0.9067,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

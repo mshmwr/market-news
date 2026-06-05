@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 54.54935207613047,
+    "macd_line": 43.41908537303311,
+    "macd_signal": 47.587176810935986,
+    "macd_histogram": -4.1680914379028735,
+    "ma50": 358.72340118408204,
+    "volume_ratio": 1.3366384328940273,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 156.50336,
+    "forward_pe": 35.850483,
+    "price_to_book": 11.7930565,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 482.6875,
+    "current_price": 466.38,
+    "fifty_two_week_low": 114.71,
+    "fifty_two_week_high": 546.44,
+    "trailing_eps": 2.98,
+    "book_value": 39.547,
+    "peg_ratio": 1.2546,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}
