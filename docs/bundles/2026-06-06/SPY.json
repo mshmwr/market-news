@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+        "description": "Department reports raise concerns about increased espionage activity amid US-Israeli war with Iran, ceasefire talks.",
+        "link": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1780780236
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 49.469553698773765,
+    "macd_line": 10.00915488338046,
+    "macd_signal": 12.104603654638467,
+    "macd_histogram": -2.095448771258006,
+    "ma50": 713.5118005371094,
+    "volume_ratio": 1.9149134060557298,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.660543,
+    "forward_pe": null,
+    "price_to_book": 1.7183496,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 737.55,
+    "fifty_two_week_low": 591.05,
+    "fifty_two_week_high": 760.4,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

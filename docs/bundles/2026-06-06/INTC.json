@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump wants Bill Pulte to fire big chunk of national intelligence office staff: WSJ",
+        "description": "President Trump's comments are sure to roil members of Congress who criticized the appointment of Bill Pulte as acting national intelligence director.",
+        "link": "https://www.cnbc.com/2026/06/05/trump-bill-pulte-fire-intelligence-dni.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780694776
+      },
+      {
+        "title": "'Extremely intelligent' bear on the run in Japan after injuring four people",
+        "description": "Authorities said that a bear in north-east Japan has eluded capture by opening a window.",
+        "link": "https://www.bbc.com/news/videos/cx212p755z8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1780650537
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 43.71693007802378,
+    "macd_line": 4.648127239957375,
+    "macd_signal": 8.265658255090797,
+    "macd_histogram": -3.6175310151334212,
+    "ma50": 88.76219985961914,
+    "volume_ratio": 1.082738633877538,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 64.18355,
+    "price_to_book": 4.47175,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 89.32195,
+    "current_price": 99.17,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

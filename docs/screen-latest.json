@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "filters": {
     "top_n": 10,
     "min_upside_pct": 10.0,
@@ -8,20 +8,6 @@
     "min_market_cap_b": 20.0
   },
   "candidates": [
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US, Inc.",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 178.1,
-      "market_cap": 192740655104,
-      "upside_pct": 46.4,
-      "week52_pos": 1.2,
-      "relative_pe": 0.86,
-      "peg_ratio": 0.72,
-      "score": 103.3,
-      "reason": "分析師共識漲幅 +46%；近52週最低點（1%）；本益比低於產業均值 14%；PEG 0.7（成長價值兼具）；電信服務龍頭。"
-    },
     {
       "ticker": "INTU",
       "name": "Intuit Inc.",
@@ -32,9 +18,23 @@
       "upside_pct": 65.6,
       "week52_pos": 0.6,
       "relative_pe": 0.65,
-      "peg_ratio": 0.84,
-      "score": 103.2,
+      "peg_ratio": 0.77,
+      "score": 105.3,
       "reason": "分析師共識漲幅 +66%；近52週最低點（1%）；本益比低於產業均值 35%；PEG 0.8（成長價值兼具）；軟體應用大型股。"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "price": 178.1,
+      "market_cap": 192740655104,
+      "upside_pct": 46.4,
+      "week52_pos": 1.2,
+      "relative_pe": 0.86,
+      "peg_ratio": 0.7,
+      "score": 103.9,
+      "reason": "分析師共識漲幅 +46%；近52週最低點（1%）；本益比低於產業均值 14%；PEG 0.7（成長價值兼具）；電信服務龍頭。"
     },
     {
       "ticker": "UBER",
@@ -51,19 +51,6 @@
       "reason": "分析師共識漲幅 +48%；近52週最低點（7%）；本益比低於產業均值 37%；軟體應用龍頭。"
     },
     {
-      "ticker": "CMCSA",
-      "name": "Comcast Corporation",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 23.82,
-      "market_cap": 85090484224,
-      "upside_pct": 37.4,
-      "week52_pos": 3.9,
-      "relative_pe": 0.21,
-      "score": 97.3,
-      "reason": "分析師共識漲幅 +37%；近52週最低點（4%）；本益比低於產業均值 79%；電信服務大型股。"
-    },
-    {
       "ticker": "T",
       "name": "AT&T Inc.",
       "sector": "Communication Services",
@@ -73,9 +60,22 @@
       "upside_pct": 33.2,
       "week52_pos": 2.2,
       "relative_pe": 0.34,
-      "peg_ratio": 1.72,
+      "peg_ratio": 1.59,
       "score": 96.7,
       "reason": "分析師共識漲幅 +33%；近52週最低點（2%）；本益比低於產業均值 66%；電信服務龍頭。"
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast Corporation",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "price": 23.82,
+      "market_cap": 85090484224,
+      "upside_pct": 36.2,
+      "week52_pos": 3.9,
+      "relative_pe": 0.21,
+      "score": 96.4,
+      "reason": "分析師共識漲幅 +36%；近52週最低點（4%）；本益比低於產業均值 79%；電信服務大型股。"
     },
     {
       "ticker": "ADBE",
@@ -84,12 +84,12 @@
       "industry": "Software - Application",
       "price": 251.44,
       "market_cap": 101632049152,
-      "upside_pct": 30.2,
+      "upside_pct": 31.2,
       "week52_pos": 13.8,
       "relative_pe": 0.52,
-      "peg_ratio": 0.74,
-      "score": 90.7,
-      "reason": "分析師共識漲幅 +30%；位於52週低點區（14%）；本益比低於產業均值 48%；PEG 0.7（成長價值兼具）；軟體應用龍頭。"
+      "peg_ratio": 0.73,
+      "score": 91.8,
+      "reason": "分析師共識漲幅 +31%；位於52週低點區（14%）；本益比低於產業均值 48%；PEG 0.7（成長價值兼具）；軟體應用龍頭。"
     },
     {
       "ticker": "ACN",
@@ -98,12 +98,12 @@
       "industry": "Information Technology Services",
       "price": 178.25,
       "market_cap": 109701316608,
-      "upside_pct": 35.5,
+      "upside_pct": 34.9,
       "week52_pos": 13.5,
       "relative_pe": 0.52,
-      "peg_ratio": 1.31,
-      "score": 87.3,
-      "reason": "分析師共識漲幅 +36%；位於52週低點區（14%）；本益比低於產業均值 48%；IT服務龍頭。"
+      "peg_ratio": 1.26,
+      "score": 86.8,
+      "reason": "分析師共識漲幅 +35%；位於52週低點區（14%）；本益比低於產業均值 48%；IT服務龍頭。"
     },
     {
       "ticker": "CRM",
@@ -115,9 +115,9 @@
       "upside_pct": 37.3,
       "week52_pos": 19.5,
       "relative_pe": 0.77,
-      "peg_ratio": 0.98,
-      "score": 79.5,
-      "reason": "分析師共識漲幅 +37%；位於52週低點區（20%）；本益比低於產業均值 23%；PEG 1.0（成長價值兼具）；軟體應用龍頭。"
+      "peg_ratio": 0.9,
+      "score": 81.9,
+      "reason": "分析師共識漲幅 +37%；位於52週低點區（20%）；本益比低於產業均值 23%；PEG 0.9（成長價值兼具）；軟體應用龍頭。"
     },
     {
       "ticker": "LOW",
@@ -129,7 +129,7 @@
       "upside_pct": 25.1,
       "week52_pos": 8.2,
       "relative_pe": 0.89,
-      "peg_ratio": 1.35,
+      "peg_ratio": 1.38,
       "score": 72.9,
       "reason": "分析師共識漲幅 +25%；近52週最低點（8%）；本益比低於產業均值 11%；家居零售龍頭。"
     },
@@ -140,11 +140,11 @@
       "industry": "Entertainment",
       "price": 99.71,
       "market_cap": 173147553792,
-      "upside_pct": 29.9,
+      "upside_pct": 30.0,
       "week52_pos": 23.1,
       "relative_pe": 0.73,
-      "peg_ratio": 2.32,
-      "score": 71.8,
+      "peg_ratio": 2.33,
+      "score": 71.9,
       "reason": "分析師共識漲幅 +30%；位於52週低點區（23%）；本益比低於產業均值 27%；娛樂媒體龍頭。"
     }
   ]
