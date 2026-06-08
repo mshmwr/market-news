@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Airline profits plummet as US fuel costs nearly double",
+        "description": "IATA forecasts $350bn airline fuel bill for 2026, with profits dipping to their weakest margin since the COVID-19 years.",
+        "link": "https://www.aljazeera.com/economy/2026/6/8/airline-profits-plummet-as-us-fuel-costs-nearly-double?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1780943358
+      }
+    ],
+    "ticker": "ASTS"
+  },
+  "technical": {
+    "rsi": 47.1713513554236,
+    "macd_line": 5.574619785077559,
+    "macd_signal": 7.313797131296008,
+    "macd_histogram": -1.7391773462184492,
+    "ma50": 88.5012003326416,
+    "volume_ratio": 0.5039477852840899,
+    "ticker": "ASTS"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -448.63547,
+    "price_to_book": 13.213721,
+    "revenue_growth": 19.522,
+    "profit_margin": 0.0,
+    "debt_to_equity": 112.424,
+    "target_mean_price": 82.02222,
+    "current_price": 92.06,
+    "fifty_two_week_low": 27.72,
+    "fifty_two_week_high": 133.86,
+    "trailing_eps": -1.8,
+    "book_value": 6.967,
+    "peg_ratio": null,
+    "short_name": "AST SpaceMobile, Inc.",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "ASTS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASTS",
+    "available": false
+  }
+}

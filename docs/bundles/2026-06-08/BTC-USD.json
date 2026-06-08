@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "BTC-USD"
+  },
+  "technical": {
+    "rsi": 26.590570465497763,
+    "macd_line": -4017.75133082275,
+    "macd_signal": -2964.2915282031436,
+    "macd_histogram": -1053.4598026196063,
+    "ma50": 75593.17234375,
+    "volume_ratio": 0.9923872990652908,
+    "ticker": "BTC-USD"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": null,
+    "price_to_book": null,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 63313.3,
+    "fifty_two_week_low": 60074.203,
+    "fifty_two_week_high": 126198.07,
+    "trailing_eps": null,
+    "book_value": null,
+    "peg_ratio": null,
+    "short_name": "Bitcoin USD",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "BTC-USD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "BTC-USD",
+    "available": false
+  }
+}

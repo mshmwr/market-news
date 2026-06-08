@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Corning strikes another multibillion-dollar AI deal. What the new Amazon pact means for the stock",
+        "description": "Amazon joins the laundry list of partnerships Corning has secured in 2026, which includes Meta Platforms and Nvidia.",
+        "link": "https://www.cnbc.com/2026/06/08/corning-strikes-another-big-ai-deal-what-the-new-amazon-pact-means-for-the-stock.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780950812
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 39.5253539040827,
+    "macd_line": -5.746931951428451,
+    "macd_signal": -3.936804734840891,
+    "macd_histogram": -1.8101272165875595,
+    "ma50": 620.2773999023437,
+    "volume_ratio": 1.1405279422839523,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.271439,
+    "forward_pe": 16.187933,
+    "price_to_book": 6.096987,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.798,
+    "current_price": 585.39,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.9067,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

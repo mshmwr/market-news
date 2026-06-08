@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple partnering with Google and Nvidia for most advanced AI model",
+        "description": "Apple's artificial intelligence strategy took center stage at its Worldwide Developers Conference in Cupertino, Calif.",
+        "link": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780953165
+      },
+      {
+        "title": "Intel’s stock soars as the company’s ‘blue-chip roster’ of customers looks to be growing",
+        "description": "Investors are cheering the idea that Intel could serve as a backup chip manufacturer for Nvidia and Google.",
+        "link": "https://www.marketwatch.com/story/intels-stock-soars-as-the-companys-blue-chip-roster-of-customers-looks-to-be-growing-264cd9d2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780951920
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 43.37427297434177,
+    "macd_line": 0.5619518296833235,
+    "macd_signal": 5.596673411297885,
+    "macd_histogram": -5.034721581614561,
+    "ma50": 356.1499993896484,
+    "volume_ratio": 0.8797727455750511,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.69131,
+    "forward_pe": 25.123434,
+    "price_to_book": 9.194463,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 431.19302,
+    "current_price": 363.31,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.12,
+    "book_value": 39.514,
+    "peg_ratio": 1.451,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

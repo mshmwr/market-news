@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Pope Leo makes visit to Spain’s Almudena Cathedral",
+        "description": "Crowds in Madrid were delighted to see Pope Leo make a visit to Santa Maria de la Almudena Cathedral with Queen Sofia.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/8/pope-leo-makes-visit-to-spains-almudena-cathedral?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1780954113
+      },
+      {
+        "title": "Micron’s stock bounces back in a big way: ‘The memory trade is alive and well’",
+        "description": "Long-term supply agreements are altering memory companies’ long-term earnings potential for the better, an analyst said.",
+        "link": "https://www.marketwatch.com/story/microns-stock-bounces-back-in-a-big-way-the-memory-trade-is-alive-and-well-3466929f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780952100
+      },
+      {
+        "title": "Corning strikes another multibillion-dollar AI deal. What the new Amazon pact means for the stock",
+        "description": "Amazon joins the laundry list of partnerships Corning has secured in 2026, which includes Meta Platforms and Nvidia.",
+        "link": "https://www.cnbc.com/2026/06/08/corning-strikes-another-big-ai-deal-what-the-new-amazon-pact-means-for-the-stock.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780950812
+      },
+      {
+        "title": "Kalshi traders say Strait of Hormuz traffic won't return to normal before January",
+        "description": "Two weeks ago traders on Kalshi saw a 60% chance that the Strait of Hormuz would open before August. Now traders see a higher chance it won't open before 2027.",
+        "link": "https://www.cnbc.com/2026/06/08/strait-of-hormuz-traffic-wont-return-to-normal-until-end-of-the-year-traders-say.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780943395
+      },
+      {
+        "title": "Retirement 'underspending' is risky, advisor says. Here's why",
+        "description": "Retirees often focus on the risk of spending too much in retirement. But spending too little poses another kind of danger.",
+        "link": "https://www.cnbc.com/2026/06/08/retirement-risk-underspending.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780933435
+      }
+    ],
+    "ticker": "MU"
+  },
+  "technical": {
+    "rsi": 60.837252998044406,
+    "macd_line": 103.39734891202374,
+    "macd_signal": 106.35305090823061,
+    "macd_histogram": -2.9557019962068694,
+    "ma50": 629.2330010986328,
+    "volume_ratio": 0.9497318473561265,
+    "ticker": "MU"
+  },
+  "fundamentals": {
+    "pe_ratio": 44.840813,
+    "forward_pe": 8.770011,
+    "price_to_book": 14.777777,
+    "revenue_growth": 1.963,
+    "profit_margin": 0.41486,
+    "debt_to_equity": 14.902,
+    "target_mean_price": 739.475,
+    "current_price": 949.28,
+    "fifty_two_week_low": 103.38,
+    "fifty_two_week_high": 1089.29,
+    "trailing_eps": 21.17,
+    "book_value": 64.237,
+    "peg_ratio": 0.2977,
+    "short_name": "Micron Technology, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "MU"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MU",
+    "available": false
+  }
+}

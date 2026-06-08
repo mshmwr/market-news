@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple partnering with Google and Nvidia for most advanced AI model",
+        "description": "Apple's artificial intelligence strategy took center stage at its Worldwide Developers Conference in Cupertino, Calif.",
+        "link": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780953165
+      },
+      {
+        "title": "Intel’s stock soars as the company’s ‘blue-chip roster’ of customers looks to be growing",
+        "description": "Investors are cheering the idea that Intel could serve as a backup chip manufacturer for Nvidia and Google.",
+        "link": "https://www.marketwatch.com/story/intels-stock-soars-as-the-companys-blue-chip-roster-of-customers-looks-to-be-growing-264cd9d2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1780951920
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 53.044276919344355,
+    "macd_line": 4.214938775480533,
+    "macd_signal": 7.4554961422827475,
+    "macd_histogram": -3.2405573668022143,
+    "ma50": 90.08559982299805,
+    "volume_ratio": 1.0594242867809687,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 71.62947,
+    "price_to_book": 4.9722686,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 89.32195,
+    "current_price": 110.27,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Corning strikes another multibillion-dollar AI deal. What the new Amazon pact means for the stock",
+        "description": "Amazon joins the laundry list of partnerships Corning has secured in 2026, which includes Meta Platforms and Nvidia.",
+        "link": "https://www.cnbc.com/2026/06/08/corning-strikes-another-big-ai-deal-what-the-new-amazon-pact-means-for-the-stock.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780950812
+      },
+      {
+        "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
+        "description": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
+        "link": "https://www.cnbc.com/2026/06/08/amazon-taps-corning-for-op.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1780928705
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 37.266909071597,
+    "macd_line": -1.509453171574819,
+    "macd_signal": 2.1594703615097433,
+    "macd_histogram": -3.668923533084562,
+    "ma50": 251.91120056152343,
+    "volume_ratio": 0.8395411111090959,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.559845,
+    "forward_pe": 24.860577,
+    "price_to_book": 5.96744,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.7934,
+    "current_price": 245.22,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.77,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
