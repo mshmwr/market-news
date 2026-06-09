@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 36.542018467068665,
+    "macd_line": -2.428951223707543,
+    "macd_signal": 1.2414344598519245,
+    "macd_histogram": -3.6703856835594673,
+    "ma50": 252.80820068359375,
+    "volume_ratio": 1.0107221813342342,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.508387,
+    "forward_pe": 24.765821,
+    "price_to_book": 5.9423747,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.7934,
+    "current_price": 244.19,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.75,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

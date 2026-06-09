@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple’s AI could usher in a historic upgrade cycle that investors are overlooking",
+        "description": "Apple’s new AI features are on track to be monetized faster than expected, thanks to increased hardware requirements and new “killer apps.”",
+        "link": "https://www.marketwatch.com/story/apples-ai-could-usher-in-a-historic-upgrade-cycle-that-investors-are-overlooking-2b47fbb3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781042400
+      },
+      {
+        "title": "Apple shares slide after big Siri AI reveal",
+        "description": "Apple unveiled new artificial intelligence software at WWDC, highlighted by its long-awaited update to Siri.",
+        "link": "https://www.cnbc.com/2026/06/09/apple-stock-siri-ai-reaction.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781037314
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 42.68581669854017,
+    "macd_line": 5.584881738774584,
+    "macd_signal": 8.350184064184196,
+    "macd_histogram": -2.7653023254096123,
+    "ma50": 282.9023861694336,
+    "volume_ratio": 1.3858957700106282,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.17554,
+    "forward_pe": 30.234224,
+    "price_to_book": 40.020657,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 310.507,
+    "current_price": 290.55,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.4704,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

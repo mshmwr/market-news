@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple shares slide after big Siri AI reveal",
+        "description": "Apple unveiled new artificial intelligence software at WWDC, highlighted by its long-awaited update to Siri.",
+        "link": "https://www.cnbc.com/2026/06/09/apple-stock-siri-ai-reaction.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781037314
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 51.112987923480176,
+    "macd_line": 3.6400404070822816,
+    "macd_signal": 6.69237949181072,
+    "macd_histogram": -3.0523390847284384,
+    "ma50": 91.38139976501465,
+    "volume_ratio": 1.1455542141080743,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 70.10296,
+    "price_to_book": 4.866303,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 89.32195,
+    "current_price": 107.92,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

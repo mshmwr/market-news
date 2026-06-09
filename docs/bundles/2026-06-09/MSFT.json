@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
+        "description": "Nvidia challenger D-Matrix is entering full production of an AI chip it says is 10 times faster than a GPU and bypasses the memory shortage.",
+        "link": "https://www.cnbc.com/2026/06/09/nvidia-d-matrix-chip-production-microsoft.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781011007
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 41.95698274921375,
+    "macd_line": 2.048709689976988,
+    "macd_signal": 5.159885739786473,
+    "macd_histogram": -3.111176049809485,
+    "ma50": 409.5508209228516,
+    "volume_ratio": 0.9260299417979815,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.0125,
+    "forward_pe": 20.856276,
+    "price_to_book": 7.232551,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.946,
+    "current_price": 403.41,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.8,
+    "book_value": 55.777,
+    "peg_ratio": 1.2845,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
