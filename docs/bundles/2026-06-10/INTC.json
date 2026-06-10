@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump directs interim US intelligence chief Bill Pulte to downsize agency",
+        "description": "Interim ODNI chief Bill Pulte has been slammed by Democrats as a Donald Trump loyalist with no intelligence background.",
+        "link": "https://www.aljazeera.com/news/2026/6/10/trump-directs-interim-us-intelligence-chief-bill-pulte-to-downsize-agency?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1781125754
+      },
+      {
+        "title": "Trump doubles down on Pulte for DNI, as Congress eyes short-term patch for foreign surveillance law",
+        "description": "Unless Congress acts, a key provision of the Foreign Intelligence Surveillance Act will expire at the end of this week.",
+        "link": "https://www.cnbc.com/2026/06/10/trump-pulte-fisa-extension.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781124525
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 50.373492913082785,
+    "macd_line": 3.0780483330944435,
+    "macd_signal": 5.969628936894037,
+    "macd_histogram": -2.8915806037995937,
+    "ma50": 92.69839981079102,
+    "volume_ratio": 0.9739410527904827,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 69.6005,
+    "price_to_book": 4.826622,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 92.16585,
+    "current_price": 107.04,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

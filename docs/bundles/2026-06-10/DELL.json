@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 60.358222616697425,
+    "macd_line": 46.417533417080506,
+    "macd_signal": 46.72893363456391,
+    "macd_histogram": -0.31140021748340274,
+    "ma50": 254.4791488647461,
+    "volume_ratio": 0.6914389884138812,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.44506,
+    "forward_pe": 17.48615,
+    "price_to_book": -170.9801,
+    "revenue_growth": 0.875,
+    "profit_margin": 0.062750004,
+    "debt_to_equity": null,
+    "target_mean_price": 483.82608,
+    "current_price": 369.83,
+    "fifty_two_week_low": 109.17,
+    "fifty_two_week_high": 469.47,
+    "trailing_eps": 12.56,
+    "book_value": -2.163,
+    "peg_ratio": 0.6262,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}

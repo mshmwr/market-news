@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "As gold's tumble continues, traders bet the pain may last for two more years",
+        "description": "Selling in the precious metal just keeps getting worse, with the GLD ETF now down 25% from its intraday record in February.",
+        "link": "https://www.cnbc.com/2026/06/10/as-golds-tumble-continues-traders-bet-the-pain-may-last-for-two-more-years.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781115802
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 35.695735992183444,
+    "macd_line": -9.537568466319385,
+    "macd_signal": -5.596401724284354,
+    "macd_histogram": -3.9411667420350316,
+    "ma50": 622.1468005371094,
+    "volume_ratio": 0.962639819699162,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 20.77802,
+    "forward_pe": 15.78945,
+    "price_to_book": 5.9469028,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.798,
+    "current_price": 570.98,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.48,
+    "book_value": 96.013,
+    "peg_ratio": 0.8446,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

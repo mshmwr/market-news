@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
+        "description": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
+        "link": "https://www.cnbc.com/2026/06/10/palantir-karp-enterprise-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781110868
+      }
+    ],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 40.81529415344272,
+    "macd_line": -1.0464468347488776,
+    "macd_signal": 0.21967599915526836,
+    "macd_histogram": -1.266122833904146,
+    "ma50": 140.31109954833985,
+    "volume_ratio": 0.7326605947287149,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 147.96591,
+    "forward_pe": 62.77359,
+    "price_to_book": 36.939007,
+    "revenue_growth": 0.847,
+    "profit_margin": 0.43673,
+    "debt_to_equity": 2.477,
+    "target_mean_price": 183.7289,
+    "current_price": 130.21,
+    "fifty_two_week_low": 122.68,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.88,
+    "book_value": 3.525,
+    "peg_ratio": 1.8939,
+    "short_name": "Palantir Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon trucking expansion sparks freight stock sell-off",
+        "description": "Amazon has been spinning out more of its in-house logistics offerings for others to access, posing a growing threat to industry incumbents.",
+        "link": "https://www.cnbc.com/2026/06/10/amazon-trucking-expansion-freight-stock-selloff.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781121712
+      },
+      {
+        "title": "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
+        "description": "Investors have rushed to back companies in the physical AI space",
+        "link": "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781111010
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 32.45875849932098,
+    "macd_line": -3.6151230160897967,
+    "macd_signal": 0.2702595907874251,
+    "macd_histogram": -3.8853826068772217,
+    "ma50": 253.5492007446289,
+    "volume_ratio": 0.9414043973378333,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.829016,
+    "forward_pe": 24.13803,
+    "price_to_book": 5.791741,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.71274,
+    "current_price": 238.0,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.72,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

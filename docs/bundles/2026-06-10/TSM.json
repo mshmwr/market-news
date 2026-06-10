@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Unique SpaceX IPO is hedging challenge for Wall Street: 'What are you going to do, short NASA?'",
+        "description": "Millbank Dartmoor Portsmouth CIO Dennis Davitt says he hasn't seen anything like the SpaceX IPO since 2004. Investors are nervous about their positions.",
+        "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-hedging-challenge-wall-street-short-nasa.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781117241
+      },
+      {
+        "title": "World's largest chipmaker does not rule out price rises as costs increase",
+        "description": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
+        "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1781042424
+      }
+    ],
+    "ticker": "TSM"
+  },
+  "technical": {
+    "rsi": 48.30732527243475,
+    "macd_line": 8.670155236441929,
+    "macd_signal": 10.790808883354979,
+    "macd_histogram": -2.12065364691305,
+    "ma50": 394.91080078125,
+    "volume_ratio": 0.9452570282912977,
+    "ticker": "TSM"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.11598,
+    "forward_pe": 20.93054,
+    "price_to_book": 62.525303,
+    "revenue_growth": 0.351,
+    "profit_margin": 0.46505,
+    "debt_to_equity": 18.447,
+    "target_mean_price": 467.84027,
+    "current_price": 408.75,
+    "fifty_two_week_low": 206.2,
+    "fifty_two_week_high": 450.16,
+    "trailing_eps": 11.64,
+    "book_value": 6.5373535,
+    "peg_ratio": 1.3344,
+    "short_name": "Taiwan Semiconductor Manufactur",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 18,
+    "sector": "Technology",
+    "ticker": "TSM"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSM",
+    "available": false
+  }
+}
