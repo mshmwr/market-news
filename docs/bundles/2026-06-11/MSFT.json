@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Bill Gates says Epstein wanted personal relationship, but he 'never reciprocated'",
+        "description": "The Microsoft co-founder spent hours talking to lawmakers behind closed doors, where he also said Epstein used his marital infidelities to pressure him.",
+        "link": "https://www.bbc.com/news/articles/c0jy8v0ge66o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1781119884
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 36.939077419880974,
+    "macd_line": -2.262384327644895,
+    "macd_signal": 2.8411006632028393,
+    "macd_histogram": -5.103484990847734,
+    "ma50": 410.7537365722656,
+    "volume_ratio": 1.2343702733182835,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.220703,
+    "forward_pe": 20.176886,
+    "price_to_book": 6.9982247,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 560.946,
+    "current_price": 390.34,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.81,
+    "book_value": 55.777,
+    "peg_ratio": 1.225,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

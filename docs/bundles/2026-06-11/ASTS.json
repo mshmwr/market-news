@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump administration sanctions Cuba’s national oil company, blasts Castros",
+        "description": "Secretary of State Marco Rubio denounces Union Cuba-Petroleo as having &#039;unlawfully expropriated&#039; US resources.",
+        "link": "https://www.aljazeera.com/news/2026/6/11/trump-administration-sanctions-cubas-national-oil-company-blasts-castros?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1781209315
+      }
+    ],
+    "ticker": "ASTS"
+  },
+  "technical": {
+    "rsi": 50.9047025582835,
+    "macd_line": 2.348973799069242,
+    "macd_signal": 5.151018644659853,
+    "macd_histogram": -2.8020448455906113,
+    "ma50": 89.26580024719239,
+    "volume_ratio": 0.8929773067294801,
+    "ticker": "ASTS"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -475.43857,
+    "price_to_book": 14.003158,
+    "revenue_growth": 19.522,
+    "profit_margin": 0.0,
+    "debt_to_equity": 112.424,
+    "target_mean_price": 81.46667,
+    "current_price": 97.56,
+    "fifty_two_week_low": 35.815,
+    "fifty_two_week_high": 133.86,
+    "trailing_eps": -1.8,
+    "book_value": 6.967,
+    "peg_ratio": null,
+    "short_name": "AST SpaceMobile, Inc.",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "ASTS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASTS",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
+        "description": "The yellow metal is at its lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
+        "link": "https://www.cnbc.com/2026/06/11/gold-slumps-to-6-month-low-even-as-inflation-fears-rise-heres-why-bullion-is-out-of-favor.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781204777
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 35.046273243325956,
+    "macd_line": -11.376802126216717,
+    "macd_signal": -6.751710697635023,
+    "macd_histogram": -4.625091428581694,
+    "ma50": 622.0728002929687,
+    "volume_ratio": 0.935188611537132,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 20.655159,
+    "forward_pe": 15.718934,
+    "price_to_book": 5.920344,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.798,
+    "current_price": 568.43,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.825,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

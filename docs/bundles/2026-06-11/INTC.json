@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump picks former SEC Chairman Jay Clayton as national intelligence director",
+        "description": "Trump's announcement came after House Democrats' objections to his pick of Bill Pulte as acting chief ensured that a key national security tool expires Friday.",
+        "link": "https://www.cnbc.com/2026/06/11/trump-jay-clayton-national-intelligence-pulte.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781216535
+      },
+      {
+        "title": "Trump to pick US attorney Jay Clayton for director of national intelligence",
+        "description": "Nomination comes amid pushback over Donald Trump&#039;s selection of Bill Pulte as acting director of the agency.",
+        "link": "https://www.aljazeera.com/news/2026/6/11/trump-to-pick-us-attorney-jay-clayton-for-director-of-national-intelligence?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1781207774
+      },
+      {
+        "title": "Foreign surveillance program to expire Friday after House blocks extension",
+        "description": "The U.S. House rejected a short-term extension of Section 702 of the Foreign Intelligence Surveillance Act. The surveillance authority expires Friday.",
+        "link": "https://www.cnbc.com/2026/06/11/trump-pulte-fisa-congress-foreign-surveillance-program-expiration.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781205728
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 57.78876562122841,
+    "macd_line": 3.394047396618319,
+    "macd_signal": 5.454667471501326,
+    "macd_histogram": -2.0606200748830066,
+    "ma50": 94.15499977111817,
+    "volume_ratio": 1.4366001439153988,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 75.87366,
+    "price_to_book": 5.2739325,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 92.16585,
+    "current_price": 116.96,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
