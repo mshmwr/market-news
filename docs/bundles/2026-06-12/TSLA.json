@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Elon Musk becomes world's first trillionaire as SpaceX begins trading on the Nasdaq",
+        "description": "Elon Musk's stake in SpaceX is worth more than $766 billion. Combined with his Tesla holdings, Musk's net worth as of Friday is roughly $1.05 trillion.",
+        "link": "https://www.cnbc.com/2026/06/12/elon-musk-trillionaire-spacex.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781296939
+      },
+      {
+        "title": "Is it too late to buy SpaceX’s stock? Here’s how Tesla’s did after one day — and five years.",
+        "description": "Also in Weekend Reads: A bitcoin-pricing model that looks way ahead, the bear market for gold and retirement-planning advice.",
+        "link": "https://www.marketwatch.com/story/is-it-too-late-to-buy-spacexs-stock-heres-how-teslas-did-after-one-day-and-five-years-9c7564d3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781294760
+      },
+      {
+        "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+        "description": "SpaceX has achieved its goal of becoming the largest IPO on record.",
+        "link": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781275681
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 48.88267611830728,
+    "macd_line": -2.1761807614543613,
+    "macd_signal": 2.1914940408140406,
+    "macd_histogram": -4.367674802268402,
+    "ma50": 398.3000012207031,
+    "volume_ratio": 1.318901015568293,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 376.32407,
+    "forward_pe": 162.44528,
+    "price_to_book": 18.56099,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 419.93658,
+    "current_price": 406.43,
+    "fifty_two_week_low": 288.77,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.08,
+    "book_value": 21.897,
+    "peg_ratio": 5.496,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 41,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

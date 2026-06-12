@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta reportedly begins dismantling $2 billion Manus deal on Beijing's orders",
+        "description": "Meta has reportedly begun dismantling its acquisition of Manus, moving to comply with Beijing's unprecedented order to hand back the Chinese-founded AI startup.",
+        "link": "https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781250071
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 34.659749513969615,
+    "macd_line": -12.804603557108294,
+    "macd_signal": -7.962635549152088,
+    "macd_histogram": -4.841968007956206,
+    "ma50": 621.8278002929687,
+    "volume_ratio": 0.8065794781328924,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 20.609959,
+    "forward_pe": 15.678837,
+    "price_to_book": 5.905242,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.798,
+    "current_price": 566.98,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.51,
+    "book_value": 96.013,
+    "peg_ratio": 0.8213,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
