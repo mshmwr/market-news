@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "filters": {
     "top_n": 10,
     "min_upside_pct": 10.0,
@@ -15,12 +15,12 @@
       "industry": "Software - Application",
       "price": 204.02,
       "market_cap": 82464882688,
-      "upside_pct": 61.4,
+      "upside_pct": 42.0,
       "week52_pos": 3.4,
       "relative_pe": 0.42,
-      "peg_ratio": 0.62,
-      "score": 113.9,
-      "reason": "分析師共識漲幅 +61%；近52週最低點（3%）；本益比低於產業均值 58%；PEG 0.6（成長價值兼具）；軟體應用大型股。"
+      "peg_ratio": 0.58,
+      "score": 108.7,
+      "reason": "分析師共識漲幅 +42%；近52週最低點（3%）；本益比低於產業均值 58%；PEG 0.6（成長價值兼具）；軟體應用大型股。"
     },
     {
       "ticker": "INTU",
@@ -43,7 +43,7 @@
       "industry": "Software - Application",
       "price": 165.89,
       "market_cap": 135863910400,
-      "upside_pct": 53.7,
+      "upside_pct": 53.9,
       "week52_pos": 3.9,
       "relative_pe": 0.69,
       "peg_ratio": 0.79,
@@ -60,7 +60,7 @@
       "upside_pct": 51.7,
       "week52_pos": 4.8,
       "relative_pe": 0.61,
-      "peg_ratio": 5.64,
+      "peg_ratio": 5.58,
       "score": 101.9,
       "reason": "分析師共識漲幅 +52%；近52週最低點（5%）；本益比低於產業均值 39%；軟體應用龍頭。"
     },
@@ -74,7 +74,7 @@
       "upside_pct": 39.1,
       "week52_pos": 9.0,
       "relative_pe": 0.5,
-      "peg_ratio": 1.18,
+      "peg_ratio": 1.2,
       "score": 93.4,
       "reason": "分析師共識漲幅 +39%；近52週最低點（9%）；本益比低於產業均值 50%；IT服務龍頭。"
     },
@@ -85,25 +85,11 @@
       "industry": "Telecom Services",
       "price": 24.5,
       "market_cap": 87519600640,
-      "upside_pct": 33.0,
+      "upside_pct": 32.3,
       "week52_pos": 12.2,
       "relative_pe": 0.22,
-      "score": 88.6,
-      "reason": "分析師共識漲幅 +33%；位於52週低點區（12%）；本益比低於產業均值 78%；電信服務大型股。"
-    },
-    {
-      "ticker": "T",
-      "name": "AT&T Inc.",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 23.58,
-      "market_cap": 163841818624,
-      "upside_pct": 28.5,
-      "week52_pos": 16.9,
-      "relative_pe": 0.35,
-      "peg_ratio": 1.61,
-      "score": 83.9,
-      "reason": "分析師共識漲幅 +28%；位於52週低點區（17%）；本益比低於產業均值 65%；電信服務龍頭。"
+      "score": 88.0,
+      "reason": "分析師共識漲幅 +32%；位於52週低點區（12%）；本益比低於產業均值 78%；電信服務大型股。"
     },
     {
       "ticker": "MSFT",
@@ -120,6 +106,20 @@
       "reason": "分析師共識漲幅 +44%；位於52週低點區（17%）；本益比低於產業均值 17%；系統軟體龍頭。"
     },
     {
+      "ticker": "T",
+      "name": "AT&T Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "price": 23.58,
+      "market_cap": 163841818624,
+      "upside_pct": 28.4,
+      "week52_pos": 16.9,
+      "relative_pe": 0.35,
+      "peg_ratio": 1.65,
+      "score": 83.8,
+      "reason": "分析師共識漲幅 +28%；位於52週低點區（17%）；本益比低於產業均值 65%；電信服務龍頭。"
+    },
+    {
       "ticker": "DIS",
       "name": "Walt Disney Company (The)",
       "sector": "Communication Services",
@@ -129,7 +129,7 @@
       "upside_pct": 29.6,
       "week52_pos": 24.2,
       "relative_pe": 0.73,
-      "peg_ratio": 2.33,
+      "peg_ratio": 2.32,
       "score": 70.9,
       "reason": "分析師共識漲幅 +30%；位於52週低點區（24%）；本益比低於產業均值 27%；娛樂媒體龍頭。"
     },
@@ -140,11 +140,11 @@
       "industry": "Drug Manufacturers - General",
       "price": 125.59,
       "market_cap": 155928756224,
-      "upside_pct": 25.7,
+      "upside_pct": 25.5,
       "week52_pos": 40.0,
       "relative_pe": 0.78,
       "peg_ratio": 2.14,
-      "score": 57.1,
+      "score": 56.9,
       "reason": "分析師共識漲幅 +26%；本益比低於產業均值 22%；大型製藥龍頭。"
     }
   ]
