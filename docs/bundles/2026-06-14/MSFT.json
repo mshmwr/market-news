@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 37.19524907610531,
+    "macd_line": -3.9339581638524805,
+    "macd_signal": 1.486425320720104,
+    "macd_histogram": -5.420383484572584,
+    "ma50": 411.19710205078127,
+    "volume_ratio": 0.9203541691826352,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.258333,
+    "forward_pe": 20.197561,
+    "price_to_book": 7.0053964,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.38763,
+    "current_price": 390.74,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.8,
+    "book_value": 55.777,
+    "peg_ratio": 1.2046,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

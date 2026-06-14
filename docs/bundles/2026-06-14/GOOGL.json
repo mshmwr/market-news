@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Elon Musk drifted from Larry Page over a decade ago, but their companies are closer than ever",
+        "description": "SpaceX and Google have a long and complicated relationship, but they were both celebrating this week after Elon Musk's company held its blockbuster IPO.",
+        "link": "https://www.cnbc.com/2026/06/14/elon-musk-drifted-from-larry-page-but-spacex-google-closer-than-ever.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781436601
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 42.464548386507964,
+    "macd_line": -2.8479745359352933,
+    "macd_signal": 1.1320862578734618,
+    "macd_histogram": -3.980060793808755,
+    "ma50": 362.0612603759766,
+    "volume_ratio": 0.76076173483583,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.477463,
+    "forward_pe": 24.838732,
+    "price_to_book": 9.102596,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 432.83453,
+    "current_price": 359.68,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.09,
+    "book_value": 39.514,
+    "peg_ratio": 1.4162,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}
