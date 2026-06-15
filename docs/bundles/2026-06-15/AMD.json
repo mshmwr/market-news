@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "AMD flirts with a $900 billion valuation after beefing up its memory technology",
+        "description": "AMD’s stock is surging, with the company now worth more than JPMorgan Chase.",
+        "link": "https://www.marketwatch.com/story/amd-flirts-with-a-900-billion-valuation-after-beefing-up-its-memory-technology-2a366bdc?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781556180
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 65.242866183809,
+    "macd_line": 31.09824500988873,
+    "macd_signal": 35.56116081865284,
+    "macd_histogram": -4.462915808764109,
+    "ma50": 393.37500152587893,
+    "volume_ratio": 1.0041061761574215,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 181.21193,
+    "forward_pe": 41.764412,
+    "price_to_book": 13.838218,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 486.33334,
+    "current_price": 547.26,
+    "fifty_two_week_low": 117.78,
+    "fifty_two_week_high": 558.37,
+    "trailing_eps": 3.02,
+    "book_value": 39.547,
+    "peg_ratio": 1.2306,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

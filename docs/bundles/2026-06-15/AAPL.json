@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 49.50096745876526,
+    "macd_line": 1.8717901822537897,
+    "macd_signal": 5.017734698672821,
+    "macd_histogram": -3.145944516419031,
+    "ma50": 286.17681640625,
+    "volume_ratio": 0.9059440514446884,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.842804,
+    "forward_pe": 30.893208,
+    "price_to_book": 40.8292,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 312.71628,
+    "current_price": 296.42,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.27,
+    "book_value": 7.26,
+    "peg_ratio": 2.3524,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

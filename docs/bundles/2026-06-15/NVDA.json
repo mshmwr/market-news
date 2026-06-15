@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Even Nvidia is joining the AI borrowing spree, with a historic $20 billion bond deal",
+        "description": "Nvidia is launching a seven-tranche debt offering to refinance its existing debt, as investor appetite for AI credit surges.",
+        "link": "https://www.marketwatch.com/story/even-nvidia-is-joining-the-ai-borrowing-spree-with-a-historic-20-billion-bond-deal-a054cff4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781556240
+      },
+      {
+        "title": "Nvidia plans to raise at least $20 billion in first debt sale since start of AI boom",
+        "description": "Nvidia is set raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+        "link": "https://www.cnbc.com/2026/06/15/nvidia-plans-to-raise-about-20-billion-first-debt-sale-in-ai-boom.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781554267
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 51.403600985039475,
+    "macd_line": -0.7365008262801211,
+    "macd_signal": 0.8926243249147945,
+    "macd_histogram": -1.6291251511949156,
+    "ma50": 207.40984283447267,
+    "volume_ratio": 0.7493555140770276,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.534454,
+    "forward_pe": 16.692661,
+    "price_to_book": 26.3259,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 298.9322,
+    "current_price": 212.45,
+    "fifty_two_week_low": 142.03,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 8.07,
+    "peg_ratio": 0.6315,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
