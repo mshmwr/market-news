@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "SpaceX rises 4% to leapfrog Amazon in market cap, closes short of Microsoft",
+        "description": "CEO Elon Musk said Sunday that the company \"might be able to reach approximately\" $1 trillion revenue in 2030.",
+        "link": "https://www.cnbc.com/2026/06/16/spacex-stock-rally-market-cap.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781647403
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 40.272691467668054,
+    "macd_line": -5.328903577099538,
+    "macd_signal": -0.8312866768093505,
+    "macd_histogram": -4.497616900290188,
+    "ma50": 412.1743621826172,
+    "volume_ratio": 0.8453100928646183,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.456223,
+    "forward_pe": 20.357285,
+    "price_to_book": 7.0607953,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.38763,
+    "current_price": 393.83,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.2333,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

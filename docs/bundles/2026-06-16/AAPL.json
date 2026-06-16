@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel begins production of most-advanced chip, inching closer to possible Apple deal",
+        "description": "Intel is entering production of 18A-P, its most-advanced chip node that could be the target of a coming deal with Apple",
+        "link": "https://www.cnbc.com/2026/06/16/intel-begins-production-of-18a-p-inches-closer-to-possible-apple-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781643602
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 52.16105842999113,
+    "macd_line": 1.7427821199854634,
+    "macd_signal": 4.362996014724189,
+    "macd_histogram": -2.6202138947387255,
+    "ma50": 286.98918212890624,
+    "volume_ratio": 0.7442907243432689,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 36.183792,
+    "forward_pe": 31.187109,
+    "price_to_book": 41.21763,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 312.71628,
+    "current_price": 299.24,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.27,
+    "book_value": 7.26,
+    "peg_ratio": 2.3951,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

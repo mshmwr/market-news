@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "This little-known AI stock has beaten Micron and Arm this year, and now it’s extending its lead",
+        "description": "Rackspace shares are surging Tuesday following a new deal with AMD.",
+        "link": "https://www.marketwatch.com/story/this-little-known-ai-stock-has-beaten-micron-and-arm-this-year-and-now-its-extending-its-lead-7ed7b273?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781644320
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 56.92917688414328,
+    "macd_line": 29.58096786169142,
+    "macd_signal": 34.366129616991635,
+    "macd_histogram": -4.785161755300216,
+    "ma50": 399.11720184326174,
+    "volume_ratio": 0.8375617911943468,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 168.53488,
+    "forward_pe": 38.714085,
+    "price_to_book": 12.827521,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 486.33334,
+    "current_price": 507.29,
+    "fifty_two_week_low": 125.77,
+    "fifty_two_week_high": 558.37,
+    "trailing_eps": 3.01,
+    "book_value": 39.547,
+    "peg_ratio": 1.3165,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

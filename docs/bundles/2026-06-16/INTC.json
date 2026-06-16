@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Wall Street can’t stop talking about ‘MANGOS’ stocks as the ‘Magnificent Seven’ becomes passé",
+        "description": "Wall Street has a new way to sell the artificial-intelligence trade: take the companies investors most want to own, including some they still cannot buy, and turn them into an acronym.",
+        "link": "https://www.marketwatch.com/story/wall-street-cant-stop-talking-about-mangos-stocks-as-the-magnificent-seven-becomes-passe-61b5a453?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781646420
+      },
+      {
+        "title": "Intel begins production of most-advanced chip, inching closer to possible Apple deal",
+        "description": "Intel is entering production of 18A-P, its most-advanced chip node that could be the target of a coming deal with Apple",
+        "link": "https://www.cnbc.com/2026/06/16/intel-begins-production-of-18a-p-inches-closer-to-possible-apple-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781643602
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 54.81586580116201,
+    "macd_line": 4.812510904093898,
+    "macd_signal": 5.1044898190867745,
+    "macd_histogram": -0.2919789149928764,
+    "ma50": 98.56079986572266,
+    "volume_ratio": 1.015310997287447,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 75.92662,
+    "price_to_book": 5.277991,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 93.11707,
+    "current_price": 117.05,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

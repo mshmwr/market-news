@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "SpaceX rises 4% to leapfrog Amazon in market cap, closes short of Microsoft",
+        "description": "CEO Elon Musk said Sunday that the company \"might be able to reach approximately\" $1 trillion revenue in 2030.",
+        "link": "https://www.cnbc.com/2026/06/16/spacex-stock-rally-market-cap.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781647403
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 43.20308551660383,
+    "macd_line": -4.601160386803684,
+    "macd_signal": -2.628065473658202,
+    "macd_histogram": -1.9730949131454825,
+    "ma50": 256.16280059814454,
+    "volume_ratio": 0.8383722395189446,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.660233,
+    "forward_pe": 24.949392,
+    "price_to_book": 5.986421,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.51096,
+    "current_price": 246.0,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.77,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

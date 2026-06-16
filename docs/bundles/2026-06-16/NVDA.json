@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "'Godfather' of options sees SpaceX surpassing Nvidia, Tesla as early trades come in",
+        "description": "SpaceX options are officially listed, and they're off to the races.",
+        "link": "https://www.cnbc.com/2026/06/16/godfather-of-options-sees-spacex-surpassing-nvidia-tesla-as-early-trades-come-in.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781620304
+      },
+      {
+        "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
+        "description": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+        "link": "https://www.cnbc.com/2026/06/15/nvidia-plans-to-raise-about-20-billion-first-debt-sale-in-ai-boom.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781564176
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 47.48684080779751,
+    "macd_line": -0.8968507266489212,
+    "macd_signal": 0.5353461029694007,
+    "macd_histogram": -1.4321968296183218,
+    "ma50": 208.00937896728516,
+    "volume_ratio": 0.7212606658546321,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.81135,
+    "forward_pe": 16.296658,
+    "price_to_book": 25.701365,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 298.9322,
+    "current_price": 207.41,
+    "fifty_two_week_low": 142.03,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 8.07,
+    "peg_ratio": 0.6538,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
