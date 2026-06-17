@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon AI exec predicts first 'commercially useful' quantum computers in 5-7 years",
+        "description": "Quantum computing is becoming an increasingly competitive field, with tech giants including Microsoft, Google and IBM developing the technology.",
+        "link": "https://www.cnbc.com/2026/06/17/amazon-quantum-computing-timeline.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781718202
+      },
+      {
+        "title": "AI will create more jobs for humans, not replace them, Amazon founder Bezos says",
+        "description": "The Amazon founder, who now has robotics and space travel companies, thinks AI will create a labour shortage.",
+        "link": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1781714261
+      },
+      {
+        "title": "Target, Walmart and Amazon among brands losing LGBTQ+ consumer spending, new survey says",
+        "description": "LGBTQ+ consumers are shifting spending toward companies they view as supporting DEI and away from those seen as retreating, HRC survey finds.",
+        "link": "https://www.cnbc.com/2026/06/17/target-walmart-amazon-lgbtq-consumer-spending.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781712227
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 36.89056714437391,
+    "macd_line": -5.1056079688581235,
+    "macd_signal": -3.124074023422157,
+    "macd_histogram": -1.9815339454359666,
+    "ma50": 256.6374005126953,
+    "volume_ratio": 1.0094670485464499,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.56628,
+    "forward_pe": 24.08732,
+    "price_to_book": 5.7795734,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 237.5,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.77,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

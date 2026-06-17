@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "^GSPC"
+  },
+  "technical": {
+    "rsi": 50.47850825529202,
+    "macd_line": 37.92083715316858,
+    "macd_signal": 57.08718197055718,
+    "macd_histogram": -19.166344817388605,
+    "ma50": 7301.276826171875,
+    "volume_ratio": 0.604731742261809,
+    "ticker": "^GSPC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": null,
+    "price_to_book": null,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 7420.1,
+    "fifty_two_week_low": 5943.23,
+    "fifty_two_week_high": 7620.9,
+    "trailing_eps": null,
+    "book_value": null,
+    "peg_ratio": null,
+    "short_name": "S&P 500",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "^GSPC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "^GSPC",
+    "available": false
+  }
+}

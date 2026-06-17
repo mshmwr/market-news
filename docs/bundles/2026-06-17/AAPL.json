@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "It’s ‘unavoidable’: Apple says it will be forced to raise prices due to the AI boom",
+        "description": "Tech giants are gobbling up memory chips for AI servers, leaving Apple with soaring component costs that Tim Cook says will inevitably be passed on to consumers.",
+        "link": "https://www.marketwatch.com/story/its-unavoidable-apple-says-it-will-be-forced-to-raise-prices-due-to-the-ai-boom-e3d1e4c4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781733660
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 48.92346591111869,
+    "macd_line": 1.359205517325961,
+    "macd_signal": 3.762206096535936,
+    "macd_histogram": -2.403000579209975,
+    "ma50": 287.84284912109376,
+    "volume_ratio": 0.8414986869730471,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 35.8293,
+    "forward_pe": 30.844223,
+    "price_to_book": 40.76446,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 312.71628,
+    "current_price": 295.95,
+    "fifty_two_week_low": 195.07,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.4179,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

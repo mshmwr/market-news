@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump sabotages Senate bid to fast-track Clayton as DNI, committee scuttles hearing",
+        "description": "Any delay, and continuation of acting DNI Bill Pulte in the role, is likely to endanger the reauthorization of a key U.S. intelligence authority.",
+        "link": "https://www.cnbc.com/2026/06/17/jay-clayton-dni-hearing-congress-trump-cancel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781718439
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 57.34423025653771,
+    "macd_line": 4.883909409246556,
+    "macd_signal": 5.060352787821429,
+    "macd_histogram": -0.17644337857487358,
+    "ma50": 99.92459983825684,
+    "volume_ratio": 0.8707273138225163,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 78.35804,
+    "price_to_book": 5.4606123,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 93.97073,
+    "current_price": 121.1,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 132.75,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

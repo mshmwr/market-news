@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "ETH-USD"
+  },
+  "technical": {
+    "rsi": 41.15268604027954,
+    "macd_line": -87.70156362666216,
+    "macd_signal": -112.53626380064415,
+    "macd_histogram": 24.834700173981986,
+    "ma50": 2035.9720141601563,
+    "volume_ratio": 0.8487798646992645,
+    "ticker": "ETH-USD"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": null,
+    "price_to_book": null,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 1743.42,
+    "fifty_two_week_low": 1506.5057,
+    "fifty_two_week_high": 4953.733,
+    "trailing_eps": null,
+    "book_value": null,
+    "peg_ratio": null,
+    "short_name": "Ethereum USD",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "ETH-USD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ETH-USD",
+    "available": false
+  }
+}
