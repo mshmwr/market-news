@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel’s stock jumps 11% — even as analysts say new Apple chip deal might start small",
+        "description": "Intel “is steadily expanding its domestic capacity and converting political and strategic tailwinds into concrete foundry wins,” an analyst says.",
+        "link": "https://www.marketwatch.com/story/intel-shares-rally-as-trump-says-company-will-build-chips-for-apple-in-the-u-s-c72d8c88?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781820000
+      },
+      {
+        "title": "Micron’s stock is on the rise. Even Apple isn’t safe from ballooning memory-chip costs.",
+        "description": "Demand for memory chips will continue to outpace supply in the near term despite efforts to add manufacturing capacity, an analyst says.",
+        "link": "https://www.marketwatch.com/story/microns-stock-is-on-the-rise-even-apple-isnt-safe-from-ballooning-memory-chip-costs-ddd04d74?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1781819760
+      },
+      {
+        "title": "Intel gains 10% after Trump says company will partner with Apple on U.S. chip design",
+        "description": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
+        "link": "https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781801504
+      },
+      {
+        "title": "Apple to raise prices as AI boom pushes up chip costs",
+        "description": "The firm's outgoing boss Tim Cook did not say when prices would rise or which products would be affected.",
+        "link": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1781791407
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 50.97515482858821,
+    "macd_line": 1.2074385937834222,
+    "macd_signal": 3.251118040712437,
+    "macd_histogram": -2.0436794469290147,
+    "ma50": 288.62981567382815,
+    "volume_ratio": 1.4680668520756945,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 36.078693,
+    "forward_pe": 31.058918,
+    "price_to_book": 41.04821,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 312.71628,
+    "current_price": 298.01,
+    "fifty_two_week_low": 196.86,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.3913,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}
