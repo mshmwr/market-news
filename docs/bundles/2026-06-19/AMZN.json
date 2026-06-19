@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
+        "description": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
+        "link": "https://www.cnbc.com/2026/06/18/spacex-stock-elon-musk-rally-cools.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1781815010
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 44.02883056713692,
+    "macd_line": -4.89272656417819,
+    "macd_signal": -3.4778582722383513,
+    "macd_histogram": -1.4148682919398388,
+    "ma50": 257.10020050048826,
+    "volume_ratio": 1.7141282803717326,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.453024,
+    "forward_pe": 24.786106,
+    "price_to_book": 5.947242,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 244.39,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.77,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
