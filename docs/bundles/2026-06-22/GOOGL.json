@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Alphabet has its worst day in over a year on AI concerns after high-profile exits",
+        "description": "Google parent Alphabet has seen consecutive high-profile artificial intelligence researchers leave.",
+        "link": "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782162269
+      },
+      {
+        "title": "Alphabet sees $225 billion market-cap wipeout as investors fear it’s losing the war for AI talent",
+        "description": "Two AI leaders, including a Nobel laureate, recently said they would leave Google for rival labs.",
+        "link": "https://www.marketwatch.com/story/alphabet-sees-269-billion-market-cap-wipeout-as-investors-fear-its-losing-the-war-for-ai-talent-497aa378?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782161280
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 39.02184549355543,
+    "macd_line": -3.0796731436752793,
+    "macd_signal": -1.1653219914312292,
+    "macd_histogram": -1.9143511522440502,
+    "ma50": 367.8210113525391,
+    "volume_ratio": 1.5308617941852887,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.693129,
+    "forward_pe": 24.121851,
+    "price_to_book": 8.849522,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 432.83453,
+    "current_price": 349.68,
+    "fifty_two_week_low": 162.0,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.4491,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

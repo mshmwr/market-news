@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Big Tech has split into two artificial-intelligence camps — but the smart money isn’t chasing the next OpenAI",
+        "description": "Why tech giants such as Alphabet and Microsoft are the safer choice in the AI race.",
+        "link": "https://www.marketwatch.com/story/big-tech-is-splitting-into-two-artificial-intelligence-camps-here-is-the-better-bet-e75c9876?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782166860
+      },
+      {
+        "title": "Alphabet has its worst day in over a year on AI concerns after high-profile exits",
+        "description": "Google parent Alphabet has seen consecutive high-profile artificial intelligence researchers leave.",
+        "link": "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782162269
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 67.26752864270352,
+    "macd_line": 7.205353766390317,
+    "macd_signal": 5.625688821216892,
+    "macd_histogram": 1.579664945173425,
+    "ma50": 103.00979995727539,
+    "volume_ratio": 0.925790695650495,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 91.135414,
+    "price_to_book": 6.355233,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 94.14146,
+    "current_price": 140.94,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 141.45,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

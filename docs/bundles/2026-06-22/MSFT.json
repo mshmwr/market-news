@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Big Tech has split into two artificial-intelligence camps — but the smart money isn’t chasing the next OpenAI",
+        "description": "Why tech giants such as Alphabet and Microsoft are the safer choice in the AI race.",
+        "link": "https://www.marketwatch.com/story/big-tech-is-splitting-into-two-artificial-intelligence-camps-here-is-the-better-bet-e75c9876?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782166860
+      },
+      {
+        "title": "Chevron to fuel massive Microsoft data center in Texas using natural gas",
+        "description": "Microsoft's embrace of natural gas shows a willingness to invest in fossil fuels to meet the power demand needed in its data centers.",
+        "link": "https://www.cnbc.com/2026/06/22/chevron-cvx-microsoft-msft-natural-gas-data-center.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782155941
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 30.957661140384218,
+    "macd_line": -10.284307069340457,
+    "macd_signal": -4.740778850196387,
+    "macd_histogram": -5.54352821914407,
+    "ma50": 412.34195922851563,
+    "volume_ratio": 1.1137314648060403,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.852468,
+    "forward_pe": 18.988003,
+    "price_to_book": 6.585869,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.38763,
+    "current_price": 367.34,
+    "fifty_two_week_low": 356.28,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.81,
+    "book_value": 55.777,
+    "peg_ratio": 1.1705,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

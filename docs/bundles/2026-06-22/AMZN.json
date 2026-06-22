@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon Prime Day arrives earlier this year. Here's why Wall Street is watching closely",
+        "description": "This year could see a major drive to everyday essentials, a growing category for the e-commerce giant's annual shopping event.",
+        "link": "https://www.cnbc.com/2026/06/22/amazon-prime-day-arrives-earlier-this-year-heres-why-wall-street-is-watching-closely.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782159029
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 36.53546332238229,
+    "macd_line": -5.595867056927261,
+    "macd_signal": -3.901923353805338,
+    "macd_histogram": -1.6939437031219233,
+    "ma50": 257.08300048828124,
+    "volume_ratio": 1.3657481929243436,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.154144,
+    "forward_pe": 23.560905,
+    "price_to_book": 5.664955,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 232.79,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.72,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

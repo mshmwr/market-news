@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "CNBC Elite Advisors: Top ultra-high net worth wealth management firms for 2026",
+        "description": "CNBC Elite Advisors recognizes wealth management firms serving high net worth and UHNW clients.",
+        "link": "https://www.cnbc.com/2026/06/22/uhnw-wealth-management-list-cnbc-elite-advisors.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782137018
+      },
+      {
+        "title": "The new arms race in wealth management: Winning the ultra-wealthy",
+        "description": "Most registered investment advisors say they serve wealthy clients. The CNBC Elite Advisors list aims to help ultra-high net worth investors narrow the field.",
+        "link": "https://www.cnbc.com/2026/06/22/wealth-management-firms-compete-for-ultra-wealthy-clients.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782133848
+      }
+    ],
+    "ticker": "LITE"
+  },
+  "technical": {
+    "rsi": 49.73056941398453,
+    "macd_line": -6.588448661179314,
+    "macd_signal": -2.4227853705751903,
+    "macd_histogram": -4.165663290604123,
+    "ma50": 905.5659997558594,
+    "volume_ratio": 1.136296064405901,
+    "ticker": "LITE"
+  },
+  "fundamentals": {
+    "pe_ratio": 156.82983,
+    "forward_pe": 49.302677,
+    "price_to_book": 21.556065,
+    "revenue_growth": 0.901,
+    "profit_margin": 0.17678,
+    "debt_to_equity": 111.445,
+    "target_mean_price": 1111.2906,
+    "current_price": 893.93,
+    "fifty_two_week_low": 86.63,
+    "fifty_two_week_high": 1085.68,
+    "trailing_eps": 5.7,
+    "book_value": 41.47,
+    "peg_ratio": 0.63,
+    "short_name": "Lumentum Holdings Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 25,
+    "sector": "Technology",
+    "ticker": "LITE"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "LITE",
+    "available": false
+  }
+}

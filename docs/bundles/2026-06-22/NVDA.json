@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Super Micro’s stock is seeing its best run in a year thanks to Nvidia partnership",
+        "description": "Super Micro shares were leading the S&amp;P 500’s gainers on Monday.",
+        "link": "https://www.marketwatch.com/story/super-micros-stock-is-seeing-its-best-run-in-a-year-thanks-to-nvidia-partnership-f619e58e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782161880
+      },
+      {
+        "title": "A major chip index has doubled this year despite Nvidia ranking dead last",
+        "description": "“Nvidia has gotten so large that its ability to beat expectations has gotten much smaller,” an analyst says.",
+        "link": "https://www.marketwatch.com/story/a-major-chip-index-has-doubled-this-year-despite-nvidia-ranking-dead-last-f049eb5e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782160800
+      },
+      {
+        "title": "Nvidia's stock struggles as Kalshi traders bet chip prices are coming down",
+        "description": "Shares of Nvidia have been faltering recently — and Kalshi traders predict that what the company can charge for chips is also declining.",
+        "link": "https://www.cnbc.com/2026/06/22/nvidias-stock-struggles-as-kalshi-traders-bet-chip-prices-are-coming-down.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782158944
+      },
+      {
+        "title": "Can anyone join Musk in the trillionaire club? Zuckerberg has best shot, according to prediction markets",
+        "description": "The Meta CEO is seen as next to join the Tesla and SpaceX CEO. Nvidia CEO Jensen Huang is seen as the second-most-likely.",
+        "link": "https://www.cnbc.com/2026/06/22/zuckerberg-seen-as-next-to-join-trillionaire-club-say-kalshi-traders.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782146737
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 48.829196540484936,
+    "macd_line": -0.9705578854652686,
+    "macd_signal": -0.23946661783424814,
+    "macd_histogram": -0.7310912676310204,
+    "ma50": 209.62004638671874,
+    "volume_ratio": 0.6718055138426107,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.952524,
+    "forward_pe": 16.391691,
+    "price_to_book": 25.855019,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 298.9322,
+    "current_price": 208.65,
+    "fifty_two_week_low": 142.03,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 8.07,
+    "peg_ratio": 0.6484,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
