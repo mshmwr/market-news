@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 60.34712633820794,
+    "macd_line": 7.445376137440647,
+    "macd_signal": 5.9896449747127365,
+    "macd_histogram": 1.4557311627279104,
+    "ma50": 104.40779991149903,
+    "volume_ratio": 0.9733371033788294,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 85.53564,
+    "price_to_book": 5.9647384,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 94.75122,
+    "current_price": 132.28,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 141.45,
+    "trailing_eps": -0.61,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

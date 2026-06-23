@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Tesla crash that killed a woman under US federal investigation",
+        "description": "A Tesla driver on Friday said he was using ‘self-driving’ technology after his vehicle sped into a Texas home.",
+        "link": "https://www.bbc.co.uk/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782166807
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 40.85698543785234,
+    "macd_line": -4.308823734589453,
+    "macd_signal": -1.6092638809775266,
+    "macd_histogram": -2.699559853611926,
+    "ma50": 404.32920043945313,
+    "volume_ratio": 1.0502637021049361,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 350.1009,
+    "forward_pe": 152.64705,
+    "price_to_book": 17.427502,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 421.1561,
+    "current_price": 381.61,
+    "fifty_two_week_low": 288.77,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.09,
+    "book_value": 21.897,
+    "peg_ratio": 5.7864,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 41,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google’s online dominance is showing signs of cracking in AI era",
+        "description": "While Google remains in a position of strength in the eyes of Wall Street, the AI era is complicating the company's story.",
+        "link": "https://www.cnbc.com/2026/06/23/googles-online-dominance-is-showing-signs-of-cracking-in-ai-era.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782228098
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 37.41186487869021,
+    "macd_line": -4.3398833622173925,
+    "macd_signal": -1.8002087213323,
+    "macd_histogram": -2.5396746408850923,
+    "ma50": 368.4025988769531,
+    "volume_ratio": 0.882356443896064,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.401985,
+    "forward_pe": 23.783333,
+    "price_to_book": 8.75968,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 432.83453,
+    "current_price": 346.13,
+    "fifty_two_week_low": 166.13,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.11,
+    "book_value": 39.514,
+    "peg_ratio": 1.3768,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

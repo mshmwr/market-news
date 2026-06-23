@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
+        "description": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
+        "link": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782252681
+      },
+      {
+        "title": "Gold and silver tumble as rate-hike fears hit precious metals",
+        "description": "Gold and silver fell Tuesday as rate-hike fears pressured precious metals and Wall Street banks reassessed their gold forecasts.",
+        "link": "https://www.cnbc.com/2026/06/23/gold-silver-rate-hike-fears.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782238624
+      }
+    ],
+    "ticker": "ASTS"
+  },
+  "technical": {
+    "rsi": 39.566680170489946,
+    "macd_line": -4.269140675249247,
+    "macd_signal": -0.748297783043855,
+    "macd_histogram": -3.520842892205392,
+    "ma50": 87.61420051574707,
+    "volume_ratio": 0.7434499148799716,
+    "ticker": "ASTS"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -355.11697,
+    "price_to_book": 10.459309,
+    "revenue_growth": 19.522,
+    "profit_margin": 0.0,
+    "debt_to_equity": 112.424,
+    "target_mean_price": 81.46667,
+    "current_price": 72.87,
+    "fifty_two_week_low": 36.08,
+    "fifty_two_week_high": 133.86,
+    "trailing_eps": -1.8,
+    "book_value": 6.967,
+    "peg_ratio": null,
+    "short_name": "AST SpaceMobile, Inc.",
+    "recommendation_key": "none",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "ASTS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASTS",
+    "available": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta is building a prediction markets app. These stocks fell in response",
+        "description": "The report said that CEO Mark Zuckerberg directed staff to develop a prediction markets platform, internally known as \"Arena.\"",
+        "link": "https://www.cnbc.com/2026/06/23/nyt-says-meta-builds-prediction-market-these-stocks-are-falling.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782245340
+      },
+      {
+        "title": "Gold and silver tumble as rate-hike fears hit precious metals",
+        "description": "Gold and silver fell Tuesday as rate-hike fears pressured precious metals and Wall Street banks reassessed their gold forecasts.",
+        "link": "https://www.cnbc.com/2026/06/23/gold-silver-rate-hike-fears.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782238624
+      },
+      {
+        "title": "Meta announces new smart glasses starting at $299, as Zuckerberg keeps pushing wearables",
+        "description": "Meta executives have said they see the lightweight smart glasses as a step towards a more advanced device that includes screens in the lenses.",
+        "link": "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782230213
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 39.109384596980235,
+    "macd_line": -13.08749449291247,
+    "macd_signal": -10.857013943965391,
+    "macd_histogram": -2.230480548947078,
+    "ma50": 618.7453552246094,
+    "volume_ratio": 0.6426703156444117,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 20.42878,
+    "forward_pe": 15.5106945,
+    "price_to_book": 5.8554573,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 827.3183,
+    "current_price": 562.2,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.8147,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
