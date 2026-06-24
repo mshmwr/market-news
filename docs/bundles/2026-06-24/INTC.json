@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Stanford graduates rethink their futures as AI transforms tech",
+        "description": "The BBC spoke with Stanford University graduates about what they really think about artificial intelligence.",
+        "link": "https://www.bbc.co.uk/news/articles/c872j82j2qyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782256597
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 59.864612375104336,
+    "macd_line": 7.49830791740375,
+    "macd_signal": 6.2913736283427415,
+    "macd_histogram": 1.2069342890610084,
+    "ma50": 105.7371997833252,
+    "volume_ratio": 0.7553324045749085,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 85.12826,
+    "price_to_book": 5.9363303,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 94.75122,
+    "current_price": 131.65,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 141.45,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

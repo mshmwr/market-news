@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Traders are getting worried the chip stock bull market is cracking. How to protect yourself",
+        "description": "Options traders were buying a lot of protection on the iShares Semiconductor ETF (SOXX) on Tuesday.",
+        "link": "https://www.cnbc.com/2026/06/24/traders-are-getting-worried-the-chip-stock-bull-market-is-cracking-how-to-protect-yourself.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782321295
+      }
+    ],
+    "ticker": "SOXX"
+  },
+  "technical": {
+    "rsi": 55.31135043735065,
+    "macd_line": 27.958390512023925,
+    "macd_signal": 29.522225539538614,
+    "macd_histogram": -1.5638350275146884,
+    "ma50": 521.9599597167969,
+    "volume_ratio": 0.7918929150969163,
+    "ticker": "SOXX"
+  },
+  "fundamentals": {
+    "pe_ratio": 43.001186,
+    "forward_pe": null,
+    "price_to_book": 1.4183242,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 601.5,
+    "fifty_two_week_low": 232.33,
+    "fifty_two_week_high": 655.95,
+    "trailing_eps": null,
+    "book_value": 424.092,
+    "peg_ratio": null,
+    "short_name": "iShares PHLX SOX Semiconductor ",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SOXX"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SOXX",
+    "available": false
+  }
+}

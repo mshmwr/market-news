@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon's Zoox unveils redesigned robotaxi ahead of upcoming expansion",
+        "description": "Zoox is updating its robotaxis as the Amazon division plots expansion in additional markets and prepares to charge for rides.",
+        "link": "https://www.cnbc.com/2026/06/24/amazons-zoox-unveils-redesigned-robotaxi-ahead-of-upcoming-expansion.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782319992
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 37.99729902911304,
+    "macd_line": -6.195435183057782,
+    "macd_signal": -4.692734695588735,
+    "macd_histogram": -1.5027004874690473,
+    "ma50": 256.8852005004883,
+    "volume_ratio": 1.284921068864363,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.658108,
+    "forward_pe": 23.710243,
+    "price_to_book": 5.700971,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 234.27,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.4,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

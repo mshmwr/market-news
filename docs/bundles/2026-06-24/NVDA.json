@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Broadcom unveils a custom chip for OpenAI as it challenges Nvidia’s dominance",
+        "description": "The custom chip is designed to support the ChatGPT maker’s future AI models and products.",
+        "link": "https://www.marketwatch.com/story/broadcom-unveils-a-custom-chip-for-openai-as-it-challenges-nvidias-dominance-b9b17dd1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782335940
+      },
+      {
+        "title": "Nvidia's Huang calls black market data centers made of smuggled parts a 'dead end'",
+        "description": "Washington regulators and the Trump administration are increasingly wary of China getting ahold of advanced AI software and hardware.",
+        "link": "https://www.cnbc.com/2026/06/24/nvidia-huang-data-center-smuggled-chips.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782325360
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 41.863613831466445,
+    "macd_line": -2.197020867562429,
+    "macd_signal": -0.8523212165777057,
+    "macd_histogram": -1.3446996509847235,
+    "ma50": 210.05084564208985,
+    "volume_ratio": 0.8821242065086611,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.521473,
+    "forward_pe": 15.633581,
+    "price_to_book": 24.659233,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 298.9322,
+    "current_price": 199.0,
+    "fifty_two_week_low": 149.26,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 8.07,
+    "peg_ratio": 0.6156,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
