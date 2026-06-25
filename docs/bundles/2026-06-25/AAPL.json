@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple’s MacBooks and iPads are getting more expensive as the memory crunch deepens",
+        "description": "Apple increased prices on select MacBooks and iPads Thursday morning on the heels of a blowout Micron earnings report.",
+        "link": "https://www.marketwatch.com/story/apples-macbooks-and-ipads-are-getting-more-expensive-as-the-memory-crunch-deepens-ec6ae81d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782420120
+      },
+      {
+        "title": "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
+        "description": "The stock had its worst session in more than a year as management made its first official move to pass higher memory costs onto consumers.",
+        "link": "https://www.cnbc.com/2026/06/25/apple-stock-gets-slammed-on-bigger-mac-ipad-price-hikes-why-it-can-weather-the-storm.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782419278
+      },
+      {
+        "title": "Microsoft lifts price of Xbox consoles due to soaring component costs",
+        "description": "Microsoft said it's increasing the price of Xbox game consoles after Apple announced price hikes for MacBooks and iPads.",
+        "link": "https://www.cnbc.com/2026/06/25/microsoft-lifts-price-of-xbox-consoles-due-to-soaring-component-costs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782418638
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 32.21551487768713,
+    "macd_line": -1.567444303337993,
+    "macd_signal": 1.2271679863022573,
+    "macd_histogram": -2.7946122896402503,
+    "ma50": 291.0597430419922,
+    "volume_ratio": 1.8258628206583567,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 33.31114,
+    "forward_pe": 28.634851,
+    "price_to_book": 37.89945,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.09048,
+    "current_price": 275.15,
+    "fifty_two_week_low": 199.26,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.3681,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

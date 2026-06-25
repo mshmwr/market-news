@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Can Qualcomm actually compete with Nvidia? Inside its bold data-center gamble.",
+        "description": "Qualcomm is chasing a massive $40 billion transformation. Meta is already buying in.",
+        "link": "https://www.marketwatch.com/story/can-qualcomm-actually-compete-with-nvidia-inside-its-bold-data-center-gamble-38ac48b3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782419940
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 39.664991359541844,
+    "macd_line": -2.882444492173562,
+    "macd_signal": -1.2583458663272071,
+    "macd_histogram": -1.6240986258463548,
+    "ma50": 210.0400210571289,
+    "volume_ratio": 0.8283098242064887,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.975498,
+    "forward_pe": 15.377473,
+    "price_to_book": 24.255268,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 298.9322,
+    "current_price": 195.74,
+    "fifty_two_week_low": 151.49,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 8.07,
+    "peg_ratio": 0.6124,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

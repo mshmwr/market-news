@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft’s stock is suffering a historic June rout as investors balk at heavy spending",
+        "description": "Those who owned Microsoft’s stock for the free-cash-flow profile now “are being asked to underwrite a capital-intensity cycle,” says an analyst.",
+        "link": "https://www.marketwatch.com/story/microsofts-stock-is-suffering-a-historic-june-rout-as-investors-balk-at-heavy-spending-9afaef1b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782420660
+      },
+      {
+        "title": "Microsoft lifts price of Xbox consoles due to soaring component costs",
+        "description": "Microsoft said it's increasing the price of Xbox game consoles after Apple announced price hikes for MacBooks and iPads.",
+        "link": "https://www.cnbc.com/2026/06/25/microsoft-lifts-price-of-xbox-consoles-due-to-soaring-component-costs.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782418638
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 28.761748159927308,
+    "macd_line": -14.108492883825875,
+    "macd_signal": -8.639643993423256,
+    "macd_histogram": -5.468848890402619,
+    "ma50": 411.2691949462891,
+    "volume_ratio": 1.4606956790216479,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.039354,
+    "forward_pe": 18.216372,
+    "price_to_book": 6.3257256,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 352.83,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.77,
+    "book_value": 55.777,
+    "peg_ratio": 1.1275,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

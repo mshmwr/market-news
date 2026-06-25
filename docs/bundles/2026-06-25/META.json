@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Can Qualcomm actually compete with Nvidia? Inside its bold data-center gamble.",
+        "description": "Qualcomm is chasing a massive $40 billion transformation. Meta is already buying in.",
+        "link": "https://www.marketwatch.com/story/can-qualcomm-actually-compete-with-nvidia-inside-its-bold-data-center-gamble-38ac48b3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782419940
+      },
+      {
+        "title": "Gold hovers around $4,000, silver holds below $60 — has the shimmer worn off the precious metal rally?",
+        "description": "Gold is down almost 8% so far this year, while silver has shed more than 20%.",
+        "link": "https://www.cnbc.com/2026/06/25/gold-silver-price-rally-invest-interest-rates.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782381629
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 34.27850606556636,
+    "macd_line": -15.564082217544865,
+    "macd_signal": -12.285422565236754,
+    "macd_histogram": -3.278659652308111,
+    "ma50": 614.8397741699218,
+    "volume_ratio": 0.8625702645182284,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 19.747908,
+    "forward_pe": 14.977393,
+    "price_to_book": 5.65413,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 827.3183,
+    "current_price": 542.87,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.49,
+    "book_value": 96.013,
+    "peg_ratio": 0.8057,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 59,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

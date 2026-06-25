@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Clean sweep for Mamdani-backed candidates in New York's Democratic primary",
+        "description": "Brad Lander unseats Dan Goldman in a race that laid bare the city's divisions over the Israel-Gaza war.",
+        "link": "https://www.bbc.co.uk/news/articles/clye652m41po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782306215
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 58.492741678201384,
+    "macd_line": 26.546489280629658,
+    "macd_signal": 29.771440930323436,
+    "macd_histogram": -3.2249516496937787,
+    "ma50": 433.8514007568359,
+    "volume_ratio": 0.8638403919399831,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 176.93356,
+    "forward_pe": 40.443798,
+    "price_to_book": 13.466761,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 500.39584,
+    "current_price": 532.57,
+    "fifty_two_week_low": 133.5,
+    "fifty_two_week_high": 562.99,
+    "trailing_eps": 3.01,
+    "book_value": 39.547,
+    "peg_ratio": 1.2503,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}
