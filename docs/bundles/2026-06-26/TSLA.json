@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 41.19407837794475,
+    "macd_line": -7.976272309754563,
+    "macd_signal": -4.373529141637146,
+    "macd_histogram": -3.602743168117417,
+    "ma50": 404.76499938964844,
+    "volume_ratio": 1.0295346458876522,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 348.3578,
+    "forward_pe": 151.75896,
+    "price_to_book": 17.340733,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 421.1561,
+    "current_price": 379.71,
+    "fifty_two_week_low": 288.77,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.09,
+    "book_value": 21.897,
+    "peg_ratio": 5.3589,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 41,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "'The cult of Elon': SpaceX investors grapple with volatility amid big swings",
+        "description": "SpaceX stock has seen big spikes and drop in its opening two weeks as a public company.",
+        "link": "https://www.cnbc.com/2026/06/26/spacex-volatility.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782473726
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 41.26456626439507,
+    "macd_line": -2.2368500592035616,
+    "macd_signal": 0.5343316482624607,
+    "macd_histogram": -2.771181707466022,
+    "ma50": 291.4116479492188,
+    "volume_ratio": 3.90167733812804,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 34.397575,
+    "forward_pe": 29.532974,
+    "price_to_book": 39.088154,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.09048,
+    "current_price": 283.78,
+    "fifty_two_week_low": 199.26,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.2233,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

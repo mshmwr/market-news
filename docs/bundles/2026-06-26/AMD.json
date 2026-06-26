@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "New York City freezes rents for one million regulated apartments",
+        "description": "New York City&#039;s rent freeze fulfillls a key campaign promise from Mayor Zohran Mamdani",
+        "link": "https://www.aljazeera.com/economy/2026/6/26/new-york-city-freezes-rents-for-one-million-regulated-apartments?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1782495055
+      },
+      {
+        "title": "Housing board votes to freeze New York rents in victory for Mamdani",
+        "description": "The decision was welcomed by many tenants - but landlords fear it will worsen housing conditions.",
+        "link": "https://www.bbc.co.uk/news/articles/cn947pxxz4yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782466946
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 56.07845389493286,
+    "macd_line": 24.86748613548184,
+    "macd_signal": 28.790593499668603,
+    "macd_histogram": -3.9231073641867624,
+    "ma50": 439.12060119628904,
+    "volume_ratio": 1.6098383895413777,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 175.02686,
+    "forward_pe": 39.60921,
+    "price_to_book": 13.188864,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 500.39584,
+    "current_price": 521.58,
+    "fifty_two_week_low": 133.5,
+    "fifty_two_week_high": 562.99,
+    "trailing_eps": 2.98,
+    "book_value": 39.547,
+    "peg_ratio": 1.2812,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

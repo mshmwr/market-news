@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "QUBT"
+  },
+  "technical": {
+    "rsi": 42.653373705090836,
+    "macd_line": -0.21122522849510617,
+    "macd_signal": -0.02842544283862258,
+    "macd_histogram": -0.18279978565648358,
+    "ma50": 10.216600017547607,
+    "volume_ratio": 0.8652352930956398,
+    "ticker": "QUBT"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -42.36858,
+    "price_to_book": 1.296061,
+    "revenue_growth": 93.641,
+    "profit_margin": 0.0,
+    "debt_to_equity": 0.341,
+    "target_mean_price": 18.33333,
+    "current_price": 9.18,
+    "fifty_two_week_low": 6.18,
+    "fifty_two_week_high": 25.84,
+    "trailing_eps": -0.26,
+    "book_value": 7.083,
+    "peg_ratio": null,
+    "short_name": "Quantum Computing Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 6,
+    "sector": "Technology",
+    "ticker": "QUBT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "QUBT",
+    "available": false
+  }
+}

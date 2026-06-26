@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
+        "description": "Zhipu's GLM 5.2 shows the AI fight is shifting to who delivers the most intelligence per dollar, making open source suddenly a real contender.",
+        "link": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782511893
+      },
+      {
+        "title": "Senior Ukrainian intelligence official jailed for life for spying for Russia",
+        "description": "Col Dmytro Kozyura agreed to share state secrets and systematically disclosed classified information, prosecutors say.",
+        "link": "https://www.bbc.co.uk/news/articles/cg4w3wyxzzno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782470317
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 56.78243239419753,
+    "macd_line": 7.144391638397664,
+    "macd_signal": 6.663578135571154,
+    "macd_histogram": 0.4808135028265106,
+    "ma50": 108.38599975585937,
+    "volume_ratio": 0.7195218793989101,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 82.975,
+    "price_to_book": 5.7861753,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 96.06667,
+    "current_price": 128.32,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 141.45,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
