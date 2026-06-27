@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
+        "description": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
+        "link": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782566497
+      },
+      {
+        "title": "How GE Vernova builds the massive gas turbines powering the AI data center boom",
+        "description": "GE Vernova turbines are powering Elon Musk's xAI Colossus 1 data center and Microsoft just bought seven to power its data center in Texas.",
+        "link": "https://www.cnbc.com/2026/06/27/ge-vernova-gas-turbines-ai-data-centers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782561601
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 40.481987000802064,
+    "macd_line": -13.75452957465393,
+    "macd_signal": -9.662565794323854,
+    "macd_histogram": -4.091963780330076,
+    "ma50": 410.5219696044922,
+    "volume_ratio": 3.717768921549131,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.227055,
+    "forward_pe": 19.256187,
+    "price_to_book": 6.686806,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 372.97,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.1498,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
