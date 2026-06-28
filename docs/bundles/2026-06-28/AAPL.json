@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
+        "description": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
+        "link": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782566497
+      },
+      {
+        "title": "Apple posts worst day in over a year after MacBook and iPad price hikes",
+        "description": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+        "link": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782417997
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 41.26456626374432,
+    "macd_line": -2.2368500604817996,
+    "macd_signal": 0.5343316463829055,
+    "macd_histogram": -2.771181706864705,
+    "ma50": 291.4116479492188,
+    "volume_ratio": 3.9070764902457307,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 34.35593,
+    "forward_pe": 29.532974,
+    "price_to_book": 39.088154,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.09048,
+    "current_price": 283.78,
+    "fifty_two_week_low": 199.26,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.293,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

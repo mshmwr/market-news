@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Newborn baby rescued from Venezuela earthquake rubble",
+        "description": "Two powerful earthquakes rocked Venezuela within seconds of each other on Wednesday, killing at least 920 people.",
+        "link": "https://www.bbc.co.uk/news/videos/cm2d0vzp3ngo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782564685
+      }
+    ],
+    "ticker": "ONDS"
+  },
+  "technical": {
+    "rsi": 35.74241722920004,
+    "macd_line": -0.6683437551990519,
+    "macd_signal": -0.3875813378824672,
+    "macd_histogram": -0.2807624173165847,
+    "ma50": 10.027600011825562,
+    "volume_ratio": 1.8060852620823034,
+    "ticker": "ONDS"
+  },
+  "fundamentals": {
+    "pe_ratio": 86.99999,
+    "forward_pe": -156.59999,
+    "price_to_book": 3.419214,
+    "revenue_growth": 10.799,
+    "profit_margin": 2.5192,
+    "debt_to_equity": 0.728,
+    "target_mean_price": 20.125,
+    "current_price": 7.83,
+    "fifty_two_week_low": 1.71,
+    "fifty_two_week_high": 15.28,
+    "trailing_eps": 0.09,
+    "book_value": 2.29,
+    "peg_ratio": null,
+    "short_name": "Ondas Inc",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 8,
+    "sector": "Technology",
+    "ticker": "ONDS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ONDS",
+    "available": false
+  }
+}
