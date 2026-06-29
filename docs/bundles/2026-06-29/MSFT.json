@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "How GE Vernova builds the massive gas turbines powering the AI data center boom",
+        "description": "GE Vernova turbines are powering Elon Musk's xAI Colossus 1 data center and Microsoft just bought seven to power its data center in Texas.",
+        "link": "https://www.cnbc.com/2026/06/27/ge-vernova-gas-turbines-ai-data-centers.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782561601
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 38.97338673810112,
+    "macd_line": -13.67152174386706,
+    "macd_signal": -10.46439144621132,
+    "macd_histogram": -3.207130297655741,
+    "ma50": 409.5063348388672,
+    "volume_ratio": 1.041451045710165,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.964838,
+    "forward_pe": 19.029018,
+    "price_to_book": 6.607921,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 368.57,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.1498,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
