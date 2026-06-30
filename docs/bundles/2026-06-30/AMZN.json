@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Australia sues Amazon for making allegedly unfair contracts with subscribers",
+        "description": "The Australian Competition and Consumer Commission (ACCC) says Amazon has broken consumer protection law",
+        "link": "https://www.bbc.co.uk/news/articles/c20yz9rzwy0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782845959
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 44.90807721673623,
+    "macd_line": -5.749508866610427,
+    "macd_signal": -5.648098112109731,
+    "macd_histogram": -0.10141075450069525,
+    "ma50": 255.69320037841797,
+    "volume_ratio": 1.035562486502205,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.401844,
+    "forward_pe": 24.122164,
+    "price_to_book": 5.8000145,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 238.34,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.59,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

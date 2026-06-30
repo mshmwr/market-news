@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "description": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+        "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782851897
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 64.94261938813986,
+    "macd_line": 27.58621387588005,
+    "macd_signal": 27.894019610739754,
+    "macd_histogram": -0.30780573485970564,
+    "ma50": 450.3955999755859,
+    "volume_ratio": 1.0389480495951886,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 192.3543,
+    "forward_pe": 44.114777,
+    "price_to_book": 14.689103,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 506.02084,
+    "current_price": 580.91,
+    "fifty_two_week_low": 133.5,
+    "fifty_two_week_high": 584.73,
+    "trailing_eps": 3.02,
+    "book_value": 39.547,
+    "peg_ratio": 1.2923,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 48,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Oil posts largest quarterly price drop in 6 years as historic supply crunch eases",
+        "description": "Workarounds to the Strait of Hormuz chokepoint and a drop in crude imports to China helped ease the impact of lost Persian Gulf oil supplies.",
+        "link": "https://www.marketwatch.com/story/oil-is-set-for-the-largest-quarterly-price-drop-in-6-years-as-historic-supply-crunch-eases-57d52bab?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1782854880
+      },
+      {
+        "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "description": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+        "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782851897
+      },
+      {
+        "title": "Evolution under fire: Iran’s ‘axis of resistance’ in a post-war era",
+        "description": "Has Iran&#039;s regional deterrence been permanently degraded, or is its proxy network mutating into a resilient force?",
+        "link": "https://www.aljazeera.com/news/2026/6/30/evolution-under-fire-irans-axis-of-resistance-in-a-post-war-era?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1782849647
+      },
+      {
+        "title": "How much of your life do you spend on social media?",
+        "description": "On world social media day, Al Jazeera breaks down the numbers.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/30/how-much-of-your-life-do-you-spend-on-social-media-2?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1782848710
+      }
+    ],
+    "ticker": "MU"
+  },
+  "technical": {
+    "rsi": 59.99065940667488,
+    "macd_line": 91.34060783957011,
+    "macd_signal": 93.32428199787928,
+    "macd_histogram": -1.9836741583091708,
+    "ma50": 829.8846014404297,
+    "volume_ratio": 0.6958068997946474,
+    "ticker": "MU"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.109253,
+    "forward_pe": 7.71386,
+    "price_to_book": 17.96924,
+    "revenue_growth": 3.457,
+    "profit_margin": 0.55906,
+    "debt_to_equity": 6.33,
+    "target_mean_price": 1454.125,
+    "current_price": 1154.29,
+    "fifty_two_week_low": 103.38,
+    "fifty_two_week_high": 1255.0,
+    "trailing_eps": 44.21,
+    "book_value": 64.237,
+    "peg_ratio": 0.1701,
+    "short_name": "Micron Technology, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "MU"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MU",
+    "available": false
+  }
+}

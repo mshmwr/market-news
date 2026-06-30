@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
+        "description": "Anthropic will start an internal drug discovery program, part of a new push to sell artificial intelligence tools to drugmakers.",
+        "link": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782854842
+      },
+      {
+        "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+        "description": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+        "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782851897
+      },
+      {
+        "title": "Trump administration's AI crackdown opens door for China to close gap",
+        "description": "The Trump administration's crackdown on Anthropic's leading artificial intelligence models is looking like a gift to China.",
+        "link": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782838333
+      },
+      {
+        "title": "Almost 60,000 far-right extremists in Germany, intelligence agency says",
+        "description": "More than a quarter of those identified are believed to be violent, Germany's domestic intelligence agency says.",
+        "link": "https://www.bbc.co.uk/news/articles/crlw4ng79wzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1782835945
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 63.198248781465864,
+    "macd_line": 7.4647382597111545,
+    "macd_signal": 6.879801639281777,
+    "macd_histogram": 0.5849366204293771,
+    "ma50": 111.07299987792969,
+    "volume_ratio": 0.8759181248861371,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 89.796524,
+    "price_to_book": 6.296163,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 98.49524,
+    "current_price": 139.63,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.34,
+    "trailing_eps": -0.61,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

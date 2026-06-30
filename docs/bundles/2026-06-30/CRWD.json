@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Palo Alto, CrowdStrike both have best quarter ever as AI threats bolster cyber demand",
+        "description": "The cybersecurity leaders are leaning into identity security, a critical cyber segment, as AI agents outnumber humans",
+        "link": "https://www.cnbc.com/2026/06/30/palo-alto-crowdstrike-stock-ai-mythos.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782851798
+      }
+    ],
+    "ticker": "CRWD"
+  },
+  "technical": {
+    "rsi": 70.29077272339117,
+    "macd_line": 28.456879982854844,
+    "macd_signal": 27.847130313687437,
+    "macd_histogram": 0.6097496691674067,
+    "ma50": 607.3028009033203,
+    "volume_ratio": 0.8650606631519124,
+    "ticker": "CRWD"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 122.27358,
+    "price_to_book": 41.919254,
+    "revenue_growth": 0.256,
+    "profit_margin": -0.00598,
+    "debt_to_equity": 17.568,
+    "target_mean_price": 713.7984,
+    "current_price": 763.14,
+    "fifty_two_week_low": 342.72,
+    "fifty_two_week_high": 785.66,
+    "trailing_eps": -0.15,
+    "book_value": 18.205,
+    "peg_ratio": 6.0461,
+    "short_name": "CrowdStrike Holdings, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 50,
+    "sector": "Technology",
+    "ticker": "CRWD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "CRWD",
+    "available": false
+  }
+}
