@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue",
+        "description": "The 927-page annual financial disclosure form shows Trump's purchases and sales of hundreds of companies' stocks, including Nvidia, Amazon and Microsoft.",
+        "link": "https://www.cnbc.com/2026/07/01/trump-money-financial-disclosure-crypto-billions.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782931453
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 47.84954694896248,
+    "macd_line": -5.060582228335306,
+    "macd_signal": -5.530594935354847,
+    "macd_histogram": 0.47001270701954034,
+    "ma50": 255.56160034179686,
+    "volume_ratio": 0.8292158244229848,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.09827,
+    "forward_pe": 24.462225,
+    "price_to_book": 5.8817806,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.98715,
+    "current_price": 241.7,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.53,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 63,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

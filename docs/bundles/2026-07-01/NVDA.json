@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue",
+        "description": "The 927-page annual financial disclosure form shows Trump's purchases and sales of hundreds of companies' stocks, including Nvidia, Amazon and Microsoft.",
+        "link": "https://www.cnbc.com/2026/07/01/trump-money-financial-disclosure-crypto-billions.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782931453
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 43.31959039673131,
+    "macd_line": -3.851173543198314,
+    "macd_signal": -2.7836027915153165,
+    "macd_histogram": -1.0675707516829975,
+    "ma50": 209.74286987304689,
+    "volume_ratio": 0.8543105769194489,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.30368,
+    "forward_pe": 15.478952,
+    "price_to_book": 24.483273,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 301.6207,
+    "current_price": 197.58,
+    "fifty_two_week_low": 152.97,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 8.07,
+    "peg_ratio": 0.6158,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

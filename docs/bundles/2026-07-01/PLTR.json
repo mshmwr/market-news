@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Palantir's Karp bashes OpenAI, Anthropic token model: 'Something has gone completely wrong'",
+        "description": "Karp says skyrocketing token costs are forcing companies to choose open-weight models and prioritize efficiency over so-called tokenmaxxing",
+        "link": "https://www.cnbc.com/2026/07/01/palantir-karp-open-ai-anthropic-tokens.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782936147
+      }
+    ],
+    "ticker": "PLTR"
+  },
+  "technical": {
+    "rsi": 48.35693659493705,
+    "macd_line": -5.923607300012023,
+    "macd_signal": -5.472078461207135,
+    "macd_histogram": -0.4515288388048875,
+    "ma50": 134.91769989013673,
+    "volume_ratio": 1.3460626096081665,
+    "ticker": "PLTR"
+  },
+  "fundamentals": {
+    "pe_ratio": 141.26967,
+    "forward_pe": 60.387016,
+    "price_to_book": 35.668083,
+    "revenue_growth": 0.847,
+    "profit_margin": 0.43673,
+    "debt_to_equity": 2.477,
+    "target_mean_price": 182.75407,
+    "current_price": 125.73,
+    "fifty_two_week_low": 106.37,
+    "fifty_two_week_high": 207.52,
+    "trailing_eps": 0.89,
+    "book_value": 3.525,
+    "peg_ratio": 1.6788,
+    "short_name": "Palantir Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 27,
+    "sector": "Technology",
+    "ticker": "PLTR"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "PLTR",
+    "available": false
+  }
+}

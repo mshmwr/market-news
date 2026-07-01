@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump says outside funds 'run my money' after disclosure shows billions in 2025 revenue",
+        "description": "The 927-page annual financial disclosure form shows Trump's purchases and sales of hundreds of companies' stocks, including Nvidia, Amazon and Microsoft.",
+        "link": "https://www.cnbc.com/2026/07/01/trump-money-financial-disclosure-crypto-billions.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782931453
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 46.98885239777132,
+    "macd_line": -11.59603003069401,
+    "macd_signal": -11.110432617398448,
+    "macd_histogram": -0.4855974132955616,
+    "ma50": 407.8714794921875,
+    "volume_ratio": 0.9028518884491576,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.887432,
+    "forward_pe": 19.840115,
+    "price_to_book": 6.889578,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 384.28,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.1499,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
