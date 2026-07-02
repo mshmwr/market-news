@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+        "description": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+        "link": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783026219
+      },
+      {
+        "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
+        "description": "CEO Jensen Huang has called humanoid robots a “multitrillion-dollar economic opportunity.”",
+        "link": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783023600
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 41.218157319695706,
+    "macd_line": -4.043461684259,
+    "macd_signal": -3.035508159683191,
+    "macd_histogram": -1.0079535245758091,
+    "ma50": 209.6465234375,
+    "volume_ratio": 0.8293899646036927,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.881903,
+    "forward_pe": 15.26351,
+    "price_to_book": 24.142504,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 301.6207,
+    "current_price": 194.83,
+    "fifty_two_week_low": 157.34,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 8.07,
+    "peg_ratio": 0.6081,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

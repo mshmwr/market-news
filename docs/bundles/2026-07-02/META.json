@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta’s push into cloud computing means Wall Street has to prepare for lower margins",
+        "description": "Meta appears poised to enter the cloud computing market in an effort to monetize its massive AI infrastructure.",
+        "link": "https://www.cnbc.com/2026/07/02/metas-push-into-cloud-excites-wall-street-despite-lower-margins.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782994971
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 49.65603895503355,
+    "macd_line": -8.319552458403564,
+    "macd_signal": -12.003488702766536,
+    "macd_histogram": 3.6839362443629717,
+    "ma50": 604.8063073730468,
+    "volume_ratio": 1.0606427844296864,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.18096,
+    "forward_pe": 15.951086,
+    "price_to_book": 6.071053,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.13416,
+    "current_price": 582.9,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.8856,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+        "description": "Microsoft is the latest tech company to form a business focused on helping customers understand and implement artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1782997202
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 49.85055793908396,
+    "macd_line": -9.794413292400009,
+    "macd_signal": -10.84722058695985,
+    "macd_histogram": 1.052807294559841,
+    "ma50": 407.2164129638672,
+    "volume_ratio": 0.8330749854598003,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.257294,
+    "forward_pe": 20.160732,
+    "price_to_book": 7.000914,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 390.49,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.1846,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
