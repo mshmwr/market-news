@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon has deployed enough satellites to launch Leo service later this year",
+        "description": "Leo will compete with SpaceX's Starlink, which had a four-year start over Amazon and has more than 10,000 satellites in its constellation.",
+        "link": "https://www.cnbc.com/2026/07/02/amazon-has-deployed-enough-satellites-to-launch-leo-service-this-year.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783016915
+      }
+    ],
+    "ticker": "LITE"
+  },
+  "technical": {
+    "rsi": 37.7300903499042,
+    "macd_line": -27.90108315171699,
+    "macd_signal": -16.247770418473788,
+    "macd_histogram": -11.653312733243201,
+    "ma50": 898.08080078125,
+    "volume_ratio": 0.9040168248680263,
+    "ticker": "LITE"
+  },
+  "fundamentals": {
+    "pe_ratio": 128.22536,
+    "forward_pe": 40.168835,
+    "price_to_book": 17.562574,
+    "revenue_growth": 0.901,
+    "profit_margin": 0.17678,
+    "debt_to_equity": 111.445,
+    "target_mean_price": 1111.2906,
+    "current_price": 728.32,
+    "fifty_two_week_low": 88.93,
+    "fifty_two_week_high": 1085.68,
+    "trailing_eps": 5.68,
+    "book_value": 41.47,
+    "peg_ratio": 0.63,
+    "short_name": "Lumentum Holdings Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 25,
+    "sector": "Technology",
+    "ticker": "LITE"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "LITE",
+    "available": false
+  }
+}

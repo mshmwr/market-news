@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
+        "description": "Why it’s a good month to save on streaming, despite the return of ‘Enola Holmes’ to Netflix and ‘Silo’ to Apple",
+        "link": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-july-2026-on-netflix-hulu-hbo-max-and-more-58d07528?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783191660
+      },
+      {
+        "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+        "description": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+        "link": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783026219
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 60.27743043669033,
+    "macd_line": -0.6714776523208457,
+    "macd_signal": -0.9267024238429273,
+    "macd_histogram": 0.2552247715220817,
+    "ma50": 293.4565985107422,
+    "volume_ratio": 1.0901217230834932,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 37.319225,
+    "forward_pe": 32.119114,
+    "price_to_book": 42.511017,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.09048,
+    "current_price": 308.63,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.27,
+    "book_value": 7.26,
+    "peg_ratio": 2.4938,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}
