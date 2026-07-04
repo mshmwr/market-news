@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Acting DNI Pulte fires dozens of intelligence officials: MS Now",
+        "description": "President Donald Trump's controversial pick to lead the office of the Director of National Intelligence has begun firing intel officials, MS NOW reported.",
+        "link": "https://www.cnbc.com/2026/07/03/acting-dni-pulte-fires-dozens-of-intelligence-officials-ms-now.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783100668
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 49.145789510175646,
+    "macd_line": 5.538769708939739,
+    "macd_signal": 6.5870133389564405,
+    "macd_histogram": -1.0482436300167013,
+    "ma50": 113.38119979858398,
+    "volume_ratio": 0.9482687447491621,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 77.05605,
+    "price_to_book": 5.4267936,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 100.87619,
+    "current_price": 120.35,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
