@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon has deployed enough satellites to launch Leo service later this year",
+        "description": "Leo will compete with SpaceX's Starlink, which had a four-year start over Amazon and has more than 10,000 satellites in its constellation.",
+        "link": "https://www.cnbc.com/2026/07/02/amazon-has-deployed-enough-satellites-to-launch-leo-service-this-year.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783016915
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 48.70045851529484,
+    "macd_line": -4.3862456981486275,
+    "macd_signal": -5.302322599272965,
+    "macd_histogram": 0.9160769011243373,
+    "ma50": 255.4168002319336,
+    "volume_ratio": 0.760329072913986,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.638851,
+    "forward_pe": 24.505909,
+    "price_to_book": 5.9053855,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.90628,
+    "current_price": 242.67,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.67,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

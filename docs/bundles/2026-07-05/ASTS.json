@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Super typhoon Bavi nears Pacific islands with huge wind gusts",
+        "description": "The storm is forecast to hit the region at about 08:00 (22:00 GMT), bringing \"catastrophic\" damage, according to forecasts.",
+        "link": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783285495
+      }
+    ],
+    "ticker": "ASTS"
+  },
+  "technical": {
+    "rsi": 49.631284218676925,
+    "macd_line": -3.036592829189729,
+    "macd_signal": -3.647963567135676,
+    "macd_histogram": 0.611370737945947,
+    "ma50": 86.4144002532959,
+    "volume_ratio": 0.6491200136175037,
+    "ticker": "ASTS"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -414.86353,
+    "price_to_book": 12.219032,
+    "revenue_growth": 19.522,
+    "profit_margin": 0.0,
+    "debt_to_equity": 112.424,
+    "target_mean_price": 81.46667,
+    "current_price": 85.13,
+    "fifty_two_week_low": 36.08,
+    "fifty_two_week_high": 133.86,
+    "trailing_eps": -1.8,
+    "book_value": 6.967,
+    "peg_ratio": null,
+    "short_name": "AST SpaceMobile, Inc.",
+    "recommendation_key": "none",
+    "number_of_analyst_opinions": 9,
+    "sector": "Technology",
+    "ticker": "ASTS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASTS",
+    "available": false
+  }
+}
