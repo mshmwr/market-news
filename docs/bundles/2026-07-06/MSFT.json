@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+        "description": "Microsoft is cutting jobs in its commercial business and its Xbox gaming group, where revenue has been shrinking.",
+        "link": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783373878
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 48.15929049417056,
+    "macd_line": -8.571209974163366,
+    "macd_signal": -10.39301747171692,
+    "macd_histogram": 1.8218074975535536,
+    "ma50": 406.3115252685547,
+    "volume_ratio": 0.6630176039030004,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.033947,
+    "forward_pe": 19.974567,
+    "price_to_book": 6.933682,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 386.74,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.2038,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

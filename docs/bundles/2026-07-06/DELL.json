@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Dell’s stock gets another Trump bump — but this time it’s fading",
+        "description": "The president recommended that people buy Dell computers while speaking about the launch of “Trump accounts” on Monday.",
+        "link": "https://www.marketwatch.com/story/dells-stock-gets-another-trump-bump-but-this-time-its-fading-be5dd9cb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783368840
+      }
+    ],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 56.53840822304843,
+    "macd_line": 22.74289412909269,
+    "macd_signal": 29.625136213516516,
+    "macd_histogram": -6.882242084423826,
+    "ma50": 327.03579803466795,
+    "volume_ratio": 0.8471424938750423,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.838913,
+    "forward_pe": 19.240437,
+    "price_to_book": -190.38371,
+    "revenue_growth": 0.875,
+    "profit_margin": 0.062750004,
+    "debt_to_equity": null,
+    "target_mean_price": 485.08698,
+    "current_price": 411.8,
+    "fifty_two_week_low": 110.22,
+    "fifty_two_week_high": 469.47,
+    "trailing_eps": 12.54,
+    "book_value": -2.163,
+    "peg_ratio": 0.6467,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}

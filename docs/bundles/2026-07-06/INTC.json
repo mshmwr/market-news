@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
+        "description": "Two former Syrian officials went on trial in Vienna, Austria, accused of crimes against opponents of former Syrian leader Bashar al-Assad",
+        "link": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783358558
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 50.34244899374203,
+    "macd_line": 4.69268814745169,
+    "macd_signal": 6.2078324946497405,
+    "macd_histogram": -1.5151443471980501,
+    "ma50": 114.5197998046875,
+    "volume_ratio": 0.6488855950345299,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 78.24055,
+    "price_to_book": 5.510213,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 100.87619,
+    "current_price": 122.2,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
