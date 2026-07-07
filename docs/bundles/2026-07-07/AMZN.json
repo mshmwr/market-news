@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/07/07/the-implications-of-amazons-25b-bond-sale-and-microsofts-evolving-ai-model-strategy.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783450231
+      },
+      {
+        "title": "Amazon raising at least $25 billion in bond sale, won't issue more debt in 2026",
+        "description": "It marks Amazon's latest debt raise as it looks to buttress its massive investments in artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/07/07/amazon-bond-sale-ai-debt.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783435399
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 51.71877337188003,
+    "macd_line": -2.9558580912065224,
+    "macd_signal": -4.576032474177216,
+    "macd_histogram": 1.6201743829706938,
+    "ma50": 255.01080017089845,
+    "volume_ratio": 0.6421113048822124,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.862694,
+    "forward_pe": 24.840168,
+    "price_to_book": 5.9859343,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.90628,
+    "current_price": 245.98,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 7.72,
+    "book_value": 41.093,
+    "peg_ratio": 1.8344,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

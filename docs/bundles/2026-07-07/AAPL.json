@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple is closing in on Nvidia as it looks to reclaim title of largest U.S. company",
+        "description": "Once the face of the AI trade, Nvidia’s valuation has compressed to levels not seen since 2013 while Apple shares continue to power higher",
+        "link": "https://www.marketwatch.com/story/apple-is-closing-in-on-nvidia-as-it-looks-to-reclaim-title-of-largest-u-s-company-04f41546?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783456560
+      },
+      {
+        "title": "Trump looms large as Nato grapples with challenge of rearming Europe",
+        "description": "The US president's inflammatory words have punctuated the image of unity at this crucial gathering, Security Correspondent Frank Gardner writes.",
+        "link": "https://www.bbc.co.uk/news/articles/ckg06d3dgnlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783450579
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 60.67630822565584,
+    "macd_line": 1.9486128237278422,
+    "macd_signal": -0.05985053026614351,
+    "macd_histogram": 2.0084633539939856,
+    "ma50": 295.0010607910156,
+    "volume_ratio": 0.6154683486806382,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 37.655758,
+    "forward_pe": 32.330276,
+    "price_to_book": 42.790634,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.09048,
+    "current_price": 310.66,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.4938,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

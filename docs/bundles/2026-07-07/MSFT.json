@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/07/07/the-implications-of-amazons-25b-bond-sale-and-microsofts-evolving-ai-model-strategy.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783450231
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 49.19867801789174,
+    "macd_line": -7.346581873764023,
+    "macd_signal": -9.7832054199826,
+    "macd_histogram": 2.436623546218577,
+    "ma50": 405.7912957763672,
+    "volume_ratio": 0.592711262462911,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.172823,
+    "forward_pe": 20.08303,
+    "price_to_book": 6.971332,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 561.1149,
+    "current_price": 388.84,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.1922,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

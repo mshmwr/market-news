@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "US trade deficit surges amid artificial intelligence spending boom",
+        "description": "Imbalance soars to $77.6bn in May as imports outpaced exports, driven by pharmaceuticals and semiconductors.",
+        "link": "https://www.aljazeera.com/economy/2026/7/7/us-trade-deficit-surges-amid-artificial-intelligence-spending-boom?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1783442308
+      },
+      {
+        "title": "Amazon raising at least $25 billion in bond sale, won't issue more debt in 2026",
+        "description": "It marks Amazon's latest debt raise as it looks to buttress its massive investments in artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/07/07/amazon-bond-sale-ai-debt.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783435399
+      },
+      {
+        "title": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
+        "description": "Two former Syrian officials went on trial in Vienna, Austria, accused of crimes against opponents of former Syrian leader Bashar al-Assad",
+        "link": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783358558
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 43.331272091619795,
+    "macd_line": 3.0345457391967585,
+    "macd_signal": 5.573324666693578,
+    "macd_histogram": -2.5387789274968195,
+    "ma50": 115.39199981689453,
+    "volume_ratio": 1.0566234329120914,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 70.679,
+    "price_to_book": 4.9776797,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 100.87619,
+    "current_price": 110.39,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
