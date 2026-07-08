@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+        "description": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date.",
+        "link": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783541033
+      },
+      {
+        "title": "This former Apple executive is betting on Shenzhen, not Silicon Valley, to create the 'next Apple'",
+        "description": "Startups building consumer electronics will have a better shot at becoming the next Apple in Shenzhen than in Silicon Valley, said Will Wang, CEO of China's smart-glasses startup.",
+        "link": "https://www.cnbc.com/2026/07/08/apple-shenzhen-silicon-valley-even-realities.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783495007
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 62.24921163509225,
+    "macd_line": 2.971151916477936,
+    "macd_signal": 0.5463175578430405,
+    "macd_histogram": 2.4248343586348957,
+    "ma50": 295.8526513671875,
+    "volume_ratio": 0.5789229704499774,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 37.940678,
+    "forward_pe": 32.614388,
+    "price_to_book": 43.166668,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.56668,
+    "current_price": 313.39,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.4938,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

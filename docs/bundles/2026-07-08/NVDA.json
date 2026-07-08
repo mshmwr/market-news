@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia’s stock trades at a juicy discount, according to BofA",
+        "description": "An analyst recommends investors take advantage of the “enhanced” buying opportunity brought upon by sustained underperformance.",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-trades-at-a-juicy-discount-according-to-bofa-93f46d19?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783539360
+      },
+      {
+        "title": "Few bright spots in Wednesday's tough market — why Nvidia stock is one of them",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/07/08/few-bright-spots-in-wednesdays-tough-market-why-nvidia-stock-is-one-of-them.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783534959
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 50.984741180917695,
+    "macd_line": -3.2950032366781556,
+    "macd_signal": -3.4101431306341112,
+    "macd_histogram": 0.11513989395595559,
+    "ma50": 209.51980041503907,
+    "volume_ratio": 0.9729126495016309,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.211008,
+    "forward_pe": 15.991313,
+    "price_to_book": 25.29368,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 301.6207,
+    "current_price": 204.12,
+    "fifty_two_week_low": 161.16,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.54,
+    "book_value": 8.07,
+    "peg_ratio": 0.5996,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

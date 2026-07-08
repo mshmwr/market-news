@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta is building its first big Canadian data center as AI expansion crosses the border",
+        "description": "Meta is building its first big Canadian data center as AI expansion crosses the border.",
+        "link": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783543210
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 53.90235942256646,
+    "macd_line": -0.7190498579719815,
+    "macd_signal": -7.397531111472576,
+    "macd_histogram": 6.678481253500594,
+    "ma50": 601.0453100585937,
+    "volume_ratio": 0.7146910444672038,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.915697,
+    "forward_pe": 16.373953,
+    "price_to_book": 6.281649,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.16864,
+    "current_price": 603.12,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.8422,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
