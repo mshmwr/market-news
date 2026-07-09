@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
+        "description": "Tech bulls may not have to wait much longer for fresh highs, if the single-biggest trade in the Invesco QQQ Trust ETF on Thursday is any indication.",
+        "link": "https://www.cnbc.com/2026/07/09/a-huge-trade-just-happened-on-the-nasdaq-100-bulls-are-taking-notice.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783625204
+      }
+    ],
+    "ticker": "QQQ"
+  },
+  "technical": {
+    "rsi": 52.17975290039628,
+    "macd_line": 1.528315284785549,
+    "macd_signal": 3.3755717077786347,
+    "macd_histogram": -1.8472564229930857,
+    "ma50": 713.2179223632812,
+    "volume_ratio": 0.6998720904425507,
+    "ticker": "QQQ"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.09576,
+    "forward_pe": null,
+    "price_to_book": 2.0216115,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 723.28,
+    "fifty_two_week_low": 551.56,
+    "fifty_two_week_high": 748.65,
+    "trailing_eps": null,
+    "book_value": 357.774,
+    "peg_ratio": null,
+    "short_name": "Invesco QQQ Trust, Series 1",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "QQQ"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "QQQ",
+    "available": false
+  }
+}

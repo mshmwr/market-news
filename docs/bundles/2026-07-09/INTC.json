@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
+        "description": "Palo Alto Networks CEO Nikesh Arora said high token costs could prevent businesses from adopting artificial intelligence at scale.",
+        "link": "https://www.cnbc.com/2026/07/09/palo-alto-ceo-arora-ai-pricing.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783623052
+      },
+      {
+        "title": "Meta jumps into AI coding market in effort to chase Anthropic and OpenAI",
+        "description": "Meta is upgrading its Muse Spark artificial intelligence model under the leadership of AI chief Alexandr Wang.",
+        "link": "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783605601
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 44.97619325832319,
+    "macd_line": 0.7984401112629342,
+    "macd_signal": 3.996563421447176,
+    "macd_histogram": -3.1981233101842417,
+    "ma50": 116.49699981689453,
+    "volume_ratio": 0.7721394029049566,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 72.05558,
+    "price_to_book": 5.074627,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 100.87619,
+    "current_price": 112.54,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
