@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 47.00205172381862,
+    "macd_line": -1.777173284755463,
+    "macd_signal": -2.911063657059154,
+    "macd_histogram": 1.133890372303691,
+    "ma50": 372.6216882324219,
+    "volume_ratio": 0.49111658642775685,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.265648,
+    "forward_pe": 24.51055,
+    "price_to_book": 9.039328,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 432.0987,
+    "current_price": 357.18,
+    "fifty_two_week_low": 176.48,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.1,
+    "book_value": 39.514,
+    "peg_ratio": 1.4131,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

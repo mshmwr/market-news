@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta's stock has best week since early 2024 as optimism builds around AI strategy",
+        "description": "Meta released two AI models this week as part of its new Muse Spark family, under the leadership of Alexandr Wang.",
+        "link": "https://www.cnbc.com/2026/07/10/meta-shares-surge-6percent-as-optimism-grows-on-it.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783713979
+      },
+      {
+        "title": "Meta’s stock roars back to life as it heads for its best week in years",
+        "description": "Investors are bullish on Meta’s new low-cost AI pricing and infrastructure plans.",
+        "link": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783713240
+      },
+      {
+        "title": "EU says ‘addictive’ features on Instagram and Facebook breach its rules",
+        "description": "Bloc says some design features on platforms built by Meta can cause users&#039; brains to go into &#039;autopilot mode&#039;.",
+        "link": "https://www.aljazeera.com/news/2026/7/10/eu-says-addictive-features-on-instagram-and-facebook-breach-its-rules?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1783710803
+      },
+      {
+        "title": "Traders fall back in love with Meta. Here's where bulls see it going",
+        "description": "Meta Platform's AI efforts are looking like the recipe for a comeback after an almost year-long drought in shares of the $1.7 trillion market-cap company.",
+        "link": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783705229
+      },
+      {
+        "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs",
+        "description": "Instagram and Facebook's \"addictive\" designs have put Meta in breach of the European Union's digital laws, the EU concluded Friday in a preliminary report.",
+        "link": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783684092
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 66.37095688186488,
+    "macd_line": 8.609225512868989,
+    "macd_signal": -2.556935024421011,
+    "macd_histogram": 11.16616053729,
+    "ma50": 600.0849096679688,
+    "volume_ratio": 1.9472552677558745,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.361486,
+    "forward_pe": 18.420841,
+    "price_to_book": 6.969994,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 827.91,
+    "current_price": 669.21,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.47,
+    "book_value": 96.013,
+    "peg_ratio": 0.9124,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
