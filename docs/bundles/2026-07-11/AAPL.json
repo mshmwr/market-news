@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+        "description": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
+        "link": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783742960
+      },
+      {
+        "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
+        "description": "Apple said in a Friday lawsuit that OpenAI’s nascent hardware business is “rotten to its core.”",
+        "link": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783724056
+      },
+      {
+        "title": "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
+        "description": "SK Hynix has soared to a trillion-dollar market cap by serving some of the biggest names in technology, including Nvidia and Apple.",
+        "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783715672
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 62.9413841563437,
+    "macd_line": 4.625200566654485,
+    "macd_signal": 1.908875782751477,
+    "macd_histogram": 2.7163247839030076,
+    "ma50": 297.7269622802734,
+    "volume_ratio": 0.528385631725321,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 38.174335,
+    "forward_pe": 32.815243,
+    "price_to_book": 43.432507,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.56668,
+    "current_price": 315.32,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 317.4,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.5478,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

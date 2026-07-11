@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "The volatile AI trade marched higher, but oil kept Wall Street on edge last week",
+        "description": "Chip stocks had a wild but strong week. Meta led our portfolio higher.",
+        "link": "https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783787158
+      },
+      {
+        "title": "Meta pulls new AI image feature after days of backlash",
+        "description": "Meta's release this week of an AI feature that let people alter Instagram content drew swift blowback.",
+        "link": "https://www.bbc.co.uk/news/articles/c2dy6e8klw0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1783734359
+      },
+      {
+        "title": "Meta's stock has best week since early 2024 as optimism builds around AI strategy",
+        "description": "Meta released two AI models this week as part of its new Muse Spark family, under the leadership of Alexandr Wang.",
+        "link": "https://www.cnbc.com/2026/07/10/meta-shares-surge-6percent-as-optimism-grows-on-it.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783713979
+      },
+      {
+        "title": "Traders fall back in love with Meta. Here's where bulls see it going",
+        "description": "Meta Platform's AI efforts are looking like the recipe for a comeback after an almost year-long drought in shares of the $1.7 trillion market-cap company.",
+        "link": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783705229
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 66.37095688186488,
+    "macd_line": 8.609225512868989,
+    "macd_signal": -2.556935024421011,
+    "macd_histogram": 11.16616053729,
+    "ma50": 600.0849096679688,
+    "volume_ratio": 1.9986125091953293,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.33491,
+    "forward_pe": 18.420841,
+    "price_to_book": 6.969994,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 827.91,
+    "current_price": 669.21,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.5,
+    "book_value": 96.013,
+    "peg_ratio": 0.9669,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
