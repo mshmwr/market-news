@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives",
+        "description": "Meta said the planned Hyperion data center supercluster in Richland Parish, Louisiana, will be a 5GW facility and cost more than $50 billion.",
+        "link": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783969218
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 62.80790247253079,
+    "macd_line": 12.03578136871522,
+    "macd_signal": 0.36412636415266153,
+    "macd_histogram": 11.67165500456256,
+    "ma50": 599.8495007324219,
+    "volume_ratio": 0.886468137144453,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.88109,
+    "forward_pe": 18.077312,
+    "price_to_book": 6.840011,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 828.341,
+    "current_price": 656.73,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.5,
+    "book_value": 96.013,
+    "peg_ratio": 0.9669,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

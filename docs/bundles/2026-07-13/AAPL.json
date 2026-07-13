@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit",
+        "description": "Sam Altman insisted that Elon Musk was again obsessed with him because of an OpenAI model release earlier this week.",
+        "link": "https://www.cnbc.com/2026/07/12/elon-musk-and-sam-altman-spar-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783958212
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 64.17239003935445,
+    "macd_line": 5.249193448807375,
+    "macd_signal": 2.576973611312332,
+    "macd_histogram": 2.672219837495043,
+    "ma50": 298.67473571777344,
+    "volume_ratio": 0.6415494160733516,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 38.415253,
+    "forward_pe": 33.00932,
+    "price_to_book": 43.70661,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.56668,
+    "current_price": 317.31,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 323.45,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.5478,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

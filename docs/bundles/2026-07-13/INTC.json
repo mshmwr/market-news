@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump to claim declassified intel reveals 2020 election interference: MS NOW",
+        "description": "Trump said he will make a \"Speech to the Nation on Thursday evening, at 9 P.M. Eastern,\" without providing further details.",
+        "link": "https://www.cnbc.com/2026/07/13/trump-2020-election-intelligence-speech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783975218
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 39.39586870285483,
+    "macd_line": -1.3807055248514217,
+    "macd_signal": 2.2614749923754505,
+    "macd_histogram": -3.642180517226872,
+    "ma50": 117.17079986572266,
+    "volume_ratio": 0.8235566399433645,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 65.0932,
+    "price_to_book": 4.649863,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 101.94762,
+    "current_price": 103.12,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

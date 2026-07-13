@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Stock pickers know they can’t outsmart the market. That doesn’t stop them from trying.",
+        "description": "How to satisfy your inner trader without derailing your long-term investment goals.",
+        "link": "https://www.marketwatch.com/story/stock-pickers-know-they-cant-outsmart-the-market-that-doesnt-stop-them-from-trying-b4fddc41?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1783974900
+      },
+      {
+        "title": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "description": "Ahead of its second-quarter earnings, TSMC reported its June and first-half revenue for 2026.",
+        "link": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1783927766
+      }
+    ],
+    "ticker": "TSM"
+  },
+  "technical": {
+    "rsi": 46.07444434429626,
+    "macd_line": 2.8779402334967017,
+    "macd_signal": 6.621534792453268,
+    "macd_histogram": -3.7435945589565662,
+    "ma50": 423.9467315673828,
+    "volume_ratio": 0.9882479342349191,
+    "ticker": "TSM"
+  },
+  "fundamentals": {
+    "pe_ratio": 36.65913,
+    "forward_pe": 20.776451,
+    "price_to_book": 95.3967,
+    "revenue_growth": 0.351,
+    "profit_margin": 0.46505,
+    "debt_to_equity": 18.447,
+    "target_mean_price": 490.34027,
+    "current_price": 421.58,
+    "fifty_two_week_low": 223.7,
+    "fifty_two_week_high": 479.0,
+    "trailing_eps": 11.5,
+    "book_value": 4.4192305,
+    "peg_ratio": 1.3583,
+    "short_name": "Taiwan Semiconductor Manufactur",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 18,
+    "sector": "Technology",
+    "ticker": "TSM"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSM",
+    "available": false
+  }
+}
