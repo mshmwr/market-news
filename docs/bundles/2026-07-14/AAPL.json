@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple in talks with startup that shrinks AI models to run on an iPhone",
+        "description": "PrismML says its compressed version of Alibaba’s Qwen model uses up to 15 times less memory, potentially advancing Apple’s AI push.",
+        "link": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784053868
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 61.465688295565876,
+    "macd_line": 5.482926721147805,
+    "macd_signal": 3.158336059907276,
+    "macd_histogram": 2.3245906612405296,
+    "ma50": 299.54993041992185,
+    "volume_ratio": 0.5616039415686086,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 38.16485,
+    "forward_pe": 32.72694,
+    "price_to_book": 43.369144,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 316.75714,
+    "current_price": 314.86,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 323.45,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.5639,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

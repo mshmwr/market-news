@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
+        "description": "The remark is a sign that H200 shipments to China have restarted, potentially boosting Nvidia's sales even higher.",
+        "link": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784047828
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 56.414104221754876,
+    "macd_line": -0.5584328522889166,
+    "macd_signal": -2.221931940327528,
+    "macd_histogram": 1.6634990880386114,
+    "ma50": 209.21346008300782,
+    "volume_ratio": 0.8123648407626395,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 32.434914,
+    "forward_pe": 16.558996,
+    "price_to_book": 26.245354,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 301.6207,
+    "current_price": 211.8,
+    "fifty_two_week_low": 164.07,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 8.07,
+    "peg_ratio": 0.6264,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

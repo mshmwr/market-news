@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Current and former employees sue Meta, alleging discrimination in using AI to conduct layoffs",
+        "description": "The lawsuit filed by current and former Meta employees underscores rising concerns about AI's impact on jobs and people with disabilities in the workforce.",
+        "link": "https://www.cnbc.com/2026/07/14/meta-lawsuit-layoffs-ai.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784063564
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 63.536012376714645,
+    "macd_line": 14.92497741822524,
+    "macd_signal": 3.275778106719122,
+    "macd_histogram": 11.649199311506118,
+    "ma50": 600.8434326171875,
+    "volume_ratio": 0.6506697670293567,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 24.020348,
+    "forward_pe": 18.195951,
+    "price_to_book": 6.8849006,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.63416,
+    "current_price": 661.04,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.9489,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

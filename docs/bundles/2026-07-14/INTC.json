@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Sen. Tim Scott wants to hear from Warsh on data centers and artificial intelligence",
+        "description": "Sen. Tim Scott, R-S.C., will host Kevin Warsh before the Senate Banking Committee on Wednesday for his first time testifying as Fed chairman.",
+        "link": "https://www.cnbc.com/2026/07/14/tim-scott-kevin-warsh-data-centers-artificial-intelligence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784036164
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 43.21133034840178,
+    "macd_line": -1.9795489131417128,
+    "macd_signal": 1.413309559603558,
+    "macd_histogram": -3.392858472745271,
+    "ma50": 117.4363998413086,
+    "volume_ratio": 0.769087666408092,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 68.02215,
+    "price_to_book": 4.8590884,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 104.38537,
+    "current_price": 107.76,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

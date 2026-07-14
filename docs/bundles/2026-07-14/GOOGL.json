@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google DeepMind chief Demis Hassabis calls for U.S. to spearhead AI standards body",
+        "description": "Tech giant's AI boss said \"urgent action\" was needed as AI capabilities advanced.",
+        "link": "https://www.cnbc.com/2026/07/14/google-deepmind-demis-hassabis-us-led-ai-standards-body.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784037663
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 49.37530540542471,
+    "macd_line": -1.9011916702716007,
+    "macd_signal": -2.5911422869518326,
+    "macd_histogram": 0.6899506166802318,
+    "ma50": 372.17606079101563,
+    "volume_ratio": 0.5305480291460789,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.422579,
+    "forward_pe": 24.639095,
+    "price_to_book": 9.098294,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 431.7213,
+    "current_price": 359.51,
+    "fifty_two_week_low": 180.48,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.11,
+    "book_value": 39.514,
+    "peg_ratio": 1.3879,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

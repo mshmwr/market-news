@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 56.428005796904074,
+    "macd_line": 3.70165939689457,
+    "macd_signal": 3.0484498157403013,
+    "macd_histogram": 0.6532095811542686,
+    "ma50": 741.3944677734376,
+    "volume_ratio": 0.6203356797544133,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.04345,
+    "forward_pe": null,
+    "price_to_book": 1.7516192,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 751.83,
+    "fifty_two_week_low": 618.05,
+    "fifty_two_week_high": 760.4,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

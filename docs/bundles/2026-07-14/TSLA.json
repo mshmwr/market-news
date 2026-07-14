@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Zipline adds ex-Tesla, Uber, Waymo execs to make drone delivery mainstream across U.S.",
+        "description": "Zipline is growing its drone delivery business in the U.S., and has hired former Tesla, Uber Eats and Waymo executives to help it scale up in new markets.",
+        "link": "https://www.cnbc.com/2026/07/14/zipline-drone-delivery-tesla-uber-waymo-executives.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784053781
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 47.69821039077698,
+    "macd_line": -1.2944740737303846,
+    "macd_signal": -1.2498728191460071,
+    "macd_histogram": -0.04460125458437747,
+    "ma50": 409.9265991210938,
+    "volume_ratio": 0.518184762613161,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 356.9189,
+    "forward_pe": 152.82953,
+    "price_to_book": 18.09289,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 425.235,
+    "current_price": 396.18,
+    "fifty_two_week_low": 297.82,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.11,
+    "book_value": 21.897,
+    "peg_ratio": 4.9469,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 40,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}
