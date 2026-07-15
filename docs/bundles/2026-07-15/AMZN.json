@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon senior cloud executive departs after 18 years",
+        "description": "Brown helped launch one of AWS' oldest services and also oversaw its compute and machine learning units.",
+        "link": "https://www.cnbc.com/2026/07/15/amazon-dave-brown-treadwell-aws.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784139786
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 60.13757757927135,
+    "macd_line": 0.25989512125880765,
+    "macd_signal": -1.8645788793113598,
+    "macd_histogram": 2.124474000570167,
+    "ma50": 253.10259979248048,
+    "volume_ratio": 0.696933324699545,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.461172,
+    "forward_pe": 25.7892,
+    "price_to_book": 6.2044635,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 314.2654,
+    "current_price": 254.96,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.37,
+    "book_value": 41.093,
+    "peg_ratio": 1.4253,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 61,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

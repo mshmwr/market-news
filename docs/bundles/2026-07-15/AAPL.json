@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+        "description": "The Cyberspace Administration of China on Wednesday included Apple's AI services on a list of approved providers.",
+        "link": "https://www.cnbc.com/2026/07/15/alibaba-qwen-ai-apple-intelligence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784116531
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 68.78240577923623,
+    "macd_line": 6.611980519640042,
+    "macd_signal": 3.849328096312549,
+    "macd_histogram": 2.762652423327493,
+    "ma50": 300.5022875976563,
+    "volume_ratio": 0.9319201148388273,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 39.696968,
+    "forward_pe": 34.040756,
+    "price_to_book": 45.11019,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 316.75714,
+    "current_price": 327.5,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 328.72,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.5441,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

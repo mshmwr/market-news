@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "China detains US scientist who studied North Korea nuclear tests",
+        "description": "Chen Youlin's family says he has been wrongfully detained for nearly two years on spying charges.",
+        "link": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784081677
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 58.39469984621151,
+    "macd_line": 3.9934317339649397,
+    "macd_signal": 3.237502955726768,
+    "macd_histogram": 0.7559287782381716,
+    "ma50": 742.1147033691407,
+    "volume_ratio": 0.6768318040334863,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.15064,
+    "forward_pe": null,
+    "price_to_book": 1.7585621,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 754.81,
+    "fifty_two_week_low": 618.05,
+    "fifty_two_week_high": 760.4,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

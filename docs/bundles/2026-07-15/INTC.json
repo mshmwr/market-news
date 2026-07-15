@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "AI is so big, it’s now impossible for investors to avoid",
+        "description": "Exposure to the artificial-intelligence boom has become virtually impossible for investors to avoid. The theme hasn’t just cornered the stock market. It has systematically swallowed up corporate credit and venture capital, too.",
+        "link": "https://www.marketwatch.com/story/ai-is-so-big-its-now-impossible-for-investors-to-avoid-9271e03f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784150340
+      },
+      {
+        "title": "Trump's pick to head national intelligence, Jay Clayton, won't tell senators Biden won the 2020 election",
+        "description": "The Senate Intelligence Committee is considering Jay Clayton's nomination to be the director of national intelligence.",
+        "link": "https://www.cnbc.com/2026/07/15/trump-dni-jay-clayton-senate-2020-election.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784144909
+      },
+      {
+        "title": "US intelligence director pick refuses to acknowledge Trump loss in 2020",
+        "description": "Jay Clayton, often in circuitous fashion, avoided saying Joe Biden won 2020 race during his confirmation hearing.",
+        "link": "https://www.aljazeera.com/news/2026/7/15/us-intelligence-director-pick-refuses-to-acknowledge-trump-loss-in-2020?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784140729
+      },
+      {
+        "title": "Alibaba’s U.S.-listed shares rise 4% after Qwen AI set to be integrated in Apple Intelligence",
+        "description": "The Cyberspace Administration of China on Wednesday included Apple's AI services on a list of approved providers.",
+        "link": "https://www.cnbc.com/2026/07/15/alibaba-qwen-ai-apple-intelligence.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784116531
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 40.39586761769638,
+    "macd_line": -2.806603314513154,
+    "macd_signal": 0.5694607686570821,
+    "macd_histogram": -3.3760640831702364,
+    "ma50": 117.50379974365234,
+    "volume_ratio": 1.0204205985924288,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 64.667435,
+    "price_to_book": 4.6440005,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 104.38537,
+    "current_price": 102.99,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
