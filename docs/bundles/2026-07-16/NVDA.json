@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia unveils new AI model and expands Japan’s physical AI ecosystem",
+        "description": "Nvidia announces new AI model, Cosmos 3 Edge, and expansion of its physical AI ecosystems in Japan.",
+        "link": "https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784218109
+      },
+      {
+        "title": "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models",
+        "description": "Fireworks once relied heavily on revenue from coding startup Cursor, but has diversified in the past year as more companies reach for lower-cost AI models.",
+        "link": "https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784206802
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 52.14600233788659,
+    "macd_line": 0.3763519549433454,
+    "macd_signal": -1.314741541374607,
+    "macd_histogram": 1.6910934963179525,
+    "ma50": 209.68210174560548,
+    "volume_ratio": 0.8080901394174106,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.809814,
+    "forward_pe": 16.196886,
+    "price_to_book": 25.700125,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 301.9655,
+    "current_price": 207.4,
+    "fifty_two_week_low": 164.07,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.52,
+    "book_value": 8.07,
+    "peg_ratio": 0.654,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}
