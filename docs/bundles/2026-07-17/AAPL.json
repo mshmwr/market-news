@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple, Nvidia vie for title of world's most valuable company",
+        "description": "Nvidia shares have underperformed in 2026 as Wall Street shifts to companies powering the infrastructure AI buildout.",
+        "link": "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784319761
+      },
+      {
+        "title": "Apple regains top spot as world’s most valuable company",
+        "description": "Apple regained world’s top spot with $4.88 trillion valuation, overtaking Nvidia which saw a 3.5% market value drop.",
+        "link": "https://www.aljazeera.com/economy/2026/7/17/apple-regains-top-spot-as-worlds-most-valuable-company?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784306859
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 71.661127023662,
+    "macd_line": 8.823520885069343,
+    "macd_signal": 5.489961633665847,
+    "macd_histogram": 3.3335592514034955,
+    "ma50": 302.6324157714844,
+    "volume_ratio": 0.9393529082091606,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 40.404358,
+    "forward_pe": 34.625034,
+    "price_to_book": 45.969696,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 315.78604,
+    "current_price": 333.74,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.98,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.6815,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

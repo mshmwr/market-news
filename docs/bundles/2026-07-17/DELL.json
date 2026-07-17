@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft's Nadella criticizes Anthropic's Fable for being 'editorially controlled'",
+        "description": "Microsoft enjoys close ties to Anthropic, but it's also working to help companies refine models that keep their data private.",
+        "link": "https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784245516
+      }
+    ],
+    "ticker": "DELL"
+  },
+  "technical": {
+    "rsi": 48.35526241008695,
+    "macd_line": 12.000703453697213,
+    "macd_signal": 19.528242367984255,
+    "macd_histogram": -7.527538914287042,
+    "ma50": 365.3681979370117,
+    "volume_ratio": 0.7958577194046396,
+    "ticker": "DELL"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.55573,
+    "forward_pe": 18.404655,
+    "price_to_book": -183.23624,
+    "revenue_growth": 0.875,
+    "profit_margin": 0.062750004,
+    "debt_to_equity": null,
+    "target_mean_price": 487.26086,
+    "current_price": 396.34,
+    "fifty_two_week_low": 110.22,
+    "fifty_two_week_high": 469.47,
+    "trailing_eps": 12.56,
+    "book_value": -2.163,
+    "peg_ratio": 0.6419,
+    "short_name": "Dell Technologies Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "DELL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "DELL",
+    "available": false
+  }
+}

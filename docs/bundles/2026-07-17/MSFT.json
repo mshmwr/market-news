@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Microsoft's Nadella criticizes Anthropic's Fable for being 'editorially controlled'",
+        "description": "Microsoft enjoys close ties to Anthropic, but it's also working to help companies refine models that keep their data private.",
+        "link": "https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784245516
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 51.88765283327251,
+    "macd_line": -0.9760879597856729,
+    "macd_signal": -4.1977793109782064,
+    "macd_histogram": 3.2216913511925336,
+    "ma50": 401.3141125488281,
+    "volume_ratio": 0.7040982813731259,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.427723,
+    "forward_pe": 20.324642,
+    "price_to_book": 7.0606165,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 558.66034,
+    "current_price": 393.82,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.81,
+    "book_value": 55.777,
+    "peg_ratio": 1.2375,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
