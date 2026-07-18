@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon's Zoox issues software recall after robotaxi drove into heavy smoke",
+        "description": "Last month, an unoccupied Zoox robotaxi drove into an active emergency fire scene that was clouded with smoke, the company said.",
+        "link": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784299324
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 51.32428227882508,
+    "macd_line": 0.5924553264511587,
+    "macd_signal": -0.9831162112097329,
+    "macd_histogram": 1.5755715376608916,
+    "ma50": 252.13300018310548,
+    "volume_ratio": 0.7100322416304429,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.572968,
+    "forward_pe": 24.94745,
+    "price_to_book": 6.016353,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 314.2326,
+    "current_price": 247.23,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.36,
+    "book_value": 41.093,
+    "peg_ratio": 1.2973,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 61,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
