@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?",
+        "description": "Apple, Amazon, Nvidia and peers are quietly coming back to life, and that could easily jolt this sleepy stock market back into gear.",
+        "link": "https://www.marketwatch.com/story/can-the-magnificent-seven-save-a-stock-market-that-might-be-doomed-without-them-f88988f3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784487960
+      },
+      {
+        "title": "What happened to the Jewish left?",
+        "description": "Marc Lamont Hill speaks to Molly Crabapple about the Jewish Labour Bund, anti-Zionism and the Jewish left today.",
+        "link": "https://www.aljazeera.com/video/upfront/2026/7/19/what-happened-to-the-jewish-left?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784483816
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 71.66112702296712,
+    "macd_line": 8.823520884857999,
+    "macd_signal": 5.489961633355012,
+    "macd_histogram": 3.3335592515029866,
+    "ma50": 302.6324157714844,
+    "volume_ratio": 0.9399171574452797,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 40.502426,
+    "forward_pe": 34.625034,
+    "price_to_book": 45.969696,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.25116,
+    "current_price": 333.74,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.24,
+    "book_value": 7.26,
+    "peg_ratio": 2.6854,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

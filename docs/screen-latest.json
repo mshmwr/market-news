@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "filters": {
     "top_n": 10,
     "min_upside_pct": 10.0,
@@ -35,20 +35,6 @@
       "peg_ratio": 0.76,
       "score": 102.4,
       "reason": "分析師共識漲幅 +63%；近52週最低點（7%）；本益比低於產業均值 37%；PEG 0.8（成長價值兼具）；軟體應用大型股。"
-    },
-    {
-      "ticker": "CRM",
-      "name": "CRM",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 170.77,
-      "market_cap": 139860639744,
-      "upside_pct": 43.6,
-      "week52_pos": 19.1,
-      "relative_pe": 0.71,
-      "peg_ratio": 0.71,
-      "score": 94.4,
-      "reason": "分析師共識漲幅 +44%；位於52週低點區（19%）；本益比低於產業均值 29%；PEG 0.7（成長價值兼具）；軟體應用龍頭。"
     },
     {
       "ticker": "UBER",
@@ -134,18 +120,32 @@
       "reason": "分析師共識漲幅 +30%；本益比低於產業均值 34%；PEG 0.5（成長價值兼具）；半導體龍頭。"
     },
     {
-      "ticker": "DIS",
-      "name": "DIS",
-      "sector": "Communication Services",
-      "industry": "Entertainment",
-      "price": 97.67,
-      "market_cap": 169605070848,
-      "upside_pct": 30.7,
-      "week52_pos": 17.6,
-      "relative_pe": 0.71,
-      "peg_ratio": 2.27,
-      "score": 76.2,
-      "reason": "分析師共識漲幅 +31%；位於52週低點區（18%）；本益比低於產業均值 29%；娛樂媒體龍頭。"
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 143.57,
+      "market_cap": 87856529408,
+      "upside_pct": 24.8,
+      "week52_pos": 14.7,
+      "relative_pe": 0.41,
+      "peg_ratio": 1.04,
+      "score": 75.8,
+      "reason": "分析師共識漲幅 +25%；位於52週低點區（15%）；本益比低於產業均值 59%；IT服務大型股。"
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 237.25,
+      "market_cap": 94306877440,
+      "upside_pct": 14.8,
+      "week52_pos": 25.3,
+      "relative_pe": 0.48,
+      "peg_ratio": 0.65,
+      "score": 70.2,
+      "reason": "本益比低於產業均值 52%；PEG 0.7（成長價值兼具）；軟體應用大型股。"
     }
   ]
 }

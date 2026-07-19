@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?",
+        "description": "Apple, Amazon, Nvidia and peers are quietly coming back to life, and that could easily jolt this sleepy stock market back into gear.",
+        "link": "https://www.marketwatch.com/story/can-the-magnificent-seven-save-a-stock-market-that-might-be-doomed-without-them-f88988f3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784487960
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 51.32428227882508,
+    "macd_line": 0.5924553264511587,
+    "macd_signal": -0.9831162112097329,
+    "macd_histogram": 1.5755715376608916,
+    "ma50": 252.13300018310548,
+    "volume_ratio": 0.7100322416304429,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.572968,
+    "forward_pe": 24.94745,
+    "price_to_book": 6.016353,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 314.2326,
+    "current_price": 247.23,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.36,
+    "book_value": 41.093,
+    "peg_ratio": 1.2973,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 61,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

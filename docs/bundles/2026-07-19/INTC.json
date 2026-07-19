@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Syria’s Al-Sharaa reshuffles security and intelligence leadership",
+        "description": "Government says the shake-up will strengthen security and clear the way for reconstruction.",
+        "link": "https://www.aljazeera.com/news/2026/7/19/syrias-al-sharaa-reshuffles-security-and-intelligence-leadership?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784479435
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 36.09513002311102,
+    "macd_line": -4.870826385520033,
+    "macd_signal": -1.2341945492929276,
+    "macd_histogram": -3.6366318362271053,
+    "ma50": 117.26559982299804,
+    "volume_ratio": 1.083994715772529,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 58.897167,
+    "price_to_book": 4.285521,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 106.70244,
+    "current_price": 95.04,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
