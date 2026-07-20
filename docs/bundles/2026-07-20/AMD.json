@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump rejects Mamdani threat to arrest Israel’s Netanyahu for war crimes",
+        "description": "US president insists Netanyahu will not be arrested, despite ICC warrant.",
+        "link": "https://www.aljazeera.com/news/2026/7/20/trump-rejects-mamdani-threat-to-arrest-israels-netanyahu-for-war-crimes?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784581602
+      },
+      {
+        "title": "Trump says Netanyahu won't be arrested in New York, pushing back on Mamdani",
+        "description": "Israel's prime minister, Benjamin Netanyahu, is the target of an arrest warrant issued by the International Criminal Court related to the war on Gaza.",
+        "link": "https://www.cnbc.com/2026/07/20/trump-netanyahu-arrest-mamdani-new-york-israel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784573350
+      },
+      {
+        "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer",
+        "description": "AMD is taking aim at Nvidia with Helios, its first AI rack system, and has landed Microsoft as a new customer, joining Meta, OpenAI and Oracle.",
+        "link": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784564178
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 47.60221771656183,
+    "macd_line": 5.095496539058104,
+    "macd_signal": 13.255060138810132,
+    "macd_histogram": -8.159563599752028,
+    "ma50": 500.72760009765625,
+    "volume_ratio": 0.8207109911978284,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 166.74504,
+    "forward_pe": 37.399162,
+    "price_to_book": 12.733457,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 541.65955,
+    "current_price": 503.57,
+    "fifty_two_week_low": 149.22,
+    "fifty_two_week_high": 584.73,
+    "trailing_eps": 3.02,
+    "book_value": 39.547,
+    "peg_ratio": 1.1619,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

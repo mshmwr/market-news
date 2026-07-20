@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for death of soldiers",
+        "description": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+        "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784581771
+      },
+      {
+        "title": "Wall Street’s AI divide: Inside the bull and bear cases for what comes next for the stock market",
+        "description": "Three years into the AI trade, Wall Street is no closer to agreeing about whether it’s a bubble, how much longer it can keep going or what might ultimately end it.",
+        "link": "https://www.marketwatch.com/story/wall-streets-ai-divide-inside-the-bull-and-bear-cases-for-what-comes-next-for-the-stock-market-3fcab8db?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784580900
+      },
+      {
+        "title": "Iran condemns US attacks on civilian infrastructure",
+        "description": "Iran says it has received mediation proposals from multiple parties and insists diplomatic efforts remain active.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/7/20/iran-condemns-us-attacks-on-civilian-infrastructure?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784577740
+      },
+      {
+        "title": "It’s getting easier for terminally ill people to end their own lives. What to know as laws change.",
+        "description": "Patients must meet three conditions to qualify for Medical Aid in Dying.",
+        "link": "https://www.marketwatch.com/story/its-getting-easier-for-terminally-ill-people-to-end-their-own-lives-what-to-know-as-laws-change-4fa04c54?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784573340
+      },
+      {
+        "title": "At least 25 killed as floods and landslides hit northern India",
+        "description": "Monsoon rains devastate communities, with rescue and relief operations intensifying and the death toll rising.",
+        "link": "https://www.aljazeera.com/news/2026/7/20/at-least-25-killed-as-floods-and-landslides-hit-northern-india?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1784564232
+      }
+    ],
+    "ticker": "MU"
+  },
+  "technical": {
+    "rsi": 42.503312723760025,
+    "macd_line": -22.99513784677572,
+    "macd_signal": 5.5744915812203235,
+    "macd_histogram": -28.56962942799604,
+    "ma50": 937.5534875488281,
+    "volume_ratio": 0.7182355125925709,
+    "ticker": "MU"
+  },
+  "fundamentals": {
+    "pe_ratio": 19.567263,
+    "forward_pe": 5.7348666,
+    "price_to_book": 13.472921,
+    "revenue_growth": 3.457,
+    "profit_margin": 0.55906,
+    "debt_to_equity": 6.33,
+    "target_mean_price": 1491.9524,
+    "current_price": 865.46,
+    "fifty_two_week_low": 103.38,
+    "fifty_two_week_high": 1255.0,
+    "trailing_eps": 44.23,
+    "book_value": 64.237,
+    "peg_ratio": 0.1248,
+    "short_name": "Micron Technology, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 42,
+    "sector": "Technology",
+    "ticker": "MU"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MU",
+    "available": false
+  }
+}

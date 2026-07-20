@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says",
+        "description": "Speaking in an interview with CNBC, TSMC's Wendell Huang said the fresh investment comes on the back of robust customer demand.",
+        "link": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784550897
+      }
+    ],
+    "ticker": "TSM"
+  },
+  "technical": {
+    "rsi": 40.86686336864854,
+    "macd_line": -5.524948478387728,
+    "macd_signal": 0.292422025509921,
+    "macd_histogram": -5.817370503897649,
+    "ma50": 424.8612188720703,
+    "volume_ratio": 0.7030565577065518,
+    "ticker": "TSM"
+  },
+  "fundamentals": {
+    "pe_ratio": 30.13483,
+    "forward_pe": 18.895512,
+    "price_to_book": 83.80201,
+    "revenue_growth": 0.36,
+    "profit_margin": 0.49923,
+    "debt_to_equity": 15.174,
+    "target_mean_price": 522.816,
+    "current_price": 402.3,
+    "fifty_two_week_low": 223.7,
+    "fifty_two_week_high": 479.0,
+    "trailing_eps": 13.35,
+    "book_value": 4.8006005,
+    "peg_ratio": 1.0093,
+    "short_name": "Taiwan Semiconductor Manufactur",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 18,
+    "sector": "Technology",
+    "ticker": "TSM"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSM",
+    "available": false
+  }
+}

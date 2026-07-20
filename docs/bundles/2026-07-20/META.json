@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "SpaceX slides further down the ranks of large companies as it’s overtaken by Meta",
+        "description": "SpaceX has lost more than $1 trillion in market value since its post-IPO peak.",
+        "link": "https://www.marketwatch.com/story/spacex-flirts-with-a-further-decline-down-the-market-cap-ranks-e539799e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784579040
+      },
+      {
+        "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer",
+        "description": "AMD is taking aim at Nvidia with Helios, its first AI rack system, and has landed Microsoft as a new customer, joining Meta, OpenAI and Oracle.",
+        "link": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784564178
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 56.780202683960766,
+    "macd_line": 18.61404446351139,
+    "macd_signal": 12.628644220847427,
+    "macd_histogram": 5.985400242663964,
+    "ma50": 604.9027624511718,
+    "volume_ratio": 0.4971334100180505,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 23.468386,
+    "forward_pe": 17.777826,
+    "price_to_book": 6.726693,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 822.68585,
+    "current_price": 645.85,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.52,
+    "book_value": 96.013,
+    "peg_ratio": 0.9424,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

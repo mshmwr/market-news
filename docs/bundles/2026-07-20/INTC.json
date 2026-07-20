@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.",
+        "description": "South Korean stocks weren’t a big deal in emerging-markets funds. Artificial intelligence changed that.",
+        "link": "https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784579820
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 38.00365965502964,
+    "macd_line": -5.413451678333374,
+    "macd_signal": -2.070564243405866,
+    "macd_histogram": -3.3428874349275075,
+    "ma50": 116.94659973144532,
+    "volume_ratio": 0.8162095979939025,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 60.14898,
+    "price_to_book": 4.3766065,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 106.70244,
+    "current_price": 97.06,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}
