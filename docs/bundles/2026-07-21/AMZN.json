@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Brazil's Amazon sees sharp decline in size of area burned in 2025",
+        "description": "The amount of land burned in the world's largest rainforest was the smallest since MapBiomas records began in 1985.",
+        "link": "https://www.bbc.co.uk/news/articles/cqx78eplqqlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784649449
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 51.313944739640895,
+    "macd_line": 0.8012007349448709,
+    "macd_signal": -0.3374106450086306,
+    "macd_histogram": 1.1386113799535016,
+    "ma50": 251.1606002807617,
+    "volume_ratio": 0.4511587988471806,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 29.646706,
+    "forward_pe": 24.959518,
+    "price_to_book": 6.024141,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 312.87402,
+    "current_price": 247.55,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.35,
+    "book_value": 41.093,
+    "peg_ratio": 1.3118,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

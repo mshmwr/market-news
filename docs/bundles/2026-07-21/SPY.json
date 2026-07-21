@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "IRS chief Frank Bisignano dismisses JPMorgan spying allegations",
+        "description": "Bisignano denied allegations The Wall Street Journal reported that he surveilled his colleagues while working at JPMorgan more than a decade ago.",
+        "link": "https://www.cnbc.com/2026/07/21/irs-chief-frank-bisignano-laughs-off-jpmorgan-spying-allegations.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784658117
+      }
+    ],
+    "ticker": "SPY"
+  },
+  "technical": {
+    "rsi": 52.75165631818146,
+    "macd_line": 2.2880832456880853,
+    "macd_signal": 2.956445017256575,
+    "macd_histogram": -0.6683617715684895,
+    "ma50": 743.80791015625,
+    "volume_ratio": 0.5487910935941109,
+    "ticker": "SPY"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.915756,
+    "forward_pe": null,
+    "price_to_book": 1.7433485,
+    "revenue_growth": null,
+    "profit_margin": null,
+    "debt_to_equity": null,
+    "target_mean_price": null,
+    "current_price": 748.28,
+    "fifty_two_week_low": 619.29,
+    "fifty_two_week_high": 760.4,
+    "trailing_eps": null,
+    "book_value": 429.22,
+    "peg_ratio": null,
+    "short_name": "State Street SPDR S&P 500 ETF T",
+    "recommendation_key": null,
+    "number_of_analyst_opinions": null,
+    "sector": null,
+    "ticker": "SPY"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "SPY",
+    "available": false
+  }
+}

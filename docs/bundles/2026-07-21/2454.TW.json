@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google 攻強力 AI 晶片 市場推測聯發科將受惠",
+        "description": "外媒The Information報導，Google正開發專為旗下Gemini大型語言模型打造的新一代AI伺服器晶片「Frozen v2」，採取將部分模型架構直接固化於晶片硬體的設計，大幅提升AI推論效率，市場預估效能可望較現有張量處理器（TPU）提升六至十倍。",
+        "link": "https://money.udn.com/money/story/11162/9642572",
+        "source": "經濟日報",
+        "category": "台股",
+        "published_ts": 1784650230
+      },
+      {
+        "title": "快訊／聯發科亮燈！權值4王狂飆　台股寫盤中第2大漲點",
+        "description": "<img alt=\"快訊／聯發科亮燈！權值4王狂飆　台股寫盤中第2大漲點\" src=\"https://cdn2.ettoday.net/images/8767/c8767776.jpg\" /><br /> 4大權值股今（21）日聯手上演回血秀，除了權值股王台積電（2330）漲逾3%，權值二哥聯發科（2454）午盤後直攻漲停價3670元，台達電（2308）漲逾8.8%、鴻海（2317）亦漲逾4%，帶動加權值數狂飆1702.58點，寫史上盤中第2大漲點。 <a href=\"https://finance.ettoday.net/news/3204999\" target=\"_blank\">《詳全文...》</a>",
+        "link": "https://finance.ettoday.net/news/3204999",
+        "source": "ETtoday財經",
+        "category": "台股",
+        "published_ts": 0
+      }
+    ],
+    "ticker": "2454.TW"
+  },
+  "technical": {
+    "rsi": 44.00087661022679,
+    "macd_line": -142.01552635328744,
+    "macd_signal": -68.70366132968928,
+    "macd_histogram": -73.31186502359816,
+    "ma50": 4019.6041552734373,
+    "volume_ratio": 0.8351029781015376,
+    "ticker": "2454.TW"
+  },
+  "fundamentals": {
+    "pe_ratio": 55.49675,
+    "forward_pe": 28.877455,
+    "price_to_book": 15.008997,
+    "revenue_growth": -0.027,
+    "profit_margin": 0.16923,
+    "debt_to_equity": 6.547,
+    "target_mean_price": 4889.609,
+    "current_price": 3670.0,
+    "fifty_two_week_low": 1130.0,
+    "fifty_two_week_high": 4970.0,
+    "trailing_eps": 66.13,
+    "book_value": 244.52,
+    "peg_ratio": 1.624,
+    "short_name": "MEDIATEK INC",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 23,
+    "sector": "Technology",
+    "ticker": "2454.TW"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "2454.TW",
+    "available": false
+  }
+}

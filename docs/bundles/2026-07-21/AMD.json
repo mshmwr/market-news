@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+        "description": "Nvidia released new information about its data center CPU, called Vera, that prospective customers need to fully evaluate the chip.",
+        "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784646002
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 54.8281869682732,
+    "macd_line": 6.509390258086455,
+    "macd_signal": 11.905568202887899,
+    "macd_histogram": -5.396177944801444,
+    "ma50": 503.44700012207034,
+    "volume_ratio": 0.9598842774239034,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 180.27483,
+    "forward_pe": 40.433754,
+    "price_to_book": 13.766657,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 541.65955,
+    "current_price": 544.43,
+    "fifty_two_week_low": 149.22,
+    "fifty_two_week_high": 584.73,
+    "trailing_eps": 3.02,
+    "book_value": 39.547,
+    "peg_ratio": 1.1803,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

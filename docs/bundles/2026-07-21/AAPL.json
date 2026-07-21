@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784661631
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 64.54823172147849,
+    "macd_line": 8.933948243117925,
+    "macd_signal": 6.7227613967518005,
+    "macd_histogram": 2.2111868463661244,
+    "ma50": 304.23059997558596,
+    "volume_ratio": 0.622062762355153,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 39.677963,
+    "forward_pe": 34.000923,
+    "price_to_book": 45.14325,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.25116,
+    "current_price": 327.74,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.6279,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

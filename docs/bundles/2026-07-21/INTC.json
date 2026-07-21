@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
+        "description": "Many server makers are seeing faster growth as companies race to deploy artificial intelligence servers.",
+        "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784666969
+      },
+      {
+        "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+        "description": "Nvidia released new information about its data center CPU, called Vera, that prospective customers need to fully evaluate the chip.",
+        "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784646002
+      },
+      {
+        "title": "Intel's foundry lands first named customer under CEO Lip-Bu Tan, as Fortinet signs on for security chips",
+        "description": "Fortinet is the first announced corporate customer for Intel's foundry under CEO Lip-Bu Tan, who took over the chipmaker in March 2025.",
+        "link": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784638801
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 45.31153017936472,
+    "macd_line": -5.107265864302022,
+    "macd_signal": -2.677910943443101,
+    "macd_histogram": -2.4293549208589207,
+    "ma50": 116.86319961547852,
+    "volume_ratio": 0.9437829079440863,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 64.893105,
+    "price_to_book": 4.754926,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 106.70244,
+    "current_price": 105.45,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 41,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
+        "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "link": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784661631
+      },
+      {
+        "title": "BlackRock, Carhartt, Ford and Google launch skilled trades workforce initiative",
+        "description": "The coalition of companies aims to address a growing labor shortage by promoting careers in the skilled trades, the firms said.",
+        "link": "https://www.cnbc.com/2026/07/21/blackrock-carhartt-ford-google-skilled-trades.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784661530
+      },
+      {
+        "title": "Google expands Gemini lineup with cheaper models and new Mythos rival",
+        "description": "Google is expanding Gemini with cheaper, more efficient models and a new cybersecurity offering as it tries to close product gaps and compete on cost.",
+        "link": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784652766
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 43.11413994401365,
+    "macd_line": -2.9404151699022805,
+    "macd_signal": -2.2624597950122176,
+    "macd_histogram": -0.6779553748900629,
+    "ma50": 368.55718200683594,
+    "volume_ratio": 0.6797657329213839,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.520245,
+    "forward_pe": 23.69796,
+    "price_to_book": 8.785494,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 433.51376,
+    "current_price": 347.15,
+    "fifty_two_week_low": 187.46,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.09,
+    "book_value": 39.514,
+    "peg_ratio": 1.3859,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

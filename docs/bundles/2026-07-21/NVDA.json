@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nebius stock surges nearly 19% as Nvidia discloses significant stake in neocloud",
+        "description": "Nvidia said it would invest $2 billion into Nebius in March.",
+        "link": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784667050
+      },
+      {
+        "title": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
+        "description": "The “Mag Seven” has become the “Bag Seven.” Sharp tech investors are looking elsewhere.",
+        "link": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784664540
+      },
+      {
+        "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel",
+        "description": "Nvidia released new information about its data center CPU, called Vera, that prospective customers need to fully evaluate the chip.",
+        "link": "https://www.cnbc.com/2026/07/21/nvidia-vera-cpu-ai-amd-intel.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784646002
+      }
+    ],
+    "ticker": "NVDA"
+  },
+  "technical": {
+    "rsi": 52.25761145058848,
+    "macd_line": 0.2113633794168095,
+    "macd_signal": -0.6118658888447953,
+    "macd_histogram": 0.8232292682616048,
+    "ma50": 209.64743988037108,
+    "volume_ratio": 0.7918276765194536,
+    "ticker": "NVDA"
+  },
+  "fundamentals": {
+    "pe_ratio": 31.744255,
+    "forward_pe": 16.139519,
+    "price_to_book": 25.686493,
+    "revenue_growth": 0.852,
+    "profit_margin": 0.62966,
+    "debt_to_equity": 6.555,
+    "target_mean_price": 302.31033,
+    "current_price": 207.29,
+    "fifty_two_week_low": 164.07,
+    "fifty_two_week_high": 236.54,
+    "trailing_eps": 6.53,
+    "book_value": 8.07,
+    "peg_ratio": 0.5599,
+    "short_name": "NVIDIA Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "NVDA",
+    "available": false
+  }
+}

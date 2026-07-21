@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+        "description": "GM raised several key earnings forecasts after beating Wall Street's second-quarter expectations as its North American operations continue to drive results.",
+        "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784665152
+      }
+    ],
+    "ticker": "ASTS"
+  },
+  "technical": {
+    "rsi": 40.717152065599876,
+    "macd_line": -7.105830692036378,
+    "macd_signal": -5.882469354042108,
+    "macd_histogram": -1.2233613379942696,
+    "ma50": 85.24280006408691,
+    "volume_ratio": 1.0887707239436744,
+    "ticker": "ASTS"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": -243.42813,
+    "price_to_book": 9.091431,
+    "revenue_growth": 19.522,
+    "profit_margin": 0.0,
+    "debt_to_equity": 112.424,
+    "target_mean_price": 83.32,
+    "current_price": 63.34,
+    "fifty_two_week_low": 36.08,
+    "fifty_two_week_high": 133.86,
+    "trailing_eps": -1.8,
+    "book_value": 6.967,
+    "peg_ratio": null,
+    "short_name": "AST SpaceMobile, Inc.",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 10,
+    "sector": "Technology",
+    "ticker": "ASTS"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASTS",
+    "available": false
+  }
+}
