@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump's push for American-made AI chips hits TSMC's margins",
+        "description": "The Taiwan-based chipmaker has announced $200 billion in investment into U.S. manufacturing since Trump returned to power in 2025.",
+        "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784730666
+      }
+    ],
+    "ticker": "TSM"
+  },
+  "technical": {
+    "rsi": 48.30820944754039,
+    "macd_line": -4.468145856485592,
+    "macd_signal": -1.4769776425845904,
+    "macd_histogram": -2.991168213901001,
+    "ma50": 425.2996081542969,
+    "volume_ratio": 0.6016272454954654,
+    "ticker": "TSM"
+  },
+  "fundamentals": {
+    "pe_ratio": 36.595135,
+    "forward_pe": 19.78369,
+    "price_to_book": 87.741104,
+    "revenue_growth": 0.36,
+    "profit_margin": 0.49923,
+    "debt_to_equity": 15.174,
+    "target_mean_price": 527.26044,
+    "current_price": 421.21,
+    "fifty_two_week_low": 223.7,
+    "fifty_two_week_high": 479.0,
+    "trailing_eps": 11.51,
+    "book_value": 4.8006005,
+    "peg_ratio": 1.0744,
+    "short_name": "Taiwan Semiconductor Manufactur",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 18,
+    "sector": "Technology",
+    "ticker": "TSM"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSM",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Reddit stock sinks on report it may not renew Google AI content deal",
+        "description": "Google's AI summaries have reduced traffic to websites from the search results page and Reddit is reconsidering the benefits of the deal, the Journal said.",
+        "link": "https://www.cnbc.com/2026/07/22/reddit-stock-google-ai-content-deal.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784753684
+      },
+      {
+        "title": "Ex-Google recruiter: Ask this 'insightful' question in an interview and I'll want to hire you 'on the spot'",
+        "description": "Former Google recruiter Farah Sharghi reveals the question that makes job candidates stand out to her the most.",
+        "link": "https://www.cnbc.com/2026/07/22/ex-google-recruiter-the-no-1-question-that-makes-me-want-to-hire-someone-on-the-spot.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784751944
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 40.562056231909054,
+    "macd_line": -3.7636335256833604,
+    "macd_signal": -2.562457118214917,
+    "macd_histogram": -1.2011764074684432,
+    "ma50": 367.38776733398436,
+    "volume_ratio": 0.9492459183753289,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 26.073933,
+    "forward_pe": 23.312311,
+    "price_to_book": 8.657437,
+    "revenue_growth": 0.218,
+    "profit_margin": 0.37919,
+    "debt_to_equity": 20.026,
+    "target_mean_price": 433.5515,
+    "current_price": 342.09,
+    "fifty_two_week_low": 187.82,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 13.12,
+    "book_value": 39.514,
+    "peg_ratio": 1.3668,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

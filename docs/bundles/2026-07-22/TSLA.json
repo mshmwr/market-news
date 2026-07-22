@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
+        "description": "Tesla's earnings report lands in the midst of a slide in the company's stock price even as its core auto business is rebounding.",
+        "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784753753
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 41.69682164152296,
+    "macd_line": -6.9664420074543045,
+    "macd_signal": -4.091124959147549,
+    "macd_histogram": -2.875317048306756,
+    "ma50": 407.47259826660155,
+    "volume_ratio": 0.7084561739378116,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 340.0091,
+    "forward_pe": 145.75206,
+    "price_to_book": 17.080423,
+    "revenue_growth": 0.158,
+    "profit_margin": 0.03946,
+    "debt_to_equity": 18.738,
+    "target_mean_price": 425.2154,
+    "current_price": 374.01,
+    "fifty_two_week_low": 297.82,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.1,
+    "book_value": 21.897,
+    "peg_ratio": 4.7485,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 39,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

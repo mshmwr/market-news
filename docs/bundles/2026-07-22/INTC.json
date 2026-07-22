@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "IBM lowers full-year forecast after earnings warning",
+        "description": "IBM is now looking to improve productivity with artificial intelligence, including with a new coding tool called Bob.",
+        "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784756332
+      },
+      {
+        "title": "Amazon cuts some jobs in its artificial general intelligence unit",
+        "description": "Amazon's AGI unit has released a set of AI models, called Nova, and also includes groups working on silicon and quantum computing.",
+        "link": "https://www.cnbc.com/2026/07/22/amazon-lays-off-some-employees-in-its-agi-unit.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784749816
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 43.451655505361714,
+    "macd_line": -5.034261394188945,
+    "macd_signal": -3.1483385058282995,
+    "macd_histogram": -1.8859228883606458,
+    "ma50": 116.41719970703124,
+    "volume_ratio": 0.7276846533330619,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 63.15155,
+    "price_to_book": 4.6273165,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 108.625,
+    "current_price": 102.62,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

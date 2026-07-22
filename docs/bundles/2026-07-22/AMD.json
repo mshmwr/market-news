@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
+        "description": "The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.",
+        "link": "https://www.bbc.co.uk/news/articles/c204p64pqzno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784742897
+      },
+      {
+        "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+        "description": "Anthropic's agreement with AMD is the latest in a string of infrastructure deals the company has announced this year to increase its computing capacity.",
+        "link": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784728690
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 56.08897000933899,
+    "macd_line": 8.17297388482632,
+    "macd_signal": 11.158507389262272,
+    "macd_histogram": -2.985533504435953,
+    "ma50": 505.3898004150391,
+    "volume_ratio": 0.8674292534143924,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 184.72575,
+    "forward_pe": 41.020473,
+    "price_to_book": 13.96642,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 541.65955,
+    "current_price": 552.33,
+    "fifty_two_week_low": 149.22,
+    "fifty_two_week_high": 584.73,
+    "trailing_eps": 2.99,
+    "book_value": 39.547,
+    "peg_ratio": 1.276,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

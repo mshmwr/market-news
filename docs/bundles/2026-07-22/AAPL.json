@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Samsung ups prices as it launches new foldable smartphones ahead of expected Apple debut",
+        "description": "Samsung launched the Galaxy Z Fold8 Ultra, Galaxy Z Fold8 and Galaxy Z Flip8.",
+        "link": "https://www.cnbc.com/2026/07/22/samsung-galaxy-z-fold8-ultra-z-fold8-z-flip8-launch.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784725201
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 62.54831834250622,
+    "macd_line": 8.718425548125936,
+    "macd_signal": 7.121922411446032,
+    "macd_histogram": 1.5965031366799032,
+    "ma50": 304.88739990234376,
+    "volume_ratio": 0.594401715970762,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 39.453995,
+    "forward_pe": 33.809002,
+    "price_to_book": 44.88843,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.25116,
+    "current_price": 325.89,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.6371,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

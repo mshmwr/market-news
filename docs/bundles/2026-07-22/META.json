@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Samsung details features of its smart glasses as it enters market dominated by Meta",
+        "description": "The Samsung smart glasses are the tech giant's first foray into the product category which is currently dominated by Meta.",
+        "link": "https://www.cnbc.com/2026/07/22/samsung-smart-glasses-features-specs-price-meta.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784739735
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 51.54537375946291,
+    "macd_line": 15.384122844510216,
+    "macd_signal": 13.98112855536992,
+    "macd_histogram": 1.4029942891402953,
+    "ma50": 605.8162756347656,
+    "volume_ratio": 0.5432450788198867,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.814478,
+    "forward_pe": 16.945055,
+    "price_to_book": 6.532136,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.0134,
+    "current_price": 627.17,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.49,
+    "book_value": 96.013,
+    "peg_ratio": 0.9392,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}
