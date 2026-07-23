@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google and Tesla shares plunge as AI spending rattles markets",
+        "description": "As major tech companies race to capitalize on a new wave of AI technology, investors wonder when financial benefits will appear.",
+        "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784839353
+      },
+      {
+        "title": "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
+        "description": "Both Tesla and Alphabet signaled higher spending as they invest in artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784838398
+      },
+      {
+        "title": "Alphabet and Tesla test Wall Street's patience as AI spending overshadows growth",
+        "description": "Shares of Alphabet and Tesla dipped after the companies reported massive spending increases in their quarterly earnings reports.",
+        "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784820367
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 29.10212809792793,
+    "macd_line": -11.866147977320963,
+    "macd_signal": -5.6448671387318345,
+    "macd_histogram": -6.221280838589129,
+    "ma50": 404.9663983154297,
+    "volume_ratio": 2.657879112360233,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 296.00925,
+    "forward_pe": 142.47514,
+    "price_to_book": 14.599717,
+    "revenue_growth": 0.255,
+    "profit_margin": 0.036730003,
+    "debt_to_equity": 10.674,
+    "target_mean_price": 425.08948,
+    "current_price": 319.69,
+    "fifty_two_week_low": 297.82,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.08,
+    "book_value": 21.897,
+    "peg_ratio": 4.6868,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 38,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

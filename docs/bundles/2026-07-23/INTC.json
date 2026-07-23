@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+        "description": "Intel rallied after the company reported blowout earnings and guidance.",
+        "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784841926
+      },
+      {
+        "title": "DOJ withdraws subpoenas to NY Times reporters in Trump plane probe",
+        "description": "The subpoenas to New York Times reporters were issued by Manhattan U.S. Attorney Jay Clayton, whom Trump has nominated as director of national intelligence.",
+        "link": "https://www.cnbc.com/2026/07/23/doj-subpoenas-new-york-times-trump-plane.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784841464
+      },
+      {
+        "title": "Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge",
+        "description": "Both Tesla and Alphabet signaled higher spending as they invest in artificial intelligence.",
+        "link": "https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784838398
+      },
+      {
+        "title": "JPMorgan report finds dramatic jump in AI-themed ETFs — despite rough quarter",
+        "description": "Wall Street is banking heavily on exchange-traded funds that give investors artificial intelligence exposure, according to JPMorgan Asset Management.",
+        "link": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784826606
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 41.88756607527838,
+    "macd_line": -5.110725023848488,
+    "macd_signal": -3.5405808126799436,
+    "macd_histogram": -1.5701442111685444,
+    "ma50": 115.8329997253418,
+    "volume_ratio": 1.2034596747131727,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 61.680763,
+    "price_to_book": 4.5195475,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 108.625,
+    "current_price": 100.23,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

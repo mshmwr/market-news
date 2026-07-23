@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+        "description": "Nervous investors set the stage for massive post-earnings moves in Wall Street’s biggest stocks.",
+        "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784839620
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 58.113916809949075,
+    "macd_line": 8.112230550693084,
+    "macd_signal": 7.319313992561947,
+    "macd_histogram": 0.7929165581311377,
+    "ma50": 305.4670001220703,
+    "volume_ratio": 0.6340659720736981,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 38.98909,
+    "forward_pe": 33.362896,
+    "price_to_book": 44.305786,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.25116,
+    "current_price": 321.66,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.25,
+    "book_value": 7.26,
+    "peg_ratio": 2.6222,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
+        "description": "Amazon is bringing Luna to the Prime Video streaming service, while Microsoft will test an ad-supported streaming of titles that people own.",
+        "link": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784837210
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 38.62278122294809,
+    "macd_line": -0.5300517576483514,
+    "macd_signal": -0.2328528387278464,
+    "macd_histogram": -0.29719891892050504,
+    "ma50": 249.8974008178711,
+    "volume_ratio": 0.8669791726704619,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.983232,
+    "forward_pe": 23.56213,
+    "price_to_book": 5.6861267,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 313.1321,
+    "current_price": 233.66,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.35,
+    "book_value": 41.093,
+    "peg_ratio": 1.314,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Cerebras stock gains on AMD partnership",
+        "description": "Cerebras and AMD agreed to work together, pairing their technology for AI systems.",
+        "link": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784838792
+      },
+      {
+        "title": "Mamdani backs off pledge to arrest Netanyahu citing lack of authority",
+        "description": "The New York City mayor instead called on US authorities to act on International Criminal Court's arrest warrant against the Israeli prime minister.",
+        "link": "https://www.bbc.co.uk/news/articles/c204p64pqzno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784742897
+      }
+    ],
+    "ticker": "AMD"
+  },
+  "technical": {
+    "rsi": 53.51526544228413,
+    "macd_line": 8.375852762692716,
+    "macd_signal": 10.602738837274835,
+    "macd_histogram": -2.2268860745821186,
+    "ma50": 507.00780029296874,
+    "volume_ratio": 0.954725998998725,
+    "ticker": "AMD"
+  },
+  "fundamentals": {
+    "pe_ratio": 181.10402,
+    "forward_pe": 40.000534,
+    "price_to_book": 13.6468,
+    "revenue_growth": 0.378,
+    "profit_margin": 0.13374,
+    "debt_to_equity": 6.005,
+    "target_mean_price": 541.65955,
+    "current_price": 539.69,
+    "fifty_two_week_low": 149.22,
+    "fifty_two_week_high": 584.73,
+    "trailing_eps": 2.98,
+    "book_value": 39.547,
+    "peg_ratio": 1.2945,
+    "short_name": "Advanced Micro Devices, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 47,
+    "sector": "Technology",
+    "ticker": "AMD"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMD",
+    "available": false
+  }
+}

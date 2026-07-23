@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+        "description": "Nervous investors set the stage for massive post-earnings moves in Wall Street’s biggest stocks.",
+        "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784839620
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 46.318040049855874,
+    "macd_line": 11.745075938019568,
+    "macd_signal": 13.532681503214341,
+    "macd_histogram": -1.7876055651947738,
+    "ma50": 605.9721655273438,
+    "volume_ratio": 0.7874579091263271,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.06407,
+    "forward_pe": 16.375778,
+    "price_to_book": 6.3126864,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 826.0134,
+    "current_price": 606.1,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.47,
+    "book_value": 96.013,
+    "peg_ratio": 0.9149,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

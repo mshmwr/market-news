@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Google and Tesla shares plunge as AI spending rattles markets",
+        "description": "As major tech companies race to capitalize on a new wave of AI technology, investors wonder when financial benefits will appear.",
+        "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784839353
+      },
+      {
+        "title": "Google Cloud CEO Kurian says customers are spending 50% more as segment blows away expectations",
+        "description": "Google Cloud CEO Thomas Kurian told CNBC on Thursday that the company's existing customers are spending \"roughly 50% more\" than they've already committed.",
+        "link": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784823291
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 31.02425258284464,
+    "macd_line": -6.312692740612874,
+    "macd_signal": -3.312989091427216,
+    "macd_histogram": -2.9997036491856583,
+    "ma50": 365.97340698242186,
+    "volume_ratio": 2.0093300285325624,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 15.932297,
+    "forward_pe": 21.533838,
+    "price_to_book": 8.039935,
+    "revenue_growth": 0.242,
+    "profit_margin": 0.54771,
+    "debt_to_equity": 17.605,
+    "target_mean_price": 433.5515,
+    "current_price": 317.69,
+    "fifty_two_week_low": 187.82,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 19.94,
+    "book_value": 39.514,
+    "peg_ratio": 1.3469,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 53,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}

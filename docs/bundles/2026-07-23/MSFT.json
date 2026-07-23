@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
+        "description": "Nervous investors set the stage for massive post-earnings moves in Wall Street’s biggest stocks.",
+        "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "category": "美股",
+        "published_ts": 1784839620
+      },
+      {
+        "title": "Amazon and Microsoft pivot cloud gaming strategies to target different players",
+        "description": "Amazon is bringing Luna to the Prime Video streaming service, while Microsoft will test an ad-supported streaming of titles that people own.",
+        "link": "https://www.cnbc.com/2026/07/23/amazon-microsoft-cloud-gaming.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784837210
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 44.68568952096548,
+    "macd_line": -0.43985938388971135,
+    "macd_signal": -1.6468274509169616,
+    "macd_histogram": 1.2069680670272502,
+    "ma50": 399.57497314453127,
+    "volume_ratio": 0.7061841946400423,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.740166,
+    "forward_pe": 19.690578,
+    "price_to_book": 6.841171,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 556.7513,
+    "current_price": 381.58,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.78,
+    "book_value": 55.777,
+    "peg_ratio": 1.2039,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}
