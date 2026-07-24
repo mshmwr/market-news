@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
+        "description": "Intel's revenue jumped 25%, the most robust growth for any period since the third quarter of 2011.",
+        "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784901935
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 37.12406841726757,
+    "macd_line": -5.743544489240406,
+    "macd_signal": -3.9811735479920363,
+    "macd_histogram": -1.7623709412483701,
+    "ma50": 115.26719970703125,
+    "volume_ratio": 1.6247214800839835,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 52.7926,
+    "price_to_book": 4.1628714,
+    "revenue_growth": 0.072,
+    "profit_margin": -0.05904,
+    "debt_to_equity": 36.028,
+    "target_mean_price": 115.4,
+    "current_price": 92.32,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -0.6,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

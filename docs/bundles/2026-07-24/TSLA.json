@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
+        "description": "Tesla shares plunged almost 18% this week after the company missed on earnings and turned cash flow negative.",
+        "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784924405
+      },
+      {
+        "title": "Trader who successfully shorted Tesla into earnings now sets sights on this high flyer",
+        "description": "The bearish Tesla set-up we flagged ahead of Wednesday's report has delivered most of what it can.",
+        "link": "https://www.cnbc.com/2026/07/24/trader-who-successfully-shorted-tesla-into-earnings-now-sets-sights-on-this-high-flyer-.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784914095
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 27.98594325727784,
+    "macd_line": -16.101845272883793,
+    "macd_signal": -7.736262765562227,
+    "macd_histogram": -8.365582507321566,
+    "ma50": 402.557998046875,
+    "volume_ratio": 1.3974428596651072,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 336.5914,
+    "forward_pe": 139.7474,
+    "price_to_book": 14.295566,
+    "revenue_growth": 0.255,
+    "profit_margin": 0.036730003,
+    "debt_to_equity": 10.674,
+    "target_mean_price": 402.76276,
+    "current_price": 313.03,
+    "fifty_two_week_low": 297.82,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 0.93,
+    "book_value": 21.897,
+    "peg_ratio": 4.0061,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 40,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

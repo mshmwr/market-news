@@ -1,0 +1,81 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Moody's says 'unprecedented' AI spending threatens credit quality of Amazon, Meta, Alphabet and others",
+        "description": "Moody's said AI spending is forcing even the world's most cash-rich corporations to lean heavily on debt, stock sales and off-balance-sheet moves.",
+        "link": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784925201
+      },
+      {
+        "title": "Trump vows to investigate EU over fining of US tech companies",
+        "description": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784924638
+      },
+      {
+        "title": "Bond market anxiety is growing over AI capex budgets",
+        "description": "Google, Amazon and Meta are seeing credit spreads widen as fixed-income investors demand more reward on companies they lend to.",
+        "link": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784923656
+      },
+      {
+        "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "description": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784921990
+      },
+      {
+        "title": "Amazon cracks down on use of AI images by sellers after New York law",
+        "description": "A recently enacted New York law mandates that companies disclose when an ad includes a \"synthetic performer\" in place of a human actor.",
+        "link": "https://www.cnbc.com/2026/07/23/amazon-makes-sellers-label-ai-generated-people-in-images-after-ny-law.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784853402
+      }
+    ],
+    "ticker": "AMZN"
+  },
+  "technical": {
+    "rsi": 37.49275523514707,
+    "macd_line": -1.5006753029612412,
+    "macd_signal": -0.4864173315745254,
+    "macd_histogram": -1.0142579713867157,
+    "ma50": 249.22320068359375,
+    "volume_ratio": 0.6452598756447625,
+    "ticker": "AMZN"
+  },
+  "fundamentals": {
+    "pe_ratio": 27.731184,
+    "forward_pe": 23.4287,
+    "price_to_book": 5.6484075,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.12224,
+    "debt_to_equity": 53.3,
+    "target_mean_price": 313.1321,
+    "current_price": 232.11,
+    "fifty_two_week_low": 196.0,
+    "fifty_two_week_high": 278.56,
+    "trailing_eps": 8.37,
+    "book_value": 41.093,
+    "peg_ratio": 1.2539,
+    "short_name": "Amazon.com, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 62,
+    "sector": "Consumer Cyclical",
+    "ticker": "AMZN"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AMZN",
+    "available": false
+  }
+}
