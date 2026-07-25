@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "filters": {
     "top_n": 10,
     "min_upside_pct": 10.0,
@@ -18,8 +18,8 @@
       "upside_pct": 115.8,
       "week52_pos": 0.1,
       "relative_pe": 0.7,
-      "peg_ratio": 0.68,
-      "score": 112.0,
+      "peg_ratio": 0.65,
+      "score": 112.9,
       "reason": "分析師共識漲幅 +116%；近52週最低點（0%）；本益比低於產業均值 30%；PEG 0.7（成長價值兼具）；系統軟體龍頭。"
     },
     {
@@ -32,7 +32,7 @@
       "upside_pct": 57.9,
       "week52_pos": 1.0,
       "relative_pe": 0.58,
-      "peg_ratio": 5.58,
+      "peg_ratio": 5.34,
       "score": 104.9,
       "reason": "分析師共識漲幅 +58%；近52週最低點（1%）；本益比低於產業均值 42%；軟體應用龍頭。"
     },
@@ -46,8 +46,8 @@
       "upside_pct": 47.7,
       "week52_pos": 13.6,
       "relative_pe": 0.68,
-      "peg_ratio": 0.65,
-      "score": 103.5,
+      "peg_ratio": 0.68,
+      "score": 102.6,
       "reason": "分析師共識漲幅 +48%；位於52週低點區（14%）；本益比低於產業均值 32%；PEG 0.7（成長價值兼具）；軟體應用龍頭。"
     },
     {
@@ -60,9 +60,9 @@
       "upside_pct": 56.1,
       "week52_pos": 7.8,
       "relative_pe": 0.65,
-      "peg_ratio": 0.73,
-      "score": 102.2,
-      "reason": "分析師共識漲幅 +56%；近52週最低點（8%）；本益比低於產業均值 35%；PEG 0.7（成長價值兼具）；軟體應用大型股。"
+      "peg_ratio": 0.77,
+      "score": 101.0,
+      "reason": "分析師共識漲幅 +56%；近52週最低點（8%）；本益比低於產業均值 35%；PEG 0.8（成長價值兼具）；軟體應用大型股。"
     },
     {
       "ticker": "CMCSA",
@@ -70,26 +70,12 @@
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "price": 22.295,
-      "market_cap": 79642836992,
+      "market_cap": 79116853248,
       "upside_pct": 36.2,
       "week52_pos": 8.8,
       "relative_pe": 0.32,
       "score": 90.7,
       "reason": "分析師共識漲幅 +36%；近52週最低點（9%）；本益比低於產業均值 68%；電信服務大型股。"
-    },
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US, Inc.",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 180.09,
-      "market_cap": 193177419776,
-      "upside_pct": 35.2,
-      "week52_pos": 15.0,
-      "relative_pe": 0.86,
-      "peg_ratio": 0.68,
-      "score": 87.3,
-      "reason": "分析師共識漲幅 +35%；位於52週低點區（15%）；本益比低於產業均值 14%；PEG 0.7（成長價值兼具）；電信服務龍頭。"
     },
     {
       "ticker": "MSFT",
@@ -106,6 +92,20 @@
       "reason": "分析師共識漲幅 +46%；位於52週低點區（16%）；本益比低於產業均值 19%；系統軟體龍頭。"
     },
     {
+      "ticker": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "price": 180.09,
+      "market_cap": 193177419776,
+      "upside_pct": 35.2,
+      "week52_pos": 15.0,
+      "relative_pe": 0.86,
+      "peg_ratio": 0.71,
+      "score": 86.4,
+      "reason": "分析師共識漲幅 +35%；位於52週低點區（15%）；本益比低於產業均值 14%；PEG 0.7（成長價值兼具）；電信服務龍頭。"
+    },
+    {
       "ticker": "DIS",
       "name": "Walt Disney Company (The)",
       "sector": "Communication Services",
@@ -113,10 +113,10 @@
       "price": 94.85,
       "market_cap": 164708106240,
       "upside_pct": 34.4,
-      "week52_pos": 8.8,
+      "week52_pos": 9.1,
       "relative_pe": 0.69,
-      "peg_ratio": 2.16,
-      "score": 85.0,
+      "peg_ratio": 2.21,
+      "score": 84.8,
       "reason": "分析師共識漲幅 +34%；近52週最低點（9%）；本益比低於產業均值 31%；娛樂媒體龍頭。"
     },
     {
@@ -129,8 +129,8 @@
       "upside_pct": 32.5,
       "week52_pos": 32.6,
       "relative_pe": 0.64,
-      "peg_ratio": 0.54,
-      "score": 84.2,
+      "peg_ratio": 0.53,
+      "score": 84.5,
       "reason": "分析師共識漲幅 +32%；本益比低於產業均值 36%；PEG 0.5（成長價值兼具）；半導體龍頭。"
     },
     {
@@ -143,8 +143,8 @@
       "upside_pct": 19.8,
       "week52_pos": 18.8,
       "relative_pe": 0.46,
-      "peg_ratio": 0.58,
-      "score": 80.7,
+      "peg_ratio": 0.62,
+      "score": 79.5,
       "reason": "分析師共識漲幅 +20%；位於52週低點區（19%）；本益比低於產業均值 54%；PEG 0.6（成長價值兼具）；軟體應用大型股。"
     }
   ]

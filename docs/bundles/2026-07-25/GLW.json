@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "GLW"
+  },
+  "technical": {
+    "rsi": 36.43492969587865,
+    "macd_line": -11.865023670331368,
+    "macd_signal": -7.226303650991715,
+    "macd_histogram": -4.638720019339653,
+    "ma50": 188.3,
+    "volume_ratio": 0.6148383331917722,
+    "ticker": "GLW"
+  },
+  "fundamentals": {
+    "pe_ratio": 70.50481,
+    "forward_pe": 34.182873,
+    "price_to_book": 11.260846,
+    "revenue_growth": 0.2,
+    "profit_margin": 0.1109,
+    "debt_to_equity": 80.363,
+    "target_mean_price": 215.46667,
+    "current_price": 146.65,
+    "fifty_two_week_low": 54.92,
+    "fifty_two_week_high": 271.78,
+    "trailing_eps": 2.08,
+    "book_value": 13.023,
+    "peg_ratio": 1.3955,
+    "short_name": "Corning Incorporated",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 15,
+    "sector": "Technology",
+    "ticker": "GLW"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GLW",
+    "available": false
+  }
+}

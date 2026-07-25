@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+        "description": "Chinese open-weight models are gaining steam against leading offerings from American companies. OpenAI and Anthropic did not sign the letter.",
+        "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784915737
+      }
+    ],
+    "ticker": "MSFT"
+  },
+  "technical": {
+    "rsi": 44.760380290154906,
+    "macd_line": -1.1023618569520295,
+    "macd_signal": -1.5379343321239753,
+    "macd_histogram": 0.43557247517194586,
+    "ma50": 399.0711993408203,
+    "volume_ratio": 0.6745737501936764,
+    "ticker": "MSFT"
+  },
+  "fundamentals": {
+    "pe_ratio": 22.73377,
+    "forward_pe": 19.696772,
+    "price_to_book": 6.8433228,
+    "revenue_growth": 0.183,
+    "profit_margin": 0.39341998,
+    "debt_to_equity": 30.271,
+    "target_mean_price": 556.7513,
+    "current_price": 381.7,
+    "fifty_two_week_low": 349.2,
+    "fifty_two_week_high": 555.45,
+    "trailing_eps": 16.79,
+    "book_value": 55.777,
+    "peg_ratio": 1.1806,
+    "short_name": "Microsoft Corporation",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 55,
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "MSFT",
+    "available": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump vows to investigate EU over fining of US tech companies",
+        "description": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784924638
+      },
+      {
+        "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "description": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784921990
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 65.24026535367454,
+    "macd_line": 8.45150026799871,
+    "macd_signal": 7.545751249119025,
+    "macd_histogram": 0.9057490188796855,
+    "ma50": 306.23140014648436,
+    "volume_ratio": 0.773169507879928,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 40.31719,
+    "forward_pe": 34.541164,
+    "price_to_book": 45.87052,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.8093,
+    "current_price": 333.02,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.6796,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

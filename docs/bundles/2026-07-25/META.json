@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump vows to investigate EU over fining of US tech companies",
+        "description": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784924638
+      },
+      {
+        "title": "Bond market anxiety is growing over AI capex budgets",
+        "description": "Google, Amazon and Meta are seeing credit spreads widen as fixed-income investors demand more reward on companies they lend to.",
+        "link": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784923656
+      },
+      {
+        "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "description": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784921990
+      },
+      {
+        "title": "Nvidia, Microsoft, Meta warn against 'premature restrictions' of open-weight models",
+        "description": "Chinese open-weight models are gaining steam against leading offerings from American companies. OpenAI and Anthropic did not sign the letter.",
+        "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784915737
+      }
+    ],
+    "ticker": "META"
+  },
+  "technical": {
+    "rsi": 46.318040047567415,
+    "macd_line": 11.745075942292488,
+    "macd_signal": 13.175160396049062,
+    "macd_histogram": -1.4300844537565744,
+    "ma50": null,
+    "volume_ratio": 0.5842912274017633,
+    "ticker": "META"
+  },
+  "fundamentals": {
+    "pe_ratio": 21.643272,
+    "forward_pe": 16.08101,
+    "price_to_book": 6.199056,
+    "revenue_growth": 0.331,
+    "profit_margin": 0.32837,
+    "debt_to_equity": 35.608,
+    "target_mean_price": 825.841,
+    "current_price": 595.19,
+    "fifty_two_week_low": 520.26,
+    "fifty_two_week_high": 796.25,
+    "trailing_eps": 27.5,
+    "book_value": 96.013,
+    "peg_ratio": 0.8682,
+    "short_name": "Meta Platforms, Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 58,
+    "sector": "Communication Services",
+    "ticker": "META"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "META",
+    "available": false
+  }
+}

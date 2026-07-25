@@ -1,0 +1,73 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Trump vows to investigate EU over fining of US tech companies",
+        "description": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784924638
+      },
+      {
+        "title": "Trump defends DOJ subpoenas of NY Times reporters; Google also was targeted",
+        "description": "The DOJ is investigating the leak to The New York Times of security concerns about President Donald Trump's new Air Force One plane, donated by Qatar.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-doj-subpoenas-new-york-times-google.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784924592
+      },
+      {
+        "title": "Bond market anxiety is growing over AI capex budgets",
+        "description": "Google, Amazon and Meta are seeing credit spreads widen as fixed-income investors demand more reward on companies they lend to.",
+        "link": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784923656
+      },
+      {
+        "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "description": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784921990
+      }
+    ],
+    "ticker": "GOOGL"
+  },
+  "technical": {
+    "rsi": 32.461108822578,
+    "macd_line": -8.07402470568502,
+    "macd_signal": -4.265196217153898,
+    "macd_histogram": -3.8088284885311214,
+    "ma50": 364.62583129882813,
+    "volume_ratio": 0.9405119648550301,
+    "ticker": "GOOGL"
+  },
+  "fundamentals": {
+    "pe_ratio": 16.051205,
+    "forward_pe": 21.634838,
+    "price_to_book": 6.2822223,
+    "revenue_growth": 0.242,
+    "profit_margin": 0.54771,
+    "debt_to_equity": 18.859,
+    "target_mean_price": 428.11536,
+    "current_price": 319.74,
+    "fifty_two_week_low": 187.82,
+    "fifty_two_week_high": 408.61,
+    "trailing_eps": 19.92,
+    "book_value": 50.896,
+    "peg_ratio": 1.2589,
+    "short_name": "Alphabet Inc.",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 54,
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "GOOGL",
+    "available": false
+  }
+}
