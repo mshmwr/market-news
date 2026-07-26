@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "JPMorgan report finds dramatic jump in AI-themed ETFs — despite rough quarter",
+        "description": "Wall Street is banking heavily on exchange-traded funds that give investors artificial intelligence exposure, according to JPMorgan Asset Management.",
+        "link": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784826606
+      }
+    ],
+    "ticker": "INTC"
+  },
+  "technical": {
+    "rsi": 41.88756607527838,
+    "macd_line": -5.110725023848488,
+    "macd_signal": -3.8546096549136526,
+    "macd_histogram": -1.2561153689348354,
+    "ma50": null,
+    "volume_ratio": 1.6376199977740478,
+    "ticker": "INTC"
+  },
+  "fundamentals": {
+    "pe_ratio": null,
+    "forward_pe": 46.494762,
+    "price_to_book": 4.1628714,
+    "revenue_growth": 0.254,
+    "profit_margin": -0.19794,
+    "debt_to_equity": 48.997,
+    "target_mean_price": 115.65,
+    "current_price": 92.32,
+    "fifty_two_week_low": 18.97,
+    "fifty_two_week_high": 142.35,
+    "trailing_eps": -2.09,
+    "book_value": 22.177,
+    "peg_ratio": 1.36,
+    "short_name": "Intel Corporation",
+    "recommendation_key": "hold",
+    "number_of_analyst_opinions": 40,
+    "sector": "Technology",
+    "ticker": "INTC"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "INTC",
+    "available": false
+  }
+}

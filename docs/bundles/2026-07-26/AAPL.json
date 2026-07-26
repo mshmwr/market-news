@@ -1,0 +1,65 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Tunisia grapples with five years of crisis since Saied’s power grab",
+        "description": "Tunisians protest five years of President Kais Saied&#039;s rule amid economic crisis and political arrests.",
+        "link": "https://www.aljazeera.com/economy/2026/7/26/tunisia-grapples-with-five-years-of-crisis-since-saieds-power-grab?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "宏觀",
+        "published_ts": 1785076770
+      },
+      {
+        "title": "Trump vows to investigate EU over fining of US tech companies",
+        "description": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "宏觀",
+        "published_ts": 1784924638
+      },
+      {
+        "title": "Trump threatens EU with 'substantial TARIFF' for 'ROBBING' U.S. tech giants",
+        "description": "Trump on Truth Social railed against the European Union's new fine on Google and prior penalties against U.S. tech giants Apple, Meta and Amazon.",
+        "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784921990
+      }
+    ],
+    "ticker": "AAPL"
+  },
+  "technical": {
+    "rsi": 58.113916809949075,
+    "macd_line": 8.112230550693084,
+    "macd_signal": 7.477897304188174,
+    "macd_histogram": 0.6343332465049105,
+    "ma50": null,
+    "volume_ratio": 0.7734370096795177,
+    "ticker": "AAPL"
+  },
+  "fundamentals": {
+    "pe_ratio": 40.31719,
+    "forward_pe": 34.541164,
+    "price_to_book": 45.87052,
+    "revenue_growth": 0.166,
+    "profit_margin": 0.27152002,
+    "debt_to_equity": 79.548,
+    "target_mean_price": 318.8093,
+    "current_price": 333.02,
+    "fifty_two_week_low": 201.5,
+    "fifty_two_week_high": 334.99,
+    "trailing_eps": 8.26,
+    "book_value": 7.26,
+    "peg_ratio": 2.6796,
+    "short_name": "Apple Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 43,
+    "sector": "Technology",
+    "ticker": "AAPL"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "AAPL",
+    "available": false
+  }
+}

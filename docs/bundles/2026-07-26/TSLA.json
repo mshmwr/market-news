@@ -1,0 +1,49 @@
+{
+  "news": {
+    "articles": [
+      {
+        "title": "Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight",
+        "description": "Tesla shares plunged almost 18% this week after the company missed on earnings and turned cash flow negative.",
+        "link": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
+        "source": "CNBC",
+        "category": "美股",
+        "published_ts": 1784930221
+      }
+    ],
+    "ticker": "TSLA"
+  },
+  "technical": {
+    "rsi": 29.10212809792793,
+    "macd_line": -11.866147977320963,
+    "macd_signal": -6.889123306449661,
+    "macd_histogram": -4.977024670871303,
+    "ma50": null,
+    "volume_ratio": 1.4074814231920665,
+    "ticker": "TSLA"
+  },
+  "fundamentals": {
+    "pe_ratio": 284.57272,
+    "forward_pe": 141.02673,
+    "price_to_book": 14.295566,
+    "revenue_growth": 0.255,
+    "profit_margin": 0.03671,
+    "debt_to_equity": 18.373,
+    "target_mean_price": 401.07275,
+    "current_price": 313.03,
+    "fifty_two_week_low": 297.82,
+    "fifty_two_week_high": 498.83,
+    "trailing_eps": 1.1,
+    "book_value": 21.897,
+    "peg_ratio": 4.4496,
+    "short_name": "Tesla, Inc.",
+    "recommendation_key": "buy",
+    "number_of_analyst_opinions": 40,
+    "sector": "Consumer Cyclical",
+    "ticker": "TSLA"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "TSLA",
+    "available": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "news": {
+    "articles": [],
+    "ticker": "ASML"
+  },
+  "technical": {
+    "rsi": 52.05254794316149,
+    "macd_line": 7.9888802288528495,
+    "macd_signal": 12.871986225705392,
+    "macd_histogram": -4.883105996852542,
+    "ma50": null,
+    "volume_ratio": 0.6527543268079156,
+    "ticker": "ASML"
+  },
+  "fundamentals": {
+    "pe_ratio": 60.61021,
+    "forward_pe": 30.331112,
+    "price_to_book": 1581.4578,
+    "revenue_growth": 0.213,
+    "profit_margin": 0.30114,
+    "debt_to_equity": 9.092,
+    "target_mean_price": 2114.535,
+    "current_price": 1757.09,
+    "fifty_two_week_low": 683.48,
+    "fifty_two_week_high": 1999.96,
+    "trailing_eps": 28.99,
+    "book_value": 1.1110572,
+    "peg_ratio": 2.2051,
+    "short_name": "ASML Holding N.V. - New York Re",
+    "recommendation_key": "strong_buy",
+    "number_of_analyst_opinions": 15,
+    "sector": "Technology",
+    "ticker": "ASML"
+  },
+  "social": {
+    "posts": [],
+    "ticker": "ASML",
+    "available": false
+  }
+}
