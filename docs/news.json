@@ -1,5 +1,101 @@
 [
   {
+    "title": "Anthropic says its Claude models 'gained unauthorized access' to other organizations' systems",
+    "description": "Anthropic said it discovered three instances where its Claude AI models accessed the internet during an evaluation and accessed outside systems.",
+    "link": "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785456037
+  },
+  {
+    "title": "Trump says Board of Peace has reached agreement for disarmament of Hamas",
+    "description": "Israel and Hamas have yet to comment on the announcement.",
+    "link": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1785454241
+  },
+  {
+    "title": "Fast-fashion retailer Shein’s 3-year IPO odyssey cost it the ‘golden time’ to go public",
+    "description": "Investors are questioning whether Beijing's blessing can carry a $40-billion-plus valuation for a clothing retailer whose growth engine is stalling.",
+    "link": "https://www.cnbc.com/2026/07/31/shein-ipo-hong-kong-ftc-investigation-tariffs-fast-fashion-.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785454234
+  },
+  {
+    "title": "UK left-wing MP Diane Abbott reinstated by Labour Party after suspension",
+    "description": "Diane Abbott returns to Labour, a year after her suspension over comments about racism.",
+    "link": "https://www.aljazeera.com/news/2026/7/30/uk-left-wing-mp-diane-abbott-reinstated-by-labour-party-after-suspension?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785454149
+  },
+  {
+    "title": "Amazon soars after CEO Andy Jassy makes the case for its massive AI investment",
+    "description": "Amazon jumped about 10% to $258 in after-hours trading, putting shares at their highest level since early June.",
+    "link": "https://www.cnbc.com/2026/07/30/amazon-soars-after-ceo-makes-the-case-for-its-massive-ai-investment.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785454024
+  },
+  {
+    "title": "Pathirage challenges Chopra-Nadeem javelin rivalry in Commonwealth final",
+    "description": "Sri Lanka&#039;s Rumesh Pathirage is favourite ahead of rivalry between India&#039;s Neeraj Chopra and Pakistan&#039;s Arshad Nadeem.",
+    "link": "https://www.aljazeera.com/sports/2026/7/30/pathirage-challenges-chopra-nadeem-javelin-rivalry-in-commonwealth-final?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785453948
+  },
+  {
+    "title": "US appeals court rejects Trump expansion of mandatory migrant detention",
+    "description": "Appeals court rules that the Trump administration cannot deny detained migrants the chance for release on bond.",
+    "link": "https://www.aljazeera.com/news/2026/7/30/us-appeals-court-rejects-trump-expansion-of-mandatory-migrant-detention?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785453850
+  },
+  {
+    "title": "Trump administration appeals to never-before-used court for deportation",
+    "description": "US government prosecutors are seeking the removal of Nazira Haji Zada, though she faces no criminal charges.",
+    "link": "https://www.aljazeera.com/news/2026/7/30/trump-administration-appeals-to-never-before-used-court-for-deportation?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785453268
+  },
+  {
+    "title": "Empty seats? Concert giant Live Nation says ticket sales are actually at record levels.",
+    "description": "In the wake of online chatter about high-profile tour cancellations, Ticketmaster’s parent company said artists aren’t ditching shows any more than usual.",
+    "link": "https://www.marketwatch.com/story/empty-seats-concert-giant-live-nation-says-ticket-sales-are-actually-at-record-levels-461252db?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1785452460
+  },
+  {
+    "title": "Microsoft's Xbox chief lays out plan to pass rivals on margin by 2030 in memo to employees",
+    "description": "Microsoft's gaming unit wants to invest in its Minecraft franchise and expand through partnerships, including in China.",
+    "link": "https://www.cnbc.com/2026/07/30/microsoft-xbox-asha-sharma-2030-plans.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785451710
+  },
+  {
+    "title": "Jim Cramer says this hedge fund's blowup reveals the hidden risks of leverage",
+    "description": "CNBC's Jim Cramer said the forced unwind of Situational Awareness shows how borrowing money can quickly magnify losses and trigger forced selling.",
+    "link": "https://www.cnbc.com/2026/07/30/jim-cramer-situational-awareness-blowup-reveals-hidden-risks-of-leverage.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785451022
+  },
+  {
+    "title": "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza",
+    "description": "US president says Israel will withdraw from Gaza following the disarmament of Hamas.",
+    "link": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785450859
+  },
+  {
     "title": "Meta sinks 8%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
     "description": "Microsoft posted strong Azure and Copilot growth, while Meta missed revenue guidance forecasts as free cash flow plunged leading to diverging stock moves.",
     "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
@@ -24,12 +120,28 @@
     "published_ts": 1785450240
   },
   {
+    "title": "Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis",
+    "description": "Zoox will launch its commercial robotaxi service in Las Vegas after receiving federal clearance.",
+    "link": "https://www.aljazeera.com/economy/2026/7/30/amazons-zoox-secures-us-federal-approval-for-steering-wheel-free-robotaxis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1785449652
+  },
+  {
     "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
     "description": "One of the wildest months in recent memory for the U.S. stock market is ending on yet another remarkable note: A highflying hedge fund run by an AI wunderkind in his mid-20s has apparently just been carried out on a stretcher.",
     "link": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "category": "美股",
     "published_ts": 1785449340
+  },
+  {
+    "title": "China’s U.S.-bound shipments fall in July after brief recovery, survey shows",
+    "description": "The latest China Beige Book study found factory activity decelerated in July.",
+    "link": "https://www.cnbc.com/2026/07/30/china-us-exports-drop.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1785448861
   },
   {
     "title": "US Senators sent revised ethics rules to White House for CLARITY Act: Report",
@@ -216,14 +328,6 @@
     "published_ts": 1785443718
   },
   {
-    "title": "Cyclospora outbreak has hurt Taco Bell but sales are already improving, Yum Brands CEO says",
-    "description": "The restaurant company provided no update on the cyclospora outbreak tied to Taco Bell restaurants is affecting its business.",
-    "link": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785443565
-  },
-  {
     "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
     "description": "",
     "link": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
@@ -304,7 +408,7 @@
     "published_ts": 1785442093
   },
   {
-    "title": "Pakistan coal mine explosion kills at least 11, traps dozens",
+    "title": "Pakistan coal mine explosion kills at least 32 miners",
     "description": "Accidents common in Pakistan’s coal mining industry, particularly in Balochistan, where many mines lack basic safety.",
     "link": "https://www.aljazeera.com/news/2026/7/30/pakistan-coal-mine-explosion-kills-at-least-11-traps-dozens?traffic_source=rss",
     "source": "Al Jazeera",
@@ -368,14 +472,6 @@
     "published_ts": 1785438978
   },
   {
-    "title": "AI stocks rebound, and why J&J's earnings guidance cut is not cause for concern",
-    "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "link": "https://www.cnbc.com/2026/07/30/ai-stocks-rebound-and-why-jjs-earnings-guidance-cut-is-not-cause-for-concern.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785438346
-  },
-  {
     "title": "Congo’s Ebola death toll passes 1,500 as it struggles to halt spread",
     "description": "There&#039;s still no vaccine for the Bundibugyo strain of the virus as the country struggles for control in infected areas.",
     "link": "https://www.aljazeera.com/news/2026/7/30/congos-ebola-death-toll-passes-1500-as-it-struggles-to-halt-spread?traffic_source=rss",
@@ -416,28 +512,12 @@
     "published_ts": 1785437495
   },
   {
-    "title": "The warning signal insiders are sending",
-    "description": "Corporate insiders haven’t been this bearish in more than 20 years.",
-    "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1785437340
-  },
-  {
     "title": "Spain’s Ceuta declares emergency over surge in migrant arrivals",
     "description": "More than 1,500 migrants have reached Spain’s North African enclave of Ceuta by sea over the past week.",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/7/30/spains-ceuta-declares-emergency-over-surge-in-migrant-arrivals?traffic_source=rss",
     "source": "Al Jazeera",
     "category": "宏觀",
     "published_ts": 1785436074
-  },
-  {
-    "title": "Apple and Amazon report after the bell. Here's what the options market is saying",
-    "description": "Earnings on deck this afternoon for Apple and Amazon will likely decide if the stock market can end what’s so far been a rough week on solid footing.",
-    "link": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785435449
   },
   {
     "title": "Turtle rescued from rubble a month after Venezuela earthquake",
@@ -552,14 +632,6 @@
     "published_ts": 1785432361
   },
   {
-    "title": "Rights report reconstructs fatal shooting of Palestinian man",
-    "description": "Rights report reconstructs fatal shooting of Palestinian man",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/7/30/rights-report-reconstructs-fatal-shooting-of-palestinian-man?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785432201
-  },
-  {
     "title": "How NBCUniversal's deal with YouTube could jump-start the next chapter of the streaming wars",
     "description": "The next iteration of the streaming wars is likely to be about aggregating content on the biggest existing platforms.",
     "link": "https://www.cnbc.com/2026/07/30/nbcuniversal-youtube-deal-streaming-wars.html",
@@ -624,44 +696,12 @@
     "published_ts": 1785429772
   },
   {
-    "title": "‘To play God’: Cuba’s healthcare system collapses under US pressure",
-    "description": "As the Trump administration tightens US sanctions, Cuba&#039;s healthcare sector struggles with fuel and supply shortages.",
-    "link": "https://www.aljazeera.com/news/longform/2026/7/30/to-play-god-cubas-healthcare-system-collapses-under-us-pressure?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785429252
-  },
-  {
-    "title": "In Their Own Hands: Ghana’s Drug Vigilantes",
-    "description": "Citizen vigilantes patrol Ghana&#039;s streets, fighting an opioid crisis. We meet those taking the law into their own hands.",
-    "link": "https://www.aljazeera.com/video/people-power/2026/7/30/in-their-own-hands-ghanas-drug-vigilantes?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785429000
-  },
-  {
-    "title": "NATO jets scramble as Russian missile detonates in Poland",
-    "description": "The growing series of NATO airspace violations is raising concern that Russia&#039;s war on Ukraine could escalate.",
-    "link": "https://www.aljazeera.com/news/2026/7/30/nato-jets-scramble-as-russian-missile-detonates-in-poland?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785428931
-  },
-  {
     "title": "Bitcoin stable as Fed fave PCE inflation sees first monthly drop in six years",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin stable as Fed fave PCE inflation sees first monthly drop in six years\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-a-hedge-against-inflation.jpg\" /></p><p>Bitcoin and US stocks enjoyed a relief bounce as the South Korea semiconductor rout eased and US PCE inflation data conforms to year-on-year expectations.</p>",
     "link": "https://cointelegraph.com/markets/bitcoin-crypto-stable-as-us-pce-inflation-sees-first-monthly-drop-in-six-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1785428249
-  },
-  {
-    "title": "Cramer sees a 'sure signal to buy' stocks. Plus what we want from Amazon's results",
-    "description": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-    "link": "https://www.cnbc.com/2026/07/30/cramer-sees-signal-to-buy-stocks-previews-reports-amzn-aapl.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785428231
   },
   {
     "title": "老了醫療誰來顧 對策篇／健保拚永續 必須多管齊下",
@@ -688,14 +728,6 @@
     "published_ts": 1785427813
   },
   {
-    "title": "IRGC video of retaliatory strikes on US targets in Jordan",
-    "description": "The IRGC released a video of what they say were missiles launched by their naval forces targeting US aircraft in Jordan.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/7/30/irgc-video-of-retaliatory-strikes-on-us-targets-in-jordan?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785427568
-  },
-  {
     "title": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
     "description": "Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.",
     "link": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
@@ -720,28 +752,12 @@
     "published_ts": 1785427121
   },
   {
-    "title": "Ferrari CEO says he 'would not change anything' about polarizing Luce EV debut",
-    "description": "Ferrari is pleased with the launch of the Luce all-electric vehicle despite significant criticism upon the car's spring debut, according to CEO Benedetto Vigna.",
-    "link": "https://www.cnbc.com/2026/07/30/ferrari-ceo-luce-ev-debut.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785426968
-  },
-  {
     "title": "Hyperscale Data sells 100 BTC to fund Michigan AI data center",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hyperscale Data sells 100 BTC to fund Michigan AI data center\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-the-rise-of-major-institutions-is-inevitable-data-centers-red.jpg\" /></p><p>The Bitcoin miner is using part of its treasury and a BTC-backed credit facility to fund an AI campus tied to a potential multi-billion-dollar infrastructure contract.</p>",
     "link": "https://cointelegraph.com/news/hyperscale-data-taps-bitcoin-treasury-btc-backed-credit-to-fund-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1785426796
-  },
-  {
-    "title": "US GDP growth dips as inflation and trade deficits pressure economy",
-    "description": "GDP grew by 1.5 percent in the second quarter following a 2.1 percent increase in the first quarter.",
-    "link": "https://www.aljazeera.com/economy/2026/7/30/us-gdp-growth-dips-as-inflation-and-trade-deficits-pressure-economy?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1785426767
   },
   {
     "title": "Amazon's Zoox to begin charging for rides in Las Vegas after clearing NHTSA hurdle",
@@ -830,14 +846,6 @@
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1785421541
-  },
-  {
-    "title": "Analysis: Fed Chairman Warsh's credibility in question after leaving interest rates unchanged",
-    "description": "The Fed held interest rates steady, but long-term Treasury yields jumped. Investors are questioning whether he will act forcefully enough on inflation.",
-    "link": "https://www.cnbc.com/2026/07/29/kevin-warsh-fed-treasury-yields-inflation-credibility-interest-rates.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1785421454
   },
   {
     "title": "South Korean crypto trading surges amid stock market plunge",
@@ -1222,14 +1230,6 @@
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1785371351
-  },
-  {
-    "title": "Anthony Fauci refuses to answer questions during tense US Senate hearing about Covid origins",
-    "description": "The former top US health official said he feared Republicans could try to trip him up and use his testimony to prosecute him for perjury.",
-    "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1785370496
   },
   {
     "title": "Senators ready to send stricter ethics rules on Trump's crypto ventures to White House, sources say",
