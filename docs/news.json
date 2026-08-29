@@ -1,11 +1,251 @@
 [
   {
-    "title": "We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions",
-    "description": "Christopher Nolan's \"The Odyssey\" has movie and history buffs flocking to theaters this summer. That's been great news for Imax.",
-    "link": "https://www.cnbc.com/2026/08/29/imax-revenue-odyssey-box-office.html",
-    "source": "CNBC",
+    "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+    "description": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+    "link": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1788025111
+  },
+  {
+    "title": "Israeli army arrests six Palestinians after settler violence in West Bank",
+    "description": "Israeli settlers stormed Qusra in the occupied West Bank, attacking Palestinian residents and damaging homes.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/israeli-army-arrests-six-palestinians-after-settler-violence-in-west-bank?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788023350
+  },
+  {
+    "title": "輝達雙引擎發動 新一代產品價格翻倍 廣達、緯穎等業績將起飛",
+    "description": "輝達（NVIDIA）最新人工智慧（AI）機櫃Vera Rubin量產，加上AI推論機櫃Groq 3 LPX同步推出，雙引擎帶動，加上新一代機櫃價格較前一代翻倍成長，AI供應鏈業績跟著起飛。",
+    "link": "https://money.udn.com/money/story/5612/9722152",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788023227
+  },
+  {
+    "title": "ODM 搶生意 擴大資本支出",
+    "description": "輝達Vera Rubin機櫃主要客戶是美國雲端服務供應商（CSP）或新興雲端服務供應商，主要部署地點在美國，鴻海、廣達、緯創與緯穎等ODM廠今年持續擴大資本支出，除用來增加美國產能，由於高漲零組件價格推升營運成本，也為備料資金做好準備。",
+    "link": "https://money.udn.com/money/story/5612/9722156",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788023099
+  },
+  {
+    "title": "下半年輝達伺服器大量出貨 鴻海、技嘉、緯創大啖商機",
+    "description": "輝達（NVIDIA）上周釋出亮眼的財報佳績與前景展望，激勵股價跳空大漲、並連動相關台系供應鏈強揚表態。法人建議，預期鴻海、技嘉、緯創等下游硬體組裝廠，將有機會受惠下半年輝達伺服器的大量出貨。",
+    "link": "https://money.udn.com/money/story/5612/9722153",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788023037
+  },
+  {
+    "title": "Niger military says it is regaining control after attempted mutiny",
+    "description": "Niger’s military says it is regaining control after a mutiny in Niamey after gun fire was heard in the capital.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/08-29-26-niger-mutiny-sv?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788022990
+  },
+  {
+    "title": "純晶圓代工 台積電連連稱霸 連續兩季拿下73%市占率",
+    "description": "最新報告指出，受到人工智慧（AI）晶片需求大幅增加的帶動，全球只生產晶片，且不設計也不銷售自家產品的純晶圓代工市場，今年第2季較2025年同期大幅成長29%。台積電市占穩居全球第一。",
+    "link": "https://money.udn.com/money/story/5612/9722158",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022968
+  },
+  {
+    "title": "藥華藥 Ropeg 獲美 FDA 核准 進軍全球最大罕見血癌市場 搶攻400億美元商機",
+    "description": "藥華藥昨（29）日宣布，旗下新藥Ropeg（P1101）獲美國FDA核准使用於原發性血小板過多症（ET）的藥證，這是繼台灣及日本後，進一步獲全球最大罕見血癌治療市場入場券，將讓全美約17萬名ET患者受惠，有望讓藥華藥搶攻逾400億美元新市場。",
+    "link": "https://money.udn.com/money/story/5612/9722165",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022778
+  },
+  {
+    "title": "台灣生技攻國際市場 漢達、逸達等歐美取證在望",
+    "description": "台灣生技醫藥公司挑戰國際市場蓄勢待發，繼藥華藥Ropeg獲得美國FDA治療原發性血小板過多症（ET）藥證後，接下來包括漢達、逸達、泰合、仁新等都將在今年第3季至明年上半年陸續取得歐美等國藥證。",
+    "link": "https://money.udn.com/money/story/5612/9722170",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022668
+  },
+  {
+    "title": "Russian strike on a munitions depot triggers deadly blasts near Kyiv",
+    "description": "Russian strike on an arms depot near Kyiv sparked fires and explosions, killing at least 38 people and wounding dozens.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/29-08-sv-russia-strikes-arms-depot-kyiv-fm?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788022435
+  },
+  {
+    "title": "2026中小企永續翻轉競爭力／台灣地方再生 挺能源轉型",
+    "description": "一條曾經因人口外流、乘客減少而陷入赤字苦撐的地方鐵路，如何找到新的生存方式？答案可能不是增加班次，也不是單純發展觀光，竟然是跟「電」有關。",
+    "link": "https://money.udn.com/money/story/5676/9722228",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022432
+  },
+  {
+    "title": "隱形冠軍／傳恆綠能攻高階綠色製造 零稀土馬達 節電三成",
+    "description": "傳恆綠能科技攜手工研院與東元集團旗下聯昌電子，成功開發出全台首套具備國際頂級能效的「IE5零稀土電子換向（EC）風扇馬達系統」，凸顯在地緣政治風險下，台灣在高階綠色製造築起關鍵技術自主防線。",
+    "link": "https://money.udn.com/money/story/5612/9722045",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022284
+  },
+  {
+    "title": "隱形冠軍／傳恆總經理黃愷弘務實 挽袖跑第一線",
+    "description": "「做企業就像馬達運轉，不能只靠單一零件發光，而是要把每個環節的齒輪精準咬合。」傳恆總經理黃愷弘為倍昌第二代，自美國取得工程與科技管理相關學位返台後，沒有直接進入管理階層，反而捲起袖子投入產線、工程與客戶現場，從實務中理解產品、製造與市場。",
+    "link": "https://money.udn.com/money/story/5612/9722047",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022200
+  },
+  {
+    "title": "隱形冠軍／傳恆綠能鎖定四場域 搶 AI 散熱商機",
+    "description": "傳恆綠能以AirVex為核心品牌，從零組件逐步建立「馬達+風機+熱交換+智慧控制」系統整合能力，鎖定高階環控AHU／FFU、冷卻水塔、商用箱型空調及冰水機末端FCU等四大高階應用，全面布局AI資料中心、半導體等市場商機。",
+    "link": "https://money.udn.com/money/story/5612/9722046",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022141
+  },
+  {
+    "title": "隱形冠軍／工研院扮推手 傳恆綠能跨越國際壁壘",
+    "description": "面對全球關鍵原料波動與國際大廠長期獨占高階EC風扇市場的壓力，台灣空調製造業迎來升級契機。工研院長期扮演產業創新推手，此次與傳恆綠能深度合作，以非稀土技術跨越國際壁壘，樹立產研共創標竿。",
+    "link": "https://money.udn.com/money/story/5612/9722048",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788022040
+  },
+  {
+    "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
+    "description": "“We are reluctant to pay a financial adviser 2% of assets — roughly $160,000 per year.”",
+    "link": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+    "source": "MarketWatch",
     "category": "美股",
-    "published_ts": 1788012471
+    "published_ts": 1788021000
+  },
+  {
+    "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Tokenized stock transfer volume jumps 415% in 30 days to $29.5B\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/08/01M174Y6XQHY999NVSQCZY6B3V/hi-cryptocurrency-vs-stocks-breaking-news-1.png\" /></p><p>Tokenized equities saw a sharp rise in onchain activity as active addresses and holders more than doubled over the past month.</p>",
+    "link": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1788020848
+  },
+  {
+    "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+    "description": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+    "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1788020156
+  },
+  {
+    "title": "半導體展 電子鏈五強同台 聯發科、鴻海、日月光投控等高層將對談",
+    "description": "SEMICON Taiwan 2026 國際半導體展將於9月2日登場，以「Transform Tomorrow 共構未來」為主軸。今年展會規畫將有逾1,300家廠商設置4,300個攤位，規模再創新高，預計將吸引來自65國、超過10萬名人士參與。",
+    "link": "https://money.udn.com/money/story/11162/9722095",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788019791
+  },
+  {
+    "title": "國際半導體展9月2日登場 工具機大廠 揪團參加",
+    "description": "國際半導體展（SEMICON Taiwan 2026）將於9月2日登場，今年包括上銀、大銀、直得、東佑達、東台、高明鐵等工具機暨零組件大廠揪團參展，全力搶攻持續發燒的半導體與共同封裝光學（CPO）等設備及關鍵傳動元件供應鏈商機。",
+    "link": "https://money.udn.com/money/story/5612/9722097",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1788019542
+  },
+  {
+    "title": "RSS chief’s visit to US denounced as ‘goodwill tour’ for Hindu nationalism",
+    "description": "Activists say Hindu nationalists have sought to mask far-right politics through broad appeals to the Indian diaspora.",
+    "link": "https://www.aljazeera.com/news/2026/8/29/rss-chiefs-visit-to-us-denounced-as-goodwill-tour-for-hindu-nationalism?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788019412
+  },
+  {
+    "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+    "description": "“These shares are the only assets in her estate without designated beneficiaries.”",
+    "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1788019200
+  },
+  {
+    "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+    "description": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+    "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1788017460
+  },
+  {
+    "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+    "description": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+    "link": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1788017276
+  },
+  {
+    "title": "Israeli attacks across Gaza kill two people, hit hospital supply warehouse",
+    "description": "Gaza’s Health Ministry reports rising casualties amid escalated Israeli attacks, with victims trapped under rubble.",
+    "link": "https://www.aljazeera.com/news/2026/8/29/israeli-attacks-across-gaza-kill-two-people-hit-hospital-supply-warehouse?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788017143
+  },
+  {
+    "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+    "description": "",
+    "link": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1788015600
+  },
+  {
+    "title": "Swift’s $1.5 quadrillion network faces a blockchain test",
+    "description": "",
+    "link": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1788015600
+  },
+  {
+    "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
+    "description": "",
+    "link": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1788015600
+  },
+  {
+    "title": "Man United vs Ipswich Town: Premier League – preview, team news, prediction",
+    "description": "United put in a sorry display as they lost 2-0 to Hull last weekend, while newly promoted Ipswich beat Sunderland 2-1.",
+    "link": "https://www.aljazeera.com/sports/2026/8/29/man-united-vs-ipswich-town-premier-league-preview-team-news-prediction?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788014025
+  },
+  {
+    "title": "Liverpool net late in Forest draw to avoid Anfield debut defeat for Iraola",
+    "description": "Victor Munoz scores late goal to secure 2-2 draw for Liverpool after Nottingham Forest scare in Premier League.",
+    "link": "https://www.aljazeera.com/sports/2026/8/29/liverpool-draw-with-nottingham-forest-after-twice-coming-from-behind-in-epl?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788013163
+  },
+  {
+    "title": "People stranded for days on dilapidated Nigerian highway",
+    "description": "Al Jazeera asked people on the Benin-Agbor-Asaba road how they view this infrastructure crisis.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/people-stranded-for-days-on-dilapidated-nigerian-highway?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788012106
   },
   {
     "title": "Goodyear burning rubber and cash as turnaround plan continues",
@@ -24,6 +264,14 @@
     "published_ts": 1788011755
   },
   {
+    "title": "Korea divided: A sister’s long wait and a defector’s bid to save his mother",
+    "description": "An elderly South Korean waits to see a brother in the North one last time, while a North Korean defector risks it all.",
+    "link": "https://www.aljazeera.com/features/longform/2026/8/29/korea-divided-a-sisters-long-wait-and-a-defectors-bid-to-save-his-mother?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1788011476
+  },
+  {
     "title": "Mladic died a happy man. He won",
     "description": "He fought for fascism to triumph. And it did.",
     "link": "https://www.aljazeera.com/opinions/2026/8/29/mladic-died-a-happy-man-he-won?traffic_source=rss",
@@ -32,12 +280,12 @@
     "published_ts": 1788010256
   },
   {
-    "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-    "description": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
-    "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1788009403
+    "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+    "description": "Salesforce, CrowdStrike, and Nvidia all faced major tests with investors and crushed expectations.",
+    "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1788009955
   },
   {
     "title": "Israeli settlers surround Palestinian home in occupied West Bank’s Qusra",
@@ -62,6 +310,14 @@
     "source": "Al Jazeera",
     "category": "宏觀",
     "published_ts": 1788009004
+  },
+  {
+    "title": "Gen Zers quit their jobs to start a pickle company—now it’s valued at $8.5 million",
+    "description": "Good Girl Snacks founders Leah Marcus and Yasaman Bakhitar built their startup's multimillion-dollar valuation with pickle jars and Gen Z branding strategies.",
+    "link": "https://www.cnbc.com/2026/08/29/how-two-gen-z-founders-made-hot-girl-pickles-stand-out.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1788008701
   },
   {
     "title": "Why would someone lock up money by rolling it into a 401(k)?",
@@ -94,14 +350,6 @@
     "source": "Al Jazeera",
     "category": "宏觀",
     "published_ts": 1788008187
-  },
-  {
-    "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-    "description": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
-    "link": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1788008139
   },
   {
     "title": "5 affordable cities to retire in the U.S. right now",
@@ -224,30 +472,6 @@
     "published_ts": 1788002160
   },
   {
-    "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
-    "description": "“I specifically rejected Contractor A because of his reputation.”",
-    "link": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1788001200
-  },
-  {
-    "title": "The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.",
-    "description": "Investors’ intense focus on AI is at times adding to the might of a small club of Big Tech stocks with mega market values  to potentially make or break a single trading session for the S&amp;P 500.",
-    "link": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1788001200
-  },
-  {
-    "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-    "description": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
-    "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1788001200
-  },
-  {
     "title": "Trump-promoted brand touts GOLD before token collapse",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Trump-promoted brand touts GOLD before token collapse\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/08/01M16D9NH0P7JYVR3ND526E5F5/trumps-influence-on-crypto.jpg\" /></p><p>Real Trump Coins promoted GOLD before deleting related X posts, while team-linked wallets sold 224.5 million tokens as its market value fell about 99%.</p>",
     "link": "https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -304,14 +528,6 @@
     "published_ts": 1787994330
   },
   {
-    "title": "Chelsea vs Brighton: Premier League – preview, team news, prediction",
-    "description": "Brighton will fancy their chances against Chelsea though, having won their last three league games against the Blues.",
-    "link": "https://www.aljazeera.com/sports/2026/8/29/chelsea-vs-brighton-premier-league-preview-team-news?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787993467
-  },
-  {
     "title": "Dutch health institute issues 'red alert' over Trump-shaped ecstasy pills",
     "description": "The drugs have a delayed effect which \"increases the risk of overdose\", the health institute says.",
     "link": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
@@ -320,28 +536,12 @@
     "published_ts": 1787993314
   },
   {
-    "title": "LIVE: Liverpool 2-2 Nottingham Forest – Premier League",
-    "description": "Live text updates from our commentary stream coverage as Florian Wirtz and Dominik Szoboszlai try to inspire the Reds.",
-    "link": "https://www.aljazeera.com/sports/liveblog/2026/8/29/live-liverpool-vs-nottingham-forest-premier-league?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787992384
-  },
-  {
     "title": "Stablecoins not credible for payments at scale, BIS chief says",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Stablecoins not credible for payments at scale, BIS chief says\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg\" /></p><p>BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.</p>",
     "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1787990464
-  },
-  {
-    "title": "Aston Villa sign Chelsea striker Nicolas Jackson for reported club record",
-    "description": "Jackson arrives as a replacement for Ollie Watkins, whose move to Saudi Arabian side Al Hilal is being finalised.",
-    "link": "https://www.aljazeera.com/sports/2026/8/29/aston-villa-sign-chelsea-striker-nicolas-jackson-for-reported-club-record?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787988814
   },
   {
     "title": "記憶體已經成為手機中最貴的零組件",
@@ -360,44 +560,12 @@
     "published_ts": 1787987464
   },
   {
-    "title": "India and Pakistan are united in spending citizen lives like pocket change",
-    "description": "Recent hospital fires expose how little decades of national achievement mean when basic public safety still fails.",
-    "link": "https://www.aljazeera.com/opinions/2026/8/29/india-and-pakistan-are-united-in-spending-citizen-lives-like-pocket-change?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787987303
-  },
-  {
     "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/08/01M162QNJPWZZW5MZ2NTH7GFQ2/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf3-1.jpg\" /></p><p>US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.</p>",
     "link": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1787986032
-  },
-  {
-    "title": "Six months into the Iran war, a new Gulf security architecture is emerging",
-    "description": "Gulf states are building overlapping partnerships that complement, rather than replace, the US security role.",
-    "link": "https://www.aljazeera.com/opinions/2026/8/29/six-months-into-the-iran-war-a-new-gulf-security-architecture-is-emerging?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787983918
-  },
-  {
-    "title": "Bernie Sanders, AOC join marchers in Washington to ‘defend the vote’",
-    "description": "Thousands of people marched on Washington DC, invoking Martin Luther King Jr.’s legacy on the 63rd anniversary.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/bernie-sanders-aoc-join-marchers-in-washington-to-defend-the?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787981245
-  },
-  {
-    "title": "Iceland heads to the polls in knife-edge vote on restarting EU talks",
-    "description": "Amid economic and security challenges, Iceland is holding a referendum more than a decade after pausing accession talks.",
-    "link": "https://www.aljazeera.com/news/2026/8/29/why-is-iceland-considering-joining-the-eu?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787980726
   },
   {
     "title": "Opinion: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
@@ -422,22 +590,6 @@
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1787977800
-  },
-  {
-    "title": "What’s in the US-Venezuela ‘biggest oil deal in world history?’",
-    "description": "US President Donald Trump has claimed the US and Venezuela have reached the ‘biggest oil deal in world history’.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/whats-in-the-us-venezuela-biggest-oil-deal-in-world-history?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787976961
-  },
-  {
-    "title": "‘The whole country’s grandfather:’ Norway’s King Harald V dies aged 89",
-    "description": "Norwegians are saying goodbye to King Harald V, Europe’s oldest reigning monarch.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/29/the-whole-countrys-grandfather-norways-king-harald-v-dies-aged-89?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1787976891
   },
   {
     "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
@@ -520,22 +672,6 @@
     "published_ts": 1787970232
   },
   {
-    "title": "台灣僑社攜手巴西企業家協會　結盟推動捐血公益",
-    "description": "巴西台灣僑社慈善機構「愛之贈予」與「巴西企業家與創業家發展協會」（IDEEB）27日在聖保羅華僑文教服務中心舉行合作協議...",
-    "link": "https://money.udn.com/money/story/5612/9721322",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787970132
-  },
-  {
-    "title": "國有地助攻綠能　財政部估未來裝置容量933MW",
-    "description": "助攻淨零轉型，財政部國產署最新統計顯示，截至今年7月底，配合綠能政策提供了約723.88公頃的國有地，預估將來可產生的裝...",
-    "link": "https://money.udn.com/money/story/5612/9721268",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787968473
-  },
-  {
     "title": "Somali piracy surges as the impact of the US-Iran war ripples outwards",
     "description": "Two ships were seized within four days last week raising to at least 13 the number attacked since January.",
     "link": "https://www.bbc.co.uk/news/articles/cr4vx4pneydo?at_medium=RSS&at_campaign=rss",
@@ -552,15 +688,7 @@
     "published_ts": 1787964979
   },
   {
-    "title": "Right-wing commentator Milo Yiannopoulos detained by ICE",
-    "description": "The British citizen, who lives and works in the US, has supported Trump and ICE agents in the past.",
-    "link": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1787964362
-  },
-  {
-    "title": "How 'Book Queen' Dolly Parton inspired millions of children with gift of reading",
+    "title": "Dolly Parton's dad couldn't read - it inspired her to send books to millions of children",
     "description": "Families across the globe share how free books from Parton's Imagination Library helped their children.",
     "link": "https://www.bbc.co.uk/news/articles/cpwlrrzp8eeo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
@@ -728,14 +856,6 @@
     "published_ts": 1787940793
   },
   {
-    "title": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
-    "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "link": "https://www.cnbc.com/2026/08/28/what-we-learned-from-warshs-jackson-hole-speech-and-ge-vernovas-cfo-to-retire.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1787940185
-  },
-  {
     "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14JXJEKJGWZPA4CPWG622Q2/gamecredits-football4.jpg\" /></p><p>According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.</p>",
     "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -768,52 +888,12 @@
     "published_ts": 1787938156
   },
   {
-    "title": "裕融、和潤大搶東南亞商機 菲馬泰柬拚布局",
-    "description": "裕融、和潤加速海外市場布局，東南亞成為兩大汽車金融業者搶攻的新戰場，並相繼進軍馬來西亞、菲律賓、泰國及柬埔寨。其中，馬來西亞、菲律賓更成為裕融目前海外業務的主要成長引擎。",
-    "link": "https://money.udn.com/money/story/10871/9720844",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787936395
-  },
-  {
-    "title": "企業生日快樂／尚騰 打造汽車百億版圖",
-    "description": "義美集團2015年攜手勤益紡織投入汽車事業，找來在汽車產業多年、具備專業經驗的吳睿弘共同成立尚騰汽車，取得保時捷新北經銷權。義美董事長高志尚的女兒高易誼擔任尚騰汽車董事長，展開尚騰集團的汽車百億版圖發展。",
-    "link": "https://money.udn.com/money/story/5612/9720800",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787935654
-  },
-  {
-    "title": "企業生日快樂／尚騰通路轉型 升級旗艦中心",
-    "description": "尚騰入主寶嘉聯合後，持續推動深化代理的STELLANTIS集團在台灣市場多品牌發展布局，以「品牌深耕」與「服務升級」為核心策略，穩步推動全台通路轉型。包括新北星聯汽車、台中佳樂汽車與桃園荃程汽車旗艦品牌中心陸續啟用；近期在大台北核心市場，再次完成關鍵通路升級，包括在既有台北地區經銷夥伴星聯汽車營運基礎上，加入全新策略夥伴「尚鵬汽車」，攜手打造台北市首座「內湖旗艦品牌中心」（STELLANTIS BRAND HOUSE）。",
-    "link": "https://money.udn.com/money/story/5612/9720801",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787935243
-  },
-  {
-    "title": "企業生日快樂／尚騰 把興趣做成事業 探尋產業新商機",
-    "description": "尚騰集團董事長高易誼本來只是喜歡保時捷，想取得經銷權，卻成就尚騰集團並達到今日百億業績規模。高易誼說，做生意講究天時地利人和，先從喜歡的品牌做起來，未來還要繼續找新的機會。汽車產業鏈正進行翻天的變化，希望將來還可以加入新的汽車產業鏈。以下是專訪紀要。",
-    "link": "https://money.udn.com/money/story/5612/9720802",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787935177
-  },
-  {
     "title": "Violence breaks out in Ceuta as migrant crisis continues",
     "description": "A group of migrants is accused of throwing stones at a military vehicle, while some locals set fire to their camps on the beach.",
     "link": "https://www.bbc.co.uk/news/articles/cy9zj11gwzxo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1787934659
-  },
-  {
-    "title": "邁威爾報捷 台鏈有甜頭 華星光、波若威等沾光",
-    "description": "ASIC大廠邁威爾科技（Marvell）上季獲利與營收優於市場預期，並上調全年財測，但市場擔心與Google合作利多要稍後才會顯現，28日美股早盤開盤重挫近7%。",
-    "link": "https://money.udn.com/money/story/5612/9720882",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787934083
   },
   {
     "title": "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
@@ -838,54 +918,6 @@
     "source": "CNBC",
     "category": "美股",
     "published_ts": 1787933511
-  },
-  {
-    "title": "華碩組織大調整 衝實體AI 智慧物聯網事業群9月起轉型",
-    "description": "華碩昨（28）日透過公司內部信件，宣布調整營運組織，全力衝刺機器人及AI應用相關業務，將原本智慧物聯網事業群（AIoT Business Group）轉型、更名為實體AI解決方案事業群（Physical AI Solutions Business Group，PAS BG），9月1日生效。",
-    "link": "https://money.udn.com/money/story/11162/9720931",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787933244
-  },
-  {
-    "title": "台積Q2分紅360億 年增50%",
-    "description": "台積電今年第2季員工分紅昨（28）日入帳，員工爆料季獎金「開獎有感」增加達四到六個月。台積電先前第2季財報已顯示單季員工酬勞（分紅）約360億元，創新高，年增幅50.7%。",
-    "link": "https://money.udn.com/money/story/5612/9720933",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787933183
-  },
-  {
-    "title": "台聚集團高值化轉型 拚突圍 亞聚、台達化、華夏強攻差異化產品",
-    "description": "台聚集團拚高值化材料轉型，耕耘差異化產品，從大宗產品逐步往高值化材料、電子材料、循環經濟與新應用延伸，降低單一石化景氣循環的依賴，打造第二成長曲線。",
-    "link": "https://money.udn.com/money/story/5612/9720896",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787932934
-  },
-  {
-    "title": "大立光今年來五度台中買地",
-    "description": "大立光昨（28）日公告斥資6.51億元購進台中南屯區土地，是本周第二次、今年第五度出手獵地，累計今年已斥資近63億元購地，顯見大立光加速新事業CPO布局新腳步。",
-    "link": "https://money.udn.com/money/story/5612/9720898",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787932677
-  },
-  {
-    "title": "欣興遭搜索 強調不影響營運",
-    "description": "PCB載板大廠欣興昨（28）日被桃園地方檢察署指揮桃園市調處搜索。欣興連發兩次重大訊息釐清，配合檢調單位調查，據檢調單位告知主要是妨害農工商罪中產地標示有爭議，公司營運正常，對財務、業務並無重大影響。",
-    "link": "https://money.udn.com/money/story/5612/9720903",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787932658
-  },
-  {
-    "title": "CPO 耦合設備訂單能見度旺！法人急問萬潤：跟高明鐵差在哪裡？",
-    "description": "輝達矽光子交換器Spectrum-X已經量產，使用共同封裝光學（CPO）技術，也讓2026年成為矽光子元年，先進封測設備廠萬潤（6187）跨入CPO光耦合設備研發，投資人急問跟高明鐵技術的差異？對此萬潤發言人表示，只能說萬潤是所有設備都自製，包括六軸機器手臂，同業方面則無法評論。",
-    "link": "https://money.udn.com/money/story/5612/9720995",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1787932449
   },
   {
     "title": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say",
@@ -1248,14 +1280,6 @@
     "published_ts": 1787892052
   },
   {
-    "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
-    "description": "",
-    "link": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1787890882
-  },
-  {
     "title": "Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture: WSJ",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture: WSJ\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-donald-trump-and-wlfi-crypto.jpg\" /></p><p>Sheikh Tahnoon’s group reportedly backs a 49% stake in the holding company behind World Liberty’s conditionally approved US trust bank.</p>",
     "link": "https://cointelegraph.com/news/abu-dhabi-royal-trump-world-liberty-crypto-bank-wsj?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1296,22 +1320,6 @@
     "published_ts": 1787856662
   },
   {
-    "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
-    "description": "",
-    "link": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1787855333
-  },
-  {
-    "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
-    "description": "",
-    "link": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1787851940
-  },
-  {
     "title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-how-to-use-nvidia-stock-for-broad-market-exposure.jpg\" /></p><p>Bitcoin and crypto joined US stock markets in fresh gains after Nvidia Q2 earnings beat expectations by around $4 billion.</p>",
     "link": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1350,14 +1358,6 @@
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1787838862
-  },
-  {
-    "title": "Bank of England set for new innovation mandate covering stablecoins",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bank of England set for new innovation mandate covering stablecoins\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-uk-regulations2-1.jpg\" /></p><p>The UK plans to expand the Bank of England’s remit to support digital payments innovation, including stablecoins, while keeping financial stability first.</p>",
-    "link": "https://cointelegraph.com/news/uk-boe-innovation-mandate-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1787835119
   },
   {
     "title": "台灣空運自己精選組裝中秋禮盒　內容充滿巧思、外盒可典藏再利用",
