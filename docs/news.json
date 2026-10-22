@@ -1,55 +1,575 @@
 [
   {
-    "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+    "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
+    "description": "Nvidia CEO Jensen Huang told CNBC Thursday that demand for neocloud firms is \"off the charts,\" but scarce capital is holding back growth.",
+    "link": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1792664904
+  },
+  {
+    "title": "Two European women held captive for more than a year in Niger freed in Libya",
+    "description": "The aid workers from Switzerland and Austria are due to fly home on Thursday, reports say.",
+    "link": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792664766
+  },
+  {
+    "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1792664308
+  },
+  {
+    "title": "El Salvador's president threatens Haitian gangs over military hostages",
+    "description": "Four members of the so-called Gang Suppression Force have been missing since Sunday.",
+    "link": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792664268
+  },
+  {
+    "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
+    "description": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
+    "link": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792664195
+  },
+  {
+    "title": "外資再砍台股逾800億　新台幣貶2分收32.508元",
+    "description": "市場AI疑慮未消，加上連假前賣壓湧現，外資今天再揮刀大砍台股逾800億元，股匯同步下挫，新台幣兌美元收盤收32.508元...",
+    "link": "https://money.udn.com/money/story/5612/9831805",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792664029
+  },
+  {
+    "title": "iPhone Duo明開賣！燦坤3C家電百家門市迎首批交機 再推舊換新加碼20%",
+    "description": "蘋果首款摺疊新機iPhone Duo將於23日開賣，面對首波配額有限，各大通路加緊備戰。燦坤（2430）3C家電規劃，23日上午11時起開放先前預購的尊榮Surpass會員到店交機，全台100間Apple shop門市同步受理一般會員現場訂購，每人每卡限購一台。",
+    "link": "https://money.udn.com/money/story/5612/9831800",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792663983
+  },
+  {
+    "title": "醣基歐洲世界疫苗大會發表 CHO V08臨床一期期中數據 獲國際大廠重視",
+    "description": "醣基（6586）22日表示，該公司發展的克雷伯氏肺炎桿菌K1/K2二價醣共軛疫苗CHO V08，首次人體一期臨床試驗期中分析出爐，初步展現良好的安全性與免疫反應，其中K1、K2殺菌活性效價提升4倍以上的受試者比例分別達88%及86%。公司正與國際疫苗研發機構交流，評估研發資源支持及授權合作機會。",
+    "link": "https://money.udn.com/money/story/5612/9831777",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792663837
+  },
+  {
+    "title": "年省四成能源成本漢翔9MW/54MWh 電力島正式啟用",
+    "description": "漢翔22日於台中水湳廠區舉行「9MW/54MWh大型微電網(電力島)系統啟用典禮」，宣告全台最大的工業級表後儲能微電網正式投入運轉。立法院楊瓊瓔委員、何欣純委員辦公室、廖偉翔委員、美國在台協會商務官Jing Liu、經濟部主任秘書莊銘池、經濟部國營司副司長劉起孝、台中市議會黃馨慧議員、台中市經發局副局長林敏棋、中科管理局局長許茂新等貴賓均到場見證此重要階段成果。",
+    "link": "https://money.udn.com/money/story/5612/9831776",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792663836
+  },
+  {
+    "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+    "description": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
+    "link": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792663813
+  },
+  {
+    "title": "宏碁旗下安圖斯攻企業AI應用　結盟智菩科技、環球睿視",
+    "description": "電腦品牌廠宏碁旗下子公司安圖斯科技宣布與台灣人工智慧（AI）解決方案開發商智菩科技、環球睿視共同簽署合作備忘錄（MOU）...",
+    "link": "https://money.udn.com/money/story/5612/9831753",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792663256
+  },
+  {
+    "title": "Can European leaders fix the cost-of-living crisis?",
+    "description": "Anger over housing, wages and public services tests European governments facing debt pressures and looming elections.",
+    "link": "https://www.aljazeera.com/video/counting-the-cost/2026/10/22/can-european-leaders-fix-the-cost-of-living-crisis?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792663101
+  },
+  {
+    "title": "Russia and Ukraine trade attacks despite pledging to resume peace talks",
+    "description": "Overnight attacks on Kyiv injured 15 people, while two were injured in Moscow as Russia said it intercepted 163 drones.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-and-ukraine-trade-attacks-despite-pledging-to-resume-peace-talks?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792663067
+  },
+  {
+    "title": "Meta’s stock falls in early trading amid broader sector selloff, despite well-received results",
+    "description": "Meta’s core advertising business delivered a strong quarter, but investors are now eyeing promising new businesses around the Muse personal assistant.",
+    "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792662900
+  },
+  {
+    "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
+    "description": "",
+    "link": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1792662866
+  },
+  {
+    "title": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+    "description": "New South Wales Police say inquiries took place \"following a report of inappropriate content being shared\".",
+    "link": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792662474
+  },
+  {
+    "title": "聯電攜手愛普科技推進AI與高效能運算系統電源解決方案",
+    "description": "聯電（2303）與愛普科技於今日共同宣布展開技術與製造合作，推進AI與高效能運算(HPC)系統的供電解決方案。此次合作結合聯電的深溝槽電容(Deep Trench Capacitor, DTC)製程技術與可擴充的晶圓製造能力，以及愛普科技的矽電容設計與系統層級整合技術，共同因應下一代資料中心在電源效率方面的挑戰。",
+    "link": "https://money.udn.com/money/story/5612/9831724",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792662245
+  },
+  {
+    "title": "神盾與法國SiPearl簽署戰略合作 結合雙方資源合攻HPC及AI DC市場",
+    "description": "神盾（6462）集團今（22）日於台北君悅酒店舉辦「神盾 2026 年 Tech Day暨臺法國家級 CPU 策略合作簽約儀式」，並與法國處理器設計公司 SiPearl 正式簽署策略合作。結合神盾的Mobius100（M100）與 SiPearl 的中央處理器 （CPU ）計畫，合攻高效能運算（HPC）、AI 與資料中心市場。",
+    "link": "https://money.udn.com/money/story/5612/9831720",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792662191
+  },
+  {
+    "title": "Brazil’s president appeals to undecided voters ahead of run-off",
+    "description": "Brazil’s two presidential candidates Lula and Bolsonaro are trying to win over the 30 million voters.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792662162
+  },
+  {
+    "title": "管制戰略性高科技貨品出口 經濟部新增343個涉武擴活動實體",
+    "description": "經濟部國際貿易署近日召開跨部會出口實體清單審查會議，基於防止武器擴散、國際制裁考量，今日新增伊朗、俄羅斯、墨西哥、阿拉伯聯合大公國、土耳其、中國大陸等343個實體及移除90個實體。",
+    "link": "https://money.udn.com/money/story/5612/9831719",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792662151
+  },
+  {
+    "title": "Starknet voters back research into life beyond Ethereum",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Starknet voters back research into life beyond Ethereum\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HD0868XDVMAEX50APTK2HS/quantum.png\" /></p><p>StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain.</p>",
+    "link": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1792661874
+  },
+  {
+    "title": "宇田控制23日每股42.5元興櫃　攻AI液冷和半導體設備商機",
+    "description": "半導體與精密製程環境感測廠宇田控制將於23日以每股參考價42.5元登錄興櫃，董事長朱仁誠今天表示，持續布局無塵室與建廠工...",
+    "link": "https://money.udn.com/money/story/5612/9831698",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792661857
+  },
+  {
+    "title": "美光回應工會訴求獎酬升級　增季度分潤獎金結構調薪",
+    "description": "美光（Micron）21日與台灣美光記憶體工會（台中工會）簽署勞資協議，台灣美光董事長盧東暉今天公開說明相關協議內容，包...",
+    "link": "https://money.udn.com/money/story/5612/9831697",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792661835
+  },
+  {
+    "title": "How do Israel's elections work and who are the main contenders?",
+    "description": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
+    "link": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792661230
+  },
+  {
+    "title": "World's largest wealth fund posts $30 billion loss after bond market turbulence",
+    "description": "The fund has a current value of around $2.3 trillion.",
+    "link": "https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1792661109
+  },
+  {
+    "title": "‘Facebook’s wrongdoing’: Why has Meta been fined $25bn in New Mexico?",
+    "description": "The tech giant has been accused of misleading users regarding data privacy linked to the Cambridge Analytica scandal.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/facebooks-wrongdoing-why-has-meta-been-fined-25bn-in-new-mexico?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792661033
+  },
+  {
+    "title": "東元小金雞安達康29日登錄興櫃 卡位 AI 算力中心搶高科技建廠商機",
+    "description": "東元（1504）旗下匯流排系統廠安達康（7963）將於29日正式登錄興櫃交易。受惠於全球AI算力中心建置熱潮與半導體先進製程擴產，高載流與高穩定電力傳輸骨幹需求急增，帶動安達康上半年營收達12.49億元、年增65.51%，稅後純益0.76億元、年增51.43%，稅後純益3.12元；累計前8月高階算力與半導體建廠業務合計比重已逼近五成，推升前9月累計營收已超越2025全年總和。",
+    "link": "https://money.udn.com/money/story/5612/9831666",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660993
+  },
+  {
+    "title": "陳瑞隆因個人因素辭台化獨董　即日生效",
+    "description": "台化今天公告，陳瑞隆以個人因素為由，辭任獨立董事，以及審計委員會、永續發展委員會、薪資報酬委員會等功能性委員會之委員職務...",
+    "link": "https://money.udn.com/money/story/5612/9831661",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660915
+  },
+  {
+    "title": "新光三越啟動資安防護應變！宅配顧客個資受影響 已通報警方調查",
+    "description": "新光三越22日表示，日前透過內部資安監測機制，主動發現資訊系統異常，疑似遭外部不法入侵，隨即啟動緊急應變機制。經初步清查，部分宅配訂單顧客個人資料受到影響，涉及姓名、地址及聯絡電話。新光三越已向主管機關通報，並協同警方展開調查，目前尚未接獲顧客因本次事件遭詐騙的相關通報。",
+    "link": "https://money.udn.com/money/story/5612/9831648",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660673
+  },
+  {
+    "title": "高層遭聲押　泓德能源：營運財務正常、配合司法調查",
+    "description": "泓德能源董事長謝源一、總經理周仕昌及財務長廖彥凱今天遭花蓮縣地方法院聲請羈押。泓德能源表示，公司營運與財務一切正常，也將...",
+    "link": "https://money.udn.com/money/story/5612/9831641",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660592
+  },
+  {
+    "title": "AI液冷、半導體設備雙引擎加速 宇田控制搶攻高階感測商機",
+    "description": "半導體與精密製程環境感測業者宇田控制（7962）將於10月23日以每股參考價42.5元登錄興櫃。該公司從早期工業量測產品代理商，逐步轉型為具備自有品牌研發製造、國際品牌經銷及TAF校正服務的一站式量測解決方案供應商，近年更鎖定半導體製程設備及AI資料中心液冷兩大高成長應用，帶動營運結構加速升級。公司資本額2.53億元，自有品牌eyc-tech產品涵蓋溫濕度、露點、風速、差壓及流量等精密量測領域。",
+    "link": "https://money.udn.com/money/story/5612/9831639",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660588
+  },
+  {
+    "title": "美光與台中工會達成協議 新增季度獲利分潤、勞退提撥升至10%",
+    "description": "美光科技與台中工會歷經多次協商，終於在21日中午達成勞資協議。美光台灣董事長盧東暉今日舉行線上媒體說明會，宣布全面升級員工獎酬制度，包括新增與公司獲利直接連動的季度分潤獎金、提高年度績效獎金（IPP）上限、勞退提撥率由8%提高至10%、額外增加3天有薪假，並承諾於明年完成結構性調薪。盧東暉強調，這不僅回應工會核心訴求，更希望為台灣科技業建立理性協商、共享企業成長成果的新典範。",
+    "link": "https://money.udn.com/money/story/5612/9831632",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660584
+  },
+  {
+    "title": "全台最大！漢翔「電力島」年省40%電費不斷電 上銀、矽品、寶成都來了",
+    "description": "國內航太龍頭漢翔公司今在台中水湳廠區啟用「9MW/54MWh大型微電網（電力島）系統，並宣布全台最大規模的工業級表後儲能微電網正式投入營運，該系統斷電後能提供6小時電力，預估年省近40%能源成本，吸引上銀、矽品、寶成等多家高用電量大廠派員觀摩。",
+    "link": "https://money.udn.com/money/story/5612/9831627",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792660551
+  },
+  {
+    "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+    "description": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
+    "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792660488
+  },
+  {
+    "title": "A top strategist has a warning for retail investors chasing the AI rally",
+    "description": "Maxx Kettner, HSBC’s chief multiasset strategist, says the investors need to understand the goal posts are constantly moving with AI investing.",
+    "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792660020
+  },
+  {
+    "title": "Some New Yorkers back ban on horse-drawn carriages, but drivers fear for incomes",
+    "description": "As councillors prepare to banish the vehicles, views in Central Park are divided over the 160-year-old tradition.",
+    "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792660008
+  },
+  {
+    "title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"PHP flaw draws millions of exploit attempts, Cloudflare CEO warns\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HCAK0M3P221WDQM62JF33T/hi-why-address-poisoning-works-without-stealing-private-keys-1.jpg\" /></p><p>Cloudflare’s Matthew Prince said the network saw thousands of exploit attempts even before the PHP vulnerability was publicly disclosed.</p>",
+    "link": "https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1792659962
+  },
+  {
+    "title": "Why a JPMorgan strategist says the stock market’s tailspin might have run its course",
+    "description": "Hedge fund positioning has lightened considerably since its recent September peak, and JPMorgan strategists deduce from this that downside for stocks is now limited.",
+    "link": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792659840
+  },
+  {
+    "title": "Football legend Peyton Manning has invested millions in real estate, including 2 Denver homes",
+    "description": "NFL legend Peyton Manning has traded his days on the football field for a quieter life with his family, and has amassed an impressive real estate portfolio along the way.",
+    "link": "https://www.marketwatch.com/story/football-legend-peyton-manning-has-invested-millions-in-real-estate-including-2-denver-homes-2c4e355f?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792659780
+  },
+  {
+    "title": "黃志芳籲補齊主權基金拼圖 助台灣掌握AI產業主導權",
+    "description": "外貿協會董事長黃志芳表示，半導體、AI及能源是全球最重要的3大關鍵產業，台灣兼具產業優勢與發展機遇，若能補上主權基金這塊...",
+    "link": "https://money.udn.com/money/story/5612/9831601",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792659703
+  },
+  {
+    "title": "若無撥補12月電價漲？台電：有能力負擔者被討論機會高",
+    "description": "10月電價暫時凍漲，若台電無法獲得新台幣711億元撥補預算，將影響12月電價走勢。台電今天表示，目前已吸收民生用電成本逾...",
+    "link": "https://money.udn.com/money/story/5612/9831596",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792659678
+  },
+  {
+    "title": "公股投信四合一拍板 第一金投信擔任存續公司",
+    "description": "第一金控、兆豐金控、合庫金控、華南金控推動旗下投信子公司「四合一」整併，今天於董事會後共同舉行記者會宣布，整併案將由資產...",
+    "link": "https://money.udn.com/money/story/5612/9831593",
+    "source": "經濟日報",
+    "category": "台股",
+    "published_ts": 1792659638
+  },
+  {
+    "title": "Fighting rages in Yemen’s Taiz as UN warns nearly 260,000 now displaced",
+    "description": "Yemen&#039;s government forces launched hundreds of strikes on Houthi locations, a spokesperson says.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/fighting-rages-in-yemens-taiz-as-un-warns-nearly-260000-now-displaced?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792659605
+  },
+  {
+    "title": "Israeli elections: Is it just right wing versus right?",
+    "description": "Benjamin Netanyahu’s opponents are promising a change to Israeli politics, but are their policies really that different?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/israeli-elections-is-it-just-right-wing-versus-right?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792659318
+  },
+  {
+    "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1792658948
+  },
+  {
+    "title": "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers",
+    "description": "Barclays on Thursday said it’s cutting 5,000 jobs, about 5% of its workforce, as the bank relies on artificial intelligence to perform back-office tasks.",
+    "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792658820
+  },
+  {
+    "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+    "description": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
+    "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "category": "美股",
+    "published_ts": 1792658760
+  },
+  {
+    "title": "Bill Clinton quotes Quran and condemns anti-Muslim rhetoric",
+    "description": "Former US President Bill Clinton quoted the Quran during a speech in Florida condemning discrimination against Muslims.",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/bill-clinton-quotes-quran-and-condemns-anti-muslim-rhetoric?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792657981
+  },
+  {
+    "title": "Brent crude tops $112 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
     "description": "The Middle East conflict could flare up again as the U.S. reportedly plans to resume strikes against Iran.",
     "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
     "source": "CNBC",
     "category": "美股",
-    "published_ts": 1792645939
+    "published_ts": 1792657482
   },
   {
-    "title": "從護理臨床到產業量產 中榮攜手益沅推出安瓿剝開器敲開醫療安全之門",
-    "description": "從護理臨床到產業量產，安瓿剝開器敲開醫療安全之門！台中榮總22日宣布，透過技術移轉，與合作廠商益沅塑膠工業共同推出「榮益安瓿剝開器」，可有效降低徒手開啟安瓿所造成的玻璃割傷及銳器傷害風險，展現護理專業與臨床創新能量，市場商機可期。",
-    "link": "https://money.udn.com/money/story/5612/9830907",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792645279
+    "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+    "description": "Ukraine says &#039;appeasement&#039; will not end war as Russian attacks kill 1, injure 22 in its capital.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792657119
   },
   {
-    "title": "TPCA展矽電容成焦點　晶圓代工、封測廠搶先機",
-    "description": "2026台灣電路板產業國際展覽會（TPCA Show）20日至22日舉行，其中矽橋接（Silicon Bridge）和矽...",
-    "link": "https://money.udn.com/money/story/5612/9830903",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792645250
+    "title": "Can Russia broker a new US-Iran deal?",
+    "description": "Russia’s nuclear expertise, close ties with Tehran and negotiation experience could give Moscow an edge as a mediator.",
+    "link": "https://www.aljazeera.com/opinions/2026/10/22/can-russia-broker-a-new-us-iran-deal?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792656048
   },
   {
-    "title": "Meta 營收創新高 上調資本支出下限 台廠 AI 供應鏈有望受惠",
-    "description": "美國CSP巨頭Meta公布第3季營收創歷史新高紀錄，第4季指引也超出市場預期，顯示算力需求仍持續成長。Meta同時調高2026年資本支出下限，並宣布將發行無投票權新類別股票，支撐AI軍備競賽資金需求。法人看好，CSP廠持續增加資本支出，鴻海（2317）、廣達（2382）、緯創（3231）、緯穎（6669）等重要ODM供應鏈都將持續受惠。",
-    "link": "https://money.udn.com/money/story/5612/9830898",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792645224
+    "title": "Angel Reese shines again as Dream down Valkyries to lead WNBA Finals",
+    "description": "Atlanta&#039;s Reese has become the only woman in history to record consecutive double-doubles in three WNBA Finals games.",
+    "link": "https://www.aljazeera.com/sports/2026/10/22/angel-reese-shines-again-as-dream-down-valkyries-to-lead-wnba-finals?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792655635
   },
   {
-    "title": "新竹 SOGO 秋季日本展 品嚐特色物產尋味日本",
-    "description": "秋風起，正是品味日本秋日風情的好時節！新竹SOGO秋季日本展即日起至11月2日，集結38家品牌，其中包含8家初登場，更有10位日本職人親自來台參展，精選日本人氣商品與地方特色物產，打造一場兼具美食、文化與生活美學的秋季日本展。",
-    "link": "https://money.udn.com/money/story/5612/9830881",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792644858
+    "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs bag another $528M, taking 3-day haul past $1B\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NJXA13RF9N1Q13C8RH5D6G/surfing-blockchain-wave-etf-1.jpg\" /></p><p>US spot Bitcoin ETFs drew $1.08 billion over three trading sessions to push October flows back above water.</p>",
+    "link": "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1792654652
   },
   {
-    "title": "中保科林建涵登 ITS 世界大會 宣布國雲成立智慧停車管理數據中心",
-    "description": "中保科（9917）董事長暨台灣智慧城市產業聯盟（Taiwan Smart City Solutions Alliance，簡稱TSSA）會長林建涵，22日代表亞太地區，於韓國江陵2026 ITS世界大會發表專題演講，以「Taiwan’s Green Transformation & ESG Practices in Curbside Parking」（台灣路邊停車的綠色轉型與ESG實踐）為題，分享台灣運用AI與大數據提升停車管理精準度、落實永續營運的成果，並宣布國雲停車成立「智慧停車管理數據中心」，朝「找車位更簡單、少負擔」的服務願景邁進。",
-    "link": "https://money.udn.com/money/story/5612/9830863",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792644427
+    "title": "Meta faces Australian lawsuit over alleged social media harm to children",
+    "description": "Class action could be first in Australia to blame social media for harming its users.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/meta-faces-australian-lawsuit-over-alleged-social-media-harm-to-children?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792653792
+  },
+  {
+    "title": "Wrong national anthems played three times at Asian Para Games in Japan",
+    "description": "The Iranian national anthem was played for athletes from Taiwan and Mongolia, prompting Nagoya&#039;s mayor to apologise.",
+    "link": "https://www.aljazeera.com/sports/2026/10/22/wrong-national-anthems-played-three-times-at-asian-para-games-in-japan?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792653055
+  },
+  {
+    "title": "In Israel election, Palestinian citizens weigh fear against disillusionment",
+    "description": "With vote at knife’s edge, Palestinian citizens weigh principle against strategic voting in system stacked against them.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/in-israel-election-palestinian-citizens-weigh-fear-against-disillusionment?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792652530
+  },
+  {
+    "title": "US universities are failing to protect victims of sexual assault",
+    "description": "The Cornell case shows how university bureaucracy discourages complaints and shields institutions.",
+    "link": "https://www.aljazeera.com/opinions/2026/10/22/us-universities-are-failing-to-protect-victims-of-sexual-assault?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792651644
+  },
+  {
+    "title": "What is PHP and why did it spark a global cyber-security scramble?",
+    "description": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+    "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792650299
+  },
+  {
+    "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
+    "description": "",
+    "link": "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1792650250
+  },
+  {
+    "title": "China edge USA to women’s team gold at Gymnastics World Championships",
+    "description": "China finished 0.233 points ahead of the Americans, denying them a chance to win an eighth consecutive team gold.",
+    "link": "https://www.aljazeera.com/sports/2026/10/22/china-edge-usa-to-womens-team-gold-at-gymnastics-world-championships?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792650210
+  },
+  {
+    "title": "Cookies and weapons: Women in Yemen’s Taiz find ways to help the city’s defence",
+    "description": "Amid growing threats, a grassroots aid effort has transformed into an initiative to get more ammunition to the front.",
+    "link": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792649188
+  },
+  {
+    "title": "Man United’s Carrick not worried about his job despite ‘unacceptable’ loss",
+    "description": "&#039;I have not given my own position any thought&#039;, Carrick said after United&#039;s 4-1 loss to Como in the Champions League.",
+    "link": "https://www.aljazeera.com/sports/2026/10/22/man-uniteds-carrick-not-worried-about-his-job-despite-unacceptable-loss?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792648908
+  },
+  {
+    "title": "The world is $365 trillion in debt, and the interest bill is climbing",
+    "description": "Protests in Europe have highlighted debt squeeze, with France now paying more to borrow than Italy and Greece.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/the-world-is-365-trillion-in-debt-and-the-interest-bill-is-climbing?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792648792
+  },
+  {
+    "title": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
+    "description": "The US president has turned his attention to France, but his comments were dismissed by French leader Macron.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792648732
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1792648578
+  },
+  {
+    "title": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+    "description": "US secretary of state says White House not to blame for reported speed limits on internet services in Ukraine.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792648452
+  },
+  {
+    "title": "El Salvador’s Bukele threatens Haitian gangs over abducted soldiers",
+    "description": "President Nayib Bukele says he has initiated military operation to rescue four Salvadoran soldiers abducted in Haiti.",
+    "link": "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792647393
+  },
+  {
+    "title": "Move over memecoins: Crypto ‘meme games’ coming, bagholders and all",
+    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Move over memecoins: Crypto ‘meme games’ coming, bagholders and all\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5H1AQMX8R4G54PG9X27A71M/crypto-meme-games.jpg\" /></p><p>“Plenty will be ponzis. Plenty will get exploited. Plenty will insta die. There will be ridiculous gains, and people will get absolutely f***ing rinsed,” says Illuvium co-founder Kieran Warwick.</p>",
+    "link": "https://cointelegraph.com/news/move-over-memecoins-crypto-meme-games-coming-bagholders-and-all?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "CoinTelegraph",
+    "category": "加密貨幣",
+    "published_ts": 1792647338
+  },
+  {
+    "title": "How Arab parties could hold critical balance of power in Israeli election",
+    "description": "Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.",
+    "link": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "宏觀",
+    "published_ts": 1792647022
+  },
+  {
+    "title": "Solana’s biggest network change since 2020 is live. Here’s how users benefit",
+    "description": "",
+    "link": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+    "source": "CoinDesk",
+    "category": "加密貨幣",
+    "published_ts": 1792646698
+  },
+  {
+    "title": "El-Sayed in face-off against rival Rogers for Michigan Senate seat",
+    "description": "El-Sayed in face-off against rival Rogers for Michigan Senate seat",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/el-sayed-in-face-off-against-rival-rogers-for-michigan-senate-seat?traffic_source=rss",
+    "source": "Al Jazeera",
+    "category": "宏觀",
+    "published_ts": 1792645256
   },
   {
     "title": "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
-    "description": "Pyongyang plans to resume broadcasting anti-South Korea propaganda along the armed border.",
+    "description": "Pyongyang plans to resume broadcasting anti-South Korean propaganda along the armed border.",
     "link": "https://www.aljazeera.com/news/2026/10/22/north-korea-to-resume-propaganda-broadcasts-south-korea-urges-dialogue?traffic_source=rss",
     "source": "Al Jazeera",
     "category": "宏觀",
@@ -62,14 +582,6 @@
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1792644119
-  },
-  {
-    "title": "Grab收購案遭否決　公平會代理主委投有條件通過",
-    "description": "公平會昨天宣布禁止Grab併foodpanda，多數委員投下反對票，僅1位委員認為應附加負擔不禁止。公平會代理主委陳志民...",
-    "link": "https://money.udn.com/money/story/5612/9830835",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792643851
   },
   {
     "title": "XRP Ledger bug fix moved to November after validator support dipped for two hours",
@@ -104,15 +616,7 @@
     "published_ts": 1792642773
   },
   {
-    "title": "油價高檔支撐、迎接年底補庫存動能 台塑、台聚相對看好 EVA 市況",
-    "description": "國際油價高檔震盪、中國大陸「十、一」長假後庫存回補動能回籠，加上第4季適逢鞋材發泡需求旺季，台塑（1301）、台聚（1304）、亞聚（1308）相對看好第4季EVA產品動能。",
-    "link": "https://money.udn.com/money/story/5612/9830752",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792641952
-  },
-  {
-    "title": "No purchase, no seats: Starbucks China rolls out new policy",
+    "title": "No order, no seat: Starbucks China rolls out new store policy",
     "description": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals.",
     "link": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
@@ -136,94 +640,6 @@
     "published_ts": 1792641094
   },
   {
-    "title": "What is PHP and why did it spark a global cyber-security scramble?",
-    "description": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-    "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792640930
-  },
-  {
-    "title": "英飛凌攜輝達深化800V供電合作 GaN 搶攻 AI 資料中心電源轉換",
-    "description": "全球功率半導體英飛凌22日宣布深化與輝達（NVIDIA）合作，共同開發AI資料中心800V直流供電架構，聚焦高壓中繼匯流排轉換器（IBC），以氮化鎵（GaN）技術提升電源轉換效率與功率密度，因應AI伺服器機櫃朝百萬瓦等級發展的供電需求。",
-    "link": "https://money.udn.com/money/story/5612/9830643",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792640654
-  },
-  {
-    "title": "矽光子迎勁敵？TFLN 瞄準400G傳輸、封裝鏈添動能",
-    "description": "AI高速傳輸需求升溫，薄膜鈮酸鋰（TFLN）技術加速從驗證走向量產，隨著光通訊規格由1.6T邁向3.2T，TFLN憑藉高頻寬、低功耗及低插入損耗等優勢，可望切入高速光調變器市場，並帶動翻晶、重布線層及金凸塊等先進封裝與晶圓級互連技術需求升溫。",
-    "link": "https://money.udn.com/money/story/5612/9830591",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639806
-  },
-  {
-    "title": "台灣美光桃園工會宣布幹部罷工24小時 不排除擴大行動",
-    "description": "台灣美光桃園工會不滿公司分潤制度，勞資協商爭取更好的工作待遇，目前未獲公司正面回應。工會幹部今在公司門口拉布條抗議，同時發動11名幹部罷工，強調下次協商如果公司仍不面對，不排除擴大行動。",
-    "link": "https://money.udn.com/money/story/5612/9830529",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639731
-  },
-  {
-    "title": "台灣離岸風電人才培訓獲國際肯定 海洋專區連三年獲 GWO 亞太獎項",
-    "description": "海洋科技產業創新專區再傳國際捷報！由經濟部能源署委託金屬中心營運的海洋專區，長期深耕離岸風電人才培育與國際認證訓練，憑藉完整訓練量能、專業師資、完善教學設施及多元國際認證課程，榮獲「亞太地區高度讚揚訓練機構（APAC）」獎項，連續三年獲得GWO亞太地區高度讚揚，展現臺灣離岸風電人才培育成果持續獲得國際肯定。",
-    "link": "https://money.udn.com/money/story/5612/9830589",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639691
-  },
-  {
-    "title": "輝達 DSX AI 工廠平台標榜冷卻用水量降最低 以更少電力達相同AI輸出",
-    "description": "AI大廠輝達宣布，歐洲領先的生態系合作夥伴正採用其DSX AI工廠平台，打造能將冷卻用水消耗量降至最低，並以更少電力達到相同AI輸出的AI工廠。",
-    "link": "https://money.udn.com/money/story/5612/9830582",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639602
-  },
-  {
-    "title": "AI 晶片新戰局！ASIC 成長加速、博通穩坐龍頭",
-    "description": "隨著AI基礎建設持續擴張，GPU在成本與功耗方面的限制，逐漸成為大型雲端服務供應商（CSP）發展AI算力的考量因素，促使各大CSP投入自研特殊應用積體電路（ASIC），以降低成本並提升運算效率。",
-    "link": "https://money.udn.com/money/story/5612/9830577",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639437
-  },
-  {
-    "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
-    "description": "US federal judge blocked wall&#039;s construction on Texas-Mexico border amid an ongoing legal battle.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792639178
-  },
-  {
-    "title": "台股開高翻黑震盪近700點　金融股撐盤",
-    "description": "台股今天開高，早盤一度上漲逾400點，最高達47332.18點，隨後翻黑，最低來到46632.36點，失守47000點大...",
-    "link": "https://money.udn.com/money/story/5612/9830548",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639057
-  },
-  {
-    "title": "PHP爆重大安全漏洞　第三方支付公會籲會員全面盤點修補",
-    "description": "受到廣泛使用的程式語言PHP被揭露存在重大安全漏洞，網站營運者急忙採取保護措施。中華民國第三方支付服務業商業同業公會已通...",
-    "link": "https://money.udn.com/money/story/5612/9830547",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639056
-  },
-  {
-    "title": "MIPI 聯盟 展示相關技術與解決方案",
-    "description": "國際組織MIPI 聯盟（MIPI Alliance）致力於為行動裝置及多元連網生態系，開發「標準化」與「有線介面規範」，近期舉辦MIPI台北展示日，吸引來自台灣及亞洲各地的開發人員、工程師與科技專業人士參與。",
-    "link": "https://money.udn.com/money/story/5612/9830533",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792639030
-  },
-  {
     "title": "My father-in-law, 81, sold his $75,000 home and paid off his daughter’s $50,000 debt. What happens to him now?",
     "description": "“Nothing has been set aside for his needs.”",
     "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
@@ -232,52 +648,12 @@
     "published_ts": 1792638900
   },
   {
-    "title": "越南結構缺工與薪資上漲 台商靠自動化與幹部本土化突圍",
-    "description": "外資擴廠與年輕世代轉向，使越南面臨嚴重的結構性人力缺口。基本薪資調漲讓低成本優勢不再，使企業加速導入自動設備與管理本土化...",
-    "link": "https://money.udn.com/money/story/5612/9830523",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792638809
-  },
-  {
     "title": "US embassy accuses Canada of election meddling ahead of midterms",
-    "description": "Prime Minister Mark Carney dismissed the claim, noting that it was the that US initiated trade actions against Canada.",
+    "description": "Prime Minister Mark Carney dismissed the claim, noting that US initiated trade actions against Canada.",
     "link": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1792638328
-  },
-  {
-    "title": "Uber 若買下 foodpanda 母公司能繞過審查？公平會揭應對",
-    "description": "外送平台併購案遭擋下，外界擔憂若foodpanda退出台灣，或Uber透過收購母公司將台灣業務納入旗下，市場仍可能只剩Uber Eats，可能造成一家獨大。公平會代理主委陳志民表示，多數委員認為未來仍有不確定因素，因此以現有市場狀況審查；若未來透過母公司收購形成結合，也須受到法規約束。",
-    "link": "https://money.udn.com/money/story/5612/9830477",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792637693
-  },
-  {
-    "title": "資誠成立虛擬資產服務平台　布局數位資產生態系",
-    "description": "資誠（PwC Taiwan）今天表示，數位資產正持續重塑全球金融市場的運作模式，為協助企業掌握產業發展趨勢、因應專法上路...",
-    "link": "https://money.udn.com/money/story/5612/9830475",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792637673
-  },
-  {
-    "title": "薔琵颱風來襲遇三天連假！全聯、愛買備貨翻倍 萬家福蔬菜備127噸",
-    "description": "薔琵颱風逼近台灣，適逢光復節三天連假將至，民眾防颱備貨與連假採買需求同步升溫，量販、超市通路提前啟動備貨機制。全聯、大全聯將蔬果及魚肉類備貨量增加一倍，愛買葉菜備貨量提高至平日兩倍，萬家福量販與樂家康超市則將蔬菜備貨量大幅提升，總量達127噸，並同步增加泡麵、水餃、飲用水及米等民生物資供應，搶攻防颱與連假採買商機。",
-    "link": "https://money.udn.com/money/story/5612/9830431",
-    "source": "經濟日報",
-    "category": "台股",
-    "published_ts": 1792636800
-  },
-  {
-    "title": "Can Trump deport Congresswoman Ilhan Omar?",
-    "description": "Can Trump deport Congresswoman Ilhan Omar?",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/can-trump-deport-congresswoman-ilhan-omar?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792636486
   },
   {
     "title": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
@@ -296,30 +672,6 @@
     "published_ts": 1792635509
   },
   {
-    "title": "Russia frees American Stephen Hubbard after 4 years behind bars",
-    "description": "Russia frees American Stephen Hubbard after 4 years behind bars",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-frees-american-stephen-hubbard-after-4-years-behind-bars?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792635385
-  },
-  {
-    "title": "Tigray resumes daily life amid fears of wider war",
-    "description": "Mekelle’s reopening offers little relief as instability and economic hardship persist.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/tigray-resumes-daily-life-amid-fears-of-wider-war?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792634885
-  },
-  {
-    "title": "What is the FDLR, and why does its anti-Tutsi ideology endure?",
-    "description": "Four former FDLR officers reveal how its anti-Tutsi ideology took root and endured in Africa.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/what-is-the-fdlr-and-why-does-its-anti-tutsi-ideology-endure?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792634575
-  },
-  {
     "title": "Southeast Asia is hungry for AI — and the money isn't just in subscriptions",
     "description": "Southeast Asia's rapid AI adoption is creating business opportunities beyond paid consumer subscriptions, a partner at Bain & Company, told CNBC.",
     "link": "https://www.cnbc.com/2026/10/22/southeasaisa-singapore-bain-temasek-google-.html",
@@ -336,14 +688,6 @@
     "published_ts": 1792633800
   },
   {
-    "title": "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
-    "description": "Qatari and French leaders stress need to restore freedom of navigation in Strait of Hormuz.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792633548
-  },
-  {
     "title": "James Talarico fires back at Elon Musk in Texas Senate race feud",
     "description": "Musk in September donated $158 million to a Republican Super PAC, which sent that cash to a PAC backing GOP Senate nominee Ken Paxton, Talarico's opponent.",
     "link": "https://www.cnbc.com/2026/10/22/james-talarico-elon-musk-ken-paxton-texas-senate-race.html",
@@ -352,36 +696,12 @@
     "published_ts": 1792632070
   },
   {
-    "title": "Colombian president purges National Museum of works promoting ‘communism’",
-    "description": "Far-right President Abelardo de la Espriella says he will wage a &#039;counterrevolution&#039; against cultural institutions.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792631380
-  },
-  {
-    "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
-    "description": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
-    "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792631254
-  },
-  {
     "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
     "description": "Critical PHP security flaws trigger global warnings as Google, OpenAI and Amazon respond to potential cyber threats.",
     "link": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
     "source": "CNBC",
     "category": "美股",
     "published_ts": 1792631115
-  },
-  {
-    "title": "George W Bush’s brother backs Democrat James Talarico in Texas Senate race",
-    "description": "Neil Bush says that he voted for Democrat James Talarico due to reservations about Republican candidate Ken Paxton.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/brother-of-george-bush-endorses-democratic-senate-candidate-in-texas?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792630912
   },
   {
     "title": "Meta put out an ambitious roadmap to Muse monetization after strong quarter and guide",
@@ -408,108 +728,12 @@
     "published_ts": 1792629840
   },
   {
-    "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-    "description": "Injured immediately transported to hospitals as aviation authority says updates will be forthcoming.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792628741
-  },
-  {
-    "title": "World leaders warn of security flaws found in PHP programming language",
-    "description": "AI was used to pinpoint two vulnerabilities in the PHP language, used by about 70 percent of websites.",
-    "link": "https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792627827
-  },
-  {
-    "title": "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use",
-    "description": "India is grappling with growing public anger against data centers that pose a threat to its ambitions to host the whole world's data.",
-    "link": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1792627668
-  },
-  {
-    "title": "Iran war live: Trump denies Iran talks, says situation will resolve soon",
-    "description": "US President Donald Trump denies Iran negotiations, says situation will resolve ‘fairly soon’.",
-    "link": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792627200
-  },
-  {
-    "title": "US accuses Canada of election interference ahead of midterms",
-    "description": "Washington cites Canadian tariffs, political meetings and anti-Trump ads as evidence of attempted election interference.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792626741
-  },
-  {
-    "title": "The real reasons US politicians are getting older",
+    "title": "The real reasons there are so few young politicians in the US",
     "description": "No country for young men and women: why do older politicians seem to have such a tight grip on the US political system?",
     "link": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1792626732
-  },
-  {
-    "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
-    "description": "The latest round of negotiations comes amid growing concerns in Kyiv the US is backing away from its support of Ukraine.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792626720
-  },
-  {
-    "title": "Tesla beats on earnings and sales even as auto revenue declines",
-    "description": "Tesla reported better-than-expected third-quarter results.",
-    "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1792625524
-  },
-  {
-    "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
-    "description": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
-    "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792625340
-  },
-  {
-    "title": "Pope Leo needs no further treatment after cancer surgery, doctors say",
-    "description": "The 71-year-old leader of the Catholic Church has had the lower lobe of his right lung removed in surgery.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/pope-leo-needs-no-further-treatment-after-cancer-surgery-doctors-say?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792624858
-  },
-  {
-    "title": "Nigeria’s first Ebola case matches DR Congo strain, health officials say",
-    "description": "The Bundibugyo strain outbreak is the DR Congo&#039;s deadliest ever and has now reached West Africa for the first time.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/nigerias-first-ebola-case-matches-dr-congo-strain-health-officials-say?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792624812
-  },
-  {
-    "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-    "description": "US State Department says Iran-aligned Houthis have &#039;increasingly ⁠⁠engaged in hostilities&#039; against Saudi Arabia.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792624415
-  },
-  {
-    "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
-    "description": "Meta’s core advertising business delivered a strong quarter, but investors are eyeing promising new businesses around the Muse personal assistant",
-    "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792624020
   },
   {
     "title": "Trump's green card curbs test Indian tech workers' American dream",
@@ -552,52 +776,12 @@
     "published_ts": 1792621222
   },
   {
-    "title": "Canadian publisher drops writer Thelyson Orelien over AI use in novel",
-    "description": "Publisher Boreal says investigations confirmed the Haitian-Canadian Thelyson Orelien used AI in his breakthrough novel.",
-    "link": "https://www.aljazeera.com/news/2026/10/21/canadian-publisher-cuts-ties-with-best-selling-writer-orelien-over-ai-use?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792621010
-  },
-  {
-    "title": "Video shows Israeli settler assaulting Palestinian child",
-    "description": "An Israeli settler was filmed shouting at and assaulting a Palestinian child during an attack on a family east of Yatta.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child-2?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792620234
-  },
-  {
-    "title": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
-    "description": "CEO Arvind Krishna indicated that IBM is helping clients in artificial intelligence.",
-    "link": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1792620217
-  },
-  {
-    "title": "Japan is known for world-class events - but the Asian Games were chaotic",
-    "description": "Hotel chaos, transport mishaps and diplomatic blunders cast a spotlight on organisers and the firm hired to deliver the games.",
-    "link": "https://www.bbc.co.uk/news/articles/cvze414811jlo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792620058
-  },
-  {
     "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5G2G8DNS83ZJANR3X4SZBVD/policymaker-bill-us-genius-act-1.jpg\" /></p><p>Banking advocacy organizations are pushing back against the OCC’s finalized rules on a stablecoin law, arguing against changes to provisions on yield.</p>",
     "link": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "source": "CoinTelegraph",
     "category": "加密貨幣",
     "published_ts": 1792619628
-  },
-  {
-    "title": "Man United captain Fernandes slams Carrick’s tactics after Como hammering",
-    "description": "Manchester United winless run continues with 4-1 Champions League humbling in Como, and Bruno Fernandes slams tactics.",
-    "link": "https://www.aljazeera.com/sports/2026/10/21/man-united-captain-fernandes-slams-carricks-tactics-after-como-hammering?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792619428
   },
   {
     "title": "Meta fined $25bn for 'lies' over user data privacy",
@@ -624,12 +808,20 @@
     "published_ts": 1792619040
   },
   {
-    "title": "Tehran displays mock installation of Trump behind bars",
-    "description": "An Iranian performer in Tehran’s busy Tajrish Square has impersonated US President Donald Trump behind bars.",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792618986
+    "title": "Anthropic announces preview of Claude Duet, a personal AI agent to take on Muse, Dots",
+    "description": "Claude Duet follows the launch of competing products from Meta and OpenAI, which have shown traction with users.",
+    "link": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1792618974
+  },
+  {
+    "title": "AIPAC retreats from candidate endorsements and direct giving as political backlash grows",
+    "description": "Pro-Israel group AIPAC will keep operating its United Democracy Project super PAC while mobilizing individual donors to give directly.",
+    "link": "https://www.cnbc.com/2026/10/21/aipac-candidate-endorsements-pac-contributions-israel-election.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1792618924
   },
   {
     "title": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
@@ -640,30 +832,6 @@
     "published_ts": 1792618883
   },
   {
-    "title": "Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start",
-    "description": "Kylian Mbappe and Yan Diomande score stunners as Real beat Leipzig to make it three from three in the Champions League.",
-    "link": "https://www.aljazeera.com/sports/2026/10/21/real-madrid-rout-leipzig-to-continue-perfect-champions-league-start?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792618591
-  },
-  {
-    "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-    "description": "The president’s statement comes as a voter backlash against the facilities intensifies ahead of the midterm elections.",
-    "link": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792618260
-  },
-  {
-    "title": "Declan Rice grabs Arsenal draw at Bayern Munich in Champions League",
-    "description": "Eze gave Arsenal the lead, but Davies levelled and Kane netted a penalty for the hosts before Rice made it 2-2.",
-    "link": "https://www.aljazeera.com/sports/2026/10/21/declan-rice-grabs-arsenal-draw-at-bayern-munich-in-champions-league?traffic_source=rss",
-    "source": "Al Jazeera",
-    "category": "宏觀",
-    "published_ts": 1792618114
-  },
-  {
     "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
     "description": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
     "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
@@ -672,36 +840,12 @@
     "published_ts": 1792618061
   },
   {
-    "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-    "description": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
-    "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792617240
-  },
-  {
     "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
     "description": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
     "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
     "source": "CNBC",
     "category": "美股",
     "published_ts": 1792616831
-  },
-  {
-    "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-    "description": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
-    "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792616400
-  },
-  {
-    "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-    "description": "Investors have pushed the healthcare sector to a record high, and some favored stocks have high projected revenue growth rates through 2028.",
-    "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "category": "美股",
-    "published_ts": 1792616340
   },
   {
     "title": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
@@ -744,14 +888,6 @@
     "published_ts": 1792613676
   },
   {
-    "title": "Here’s what happened in crypto today",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg\" /></p><p>Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>",
-    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1792613447
-  },
-  {
     "title": "Pope does not need further treatment after lung cancer surgery",
     "description": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
     "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
@@ -768,22 +904,6 @@
     "published_ts": 1792613047
   },
   {
-    "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
-    "description": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
-    "link": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792612686
-  },
-  {
-    "title": "Websites taken down worldwide as critical cyber-security update issued",
-    "description": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-    "link": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792612497
-  },
-  {
     "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
     "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
     "link": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
@@ -792,20 +912,12 @@
     "published_ts": 1792612456
   },
   {
-    "title": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
-    "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "link": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+    "title": "Musk's SpaceX stock gift is 'tip of the iceberg' for Trump Accounts, Altimeter's Gerstner says",
+    "description": "Elon Musk’s planned SpaceX share gift through Trump Accounts could be the start of a broader philanthropic push, says Altimeter Capital CEO Brad Gerstner.",
+    "link": "https://www.cnbc.com/2026/10/21/musk-spacex-stock-trump-account.html",
     "source": "CNBC",
     "category": "美股",
-    "published_ts": 1792612058
-  },
-  {
-    "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
-    "description": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
-    "link": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792610980
+    "published_ts": 1792612331
   },
   {
     "title": "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
@@ -928,6 +1040,14 @@
     "published_ts": 1792596166
   },
   {
+    "title": "EBay to lay off 9% of workforce in its second round of job cuts this year",
+    "description": "EBay will lay off 9% of its workforce, or about 1,000 employees, as it works to focus on its \"top strategic priorities.\"",
+    "link": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html",
+    "source": "CNBC",
+    "category": "美股",
+    "published_ts": 1792595823
+  },
+  {
     "title": "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5FFNBMBTT9KJFWC3TVMA71T/hi-what-is-spacex-ipo-and-binance-1.jpg\" /></p><p>Bitcoin extended gains to approach $85,000 after US stock markets reacted to higher-than-expected SpaceX earnings.</p>",
     "link": "https://cointelegraph.com/markets/bitcoin-price-tags-846k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -992,14 +1112,6 @@
     "published_ts": 1792589400
   },
   {
-    "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
-    "description": "Mortgage rates finally came down a little, but borrowers are still having trouble getting into the housing market.",
-    "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1792588428
-  },
-  {
     "title": "OCC finalizes GENIUS Act rules for stablecoin issuers and custody",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"OCC finalizes GENIUS Act rules for stablecoin issuers and custody \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5F4C8N1049F4P2ZC93PE5VK/crypto-regulation-paper-rule-office-mica-eu-v2.jpg\" /></p><p>The Office of the Comptroller of the Currency’s final rule covers payment stablecoin issuance and some custody activities, with the GENIUS Act framework taking effect in mid-January.</p>",
     "link": "https://cointelegraph.com/news/occ-finalizes-genius-act-rules-stablecoin-issuers-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1038,14 +1150,6 @@
     "source": "CoinDesk",
     "category": "加密貨幣",
     "published_ts": 1792584000
-  },
-  {
-    "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-    "description": "Housing data deteriorated further in September, according to separate reports Tuesday.",
-    "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-    "source": "CNBC",
-    "category": "美股",
-    "published_ts": 1792581658
   },
   {
     "title": "Bitcoin risk management grows more popular as the 'just bet on price' era fades",
@@ -1224,22 +1328,6 @@
     "published_ts": 1792557352
   },
   {
-    "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
-    "description": "",
-    "link": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1792555918
-  },
-  {
-    "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
-    "description": "",
-    "link": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1792555627
-  },
-  {
     "title": "Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold",
     "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5E0JNAWGS0RJBJ6F6WV37FG/spacex.jpg\" /></p><p>A merger would bring Tesla into the same corporate group as Grok developer SpaceXAI and social media platform X.</p>",
     "link": "https://cointelegraph.com/markets/musk-says-spacex-tesla-merger-a-good-idea-as-ai-revenue-jumps-ninefold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1256,76 +1344,12 @@
     "published_ts": 1792538762
   },
   {
-    "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-    "description": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
-    "link": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792534937
-  },
-  {
-    "title": "Utah AG sues Kalshi, pursues profits from prediction market company",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Utah AG sues Kalshi, pursues profits from prediction market company\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1M5NCSJSS1MAFGEDXXFPQN1/court-vs-kalshi-3.jpg\" /></p><p>Derek Brown likened the prediction market company to a “public nuisance“ that was “causing a significant and substantial ongoing harm“ to state residents.</p>",
-    "link": "https://cointelegraph.com/news/utah-lawsuit-kalshi-susquehanna-prediction-markets-illegal-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1792531155
-  },
-  {
-    "title": "U.S. CFTC sets agenda for AI forum, exploring trading and agentic finance",
-    "description": "",
-    "link": "https://www.coindesk.com/policy/2026/10/20/u-s-cftc-sets-agenda-for-ai-forum-exploring-trading-and-agentic-finance",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1792530741
-  },
-  {
-    "title": "Bitwise, Hyperliquid seek SEC rule changes for token trading, airdrops",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitwise, Hyperliquid seek SEC rule changes for token trading, airdrops\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5DEQWS5T9NWD3NCPZKH095N/hi-how-you-could-save-money-when-reporting-crypto-mica.png\" /></p><p>The firms are seeking clearer guidance on the classification of crypto assets and secondary-market trading as the SEC’s public comment period comes to a close.</p>",
-    "link": "https://cointelegraph.com/news/bitwise-hyperliquid-seek-sec-rule-changes-for-token-trading-airdrops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1792528680
-  },
-  {
     "title": "Trump and Zelensky at loggerheads despite new optimism",
     "description": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
     "link": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "category": "宏觀",
     "published_ts": 1792526457
-  },
-  {
-    "title": "Crypto’s 2026 shutdown wave claims 82 projects. What went wrong?",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto’s 2026 shutdown wave claims 82 projects. What went wrong? \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1H2YME5WK16MEE643RQSSVQ/layoffs-fired-human-resource-hr-leaving-quit-closing-breaking-news-3.jpg\" /></p><p>Crypto projects are struggling to survive as falling revenues, depleted funding and security breaches force closures across DeFi, blockchain infrastructure and gaming.\n</p>",
-    "link": "https://cointelegraph.com/news/crypto-project-shutdowns-2026-what-went-wrong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1792526379
-  },
-  {
-    "title": "Trump sued over Canadian tariffs in latest legal challenge",
-    "description": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
-    "link": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792524605
-  },
-  {
-    "title": "OKX-ICE co-chair Andrew Cuomo calls corporate objections a ‘natural response’ to tokenized stock plans",
-    "description": "",
-    "link": "https://www.coindesk.com/business/2026/10/20/okx-ice-s-andrew-cuomo-calls-issuer-objections-a-natural-response-to-tokenized-stock-plans",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1792520789
-  },
-  {
-    "title": "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
-    "description": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5D4R4SY5YQGHZN1M57JSE8D/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-2.jpg\" /></p><p>The Bitcoin treasury company could acquire an estimated 7,372 BTC with its net proceeds, potentially surpassing Metaplanet’s holdings if it allocates the full amount.</p>",
-    "link": "https://cointelegraph.com/news/strive-closes-630m-sats-ipo-leaves-bitcoin-allocation-unspecified?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "CoinTelegraph",
-    "category": "加密貨幣",
-    "published_ts": 1792518000
   },
   {
     "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
@@ -1336,28 +1360,76 @@
     "published_ts": 1792517415
   },
   {
-    "title": "The Coinbase allegations expose Bitcoin's corporate governance gap",
-    "description": "",
-    "link": "https://www.coindesk.com/opinion/2026/10/20/the-coinbase-allegations-expose-bitcoin-s-corporate-governance-gap",
-    "source": "CoinDesk",
-    "category": "加密貨幣",
-    "published_ts": 1792515751
+    "title": "開發跨境創新基金投資日本失物科技新創find　擬落地台灣",
+    "description": "<img alt=\"開發跨境創新基金投資日本失物科技新創find　擬落地台灣\" src=\"https://cdn2.ettoday.net/images/8978/c8978866.jpg\" /><br /> 中華開發資本旗下中華開發跨境創新基金CDIB Cross Border Innovation Fund II, L.P.（以下簡稱「開發跨境創新基金」）宣布完成投資日本失物管理服務新創find（查找有限公司），find打造的數位平台已串聯全日本逾5000個交通運輸、商場及機場等據點，累計登錄遺失物逾700萬件、成功返還逾200萬件，可為企業節省約80%人工登錄與詢問時間，返還率提升至過去3倍以上， find的服務未來也將在台灣落地。 <a href=\"https://finance.ettoday.net/news/3259221\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259221",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
-    "title": "Swimmer, 65, killed in shark attack off South Africa's east coast",
-    "description": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
-    "link": "https://www.bbc.co.uk/news/articles/cqx297pxg1djo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792511937
+    "title": "711億撥補卡關！台電年底累虧上看4200億　高層喊話",
+    "description": "<img alt=\"711億撥補卡關！台電年底累虧上看4200億　高層喊話\" src=\"https://cdn2.ettoday.net/images/3094/c3094756.jpg\" /><br /> 台電711億元預算撥補尚待立法院審議，牽動年底財務與電價走勢。台電今（22）日坦言，受到中東戰事衝擊，天然氣成本持續攀升，今年全年虧損估計超過700億元，若711億元撥補未能到位，年底累積虧損恐突破4200億元，逼近歷史高點。台電高層直言，「重點在於預算一定要撥，沒有撥不就肯定是虧的。」 <a href=\"https://finance.ettoday.net/news/3259224\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259224",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
-    "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
-    "description": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
-    "link": "https://www.bbc.co.uk/news/articles/cmvg6qv1jdydo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "宏觀",
-    "published_ts": 1792496749
+    "title": "衣起傳愛　基隆港務分公司捐贈衣物攜手伊甸助弱勢",
+    "description": "<img alt=\"衣起傳愛　基隆港務分公司捐贈衣物攜手伊甸助弱勢\" src=\"https://cdn2.ettoday.net/images/8978/c8978863.jpg\" /><br /> 台灣港務公司基隆分公司積極履行企業社會責任，今(22)日上午舉辦「衣起傳愛，溫暖同行」愛心衣物捐贈儀式。由該分公司沈光青副總經理代表，將同仁熱心募集的30箱、共計約800件衣物，致贈予伊甸社會福利基金會，並由伊甸基金會回贈感謝狀，共同見證港務同仁的無私奉獻與綠色永續精神。 <a href=\"https://finance.ettoday.net/news/3259217\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259217",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "港務公司嚴陣應對薔琵颱風　全面強化與提前部署商港防颱整備",
+    "description": "<img alt=\"港務公司嚴陣應對薔琵颱風　全面強化與提前部署商港防颱整備\" src=\"https://cdn2.ettoday.net/images/8978/c8978697.jpg\" /><br /> 因應薔琵颱風持續朝台灣東部海域移動，台灣港務公司於今(21)日召開第1次防颱整備會議，由周永暉董事長及王錦榮總經理主持，率各分公司總經理現場與會，即時掌握各商港營運狀況及防颱整備進度，並針對船舶避風、港區設施、在建工程及旅運設施等重點項目全面檢視整備情形，督導各港嚴陣以待，提前部署各項防颱應變措施。 <a href=\"https://finance.ettoday.net/news/3259158\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259158",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "台股震盪1290點險守46K　台積電跌35元收最低2385",
+    "description": "<img alt=\"台股震盪1290點險守46K　台積電跌35元收最低2385\" src=\"https://cdn2.ettoday.net/images/6867/c6867870.jpg\" /><br /> 薔琵侵台消息打亂台股今（22日）反攻節奏，台股今開高走低，加權指數終場大跌846點，以46041點作收，跌幅1.81％，高低震盪1290點，成交量8792.3億元。台積電則下跌35元來到2385元，跌幅1.45％。\n <a href=\"https://finance.ettoday.net/news/3259149\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259149",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "台灣企業創新卡在哪？10/29亞馬遜高峰會揭曉",
+    "description": "<img alt=\"台灣企業創新卡在哪？10/29亞馬遜高峰會揭曉\" src=\"https://cdn2.ettoday.net/images/8978/c8978593.png\" /><br /> 台灣企業擅長研發與製造，但好產品如何找到全球買家？台北市進出口公會(IEAT)與亞馬遜全球開店將於10月29日聯合發布《2026跨境電商焦點報告》，透過419家企業調查、五大產品創新方法及企業實戰案例，探討台灣企業從產品開發走向全球市場時，如何掌握消費者需求、降低新品開發與海外拓展的不確定性。 <a href=\"https://finance.ettoday.net/news/3259112\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259112",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "快訊／台股狂殺846點46K岌岌可危　摜破前低46163",
+    "description": "<img alt=\"快訊／台股狂殺846點46K岌岌可危　摜破前低46163\" src=\"https://cdn2.ettoday.net/images/6867/c6867870.jpg\" /><br /> 亞股震盪，台股今（22日）在颱風假變數添亂下尾盤急殺逾846.3點來到46041.47點，4萬6千點大關岌岌可危，日韓股同樣遇殺盤，韓國KOSPI下殺3.89%，日股跌逾1500點。\n <a href=\"https://finance.ettoday.net/news/3259136\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259136",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "台股殺600點免驚！　5金控創高",
+    "description": "<img alt=\"台股殺600點免驚！　5金控創高\" src=\"https://cdn2.ettoday.net/images/3616/c3616869.jpg\" /><br /> 昨（21）日美股四大指數收紅，今（22）日台股早盤一度站回4萬7千點，惟南韓股下跌，加上颱風假變數，中場過後下跌600多點，而大型金控股扮演撐盤要角，華南金（2880）、兆豐金（2885）、第一金（2892）三大官股金控，以及永豐金（2890）、中信金（2891）等五檔金控股價均創下歷史新高。 <a href=\"https://finance.ettoday.net/news/3259106\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259106",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
+  },
+  {
+    "title": "台股震盪逾900點　光學股2檔摜跌停",
+    "description": "<img alt=\"台股震盪逾900點　光學股2檔摜跌停\" src=\"https://cdn2.ettoday.net/images/7799/c7799795.jpg\" /><br /> 昨（21）日美股四大指數收紅，激勵今（22）日台股開高，惟傳出葉門持續襲擊沙烏地阿拉伯，中東地緣政治緊張情勢升高，市場心態保守，指數由紅翻黑，今國光（6209）、聯一光（3441）兩檔光學股呈現開高走低，殺跌停的格局。 <a href=\"https://finance.ettoday.net/news/3259071\" target=\"_blank\">《詳全文...》</a>",
+    "link": "https://finance.ettoday.net/news/3259071",
+    "source": "ETtoday財經",
+    "category": "台股",
+    "published_ts": 0
   },
   {
     "title": "蜜月行情遇亂流！　六俊興櫃首日飆近5成後翻黑",
@@ -1523,78 +1595,6 @@
     "title": "IEAT接待美國德州物流集團CWL　共探AI供應鏈及物流合作契機",
     "description": "<img alt=\"IEAT接待美國德州物流集團CWL　共探AI供應鏈及物流合作契機\" src=\"https://cdn2.ettoday.net/images/8977/c8977603.jpg\" /><br /> 台北市進出口公會(IEAT)在駐美國德州休士頓經濟組倪伯嘉組長安排下，本月19日接待德州休士頓物流集團CWL創辦人兼董事長Jim Crane訪團乙行，由苑竣唐召集人主持接待。雙方就AI產業帶動的全球供應鏈發展、國際物流需求及台美經貿合作等議題深入交流，共同探討未來合作契機。 <a href=\"https://finance.ettoday.net/news/3258647\" target=\"_blank\">《詳全文...》</a>",
     "link": "https://finance.ettoday.net/news/3258647",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "外資終止連10賣！一文看進出前10大　回補友達4.4萬張",
-    "description": "<img alt=\"外資終止連10賣！一文看進出前10大　回補友達4.4萬張\" src=\"https://cdn2.ettoday.net/images/6207/c6207689.jpg\" /><br /> 美股四大指數漲跌互見，今（21）日台股順勢反彈，早盤試圖搶灘4萬7千點，惟台指期結算因素，漲勢收斂，外資終止連10賣，轉為買超9.6億元，大舉回補友達（2409）4.4萬多張，居單日買超第一名個股，反手調節玻纖布台玻（1802）1.8萬多張、PCB華通（2313）1.5萬多張。 <a href=\"https://finance.ettoday.net/news/3258651\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258651",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "台郡獲PCB新材料題材成夯股　提前公布單月業績「虧損收斂」",
-    "description": "<img alt=\"台郡獲PCB新材料題材成夯股　提前公布單月業績「虧損收斂」\" src=\"https://cdn2.ettoday.net/images/8967/c8967791.jpg\" /><br /> 軟板大廠台郡（6269）受惠 AI伺服器PCB新材料PTFE（聚四氟乙烯，俗稱鐵氟龍）題材股價轉夯，惟短線漲多，今以下跌1.93% 或1.7元、86.6元作收，今（21日）被要求提前公告單月獲利，自結8月虧損，與去年同期也是虧損相較，虧損金額見收斂，單月每股虧0.01元。 <a href=\"https://finance.ettoday.net/news/3258635\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258635",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "桃機新貨運園區共同作業規範　FIATA會長沈健利提五項建議",
-    "description": "<img alt=\"桃機新貨運園區共同作業規範　FIATA會長沈健利提五項建議\" src=\"https://cdn2.ettoday.net/images/8977/c8977552.jpg\" /><br /> 桃園機場公司昨(20)日舉辦「新貨運園區共同作業規範第四場交流座談會」，共同聚焦未來新貨運園區的營運管理制度與實務執行方向，為跨單位協作奠定關鍵基礎，國際貨運代理協會聯合會會(FIATA)會長沈健利受邀演講，他比較新加坡、香港與桃機現況，並提出五項建議。\n <a href=\"https://finance.ettoday.net/news/3258626\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258626",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "逾18萬股民注意！00830分割時間表曝光　每張估2萬元甜甜價",
-    "description": "<img alt=\"逾18萬股民注意！00830分割時間表曝光　每張估2萬元甜甜價\" src=\"https://cdn2.ettoday.net/images/8592/c8592327.jpg\" /><br /> 全國唯一追蹤美國費城半導體指數的國泰費城半導體ETF（00830）基金分割案進入受益人會議表決程序，將於10月30日至11月16日進行電子投票，11月19日召開受益人會議，若分割案順利過關，預估採「1拆5」或是「1拆6」方式進行，單張ETF投資金額可望降至約2萬元左右。 <a href=\"https://finance.ettoday.net/news/3258596\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258596",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "內幕／Grab併foodpanda破局！3大讓步難過關　Uber持股成關鍵",
-    "description": "<img alt=\"內幕／Grab併foodpanda破局！3大讓步難過關　Uber持股成關鍵\" src=\"https://cdn2.ettoday.net/images/5713/c5713989.jpg\" /><br /> Grab砸6億美元（約新台幣190億元）收購台灣foodpanda遭公平會封殺，破局內幕曝光！公平會今（21）日指出，Grab為爭取併購過關，曾提出稀釋Uber持股、限制董事兼任及阻隔競爭敏感資訊交流等3大讓步，但仍無法排除限制競爭疑慮。公平會更點出關鍵，Uber持有Grab約13.1%股份，雙方若積極降價搶客，反而可能影響彼此利益，必須進一步降低持股比例，甚至出清股份，才能降低協調風險。 <a href=\"https://finance.ettoday.net/news/3258570\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258570",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "力積電Q3賺65億元、EPS 1.38元　毛利率衝48%",
-    "description": "<img alt=\"力積電Q3賺65億元、EPS 1.38元　毛利率衝48%\" src=\"https://cdn2.ettoday.net/images/8238/c8238585.jpg\" /><br /> 晶圓代工廠力積電（6770）今（21）日舉行法說會，並公布第三季財報，力積電第三季營收逾213億元、稅後淨利約65億元，每股盈餘（EPS）1.38元。\n\n <a href=\"https://finance.ettoday.net/news/3258568\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258568",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "台股ETF「50高手」大車拼！　7檔近1季報酬率飆1成",
-    "description": "<img alt=\"台股ETF「50高手」大車拼！　7檔近1季報酬率飆1成\" src=\"https://cdn2.ettoday.net/images/8161/c8161589.jpg\" /><br /> 10月以來，台股高、低點落差逾3千點，市值型ETF投資人仍以台股「50」系列ETF持續投入，統計到昨（20）日為止，市場上18檔「50」系列台股ETF近一季績效表現，有10檔打敗大盤，表現最為突出的是富邦旗艦50（009802）、凱基台灣TOP50（009816）、主動野村台灣50（00985A），及聯邦台精彩50（009804）等四檔，含息報酬率都有超過12%以上。 <a href=\"https://finance.ettoday.net/news/3258545\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258545",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "快訊／Grab砸6億美元買foodpanda遭封殺！　公平會否決併購案",
-    "description": "<img alt=\"快訊／Grab砸6億美元買foodpanda遭封殺！　公平會否決併購案\" src=\"https://cdn2.ettoday.net/images/5749/c5749242.jpg\" /><br /> 公平會發言人辛志中今（21）日指出，公司1825次委員會充份討論後進行表決，多數認為要禁止。本案如果結點，Grab取代foodpanda成為Uber Eats在台灣競爭對手。 <a href=\"https://finance.ettoday.net/news/3258481\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258481",
-    "source": "ETtoday財經",
-    "category": "台股",
-    "published_ts": 0
-  },
-  {
-    "title": "油輪運價回落但仍在異常高位　美國願讓部分影子船隊合法化",
-    "description": "<img alt=\"油輪運價回落但仍在異常高位　美國願讓部分影子船隊合法化\" src=\"https://cdn2.ettoday.net/images/6513/c6513550.jpg\" /><br /> 原油油輪現貨運價近期普遍回落，多條航線日租較本月初高點下跌兩位數，波羅的海交易所數據顯示，截至本周一，阿曼至中國超大型油輪(VLCC)日租79.02萬美元，較本月初高點下跌13%; 西非至中國航線下跌16%，美國墨西哥灣至中國航線下跌19%。美國官方已表示願意讓部分原被列為黑名單的影子船隊合法化。 <a href=\"https://finance.ettoday.net/news/3258489\" target=\"_blank\">《詳全文...》</a>",
-    "link": "https://finance.ettoday.net/news/3258489",
     "source": "ETtoday財經",
     "category": "台股",
     "published_ts": 0
